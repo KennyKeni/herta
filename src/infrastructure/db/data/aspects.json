@@ -1,0 +1,3583 @@
+[
+  {
+    "id": 1,
+    "slug": "absofusion",
+    "name": "Absofusion",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-fusion",
+    "groups": [],
+    "choices": [
+      {
+        "value": "white",
+        "aspect_string": "white-fusion",
+        "display_name": "White Fusion"
+      },
+      {
+        "value": "black",
+        "aspect_string": "black-fusion",
+        "display_name": "Black Fusion"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "alola_bias",
+    "name": "Alola Bias",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [
+      "regional_bias"
+    ],
+    "choices": [
+      {
+        "value": "alola_bias",
+        "aspect_string": "region-bias-alola",
+        "display_name": "Alola Bias"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "appliance",
+    "name": "Appliance",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-appliance",
+    "groups": [],
+    "choices": [
+      {
+        "value": "heat",
+        "aspect_string": "heat-appliance",
+        "display_name": "Heat Appliance"
+      },
+      {
+        "value": "wash",
+        "aspect_string": "wash-appliance",
+        "display_name": "Wash Appliance"
+      },
+      {
+        "value": "frost",
+        "aspect_string": "frost-appliance",
+        "display_name": "Frost Appliance"
+      },
+      {
+        "value": "fan",
+        "aspect_string": "fan-appliance",
+        "display_name": "Fan Appliance"
+      },
+      {
+        "value": "mow",
+        "aspect_string": "mow-appliance",
+        "display_name": "Mow Appliance"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "bagworm_cloak",
+    "name": "Bagworm Cloak",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-cloak",
+    "groups": [],
+    "choices": [
+      {
+        "value": "plant",
+        "aspect_string": "plant-cloak",
+        "display_name": "Plant Cloak"
+      },
+      {
+        "value": "sandy",
+        "aspect_string": "sandy-cloak",
+        "display_name": "Sandy Cloak"
+      },
+      {
+        "value": "trash",
+        "aspect_string": "trash-cloak",
+        "display_name": "Trash Cloak"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "battle_bond",
+    "name": "Battle Bond",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "bond",
+        "aspect_string": "bond",
+        "overrides": {
+          "eggGroups": [
+            "undiscovered"
+          ]
+        },
+        "display_name": "Bond"
+      },
+      {
+        "value": "ash",
+        "aspect_string": "ash",
+        "display_name": "Ash"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "behemoth_warrior",
+    "name": "Behemoth Warrior",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "hero",
+        "aspect_string": "hero",
+        "display_name": "Hero"
+      },
+      {
+        "value": "crowned",
+        "aspect_string": "crowned",
+        "display_name": "Crowned"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "blazing_mode",
+    "name": "Blazing Mode",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-mode",
+    "groups": [],
+    "choices": [
+      {
+        "value": "standard",
+        "aspect_string": "standard-mode",
+        "display_name": "Standard Mode"
+      },
+      {
+        "value": "zen",
+        "aspect_string": "zen-mode",
+        "display_name": "Zen Mode"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "bloodmoon",
+    "name": "Bloodmoon",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [],
+    "choices": [
+      {
+        "value": "bloodmoon",
+        "aspect_string": "bloodmoon",
+        "display_name": "Bloodmoon"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "blossom_form",
+    "name": "Blossom Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [],
+    "choices": [
+      {
+        "value": "overcast",
+        "aspect_string": "overcast-form",
+        "display_name": "Overcast Form"
+      },
+      {
+        "value": "sunshine",
+        "aspect_string": "sunshine-form",
+        "display_name": "Sunshine Form"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "bull_breed",
+    "name": "Bull Breed",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-breed",
+    "groups": [],
+    "choices": [
+      {
+        "value": "combat",
+        "aspect_string": "combat-breed",
+        "display_name": "Combat Breed"
+      },
+      {
+        "value": "blaze",
+        "aspect_string": "blaze-breed",
+        "display_name": "Blaze Breed"
+      },
+      {
+        "value": "aqua",
+        "aspect_string": "aqua-breed",
+        "display_name": "Aqua Breed"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "character",
+    "name": "Character",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "character-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "a",
+        "aspect_string": "character-a",
+        "display_name": "Character A"
+      },
+      {
+        "value": "b",
+        "aspect_string": "character-b",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-b",
+        "descriptionKey": "cobblemon.species.unown-b.desc",
+        "display_name": "Character B"
+      },
+      {
+        "value": "c",
+        "aspect_string": "character-c",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-c",
+        "descriptionKey": "cobblemon.species.unown-c.desc",
+        "display_name": "Character C"
+      },
+      {
+        "value": "d",
+        "aspect_string": "character-d",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-d",
+        "descriptionKey": "cobblemon.species.unown-d.desc",
+        "display_name": "Character D"
+      },
+      {
+        "value": "e",
+        "aspect_string": "character-e",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-e",
+        "descriptionKey": "cobblemon.species.unown-e.desc",
+        "display_name": "Character E"
+      },
+      {
+        "value": "f",
+        "aspect_string": "character-f",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-f",
+        "descriptionKey": "cobblemon.species.unown-f.desc",
+        "display_name": "Character F"
+      },
+      {
+        "value": "g",
+        "aspect_string": "character-g",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-g",
+        "descriptionKey": "cobblemon.species.unown-g.desc",
+        "display_name": "Character G"
+      },
+      {
+        "value": "h",
+        "aspect_string": "character-h",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-h",
+        "descriptionKey": "cobblemon.species.unown-h.desc",
+        "display_name": "Character H"
+      },
+      {
+        "value": "i",
+        "aspect_string": "character-i",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-i",
+        "descriptionKey": "cobblemon.species.unown-i.desc",
+        "display_name": "Character I"
+      },
+      {
+        "value": "j",
+        "aspect_string": "character-j",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-j",
+        "descriptionKey": "cobblemon.species.unown-j.desc",
+        "display_name": "Character J"
+      },
+      {
+        "value": "k",
+        "aspect_string": "character-k",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-k",
+        "descriptionKey": "cobblemon.species.unown-k.desc",
+        "display_name": "Character K"
+      },
+      {
+        "value": "l",
+        "aspect_string": "character-l",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-l",
+        "descriptionKey": "cobblemon.species.unown-l.desc",
+        "display_name": "Character L"
+      },
+      {
+        "value": "m",
+        "aspect_string": "character-m",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-m",
+        "descriptionKey": "cobblemon.species.unown-m.desc",
+        "display_name": "Character M"
+      },
+      {
+        "value": "n",
+        "aspect_string": "character-n",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-n",
+        "descriptionKey": "cobblemon.species.unown-n.desc",
+        "display_name": "Character N"
+      },
+      {
+        "value": "o",
+        "aspect_string": "character-o",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-o",
+        "descriptionKey": "cobblemon.species.unown-o.desc",
+        "display_name": "Character O"
+      },
+      {
+        "value": "p",
+        "aspect_string": "character-p",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-p",
+        "descriptionKey": "cobblemon.species.unown-p.desc",
+        "display_name": "Character P"
+      },
+      {
+        "value": "q",
+        "aspect_string": "character-q",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-q",
+        "descriptionKey": "cobblemon.species.unown-q.desc",
+        "display_name": "Character Q"
+      },
+      {
+        "value": "r",
+        "aspect_string": "character-r",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-r",
+        "descriptionKey": "cobblemon.species.unown-r.desc",
+        "display_name": "Character R"
+      },
+      {
+        "value": "s",
+        "aspect_string": "character-s",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-s",
+        "descriptionKey": "cobblemon.species.unown-s.desc",
+        "display_name": "Character S"
+      },
+      {
+        "value": "t",
+        "aspect_string": "character-t",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-t",
+        "descriptionKey": "cobblemon.species.unown-t.desc",
+        "display_name": "Character T"
+      },
+      {
+        "value": "u",
+        "aspect_string": "character-u",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-u",
+        "descriptionKey": "cobblemon.species.unown-u.desc",
+        "display_name": "Character U"
+      },
+      {
+        "value": "v",
+        "aspect_string": "character-v",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-v",
+        "descriptionKey": "cobblemon.species.unown-v.desc",
+        "display_name": "Character V"
+      },
+      {
+        "value": "w",
+        "aspect_string": "character-w",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-w",
+        "descriptionKey": "cobblemon.species.unown-w.desc",
+        "display_name": "Character W"
+      },
+      {
+        "value": "x",
+        "aspect_string": "character-x",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-x",
+        "descriptionKey": "cobblemon.species.unown-x.desc",
+        "display_name": "Character X"
+      },
+      {
+        "value": "y",
+        "aspect_string": "character-y",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-y",
+        "descriptionKey": "cobblemon.species.unown-y.desc",
+        "display_name": "Character Y"
+      },
+      {
+        "value": "z",
+        "aspect_string": "character-z",
+        "nameKey": "cobblemon.ui.pokedex.info.form.unown-z",
+        "descriptionKey": "cobblemon.species.unown-z.desc",
+        "display_name": "Character Z"
+      },
+      {
+        "value": "!",
+        "aspect_string": "character-!",
+        "display_name": "Character !"
+      },
+      {
+        "value": "?",
+        "aspect_string": "character-?",
+        "display_name": "Character ?"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "claw",
+    "name": "Claw",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "claw-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "left",
+        "aspect_string": "claw-left",
+        "display_name": "Claw Left"
+      },
+      {
+        "value": "right",
+        "aspect_string": "claw-right",
+        "display_name": "Claw Right"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "cocoon_species",
+    "name": "Cocoon Species",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-cocoon",
+    "groups": [],
+    "choices": [
+      {
+        "value": "silcoon",
+        "aspect_string": "silcoon-cocoon",
+        "display_name": null
+      },
+      {
+        "value": "cascoon",
+        "aspect_string": "cascoon-cocoon",
+        "display_name": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "color",
+    "name": "Color",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "color-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "none",
+        "aspect_string": "color-none",
+        "display_name": "Color None"
+      },
+      {
+        "value": "white",
+        "aspect_string": "color-white",
+        "display_name": "Color White"
+      },
+      {
+        "value": "orange",
+        "aspect_string": "color-orange",
+        "display_name": "Color Orange"
+      },
+      {
+        "value": "magenta",
+        "aspect_string": "color-magenta",
+        "display_name": "Color Magenta"
+      },
+      {
+        "value": "light_blue",
+        "aspect_string": "color-light_blue",
+        "display_name": "Color Light Blue"
+      },
+      {
+        "value": "yellow",
+        "aspect_string": "color-yellow",
+        "display_name": "Color Yellow"
+      },
+      {
+        "value": "lime",
+        "aspect_string": "color-lime",
+        "display_name": "Color Lime"
+      },
+      {
+        "value": "pink",
+        "aspect_string": "color-pink",
+        "display_name": "Color Pink"
+      },
+      {
+        "value": "gray",
+        "aspect_string": "color-gray",
+        "display_name": "Color Gray"
+      },
+      {
+        "value": "light_gray",
+        "aspect_string": "color-light_gray",
+        "display_name": "Color Light Gray"
+      },
+      {
+        "value": "cyan",
+        "aspect_string": "color-cyan",
+        "display_name": "Color Cyan"
+      },
+      {
+        "value": "purple",
+        "aspect_string": "color-purple",
+        "display_name": "Color Purple"
+      },
+      {
+        "value": "blue",
+        "aspect_string": "color-blue",
+        "display_name": "Color Blue"
+      },
+      {
+        "value": "brown",
+        "aspect_string": "color-brown",
+        "display_name": "Color Brown"
+      },
+      {
+        "value": "green",
+        "aspect_string": "color-green",
+        "display_name": "Color Green"
+      },
+      {
+        "value": "red",
+        "aspect_string": "color-red",
+        "display_name": "Color Red"
+      },
+      {
+        "value": "black",
+        "aspect_string": "color-black",
+        "display_name": "Color Black"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "core_color",
+    "name": "Core Color",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-core",
+    "groups": [],
+    "choices": [
+      {
+        "value": "red",
+        "aspect_string": "red-core",
+        "display_name": "Red Core"
+      },
+      {
+        "value": "orange",
+        "aspect_string": "orange-core",
+        "display_name": "Orange Core"
+      },
+      {
+        "value": "yellow",
+        "aspect_string": "yellow-core",
+        "display_name": "Yellow Core"
+      },
+      {
+        "value": "green",
+        "aspect_string": "green-core",
+        "display_name": "Green Core"
+      },
+      {
+        "value": "blue",
+        "aspect_string": "blue-core",
+        "display_name": "Blue Core"
+      },
+      {
+        "value": "indigo",
+        "aspect_string": "indigo-core",
+        "display_name": "Indigo Core"
+      },
+      {
+        "value": "violet",
+        "aspect_string": "violet-core",
+        "display_name": "Violet Core"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "cosmetic_item",
+    "name": "Cosmetic Item",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "cosmetic_item-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "wise_glasses",
+        "aspect_string": "cosmetic_item-wise_glasses",
+        "display_name": "Cosmetic Item Wise Glasses"
+      },
+      {
+        "value": "black_glasses",
+        "aspect_string": "cosmetic_item-black_glasses",
+        "display_name": "Cosmetic Item Black Glasses"
+      },
+      {
+        "value": "silk_scarf",
+        "aspect_string": "cosmetic_item-silk_scarf",
+        "display_name": "Cosmetic Item Silk Scarf"
+      },
+      {
+        "value": "choice_scarf",
+        "aspect_string": "cosmetic_item-choice_scarf",
+        "display_name": "Cosmetic Item Choice Scarf"
+      },
+      {
+        "value": "minecart",
+        "aspect_string": "cosmetic_item-minecart",
+        "display_name": "Cosmetic Item Minecart"
+      },
+      {
+        "value": "composer",
+        "aspect_string": "cosmetic_item-composer",
+        "display_name": "Cosmetic Item Composer"
+      },
+      {
+        "value": "air_balloon",
+        "aspect_string": "cosmetic_item-air_balloon",
+        "display_name": "Cosmetic Item Air Balloon"
+      },
+      {
+        "value": "bundle",
+        "aspect_string": "cosmetic_item-bundle",
+        "display_name": "Cosmetic Item Bundle"
+      },
+      {
+        "value": "music",
+        "aspect_string": "cosmetic_item-music",
+        "display_name": "Cosmetic Item Music"
+      },
+      {
+        "value": "ender_pearl",
+        "aspect_string": "cosmetic_item-ender_pearl",
+        "display_name": "Cosmetic Item Ender Pearl"
+      },
+      {
+        "value": "stick",
+        "aspect_string": "cosmetic_item-stick",
+        "display_name": "Cosmetic Item Stick"
+      },
+      {
+        "value": "leaves",
+        "aspect_string": "cosmetic_item-leaves",
+        "display_name": "Cosmetic Item Leaves"
+      },
+      {
+        "value": "rage_candy_bar",
+        "aspect_string": "cosmetic_item-rage_candy_bar",
+        "display_name": "Cosmetic Item Rage Candy Bar"
+      },
+      {
+        "value": "lava_cookie",
+        "aspect_string": "cosmetic_item-lava_cookie",
+        "display_name": "Cosmetic Item Lava Cookie"
+      },
+      {
+        "value": "old_gateau",
+        "aspect_string": "cosmetic_item-old_gateau",
+        "display_name": "Cosmetic Item Old Gateau"
+      },
+      {
+        "value": "casteliacone",
+        "aspect_string": "cosmetic_item-casteliacone",
+        "display_name": "Cosmetic Item Casteliacone"
+      },
+      {
+        "value": "lumiose_galette",
+        "aspect_string": "cosmetic_item-lumiose_galette",
+        "display_name": "Cosmetic Item Lumiose Galette"
+      },
+      {
+        "value": "big_malasada",
+        "aspect_string": "cosmetic_item-big_malasada",
+        "display_name": "Cosmetic Item Big Malasada"
+      },
+      {
+        "value": "smoked_tail_curry",
+        "aspect_string": "cosmetic_item-smoked_tail_curry",
+        "display_name": "Cosmetic Item Smoked Tail Curry"
+      },
+      {
+        "value": "sinister_tea",
+        "aspect_string": "cosmetic_item-sinister_tea",
+        "display_name": "Cosmetic Item Sinister Tea"
+      },
+      {
+        "value": "leather_helmet",
+        "aspect_string": "cosmetic_item-leather_helmet",
+        "display_name": "Cosmetic Item Leather Helmet"
+      },
+      {
+        "value": "cocoa_beans",
+        "aspect_string": "cosmetic_item-cocoa_beans",
+        "display_name": "Cosmetic Item Cocoa Beans"
+      },
+      {
+        "value": "compass",
+        "aspect_string": "cosmetic_item-compass",
+        "display_name": "Cosmetic Item Compass"
+      },
+      {
+        "value": "shears",
+        "aspect_string": "cosmetic_item-shears",
+        "display_name": "Cosmetic Item Shears"
+      },
+      {
+        "value": "gold_armor",
+        "aspect_string": "cosmetic_item-gold_armor",
+        "display_name": "Cosmetic Item Gold Armor"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "cream",
+    "name": "Cream",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "cream-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "vanilla",
+        "aspect_string": "cream-vanilla",
+        "display_name": "Cream Vanilla"
+      },
+      {
+        "value": "ruby",
+        "aspect_string": "cream-ruby",
+        "nameKey": "cobblemon.ui.pokedex.info.form.alcremie-rubycream",
+        "descriptionKey": "cobblemon.species.alcremie-rubycream.desc",
+        "display_name": "Cream Ruby"
+      },
+      {
+        "value": "matcha",
+        "aspect_string": "cream-matcha",
+        "nameKey": "cobblemon.ui.pokedex.info.form.alcremie-matchacream",
+        "descriptionKey": "cobblemon.species.alcremie-matchacream.desc",
+        "display_name": "Cream Matcha"
+      },
+      {
+        "value": "mint",
+        "aspect_string": "cream-mint",
+        "nameKey": "cobblemon.ui.pokedex.info.form.alcremie-mintcream",
+        "descriptionKey": "cobblemon.species.alcremie-mintcream.desc",
+        "display_name": "Cream Mint"
+      },
+      {
+        "value": "lemon",
+        "aspect_string": "cream-lemon",
+        "nameKey": "cobblemon.ui.pokedex.info.form.alcremie-lemoncream",
+        "descriptionKey": "cobblemon.species.alcremie-lemoncream.desc",
+        "display_name": "Cream Lemon"
+      },
+      {
+        "value": "salted",
+        "aspect_string": "cream-salted",
+        "nameKey": "cobblemon.ui.pokedex.info.form.alcremie-saltedcream",
+        "descriptionKey": "cobblemon.species.alcremie-saltedcream.desc",
+        "display_name": "Cream Salted"
+      },
+      {
+        "value": "ruby_swirl",
+        "aspect_string": "cream-ruby_swirl",
+        "nameKey": "cobblemon.ui.pokedex.info.form.alcremie-rubyswirl",
+        "descriptionKey": "cobblemon.species.alcremie-rubyswirl.desc",
+        "display_name": "Cream Ruby Swirl"
+      },
+      {
+        "value": "caramel_swirl",
+        "aspect_string": "cream-caramel_swirl",
+        "nameKey": "cobblemon.ui.pokedex.info.form.alcremie-caramelswirl",
+        "descriptionKey": "cobblemon.species.alcremie-caramelswirl.desc",
+        "display_name": "Cream Caramel Swirl"
+      },
+      {
+        "value": "rainbow_swirl",
+        "aspect_string": "cream-rainbow_swirl",
+        "nameKey": "cobblemon.ui.pokedex.info.form.alcremie-rainbowswirl",
+        "descriptionKey": "cobblemon.species.alcremie-rainbowswirl.desc",
+        "display_name": "Cream Rainbow Swirl"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "dance_style",
+    "name": "Dance Style",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-style",
+    "groups": [],
+    "choices": [
+      {
+        "value": "baile",
+        "aspect_string": "baile-style",
+        "display_name": "Baile Style"
+      },
+      {
+        "value": "pom_pom",
+        "aspect_string": "pom_pom-style",
+        "display_name": "Pom Pom Style"
+      },
+      {
+        "value": "pa'u",
+        "aspect_string": "pa'u-style",
+        "display_name": "Pa'U Style"
+      },
+      {
+        "value": "sensu",
+        "aspect_string": "sensu-style",
+        "display_name": "Sensu Style"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "decoration",
+    "name": "Decoration",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "decoration-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "strawberry",
+        "aspect_string": "decoration-strawberry",
+        "display_name": "Decoration Strawberry"
+      },
+      {
+        "value": "berry",
+        "aspect_string": "decoration-berry",
+        "display_name": "Decoration Berry"
+      },
+      {
+        "value": "love",
+        "aspect_string": "decoration-love",
+        "display_name": "Decoration Love"
+      },
+      {
+        "value": "star",
+        "aspect_string": "decoration-star",
+        "display_name": "Decoration Star"
+      },
+      {
+        "value": "clover",
+        "aspect_string": "decoration-clover",
+        "display_name": "Decoration Clover"
+      },
+      {
+        "value": "flower",
+        "aspect_string": "decoration-flower",
+        "display_name": "Decoration Flower"
+      },
+      {
+        "value": "ribbon",
+        "aspect_string": "decoration-ribbon",
+        "display_name": "Decoration Ribbon"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "disguise_form",
+    "name": "Disguise Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [],
+    "choices": [
+      {
+        "value": "disguised",
+        "aspect_string": "disguised-form",
+        "display_name": "Disguised Form"
+      },
+      {
+        "value": "busted",
+        "aspect_string": "busted-form",
+        "display_name": "Busted Form"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "djinn_state",
+    "name": "Djinn State",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "confined",
+        "aspect_string": "confined",
+        "display_name": "Confined"
+      },
+      {
+        "value": "unbound",
+        "aspect_string": "unbound",
+        "display_name": "Unbound"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "dolphin_form",
+    "name": "Dolphin Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [],
+    "choices": [
+      {
+        "value": "zero",
+        "aspect_string": "zero-form",
+        "display_name": "Zero Form"
+      },
+      {
+        "value": "hero",
+        "aspect_string": "hero-form",
+        "display_name": "Hero Form"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "dynamax_form",
+    "name": "Dynamax Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}",
+    "groups": [
+      "battle_gimmick"
+    ],
+    "choices": [
+      {
+        "value": "gmax",
+        "aspect_string": "gmax",
+        "display_name": "Gigantamax"
+      },
+      {
+        "value": "eternamax",
+        "aspect_string": "eternamax",
+        "display_name": "Eternamax"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "embody_aspect",
+    "name": "Embody Aspect",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [],
+    "choices": [
+      {
+        "value": "embody_aspect",
+        "aspect_string": "embody_aspect",
+        "display_name": "Embody Aspect"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "face_spots",
+    "name": "Face Spots",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "face-spots-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "none",
+        "aspect_string": "face-spots-none",
+        "display_name": "Face Spots None"
+      },
+      {
+        "value": "1",
+        "aspect_string": "face-spots-1",
+        "display_name": "Face Spots 1"
+      },
+      {
+        "value": "2",
+        "aspect_string": "face-spots-2",
+        "display_name": "Face Spots 2"
+      },
+      {
+        "value": "3",
+        "aspect_string": "face-spots-3",
+        "display_name": "Face Spots 3"
+      },
+      {
+        "value": "4",
+        "aspect_string": "face-spots-4",
+        "display_name": "Face Spots 4"
+      },
+      {
+        "value": "5",
+        "aspect_string": "face-spots-5",
+        "display_name": "Face Spots 5"
+      },
+      {
+        "value": "6",
+        "aspect_string": "face-spots-6",
+        "display_name": "Face Spots 6"
+      },
+      {
+        "value": "7",
+        "aspect_string": "face-spots-7",
+        "display_name": "Face Spots 7"
+      },
+      {
+        "value": "8",
+        "aspect_string": "face-spots-8",
+        "display_name": "Face Spots 8"
+      },
+      {
+        "value": "9",
+        "aspect_string": "face-spots-9",
+        "display_name": "Face Spots 9"
+      },
+      {
+        "value": "10",
+        "aspect_string": "face-spots-10",
+        "display_name": "Face Spots 10"
+      },
+      {
+        "value": "11",
+        "aspect_string": "face-spots-11",
+        "display_name": "Face Spots 11"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "face_spots2",
+    "name": "Face Spots2",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "face-spots2-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "none",
+        "aspect_string": "face-spots2-none",
+        "display_name": "Face Spots2 None"
+      },
+      {
+        "value": "1",
+        "aspect_string": "face-spots2-1",
+        "display_name": "Face Spots2 1"
+      },
+      {
+        "value": "2",
+        "aspect_string": "face-spots2-2",
+        "display_name": "Face Spots2 2"
+      },
+      {
+        "value": "3",
+        "aspect_string": "face-spots2-3",
+        "display_name": "Face Spots2 3"
+      },
+      {
+        "value": "4",
+        "aspect_string": "face-spots2-4",
+        "display_name": "Face Spots2 4"
+      },
+      {
+        "value": "5",
+        "aspect_string": "face-spots2-5",
+        "display_name": "Face Spots2 5"
+      },
+      {
+        "value": "6",
+        "aspect_string": "face-spots2-6",
+        "display_name": "Face Spots2 6"
+      },
+      {
+        "value": "7",
+        "aspect_string": "face-spots2-7",
+        "display_name": "Face Spots2 7"
+      },
+      {
+        "value": "8",
+        "aspect_string": "face-spots2-8",
+        "display_name": "Face Spots2 8"
+      },
+      {
+        "value": "9",
+        "aspect_string": "face-spots2-9",
+        "display_name": "Face Spots2 9"
+      },
+      {
+        "value": "10",
+        "aspect_string": "face-spots2-10",
+        "display_name": "Face Spots2 10"
+      },
+      {
+        "value": "11",
+        "aspect_string": "face-spots2-11",
+        "display_name": "Face Spots2 11"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "fish_stripes",
+    "name": "Fish Stripes",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}striped",
+    "groups": [],
+    "choices": [
+      {
+        "value": "red",
+        "aspect_string": "redstriped",
+        "display_name": "Redstriped"
+      },
+      {
+        "value": "blue",
+        "aspect_string": "bluestriped",
+        "display_name": "Bluestriped"
+      },
+      {
+        "value": "white",
+        "aspect_string": "whitestriped",
+        "display_name": "Whitestriped"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "flower",
+    "name": "Flower",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "flower-{{choice}}",
+    "groups": [
+      "flower_type"
+    ],
+    "choices": [
+      {
+        "value": "red",
+        "aspect_string": "flower-red",
+        "display_name": "Flower Red"
+      },
+      {
+        "value": "yellow",
+        "aspect_string": "flower-yellow",
+        "nameKey": "cobblemon.ui.pokedex.info.form.flabebe-yellow",
+        "descriptionKey": "cobblemon.species.flabebe-yellow.desc",
+        "display_name": "Flower Yellow"
+      },
+      {
+        "value": "orange",
+        "aspect_string": "flower-orange",
+        "nameKey": "cobblemon.ui.pokedex.info.form.flabebe-orange",
+        "descriptionKey": "cobblemon.species.flabebe-orange.desc",
+        "display_name": "Flower Orange"
+      },
+      {
+        "value": "blue",
+        "aspect_string": "flower-blue",
+        "nameKey": "cobblemon.ui.pokedex.info.form.flabebe-blue",
+        "descriptionKey": "cobblemon.species.flabebe-blue.desc",
+        "display_name": "Flower Blue"
+      },
+      {
+        "value": "white",
+        "aspect_string": "flower-white",
+        "nameKey": "cobblemon.ui.pokedex.info.form.flabebe-white",
+        "descriptionKey": "cobblemon.species.flabebe-white.desc",
+        "display_name": "Flower White"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "flower_eternal",
+    "name": "Flower (Eternal)",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "flower-{{choice}}",
+    "groups": [
+      "flower_type"
+    ],
+    "choices": [
+      {
+        "value": "eternal",
+        "aspect_string": "flower-eternal",
+        "display_name": "Flower Eternal"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "forecast_form",
+    "name": "Forecast Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [],
+    "choices": [
+      {
+        "value": "normal",
+        "aspect_string": "normal-form",
+        "display_name": null
+      },
+      {
+        "value": "sunny",
+        "aspect_string": "sunny-form",
+        "display_name": "Sunny Form"
+      },
+      {
+        "value": "rainy",
+        "aspect_string": "rainy-form",
+        "display_name": "Rainy Form"
+      },
+      {
+        "value": "snowy",
+        "aspect_string": "snowy-form",
+        "display_name": "Snowy Form"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "galar_bias",
+    "name": "Galar Bias",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [
+      "regional_bias"
+    ],
+    "choices": [
+      {
+        "value": "galar_bias",
+        "aspect_string": "region-bias-galar",
+        "display_name": "Galar Bias"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "gilded_chest",
+    "name": "Gilded Chest",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-gilded-chest",
+    "groups": [],
+    "choices": [
+      {
+        "value": "red",
+        "aspect_string": "red-gilded-chest",
+        "display_name": "Red Gilded Chest"
+      },
+      {
+        "value": "yellow",
+        "aspect_string": "yellow-gilded-chest",
+        "display_name": "Yellow Gilded Chest"
+      },
+      {
+        "value": "green",
+        "aspect_string": "green-gilded-chest",
+        "display_name": "Green Gilded Chest"
+      },
+      {
+        "value": "blue",
+        "aspect_string": "blue-gilded-chest",
+        "display_name": "Blue Gilded Chest"
+      },
+      {
+        "value": "pink",
+        "aspect_string": "pink-gilded-chest",
+        "display_name": "Pink Gilded Chest"
+      },
+      {
+        "value": "black",
+        "aspect_string": "black-gilded-chest",
+        "display_name": "Black Gilded Chest"
+      },
+      {
+        "value": "white",
+        "aspect_string": "white-gilded-chest",
+        "display_name": "White Gilded Chest"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "gracidea_forme",
+    "name": "Gracidea Forme",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-forme",
+    "groups": [],
+    "choices": [
+      {
+        "value": "land",
+        "aspect_string": "land-forme",
+        "display_name": "Land Forme"
+      },
+      {
+        "value": "sky",
+        "aspect_string": "sky-forme",
+        "display_name": "Sky Forme"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "gyarados_eye_color",
+    "name": "Gyarados Eye Color",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "gyarados-eye-color-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "red",
+        "aspect_string": "gyarados-eye-color-red",
+        "display_name": "Gyarados Eye Color Red"
+      },
+      {
+        "value": "purple",
+        "aspect_string": "gyarados-eye-color-purple",
+        "display_name": "Gyarados Eye Color Purple"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "hero",
+    "name": "Hero",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [],
+    "choices": [
+      {
+        "value": "hero",
+        "aspect_string": "hero",
+        "display_name": "Hero"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "hisui_bias",
+    "name": "Hisui Bias",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [
+      "regional_bias"
+    ],
+    "choices": [
+      {
+        "value": "hisui_bias",
+        "aspect_string": "region-bias-hisui",
+        "display_name": "Hisui Bias"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "hunger_mode",
+    "name": "Hunger Mode",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-mode",
+    "groups": [],
+    "choices": [
+      {
+        "value": "full_belly",
+        "aspect_string": "full_belly-mode",
+        "display_name": "Full Belly Mode"
+      },
+      {
+        "value": "hangry",
+        "aspect_string": "hangry-mode",
+        "display_name": "Hangry Mode"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "king_steed",
+    "name": "King Steed",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-rider",
+    "groups": [],
+    "choices": [
+      {
+        "value": "ice",
+        "aspect_string": "ice-rider",
+        "display_name": "Ice Rider"
+      },
+      {
+        "value": "shadow",
+        "aspect_string": "shadow-rider",
+        "display_name": "Shadow Rider"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "landsnake_form",
+    "name": "Landsnake Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [],
+    "choices": [
+      {
+        "value": "two-segment",
+        "aspect_string": "two-segment-form",
+        "display_name": "Two Segment Form"
+      },
+      {
+        "value": "three-segment",
+        "aspect_string": "three-segment-form",
+        "display_name": "Three Segment Form"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "league_cap",
+    "name": "League Cap",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-cap",
+    "groups": [],
+    "choices": [
+      {
+        "value": "original",
+        "aspect_string": "original-cap",
+        "display_name": "Original Cap"
+      },
+      {
+        "value": "hoenn",
+        "aspect_string": "hoenn-cap",
+        "display_name": "Hoenn Cap"
+      },
+      {
+        "value": "sinnoh",
+        "aspect_string": "sinnoh-cap",
+        "display_name": "Sinnoh Cap"
+      },
+      {
+        "value": "unova",
+        "aspect_string": "unova-cap",
+        "display_name": "Unova Cap"
+      },
+      {
+        "value": "kalos",
+        "aspect_string": "kalos-cap",
+        "display_name": "Kalos Cap"
+      },
+      {
+        "value": "alola",
+        "aspect_string": "alola-cap",
+        "display_name": "Alola Cap"
+      },
+      {
+        "value": "partner",
+        "aspect_string": "partner-cap",
+        "display_name": "Partner Cap"
+      },
+      {
+        "value": "world",
+        "aspect_string": "world-cap",
+        "display_name": "World Cap"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "left_ear_spots",
+    "name": "Left Ear Spots",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "left-ear-spots-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "none",
+        "aspect_string": "left-ear-spots-none",
+        "display_name": "Left Ear Spots None"
+      },
+      {
+        "value": "1",
+        "aspect_string": "left-ear-spots-1",
+        "display_name": "Left Ear Spots 1"
+      },
+      {
+        "value": "2",
+        "aspect_string": "left-ear-spots-2",
+        "display_name": "Left Ear Spots 2"
+      },
+      {
+        "value": "3",
+        "aspect_string": "left-ear-spots-3",
+        "display_name": "Left Ear Spots 3"
+      },
+      {
+        "value": "4",
+        "aspect_string": "left-ear-spots-4",
+        "display_name": "Left Ear Spots 4"
+      },
+      {
+        "value": "5",
+        "aspect_string": "left-ear-spots-5",
+        "display_name": "Left Ear Spots 5"
+      },
+      {
+        "value": "6",
+        "aspect_string": "left-ear-spots-6",
+        "display_name": "Left Ear Spots 6"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "life_mode",
+    "name": "Life Mode",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-mode",
+    "groups": [],
+    "choices": [
+      {
+        "value": "neutral",
+        "aspect_string": "neutral-mode",
+        "display_name": "Neutral Mode"
+      },
+      {
+        "value": "active",
+        "aspect_string": "active-mode",
+        "display_name": "Active Mode"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "magikarp_jump",
+    "name": "Magikarp Jump",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "magikarp-jump-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "standard",
+        "aspect_string": "magikarp-jump-standard",
+        "display_name": "Magikarp Jump Standard"
+      },
+      {
+        "value": "apricot-stripes",
+        "aspect_string": "magikarp-jump-apricot-stripes",
+        "display_name": "Magikarp Jump Apricot Stripes"
+      },
+      {
+        "value": "apricot-tiger",
+        "aspect_string": "magikarp-jump-apricot-tiger",
+        "display_name": "Magikarp Jump Apricot Tiger"
+      },
+      {
+        "value": "apricot-zebra",
+        "aspect_string": "magikarp-jump-apricot-zebra",
+        "display_name": "Magikarp Jump Apricot Zebra"
+      },
+      {
+        "value": "black-forehead",
+        "aspect_string": "magikarp-jump-black-forehead",
+        "display_name": "Magikarp Jump Black Forehead"
+      },
+      {
+        "value": "black-mask",
+        "aspect_string": "magikarp-jump-black-mask",
+        "display_name": "Magikarp Jump Black Mask"
+      },
+      {
+        "value": "blue-raindrops",
+        "aspect_string": "magikarp-jump-blue-raindrops",
+        "display_name": "Magikarp Jump Blue Raindrops"
+      },
+      {
+        "value": "blue-saucy",
+        "aspect_string": "magikarp-jump-blue-saucy",
+        "display_name": "Magikarp Jump Blue Saucy"
+      },
+      {
+        "value": "brown-stripes",
+        "aspect_string": "magikarp-jump-brown-stripes",
+        "display_name": "Magikarp Jump Brown Stripes"
+      },
+      {
+        "value": "brown-tiger",
+        "aspect_string": "magikarp-jump-brown-tiger",
+        "display_name": "Magikarp Jump Brown Tiger"
+      },
+      {
+        "value": "brown-zebra",
+        "aspect_string": "magikarp-jump-brown-zebra",
+        "display_name": "Magikarp Jump Brown Zebra"
+      },
+      {
+        "value": "calico-orange-gold",
+        "aspect_string": "magikarp-jump-calico-orange-gold",
+        "display_name": "Magikarp Jump Calico Orange Gold"
+      },
+      {
+        "value": "calico-orange-white",
+        "aspect_string": "magikarp-jump-calico-orange-white",
+        "display_name": "Magikarp Jump Calico Orange White"
+      },
+      {
+        "value": "calico-orange-white-black",
+        "aspect_string": "magikarp-jump-calico-orange-white-black",
+        "display_name": "Magikarp Jump Calico Orange White Black"
+      },
+      {
+        "value": "calico-white-orange",
+        "aspect_string": "magikarp-jump-calico-white-orange",
+        "display_name": "Magikarp Jump Calico White Orange"
+      },
+      {
+        "value": "gray-bubbles",
+        "aspect_string": "magikarp-jump-gray-bubbles",
+        "display_name": "Magikarp Jump Gray Bubbles"
+      },
+      {
+        "value": "gray-diamonds",
+        "aspect_string": "magikarp-jump-gray-diamonds",
+        "display_name": "Magikarp Jump Gray Diamonds"
+      },
+      {
+        "value": "gray-patches",
+        "aspect_string": "magikarp-jump-gray-patches",
+        "display_name": "Magikarp Jump Gray Patches"
+      },
+      {
+        "value": "orange-dapples",
+        "aspect_string": "magikarp-jump-orange-dapples",
+        "display_name": "Magikarp Jump Orange Dapples"
+      },
+      {
+        "value": "orange-forehead",
+        "aspect_string": "magikarp-jump-orange-forehead",
+        "display_name": "Magikarp Jump Orange Forehead"
+      },
+      {
+        "value": "orange-mask",
+        "aspect_string": "magikarp-jump-orange-mask",
+        "display_name": "Magikarp Jump Orange Mask"
+      },
+      {
+        "value": "orange-orca",
+        "aspect_string": "magikarp-jump-orange-orca",
+        "display_name": "Magikarp Jump Orange Orca"
+      },
+      {
+        "value": "orange-two-tone",
+        "aspect_string": "magikarp-jump-orange-two-tone",
+        "display_name": "Magikarp Jump Orange Two Tone"
+      },
+      {
+        "value": "pink-dapples",
+        "aspect_string": "magikarp-jump-pink-dapples",
+        "display_name": "Magikarp Jump Pink Dapples"
+      },
+      {
+        "value": "pink-orca",
+        "aspect_string": "magikarp-jump-pink-orca",
+        "display_name": "Magikarp Jump Pink Orca"
+      },
+      {
+        "value": "pink-two-tone",
+        "aspect_string": "magikarp-jump-pink-two-tone",
+        "display_name": "Magikarp Jump Pink Two Tone"
+      },
+      {
+        "value": "purple-bubbles",
+        "aspect_string": "magikarp-jump-purple-bubbles",
+        "display_name": "Magikarp Jump Purple Bubbles"
+      },
+      {
+        "value": "purple-diamonds",
+        "aspect_string": "magikarp-jump-purple-diamonds",
+        "display_name": "Magikarp Jump Purple Diamonds"
+      },
+      {
+        "value": "purple-patches",
+        "aspect_string": "magikarp-jump-purple-patches",
+        "display_name": "Magikarp Jump Purple Patches"
+      },
+      {
+        "value": "skelly",
+        "aspect_string": "magikarp-jump-skelly",
+        "display_name": "Magikarp Jump Skelly"
+      },
+      {
+        "value": "violet-raindrops",
+        "aspect_string": "magikarp-jump-violet-raindrops",
+        "display_name": "Magikarp Jump Violet Raindrops"
+      },
+      {
+        "value": "violet-saucy",
+        "aspect_string": "magikarp-jump-violet-saucy",
+        "display_name": "Magikarp Jump Violet Saucy"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "matcha_authenticity",
+    "name": "Matcha Authenticity",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "counterfeit",
+        "aspect_string": "counterfeit",
+        "display_name": "Counterfeit"
+      },
+      {
+        "value": "artisan",
+        "aspect_string": "artisan",
+        "display_name": "Artisan"
+      },
+      {
+        "value": "unremarkable",
+        "aspect_string": "unremarkable",
+        "display_name": "Unremarkable"
+      },
+      {
+        "value": "masterpiece",
+        "aspect_string": "masterpiece",
+        "display_name": "Masterpiece"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "maushold_family",
+    "name": "Maushold Family",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "maushold-family-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "three",
+        "aspect_string": "maushold-family-three",
+        "display_name": "Maushold Family Three"
+      },
+      {
+        "value": "four",
+        "aspect_string": "maushold-family-four",
+        "display_name": "Maushold Family Four"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "mega_evolution",
+    "name": "Mega Evolution",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}",
+    "groups": [
+      "battle_gimmick"
+    ],
+    "choices": [
+      {
+        "value": "mega",
+        "aspect_string": "mega",
+        "display_name": "Mega"
+      },
+      {
+        "value": "mega_x",
+        "aspect_string": "mega_x",
+        "display_name": "Mega X"
+      },
+      {
+        "value": "mega_y",
+        "aspect_string": "mega_y",
+        "display_name": "Mega Y"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "slug": "metals",
+    "name": "Metals",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "metals-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "none",
+        "aspect_string": "metals-none",
+        "display_name": "Metals None"
+      },
+      {
+        "value": "copper",
+        "aspect_string": "metals-copper",
+        "display_name": "Metals Copper"
+      },
+      {
+        "value": "iron",
+        "aspect_string": "metals-iron",
+        "display_name": "Metals Iron"
+      },
+      {
+        "value": "gold",
+        "aspect_string": "metals-gold",
+        "display_name": "Metals Gold"
+      },
+      {
+        "value": "netherite",
+        "aspect_string": "metals-netherite",
+        "display_name": "Metals Netherite"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "meteor_shield",
+    "name": "Meteor Shield",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [],
+    "choices": [
+      {
+        "value": "meteor",
+        "aspect_string": "meteor-form",
+        "display_name": "Meteor Form"
+      },
+      {
+        "value": "core",
+        "aspect_string": "core-form",
+        "display_name": "Core Form"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "meteorite_forme",
+    "name": "Meteorite Forme",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-forme",
+    "groups": [],
+    "choices": [
+      {
+        "value": "normal",
+        "aspect_string": "normal-forme",
+        "display_name": null
+      },
+      {
+        "value": "attack",
+        "aspect_string": "attack-forme",
+        "display_name": "Attack Forme"
+      },
+      {
+        "value": "defense",
+        "aspect_string": "defense-forme",
+        "display_name": "Defense Forme"
+      },
+      {
+        "value": "speed",
+        "aspect_string": "speed-forme",
+        "display_name": "Speed Forme"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "minecraft",
+    "name": "Minecraft",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [],
+    "choices": [
+      {
+        "value": "minecraft",
+        "aspect_string": "minecraft",
+        "display_name": "Minecraft"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "slug": "mirror_forme",
+    "name": "Mirror Forme",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-forme",
+    "groups": [],
+    "choices": [
+      {
+        "value": "incarnate",
+        "aspect_string": "incarnate-forme",
+        "display_name": "Incarnate Forme"
+      },
+      {
+        "value": "therian",
+        "aspect_string": "therian-forme",
+        "display_name": "Therian Forme"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "missile_form",
+    "name": "Missile Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [],
+    "choices": [
+      {
+        "value": "gulping",
+        "aspect_string": "gulping-form",
+        "display_name": "Gulping Form"
+      },
+      {
+        "value": "gorging",
+        "aspect_string": "gorging-form",
+        "display_name": "Gorging Form"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "slug": "mooshtank",
+    "name": "Mooshtank",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "mooshtank-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "false",
+        "aspect_string": "mooshtank-false",
+        "display_name": "Mooshtank False"
+      },
+      {
+        "value": "red",
+        "aspect_string": "mooshtank-red",
+        "display_name": "Mooshtank Red"
+      },
+      {
+        "value": "brown",
+        "aspect_string": "mooshtank-brown",
+        "display_name": "Mooshtank Brown"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "multitype",
+    "name": "Multitype",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-plate",
+    "groups": [],
+    "choices": [
+      {
+        "value": "fighting",
+        "aspect_string": "fighting-plate",
+        "display_name": "Fighting Plate"
+      },
+      {
+        "value": "flying",
+        "aspect_string": "flying-plate",
+        "display_name": "Flying Plate"
+      },
+      {
+        "value": "poison",
+        "aspect_string": "poison-plate",
+        "display_name": "Poison Plate"
+      },
+      {
+        "value": "ground",
+        "aspect_string": "ground-plate",
+        "display_name": "Ground Plate"
+      },
+      {
+        "value": "rock",
+        "aspect_string": "rock-plate",
+        "display_name": "Rock Plate"
+      },
+      {
+        "value": "bug",
+        "aspect_string": "bug-plate",
+        "display_name": "Bug Plate"
+      },
+      {
+        "value": "ghost",
+        "aspect_string": "ghost-plate",
+        "display_name": "Ghost Plate"
+      },
+      {
+        "value": "steel",
+        "aspect_string": "steel-plate",
+        "display_name": "Steel Plate"
+      },
+      {
+        "value": "fire",
+        "aspect_string": "fire-plate",
+        "display_name": "Fire Plate"
+      },
+      {
+        "value": "water",
+        "aspect_string": "water-plate",
+        "display_name": "Water Plate"
+      },
+      {
+        "value": "grass",
+        "aspect_string": "grass-plate",
+        "display_name": "Grass Plate"
+      },
+      {
+        "value": "electric",
+        "aspect_string": "electric-plate",
+        "display_name": "Electric Plate"
+      },
+      {
+        "value": "psychic",
+        "aspect_string": "psychic-plate",
+        "display_name": "Psychic Plate"
+      },
+      {
+        "value": "ice",
+        "aspect_string": "ice-plate",
+        "display_name": "Ice Plate"
+      },
+      {
+        "value": "dragon",
+        "aspect_string": "dragon-plate",
+        "display_name": "Dragon Plate"
+      },
+      {
+        "value": "dark",
+        "aspect_string": "dark-plate",
+        "display_name": "Dark Plate"
+      },
+      {
+        "value": "fairy",
+        "aspect_string": "fairy-plate",
+        "display_name": "Fairy Plate"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "slug": "nectar",
+    "name": "Nectar",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [],
+    "choices": [
+      {
+        "value": "nectar",
+        "aspect_string": "nectar",
+        "display_name": "Nectar"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "slug": "netherite_coating",
+    "name": "Netherite Coating",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "netherite-coating-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "none",
+        "aspect_string": "netherite-coating-none",
+        "display_name": "Netherite Coating None"
+      },
+      {
+        "value": "stage1",
+        "aspect_string": "netherite-coating-stage1",
+        "display_name": "Netherite Coating Stage1"
+      },
+      {
+        "value": "stage2",
+        "aspect_string": "netherite-coating-stage2",
+        "display_name": "Netherite Coating Stage2"
+      },
+      {
+        "value": "stage3",
+        "aspect_string": "netherite-coating-stage3",
+        "display_name": "Netherite Coating Stage3"
+      },
+      {
+        "value": "stage4",
+        "aspect_string": "netherite-coating-stage4",
+        "display_name": "Netherite Coating Stage4"
+      },
+      {
+        "value": "stage5",
+        "aspect_string": "netherite-coating-stage5",
+        "display_name": "Netherite Coating Stage5"
+      },
+      {
+        "value": "stage6",
+        "aspect_string": "netherite-coating-stage6",
+        "display_name": "Netherite Coating Stage6"
+      },
+      {
+        "value": "stage7",
+        "aspect_string": "netherite-coating-stage7",
+        "display_name": "Netherite Coating Stage7"
+      },
+      {
+        "value": "full",
+        "aspect_string": "netherite-coating-full",
+        "display_name": "Netherite Coating Full"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "slug": "ogre_mask",
+    "name": "Ogre Mask",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-mask",
+    "groups": [],
+    "choices": [
+      {
+        "value": "teal",
+        "aspect_string": "teal-mask",
+        "display_name": "Teal Mask"
+      },
+      {
+        "value": "wellspring",
+        "aspect_string": "wellspring-mask",
+        "display_name": "Wellspring Mask"
+      },
+      {
+        "value": "hearthflame",
+        "aspect_string": "hearthflame-mask",
+        "display_name": "Hearthflame Mask"
+      },
+      {
+        "value": "cornerstone",
+        "aspect_string": "cornerstone-mask",
+        "display_name": "Cornerstone Mask"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "slug": "orb_forme",
+    "name": "Orb Forme",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-forme",
+    "groups": [],
+    "choices": [
+      {
+        "value": "altered",
+        "aspect_string": "altered-forme",
+        "display_name": "Altered Forme"
+      },
+      {
+        "value": "origin",
+        "aspect_string": "origin-forme",
+        "display_name": "Origin Forme"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "slug": "paint_color",
+    "name": "Paint Color",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-color",
+    "groups": [],
+    "choices": [
+      {
+        "value": "original",
+        "aspect_string": "original-color",
+        "display_name": "Original Color"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "slug": "pattern",
+    "name": "Pattern",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "pattern-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "kanto",
+        "aspect_string": "pattern-kanto",
+        "display_name": "Pattern Kanto"
+      },
+      {
+        "value": "johto",
+        "aspect_string": "pattern-johto",
+        "display_name": "Pattern Johto"
+      },
+      {
+        "value": "hoenn",
+        "aspect_string": "pattern-hoenn",
+        "display_name": "Pattern Hoenn"
+      },
+      {
+        "value": "sinnoh",
+        "aspect_string": "pattern-sinnoh",
+        "display_name": "Pattern Sinnoh"
+      },
+      {
+        "value": "unova",
+        "aspect_string": "pattern-unova",
+        "display_name": "Pattern Unova"
+      },
+      {
+        "value": "kalos",
+        "aspect_string": "pattern-kalos",
+        "display_name": "Pattern Kalos"
+      },
+      {
+        "value": "alola",
+        "aspect_string": "pattern-alola",
+        "display_name": "Pattern Alola"
+      },
+      {
+        "value": "galar",
+        "aspect_string": "pattern-galar",
+        "display_name": "Pattern Galar"
+      },
+      {
+        "value": "hisui",
+        "aspect_string": "pattern-hisui",
+        "display_name": "Pattern Hisui"
+      },
+      {
+        "value": "paldea",
+        "aspect_string": "pattern-paldea",
+        "display_name": "Pattern Paldea"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "slug": "penguin_head",
+    "name": "Penguin Head",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "ice_face",
+        "aspect_string": "ice_face",
+        "display_name": "Ice Face"
+      },
+      {
+        "value": "noice_face",
+        "aspect_string": "noice_face",
+        "display_name": "Noice Face"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "slug": "percent_cells",
+    "name": "Percent Cells",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-percent",
+    "groups": [],
+    "choices": [
+      {
+        "value": "50",
+        "aspect_string": "50-percent",
+        "display_name": "50 Percent"
+      },
+      {
+        "value": "10",
+        "aspect_string": "10-percent",
+        "display_name": "10 Percent"
+      },
+      {
+        "value": "complete",
+        "aspect_string": "complete-percent",
+        "display_name": "Complete Percent"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "slug": "poodle_trim",
+    "name": "Poodle Trim",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-trim",
+    "groups": [],
+    "choices": [
+      {
+        "value": "natural",
+        "aspect_string": "natural-trim",
+        "display_name": "Natural Trim"
+      },
+      {
+        "value": "heart",
+        "aspect_string": "heart-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-heart",
+        "descriptionKey": "cobblemon.species.furfrou-heart.desc",
+        "display_name": "Heart Trim"
+      },
+      {
+        "value": "star",
+        "aspect_string": "star-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-star",
+        "descriptionKey": "cobblemon.species.furfrou-star.desc",
+        "display_name": "Star Trim"
+      },
+      {
+        "value": "diamond",
+        "aspect_string": "diamond-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-diamond",
+        "descriptionKey": "cobblemon.species.furfrou-diamond.desc",
+        "display_name": "Diamond Trim"
+      },
+      {
+        "value": "debutante",
+        "aspect_string": "debutante-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-debutante",
+        "descriptionKey": "cobblemon.species.furfrou-debutante.desc",
+        "display_name": "Debutante Trim"
+      },
+      {
+        "value": "matron",
+        "aspect_string": "matron-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-matron",
+        "descriptionKey": "cobblemon.species.furfrou-matron.desc",
+        "display_name": "Matron Trim"
+      },
+      {
+        "value": "dandy",
+        "aspect_string": "dandy-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-dandy",
+        "descriptionKey": "cobblemon.species.furfrou-dandy.desc",
+        "display_name": "Dandy Trim"
+      },
+      {
+        "value": "la_reine",
+        "aspect_string": "la_reine-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-lareine",
+        "descriptionKey": "cobblemon.species.furfrou-lareine.desc",
+        "display_name": "La Reine Trim"
+      },
+      {
+        "value": "kabuki",
+        "aspect_string": "kabuki-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-kabuki",
+        "descriptionKey": "cobblemon.species.furfrou-kabuki.desc",
+        "display_name": "Kabuki Trim"
+      },
+      {
+        "value": "pharaoh",
+        "aspect_string": "pharaoh-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-pharaoh",
+        "descriptionKey": "cobblemon.species.furfrou-pharaoh.desc",
+        "display_name": "Pharaoh Trim"
+      },
+      {
+        "value": "matcha",
+        "aspect_string": "matcha-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-matcha",
+        "descriptionKey": "cobblemon.species.furfrou-matcha.desc",
+        "display_name": "Matcha Trim"
+      },
+      {
+        "value": "lavender",
+        "aspect_string": "lavender-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-lavender",
+        "descriptionKey": "cobblemon.species.furfrou-lavender.desc",
+        "display_name": "Lavender Trim"
+      },
+      {
+        "value": "cinnamon",
+        "aspect_string": "cinnamon-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-cinnamon",
+        "descriptionKey": "cobblemon.species.furfrou-cinnamon.desc",
+        "display_name": "Cinnamon Trim"
+      },
+      {
+        "value": "crusader",
+        "aspect_string": "crusader-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-crusader",
+        "descriptionKey": "cobblemon.species.furfrou-crusader.desc",
+        "display_name": "Crusader Trim"
+      },
+      {
+        "value": "rocker",
+        "aspect_string": "rocker-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-rocker",
+        "descriptionKey": "cobblemon.species.furfrou-rocker.desc",
+        "display_name": "Rocker Trim"
+      },
+      {
+        "value": "mourner",
+        "aspect_string": "mourner-trim",
+        "nameKey": "cobblemon.ui.pokedex.info.form.furfrou-mourner",
+        "descriptionKey": "cobblemon.species.furfrou-mourner.desc",
+        "display_name": "Mourner Trim"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "slug": "power_construct",
+    "name": "Power Construct",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [],
+    "choices": [
+      {
+        "value": "power_construct",
+        "aspect_string": "power_construct",
+        "display_name": "Power Construct"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "slug": "prism_fusion",
+    "name": "Prism Fusion",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-fusion",
+    "groups": [
+      "battle_gimmick"
+    ],
+    "choices": [
+      {
+        "value": "dusk",
+        "aspect_string": "dusk-fusion",
+        "display_name": "Dusk Fusion"
+      },
+      {
+        "value": "dawn",
+        "aspect_string": "dawn-fusion",
+        "display_name": "Dawn Fusion"
+      },
+      {
+        "value": "ultra",
+        "aspect_string": "ultra-fusion",
+        "display_name": "Ultra Fusion"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "slug": "pumpkin_size",
+    "name": "Pumpkin Size",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "pumpkin-size-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "average",
+        "aspect_string": "pumpkin-size-average",
+        "display_name": "Pumpkin Size Average"
+      },
+      {
+        "value": "small",
+        "aspect_string": "pumpkin-size-small",
+        "display_name": "Pumpkin Size Small"
+      },
+      {
+        "value": "large",
+        "aspect_string": "pumpkin-size-large",
+        "display_name": "Pumpkin Size Large"
+      },
+      {
+        "value": "super",
+        "aspect_string": "pumpkin-size-super",
+        "display_name": "Pumpkin Size Super"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "slug": "punk_form",
+    "name": "Punk Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [],
+    "choices": [
+      {
+        "value": "amped",
+        "aspect_string": "amped-form",
+        "display_name": "Amped Form"
+      },
+      {
+        "value": "low_key",
+        "aspect_string": "low_key-form",
+        "display_name": "Low Key Form"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "slug": "regional",
+    "name": "Regional Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": null,
+    "groups": [
+      "regional"
+    ],
+    "choices": [
+      {
+        "value": "alolan",
+        "aspect_string": "alolan",
+        "display_name": "Alolan"
+      },
+      {
+        "value": "galarian",
+        "aspect_string": "galarian",
+        "display_name": "Galarian"
+      },
+      {
+        "value": "hisuian",
+        "aspect_string": "hisuian",
+        "display_name": "Hisuian"
+      },
+      {
+        "value": "paldean",
+        "aspect_string": "paldean",
+        "display_name": "Paldean"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "slug": "reversion_state",
+    "name": "Reversion State",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "standard",
+        "aspect_string": "standard",
+        "display_name": null
+      },
+      {
+        "value": "primal",
+        "aspect_string": "primal",
+        "display_name": "Primal"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "slug": "right_ear_spots",
+    "name": "Right Ear Spots",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "right-ear-spots-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "none",
+        "aspect_string": "right-ear-spots-none",
+        "display_name": "Right Ear Spots None"
+      },
+      {
+        "value": "1",
+        "aspect_string": "right-ear-spots-1",
+        "display_name": "Right Ear Spots 1"
+      },
+      {
+        "value": "2",
+        "aspect_string": "right-ear-spots-2",
+        "display_name": "Right Ear Spots 2"
+      },
+      {
+        "value": "3",
+        "aspect_string": "right-ear-spots-3",
+        "display_name": "Right Ear Spots 3"
+      },
+      {
+        "value": "4",
+        "aspect_string": "right-ear-spots-4",
+        "display_name": "Right Ear Spots 4"
+      },
+      {
+        "value": "5",
+        "aspect_string": "right-ear-spots-5",
+        "display_name": "Right Ear Spots 5"
+      },
+      {
+        "value": "6",
+        "aspect_string": "right-ear-spots-6",
+        "display_name": "Right Ear Spots 6"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "slug": "rks_memory",
+    "name": "Rks Memory",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-memory",
+    "groups": [],
+    "choices": [
+      {
+        "value": "fighting",
+        "aspect_string": "fighting-memory",
+        "display_name": "Fighting Memory"
+      },
+      {
+        "value": "flying",
+        "aspect_string": "flying-memory",
+        "display_name": "Flying Memory"
+      },
+      {
+        "value": "poison",
+        "aspect_string": "poison-memory",
+        "display_name": "Poison Memory"
+      },
+      {
+        "value": "ground",
+        "aspect_string": "ground-memory",
+        "display_name": "Ground Memory"
+      },
+      {
+        "value": "rock",
+        "aspect_string": "rock-memory",
+        "display_name": "Rock Memory"
+      },
+      {
+        "value": "bug",
+        "aspect_string": "bug-memory",
+        "display_name": "Bug Memory"
+      },
+      {
+        "value": "ghost",
+        "aspect_string": "ghost-memory",
+        "display_name": "Ghost Memory"
+      },
+      {
+        "value": "steel",
+        "aspect_string": "steel-memory",
+        "display_name": "Steel Memory"
+      },
+      {
+        "value": "fire",
+        "aspect_string": "fire-memory",
+        "display_name": "Fire Memory"
+      },
+      {
+        "value": "water",
+        "aspect_string": "water-memory",
+        "display_name": "Water Memory"
+      },
+      {
+        "value": "grass",
+        "aspect_string": "grass-memory",
+        "display_name": "Grass Memory"
+      },
+      {
+        "value": "electric",
+        "aspect_string": "electric-memory",
+        "display_name": "Electric Memory"
+      },
+      {
+        "value": "psychic",
+        "aspect_string": "psychic-memory",
+        "display_name": "Psychic Memory"
+      },
+      {
+        "value": "ice",
+        "aspect_string": "ice-memory",
+        "display_name": "Ice Memory"
+      },
+      {
+        "value": "dragon",
+        "aspect_string": "dragon-memory",
+        "display_name": "Dragon Memory"
+      },
+      {
+        "value": "dark",
+        "aspect_string": "dark-memory",
+        "display_name": "Dark Memory"
+      },
+      {
+        "value": "fairy",
+        "aspect_string": "fairy-memory",
+        "display_name": "Fairy Memory"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "slug": "roaming",
+    "name": "Roaming",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [],
+    "choices": [
+      {
+        "value": "roaming",
+        "aspect_string": "roaming",
+        "display_name": "Roaming"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "slug": "rogue_cape",
+    "name": "Rogue Cape",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-cape",
+    "groups": [],
+    "choices": [
+      {
+        "value": "dada",
+        "aspect_string": "dada-cape",
+        "display_name": "Dada Cape"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "slug": "schooling_form",
+    "name": "Schooling Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [],
+    "choices": [
+      {
+        "value": "solo",
+        "aspect_string": "solo-form",
+        "display_name": "Solo Form"
+      },
+      {
+        "value": "school",
+        "aspect_string": "school-form",
+        "display_name": "School Form"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "slug": "sea",
+    "name": "Sea",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-sea",
+    "groups": [],
+    "choices": [
+      {
+        "value": "west",
+        "aspect_string": "west-sea",
+        "display_name": "West Sea"
+      },
+      {
+        "value": "east",
+        "aspect_string": "east-sea",
+        "display_name": "East Sea"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "slug": "season",
+    "name": "Season",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "spring",
+        "aspect_string": "spring",
+        "display_name": "Spring"
+      },
+      {
+        "value": "summer",
+        "aspect_string": "summer",
+        "display_name": "Summer"
+      },
+      {
+        "value": "autumn",
+        "aspect_string": "autumn",
+        "display_name": "Autumn"
+      },
+      {
+        "value": "winter",
+        "aspect_string": "winter",
+        "display_name": "Winter"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "slug": "snake_pattern",
+    "name": "Snake Pattern",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "snake-pattern-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "classic",
+        "aspect_string": "snake-pattern-classic",
+        "display_name": "Snake Pattern Classic"
+      },
+      {
+        "value": "legacy",
+        "aspect_string": "snake-pattern-legacy",
+        "display_name": "Snake Pattern Legacy"
+      },
+      {
+        "value": "attack",
+        "aspect_string": "snake-pattern-attack",
+        "display_name": "Snake Pattern Attack"
+      },
+      {
+        "value": "dark",
+        "aspect_string": "snake-pattern-dark",
+        "display_name": "Snake Pattern Dark"
+      },
+      {
+        "value": "elusive",
+        "aspect_string": "snake-pattern-elusive",
+        "display_name": "Snake Pattern Elusive"
+      },
+      {
+        "value": "heart",
+        "aspect_string": "snake-pattern-heart",
+        "display_name": "Snake Pattern Heart"
+      },
+      {
+        "value": "speed",
+        "aspect_string": "snake-pattern-speed",
+        "display_name": "Snake Pattern Speed"
+      },
+      {
+        "value": "sound",
+        "aspect_string": "snake-pattern-sound",
+        "display_name": "Snake Pattern Sound"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "slug": "song_forme",
+    "name": "Song Forme",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-forme",
+    "groups": [],
+    "choices": [
+      {
+        "value": "aria",
+        "aspect_string": "aria-forme",
+        "display_name": "Aria Forme"
+      },
+      {
+        "value": "pirouette",
+        "aspect_string": "pirouette-forme",
+        "display_name": "Pirouette Forme"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "slug": "special_spots",
+    "name": "Special Spots",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "special-spots-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "none",
+        "aspect_string": "special-spots-none",
+        "display_name": "Special Spots None"
+      },
+      {
+        "value": "1",
+        "aspect_string": "special-spots-1",
+        "display_name": "Special Spots 1"
+      },
+      {
+        "value": "2",
+        "aspect_string": "special-spots-2",
+        "display_name": "Special Spots 2"
+      },
+      {
+        "value": "3",
+        "aspect_string": "special-spots-3",
+        "display_name": "Special Spots 3"
+      },
+      {
+        "value": "4",
+        "aspect_string": "special-spots-4",
+        "display_name": "Special Spots 4"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "slug": "squawkabilly_color",
+    "name": "Squawkabilly Color",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "squawkabilly-color-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "green",
+        "aspect_string": "squawkabilly-color-green",
+        "display_name": "Squawkabilly Color Green"
+      },
+      {
+        "value": "blue",
+        "aspect_string": "squawkabilly-color-blue",
+        "display_name": "Squawkabilly Color Blue"
+      },
+      {
+        "value": "yellow",
+        "aspect_string": "squawkabilly-color-yellow",
+        "display_name": "Squawkabilly Color Yellow"
+      },
+      {
+        "value": "gray",
+        "aspect_string": "squawkabilly-color-gray",
+        "display_name": "Squawkabilly Color Gray"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "slug": "stance_forme",
+    "name": "Stance Forme",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-forme",
+    "groups": [],
+    "choices": [
+      {
+        "value": "shield",
+        "aspect_string": "shield-forme",
+        "display_name": "Shield Forme"
+      },
+      {
+        "value": "blade",
+        "aspect_string": "blade-forme",
+        "display_name": "Blade Forme"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "slug": "sword_form",
+    "name": "Sword Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [],
+    "choices": [
+      {
+        "value": "ordinary",
+        "aspect_string": "ordinary-form",
+        "display_name": "Ordinary Form"
+      },
+      {
+        "value": "resolute",
+        "aspect_string": "resolute-form",
+        "display_name": "Resolute Form"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "slug": "tatsugiri_texture",
+    "name": "Tatsugiri Texture",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "tatsugiri-texture-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "curly",
+        "aspect_string": "tatsugiri-texture-curly",
+        "display_name": "Tatsugiri Texture Curly"
+      },
+      {
+        "value": "droopy",
+        "aspect_string": "tatsugiri-texture-droopy",
+        "display_name": "Tatsugiri Texture Droopy"
+      },
+      {
+        "value": "stretchy",
+        "aspect_string": "tatsugiri-texture-stretchy",
+        "display_name": "Tatsugiri Texture Stretchy"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "slug": "tea_authenticity",
+    "name": "Tea Authenticity",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "phony",
+        "aspect_string": "phony",
+        "display_name": "Phony"
+      },
+      {
+        "value": "antique",
+        "aspect_string": "antique",
+        "display_name": "Antique"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "slug": "techno_drive",
+    "name": "Techno Drive",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-drive",
+    "groups": [],
+    "choices": [
+      {
+        "value": "water",
+        "aspect_string": "water-drive",
+        "display_name": "Water Drive"
+      },
+      {
+        "value": "electric",
+        "aspect_string": "electric-drive",
+        "display_name": "Electric Drive"
+      },
+      {
+        "value": "fire",
+        "aspect_string": "fire-drive",
+        "display_name": "Fire Drive"
+      },
+      {
+        "value": "ice",
+        "aspect_string": "ice-drive",
+        "display_name": "Ice Drive"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "slug": "tera_form",
+    "name": "Tera Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [
+      "battle_gimmick"
+    ],
+    "choices": [
+      {
+        "value": "normal",
+        "aspect_string": "normal-form",
+        "display_name": null
+      },
+      {
+        "value": "terastal",
+        "aspect_string": "terastal-form",
+        "display_name": "Terastal Form"
+      },
+      {
+        "value": "stellar",
+        "aspect_string": "stellar-form",
+        "display_name": "Stellar Form"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "slug": "tree",
+    "name": "Tree",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "tree-{{choice}}",
+    "groups": [],
+    "choices": [
+      {
+        "value": "none",
+        "aspect_string": "tree-none",
+        "display_name": "Tree None"
+      },
+      {
+        "value": "oak",
+        "aspect_string": "tree-oak",
+        "display_name": "Tree Oak"
+      },
+      {
+        "value": "birch",
+        "aspect_string": "tree-birch",
+        "display_name": "Tree Birch"
+      },
+      {
+        "value": "darkoak",
+        "aspect_string": "tree-darkoak",
+        "display_name": "Tree Darkoak"
+      },
+      {
+        "value": "acacia",
+        "aspect_string": "tree-acacia",
+        "display_name": "Tree Acacia"
+      },
+      {
+        "value": "azalea",
+        "aspect_string": "tree-azalea",
+        "display_name": "Tree Azalea"
+      },
+      {
+        "value": "swamp",
+        "aspect_string": "tree-swamp",
+        "display_name": "Tree Swamp"
+      },
+      {
+        "value": "jungle",
+        "aspect_string": "tree-jungle",
+        "display_name": "Tree Jungle"
+      },
+      {
+        "value": "spruce",
+        "aspect_string": "tree-spruce",
+        "display_name": "Tree Spruce"
+      },
+      {
+        "value": "mangrove",
+        "aspect_string": "tree-mangrove",
+        "display_name": "Tree Mangrove"
+      },
+      {
+        "value": "cherry",
+        "aspect_string": "tree-cherry",
+        "display_name": "Tree Cherry"
+      },
+      {
+        "value": "apricorn",
+        "aspect_string": "tree-apricorn",
+        "display_name": "Tree Apricorn"
+      },
+      {
+        "value": "crimson",
+        "aspect_string": "tree-crimson",
+        "display_name": "Tree Crimson"
+      },
+      {
+        "value": "warped",
+        "aspect_string": "tree-warped",
+        "display_name": "Tree Warped"
+      },
+      {
+        "value": "apricorn",
+        "aspect_string": "tree-apricorn",
+        "display_name": "Tree Apricorn"
+      },
+      {
+        "value": "saccharine",
+        "aspect_string": "tree-saccharine",
+        "display_name": "Tree Saccharine"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "slug": "valencian",
+    "name": "Valencian",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [],
+    "choices": [
+      {
+        "value": "valencian",
+        "aspect_string": "valencian",
+        "display_name": "Valencian"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "slug": "vivillon_wings",
+    "name": "Vivillon Wings",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": false,
+    "aspectFormat": "vivillon-wings-{{choice}}",
+    "groups": [
+      "vivillon_pattern"
+    ],
+    "choices": [
+      {
+        "value": "icy-snow",
+        "aspect_string": "vivillon-wings-icy-snow",
+        "display_name": "Vivillon Wings Icy Snow"
+      },
+      {
+        "value": "polar",
+        "aspect_string": "vivillon-wings-polar",
+        "display_name": "Vivillon Wings Polar"
+      },
+      {
+        "value": "tundra",
+        "aspect_string": "vivillon-wings-tundra",
+        "display_name": "Vivillon Wings Tundra"
+      },
+      {
+        "value": "continental",
+        "aspect_string": "vivillon-wings-continental",
+        "display_name": "Vivillon Wings Continental"
+      },
+      {
+        "value": "garden",
+        "aspect_string": "vivillon-wings-garden",
+        "display_name": "Vivillon Wings Garden"
+      },
+      {
+        "value": "elegant",
+        "aspect_string": "vivillon-wings-elegant",
+        "display_name": "Vivillon Wings Elegant"
+      },
+      {
+        "value": "meadow",
+        "aspect_string": "vivillon-wings-meadow",
+        "display_name": "Vivillon Wings Meadow"
+      },
+      {
+        "value": "modern",
+        "aspect_string": "vivillon-wings-modern",
+        "display_name": "Vivillon Wings Modern"
+      },
+      {
+        "value": "marine",
+        "aspect_string": "vivillon-wings-marine",
+        "display_name": "Vivillon Wings Marine"
+      },
+      {
+        "value": "archipelago",
+        "aspect_string": "vivillon-wings-archipelago",
+        "display_name": "Vivillon Wings Archipelago"
+      },
+      {
+        "value": "high-plains",
+        "aspect_string": "vivillon-wings-high-plains",
+        "display_name": "Vivillon Wings High Plains"
+      },
+      {
+        "value": "sandstorm",
+        "aspect_string": "vivillon-wings-sandstorm",
+        "display_name": "Vivillon Wings Sandstorm"
+      },
+      {
+        "value": "river",
+        "aspect_string": "vivillon-wings-river",
+        "display_name": "Vivillon Wings River"
+      },
+      {
+        "value": "monsoon",
+        "aspect_string": "vivillon-wings-monsoon",
+        "display_name": "Vivillon Wings Monsoon"
+      },
+      {
+        "value": "savanna",
+        "aspect_string": "vivillon-wings-savanna",
+        "display_name": "Vivillon Wings Savanna"
+      },
+      {
+        "value": "sun",
+        "aspect_string": "vivillon-wings-sun",
+        "display_name": "Vivillon Wings Sun"
+      },
+      {
+        "value": "ocean",
+        "aspect_string": "vivillon-wings-ocean",
+        "display_name": "Vivillon Wings Ocean"
+      },
+      {
+        "value": "jungle",
+        "aspect_string": "vivillon-wings-jungle",
+        "display_name": "Vivillon Wings Jungle"
+      },
+      {
+        "value": "inferno",
+        "aspect_string": "vivillon-wings-inferno",
+        "display_name": "Vivillon Wings Inferno"
+      },
+      {
+        "value": "void",
+        "aspect_string": "vivillon-wings-void",
+        "display_name": "Vivillon Wings Void"
+      },
+      {
+        "value": "forsaken",
+        "aspect_string": "vivillon-wings-forsaken",
+        "display_name": "Vivillon Wings Forsaken"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "slug": "vivillon_wings_event",
+    "name": "Vivillon Wings (Event)",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "vivillon-wings-{{choice}}",
+    "groups": [
+      "vivillon_pattern"
+    ],
+    "choices": [
+      {
+        "value": "fancy",
+        "aspect_string": "vivillon-wings-fancy",
+        "display_name": "Vivillon Wings Fancy"
+      },
+      {
+        "value": "poke-ball",
+        "aspect_string": "vivillon-wings-poke-ball",
+        "display_name": "Vivillon Wings Poke Ball"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "slug": "whiscash_nero",
+    "name": "Whiscash Nero",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [],
+    "choices": [
+      {
+        "value": "whiscash_nero",
+        "aspect_string": "whiscash_nero",
+        "display_name": "Whiscash Nero"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "slug": "wolf_form",
+    "name": "Wolf Form",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-form",
+    "groups": [],
+    "choices": [
+      {
+        "value": "dusk",
+        "aspect_string": "dusk-form",
+        "display_name": "Dusk Form"
+      },
+      {
+        "value": "midday",
+        "aspect_string": "midday-form",
+        "display_name": "Midday Form"
+      },
+      {
+        "value": "midnight",
+        "aspect_string": "midnight-form",
+        "display_name": "Midnight Form"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "slug": "wooper_heart",
+    "name": "Wooper Heart",
+    "type": "variant",
+    "isCosmetic": true,
+    "isFlag": true,
+    "aspectFormat": null,
+    "groups": [],
+    "choices": [
+      {
+        "value": "wooper_heart",
+        "aspect_string": "wooper_heart",
+        "display_name": "Wooper Heart"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "slug": "wushu_style",
+    "name": "Wushu Style",
+    "type": "form",
+    "isCosmetic": false,
+    "isFlag": false,
+    "aspectFormat": "{{choice}}-style",
+    "groups": [],
+    "choices": [
+      {
+        "value": "single_strike",
+        "aspect_string": "single_strike-style",
+        "display_name": "Single Strike Style"
+      },
+      {
+        "value": "rapid_strike",
+        "aspect_string": "rapid_strike-style",
+        "display_name": "Rapid Strike Style"
+      }
+    ]
+  }
+]

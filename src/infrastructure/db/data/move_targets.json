@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "slug": "adjacentAlly",
+    "name": "Adjacent Ally",
+    "description": "Targets a single adjacent ally."
+  },
+  {
+    "id": 2,
+    "slug": "adjacentAllyOrSelf",
+    "name": "Adjacent Ally or Self",
+    "description": "Targets self or an adjacent ally."
+  },
+  {
+    "id": 3,
+    "slug": "adjacentFoe",
+    "name": "Adjacent Foe",
+    "description": "Targets a single adjacent opponent."
+  },
+  {
+    "id": 4,
+    "slug": "all",
+    "name": "All Pokemon",
+    "description": "Affects all Pokemon on the field."
+  },
+  {
+    "id": 5,
+    "slug": "allAdjacent",
+    "name": "All Adjacent",
+    "description": "Hits all adjacent Pokemon (allies and foes)."
+  },
+  {
+    "id": 6,
+    "slug": "allAdjacentFoes",
+    "name": "All Adjacent Foes",
+    "description": "Hits all adjacent opponents."
+  },
+  {
+    "id": 7,
+    "slug": "allies",
+    "name": "Allies",
+    "description": "Affects all allies on the field."
+  },
+  {
+    "id": 8,
+    "slug": "allySide",
+    "name": "Ally Side",
+    "description": "Affects the user's side of the field."
+  },
+  {
+    "id": 9,
+    "slug": "allyTeam",
+    "name": "Ally Team",
+    "description": "Affects the user's entire team."
+  },
+  {
+    "id": 10,
+    "slug": "any",
+    "name": "Any Pokemon",
+    "description": "Can target any Pokemon on the field."
+  },
+  {
+    "id": 11,
+    "slug": "foeSide",
+    "name": "Foe Side",
+    "description": "Affects the opponent's side of the field."
+  },
+  {
+    "id": 12,
+    "slug": "normal",
+    "name": "Normal",
+    "description": "Targets a single adjacent Pokemon (default)."
+  },
+  {
+    "id": 13,
+    "slug": "randomNormal",
+    "name": "Random Normal",
+    "description": "Targets a random adjacent opponent."
+  },
+  {
+    "id": 14,
+    "slug": "scripted",
+    "name": "Scripted",
+    "description": "Target determined by move's specific effect."
+  },
+  {
+    "id": 15,
+    "slug": "self",
+    "name": "Self",
+    "description": "Targets the user only."
+  }
+]

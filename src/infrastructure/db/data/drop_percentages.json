@@ -1,0 +1,7642 @@
+[
+  {
+    "formId": 1,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 2,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 3,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 25.0
+  },
+  {
+    "formId": 6,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 7,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+  },
+  {
+    "formId": 8,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 25.0
+  },
+  {
+    "formId": 12,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 13,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 10.0
+  },
+  {
+    "formId": 14,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 25.0
+  },
+  {
+    "formId": 17,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 18,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 19,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 19,
+    "itemId": "cobblemon:silver_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 19,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 21,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 22,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 23,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 23,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 23,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 25,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 26,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 26,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 27,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 27,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 5.0
+  },
+  {
+    "formId": 29,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 30,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 31,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 32,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 33,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 33,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 34,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 34,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 5.0
+  },
+  {
+    "formId": 35,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 2.5
+  },
+  {
+    "formId": 36,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 37,
+    "itemId": "cobblemon:light_ball",
+    "percentage": 5.0
+  },
+  {
+    "formId": 37,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 37,
+    "itemId": "cobblemon:thunder_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 48,
+    "itemId": "cobblemon:light_ball",
+    "percentage": 10.0
+  },
+  {
+    "formId": 48,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 48,
+    "itemId": "cobblemon:thunder_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 50,
+    "itemId": "cobblemon:grip_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 50,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 50,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 2.5
+  },
+  {
+    "formId": 51,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 51,
+    "itemId": "cobblemon:grip_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 51,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 52,
+    "itemId": "cobblemon:grip_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 52,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 52,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 5.0
+  },
+  {
+    "formId": 53,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 53,
+    "itemId": "cobblemon:grip_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 53,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 54,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 54,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 55,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 55,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 56,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 56,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 10.0
+  },
+  {
+    "formId": 57,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 57,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 58,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 58,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 59,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 59,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 10.0
+  },
+  {
+    "formId": 60,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 60,
+    "itemId": "cobblemon:fairy_feather",
+    "percentage": 5.0
+  },
+  {
+    "formId": 60,
+    "itemId": "cobblemon:moon_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 61,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 61,
+    "itemId": "cobblemon:fairy_feather",
+    "percentage": 10.0
+  },
+  {
+    "formId": 61,
+    "itemId": "cobblemon:moon_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 62,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 62,
+    "itemId": "minecraft:charcoal",
+    "percentage": 2.5
+  },
+  {
+    "formId": 63,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 64,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 64,
+    "itemId": "minecraft:charcoal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 65,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 66,
+    "itemId": "cobblemon:air_balloon",
+    "percentage": 5.0
+  },
+  {
+    "formId": 66,
+    "itemId": "cobblemon:moon_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 66,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 67,
+    "itemId": "cobblemon:air_balloon",
+    "percentage": 10.0
+  },
+  {
+    "formId": 67,
+    "itemId": "cobblemon:moon_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 67,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 68,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 68,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 2.5
+  },
+  {
+    "formId": 68,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 2.5
+  },
+  {
+    "formId": 69,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 69,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 69,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 5.0
+  },
+  {
+    "formId": 70,
+    "itemId": "cobblemon:absorb_bulb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 70,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 71,
+    "itemId": "cobblemon:absorb_bulb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 71,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 72,
+    "itemId": "cobblemon:absorb_bulb",
+    "percentage": 10.0
+  },
+  {
+    "formId": 72,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 73,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 74,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 75,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 76,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 76,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 76,
+    "itemId": "cobblemon:silver_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 77,
+    "itemId": "cobblemon:big_root",
+    "percentage": 2.5
+  },
+  {
+    "formId": 77,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 2.5
+  },
+  {
+    "formId": 77,
+    "itemId": "minecraft:potato",
+    "percentage": 2.5
+  },
+  {
+    "formId": 78,
+    "itemId": "cobblemon:big_root",
+    "percentage": 2.5
+  },
+  {
+    "formId": 78,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 2.5
+  },
+  {
+    "formId": 78,
+    "itemId": "minecraft:potato",
+    "percentage": 2.5
+  },
+  {
+    "formId": 79,
+    "itemId": "cobblemon:big_root",
+    "percentage": 5.0
+  },
+  {
+    "formId": 79,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 5.0
+  },
+  {
+    "formId": 79,
+    "itemId": "minecraft:potato",
+    "percentage": 5.0
+  },
+  {
+    "formId": 80,
+    "itemId": "cobblemon:big_root",
+    "percentage": 5.0
+  },
+  {
+    "formId": 80,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 5.0
+  },
+  {
+    "formId": 80,
+    "itemId": "minecraft:potato",
+    "percentage": 5.0
+  },
+  {
+    "formId": 81,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 81,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 82,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 82,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 83,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 83,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 85,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 85,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 86,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 86,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 87,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 2.5
+  },
+  {
+    "formId": 88,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 89,
+    "itemId": "cobblemon:muscle_band",
+    "percentage": 2.5
+  },
+  {
+    "formId": 89,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 90,
+    "itemId": "cobblemon:muscle_band",
+    "percentage": 5.0
+  },
+  {
+    "formId": 90,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 91,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 93,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 95,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 95,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 2.5
+  },
+  {
+    "formId": 96,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 96,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 5.0
+  },
+  {
+    "formId": 97,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 97,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 10.0
+  },
+  {
+    "formId": 98,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 98,
+    "itemId": "cobblemon:twisted_spoon",
+    "percentage": 2.5
+  },
+  {
+    "formId": 99,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 99,
+    "itemId": "cobblemon:twisted_spoon",
+    "percentage": 5.0
+  },
+  {
+    "formId": 100,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 100,
+    "itemId": "cobblemon:twisted_spoon",
+    "percentage": 10.0
+  },
+  {
+    "formId": 102,
+    "itemId": "cobblemon:focus_band",
+    "percentage": 2.5
+  },
+  {
+    "formId": 102,
+    "itemId": "cobblemon:muscle_band",
+    "percentage": 2.5
+  },
+  {
+    "formId": 102,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 103,
+    "itemId": "cobblemon:focus_band",
+    "percentage": 5.0
+  },
+  {
+    "formId": 103,
+    "itemId": "cobblemon:muscle_band",
+    "percentage": 5.0
+  },
+  {
+    "formId": 103,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 104,
+    "itemId": "cobblemon:focus_band",
+    "percentage": 10.0
+  },
+  {
+    "formId": 104,
+    "itemId": "cobblemon:muscle_band",
+    "percentage": 10.0
+  },
+  {
+    "formId": 104,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 106,
+    "itemId": "cobblemon:big_root",
+    "percentage": 2.5
+  },
+  {
+    "formId": 106,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 107,
+    "itemId": "cobblemon:big_root",
+    "percentage": 5.0
+  },
+  {
+    "formId": 107,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 108,
+    "itemId": "cobblemon:big_root",
+    "percentage": 10.0
+  },
+  {
+    "formId": 108,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 109,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 110,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 111,
+    "itemId": "cobblemon:black_augurite",
+    "percentage": 2.5
+  },
+  {
+    "formId": 111,
+    "itemId": "cobblemon:everstone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 111,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 112,
+    "itemId": "cobblemon:cell_battery",
+    "percentage": 2.5
+  },
+  {
+    "formId": 112,
+    "itemId": "cobblemon:magnet",
+    "percentage": 2.5
+  },
+  {
+    "formId": 112,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 113,
+    "itemId": "cobblemon:black_augurite",
+    "percentage": 5.0
+  },
+  {
+    "formId": 113,
+    "itemId": "cobblemon:everstone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 113,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 114,
+    "itemId": "cobblemon:cell_battery",
+    "percentage": 5.0
+  },
+  {
+    "formId": 114,
+    "itemId": "cobblemon:magnet",
+    "percentage": 5.0
+  },
+  {
+    "formId": 114,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 115,
+    "itemId": "cobblemon:black_augurite",
+    "percentage": 10.0
+  },
+  {
+    "formId": 115,
+    "itemId": "cobblemon:everstone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 115,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 116,
+    "itemId": "cobblemon:cell_battery",
+    "percentage": 10.0
+  },
+  {
+    "formId": 116,
+    "itemId": "cobblemon:magnet",
+    "percentage": 10.0
+  },
+  {
+    "formId": 116,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 117,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 117,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 2.5
+  },
+  {
+    "formId": 118,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 119,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 119,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 120,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 121,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 121,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 2.5
+  },
+  {
+    "formId": 121,
+    "itemId": "cobblemon:lagging_tail",
+    "percentage": 2.5
+  },
+  {
+    "formId": 122,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 122,
+    "itemId": "cobblemon:lagging_tail",
+    "percentage": 2.5
+  },
+  {
+    "formId": 123,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 123,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 5.0
+  },
+  {
+    "formId": 123,
+    "itemId": "cobblemon:lagging_tail",
+    "percentage": 5.0
+  },
+  {
+    "formId": 125,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 125,
+    "itemId": "cobblemon:lagging_tail",
+    "percentage": 5.0
+  },
+  {
+    "formId": 126,
+    "itemId": "cobblemon:magnet",
+    "percentage": 2.5
+  },
+  {
+    "formId": 126,
+    "itemId": "cobblemon:metal_coat",
+    "percentage": 2.5
+  },
+  {
+    "formId": 126,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 127,
+    "itemId": "cobblemon:magnet",
+    "percentage": 5.0
+  },
+  {
+    "formId": 127,
+    "itemId": "cobblemon:metal_coat",
+    "percentage": 5.0
+  },
+  {
+    "formId": 127,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 128,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 129,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 130,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 130,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 131,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 5.0
+  },
+  {
+    "formId": 131,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 132,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 132,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 2.5
+  },
+  {
+    "formId": 133,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 133,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 5.0
+  },
+  {
+    "formId": 134,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 2.5
+  },
+  {
+    "formId": 134,
+    "itemId": "cobblemon:toxic_orb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 136,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 5.0
+  },
+  {
+    "formId": 136,
+    "itemId": "cobblemon:toxic_orb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 138,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 138,
+    "itemId": "cobblemon:shell_bell",
+    "percentage": 2.5
+  },
+  {
+    "formId": 139,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 139,
+    "itemId": "cobblemon:shell_bell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 140,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 140,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 2.5
+  },
+  {
+    "formId": 141,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 141,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 5.0
+  },
+  {
+    "formId": 142,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 142,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 10.0
+  },
+  {
+    "formId": 145,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 145,
+    "itemId": "cobblemon:lagging_tail",
+    "percentage": 2.5
+  },
+  {
+    "formId": 145,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 146,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 147,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 148,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 2.5
+  },
+  {
+    "formId": 148,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 149,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 5.0
+  },
+  {
+    "formId": 149,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 152,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 154,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 155,
+    "itemId": "cobblemon:oval_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 155,
+    "itemId": "cobblemon:psychic_seed",
+    "percentage": 2.5
+  },
+  {
+    "formId": 155,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 157,
+    "itemId": "cobblemon:oval_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 157,
+    "itemId": "cobblemon:psychic_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 157,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 158,
+    "itemId": "cobblemon:oval_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 158,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 159,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 161,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 163,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 163,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 164,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 164,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 165,
+    "itemId": "cobblemon:lagging_tail",
+    "percentage": 2.5
+  },
+  {
+    "formId": 165,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 166,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 2.5
+  },
+  {
+    "formId": 166,
+    "itemId": "cobblemon:smoke_ball",
+    "percentage": 2.5
+  },
+  {
+    "formId": 168,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 5.0
+  },
+  {
+    "formId": 168,
+    "itemId": "cobblemon:smoke_ball",
+    "percentage": 5.0
+  },
+  {
+    "formId": 169,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 5.0
+  },
+  {
+    "formId": 169,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 169,
+    "itemId": "cobblemon:smoke_ball",
+    "percentage": 5.0
+  },
+  {
+    "formId": 170,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 170,
+    "itemId": "cobblemon:protector",
+    "percentage": 2.5
+  },
+  {
+    "formId": 171,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 171,
+    "itemId": "cobblemon:protector",
+    "percentage": 5.0
+  },
+  {
+    "formId": 172,
+    "itemId": "cobblemon:lucky_egg",
+    "percentage": 10.0
+  },
+  {
+    "formId": 172,
+    "itemId": "cobblemon:oval_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 172,
+    "itemId": "minecraft:egg",
+    "percentage": 50.0
+  },
+  {
+    "formId": 173,
+    "itemId": "cobblemon:big_root",
+    "percentage": 2.5
+  },
+  {
+    "formId": 174,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 176,
+    "itemId": "cobblemon:dragon_scale",
+    "percentage": 2.5
+  },
+  {
+    "formId": 177,
+    "itemId": "cobblemon:dragon_scale",
+    "percentage": 5.0
+  },
+  {
+    "formId": 178,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 2.5
+  },
+  {
+    "formId": 178,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 178,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 179,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 179,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 179,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 10.0
+  },
+  {
+    "formId": 182,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 182,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 5.0
+  },
+  {
+    "formId": 183,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 184,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 185,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 186,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 186,
+    "itemId": "cobblemon:electirizer",
+    "percentage": 5.0
+  },
+  {
+    "formId": 187,
+    "itemId": "cobblemon:magmarizer",
+    "percentage": 5.0
+  },
+  {
+    "formId": 187,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 187,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 188,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 194,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 194,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 195,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 195,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 10.0
+  },
+  {
+    "formId": 197,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 197,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 197,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 5.0
+  },
+  {
+    "formId": 197,
+    "itemId": "minecraft:heart_of_the_sea",
+    "percentage": 5.0
+  },
+  {
+    "formId": 199,
+    "itemId": "cobblemon:metal_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 200,
+    "itemId": "cobblemon:eviolite",
+    "percentage": 5.0
+  },
+  {
+    "formId": 200,
+    "itemId": "cobblemon:silk_scarf",
+    "percentage": 5.0
+  },
+  {
+    "formId": 202,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 10.0
+  },
+  {
+    "formId": 202,
+    "itemId": "cobblemon:water_stone",
+    "percentage": 25.0
+  },
+  {
+    "formId": 203,
+    "itemId": "cobblemon:magnet",
+    "percentage": 10.0
+  },
+  {
+    "formId": 203,
+    "itemId": "cobblemon:thunder_stone",
+    "percentage": 25.0
+  },
+  {
+    "formId": 204,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+  },
+  {
+    "formId": 204,
+    "itemId": "cobblemon:fire_stone",
+    "percentage": 25.0
+  },
+  {
+    "formId": 206,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 207,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 10.0
+  },
+  {
+    "formId": 208,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 208,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 209,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 10.0
+  },
+  {
+    "formId": 209,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 10.0
+  },
+  {
+    "formId": 210,
+    "itemId": "cobblemon:rocky_helmet",
+    "percentage": 10.0
+  },
+  {
+    "formId": 212,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 212,
+    "itemId": "cobblemon:leftovers",
+    "percentage": 5.0
+  },
+  {
+    "formId": 220,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 2.5
+  },
+  {
+    "formId": 220,
+    "itemId": "cobblemon:dragon_scale",
+    "percentage": 2.5
+  },
+  {
+    "formId": 220,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 221,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 221,
+    "itemId": "cobblemon:dragon_scale",
+    "percentage": 5.0
+  },
+  {
+    "formId": 221,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 222,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 10.0
+  },
+  {
+    "formId": 222,
+    "itemId": "cobblemon:dragon_scale",
+    "percentage": 10.0
+  },
+  {
+    "formId": 222,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 227,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 228,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 229,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 25.0
+  },
+  {
+    "formId": 230,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 232,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+  },
+  {
+    "formId": 234,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 25.0
+  },
+  {
+    "formId": 236,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 237,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 10.0
+  },
+  {
+    "formId": 238,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 25.0
+  },
+  {
+    "formId": 239,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 239,
+    "itemId": "cobblemon:silk_scarf",
+    "percentage": 2.5
+  },
+  {
+    "formId": 240,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 240,
+    "itemId": "cobblemon:silk_scarf",
+    "percentage": 5.0
+  },
+  {
+    "formId": 241,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 241,
+    "itemId": "cobblemon:wise_glasses",
+    "percentage": 2.5
+  },
+  {
+    "formId": 242,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 242,
+    "itemId": "cobblemon:wise_glasses",
+    "percentage": 5.0
+  },
+  {
+    "formId": 243,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 244,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 245,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 246,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 247,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 247,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 10.0
+  },
+  {
+    "formId": 247,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 10.0
+  },
+  {
+    "formId": 248,
+    "itemId": "cobblemon:deep_sea_scale",
+    "percentage": 2.5
+  },
+  {
+    "formId": 248,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 249,
+    "itemId": "cobblemon:deep_sea_scale",
+    "percentage": 5.0
+  },
+  {
+    "formId": 249,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 250,
+    "itemId": "cobblemon:light_ball",
+    "percentage": 2.5
+  },
+  {
+    "formId": 250,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 250,
+    "itemId": "cobblemon:thunder_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 252,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 252,
+    "itemId": "cobblemon:fairy_feather",
+    "percentage": 2.5
+  },
+  {
+    "formId": 252,
+    "itemId": "cobblemon:moon_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 253,
+    "itemId": "cobblemon:air_balloon",
+    "percentage": 2.5
+  },
+  {
+    "formId": 253,
+    "itemId": "cobblemon:moon_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 253,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 254,
+    "itemId": "cobblemon:fairy_feather",
+    "percentage": 2.5
+  },
+  {
+    "formId": 254,
+    "itemId": "cobblemon:lucky_egg",
+    "percentage": 2.5
+  },
+  {
+    "formId": 254,
+    "itemId": "cobblemon:shiny_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 255,
+    "itemId": "cobblemon:fairy_feather",
+    "percentage": 5.0
+  },
+  {
+    "formId": 255,
+    "itemId": "cobblemon:lucky_egg",
+    "percentage": 5.0
+  },
+  {
+    "formId": 255,
+    "itemId": "cobblemon:shiny_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 256,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 256,
+    "itemId": "cobblemon:wise_glasses",
+    "percentage": 2.5
+  },
+  {
+    "formId": 257,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 257,
+    "itemId": "cobblemon:wise_glasses",
+    "percentage": 5.0
+  },
+  {
+    "formId": 258,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 259,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 260,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 262,
+    "itemId": "cobblemon:absorb_bulb",
+    "percentage": 10.0
+  },
+  {
+    "formId": 262,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 263,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 264,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 265,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 265,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 266,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 266,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 10.0
+  },
+  {
+    "formId": 267,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 268,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 269,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 270,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 271,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 272,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 273,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 273,
+    "itemId": "cobblemon:wide_lens",
+    "percentage": 2.5
+  },
+  {
+    "formId": 274,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 275,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 276,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 277,
+    "itemId": "cobblemon:sun_stone",
+    "percentage": 25.0
+  },
+  {
+    "formId": 277,
+    "itemId": "cobblemon:twisted_spoon",
+    "percentage": 10.0
+  },
+  {
+    "formId": 278,
+    "itemId": "cobblemon:black_glasses",
+    "percentage": 10.0
+  },
+  {
+    "formId": 278,
+    "itemId": "cobblemon:moon_stone",
+    "percentage": 25.0
+  },
+  {
+    "formId": 279,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 280,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 280,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 10.0
+  },
+  {
+    "formId": 280,
+    "itemId": "cobblemon:lagging_tail",
+    "percentage": 10.0
+  },
+  {
+    "formId": 281,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 282,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 282,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 2.5
+  },
+  {
+    "formId": 282,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 2.5
+  },
+  {
+    "formId": 284,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 285,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 285,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 2.5
+  },
+  {
+    "formId": 286,
+    "itemId": "cobblemon:iron_ball",
+    "percentage": 2.5
+  },
+  {
+    "formId": 286,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 287,
+    "itemId": "cobblemon:iron_ball",
+    "percentage": 5.0
+  },
+  {
+    "formId": 287,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 288,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 288,
+    "itemId": "cobblemon:rocky_helmet",
+    "percentage": 2.5
+  },
+  {
+    "formId": 289,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 289,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 2.5
+  },
+  {
+    "formId": 289,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 289,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 2.5
+  },
+  {
+    "formId": 290,
+    "itemId": "cobblemon:lagging_tail",
+    "percentage": 5.0
+  },
+  {
+    "formId": 290,
+    "itemId": "cobblemon:metal_coat",
+    "percentage": 5.0
+  },
+  {
+    "formId": 290,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 292,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 293,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 294,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 296,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 298,
+    "itemId": "cobblemon:luminous_moss",
+    "percentage": 5.0
+  },
+  {
+    "formId": 299,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 301,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 301,
+    "itemId": "cobblemon:grip_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 301,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 301,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 302,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 302,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 302,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 303,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 303,
+    "itemId": "cobblemon:peat_block",
+    "percentage": 2.5
+  },
+  {
+    "formId": 303,
+    "itemId": "minecraft:honey_bottle",
+    "percentage": 2.5
+  },
+  {
+    "formId": 304,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 304,
+    "itemId": "cobblemon:peat_block",
+    "percentage": 5.0
+  },
+  {
+    "formId": 304,
+    "itemId": "minecraft:honey_bottle",
+    "percentage": 5.0
+  },
+  {
+    "formId": 305,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 306,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 307,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 307,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 2.5
+  },
+  {
+    "formId": 308,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 308,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 5.0
+  },
+  {
+    "formId": 309,
+    "itemId": "cobblemon:luminous_moss",
+    "percentage": 5.0
+  },
+  {
+    "formId": 309,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 310,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 311,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 311,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 312,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 313,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 314,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 315,
+    "itemId": "cobblemon:metal_coat",
+    "percentage": 5.0
+  },
+  {
+    "formId": 315,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 315,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 5.0
+  },
+  {
+    "formId": 316,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 316,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 2.5
+  },
+  {
+    "formId": 317,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 317,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 319,
+    "itemId": "cobblemon:dragon_scale",
+    "percentage": 10.0
+  },
+  {
+    "formId": 320,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 321,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 321,
+    "itemId": "cobblemon:protector",
+    "percentage": 5.0
+  },
+  {
+    "formId": 322,
+    "itemId": "cobblemon:upgrade",
+    "percentage": 25.0
+  },
+  {
+    "formId": 323,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 325,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 2.5
+  },
+  {
+    "formId": 325,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 326,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 326,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 327,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 328,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 328,
+    "itemId": "cobblemon:electirizer",
+    "percentage": 2.5
+  },
+  {
+    "formId": 329,
+    "itemId": "cobblemon:magmarizer",
+    "percentage": 2.5
+  },
+  {
+    "formId": 329,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 329,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 2.5
+  },
+  {
+    "formId": 330,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 331,
+    "itemId": "cobblemon:lucky_egg",
+    "percentage": 25.0
+  },
+  {
+    "formId": 331,
+    "itemId": "cobblemon:oval_stone",
+    "percentage": 25.0
+  },
+  {
+    "formId": 331,
+    "itemId": "minecraft:egg",
+    "percentage": 50.0
+  },
+  {
+    "formId": 335,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 335,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 336,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 336,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 337,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 337,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 342,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 343,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 344,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 25.0
+  },
+  {
+    "formId": 346,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 347,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+  },
+  {
+    "formId": 348,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 25.0
+  },
+  {
+    "formId": 350,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 351,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 10.0
+  },
+  {
+    "formId": 352,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 25.0
+  },
+  {
+    "formId": 354,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 355,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 356,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 357,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 358,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 359,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 360,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 361,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 362,
+    "itemId": "cobblemon:bright_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 362,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 362,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 363,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 364,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 364,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 364,
+    "itemId": "cobblemon:silver_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 365,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 365,
+    "itemId": "cobblemon:mental_herb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 366,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 366,
+    "itemId": "cobblemon:mental_herb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 367,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 367,
+    "itemId": "cobblemon:mental_herb",
+    "percentage": 10.0
+  },
+  {
+    "formId": 368,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 369,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 370,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 371,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 372,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 372,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 373,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 374,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 375,
+    "itemId": "cobblemon:dawn_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 375,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 375,
+    "itemId": "cobblemon:twisted_spoon",
+    "percentage": 2.5
+  },
+  {
+    "formId": 376,
+    "itemId": "cobblemon:dawn_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 376,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 376,
+    "itemId": "cobblemon:twisted_spoon",
+    "percentage": 5.0
+  },
+  {
+    "formId": 377,
+    "itemId": "cobblemon:dawn_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 377,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 377,
+    "itemId": "cobblemon:twisted_spoon",
+    "percentage": 10.0
+  },
+  {
+    "formId": 379,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 380,
+    "itemId": "cobblemon:silver_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 380,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 381,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 382,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 383,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 384,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 385,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 386,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 2.5
+  },
+  {
+    "formId": 387,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 388,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 389,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 389,
+    "itemId": "cobblemon:throat_spray",
+    "percentage": 2.5
+  },
+  {
+    "formId": 390,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 390,
+    "itemId": "cobblemon:throat_spray",
+    "percentage": 5.0
+  },
+  {
+    "formId": 391,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 391,
+    "itemId": "cobblemon:throat_spray",
+    "percentage": 10.0
+  },
+  {
+    "formId": 392,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 2.5
+  },
+  {
+    "formId": 392,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 2.5
+  },
+  {
+    "formId": 392,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 393,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 393,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 5.0
+  },
+  {
+    "formId": 393,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 394,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 395,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 395,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 395,
+    "itemId": "cobblemon:magnet",
+    "percentage": 2.5
+  },
+  {
+    "formId": 396,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 396,
+    "itemId": "cobblemon:silk_scarf",
+    "percentage": 2.5
+  },
+  {
+    "formId": 397,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 397,
+    "itemId": "cobblemon:silk_scarf",
+    "percentage": 5.0
+  },
+  {
+    "formId": 398,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 398,
+    "itemId": "cobblemon:wide_lens",
+    "percentage": 5.0
+  },
+  {
+    "formId": 398,
+    "itemId": "minecraft:diamond",
+    "percentage": 5.0
+  },
+  {
+    "formId": 398,
+    "itemId": "minecraft:emerald",
+    "percentage": 5.0
+  },
+  {
+    "formId": 400,
+    "itemId": "cobblemon:iron_ball",
+    "percentage": 5.0
+  },
+  {
+    "formId": 400,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 400,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 402,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 402,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 403,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 403,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 404,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 404,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 406,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 2.5
+  },
+  {
+    "formId": 406,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 406,
+    "itemId": "cobblemon:wise_glasses",
+    "percentage": 2.5
+  },
+  {
+    "formId": 407,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 407,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 407,
+    "itemId": "cobblemon:wise_glasses",
+    "percentage": 5.0
+  },
+  {
+    "formId": 409,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 410,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 412,
+    "itemId": "cobblemon:cell_battery",
+    "percentage": 5.0
+  },
+  {
+    "formId": 412,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 412,
+    "itemId": "cobblemon:magnet",
+    "percentage": 5.0
+  },
+  {
+    "formId": 413,
+    "itemId": "cobblemon:cell_battery",
+    "percentage": 5.0
+  },
+  {
+    "formId": 413,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 413,
+    "itemId": "cobblemon:magnet",
+    "percentage": 5.0
+  },
+  {
+    "formId": 414,
+    "itemId": "cobblemon:bright_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 414,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 415,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 415,
+    "itemId": "cobblemon:bright_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 416,
+    "itemId": "cobblemon:absorb_bulb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 416,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 416,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 417,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 2.5
+  },
+  {
+    "formId": 417,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 418,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 5.0
+  },
+  {
+    "formId": 418,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 419,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 419,
+    "itemId": "cobblemon:deep_sea_tooth",
+    "percentage": 2.5
+  },
+  {
+    "formId": 420,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 420,
+    "itemId": "cobblemon:deep_sea_tooth",
+    "percentage": 5.0
+  },
+  {
+    "formId": 422,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 423,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 424,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 424,
+    "itemId": "minecraft:magma_cream",
+    "percentage": 2.5
+  },
+  {
+    "formId": 425,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 425,
+    "itemId": "minecraft:magma_cream",
+    "percentage": 5.0
+  },
+  {
+    "formId": 427,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 427,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 427,
+    "itemId": "cobblemon:smoke_ball",
+    "percentage": 5.0
+  },
+  {
+    "formId": 428,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 429,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 430,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 431,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 2.5
+  },
+  {
+    "formId": 431,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 432,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 5.0
+  },
+  {
+    "formId": 432,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 433,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 10.0
+  },
+  {
+    "formId": 433,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 434,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 434,
+    "itemId": "cobblemon:sticky_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 434,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 435,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 435,
+    "itemId": "cobblemon:sticky_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 435,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 436,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 437,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 439,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 439,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 439,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 440,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 440,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 440,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 440,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 441,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 441,
+    "itemId": "cobblemon:moon_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 442,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 442,
+    "itemId": "cobblemon:sun_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 443,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 444,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 447,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 447,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 2.5
+  },
+  {
+    "formId": 448,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 448,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 5.0
+  },
+  {
+    "formId": 449,
+    "itemId": "cobblemon:big_root",
+    "percentage": 5.0
+  },
+  {
+    "formId": 450,
+    "itemId": "cobblemon:big_root",
+    "percentage": 10.0
+  },
+  {
+    "formId": 451,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 452,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 10.0
+  },
+  {
+    "formId": 453,
+    "itemId": "cobblemon:prism_scale",
+    "percentage": 2.5
+  },
+  {
+    "formId": 453,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 454,
+    "itemId": "cobblemon:prism_scale",
+    "percentage": 5.0
+  },
+  {
+    "formId": 454,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 10.0
+  },
+  {
+    "formId": 455,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 456,
+    "itemId": "cobblemon:heat_rock",
+    "percentage": 5.0
+  },
+  {
+    "formId": 457,
+    "itemId": "cobblemon:damp_rock",
+    "percentage": 5.0
+  },
+  {
+    "formId": 458,
+    "itemId": "cobblemon:icy_rock",
+    "percentage": 5.0
+  },
+  {
+    "formId": 459,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 460,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 2.5
+  },
+  {
+    "formId": 460,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 2.5
+  },
+  {
+    "formId": 461,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 5.0
+  },
+  {
+    "formId": 461,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 5.0
+  },
+  {
+    "formId": 463,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 463,
+    "itemId": "cobblemon:reaper_cloth",
+    "percentage": 2.5
+  },
+  {
+    "formId": 463,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 2.5
+  },
+  {
+    "formId": 464,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 464,
+    "itemId": "cobblemon:reaper_cloth",
+    "percentage": 5.0
+  },
+  {
+    "formId": 464,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 5.0
+  },
+  {
+    "formId": 466,
+    "itemId": "cobblemon:cleanse_tag",
+    "percentage": 5.0
+  },
+  {
+    "formId": 466,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 466,
+    "itemId": "cobblemon:soothe_bell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 467,
+    "itemId": "cobblemon:life_orb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 467,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 467,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 469,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 470,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 470,
+    "itemId": "cobblemon:dawn_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 470,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 2.5
+  },
+  {
+    "formId": 471,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 471,
+    "itemId": "cobblemon:dawn_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 471,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 5.0
+  },
+  {
+    "formId": 473,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 474,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 475,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 476,
+    "itemId": "cobblemon:shell_bell",
+    "percentage": 2.5
+  },
+  {
+    "formId": 477,
+    "itemId": "cobblemon:deep_sea_tooth",
+    "percentage": 5.0
+  },
+  {
+    "formId": 478,
+    "itemId": "cobblemon:deep_sea_scale",
+    "percentage": 5.0
+  },
+  {
+    "formId": 479,
+    "itemId": "cobblemon:deep_sea_scale",
+    "percentage": 5.0
+  },
+  {
+    "formId": 479,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 480,
+    "itemId": "cobblemon:deep_sea_scale",
+    "percentage": 2.5
+  },
+  {
+    "formId": 481,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 2.5
+  },
+  {
+    "formId": 481,
+    "itemId": "cobblemon:dragon_scale",
+    "percentage": 2.5
+  },
+  {
+    "formId": 481,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 482,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 482,
+    "itemId": "cobblemon:dragon_scale",
+    "percentage": 5.0
+  },
+  {
+    "formId": 482,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 483,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 10.0
+  },
+  {
+    "formId": 483,
+    "itemId": "cobblemon:dragon_scale",
+    "percentage": 10.0
+  },
+  {
+    "formId": 483,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 485,
+    "itemId": "cobblemon:metal_coat",
+    "percentage": 2.5
+  },
+  {
+    "formId": 486,
+    "itemId": "cobblemon:metal_coat",
+    "percentage": 5.0
+  },
+  {
+    "formId": 487,
+    "itemId": "cobblemon:metal_coat",
+    "percentage": 10.0
+  },
+  {
+    "formId": 507,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 508,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 509,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 25.0
+  },
+  {
+    "formId": 510,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 511,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+  },
+  {
+    "formId": 512,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 25.0
+  },
+  {
+    "formId": 513,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 514,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 10.0
+  },
+  {
+    "formId": 515,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 25.0
+  },
+  {
+    "formId": 516,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 517,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 517,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 518,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 5.0
+  },
+  {
+    "formId": 518,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 519,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 520,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 521,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 521,
+    "itemId": "cobblemon:metronome",
+    "percentage": 2.5
+  },
+  {
+    "formId": 522,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 522,
+    "itemId": "cobblemon:metronome",
+    "percentage": 5.0
+  },
+  {
+    "formId": 523,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 523,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 524,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 524,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 525,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 10.0
+  },
+  {
+    "formId": 525,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 526,
+    "itemId": "cobblemon:absorb_bulb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 526,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 526,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 527,
+    "itemId": "cobblemon:absorb_bulb",
+    "percentage": 10.0
+  },
+  {
+    "formId": 527,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 527,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 10.0
+  },
+  {
+    "formId": 532,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 535,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 538,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 538,
+    "itemId": "cobblemon:silver_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 539,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 539,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 540,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 540,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 10.0
+  },
+  {
+    "formId": 541,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 542,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 543,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 544,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 544,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 2.5
+  },
+  {
+    "formId": 545,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 545,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 547,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 549,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 551,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 552,
+    "itemId": "cobblemon:air_balloon",
+    "percentage": 2.5
+  },
+  {
+    "formId": 552,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 552,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 2.5
+  },
+  {
+    "formId": 553,
+    "itemId": "cobblemon:air_balloon",
+    "percentage": 5.0
+  },
+  {
+    "formId": 553,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 553,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 5.0
+  },
+  {
+    "formId": 554,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 554,
+    "itemId": "minecraft:carrot",
+    "percentage": 2.5
+  },
+  {
+    "formId": 554,
+    "itemId": "minecraft:rabbit_foot",
+    "percentage": 2.5
+  },
+  {
+    "formId": 555,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 555,
+    "itemId": "minecraft:carrot",
+    "percentage": 5.0
+  },
+  {
+    "formId": 555,
+    "itemId": "minecraft:rabbit_foot",
+    "percentage": 5.0
+  },
+  {
+    "formId": 557,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 557,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 5.0
+  },
+  {
+    "formId": 557,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 5.0
+  },
+  {
+    "formId": 558,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 559,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 560,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 561,
+    "itemId": "cobblemon:cleanse_tag",
+    "percentage": 2.5
+  },
+  {
+    "formId": 561,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 561,
+    "itemId": "cobblemon:soothe_bell",
+    "percentage": 2.5
+  },
+  {
+    "formId": 562,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 563,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 564,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 2.5
+  },
+  {
+    "formId": 564,
+    "itemId": "cobblemon:mental_herb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 564,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 565,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 5.0
+  },
+  {
+    "formId": 565,
+    "itemId": "cobblemon:mental_herb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 565,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 566,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 566,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 567,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 567,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 2.5
+  },
+  {
+    "formId": 569,
+    "itemId": "cobblemon:oval_stone",
+    "percentage": 25.0
+  },
+  {
+    "formId": 570,
+    "itemId": "cobblemon:metronome",
+    "percentage": 5.0
+  },
+  {
+    "formId": 570,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 571,
+    "itemId": "cobblemon:smoke_ball",
+    "percentage": 5.0
+  },
+  {
+    "formId": 571,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 5.0
+  },
+  {
+    "formId": 572,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 2.5
+  },
+  {
+    "formId": 572,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 573,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 573,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 574,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 10.0
+  },
+  {
+    "formId": 574,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 576,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 576,
+    "itemId": "cobblemon:leftovers",
+    "percentage": 2.5
+  },
+  {
+    "formId": 577,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 577,
+    "itemId": "cobblemon:expert_belt",
+    "percentage": 2.5
+  },
+  {
+    "formId": 578,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 578,
+    "itemId": "cobblemon:expert_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 580,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 580,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 2.5
+  },
+  {
+    "formId": 581,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 581,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 5.0
+  },
+  {
+    "formId": 582,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 582,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 583,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 583,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 584,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 2.5
+  },
+  {
+    "formId": 584,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 585,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 5.0
+  },
+  {
+    "formId": 585,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 586,
+    "itemId": "cobblemon:big_root",
+    "percentage": 5.0
+  },
+  {
+    "formId": 586,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 586,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 587,
+    "itemId": "cobblemon:prism_scale",
+    "percentage": 2.5
+  },
+  {
+    "formId": 587,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 587,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 588,
+    "itemId": "cobblemon:prism_scale",
+    "percentage": 5.0
+  },
+  {
+    "formId": 588,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 588,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 10.0
+  },
+  {
+    "formId": 589,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 590,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 2.5
+  },
+  {
+    "formId": 590,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 591,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 5.0
+  },
+  {
+    "formId": 591,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 593,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 593,
+    "itemId": "cobblemon:grip_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 593,
+    "itemId": "cobblemon:quick_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 593,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 594,
+    "itemId": "cobblemon:magnet",
+    "percentage": 10.0
+  },
+  {
+    "formId": 594,
+    "itemId": "cobblemon:metal_coat",
+    "percentage": 10.0
+  },
+  {
+    "formId": 594,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 595,
+    "itemId": "cobblemon:lagging_tail",
+    "percentage": 5.0
+  },
+  {
+    "formId": 595,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 596,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 596,
+    "itemId": "cobblemon:protector",
+    "percentage": 10.0
+  },
+  {
+    "formId": 597,
+    "itemId": "cobblemon:big_root",
+    "percentage": 5.0
+  },
+  {
+    "formId": 598,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 598,
+    "itemId": "cobblemon:electirizer",
+    "percentage": 10.0
+  },
+  {
+    "formId": 599,
+    "itemId": "cobblemon:magmarizer",
+    "percentage": 10.0
+  },
+  {
+    "formId": 599,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 599,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 10.0
+  },
+  {
+    "formId": 600,
+    "itemId": "cobblemon:fairy_feather",
+    "percentage": 10.0
+  },
+  {
+    "formId": 600,
+    "itemId": "cobblemon:lucky_egg",
+    "percentage": 10.0
+  },
+  {
+    "formId": 600,
+    "itemId": "cobblemon:shiny_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 601,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 601,
+    "itemId": "cobblemon:wide_lens",
+    "percentage": 5.0
+  },
+  {
+    "formId": 602,
+    "itemId": "cobblemon:leaf_stone",
+    "percentage": 25.0
+  },
+  {
+    "formId": 602,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 603,
+    "itemId": "cobblemon:ice_stone",
+    "percentage": 25.0
+  },
+  {
+    "formId": 603,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 10.0
+  },
+  {
+    "formId": 604,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 604,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 604,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 604,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 5.0
+  },
+  {
+    "formId": 605,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 605,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 10.0
+  },
+  {
+    "formId": 606,
+    "itemId": "cobblemon:dubious_disc",
+    "percentage": 25.0
+  },
+  {
+    "formId": 607,
+    "itemId": "cobblemon:dawn_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 607,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 607,
+    "itemId": "cobblemon:twisted_spoon",
+    "percentage": 10.0
+  },
+  {
+    "formId": 609,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 609,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 609,
+    "itemId": "cobblemon:magnet",
+    "percentage": 5.0
+  },
+  {
+    "formId": 610,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 610,
+    "itemId": "cobblemon:reaper_cloth",
+    "percentage": 10.0
+  },
+  {
+    "formId": 610,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 10.0
+  },
+  {
+    "formId": 611,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 611,
+    "itemId": "cobblemon:dawn_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 611,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 5.0
+  },
+  {
+    "formId": 654,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 655,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 656,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 25.0
+  },
+  {
+    "formId": 657,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 658,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+  },
+  {
+    "formId": 659,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 25.0
+  },
+  {
+    "formId": 660,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 660,
+    "itemId": "cobblemon:shell_bell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 662,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 10.0
+  },
+  {
+    "formId": 662,
+    "itemId": "cobblemon:shell_bell",
+    "percentage": 10.0
+  },
+  {
+    "formId": 664,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 25.0
+  },
+  {
+    "formId": 664,
+    "itemId": "cobblemon:shell_bell",
+    "percentage": 25.0
+  },
+  {
+    "formId": 666,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 667,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 668,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 669,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 670,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 671,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 672,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 673,
+    "itemId": "cobblemon:leaf_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 673,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 2.5
+  },
+  {
+    "formId": 673,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 674,
+    "itemId": "cobblemon:leaf_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 674,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 674,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 675,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 2.5
+  },
+  {
+    "formId": 675,
+    "itemId": "cobblemon:fire_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 675,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 676,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 676,
+    "itemId": "cobblemon:fire_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 676,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 677,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 2.5
+  },
+  {
+    "formId": 677,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 677,
+    "itemId": "cobblemon:water_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 678,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 678,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 678,
+    "itemId": "cobblemon:water_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 679,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 680,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 681,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 682,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 682,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 683,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 683,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 5.0
+  },
+  {
+    "formId": 684,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 685,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 686,
+    "itemId": "cobblemon:black_augurite",
+    "percentage": 2.5
+  },
+  {
+    "formId": 686,
+    "itemId": "cobblemon:everstone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 686,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 687,
+    "itemId": "cobblemon:black_augurite",
+    "percentage": 5.0
+  },
+  {
+    "formId": 687,
+    "itemId": "cobblemon:everstone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 687,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 688,
+    "itemId": "cobblemon:black_augurite",
+    "percentage": 10.0
+  },
+  {
+    "formId": 688,
+    "itemId": "cobblemon:everstone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 688,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 689,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 690,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 691,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 691,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 2.5
+  },
+  {
+    "formId": 692,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 692,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 5.0
+  },
+  {
+    "formId": 693,
+    "itemId": "cobblemon:fairy_feather",
+    "percentage": 5.0
+  },
+  {
+    "formId": 693,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 695,
+    "itemId": "cobblemon:muscle_band",
+    "percentage": 2.5
+  },
+  {
+    "formId": 695,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 696,
+    "itemId": "cobblemon:muscle_band",
+    "percentage": 5.0
+  },
+  {
+    "formId": 696,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 697,
+    "itemId": "cobblemon:muscle_band",
+    "percentage": 10.0
+  },
+  {
+    "formId": 697,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 698,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 699,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 700,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 701,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 701,
+    "itemId": "cobblemon:expert_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 701,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 702,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 702,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 702,
+    "itemId": "cobblemon:expert_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 703,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 703,
+    "itemId": "cobblemon:mental_herb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 703,
+    "itemId": "cobblemon:revival_herb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 704,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 704,
+    "itemId": "cobblemon:mental_herb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 704,
+    "itemId": "cobblemon:revival_herb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 705,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 705,
+    "itemId": "cobblemon:mental_herb",
+    "percentage": 10.0
+  },
+  {
+    "formId": 705,
+    "itemId": "cobblemon:revival_herb",
+    "percentage": 10.0
+  },
+  {
+    "formId": 706,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 706,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 707,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 707,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 708,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 708,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 10.0
+  },
+  {
+    "formId": 709,
+    "itemId": "cobblemon:absorb_bulb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 709,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 710,
+    "itemId": "cobblemon:absorb_bulb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 710,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 711,
+    "itemId": "cobblemon:absorb_bulb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 711,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 711,
+    "itemId": "cobblemon:revival_herb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 713,
+    "itemId": "cobblemon:absorb_bulb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 713,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 713,
+    "itemId": "cobblemon:revival_herb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 714,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 714,
+    "itemId": "cobblemon:revival_herb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 715,
+    "itemId": "cobblemon:deep_sea_tooth",
+    "percentage": 5.0
+  },
+  {
+    "formId": 715,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 718,
+    "itemId": "cobblemon:black_glasses",
+    "percentage": 2.5
+  },
+  {
+    "formId": 718,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 719,
+    "itemId": "cobblemon:black_glasses",
+    "percentage": 5.0
+  },
+  {
+    "formId": 719,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 720,
+    "itemId": "cobblemon:black_glasses",
+    "percentage": 10.0
+  },
+  {
+    "formId": 720,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 721,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 722,
+    "itemId": "cobblemon:ice_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 722,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 723,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 725,
+    "itemId": "cobblemon:ice_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 725,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 726,
+    "itemId": "cobblemon:ice_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 726,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 727,
+    "itemId": "cobblemon:grassy_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 727,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 727,
+    "itemId": "cobblemon:sticky_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 728,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 729,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 730,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 2.5
+  },
+  {
+    "formId": 730,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 730,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 2.5
+  },
+  {
+    "formId": 731,
+    "itemId": "cobblemon:black_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 731,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 731,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 732,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 732,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 5.0
+  },
+  {
+    "formId": 733,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 2.5
+  },
+  {
+    "formId": 734,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 735,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 5.0
+  },
+  {
+    "formId": 740,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 2.5
+  },
+  {
+    "formId": 740,
+    "itemId": "cobblemon:leftovers",
+    "percentage": 2.5
+  },
+  {
+    "formId": 740,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 740,
+    "itemId": "cobblemon:silk_scarf",
+    "percentage": 2.5
+  },
+  {
+    "formId": 741,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 5.0
+  },
+  {
+    "formId": 741,
+    "itemId": "cobblemon:leftovers",
+    "percentage": 5.0
+  },
+  {
+    "formId": 741,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 741,
+    "itemId": "cobblemon:silk_scarf",
+    "percentage": 5.0
+  },
+  {
+    "formId": 743,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 745,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 746,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 747,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 747,
+    "itemId": "cobblemon:silk_scarf",
+    "percentage": 2.5
+  },
+  {
+    "formId": 748,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 748,
+    "itemId": "cobblemon:silk_scarf",
+    "percentage": 5.0
+  },
+  {
+    "formId": 749,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 749,
+    "itemId": "cobblemon:twisted_spoon",
+    "percentage": 2.5
+  },
+  {
+    "formId": 750,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 750,
+    "itemId": "cobblemon:twisted_spoon",
+    "percentage": 5.0
+  },
+  {
+    "formId": 751,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 751,
+    "itemId": "cobblemon:twisted_spoon",
+    "percentage": 10.0
+  },
+  {
+    "formId": 752,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 753,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 754,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 755,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 756,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 756,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 757,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 757,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 2.5
+  },
+  {
+    "formId": 758,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 758,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 5.0
+  },
+  {
+    "formId": 759,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 759,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 10.0
+  },
+  {
+    "formId": 760,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 764,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 768,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 769,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 770,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 770,
+    "itemId": "minecraft:iron_helmet",
+    "percentage": 5.0
+  },
+  {
+    "formId": 771,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 772,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 773,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 774,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 775,
+    "itemId": "cobblemon:deep_sea_scale",
+    "percentage": 5.0
+  },
+  {
+    "formId": 775,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 776,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 777,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 778,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 778,
+    "itemId": "cobblemon:sticky_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 779,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 779,
+    "itemId": "cobblemon:sticky_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 786,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 786,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 2.5
+  },
+  {
+    "formId": 787,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 787,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 5.0
+  },
+  {
+    "formId": 788,
+    "itemId": "cobblemon:dusk_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 788,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 789,
+    "itemId": "cobblemon:dusk_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 789,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 790,
+    "itemId": "cobblemon:dusk_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 790,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 791,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 2.5
+  },
+  {
+    "formId": 791,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 792,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 792,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 793,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 10.0
+  },
+  {
+    "formId": 793,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 794,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 795,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 796,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 796,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 5.0
+  },
+  {
+    "formId": 797,
+    "itemId": "minecraft:iron_helmet",
+    "percentage": 2.5
+  },
+  {
+    "formId": 798,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 799,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 801,
+    "itemId": "cobblemon:expert_belt",
+    "percentage": 2.5
+  },
+  {
+    "formId": 801,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 802,
+    "itemId": "cobblemon:expert_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 802,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 803,
+    "itemId": "cobblemon:dragon_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 803,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 804,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 804,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 2.5
+  },
+  {
+    "formId": 805,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 805,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 5.0
+  },
+  {
+    "formId": 806,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 806,
+    "itemId": "minecraft:iron_helmet",
+    "percentage": 2.5
+  },
+  {
+    "formId": 807,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 807,
+    "itemId": "minecraft:iron_helmet",
+    "percentage": 5.0
+  },
+  {
+    "formId": 808,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 809,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 811,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 811,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 812,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 812,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 813,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 814,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 814,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 815,
+    "itemId": "cobblemon:flame_orb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 815,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 815,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 816,
+    "itemId": "cobblemon:occa_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 817,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 818,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 819,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 820,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 820,
+    "itemId": "cobblemon:silver_powder",
+    "percentage": 2.5
+  },
+  {
+    "formId": 820,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 2.5
+  },
+  {
+    "formId": 821,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 821,
+    "itemId": "cobblemon:silver_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 821,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 845,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 846,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 847,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 25.0
+  },
+  {
+    "formId": 848,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 849,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+  },
+  {
+    "formId": 850,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 25.0
+  },
+  {
+    "formId": 851,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 852,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 10.0
+  },
+  {
+    "formId": 853,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 25.0
+  },
+  {
+    "formId": 856,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 856,
+    "itemId": "minecraft:carrot",
+    "percentage": 2.5
+  },
+  {
+    "formId": 856,
+    "itemId": "minecraft:rabbit_foot",
+    "percentage": 2.5
+  },
+  {
+    "formId": 857,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 857,
+    "itemId": "minecraft:carrot",
+    "percentage": 5.0
+  },
+  {
+    "formId": 857,
+    "itemId": "minecraft:rabbit_foot",
+    "percentage": 5.0
+  },
+  {
+    "formId": 858,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 859,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 859,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 860,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 860,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 5.0
+  },
+  {
+    "formId": 861,
+    "itemId": "cobblemon:bright_powder",
+    "percentage": 2.5
+  },
+  {
+    "formId": 861,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 862,
+    "itemId": "cobblemon:bright_powder",
+    "percentage": 2.5
+  },
+  {
+    "formId": 862,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 863,
+    "itemId": "cobblemon:bright_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 863,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 863,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 866,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 866,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 2.5
+  },
+  {
+    "formId": 867,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 867,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 868,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 869,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 870,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 871,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 872,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 873,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 874,
+    "itemId": "cobblemon:mental_herb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 874,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 875,
+    "itemId": "cobblemon:mental_herb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 875,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 876,
+    "itemId": "cobblemon:silk_scarf",
+    "percentage": 5.0
+  },
+  {
+    "formId": 877,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 878,
+    "itemId": "cobblemon:colbur_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 880,
+    "itemId": "cobblemon:dusk_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 880,
+    "itemId": "minecraft:iron_sword",
+    "percentage": 2.5
+  },
+  {
+    "formId": 881,
+    "itemId": "cobblemon:dusk_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 881,
+    "itemId": "minecraft:iron_sword",
+    "percentage": 5.0
+  },
+  {
+    "formId": 882,
+    "itemId": "cobblemon:ability_shield",
+    "percentage": 10.0
+  },
+  {
+    "formId": 882,
+    "itemId": "cobblemon:dusk_stone",
+    "percentage": 10.0
+  },
+  {
+    "formId": 882,
+    "itemId": "minecraft:iron_sword",
+    "percentage": 10.0
+  },
+  {
+    "formId": 884,
+    "itemId": "cobblemon:fairy_feather",
+    "percentage": 2.5
+  },
+  {
+    "formId": 884,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 885,
+    "itemId": "cobblemon:fairy_feather",
+    "percentage": 5.0
+  },
+  {
+    "formId": 885,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 886,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 886,
+    "itemId": "minecraft:cake",
+    "percentage": 2.5
+  },
+  {
+    "formId": 887,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 887,
+    "itemId": "minecraft:cake",
+    "percentage": 5.0
+  },
+  {
+    "formId": 888,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 889,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 890,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 891,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 892,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 893,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 898,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 899,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 10.0
+  },
+  {
+    "formId": 900,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 5.0
+  },
+  {
+    "formId": 901,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 10.0
+  },
+  {
+    "formId": 902,
+    "itemId": "cobblemon:fairy_feather",
+    "percentage": 10.0
+  },
+  {
+    "formId": 902,
+    "itemId": "cobblemon:shiny_stone",
+    "percentage": 25.0
+  },
+  {
+    "formId": 903,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 903,
+    "itemId": "cobblemon:expert_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 903,
+    "itemId": "cobblemon:kings_rock",
+    "percentage": 5.0
+  },
+  {
+    "formId": 904,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 905,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 905,
+    "itemId": "cobblemon:float_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 905,
+    "itemId": "minecraft:diamond",
+    "percentage": 5.0
+  },
+  {
+    "formId": 906,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 906,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 2.5
+  },
+  {
+    "formId": 908,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 908,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 909,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 909,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 5.0
+  },
+  {
+    "formId": 910,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 910,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 10.0
+  },
+  {
+    "formId": 911,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 911,
+    "itemId": "cobblemon:shed_shell",
+    "percentage": 10.0
+  },
+  {
+    "formId": 912,
+    "itemId": "minecraft:name_tag",
+    "percentage": 5.0
+  },
+  {
+    "formId": 913,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 913,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 2.5
+  },
+  {
+    "formId": 914,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 914,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 5.0
+  },
+  {
+    "formId": 915,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 915,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 2.5
+  },
+  {
+    "formId": 919,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 919,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 923,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 923,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 2.5
+  },
+  {
+    "formId": 924,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 924,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 5.0
+  },
+  {
+    "formId": 925,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 925,
+    "itemId": "cobblemon:never_melt_ice",
+    "percentage": 5.0
+  },
+  {
+    "formId": 926,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 926,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 2.5
+  },
+  {
+    "formId": 927,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 927,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 5.0
+  },
+  {
+    "formId": 941,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 943,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 945,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 25.0
+  },
+  {
+    "formId": 947,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 947,
+    "itemId": "cobblemon:expert_belt",
+    "percentage": 5.0
+  },
+  {
+    "formId": 948,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+  },
+  {
+    "formId": 948,
+    "itemId": "cobblemon:expert_belt",
+    "percentage": 10.0
+  },
+  {
+    "formId": 949,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 25.0
+  },
+  {
+    "formId": 949,
+    "itemId": "cobblemon:expert_belt",
+    "percentage": 25.0
+  },
+  {
+    "formId": 950,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 950,
+    "itemId": "cobblemon:throat_spray",
+    "percentage": 5.0
+  },
+  {
+    "formId": 951,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 10.0
+  },
+  {
+    "formId": 951,
+    "itemId": "cobblemon:throat_spray",
+    "percentage": 10.0
+  },
+  {
+    "formId": 952,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 25.0
+  },
+  {
+    "formId": 952,
+    "itemId": "cobblemon:throat_spray",
+    "percentage": 25.0
+  },
+  {
+    "formId": 954,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 955,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 5.0
+  },
+  {
+    "formId": 956,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 957,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 958,
+    "itemId": "cobblemon:cell_battery",
+    "percentage": 2.5
+  },
+  {
+    "formId": 958,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 959,
+    "itemId": "cobblemon:cell_battery",
+    "percentage": 5.0
+  },
+  {
+    "formId": 959,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 960,
+    "itemId": "cobblemon:cell_battery",
+    "percentage": 10.0
+  },
+  {
+    "formId": 960,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 961,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 962,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 963,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 963,
+    "itemId": "minecraft:honey_bottle",
+    "percentage": 5.0
+  },
+  {
+    "formId": 967,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 968,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 969,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 969,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 971,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 971,
+    "itemId": "cobblemon:hard_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 974,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 976,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 976,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 2.5
+  },
+  {
+    "formId": 977,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 977,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 978,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 2.5
+  },
+  {
+    "formId": 978,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 979,
+    "itemId": "cobblemon:light_clay",
+    "percentage": 5.0
+  },
+  {
+    "formId": 979,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 980,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 2.5
+  },
+  {
+    "formId": 980,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 981,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 981,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 982,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 2.5
+  },
+  {
+    "formId": 982,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 983,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 983,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 984,
+    "itemId": "cobblemon:bright_powder",
+    "percentage": 2.5
+  },
+  {
+    "formId": 984,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 984,
+    "itemId": "cobblemon:luminous_moss",
+    "percentage": 2.5
+  },
+  {
+    "formId": 985,
+    "itemId": "cobblemon:bright_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 985,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 985,
+    "itemId": "cobblemon:luminous_moss",
+    "percentage": 5.0
+  },
+  {
+    "formId": 986,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 986,
+    "itemId": "cobblemon:smoke_ball",
+    "percentage": 2.5
+  },
+  {
+    "formId": 987,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 987,
+    "itemId": "cobblemon:smoke_ball",
+    "percentage": 5.0
+  },
+  {
+    "formId": 988,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 989,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 990,
+    "itemId": "cobblemon:grassy_seed",
+    "percentage": 2.5
+  },
+  {
+    "formId": 990,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 991,
+    "itemId": "cobblemon:grassy_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 991,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 992,
+    "itemId": "cobblemon:grassy_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 992,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 993,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 993,
+    "itemId": "cobblemon:misty_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 994,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 994,
+    "itemId": "cobblemon:wise_glasses",
+    "percentage": 5.0
+  },
+  {
+    "formId": 995,
+    "itemId": "cobblemon:muscle_band",
+    "percentage": 5.0
+  },
+  {
+    "formId": 995,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 996,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 997,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 998,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 998,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 2.5
+  },
+  {
+    "formId": 999,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 999,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1020,
+    "itemId": "cobblemon:float_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1022,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1023,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1023,
+    "itemId": "minecraft:charcoal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1024,
+    "itemId": "cobblemon:electric_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1024,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1025,
+    "itemId": "cobblemon:chesto_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1025,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1027,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1027,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1028,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1028,
+    "itemId": "minecraft:dragon_breath",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1030,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1030,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1031,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1031,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1032,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1032,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1063,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1064,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1065,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 25.0
+  },
+  {
+    "formId": 1067,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1067,
+    "itemId": "minecraft:rabbit_foot",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1068,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1068,
+    "itemId": "minecraft:rabbit_foot",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1069,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 25.0
+  },
+  {
+    "formId": 1069,
+    "itemId": "minecraft:rabbit_foot",
+    "percentage": 25.0
+  },
+  {
+    "formId": 1071,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1072,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1073,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 25.0
+  },
+  {
+    "formId": 1077,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1078,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1078,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1079,
+    "itemId": "cobblemon:metal_coat",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1079,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1081,
+    "itemId": "cobblemon:psychic_seed",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1081,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1082,
+    "itemId": "cobblemon:psychic_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1082,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1083,
+    "itemId": "cobblemon:psychic_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1083,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1085,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1085,
+    "itemId": "minecraft:emerald",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1086,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1086,
+    "itemId": "minecraft:emerald",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1087,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1088,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1091,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1092,
+    "itemId": "cobblemon:rindo_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1094,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1095,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1096,
+    "itemId": "cobblemon:black_augurite",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1096,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1097,
+    "itemId": "cobblemon:black_augurite",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1097,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1098,
+    "itemId": "cobblemon:black_augurite",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1098,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1100,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1101,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1103,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1105,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1106,
+    "itemId": "cobblemon:soft_sand",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1108,
+    "itemId": "cobblemon:wacan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1111,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1112,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1113,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1114,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1118,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1118,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1119,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1119,
+    "itemId": "minecraft:blaze_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1121,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1122,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1123,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1125,
+    "itemId": "cobblemon:spell_tag",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1127,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1128,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1129,
+    "itemId": "cobblemon:babiri_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1131,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1132,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1133,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1135,
+    "itemId": "cobblemon:chople_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1136,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1136,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1137,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1138,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1139,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1140,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1142,
+    "itemId": "minecraft:cake",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1144,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1144,
+    "itemId": "minecraft:golden_helmet",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1146,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1146,
+    "itemId": "cobblemon:silver_powder",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1147,
+    "itemId": "cobblemon:charti_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1147,
+    "itemId": "cobblemon:silver_powder",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1148,
+    "itemId": "cobblemon:luminous_moss",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1149,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1150,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1151,
+    "itemId": "cobblemon:bluk_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1151,
+    "itemId": "cobblemon:room_service",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1153,
+    "itemId": "cobblemon:roseli_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1155,
+    "itemId": "cobblemon:lagging_tail",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1155,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1156,
+    "itemId": "cobblemon:lagging_tail",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1156,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1164,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1164,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1165,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1165,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1166,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1166,
+    "itemId": "minecraft:phantom_membrane",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1187,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1188,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1189,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1189,
+    "itemId": "cobblemon:peat_block",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1189,
+    "itemId": "minecraft:honey_bottle",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1191,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1193,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1193,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1193,
+    "itemId": "cobblemon:razor_claw",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1194,
+    "itemId": "cobblemon:poison_barb",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1197,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1198,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1199,
+    "itemId": "cobblemon:miracle_seed",
+    "percentage": 25.0
+  },
+  {
+    "formId": 1200,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1201,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1202,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 25.0
+  },
+  {
+    "formId": 1203,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1204,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1205,
+    "itemId": "cobblemon:mystic_water",
+    "percentage": 25.0
+  },
+  {
+    "formId": 1206,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1207,
+    "itemId": "cobblemon:oran_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1211,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1212,
+    "itemId": "cobblemon:coba_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1213,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1214,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1215,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1216,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1217,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1219,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1220,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1221,
+    "itemId": "cobblemon:big_root",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1221,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1222,
+    "itemId": "cobblemon:big_root",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1222,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1223,
+    "itemId": "cobblemon:big_root",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1223,
+    "itemId": "cobblemon:kebia_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1224,
+    "itemId": "cobblemon:chilan_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1228,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1229,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1230,
+    "itemId": "cobblemon:passho_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1231,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1231,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1232,
+    "itemId": "cobblemon:auspicious_armor",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1232,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1232,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1233,
+    "itemId": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1233,
+    "itemId": "cobblemon:malicious_armor",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1233,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1234,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1234,
+    "itemId": "minecraft:ochre_froglight",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1235,
+    "itemId": "cobblemon:wepear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1235,
+    "itemId": "minecraft:ochre_froglight",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1236,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1237,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1237,
+    "itemId": "cobblemon:sharp_beak",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1238,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1239,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1240,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1241,
+    "itemId": "cobblemon:nanab_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1242,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1243,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1244,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1245,
+    "itemId": "cobblemon:yache_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1246,
+    "itemId": "cobblemon:pinap_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1247,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1248,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1251,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1252,
+    "itemId": "cobblemon:tanga_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1253,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1254,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1255,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1258,
+    "itemId": "cobblemon:razz_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1262,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1262,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1263,
+    "itemId": "cobblemon:black_sludge",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1263,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1264,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1265,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1266,
+    "itemId": "cobblemon:float_stone",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1266,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1267,
+    "itemId": "cobblemon:float_stone",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1267,
+    "itemId": "cobblemon:shuca_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1268,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1268,
+    "itemId": "minecraft:candle",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1269,
+    "itemId": "cobblemon:kasib_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1270,
+    "itemId": "cobblemon:fairy_feather",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1270,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1271,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1272,
+    "itemId": "cobblemon:aspear_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1273,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1274,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1275,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1275,
+    "itemId": "minecraft:bone_meal",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1278,
+    "itemId": "cobblemon:muscle_band",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1278,
+    "itemId": "cobblemon:payapa_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1279,
+    "itemId": "cobblemon:pecha_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1280,
+    "itemId": "cobblemon:persim_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1280,
+    "itemId": "cobblemon:razor_fang",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1281,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1281,
+    "itemId": "cobblemon:rocky_helmet",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1283,
+    "itemId": "cobblemon:cheri_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1283,
+    "itemId": "cobblemon:rocky_helmet",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1296,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1297,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 5.0
+  },
+  {
+    "formId": 1298,
+    "itemId": "cobblemon:haban_berry",
+    "percentage": 10.0
+  },
+  {
+    "formId": 1313,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 2.5
+  },
+  {
+    "formId": 1315,
+    "itemId": "cobblemon:rawst_berry",
+    "percentage": 5.0
+  }
+]

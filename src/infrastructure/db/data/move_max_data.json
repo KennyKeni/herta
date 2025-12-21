@@ -1,0 +1,614 @@
+[
+  {
+    "moveId": 4,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 100
+  },
+  {
+    "moveId": 12,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 24,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 80
+  },
+  {
+    "moveId": 32,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 41,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 100
+  },
+  {
+    "moveId": 42,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 68,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 75
+  },
+  {
+    "moveId": 69,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 75
+  },
+  {
+    "moveId": 90,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 131,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 120
+  },
+  {
+    "moveId": 154,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 100
+  },
+  {
+    "moveId": 155,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 167,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 80
+  },
+  {
+    "moveId": 175,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 198,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 216,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 218,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 222,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 140
+  },
+  {
+    "moveId": 283,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 311,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 329,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 331,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 333,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 350,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 360,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 363,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 376,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 378,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 140
+  },
+  {
+    "moveId": 386,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 447,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 458,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 120
+  },
+  {
+    "moveId": 462,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 140
+  },
+  {
+    "moveId": 484,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 486,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 500,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 530,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 535,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 541,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 544,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 681,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 718,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 95
+  },
+  {
+    "moveId": 742,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 140
+  },
+  {
+    "moveId": 743,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 751,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 757,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 758,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 759,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 760,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 761,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 762,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 763,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 764,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 765,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 766,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 767,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 768,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 769,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 770,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 771,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 772,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 773,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 774,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 799,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 804,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 140
+  },
+  {
+    "moveId": 805,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 813,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 140
+  },
+  {
+    "moveId": 814,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 818,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 130
+  },
+  {
+    "moveId": 911,
+    "isGmax": false,
+    "gmaxSpeciesId": null,
+    "maxPower": 140
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  },
+  {
+    "moveId": 1000,
+    "isGmax": true,
+    "gmaxSpeciesId": null,
+    "maxPower": null
+  }
+]

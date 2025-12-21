@@ -1,0 +1,602 @@
+[
+  {
+    "attackingTypeId": 1,
+    "defendingTypeId": 2,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 1,
+    "defendingTypeId": 5,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 1,
+    "defendingTypeId": 6,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 1,
+    "defendingTypeId": 7,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 1,
+    "defendingTypeId": 8,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 1,
+    "defendingTypeId": 9,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 1,
+    "defendingTypeId": 10,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 1,
+    "defendingTypeId": 14,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 1,
+    "defendingTypeId": 15,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 1,
+    "defendingTypeId": 17,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 2,
+    "defendingTypeId": 2,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 2,
+    "defendingTypeId": 5,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 2,
+    "defendingTypeId": 6,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 2,
+    "defendingTypeId": 9,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 2,
+    "defendingTypeId": 15,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 3,
+    "defendingTypeId": 3,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 3,
+    "defendingTypeId": 5,
+    "multiplier": 0.0
+  },
+  {
+    "attackingTypeId": 3,
+    "defendingTypeId": 17,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 4,
+    "defendingTypeId": 3,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 4,
+    "defendingTypeId": 4,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 4,
+    "defendingTypeId": 8,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 4,
+    "defendingTypeId": 10,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 4,
+    "defendingTypeId": 11,
+    "multiplier": 0.0
+  },
+  {
+    "attackingTypeId": 4,
+    "defendingTypeId": 19,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 5,
+    "defendingTypeId": 2,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 5,
+    "defendingTypeId": 3,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 5,
+    "defendingTypeId": 6,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 5,
+    "defendingTypeId": 7,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 5,
+    "defendingTypeId": 14,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 5,
+    "defendingTypeId": 17,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 6,
+    "defendingTypeId": 1,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 6,
+    "defendingTypeId": 2,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 6,
+    "defendingTypeId": 5,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 6,
+    "defendingTypeId": 8,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 6,
+    "defendingTypeId": 9,
+    "multiplier": 0.0
+  },
+  {
+    "attackingTypeId": 6,
+    "defendingTypeId": 12,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 6,
+    "defendingTypeId": 13,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 6,
+    "defendingTypeId": 14,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 6,
+    "defendingTypeId": 15,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 6,
+    "defendingTypeId": 16,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 6,
+    "defendingTypeId": 17,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 7,
+    "defendingTypeId": 1,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 7,
+    "defendingTypeId": 3,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 7,
+    "defendingTypeId": 7,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 7,
+    "defendingTypeId": 10,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 7,
+    "defendingTypeId": 12,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 7,
+    "defendingTypeId": 16,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 7,
+    "defendingTypeId": 17,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 7,
+    "defendingTypeId": 19,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 8,
+    "defendingTypeId": 1,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 8,
+    "defendingTypeId": 4,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 8,
+    "defendingTypeId": 6,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 8,
+    "defendingTypeId": 10,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 8,
+    "defendingTypeId": 16,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 8,
+    "defendingTypeId": 17,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 9,
+    "defendingTypeId": 2,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 9,
+    "defendingTypeId": 9,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 9,
+    "defendingTypeId": 13,
+    "multiplier": 0.0
+  },
+  {
+    "attackingTypeId": 9,
+    "defendingTypeId": 15,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 10,
+    "defendingTypeId": 1,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 10,
+    "defendingTypeId": 3,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 10,
+    "defendingTypeId": 7,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 10,
+    "defendingTypeId": 8,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 10,
+    "defendingTypeId": 10,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 10,
+    "defendingTypeId": 11,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 10,
+    "defendingTypeId": 14,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 10,
+    "defendingTypeId": 16,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 10,
+    "defendingTypeId": 17,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 10,
+    "defendingTypeId": 19,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 11,
+    "defendingTypeId": 1,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 11,
+    "defendingTypeId": 4,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 11,
+    "defendingTypeId": 7,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 11,
+    "defendingTypeId": 8,
+    "multiplier": 0.0
+  },
+  {
+    "attackingTypeId": 11,
+    "defendingTypeId": 10,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 11,
+    "defendingTypeId": 14,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 11,
+    "defendingTypeId": 16,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 11,
+    "defendingTypeId": 17,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 12,
+    "defendingTypeId": 3,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 12,
+    "defendingTypeId": 7,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 12,
+    "defendingTypeId": 8,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 12,
+    "defendingTypeId": 10,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 12,
+    "defendingTypeId": 11,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 12,
+    "defendingTypeId": 12,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 12,
+    "defendingTypeId": 17,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 12,
+    "defendingTypeId": 19,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 13,
+    "defendingTypeId": 9,
+    "multiplier": 0.0
+  },
+  {
+    "attackingTypeId": 13,
+    "defendingTypeId": 16,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 13,
+    "defendingTypeId": 17,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 14,
+    "defendingTypeId": 5,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 14,
+    "defendingTypeId": 9,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 14,
+    "defendingTypeId": 10,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 14,
+    "defendingTypeId": 11,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 14,
+    "defendingTypeId": 14,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 14,
+    "defendingTypeId": 16,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 14,
+    "defendingTypeId": 17,
+    "multiplier": 0.0
+  },
+  {
+    "attackingTypeId": 15,
+    "defendingTypeId": 2,
+    "multiplier": 0.0
+  },
+  {
+    "attackingTypeId": 15,
+    "defendingTypeId": 6,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 15,
+    "defendingTypeId": 14,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 15,
+    "defendingTypeId": 15,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 15,
+    "defendingTypeId": 17,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 16,
+    "defendingTypeId": 1,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 16,
+    "defendingTypeId": 6,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 16,
+    "defendingTypeId": 7,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 16,
+    "defendingTypeId": 8,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 16,
+    "defendingTypeId": 11,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 16,
+    "defendingTypeId": 12,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 16,
+    "defendingTypeId": 17,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 17,
+    "defendingTypeId": 4,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 17,
+    "defendingTypeId": 5,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 17,
+    "defendingTypeId": 7,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 17,
+    "defendingTypeId": 12,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 17,
+    "defendingTypeId": 16,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 17,
+    "defendingTypeId": 17,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 17,
+    "defendingTypeId": 19,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 19,
+    "defendingTypeId": 3,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 19,
+    "defendingTypeId": 7,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 19,
+    "defendingTypeId": 10,
+    "multiplier": 0.5
+  },
+  {
+    "attackingTypeId": 19,
+    "defendingTypeId": 11,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 19,
+    "defendingTypeId": 16,
+    "multiplier": 2.0
+  },
+  {
+    "attackingTypeId": 19,
+    "defendingTypeId": 19,
+    "multiplier": 0.5
+  }
+]

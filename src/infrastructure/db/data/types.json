@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "slug": "bug",
+    "name": "Bug"
+  },
+  {
+    "id": 2,
+    "slug": "dark",
+    "name": "Dark"
+  },
+  {
+    "id": 3,
+    "slug": "dragon",
+    "name": "Dragon"
+  },
+  {
+    "id": 4,
+    "slug": "electric",
+    "name": "Electric"
+  },
+  {
+    "id": 5,
+    "slug": "fairy",
+    "name": "Fairy"
+  },
+  {
+    "id": 6,
+    "slug": "fighting",
+    "name": "Fighting"
+  },
+  {
+    "id": 7,
+    "slug": "fire",
+    "name": "Fire"
+  },
+  {
+    "id": 8,
+    "slug": "flying",
+    "name": "Flying"
+  },
+  {
+    "id": 9,
+    "slug": "ghost",
+    "name": "Ghost"
+  },
+  {
+    "id": 10,
+    "slug": "grass",
+    "name": "Grass"
+  },
+  {
+    "id": 11,
+    "slug": "ground",
+    "name": "Ground"
+  },
+  {
+    "id": 12,
+    "slug": "ice",
+    "name": "Ice"
+  },
+  {
+    "id": 13,
+    "slug": "normal",
+    "name": "Normal"
+  },
+  {
+    "id": 14,
+    "slug": "poison",
+    "name": "Poison"
+  },
+  {
+    "id": 15,
+    "slug": "psychic",
+    "name": "Psychic"
+  },
+  {
+    "id": 16,
+    "slug": "rock",
+    "name": "Rock"
+  },
+  {
+    "id": 17,
+    "slug": "steel",
+    "name": "Steel"
+  },
+  {
+    "id": 18,
+    "slug": "stellar",
+    "name": "Stellar"
+  },
+  {
+    "id": 19,
+    "slug": "water",
+    "name": "Water"
+  }
+]

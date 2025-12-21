@@ -1,0 +1,5792 @@
+[
+  {
+    "speciesId": 1,
+    "width": 0.7,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 2,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 3,
+    "width": 2.2,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 4,
+    "width": 0.8,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 5,
+    "width": 0.9,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 6,
+    "width": 1.5,
+    "height": 2.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 7,
+    "width": 0.7,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 8,
+    "width": 0.8,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 9,
+    "width": 1.8,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 10,
+    "width": 0.8,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 11,
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 12,
+    "width": 0.5,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 13,
+    "width": 0.8,
+    "height": 0.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 14,
+    "width": 0.5,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 15,
+    "width": 0.6,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 16,
+    "width": 0.5,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 17,
+    "width": 0.6,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 18,
+    "width": 0.75,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 19,
+    "width": 0.6,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 20,
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 21,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 22,
+    "width": 1.35,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 23,
+    "width": 1.7,
+    "height": 0.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 24,
+    "width": 1,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 25,
+    "width": 0.7,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 26,
+    "width": 0.8,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 27,
+    "width": 0.8,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 28,
+    "width": 1,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 29,
+    "width": 0.7,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 30,
+    "width": 1,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 31,
+    "width": 1.2,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 32,
+    "width": 0.7,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 33,
+    "width": 1,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 34,
+    "width": 1.5,
+    "height": 2.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 35,
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 36,
+    "width": 1,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 37,
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 38,
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 39,
+    "width": 0.9,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 40,
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 41,
+    "width": 0.6,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 42,
+    "width": 0.8,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 43,
+    "width": 0.6,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 44,
+    "width": 0.6,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 45,
+    "width": 1.2,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 46,
+    "width": 1,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 47,
+    "width": 1.2,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 48,
+    "width": 0.8,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 49,
+    "width": 0.8,
+    "height": 1.55,
+    "fixed": false
+  },
+  {
+    "speciesId": 50,
+    "width": 0.5,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 51,
+    "width": 1.05,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 52,
+    "width": 0.6,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 53,
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 54,
+    "width": 0.8,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 55,
+    "width": 0.8,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 56,
+    "width": 0.6,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 57,
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 58,
+    "width": 1.1,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 59,
+    "width": 1.2,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 60,
+    "width": 0.6,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 61,
+    "width": 1,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 62,
+    "width": 1,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 63,
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 64,
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 65,
+    "width": 1,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 66,
+    "width": 0.7,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 67,
+    "width": 0.8,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 68,
+    "width": 1,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 69,
+    "width": 0.6,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 70,
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 71,
+    "width": 1.15,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 72,
+    "width": 0.8,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 73,
+    "width": 1.2,
+    "height": 2.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 74,
+    "width": 0.9,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 75,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 76,
+    "width": 1.3,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 77,
+    "width": 0.8,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 78,
+    "width": 0.9,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 79,
+    "width": 1.2,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 80,
+    "width": 0.8,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 81,
+    "width": 0.9,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 82,
+    "width": 1.1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 83,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 84,
+    "width": 0.6,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 85,
+    "width": 0.6,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 86,
+    "width": 1.2,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 87,
+    "width": 1.7,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 88,
+    "width": 1.25,
+    "height": 1.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 89,
+    "width": 1.75,
+    "height": 1.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 90,
+    "width": 0.6,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 91,
+    "width": 2,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 92,
+    "width": 0.75,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 93,
+    "width": 1.1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 94,
+    "width": 1.3,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 95,
+    "width": 2,
+    "height": 4,
+    "fixed": false
+  },
+  {
+    "speciesId": 96,
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 97,
+    "width": 0.9,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 98,
+    "width": 1,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 99,
+    "width": 1.8,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 100,
+    "width": 0.7,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 101,
+    "width": 1.2,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 102,
+    "width": 1.1,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 103,
+    "width": 1.8,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 104,
+    "width": 0.55,
+    "height": 0.87,
+    "fixed": false
+  },
+  {
+    "speciesId": 105,
+    "width": 0.85,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 106,
+    "width": 0.6,
+    "height": 1.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 107,
+    "width": 0.65,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 108,
+    "width": 1,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 109,
+    "width": 0.9,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 110,
+    "width": 1.3,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 111,
+    "width": 1.2,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 112,
+    "width": 1.1,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 113,
+    "width": 1.2,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 114,
+    "width": 0.8,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 115,
+    "width": 2,
+    "height": 3.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 116,
+    "width": 0.5,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 117,
+    "width": 0.8,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 118,
+    "width": 1,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 119,
+    "width": 1.4,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 120,
+    "width": 0.8,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 121,
+    "width": 0.8,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 122,
+    "width": 0.8,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 123,
+    "width": 1.2,
+    "height": 2.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 124,
+    "width": 0.9,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 125,
+    "width": 0.7,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 126,
+    "width": 0.7,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 127,
+    "width": 1,
+    "height": 1.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 128,
+    "width": 1.3,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 129,
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 130,
+    "width": 2,
+    "height": 3.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 131,
+    "width": 2.4,
+    "height": 2.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 132,
+    "width": 0.5,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 133,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 134,
+    "width": 0.9,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 135,
+    "width": 0.9,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 136,
+    "width": 1,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 137,
+    "width": 0.9,
+    "height": 1.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 138,
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 139,
+    "width": 0.6,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 140,
+    "width": 0.5,
+    "height": 0.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 141,
+    "width": 1.2,
+    "height": 1.72,
+    "fixed": false
+  },
+  {
+    "speciesId": 142,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 143,
+    "width": 2.3,
+    "height": 3.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 144,
+    "width": 1.5,
+    "height": 3.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 145,
+    "width": 1.75,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 146,
+    "width": 1.5,
+    "height": 4,
+    "fixed": false
+  },
+  {
+    "speciesId": 147,
+    "width": 1,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 148,
+    "width": 1.1,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 149,
+    "width": 2,
+    "height": 3.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 150,
+    "width": 1.25,
+    "height": 2.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 151,
+    "width": 0.6,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 152,
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 153,
+    "width": 0.9,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 154,
+    "width": 1.6,
+    "height": 3.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 155,
+    "width": 0.8,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 156,
+    "width": 1,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 157,
+    "width": 1.35,
+    "height": 2.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 158,
+    "width": 0.85,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 159,
+    "width": 0.9,
+    "height": 1.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 160,
+    "width": 1.2,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 161,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 162,
+    "width": 0.85,
+    "height": 1.42,
+    "fixed": false
+  },
+  {
+    "speciesId": 163,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 164,
+    "width": 0.8,
+    "height": 1.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 165,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 166,
+    "width": 0.9,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 167,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 168,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 169,
+    "width": 1,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 170,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 171,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 172,
+    "width": 0.6,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 173,
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 174,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 175,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 176,
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 177,
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 178,
+    "width": 0.7,
+    "height": 1.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 179,
+    "width": 0.75,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 180,
+    "width": 0.7,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 181,
+    "width": 1,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 182,
+    "width": 0.8,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 183,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 184,
+    "width": 0.8,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 185,
+    "width": 0.9,
+    "height": 2.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 186,
+    "width": 0.6,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 187,
+    "width": 0.9,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 188,
+    "width": 1.05,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 189,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 190,
+    "width": 0.8,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 191,
+    "width": 0.4,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 192,
+    "width": 0.75,
+    "height": 1.38,
+    "fixed": false
+  },
+  {
+    "speciesId": 193,
+    "width": 0.99,
+    "height": 0.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 194,
+    "width": 0.8,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 195,
+    "width": 0.8,
+    "height": 1.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 196,
+    "width": 0.9,
+    "height": 1.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 197,
+    "width": 0.9,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 198,
+    "width": 0.65,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 199,
+    "width": 0.8,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 200,
+    "width": 1.1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 201,
+    "width": 0.6,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 202,
+    "width": 0.75,
+    "height": 1.55,
+    "fixed": false
+  },
+  {
+    "speciesId": 203,
+    "width": 0.9,
+    "height": 1.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 204,
+    "width": 0.9,
+    "height": 0.95,
+    "fixed": false
+  },
+  {
+    "speciesId": 205,
+    "width": 1.25,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 206,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 207,
+    "width": 0.7,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 208,
+    "width": 2,
+    "height": 3.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 209,
+    "width": 0.8,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 210,
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 211,
+    "width": 0.6,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 212,
+    "width": 1.1,
+    "height": 2.43,
+    "fixed": false
+  },
+  {
+    "speciesId": 213,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 214,
+    "width": 1.05,
+    "height": 1.55,
+    "fixed": false
+  },
+  {
+    "speciesId": 215,
+    "width": 0.6,
+    "height": 1.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 216,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 217,
+    "width": 1,
+    "height": 2.14,
+    "fixed": false
+  },
+  {
+    "speciesId": 218,
+    "width": 0.8,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 219,
+    "width": 1,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 220,
+    "width": 0.7,
+    "height": 0.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 221,
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 222,
+    "width": 0.65,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 223,
+    "width": 0.8,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 224,
+    "width": 1,
+    "height": 1.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 225,
+    "width": 1.15,
+    "height": 1.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 226,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 227,
+    "width": 0.8,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 228,
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 229,
+    "width": 1.3,
+    "height": 2.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 230,
+    "width": 0.9,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 231,
+    "width": 0.7,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 232,
+    "width": 1.3,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 233,
+    "width": 0.9,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 234,
+    "width": 0.8,
+    "height": 1.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 235,
+    "width": 0.8,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 236,
+    "width": 0.6,
+    "height": 1.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 237,
+    "width": 0.7,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 238,
+    "width": 0.6,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 239,
+    "width": 0.5,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 240,
+    "width": 0.6,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 241,
+    "width": 1.1,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 242,
+    "width": 1.3,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 243,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 244,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 245,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 246,
+    "width": 0.7,
+    "height": 0.95,
+    "fixed": false
+  },
+  {
+    "speciesId": 247,
+    "width": 1,
+    "height": 1.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 248,
+    "width": 2.2,
+    "height": 4.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 249,
+    "width": 2,
+    "height": 4.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 250,
+    "width": 1.75,
+    "height": 3.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 251,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 252,
+    "width": 0.72,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 253,
+    "width": 1,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 254,
+    "width": 1,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 255,
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 256,
+    "width": 0.8,
+    "height": 1.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 257,
+    "width": 1.4,
+    "height": 3.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 258,
+    "width": 0.9,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 259,
+    "width": 0.9,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 260,
+    "width": 1.6,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 261,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 262,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 263,
+    "width": 0.6,
+    "height": 0.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 264,
+    "width": 0.6,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 265,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 266,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 267,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 268,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 269,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 270,
+    "width": 0.9,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 271,
+    "width": 0.9,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 272,
+    "width": 0.9,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 273,
+    "width": 0.6,
+    "height": 0.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 274,
+    "width": 0.65,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 275,
+    "width": 1.15,
+    "height": 1.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 276,
+    "width": 0.5,
+    "height": 0.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 277,
+    "width": 0.7,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 278,
+    "width": 0.7,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 279,
+    "width": 0.8,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 280,
+    "width": 0.5,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 281,
+    "width": 0.5,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 282,
+    "width": 0.6,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 283,
+    "width": 0.8,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 284,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 285,
+    "width": 0.7,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 286,
+    "width": 0.7,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 287,
+    "width": 1,
+    "height": 0.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 288,
+    "width": 1,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 289,
+    "width": 1.2,
+    "height": 2.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 290,
+    "width": 0.9,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 291,
+    "width": 0.7,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 292,
+    "width": 0.7,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 293,
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 294,
+    "width": 1,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 295,
+    "width": 1.4,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 296,
+    "width": 1.05,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 297,
+    "width": 2.2,
+    "height": 2.05,
+    "fixed": false
+  },
+  {
+    "speciesId": 298,
+    "width": 0.65,
+    "height": 0.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 299,
+    "width": 0.9,
+    "height": 1.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 300,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 301,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 302,
+    "width": 0.7,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 303,
+    "width": 0.5,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 304,
+    "width": 0.5,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 305,
+    "width": 1.1,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 306,
+    "width": 1.4,
+    "height": 3.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 307,
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 308,
+    "width": 1.2,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 309,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 310,
+    "width": 1.25,
+    "height": 2.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 311,
+    "width": 0.7,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 312,
+    "width": 0.7,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 313,
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 314,
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 315,
+    "width": 0.65,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 316,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 317,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 318,
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 319,
+    "width": 1.2,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 320,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 321,
+    "width": 3.2,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 322,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 323,
+    "width": 2,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 324,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 325,
+    "width": 0.6,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 326,
+    "width": 1.1,
+    "height": 1.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 327,
+    "width": 0.7,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 328,
+    "width": 0.8,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 329,
+    "width": 1.7,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 330,
+    "width": 1.85,
+    "height": 3.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 331,
+    "width": 0.65,
+    "height": 0.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 332,
+    "width": 0.75,
+    "height": 1.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 333,
+    "width": 0.5,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 334,
+    "width": 1.7,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 335,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 336,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 337,
+    "width": 1.15,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 338,
+    "width": 1,
+    "height": 1.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 339,
+    "width": 1,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 340,
+    "width": 2.3,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 341,
+    "width": 0.65,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 342,
+    "width": 1.2,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 343,
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 344,
+    "width": 1.5,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 345,
+    "width": 0.6,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 346,
+    "width": 0.9,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 347,
+    "width": 0.9,
+    "height": 0.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 348,
+    "width": 1,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 349,
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 350,
+    "width": 1.4,
+    "height": 2.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 351,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 352,
+    "width": 0.75,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 353,
+    "width": 0.8,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 354,
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 355,
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 356,
+    "width": 1.2,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 357,
+    "width": 2.2,
+    "height": 5,
+    "fixed": false
+  },
+  {
+    "speciesId": 358,
+    "width": 0.4,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 359,
+    "width": 1.2,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 360,
+    "width": 0.55,
+    "height": 0.93,
+    "fixed": false
+  },
+  {
+    "speciesId": 361,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 362,
+    "width": 1.7,
+    "height": 1.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 363,
+    "width": 0.9,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 364,
+    "width": 1.1,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 365,
+    "width": 1.65,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 366,
+    "width": 0.75,
+    "height": 0.67,
+    "fixed": false
+  },
+  {
+    "speciesId": 367,
+    "width": 1.3,
+    "height": 0.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 368,
+    "width": 1.25,
+    "height": 1.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 369,
+    "width": 1.5,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 370,
+    "width": 0.5,
+    "height": 0.55,
+    "fixed": false
+  },
+  {
+    "speciesId": 371,
+    "width": 0.6,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 372,
+    "width": 1.5,
+    "height": 1.55,
+    "fixed": false
+  },
+  {
+    "speciesId": 373,
+    "width": 2.7,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 374,
+    "width": 0.6,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 375,
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 376,
+    "width": 1.8,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 377,
+    "width": 1.85,
+    "height": 2.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 378,
+    "width": 1.65,
+    "height": 2.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 379,
+    "width": 1.65,
+    "height": 2.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 380,
+    "width": 2,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 381,
+    "width": 2,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 382,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 383,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 384,
+    "width": 2.5,
+    "height": 3.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 385,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 387,
+    "width": 0.75,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 388,
+    "width": 1.4,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 389,
+    "width": 2.25,
+    "height": 2.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 390,
+    "width": 0.75,
+    "height": 1.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 391,
+    "width": 0.9,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 392,
+    "width": 1.3,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 393,
+    "width": 0.65,
+    "height": 1.05,
+    "fixed": false
+  },
+  {
+    "speciesId": 394,
+    "width": 0.75,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 395,
+    "width": 1.3,
+    "height": 2.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 396,
+    "width": 0.6,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 397,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 398,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 399,
+    "width": 1,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 400,
+    "width": 1.3,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 401,
+    "width": 0.6,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 402,
+    "width": 0.9,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 403,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 404,
+    "width": 0.9,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 405,
+    "width": 1,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 406,
+    "width": 0.5,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 407,
+    "width": 0.7,
+    "height": 1.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 408,
+    "width": 0.7,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 409,
+    "width": 1.6,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 410,
+    "width": 0.85,
+    "height": 1.22,
+    "fixed": false
+  },
+  {
+    "speciesId": 411,
+    "width": 1.75,
+    "height": 1.95,
+    "fixed": false
+  },
+  {
+    "speciesId": 412,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 414,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 415,
+    "width": 0.6,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 416,
+    "width": 1,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 417,
+    "width": 0.9,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 418,
+    "width": 0.7,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 419,
+    "width": 0.9,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 420,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 421,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 422,
+    "width": 0.9,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 423,
+    "width": 1.8,
+    "height": 1.95,
+    "fixed": false
+  },
+  {
+    "speciesId": 424,
+    "width": 0.9,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 425,
+    "width": 0.7,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 426,
+    "width": 1.6,
+    "height": 3.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 427,
+    "width": 0.8,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 428,
+    "width": 1.4,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 429,
+    "width": 1,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 430,
+    "width": 1.1,
+    "height": 1.55,
+    "fixed": false
+  },
+  {
+    "speciesId": 431,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 432,
+    "width": 1.1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 433,
+    "width": 0.45,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 434,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 435,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 436,
+    "width": 0.8,
+    "height": 1.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 437,
+    "width": 1.35,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 438,
+    "width": 0.5,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 439,
+    "width": 0.6,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 440,
+    "width": 0.6,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 441,
+    "width": 0.5,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 442,
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 443,
+    "width": 0.93,
+    "height": 0.93,
+    "fixed": false
+  },
+  {
+    "speciesId": 444,
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 445,
+    "width": 1.3,
+    "height": 2.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 446,
+    "width": 0.7,
+    "height": 1.05,
+    "fixed": false
+  },
+  {
+    "speciesId": 447,
+    "width": 0.6,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 448,
+    "width": 0.8,
+    "height": 2.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 449,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 450,
+    "width": 2.2,
+    "height": 1.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 451,
+    "width": 1.1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 452,
+    "width": 2.25,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 453,
+    "width": 1.1,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 454,
+    "width": 1.1,
+    "height": 2.05,
+    "fixed": false
+  },
+  {
+    "speciesId": 455,
+    "width": 1.1,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 456,
+    "width": 0.8,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 457,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 458,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 459,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 460,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 461,
+    "width": 0.55,
+    "height": 1.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 462,
+    "width": 1.5,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 463,
+    "width": 1.4,
+    "height": 2.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 464,
+    "width": 1.8,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 465,
+    "width": 0.9,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 466,
+    "width": 1,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 467,
+    "width": 1.3,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 468,
+    "width": 1.7,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 469,
+    "width": 1.4,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 470,
+    "width": 0.9,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 471,
+    "width": 0.9,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 472,
+    "width": 0.9,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 473,
+    "width": 2.7,
+    "height": 3.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 474,
+    "width": 0.9,
+    "height": 1.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 475,
+    "width": 0.6,
+    "height": 2.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 476,
+    "width": 1.5,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 477,
+    "width": 1.8,
+    "height": 3.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 478,
+    "width": 0.7,
+    "height": 1.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 479,
+    "width": 0.55,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 480,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 481,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 482,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 483,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 484,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 485,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 486,
+    "width": 4,
+    "height": 6.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 488,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 489,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 490,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 491,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 493,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 494,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 495,
+    "width": 0.8,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 496,
+    "width": 0.9,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 497,
+    "width": 1.4,
+    "height": 1.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 498,
+    "width": 0.8,
+    "height": 0.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 499,
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 500,
+    "width": 1.35,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 501,
+    "width": 0.9,
+    "height": 1.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 502,
+    "width": 1,
+    "height": 1.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 503,
+    "width": 1.6,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 504,
+    "width": 0.8,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 505,
+    "width": 0.8,
+    "height": 2.55,
+    "fixed": false
+  },
+  {
+    "speciesId": 506,
+    "width": 1,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 507,
+    "width": 1,
+    "height": 1.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 508,
+    "width": 1.4,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 509,
+    "width": 0.65,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 510,
+    "width": 1.75,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 511,
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 512,
+    "width": 0.94,
+    "height": 2.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 513,
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 514,
+    "width": 0.94,
+    "height": 1.83,
+    "fixed": false
+  },
+  {
+    "speciesId": 515,
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 516,
+    "width": 0.85,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 517,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 518,
+    "width": 1.8,
+    "height": 1.74,
+    "fixed": false
+  },
+  {
+    "speciesId": 519,
+    "width": 0.5,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 520,
+    "width": 0.6,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 521,
+    "width": 0.8,
+    "height": 2.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 522,
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 523,
+    "width": 1.3,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 524,
+    "width": 0.5,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 525,
+    "width": 0.9,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 526,
+    "width": 1.4,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 527,
+    "width": 0.75,
+    "height": 0.88,
+    "fixed": false
+  },
+  {
+    "speciesId": 528,
+    "width": 1.1,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 529,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 530,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 531,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 532,
+    "width": 0.7,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 533,
+    "width": 1.1,
+    "height": 1.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 534,
+    "width": 1.5,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 535,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 536,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 537,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 538,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 539,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 540,
+    "width": 0.75,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 541,
+    "width": 0.85,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 542,
+    "width": 0.65,
+    "height": 2.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 543,
+    "width": 1,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 544,
+    "width": 1.3,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 545,
+    "width": 2.5,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 546,
+    "width": 0.8,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 547,
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 548,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 549,
+    "width": 1.1,
+    "height": 2.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 550,
+    "width": 1.18,
+    "height": 0.95,
+    "fixed": false
+  },
+  {
+    "speciesId": 551,
+    "width": 0.9,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 552,
+    "width": 1,
+    "height": 1.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 553,
+    "width": 1.75,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 554,
+    "width": 0.7,
+    "height": 0.83,
+    "fixed": false
+  },
+  {
+    "speciesId": 555,
+    "width": 1.8,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 556,
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 557,
+    "width": 0.9,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 558,
+    "width": 1.1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 559,
+    "width": 0.7,
+    "height": 1.05,
+    "fixed": false
+  },
+  {
+    "speciesId": 560,
+    "width": 0.85,
+    "height": 1.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 561,
+    "width": 1,
+    "height": 2.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 562,
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 563,
+    "width": 1.5,
+    "height": 3.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 564,
+    "width": 1.1,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 565,
+    "width": 1.1,
+    "height": 1.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 566,
+    "width": 0.65,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 567,
+    "width": 1.2,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 568,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 569,
+    "width": 2.15,
+    "height": 2.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 570,
+    "width": 0.6,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 571,
+    "width": 1.3,
+    "height": 2.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 572,
+    "width": 0.65,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 573,
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 574,
+    "width": 0.5,
+    "height": 0.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 575,
+    "width": 0.6,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 576,
+    "width": 0.8,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 577,
+    "width": 0.95,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 578,
+    "width": 1.1,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 579,
+    "width": 1.2,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 580,
+    "width": 0.6,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 581,
+    "width": 1.2,
+    "height": 2.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 582,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 583,
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 584,
+    "width": 1.5,
+    "height": 2.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 585,
+    "width": 0.6,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 586,
+    "width": 1,
+    "height": 1.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 587,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 588,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 589,
+    "width": 1.4,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 590,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 591,
+    "width": 1.2,
+    "height": 1.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 592,
+    "width": 0.65,
+    "height": 1.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 593,
+    "width": 2,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 594,
+    "width": 0.8,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 595,
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 596,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 597,
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 598,
+    "width": 2,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 599,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 600,
+    "width": 1.5,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 601,
+    "width": 1.8,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 602,
+    "width": 0.6,
+    "height": 0.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 603,
+    "width": 0.7,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 604,
+    "width": 1.25,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 605,
+    "width": 0.6,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 606,
+    "width": 0.8,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 607,
+    "width": 0.6,
+    "height": 0.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 608,
+    "width": 1.1,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 609,
+    "width": 1.2,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 610,
+    "width": 0.6,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 611,
+    "width": 1.2,
+    "height": 1.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 612,
+    "width": 2,
+    "height": 2.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 613,
+    "width": 0.8,
+    "height": 1.05,
+    "fixed": false
+  },
+  {
+    "speciesId": 614,
+    "width": 1.2,
+    "height": 2.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 615,
+    "width": 1.5,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 616,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 617,
+    "width": 1,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 618,
+    "width": 1,
+    "height": 0.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 619,
+    "width": 1.1,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 620,
+    "width": 1.15,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 621,
+    "width": 1.75,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 622,
+    "width": 0.7,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 623,
+    "width": 2.5,
+    "height": 5.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 624,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 625,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 626,
+    "width": 2.3,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 627,
+    "width": 0.8,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 628,
+    "width": 1.2,
+    "height": 2.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 629,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 630,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 631,
+    "width": 1.2,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 632,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 633,
+    "width": 0.85,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 634,
+    "width": 1.5,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 635,
+    "width": 1.5,
+    "height": 2.66,
+    "fixed": false
+  },
+  {
+    "speciesId": 636,
+    "width": 1.2,
+    "height": 0.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 637,
+    "width": 1.3,
+    "height": 2.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 638,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 639,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 640,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 643,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 644,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 646,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 649,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 650,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 651,
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 652,
+    "width": 1,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 653,
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 654,
+    "width": 1,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 655,
+    "width": 1.15,
+    "height": 3.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 656,
+    "width": 0.8,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 657,
+    "width": 0.9,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 658,
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 659,
+    "width": 0.8,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 660,
+    "width": 1.25,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 661,
+    "width": 0.45,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 662,
+    "width": 0.5,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 663,
+    "width": 0.8,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 664,
+    "width": 0.7,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 665,
+    "width": 0.5,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 666,
+    "width": 0.4,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 667,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 668,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 669,
+    "width": 0.9,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 670,
+    "width": 1.15,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 671,
+    "width": 1.3,
+    "height": 2.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 672,
+    "width": 0.9,
+    "height": 1.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 673,
+    "width": 1.65,
+    "height": 2.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 674,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 675,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 676,
+    "width": 0.8,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 677,
+    "width": 0.55,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 678,
+    "width": 0.85,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 679,
+    "width": 0.85,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 680,
+    "width": 1.2,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 681,
+    "width": 1.1,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 682,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 683,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 684,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 685,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 686,
+    "width": 0.8,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 687,
+    "width": 1.2,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 688,
+    "width": 1.3,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 689,
+    "width": 1.5,
+    "height": 2.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 690,
+    "width": 0.5,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 691,
+    "width": 1,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 692,
+    "width": 0.8,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 693,
+    "width": 1.4,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 694,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 695,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 696,
+    "width": 1.1,
+    "height": 1.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 697,
+    "width": 3.05,
+    "height": 4.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 698,
+    "width": 1,
+    "height": 2.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 699,
+    "width": 2.4,
+    "height": 5.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 700,
+    "width": 0.9,
+    "height": 1.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 701,
+    "width": 1.25,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 702,
+    "width": 0.9,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 703,
+    "width": 1,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 704,
+    "width": 0.83,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 705,
+    "width": 1.1,
+    "height": 1.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 706,
+    "width": 1.8,
+    "height": 3.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 707,
+    "width": 1.3,
+    "height": 1.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 708,
+    "width": 0.5,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 709,
+    "width": 1,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 710,
+    "width": 0.8,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 711,
+    "width": 0.9,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 712,
+    "width": 0.95,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 713,
+    "width": 4,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 714,
+    "width": 0.8,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 715,
+    "width": 2,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 716,
+    "width": 2,
+    "height": 4,
+    "fixed": false
+  },
+  {
+    "speciesId": 717,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 719,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 720,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 721,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 722,
+    "width": 0.95,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 723,
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 724,
+    "width": 0.9,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 725,
+    "width": 0.7,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 726,
+    "width": 1,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 727,
+    "width": 1,
+    "height": 2.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 728,
+    "width": 0.9,
+    "height": 0.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 729,
+    "width": 1.05,
+    "height": 1.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 730,
+    "width": 1.7,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 731,
+    "width": 0.4,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 732,
+    "width": 0.6,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 733,
+    "width": 0.6,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 734,
+    "width": 1.5,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 735,
+    "width": 1.25,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 736,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 737,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 738,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 739,
+    "width": 1.1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 740,
+    "width": 1.8,
+    "height": 2.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 742,
+    "width": 0.9,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 743,
+    "width": 0.85,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 744,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 746,
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 747,
+    "width": 1.2,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 748,
+    "width": 2,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 749,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 750,
+    "width": 1.3,
+    "height": 2.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 751,
+    "width": 0.8,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 752,
+    "width": 2.5,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 753,
+    "width": 0.55,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 754,
+    "width": 0.8,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 755,
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 756,
+    "width": 0.75,
+    "height": 0.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 757,
+    "width": 1.1,
+    "height": 0.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 758,
+    "width": 1.4,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 759,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 760,
+    "width": 1.2,
+    "height": 2.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 761,
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 762,
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 763,
+    "width": 0.9,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 764,
+    "width": 1.5,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 765,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 766,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 767,
+    "width": 0.8,
+    "height": 0.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 768,
+    "width": 1.5,
+    "height": 2.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 769,
+    "width": 0.9,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 770,
+    "width": 1.6,
+    "height": 1.55,
+    "fixed": false
+  },
+  {
+    "speciesId": 771,
+    "width": 0.75,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 772,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 773,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 774,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 775,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 776,
+    "width": 2,
+    "height": 2.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 777,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 778,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 779,
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 780,
+    "width": 3,
+    "height": 2.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 781,
+    "width": 2.5,
+    "height": 4,
+    "fixed": false
+  },
+  {
+    "speciesId": 782,
+    "width": 0.75,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 783,
+    "width": 1.1,
+    "height": 1.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 784,
+    "width": 2.2,
+    "height": 3.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 785,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 786,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 787,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 788,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 789,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 790,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 791,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 792,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 793,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 794,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 795,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 796,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 797,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 798,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 799,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 800,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 801,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 802,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 803,
+    "width": 0.7,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 804,
+    "width": 1.2,
+    "height": 4,
+    "fixed": false
+  },
+  {
+    "speciesId": 805,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 806,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 807,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 808,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 809,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 810,
+    "width": 0.8,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 811,
+    "width": 0.85,
+    "height": 1.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 812,
+    "width": 1.6,
+    "height": 2.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 813,
+    "width": 0.7,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 814,
+    "width": 0.5,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 815,
+    "width": 0.9,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 816,
+    "width": 0.9,
+    "height": 1.05,
+    "fixed": false
+  },
+  {
+    "speciesId": 817,
+    "width": 0.95,
+    "height": 1.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 818,
+    "width": 0.8,
+    "height": 2.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 819,
+    "width": 1.15,
+    "height": 1.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 820,
+    "width": 1.25,
+    "height": 1.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 821,
+    "width": 0.5,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 822,
+    "width": 0.65,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 823,
+    "width": 2,
+    "height": 4.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 824,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 825,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 826,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 827,
+    "width": 0.9,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 828,
+    "width": 1.2,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 829,
+    "width": 0.7,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 830,
+    "width": 0.6,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 831,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 832,
+    "width": 1,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 833,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 834,
+    "width": 2.0,
+    "height": 1.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 835,
+    "width": 0.7,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 836,
+    "width": 0.7,
+    "height": 1.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 837,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 838,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 839,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 840,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 841,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 842,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 843,
+    "width": 0.85,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 844,
+    "width": 2,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 845,
+    "width": 0.6,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 846,
+    "width": 0.7,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 847,
+    "width": 0.6,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 848,
+    "width": 0.7,
+    "height": 0.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 849,
+    "width": 1.15,
+    "height": 2.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 850,
+    "width": 1,
+    "height": 0.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 851,
+    "width": 1.9,
+    "height": 2.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 852,
+    "width": 0.9,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 853,
+    "width": 1.2,
+    "height": 2.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 854,
+    "width": 0.65,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 855,
+    "width": 1.1,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 856,
+    "width": 0.85,
+    "height": 0.85,
+    "fixed": false
+  },
+  {
+    "speciesId": 857,
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 858,
+    "width": 1.5,
+    "height": 4,
+    "fixed": false
+  },
+  {
+    "speciesId": 859,
+    "width": 0.75,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 860,
+    "width": 0.85,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 861,
+    "width": 1.5,
+    "height": 2.58,
+    "fixed": false
+  },
+  {
+    "speciesId": 862,
+    "width": 1.2,
+    "height": 2.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 863,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 864,
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 865,
+    "width": 0.9,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 866,
+    "width": 1.5,
+    "height": 2.35,
+    "fixed": false
+  },
+  {
+    "speciesId": 867,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 868,
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 869,
+    "width": 1.2,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 870,
+    "width": 2,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 871,
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 872,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 873,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 874,
+    "width": 2.3,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 875,
+    "width": 1.1,
+    "height": 1.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 876,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 877,
+    "width": 0.8,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 878,
+    "width": 1.15,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 879,
+    "width": 3.5,
+    "height": 4.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 880,
+    "width": 1.8,
+    "height": 2.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 881,
+    "width": 2,
+    "height": 3.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 882,
+    "width": 1.7,
+    "height": 4.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 883,
+    "width": 1.8,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 884,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 885,
+    "width": 0.75,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 886,
+    "width": 0.9,
+    "height": 1.55,
+    "fixed": false
+  },
+  {
+    "speciesId": 887,
+    "width": 1.2,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 888,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 889,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 890,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 891,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 892,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 893,
+    "width": 1.4,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 894,
+    "width": 1.5,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 895,
+    "width": 2,
+    "height": 2.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 896,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 897,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 898,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 899,
+    "width": 1.2,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 900,
+    "width": 1.2,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 901,
+    "width": 1.8,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 902,
+    "width": 2.2,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 903,
+    "width": 0.95,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 904,
+    "width": 1.2,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 906,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 907,
+    "width": 1,
+    "height": 1.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 908,
+    "width": 1,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 909,
+    "width": 0.8,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 910,
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 911,
+    "width": 2.4,
+    "height": 1.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 912,
+    "width": 0.8,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 913,
+    "width": 0.8,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 914,
+    "width": 1,
+    "height": 3.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 915,
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 916,
+    "width": 0.8,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 917,
+    "width": 0.95,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 918,
+    "width": 1.2,
+    "height": 2.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 924,
+    "width": 1.25,
+    "height": 0.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 925,
+    "width": 1.25,
+    "height": 0.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 926,
+    "width": 1.1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 927,
+    "width": 1.3,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 928,
+    "width": 0.6,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 929,
+    "width": 0.7,
+    "height": 1.73,
+    "fixed": false
+  },
+  {
+    "speciesId": 930,
+    "width": 0.9,
+    "height": 2.45,
+    "fixed": false
+  },
+  {
+    "speciesId": 931,
+    "width": 0.5,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 932,
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 933,
+    "width": 1,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 934,
+    "width": 2,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 935,
+    "width": 0.6,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 936,
+    "width": 1.2,
+    "height": 2.75,
+    "fixed": false
+  },
+  {
+    "speciesId": 937,
+    "width": 1.1,
+    "height": 2.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 938,
+    "width": 0.6,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 939,
+    "width": 1.3,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 940,
+    "width": 0.75,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 941,
+    "width": 1,
+    "height": 1.72,
+    "fixed": false
+  },
+  {
+    "speciesId": 942,
+    "width": 1,
+    "height": 0.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 943,
+    "width": 1.6,
+    "height": 1.9,
+    "fixed": false
+  },
+  {
+    "speciesId": 944,
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 945,
+    "width": 0.8,
+    "height": 1.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 947,
+    "width": 1.3,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 948,
+    "width": 1.0,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 949,
+    "width": 1.6,
+    "height": 3.05,
+    "fixed": false
+  },
+  {
+    "speciesId": 950,
+    "width": 2.65,
+    "height": 1.25,
+    "fixed": false
+  },
+  {
+    "speciesId": 951,
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 952,
+    "width": 1.5,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 953,
+    "width": 1.15,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 954,
+    "width": 1.35,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "speciesId": 955,
+    "width": 1,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 956,
+    "width": 1.2,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "speciesId": 957,
+    "width": 0.45,
+    "height": 0.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 958,
+    "width": 0.6,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 959,
+    "width": 0.85,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 960,
+    "width": 0.9,
+    "height": 0.7,
+    "fixed": false
+  },
+  {
+    "speciesId": 961,
+    "width": 1.5,
+    "height": 1.4,
+    "fixed": false
+  },
+  {
+    "speciesId": 963,
+    "width": 1.25,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 964,
+    "width": 1.25,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 965,
+    "width": 0.75,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 966,
+    "width": 0.7,
+    "height": 1.55,
+    "fixed": false
+  },
+  {
+    "speciesId": 967,
+    "width": 1.3,
+    "height": 1.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 968,
+    "width": 1.3,
+    "height": 0.5,
+    "fixed": false
+  },
+  {
+    "speciesId": 969,
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 970,
+    "width": 1.2,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "speciesId": 973,
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 974,
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 975,
+    "width": 2.8,
+    "height": 2.8,
+    "fixed": false
+  },
+  {
+    "speciesId": 976,
+    "width": 1.1,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 977,
+    "width": 3.5,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "speciesId": 978,
+    "width": 0.8,
+    "height": 0.65,
+    "fixed": false
+  },
+  {
+    "speciesId": 979,
+    "width": 0.8,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 980,
+    "width": 1.4,
+    "height": 1,
+    "fixed": false
+  },
+  {
+    "speciesId": 981,
+    "width": 1.4,
+    "height": 4.23,
+    "fixed": false
+  },
+  {
+    "speciesId": 999,
+    "width": 1,
+    "height": 1.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 1000,
+    "width": 0.85,
+    "height": 2.15,
+    "fixed": false
+  },
+  {
+    "speciesId": 1009,
+    "width": 1.9,
+    "height": 3.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 1010,
+    "width": 0.9,
+    "height": 2.3,
+    "fixed": false
+  },
+  {
+    "speciesId": 1012,
+    "width": 0.65,
+    "height": 1.2,
+    "fixed": false
+  },
+  {
+    "speciesId": 1013,
+    "width": 1.2,
+    "height": 2,
+    "fixed": false
+  }
+]

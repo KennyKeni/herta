@@ -1,0 +1,86 @@
+[
+  {
+    "formId": 49,
+    "width": 0.8,
+    "height": 1.75,
+    "fixed": false
+  },
+  {
+    "formId": 65,
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  {
+    "formId": 158,
+    "width": 1.6,
+    "height": 11,
+    "fixed": false
+  },
+  {
+    "formId": 162,
+    "width": 0.7,
+    "height": 1.6,
+    "fixed": false
+  },
+  {
+    "formId": 183,
+    "width": 0.8,
+    "height": 2.3,
+    "fixed": false
+  },
+  {
+    "formId": 714,
+    "width": 0.5,
+    "height": 2.1,
+    "fixed": false
+  },
+  {
+    "formId": 724,
+    "width": 1.3,
+    "height": 1.5,
+    "fixed": false
+  },
+  {
+    "formId": 746,
+    "width": 1.3,
+    "height": 3.3,
+    "fixed": false
+  },
+  {
+    "formId": 909,
+    "width": 1.45,
+    "height": 1.75,
+    "fixed": false
+  },
+  {
+    "formId": 911,
+    "width": 2.5,
+    "height": 3.6,
+    "fixed": false
+  },
+  {
+    "formId": 975,
+    "width": 3,
+    "height": 3,
+    "fixed": false
+  },
+  {
+    "formId": 1150,
+    "width": 0.65,
+    "height": 1.35,
+    "fixed": false
+  },
+  {
+    "formId": 1261,
+    "width": 1.2,
+    "height": 2.5,
+    "fixed": false
+  },
+  {
+    "formId": 1300,
+    "width": 0.6,
+    "height": 0.8,
+    "fixed": false
+  }
+]

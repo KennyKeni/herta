@@ -1,0 +1,2228 @@
+[
+  {
+    "moveId": 12,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 180,
+    "zEffect": null
+  },
+  {
+    "moveId": 14,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 18,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 28,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 32,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 180,
+    "zEffect": null
+  },
+  {
+    "moveId": 39,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 42,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 140,
+    "zEffect": null
+  },
+  {
+    "moveId": 43,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 45,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 46,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 47,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 48,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 50,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 54,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 67,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 72,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 120,
+    "zEffect": null
+  },
+  {
+    "moveId": 73,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 74,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 77,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 78,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 79,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 81,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 86,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 90,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 180,
+    "zEffect": null
+  },
+  {
+    "moveId": 92,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 95,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 96,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 97,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 100,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 102,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 103,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 104,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 105,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 106,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 107,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 108,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 109,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 110,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 111,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 112,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 113,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 114,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 115,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 116,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 119,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 133,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 134,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 135,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 137,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 139,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 142,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 144,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 147,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 148,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 150,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 151,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 156,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 159,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 160,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 164,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 166,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 167,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 120,
+    "zEffect": null
+  },
+  {
+    "moveId": 169,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 170,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 171,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 174,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "curse"
+  },
+  {
+    "moveId": 175,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 176,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 178,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 179,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 180,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 182,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 184,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 186,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 187,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 191,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 193,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "crit2"
+  },
+  {
+    "moveId": 194,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "redirect"
+  },
+  {
+    "moveId": 195,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 197,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 198,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 140,
+    "zEffect": null
+  },
+  {
+    "moveId": 199,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 201,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 203,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 204,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 207,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 208,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 212,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 213,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 214,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "crit2"
+  },
+  {
+    "moveId": 215,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 216,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 218,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 219,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 220,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 222,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 140,
+    "zEffect": null
+  },
+  {
+    "moveId": 226,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 227,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 230,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 234,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 235,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 236,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 240,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 241,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 244,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 254,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 256,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 258,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 259,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 260,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 261,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 262,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "healreplacement"
+  },
+  {
+    "moveId": 266,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 268,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 269,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 270,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 271,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 272,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 273,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 275,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 277,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 278,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 281,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 283,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 285,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 286,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 287,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 288,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "redirect"
+  },
+  {
+    "moveId": 289,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 293,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 294,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 297,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 298,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 300,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 303,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 311,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 312,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "heal"
+  },
+  {
+    "moveId": 313,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 316,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 319,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 320,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 321,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 322,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 329,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 180,
+    "zEffect": null
+  },
+  {
+    "moveId": 331,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 140,
+    "zEffect": null
+  },
+  {
+    "moveId": 333,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 140,
+    "zEffect": null
+  },
+  {
+    "moveId": 334,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 335,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 336,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 339,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 346,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 347,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 349,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 350,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 140,
+    "zEffect": null
+  },
+  {
+    "moveId": 355,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 356,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 357,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 360,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 363,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 366,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "crit2"
+  },
+  {
+    "moveId": 367,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "crit2"
+  },
+  {
+    "moveId": 373,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 375,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 376,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 377,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 378,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 190,
+    "zEffect": null
+  },
+  {
+    "moveId": 379,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 380,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 381,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 382,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 383,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 384,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 385,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 386,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 388,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 390,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 391,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "crit2"
+  },
+  {
+    "moveId": 392,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 393,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 397,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 415,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 417,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 432,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 433,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 445,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 446,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 447,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 455,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 456,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 458,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 140,
+    "zEffect": null
+  },
+  {
+    "moveId": 462,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 190,
+    "zEffect": null
+  },
+  {
+    "moveId": 464,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 468,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 469,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 470,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 471,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 472,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 475,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 476,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 477,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 478,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 483,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 484,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 486,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 487,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 489,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 493,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 494,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 495,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 500,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 501,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 502,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 504,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 505,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 506,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 508,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 511,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 513,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 515,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 180,
+    "zEffect": null
+  },
+  {
+    "moveId": 516,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 526,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 535,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 538,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 541,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 140,
+    "zEffect": null
+  },
+  {
+    "moveId": 544,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 180,
+    "zEffect": null
+  },
+  {
+    "moveId": 557,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 220,
+    "zEffect": null
+  },
+  {
+    "moveId": 560,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 170,
+    "zEffect": null
+  },
+  {
+    "moveId": 561,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 563,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 564,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 567,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 568,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 569,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 571,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 575,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "healreplacement"
+  },
+  {
+    "moveId": 576,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 578,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 579,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 580,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 581,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 582,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 587,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 588,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 589,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 590,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 596,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 597,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 598,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 599,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 600,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 601,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 602,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 603,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 604,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 606,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 607,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 608,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 614,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 180,
+    "zEffect": null
+  },
+  {
+    "moveId": 616,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 185,
+    "zEffect": null
+  },
+  {
+    "moveId": 622,
+    "isZExclusive": true,
+    "zCrystal": "normaliumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 624,
+    "isZExclusive": true,
+    "zCrystal": "fightiniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 626,
+    "isZExclusive": true,
+    "zCrystal": "flyiniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 628,
+    "isZExclusive": true,
+    "zCrystal": "poisoniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 630,
+    "isZExclusive": true,
+    "zCrystal": "groundiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 632,
+    "isZExclusive": true,
+    "zCrystal": "rockiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 634,
+    "isZExclusive": true,
+    "zCrystal": "buginiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 636,
+    "isZExclusive": true,
+    "zCrystal": "ghostiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 638,
+    "isZExclusive": true,
+    "zCrystal": "steeliumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 640,
+    "isZExclusive": true,
+    "zCrystal": "firiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 642,
+    "isZExclusive": true,
+    "zCrystal": "wateriumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 644,
+    "isZExclusive": true,
+    "zCrystal": "grassiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 646,
+    "isZExclusive": true,
+    "zCrystal": "electriumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 648,
+    "isZExclusive": true,
+    "zCrystal": "psychiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 650,
+    "isZExclusive": true,
+    "zCrystal": "iciumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 652,
+    "isZExclusive": true,
+    "zCrystal": "dragoniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 654,
+    "isZExclusive": true,
+    "zCrystal": "darkiniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 656,
+    "isZExclusive": true,
+    "zCrystal": "fairiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 658,
+    "isZExclusive": true,
+    "zCrystal": "pikaniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 659,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 661,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 666,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 668,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 671,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 672,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 673,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 674,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 678,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 681,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 683,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 685,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 687,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 140,
+    "zEffect": null
+  },
+  {
+    "moveId": 689,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 694,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 695,
+    "isZExclusive": true,
+    "zCrystal": "decidiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 696,
+    "isZExclusive": true,
+    "zCrystal": "inciniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 697,
+    "isZExclusive": true,
+    "zCrystal": "primariumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 698,
+    "isZExclusive": true,
+    "zCrystal": "tapuniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 699,
+    "isZExclusive": true,
+    "zCrystal": "marshadiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 700,
+    "isZExclusive": true,
+    "zCrystal": "aloraichiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 701,
+    "isZExclusive": true,
+    "zCrystal": "snorliumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 702,
+    "isZExclusive": true,
+    "zCrystal": "eeviumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 703,
+    "isZExclusive": true,
+    "zCrystal": "mewniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 715,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 718,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 185,
+    "zEffect": null
+  },
+  {
+    "moveId": 719,
+    "isZExclusive": true,
+    "zCrystal": "pikashuniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 723,
+    "isZExclusive": true,
+    "zCrystal": "ultranecroziumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 724,
+    "isZExclusive": true,
+    "zCrystal": "solganiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 725,
+    "isZExclusive": true,
+    "zCrystal": "lunaliumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 726,
+    "isZExclusive": true,
+    "zCrystal": "mimikiumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 727,
+    "isZExclusive": true,
+    "zCrystal": "lycaniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 728,
+    "isZExclusive": true,
+    "zCrystal": "kommoniumz",
+    "zPower": null,
+    "zEffect": null
+  },
+  {
+    "moveId": 742,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 180,
+    "zEffect": null
+  },
+  {
+    "moveId": 799,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 140,
+    "zEffect": null
+  },
+  {
+    "moveId": 805,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 160,
+    "zEffect": null
+  },
+  {
+    "moveId": 813,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 120,
+    "zEffect": null
+  },
+  {
+    "moveId": 818,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 140,
+    "zEffect": null
+  },
+  {
+    "moveId": 880,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": null,
+    "zEffect": "clearnegativeboost"
+  },
+  {
+    "moveId": 911,
+    "isZExclusive": false,
+    "zCrystal": null,
+    "zPower": 180,
+    "zEffect": null
+  }
+]

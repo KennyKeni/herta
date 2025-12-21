@@ -1,0 +1,421 @@
+[
+  {
+    "formId": 38,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": [
+      "undiscovered"
+    ],
+    "eggCycles": null,
+    "maleRatio": 1,
+    "baseScale": null
+  },
+  {
+    "formId": 63,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.6
+  },
+  {
+    "formId": 65,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.65
+  },
+  {
+    "formId": 135,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.7
+  },
+  {
+    "formId": 137,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 1.25
+  },
+  {
+    "formId": 162,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.8
+  },
+  {
+    "formId": 183,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.8
+  },
+  {
+    "formId": 215,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": 120,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 217,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": 120,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 219,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": 120,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 235,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.75
+  },
+  {
+    "formId": 378,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": [
+      "amorphous",
+      "human_like"
+    ],
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 501,
+    "catchRate": 45,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 608,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": [
+      "amorphous",
+      "human_like"
+    ],
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 665,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.75
+  },
+  {
+    "formId": 714,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.8
+  },
+  {
+    "formId": 746,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.85
+  },
+  {
+    "formId": 800,
+    "catchRate": null,
+    "baseFriendship": 50,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 854,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": [
+      "undiscovered"
+    ],
+    "eggCycles": null,
+    "maleRatio": 1,
+    "baseScale": null
+  },
+  {
+    "formId": 855,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": [
+      "undiscovered"
+    ],
+    "eggCycles": null,
+    "maleRatio": 1,
+    "baseScale": null
+  },
+  {
+    "formId": 870,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": [
+      "undiscovered"
+    ],
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 879,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": 0,
+    "baseScale": null
+  },
+  {
+    "formId": 911,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 1
+  },
+  {
+    "formId": 916,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.6
+  },
+  {
+    "formId": 917,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 1
+  },
+  {
+    "formId": 918,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 1.4
+  },
+  {
+    "formId": 920,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.43
+  },
+  {
+    "formId": 921,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.7
+  },
+  {
+    "formId": 922,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 1
+  },
+  {
+    "formId": 939,
+    "catchRate": null,
+    "baseFriendship": 50,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 975,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 2
+  },
+  {
+    "formId": 1021,
+    "catchRate": 30,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 1051,
+    "catchRate": 255,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 1152,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": 0,
+    "baseScale": null
+  },
+  {
+    "formId": 1190,
+    "catchRate": 5,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": 1,
+    "baseScale": null
+  },
+  {
+    "formId": 1192,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": 0,
+    "baseScale": null
+  },
+  {
+    "formId": 1208,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": 0,
+    "baseScale": null
+  },
+  {
+    "formId": 1300,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": null,
+    "maleRatio": null,
+    "baseScale": 0.7
+  },
+  {
+    "formId": 1321,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": 5,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 1322,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": 5,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 1323,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": 5,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 1324,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": 5,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 1325,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": 5,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 1326,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": 5,
+    "maleRatio": null,
+    "baseScale": null
+  },
+  {
+    "formId": 1327,
+    "catchRate": null,
+    "baseFriendship": null,
+    "eggGroups": null,
+    "eggCycles": 5,
+    "maleRatio": null,
+    "baseScale": null
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "battle_gimmick": {
+    "rule": "mutex",
+    "description": "Only one battle gimmick active at a time",
+    "name": "Battle Gimmick"
+  },
+  "regional": {
+    "rule": "one_of",
+    "description": "Pokemon belongs to exactly one region",
+    "name": "Regional Form"
+  },
+  "regional_bias": {
+    "rule": "one_of",
+    "description": "Pokemon evolves toward one regional form",
+    "name": "Regional Bias"
+  },
+  "vivillon_pattern": {
+    "rule": "one_of",
+    "description": "Vivillon has exactly one wing pattern",
+    "name": "Vivillon Pattern"
+  },
+  "flower_type": {
+    "rule": "one_of",
+    "description": "Flabebe line has exactly one flower type",
+    "name": "Flower Type"
+  }
+}

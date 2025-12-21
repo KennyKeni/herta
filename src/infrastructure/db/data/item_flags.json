@@ -1,0 +1,490 @@
+[
+  {
+    "item_id": "cobblemon:ability_shield",
+    "flag": "ignoreKlutz"
+  },
+  {
+    "item_id": "cobblemon:aguav_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:apicot_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:aspear_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:babiri_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:beast_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:belue_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:bluk_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:bug_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:charti_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:cheri_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:cherish_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:chesto_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:chilan_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:choice_band",
+    "flag": "isChoice"
+  },
+  {
+    "item_id": "cobblemon:choice_scarf",
+    "flag": "isChoice"
+  },
+  {
+    "item_id": "cobblemon:choice_specs",
+    "flag": "isChoice"
+  },
+  {
+    "item_id": "cobblemon:chople_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:coba_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:colbur_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:cornn_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:custap_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:dark_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:dive_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:dragon_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:dream_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:durin_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:dusk_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:electric_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:enigma_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:fairy_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:fast_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:fighting_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:figy_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:fire_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:flying_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:friend_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:ganlon_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:ghost_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:grass_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:great_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:grepa_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:ground_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:haban_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:heal_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:heavy_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:hondew_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:iapapa_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:ice_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:jaboca_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:kasib_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:kebia_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:kee_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:kelpsy_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:lansat_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:leppa_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:level_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:liechi_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:love_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:lum_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:lure_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:luxury_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:mago_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:magost_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:maranga_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:master_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:micle_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:moon_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:nanab_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:nest_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:net_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:nomel_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:normal_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:occa_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:oran_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:pamtre_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:park_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:passho_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:payapa_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:pecha_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:persim_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:petaya_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:pinap_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:poison_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:poke_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:pomeg_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:power_anklet",
+    "flag": "ignoreKlutz"
+  },
+  {
+    "item_id": "cobblemon:power_band",
+    "flag": "ignoreKlutz"
+  },
+  {
+    "item_id": "cobblemon:power_belt",
+    "flag": "ignoreKlutz"
+  },
+  {
+    "item_id": "cobblemon:power_bracer",
+    "flag": "ignoreKlutz"
+  },
+  {
+    "item_id": "cobblemon:power_lens",
+    "flag": "ignoreKlutz"
+  },
+  {
+    "item_id": "cobblemon:power_weight",
+    "flag": "ignoreKlutz"
+  },
+  {
+    "item_id": "cobblemon:premier_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:psychic_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:qualot_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:quick_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:rabuta_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:rawst_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:razz_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:repeat_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:rindo_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:rock_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:roseli_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:rowap_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:safari_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:salac_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:shuca_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:sitrus_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:spelon_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:sport_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:starf_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:steel_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:tamato_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:tanga_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:timer_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:ultra_ball",
+    "flag": "isPokeball"
+  },
+  {
+    "item_id": "cobblemon:wacan_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:water_gem",
+    "flag": "isGem"
+  },
+  {
+    "item_id": "cobblemon:watmel_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:wepear_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:wiki_berry",
+    "flag": "isBerry"
+  },
+  {
+    "item_id": "cobblemon:yache_berry",
+    "flag": "isBerry"
+  }
+]

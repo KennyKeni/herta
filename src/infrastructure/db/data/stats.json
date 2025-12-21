@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "HP"
+  },
+  {
+    "id": 2,
+    "name": "Attack"
+  },
+  {
+    "id": 3,
+    "name": "Defense"
+  },
+  {
+    "id": 4,
+    "name": "Special Attack"
+  },
+  {
+    "id": 5,
+    "name": "Special Defense"
+  },
+  {
+    "id": 6,
+    "name": "Speed"
+  }
+]

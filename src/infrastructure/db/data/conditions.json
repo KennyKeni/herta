@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "name": "aquaring",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 2,
+    "name": "attract",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 3,
+    "name": "banefulbunker",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 4,
+    "name": "bide",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 5,
+    "name": "Burn",
+    "type": "status",
+    "description": "Takes 1/16 max HP damage each turn. Attack halved."
+  },
+  {
+    "id": 6,
+    "name": "burningbulwark",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 7,
+    "name": "charge",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 8,
+    "name": "confusion",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 9,
+    "name": "curse",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 10,
+    "name": "defensecurl",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 11,
+    "name": "destinybond",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 12,
+    "name": "disable",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 13,
+    "name": "dragoncheer",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 14,
+    "name": "electrify",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 15,
+    "name": "embargo",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 16,
+    "name": "encore",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 17,
+    "name": "endure",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 18,
+    "name": "flinch",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 19,
+    "name": "focusenergy",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 20,
+    "name": "followme",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 21,
+    "name": "foresight",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 22,
+    "name": "Freeze",
+    "type": "status",
+    "description": "Cannot move. 20% chance to thaw each turn. Fire moves thaw."
+  },
+  {
+    "id": 23,
+    "name": "gastroacid",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 24,
+    "name": "grudge",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 25,
+    "name": "healblock",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 26,
+    "name": "helpinghand",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 27,
+    "name": "imprison",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 28,
+    "name": "ingrain",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 29,
+    "name": "kingsshield",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 30,
+    "name": "laserfocus",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 31,
+    "name": "leechseed",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 32,
+    "name": "magiccoat",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 33,
+    "name": "magnetrise",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 34,
+    "name": "maxguard",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 35,
+    "name": "minimize",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 36,
+    "name": "miracleeye",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 37,
+    "name": "nightmare",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 38,
+    "name": "noretreat",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 39,
+    "name": "obstruct",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 40,
+    "name": "octolock",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 41,
+    "name": "Paralysis",
+    "type": "status",
+    "description": "Speed halved. 25% chance to be fully paralyzed each turn."
+  },
+  {
+    "id": 42,
+    "name": "partiallytrapped",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 43,
+    "name": "powder",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 44,
+    "name": "powershift",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 45,
+    "name": "powertrick",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 46,
+    "name": "protect",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 47,
+    "name": "Poison",
+    "type": "status",
+    "description": "Takes 1/8 max HP damage each turn."
+  },
+  {
+    "id": 48,
+    "name": "ragepowder",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 49,
+    "name": "saltcure",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 50,
+    "name": "silktrap",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 51,
+    "name": "Sleep",
+    "type": "status",
+    "description": "Cannot move for 1-3 turns. Wakes up at turn end."
+  },
+  {
+    "id": 52,
+    "name": "smackdown",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 53,
+    "name": "snatch",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 54,
+    "name": "sparklingaria",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 55,
+    "name": "spikyshield",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 56,
+    "name": "spotlight",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 57,
+    "name": "stockpile",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 58,
+    "name": "substitute",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 59,
+    "name": "syrupbomb",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 60,
+    "name": "tarshot",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 61,
+    "name": "taunt",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 62,
+    "name": "telekinesis",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 63,
+    "name": "torment",
+    "type": "volatile",
+    "description": ""
+  },
+  {
+    "id": 64,
+    "name": "Toxic",
+    "type": "status",
+    "description": "Takes increasing damage each turn (1/16, 2/16, ... up to 15/16)."
+  },
+  {
+    "id": 65,
+    "name": "yawn",
+    "type": "volatile",
+    "description": ""
+  }
+]

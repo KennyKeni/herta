@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "slug": "bite",
+    "name": "Bite",
+    "description": "Boosted 1.5x by Strong Jaw."
+  },
+  {
+    "id": 2,
+    "slug": "bullet",
+    "name": "Ballistic",
+    "description": "Doesn't affect Bulletproof Pok\u00e9mon."
+  },
+  {
+    "id": 3,
+    "slug": "bypasssub",
+    "name": "Bypass Substitute",
+    "description": "Bypasses but does not break a Substitute."
+  },
+  {
+    "id": 4,
+    "slug": "contact",
+    "name": "Contact",
+    "description": "Affected by a variety of moves, abilities, and items. Moves affected by contact moves include: Spiky Shield, King's Shield. Abilities affected by contact moves include: Iron Barbs, Rough Skin, Gooey, Flame Body, Static, Tough Claws. Items affected by contact moves include: Rocky Helmet, Sticky Barb."
+  },
+  {
+    "id": 5,
+    "slug": "powder",
+    "name": "Powder",
+    "description": "Doesn't affect Grass-type Pok\u00e9mon, Overcoat Pok\u00e9mon, or Safety Goggles holders."
+  },
+  {
+    "id": 6,
+    "slug": "pulse",
+    "name": "Pulse",
+    "description": "Boosted 1.5x by Mega Launcher."
+  },
+  {
+    "id": 7,
+    "slug": "punch",
+    "name": "Fist",
+    "description": "Boosted 1.2x by Iron Fist."
+  },
+  {
+    "id": 8,
+    "slug": "sound",
+    "name": "Sound",
+    "description": "Doesn't affect Soundproof Pok\u00e9mon. (All sound moves also bypass Substitute.)"
+  }
+]
