@@ -3,13 +3,23 @@
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/index.ts",
+    "migrate:make": "bunx --bun kysely migrate:make --config .config/kysely.config.ts",
+    "migrate:up": "bunx --bun kysely migrate:up --config .config/kysely.config.ts",
+    "migrate:down": "bunx --bun kysely migrate:down --config .config/kysely.config.ts",
+    "migrate:latest": "bunx --bun kysely migrate:latest --config .config/kysely.config.ts",
+    "migrate:list": "bunx --bun kysely migrate:list --config .config/kysely.config.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "elysia": "latest",
+    "kysely": "^0.28.9",
+    "kysely-postgres-js": "^3.0.0"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "@typescript/native-preview": "^7.0.0-dev.20251219.1",
+    "bun-types": "latest",
+    "kysely-codegen": "^0.19.0",
+    "kysely-ctl": "^0.19.0"
   },
   "module": "src/index.js"
 }
