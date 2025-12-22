@@ -10,7 +10,12 @@ const postgresSchema = t.Object({
 })
 
 const redisSchema = t.Object({
-  REDIS_PORT: t.String({ minLength: 1 }),
+  REDIS_HOST: t.String({ minLength: 1 }),
+  REDIS_PORT: t.Numeric({ minLength: 1 }),
+})
+
+const kafkaSchema = t.Object({
+  KAFKA_BROKERS: t.String({ minLength: 1 }),
 })
 
 const postgres = Value.Parse(postgresSchema, {
@@ -21,11 +26,18 @@ const postgres = Value.Parse(postgresSchema, {
 })
 
 const redis = Value.Parse(redisSchema, {
+  REDIS_HOST: 'localhost',
   REDIS_PORT: '6379',
+  ...Bun.env,
+})
+
+const kafka = Value.Parse(kafkaSchema, {
+  KAFKA_BROKERS: 'localhost:9092',
   ...Bun.env,
 })
 
 export const config = {
   postgres,
   redis,
+  kafka,
 } as const

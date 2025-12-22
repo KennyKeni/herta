@@ -1,1 +1,12976 @@
-null
+[
+  {
+    "formId": 1,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 2,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 3,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 4,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 5,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 6,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 7,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 8,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 9,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 10,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 11,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 12,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 13,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 14,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 15,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 16,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 17,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 18,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 19,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 20,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 21,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 22,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 23,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 24,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 25,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 26,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 27,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 28,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 29,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 30,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 31,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 32,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 33,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 34,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 35,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 36,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 37,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 38,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 39,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 40,
+    "data": {
+      "tags": [
+        "customized_official",
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 48,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 49,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 50,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 51,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 52,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 53,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 54,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 55,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 56,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 57,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 58,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 59,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 60,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 61,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 62,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 63,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 64,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 65,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 66,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 67,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 68,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 69,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 70,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 71,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 72,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 73,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 74,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 75,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 76,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 77,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 78,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 79,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 80,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 81,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 82,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 83,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 84,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 85,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 86,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 87,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 88,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 89,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 90,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 91,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 92,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 93,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 94,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 95,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 96,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 97,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 98,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 99,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 100,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 101,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 102,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 103,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 104,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 105,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 106,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 107,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 108,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 109,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 110,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 111,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 112,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 113,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 114,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 115,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 116,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 117,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 118,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 119,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 120,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 121,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 122,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 123,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 124,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 125,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 126,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 127,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 128,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 129,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 130,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 131,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 132,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 133,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 134,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 135,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 136,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 137,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 138,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 139,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 140,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 141,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 142,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 143,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 144,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 145,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 146,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 147,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 148,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 149,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 150,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 151,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 152,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 153,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 154,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 155,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 156,
+    "data": {
+      "tags": [
+        "customized_official",
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 157,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 158,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 159,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 160,
+    "data": {
+      "tags": [
+        "customized_official",
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 161,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 162,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 163,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 164,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 165,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 166,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 167,
+    "data": {
+      "tags": [
+        "customized_official",
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 168,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 169,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 170,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 171,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 172,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 173,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 174,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 175,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 176,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 177,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 178,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 179,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 180,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 181,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 182,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 183,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 184,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 185,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 186,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 187,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 188,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 189,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 190,
+    "data": {
+      "tags": [
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 191,
+    "data": {
+      "tags": [
+        "paldean_form"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 192,
+    "data": {
+      "tags": [
+        "paldean_form"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 193,
+    "data": {
+      "tags": [
+        "paldean_form"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 194,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 195,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 196,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 197,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 198,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 199,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 200,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 201,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 202,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 203,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 204,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 205,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 206,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 207,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 208,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 209,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 210,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 211,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 212,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 213,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 214,
+    "data": {
+      "tags": [
+        "legendary",
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 215,
+    "data": {
+      "tags": [
+        "legendary",
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 216,
+    "data": {
+      "tags": [
+        "legendary",
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 217,
+    "data": {
+      "tags": [
+        "legendary",
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 218,
+    "data": {
+      "tags": [
+        "legendary",
+        "kantonian_form"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 219,
+    "data": {
+      "tags": [
+        "legendary",
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 220,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 221,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 222,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen1",
+        "powerhouse"
+      ]
+    }
+  },
+  {
+    "formId": 223,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen1",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 224,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen6",
+        "restricted",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 225,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen6",
+        "restricted",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 226,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen1"
+      ]
+    }
+  },
+  {
+    "formId": 227,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 228,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 229,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 230,
+    "data": {
+      "tags": [
+        "starter",
+        "johtonian_form"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 231,
+    "data": {
+      "tags": [
+        "starter",
+        "customized_official",
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 232,
+    "data": {
+      "tags": [
+        "johtonian_form"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 233,
+    "data": {
+      "tags": [
+        "customized_official",
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 234,
+    "data": {
+      "tags": [
+        "johtonian_form"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 235,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 236,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 237,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 238,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 239,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 240,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 241,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 242,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 243,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 244,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 245,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 246,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 247,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 248,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 249,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 250,
+    "data": {
+      "tags": [
+        "baby",
+        "johtonian_form"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 251,
+    "data": {
+      "tags": [
+        "baby",
+        "customized_official",
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 252,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 253,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 254,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 255,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 256,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 257,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 258,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 259,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 260,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 261,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 262,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 263,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 264,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 265,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 266,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 267,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 268,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 269,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 270,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 271,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 272,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 273,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 274,
+    "data": {
+      "tags": [
+        "johtonian_form"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 275,
+    "data": {
+      "tags": [
+        "paldean_form"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 276,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 277,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 278,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 279,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 280,
+    "data": {
+      "tags": [
+        "johtonian_form"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 281,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 282,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 283,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 284,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 285,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 286,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 287,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 288,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 289,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 290,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 291,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 292,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 293,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 294,
+    "data": {
+      "tags": [
+        "johtonian_form"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 295,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 296,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 297,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 298,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 299,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 300,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 301,
+    "data": {
+      "tags": [
+        "johtonian_form"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 302,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 303,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 304,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 305,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 306,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 307,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 308,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 309,
+    "data": {
+      "tags": [
+        "johtonian_form"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 310,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 311,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 312,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 313,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 314,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 315,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 316,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 317,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 318,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 319,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 320,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 321,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 322,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 323,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 324,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 325,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 326,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 327,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 328,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 329,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 330,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 331,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 332,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 333,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 334,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 335,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 336,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 337,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen2",
+        "powerhouse"
+      ]
+    }
+  },
+  {
+    "formId": 338,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 339,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen2",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 340,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen2",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 341,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen2"
+      ]
+    }
+  },
+  {
+    "formId": 342,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 343,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 344,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 345,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 346,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 347,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 348,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 349,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 350,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 351,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 352,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 353,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 354,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 355,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 356,
+    "data": {
+      "tags": [
+        "hoennian_form"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 357,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 358,
+    "data": {
+      "tags": [
+        "hoennian_form"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 359,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 360,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 361,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 362,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 363,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 364,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 365,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 366,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 367,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 368,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 369,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 370,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 371,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 372,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 373,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 374,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 375,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 376,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 377,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 378,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 379,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 380,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 381,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 382,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 383,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 384,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 385,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 386,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 387,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 388,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 389,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 390,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 391,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 392,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 393,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 394,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 395,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 396,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 397,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 398,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 399,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 400,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 401,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 402,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 403,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 404,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 405,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 406,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 407,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 408,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 409,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 410,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 411,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 412,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 413,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 414,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 415,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 416,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 417,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 418,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 419,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 420,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 421,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 422,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 423,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 424,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 425,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 426,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 427,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 428,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 429,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 430,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 431,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 432,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 433,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 434,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 435,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 436,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 437,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 438,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 439,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 440,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 441,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 442,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 443,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 444,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 445,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 446,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 447,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 448,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 449,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 450,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 451,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 452,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 453,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 454,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 455,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 456,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 457,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 458,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 459,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 460,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 461,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 462,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 463,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 464,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 465,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 466,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 467,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 468,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 469,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 470,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 471,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 472,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 473,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 474,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 475,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 476,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 477,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 478,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 479,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 480,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 481,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 482,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 483,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3",
+        "powerhouse"
+      ]
+    }
+  },
+  {
+    "formId": 484,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 485,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 486,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 487,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen3",
+        "powerhouse"
+      ]
+    }
+  },
+  {
+    "formId": 488,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 489,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 490,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 491,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 492,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 493,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 494,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 495,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 496,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen3",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 497,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen6",
+        "restricted",
+        "primal"
+      ]
+    }
+  },
+  {
+    "formId": 498,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen3",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 499,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen6",
+        "restricted",
+        "primal"
+      ]
+    }
+  },
+  {
+    "formId": 500,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen3",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 501,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen6",
+        "restricted",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 502,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 503,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen3"
+      ]
+    }
+  },
+  {
+    "formId": 504,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 505,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 506,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 507,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 508,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 509,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 510,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 511,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 512,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 513,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 514,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 515,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 516,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 517,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 518,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 519,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 520,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 521,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 522,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 523,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 524,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 525,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 526,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 527,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 528,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 529,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 530,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 531,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 532,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 533,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 534,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 535,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 536,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 537,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 538,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 539,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 540,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 541,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 542,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 543,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 544,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 545,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 546,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 547,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 548,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 549,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 550,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 551,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 552,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 553,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 554,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 555,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 556,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 557,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 558,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 559,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 560,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 561,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 562,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 563,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 564,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 565,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 566,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 567,
+    "data": {
+      "tags": [
+        "baby",
+        "sinnohan_form"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 568,
+    "data": {
+      "tags": [
+        "baby",
+        "customized_official",
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 569,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 570,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 571,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 572,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 573,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 574,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4",
+        "powerhouse"
+      ]
+    }
+  },
+  {
+    "formId": 575,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 576,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 577,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 578,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 579,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 580,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 581,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 582,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 583,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 584,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 585,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 586,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 587,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 588,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 589,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 590,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 591,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 592,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 593,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 594,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 595,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 596,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 597,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 598,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 599,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 600,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 601,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 602,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 603,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 604,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 605,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 606,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 607,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 608,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 609,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 610,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 611,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 612,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 613,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 614,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 615,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 616,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 617,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 618,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 619,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 620,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 621,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen4",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 622,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8a",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 623,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen4",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 624,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8a",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 625,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 626,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 627,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen4",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 628,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen4",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 629,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 630,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 631,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 632,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 633,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 634,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 635,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 636,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 637,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 638,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 639,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 640,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 641,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 642,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 643,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 644,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 645,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 646,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 647,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 648,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 649,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 650,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 651,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen4"
+      ]
+    }
+  },
+  {
+    "formId": 652,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 653,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 654,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 655,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 656,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 657,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 658,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 659,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 660,
+    "data": {
+      "tags": [
+        "starter",
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 661,
+    "data": {
+      "tags": [
+        "starter",
+        "customized_official",
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 662,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 663,
+    "data": {
+      "tags": [
+        "customized_official",
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 664,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 665,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 666,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 667,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 668,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 669,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 670,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 671,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 672,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 673,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 674,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 675,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 676,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 677,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 678,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 679,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 680,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 681,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 682,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 683,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 684,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 685,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 686,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 687,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 688,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 689,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 690,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 691,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 692,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 693,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 694,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 695,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 696,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 697,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 698,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 699,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 700,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 701,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 702,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 703,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 704,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 705,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 706,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 707,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 708,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 709,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 710,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 711,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 712,
+    "data": {
+      "tags": [
+        "customized_official",
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 713,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 714,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 715,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 716,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 717,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 718,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 719,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 720,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 721,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 722,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 723,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 724,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 725,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 726,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 727,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 728,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 729,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 730,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 731,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 732,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 733,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 734,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 735,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 736,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 737,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 738,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 739,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 740,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 741,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 742,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 743,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 744,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 745,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 746,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 747,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 748,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 749,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 750,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 751,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 752,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 753,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 754,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 755,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 756,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 757,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 758,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 759,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 760,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 761,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 762,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 763,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 764,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 765,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 766,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 767,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 768,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 769,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 770,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 771,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 772,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 773,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 774,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 775,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 776,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 777,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 778,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 779,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 780,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 781,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 782,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 783,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 784,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 785,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 786,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 787,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 788,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 789,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 790,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 791,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 792,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 793,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 794,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 795,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 796,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 797,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 798,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 799,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 800,
+    "data": {
+      "tags": [
+        "galarian_form"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 801,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 802,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 803,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 804,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 805,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 806,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 807,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 808,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 809,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 810,
+    "data": {
+      "tags": [
+        "customized_official",
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 811,
+    "data": {
+      "tags": [
+        "unovan_form"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 812,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 813,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 814,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 815,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 816,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 817,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 818,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 819,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5",
+        "powerhouse"
+      ]
+    }
+  },
+  {
+    "formId": 820,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 821,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 822,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 823,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 824,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 825,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 826,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 827,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 828,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 829,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 830,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 831,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 832,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 833,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 834,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 835,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen5",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 836,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 837,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 838,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 839,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 840,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 841,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 842,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 843,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 844,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen5"
+      ]
+    }
+  },
+  {
+    "formId": 845,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 846,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 847,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 848,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 849,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 850,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 851,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 852,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 853,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 854,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 855,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 856,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 857,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 858,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 859,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 860,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 861,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 862,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 863,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 864,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 866,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 867,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 868,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 869,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 870,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 871,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 872,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 873,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 874,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 875,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 876,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 877,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 878,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 879,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 880,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 881,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 882,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 883,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 884,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 885,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 886,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 887,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 888,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 889,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 890,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 891,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 892,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 893,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 894,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 895,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 896,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 897,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 898,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 899,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 900,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 901,
+    "data": {
+      "tags": [
+        "fossil"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 902,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 903,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 904,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 905,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 906,
+    "data": {
+      "tags": [
+        "kalosian_form"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 907,
+    "data": {
+      "tags": [
+        "customized_official",
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 908,
+    "data": {
+      "tags": [
+        "kalosian_form"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 909,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 910,
+    "data": {
+      "tags": [
+        "kalosian_form"
+      ],
+      "additional": [
+        "gen6",
+        "powerhouse"
+      ]
+    }
+  },
+  {
+    "formId": 911,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a",
+        "powerhouse"
+      ]
+    }
+  },
+  {
+    "formId": 912,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 913,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 914,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 915,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 916,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 917,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 918,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 919,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 920,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 921,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 922,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 923,
+    "data": {
+      "tags": [
+        "kalosian_form"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 924,
+    "data": {
+      "tags": [
+        "kalosian_form"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 925,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 926,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 927,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 928,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen6",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 929,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen6",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 930,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen6",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 931,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen6",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 932,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 933,
+    "data": {
+      "tags": [
+        "cobblemon",
+        "legendary"
+      ],
+      "additional": [
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 934,
+    "data": {
+      "tags": [
+        "cobblemon",
+        "legendary"
+      ],
+      "additional": [
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 935,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 936,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 937,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen6",
+        "mega"
+      ]
+    }
+  },
+  {
+    "formId": 938,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 939,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 940,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen6"
+      ]
+    }
+  },
+  {
+    "formId": 941,
+    "data": {
+      "tags": [
+        "starter",
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 942,
+    "data": {
+      "tags": [
+        "starter",
+        "customized_official",
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 943,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 944,
+    "data": {
+      "tags": [
+        "customized_official",
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 945,
+    "data": {
+      "tags": [
+        "alolan_form"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 946,
+    "data": {
+      "tags": [
+        "hisuian_form"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 947,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 948,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 949,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 950,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 951,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 952,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 953,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 954,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 955,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 956,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 957,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 958,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 959,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 960,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 961,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 962,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 963,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 964,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 965,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 966,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 967,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 968,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 969,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 970,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 971,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 972,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 973,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 974,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 975,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 976,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 977,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 978,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 979,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 980,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 981,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 982,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 983,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 984,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 985,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 986,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 987,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 988,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 989,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 990,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 991,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 992,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 993,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 994,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 995,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 996,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 997,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 998,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 999,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1000,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1001,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1002,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1003,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1004,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1005,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1006,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1007,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1008,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1009,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1010,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1011,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1012,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1013,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1014,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1015,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1016,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1017,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1018,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1019,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1020,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1021,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1022,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1023,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1024,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1025,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1026,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1027,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1028,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1029,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1030,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1031,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1032,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen7",
+        "powerhouse"
+      ]
+    }
+  },
+  {
+    "formId": 1033,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1034,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1035,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1036,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1037,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1038,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1039,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1040,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1041,
+    "data": {
+      "tags": [
+        "ultra_beast"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1042,
+    "data": {
+      "tags": [
+        "ultra_beast"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1043,
+    "data": {
+      "tags": [
+        "ultra_beast"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1044,
+    "data": {
+      "tags": [
+        "ultra_beast"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1045,
+    "data": {
+      "tags": [
+        "ultra_beast"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1046,
+    "data": {
+      "tags": [
+        "ultra_beast"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1047,
+    "data": {
+      "tags": [
+        "ultra_beast"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1048,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1049,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1050,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1051,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen7",
+        "restricted",
+        "ultra_burst"
+      ]
+    }
+  },
+  {
+    "formId": 1052,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1053,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1054,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1055,
+    "data": {
+      "tags": [
+        "ultra_beast"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1056,
+    "data": {
+      "tags": [
+        "ultra_beast"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1057,
+    "data": {
+      "tags": [
+        "ultra_beast"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1058,
+    "data": {
+      "tags": [
+        "ultra_beast"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1059,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen7"
+      ]
+    }
+  },
+  {
+    "formId": 1060,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen7b"
+      ]
+    }
+  },
+  {
+    "formId": 1061,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen7b"
+      ]
+    }
+  },
+  {
+    "formId": 1062,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1063,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1064,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1065,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1066,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1067,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1068,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1069,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1070,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1071,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1072,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1073,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1074,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1075,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1076,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1077,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1078,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1079,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1080,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1081,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1082,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1083,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1084,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1085,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1086,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1087,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1088,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1089,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1090,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1091,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1092,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1093,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1094,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1095,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1096,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1097,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1098,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1099,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1100,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1101,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1102,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1103,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1104,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1105,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1106,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1107,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1108,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1109,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1110,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1111,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1112,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1113,
+    "data": {
+      "tags": [
+        "baby"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1114,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1115,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1116,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1117,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1118,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1119,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1120,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1121,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1122,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1123,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1124,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1125,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1126,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1127,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1128,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1129,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1130,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1131,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1132,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1133,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1134,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1135,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1136,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1137,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1138,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1139,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1140,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1141,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1142,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1143,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1144,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1145,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1146,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1147,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1148,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1149,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1150,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1151,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1152,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1153,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1154,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1155,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1156,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1157,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1158,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1159,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1160,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1161,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1162,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1163,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1164,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1165,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1166,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "powerhouse"
+      ]
+    }
+  },
+  {
+    "formId": 1167,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1168,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1169,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1170,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1171,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1172,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1173,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1174,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1175,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1176,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1177,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8",
+        "gmax"
+      ]
+    }
+  },
+  {
+    "formId": 1178,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1179,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1180,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1181,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1182,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1183,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8"
+      ]
+    }
+  },
+  {
+    "formId": 1184,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1185,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1186,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1187,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 1188,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 1189,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 1190,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1191,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 1192,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 1193,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 1194,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 1195,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 1196,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen8a"
+      ]
+    }
+  },
+  {
+    "formId": 1197,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1198,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1199,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1200,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1201,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1202,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1203,
+    "data": {
+      "tags": [
+        "starter"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1204,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1205,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1206,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1207,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1208,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1209,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1210,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1211,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1212,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1213,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1214,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1215,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1216,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1217,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1218,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1219,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1220,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1221,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1222,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1223,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1224,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1225,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1226,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1227,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1228,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1229,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1230,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1231,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1232,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1233,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1234,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1235,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1236,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1237,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1238,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1239,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1240,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1241,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1242,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1243,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1244,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1245,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1246,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1247,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1248,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1249,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1250,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1251,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1252,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1253,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1254,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1255,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1256,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1257,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1258,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1259,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1260,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1261,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1262,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1263,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1264,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1265,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1266,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1267,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1268,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1269,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1270,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1271,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1272,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1273,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1274,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1275,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1276,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1277,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1278,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1279,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1280,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1281,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1282,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1283,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1284,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1285,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1286,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1287,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1288,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1289,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1290,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1291,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1292,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1293,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1294,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1295,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1296,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1297,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1298,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9",
+        "powerhouse"
+      ]
+    }
+  },
+  {
+    "formId": 1299,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1300,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1301,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1302,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1303,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1304,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1305,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1306,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1307,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1308,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1309,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1310,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1311,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1312,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1313,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1314,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1315,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1316,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1317,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1318,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1319,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1320,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1321,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1322,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1323,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1324,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1325,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1326,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1327,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1328,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1329,
+    "data": {
+      "tags": [],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1330,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1331,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1332,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1333,
+    "data": {
+      "tags": [
+        "paradox"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  },
+  {
+    "formId": 1334,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1335,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1336,
+    "data": {
+      "tags": [
+        "legendary"
+      ],
+      "additional": [
+        "gen9",
+        "restricted"
+      ]
+    }
+  },
+  {
+    "formId": 1337,
+    "data": {
+      "tags": [
+        "mythical"
+      ],
+      "additional": [
+        "gen9"
+      ]
+    }
+  }
+]

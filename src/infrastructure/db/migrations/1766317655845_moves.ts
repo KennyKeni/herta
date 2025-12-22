@@ -59,15 +59,22 @@ export async function up(db: Kysely<any>): Promise<void> {
 		.execute()
 
 	await db.schema
-		.createTable('move_max_data')
+		.createTable('move_max_power')
 		.addColumn('move_id', 'integer', (col) => col.primaryKey().references('moves.id'))
-		.addColumn('gmax_species_id', 'integer', (col) => col.references('species.id'))
 		.addColumn('max_power', 'integer', (col) => col.notNull())
+		.execute()
+
+	await db.schema
+		.createTable('gmax_moves')
+		.addColumn('move_id', 'integer', (col) => col.notNull().references('moves.id'))
+		.addColumn('species_id', 'integer', (col) => col.notNull().references('species.id'))
+		.addPrimaryKeyConstraint('gmax_moves_pk', ['move_id', 'species_id'])
 		.execute()
 }
 
 export async function down(db: Kysely<any>): Promise<void> {
-	await db.schema.dropTable('move_max_data').execute()
+	await db.schema.dropTable('gmax_moves').execute()
+	await db.schema.dropTable('move_max_power').execute()
 	await db.schema.dropTable('move_z_data').execute()
 	await db.schema.dropTable('move_effects').execute()
 	await db.schema.dropTable('move_boosts').execute()

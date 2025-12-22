@@ -7,7 +7,6 @@ export async function up(db: Kysely<any>): Promise<void> {
 		.addColumn('slug', 'text', (col) => col.notNull().unique())
 		.addColumn('name', 'text', (col) => col.notNull())
 		.addColumn('type', 'text', (col) => col.notNull())
-		.addColumn('is_cosmetic', 'boolean', (col) => col.notNull())
 		.execute()
 
 	await db.schema

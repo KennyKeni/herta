@@ -1982,20 +1982,6 @@
   },
   {
     "id": 284,
-    "slug": "beadsofruin",
-    "name": "Beads of Ruin",
-    "desc": null,
-    "shortDesc": "Active Pokemon without this Ability have their Special Defense multiplied by 0.75."
-  },
-  {
-    "id": 284,
-    "slug": "tabletsofruin",
-    "name": "Tablets of Ruin",
-    "desc": null,
-    "shortDesc": "Active Pokemon without this Ability have their Attack multiplied by 0.75."
-  },
-  {
-    "id": 284,
     "slug": "vesselofruin",
     "name": "Vessel of Ruin",
     "desc": null,
@@ -2007,6 +1993,20 @@
     "name": "Sword of Ruin",
     "desc": null,
     "shortDesc": "Active Pokemon without this Ability have their Defense multiplied by 0.75."
+  },
+  {
+    "id": 286,
+    "slug": "tabletsofruin",
+    "name": "Tablets of Ruin",
+    "desc": null,
+    "shortDesc": "Active Pokemon without this Ability have their Attack multiplied by 0.75."
+  },
+  {
+    "id": 287,
+    "slug": "beadsofruin",
+    "name": "Beads of Ruin",
+    "desc": null,
+    "shortDesc": "Active Pokemon without this Ability have their Special Defense multiplied by 0.75."
   },
   {
     "id": 288,

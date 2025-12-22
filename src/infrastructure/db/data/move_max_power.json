@@ -1,0 +1,202 @@
+[
+  {
+    "moveId": 4,
+    "maxPower": 100
+  },
+  {
+    "moveId": 12,
+    "maxPower": 130
+  },
+  {
+    "moveId": 24,
+    "maxPower": 80
+  },
+  {
+    "moveId": 32,
+    "maxPower": 130
+  },
+  {
+    "moveId": 41,
+    "maxPower": 100
+  },
+  {
+    "moveId": 42,
+    "maxPower": 130
+  },
+  {
+    "moveId": 68,
+    "maxPower": 75
+  },
+  {
+    "moveId": 69,
+    "maxPower": 75
+  },
+  {
+    "moveId": 90,
+    "maxPower": 130
+  },
+  {
+    "moveId": 131,
+    "maxPower": 120
+  },
+  {
+    "moveId": 154,
+    "maxPower": 100
+  },
+  {
+    "moveId": 155,
+    "maxPower": 130
+  },
+  {
+    "moveId": 167,
+    "maxPower": 80
+  },
+  {
+    "moveId": 175,
+    "maxPower": 130
+  },
+  {
+    "moveId": 198,
+    "maxPower": 130
+  },
+  {
+    "moveId": 216,
+    "maxPower": 130
+  },
+  {
+    "moveId": 218,
+    "maxPower": 130
+  },
+  {
+    "moveId": 222,
+    "maxPower": 140
+  },
+  {
+    "moveId": 283,
+    "maxPower": 130
+  },
+  {
+    "moveId": 311,
+    "maxPower": 130
+  },
+  {
+    "moveId": 329,
+    "maxPower": 130
+  },
+  {
+    "moveId": 331,
+    "maxPower": 130
+  },
+  {
+    "moveId": 333,
+    "maxPower": 130
+  },
+  {
+    "moveId": 350,
+    "maxPower": 130
+  },
+  {
+    "moveId": 360,
+    "maxPower": 130
+  },
+  {
+    "moveId": 363,
+    "maxPower": 130
+  },
+  {
+    "moveId": 376,
+    "maxPower": 130
+  },
+  {
+    "moveId": 378,
+    "maxPower": 140
+  },
+  {
+    "moveId": 386,
+    "maxPower": 130
+  },
+  {
+    "moveId": 447,
+    "maxPower": 130
+  },
+  {
+    "moveId": 458,
+    "maxPower": 120
+  },
+  {
+    "moveId": 462,
+    "maxPower": 140
+  },
+  {
+    "moveId": 484,
+    "maxPower": 130
+  },
+  {
+    "moveId": 486,
+    "maxPower": 130
+  },
+  {
+    "moveId": 500,
+    "maxPower": 130
+  },
+  {
+    "moveId": 530,
+    "maxPower": 130
+  },
+  {
+    "moveId": 535,
+    "maxPower": 130
+  },
+  {
+    "moveId": 541,
+    "maxPower": 130
+  },
+  {
+    "moveId": 544,
+    "maxPower": 130
+  },
+  {
+    "moveId": 681,
+    "maxPower": 130
+  },
+  {
+    "moveId": 718,
+    "maxPower": 95
+  },
+  {
+    "moveId": 742,
+    "maxPower": 140
+  },
+  {
+    "moveId": 751,
+    "maxPower": 130
+  },
+  {
+    "moveId": 799,
+    "maxPower": 130
+  },
+  {
+    "moveId": 804,
+    "maxPower": 140
+  },
+  {
+    "moveId": 805,
+    "maxPower": 130
+  },
+  {
+    "moveId": 813,
+    "maxPower": 140
+  },
+  {
+    "moveId": 814,
+    "maxPower": 130
+  },
+  {
+    "moveId": 818,
+    "maxPower": 130
+  },
+  {
+    "moveId": 911,
+    "maxPower": 140
+  }
+]

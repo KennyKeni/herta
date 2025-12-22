@@ -1,7 +1,7 @@
 import { config } from  "../../config"
 import { SQL } from "bun"
 import { PostgresJSDialect } from "kysely-postgres-js"
-import { Database } from "./types"
+import { DB } from "./types"
 import { Kysely } from "kysely"
 
 const dialect = new PostgresJSDialect({
@@ -15,6 +15,6 @@ const dialect = new PostgresJSDialect({
   }),
 })
 
-export const db = new Kysely<Database>({
+export const db = new Kysely<DB>({
   dialect,
 })

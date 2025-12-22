@@ -12,7 +12,7 @@ export async function up(db: Kysely<any>): Promise<void> {
 		.addColumn('experience_group_id', 'integer', (col) => col.references('experience_groups.id'))
 		.addColumn('egg_cycles', 'integer', (col) => col.notNull())
 		.addColumn('male_ratio', 'real')
-		.addColumn('base_scale', 'real', (col) => col.notNull())
+		.addColumn('base_scale', 'real')
 		.addColumn('description', 'text')
 		.execute()
 

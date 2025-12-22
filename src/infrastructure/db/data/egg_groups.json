@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "amorphous"
+  },
+  {
+    "id": 2,
+    "name": "bug"
+  },
+  {
+    "id": 3,
+    "name": "ditto"
+  },
+  {
+    "id": 4,
+    "name": "dragon"
+  },
+  {
+    "id": 5,
+    "name": "fairy"
+  },
+  {
+    "id": 6,
+    "name": "field"
+  },
+  {
+    "id": 7,
+    "name": "flying"
+  },
+  {
+    "id": 8,
+    "name": "grass"
+  },
+  {
+    "id": 9,
+    "name": "human_like"
+  },
+  {
+    "id": 10,
+    "name": "mineral"
+  },
+  {
+    "id": 11,
+    "name": "monster"
+  },
+  {
+    "id": 12,
+    "name": "undiscovered"
+  },
+  {
+    "id": 13,
+    "name": "water_1"
+  },
+  {
+    "id": 14,
+    "name": "water_2"
+  },
+  {
+    "id": 15,
+    "name": "water_3"
+  }
+]

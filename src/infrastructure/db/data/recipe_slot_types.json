@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "input",
+    "description": "Smelting/stonecutting input"
+  },
+  {
+    "id": 2,
+    "name": "template",
+    "description": "Smithing template"
+  },
+  {
+    "id": 3,
+    "name": "base",
+    "description": "Smithing base item"
+  },
+  {
+    "id": 4,
+    "name": "addition",
+    "description": "Smithing addition"
+  }
+]
