@@ -107,20 +107,15 @@ export interface Conditions {
   type: string;
 }
 
-export interface DropItems {
-  id: string;
-  source: string;
-}
-
 export interface DropPercentages {
-  form_id: number;
+  form_drop_id: number;
   id: Generated<number>;
   item_id: string;
   percentage: number;
 }
 
 export interface DropRanges {
-  form_id: number;
+  form_drop_id: number;
   id: Generated<number>;
   item_id: string;
   quantity_max: number;
@@ -135,6 +130,7 @@ export interface EffectTypes {
 export interface EggGroups {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface ExperienceGroups {
@@ -212,13 +208,13 @@ export interface Forms {
   base_special_defence: number;
   base_speed: number;
   description: string | null;
-  ev_attack: number | null;
-  ev_defence: number | null;
-  ev_hp: number | null;
-  ev_special_attack: number | null;
-  ev_special_defence: number | null;
-  ev_speed: number | null;
-  full_name: string;
+  ev_attack: Generated<number>;
+  ev_defence: Generated<number>;
+  ev_hp: Generated<number>;
+  ev_special_attack: Generated<number>;
+  ev_special_defence: Generated<number>;
+  ev_speed: Generated<number>;
+  form_name: string;
   generation: number | null;
   height: number;
   id: number;
@@ -226,11 +222,6 @@ export interface Forms {
   slug: string;
   species_id: number;
   weight: number;
-}
-
-export interface FormTags {
-  form_id: number;
-  tag: string;
 }
 
 export interface FormTypes {
@@ -279,10 +270,22 @@ export interface Items {
   source: string;
 }
 
+export interface ItemTagHierarchy {
+  child_tag_id: number;
+  id: number;
+  parent_tag_id: number;
+}
+
 export interface ItemTags {
+  id: number;
   item_id: string;
-  namespace: string;
-  tag: string;
+  tag_id: number;
+}
+
+export interface ItemTagTypes {
+  id: number;
+  name: string;
+  slug: string;
 }
 
 export interface Labels {
@@ -449,11 +452,6 @@ export interface Stats {
   name: string;
 }
 
-export interface TagHierarchy {
-  child_tag: string;
-  parent_tag: string;
-}
-
 export interface TypeMatchups {
   attacking_type_id: number;
   defending_type_id: number;
@@ -479,7 +477,6 @@ export interface DB {
   aspects: Aspects;
   behaviour: Behaviour;
   conditions: Conditions;
-  drop_items: DropItems;
   drop_percentages: DropPercentages;
   drop_ranges: DropRanges;
   effect_types: EffectTypes;
@@ -495,13 +492,14 @@ export interface DB {
   form_moves: FormMoves;
   form_override_egg_groups: FormOverrideEggGroups;
   form_overrides: FormOverrides;
-  form_tags: FormTags;
   form_types: FormTypes;
   forms: Forms;
   gmax_moves: GmaxMoves;
   hidden_power_ivs: HiddenPowerIvs;
   item_boosts: ItemBoosts;
   item_flags: ItemFlags;
+  item_tag_hierarchy: ItemTagHierarchy;
+  item_tag_types: ItemTagTypes;
   item_tags: ItemTags;
   items: Items;
   labels: Labels;
@@ -525,7 +523,6 @@ export interface DB {
   species_lighting: SpeciesLighting;
   species_riding: SpeciesRiding;
   stats: Stats;
-  tag_hierarchy: TagHierarchy;
   type_matchups: TypeMatchups;
   types: Types;
 }

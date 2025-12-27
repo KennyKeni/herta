@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "slug": "common",
+    "name": "Common"
+  },
+  {
+    "id": 2,
+    "slug": "uncommon",
+    "name": "Uncommon"
+  },
+  {
+    "id": 3,
+    "slug": "rare",
+    "name": "Rare"
+  },
+  {
+    "id": 4,
+    "slug": "ultra-rare",
+    "name": "Ultra Rare"
+  }
+]

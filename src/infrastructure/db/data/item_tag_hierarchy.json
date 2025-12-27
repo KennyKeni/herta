@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1,
+    "parentTagId": 12,
+    "childTagId": 26
+  },
+  {
+    "id": 2,
+    "parentTagId": 12,
+    "childTagId": 27
+  },
+  {
+    "id": 3,
+    "parentTagId": 12,
+    "childTagId": 29
+  },
+  {
+    "id": 4,
+    "parentTagId": 12,
+    "childTagId": 30
+  },
+  {
+    "id": 5,
+    "parentTagId": 12,
+    "childTagId": 33
+  },
+  {
+    "id": 6,
+    "parentTagId": 12,
+    "childTagId": 34
+  },
+  {
+    "id": 7,
+    "parentTagId": 12,
+    "childTagId": 35
+  },
+  {
+    "id": 8,
+    "parentTagId": 12,
+    "childTagId": 36
+  },
+  {
+    "id": 9,
+    "parentTagId": 28,
+    "childTagId": 26
+  },
+  {
+    "id": 10,
+    "parentTagId": 28,
+    "childTagId": 27
+  },
+  {
+    "id": 11,
+    "parentTagId": 28,
+    "childTagId": 33
+  },
+  {
+    "id": 12,
+    "parentTagId": 30,
+    "childTagId": 32
+  },
+  {
+    "id": 13,
+    "parentTagId": 39,
+    "childTagId": 42
+  },
+  {
+    "id": 14,
+    "parentTagId": 41,
+    "childTagId": 52
+  },
+  {
+    "id": 15,
+    "parentTagId": 41,
+    "childTagId": 86
+  },
+  {
+    "id": 16,
+    "parentTagId": 49,
+    "childTagId": 51
+  },
+  {
+    "id": 17,
+    "parentTagId": 49,
+    "childTagId": 127
+  },
+  {
+    "id": 18,
+    "parentTagId": 49,
+    "childTagId": 128
+  },
+  {
+    "id": 19,
+    "parentTagId": 61,
+    "childTagId": 65
+  },
+  {
+    "id": 20,
+    "parentTagId": 62,
+    "childTagId": 12
+  },
+  {
+    "id": 21,
+    "parentTagId": 62,
+    "childTagId": 84
+  },
+  {
+    "id": 22,
+    "parentTagId": 63,
+    "childTagId": 12
+  },
+  {
+    "id": 23,
+    "parentTagId": 64,
+    "childTagId": 12
+  },
+  {
+    "id": 24,
+    "parentTagId": 64,
+    "childTagId": 84
+  },
+  {
+    "id": 25,
+    "parentTagId": 70,
+    "childTagId": 79
+  },
+  {
+    "id": 26,
+    "parentTagId": 70,
+    "childTagId": 141
+  },
+  {
+    "id": 27,
+    "parentTagId": 86,
+    "childTagId": 2
+  },
+  {
+    "id": 28,
+    "parentTagId": 86,
+    "childTagId": 123
+  },
+  {
+    "id": 29,
+    "parentTagId": 94,
+    "childTagId": 7
+  },
+  {
+    "id": 30,
+    "parentTagId": 94,
+    "childTagId": 8
+  },
+  {
+    "id": 31,
+    "parentTagId": 94,
+    "childTagId": 12
+  },
+  {
+    "id": 32,
+    "parentTagId": 94,
+    "childTagId": 84
+  },
+  {
+    "id": 33,
+    "parentTagId": 94,
+    "childTagId": 89
+  },
+  {
+    "id": 34,
+    "parentTagId": 94,
+    "childTagId": 117
+  },
+  {
+    "id": 35,
+    "parentTagId": 95,
+    "childTagId": 3
+  },
+  {
+    "id": 36,
+    "parentTagId": 96,
+    "childTagId": 9
+  },
+  {
+    "id": 37,
+    "parentTagId": 96,
+    "childTagId": 28
+  },
+  {
+    "id": 38,
+    "parentTagId": 96,
+    "childTagId": 92
+  },
+  {
+    "id": 39,
+    "parentTagId": 101,
+    "childTagId": 12
+  },
+  {
+    "id": 40,
+    "parentTagId": 102,
+    "childTagId": 101
+  },
+  {
+    "id": 41,
+    "parentTagId": 102,
+    "childTagId": 103
+  },
+  {
+    "id": 42,
+    "parentTagId": 102,
+    "childTagId": 104
+  },
+  {
+    "id": 43,
+    "parentTagId": 102,
+    "childTagId": 105
+  },
+  {
+    "id": 44,
+    "parentTagId": 102,
+    "childTagId": 106
+  },
+  {
+    "id": 45,
+    "parentTagId": 103,
+    "childTagId": 84
+  },
+  {
+    "id": 46,
+    "parentTagId": 103,
+    "childTagId": 89
+  },
+  {
+    "id": 47,
+    "parentTagId": 103,
+    "childTagId": 122
+  },
+  {
+    "id": 48,
+    "parentTagId": 104,
+    "childTagId": 12
+  },
+  {
+    "id": 49,
+    "parentTagId": 107,
+    "childTagId": 84
+  },
+  {
+    "id": 50,
+    "parentTagId": 107,
+    "childTagId": 89
+  },
+  {
+    "id": 51,
+    "parentTagId": 107,
+    "childTagId": 122
+  },
+  {
+    "id": 52,
+    "parentTagId": 116,
+    "childTagId": 4
+  },
+  {
+    "id": 53,
+    "parentTagId": 117,
+    "childTagId": 79
+  },
+  {
+    "id": 54,
+    "parentTagId": 117,
+    "childTagId": 90
+  },
+  {
+    "id": 55,
+    "parentTagId": 139,
+    "childTagId": 37
+  },
+  {
+    "id": 56,
+    "parentTagId": 139,
+    "childTagId": 108
+  },
+  {
+    "id": 57,
+    "parentTagId": 139,
+    "childTagId": 120
+  }
+]

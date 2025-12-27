@@ -1,5 +1,15 @@
 [
   {
+    "id": "#travelersbackpack:back",
+    "name": "Back",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "#travelersbackpack",
+    "implemented": false
+  },
+  {
     "id": "cobblemon:ability_capsule",
     "name": "Ability Capsule",
     "num": null,
@@ -646,9 +656,9 @@
     "gen": 4,
     "desc": "",
     "short_desc": "Can be revived into Shieldon.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -767,9 +777,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "electric",
     "natural_gift_power": 100,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -780,9 +790,9 @@
     "gen": 2,
     "desc": "",
     "short_desc": "Restores 20 HP when at 1/2 max HP or less. Single use.",
+    "is_nonstandard": "Past",
     "fling_power": 30,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -1035,9 +1045,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "fire",
     "natural_gift_power": 90,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -1504,9 +1514,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Can be revived into Anorith.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -1605,9 +1615,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "bug",
     "natural_gift_power": 90,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -1628,9 +1638,9 @@
     "gen": 5,
     "desc": "",
     "short_desc": "Can be revived into Tirtouga.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -1762,12 +1772,12 @@
     "gen": 3,
     "desc": "If held by a Clamperl, its Sp. Def is doubled. Evolves Clamperl into Gorebyss when traded.",
     "short_desc": "If held by a Clamperl, its Sp. Def is doubled.",
-    "fling_power": 30,
-    "fling_effect": null,
+    "is_nonstandard": "Past",
     "item_user": [
       "Clamperl"
     ],
-    "is_nonstandard": "Past",
+    "fling_power": 30,
+    "fling_effect": null,
     "source": "cobblemon",
     "implemented": true
   },
@@ -1778,12 +1788,12 @@
     "gen": 3,
     "desc": "If held by a Clamperl, its Sp. Atk is doubled. Evolves Clamperl into Huntail when traded.",
     "short_desc": "If held by a Clamperl, its Sp. Atk is doubled.",
-    "fling_power": 90,
-    "fling_effect": null,
+    "is_nonstandard": "Past",
     "item_user": [
       "Clamperl"
     ],
-    "is_nonstandard": "Past",
+    "fling_power": 90,
+    "fling_effect": null,
     "source": "cobblemon",
     "implemented": true
   },
@@ -1946,9 +1956,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Can be revived into Kabuto.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -2046,9 +2056,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "water",
     "natural_gift_power": 100,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -2516,9 +2526,9 @@
     "gen": 8,
     "desc": "",
     "short_desc": "Can revive into Dracozolt with Fossilized Drake or Arctozolt with Fossilized Dino.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -2529,9 +2539,9 @@
     "gen": 8,
     "desc": "",
     "short_desc": "Can revive into Arctovish with Fossilized Fish or Arctozolt with Fossilized Bird.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -2542,9 +2552,9 @@
     "gen": 8,
     "desc": "",
     "short_desc": "Can revive into Dracozolt with Fossilized Bird or Dracovish with Fossilized Fish.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -2555,9 +2565,9 @@
     "gen": 8,
     "desc": "",
     "short_desc": "Can revive into Dracovish with Fossilized Drake or Arctovish with Fossilized Dino.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -3031,9 +3041,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Can be revived into Omanyte.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -3227,9 +3237,9 @@
     "gen": 6,
     "desc": "",
     "short_desc": "Can be revived into Tyrunt.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -3504,8 +3514,6 @@
     "gen": 2,
     "desc": "",
     "short_desc": "If held by a Pikachu, its Attack and Sp. Atk are doubled.",
-    "fling_power": 30,
-    "fling_effect": "par",
     "item_user": [
       "Pikachu",
       "Pikachu-Cosplay",
@@ -3524,6 +3532,8 @@
       "Pikachu-Starter",
       "Pikachu-World"
     ],
+    "fling_power": 30,
+    "fling_effect": "par",
     "source": "cobblemon",
     "implemented": true
   },
@@ -3740,9 +3750,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "rock",
     "natural_gift_power": 90,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -3923,12 +3933,12 @@
     "gen": 2,
     "desc": "",
     "short_desc": "If held by a Ditto that hasn't Transformed, its Defense is doubled.",
-    "fling_power": 10,
-    "fling_effect": null,
+    "is_nonstandard": "Past",
     "item_user": [
       "Ditto"
     ],
-    "is_nonstandard": "Past",
+    "fling_power": 10,
+    "fling_effect": null,
     "source": "cobblemon",
     "implemented": true
   },
@@ -4165,9 +4175,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "water",
     "natural_gift_power": 90,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -4250,9 +4260,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "dragon",
     "natural_gift_power": 90,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -4359,9 +4369,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "steel",
     "natural_gift_power": 90,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -4523,9 +4533,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "grass",
     "natural_gift_power": 90,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -4586,9 +4596,9 @@
     "gen": 5,
     "desc": "",
     "short_desc": "Can be revived into Archen.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -5123,12 +5133,12 @@
     "gen": 4,
     "desc": "",
     "short_desc": "If held by a Ditto that hasn't Transformed, its Speed is doubled.",
-    "fling_power": 10,
-    "fling_effect": null,
+    "is_nonstandard": "Past",
     "item_user": [
       "Ditto"
     ],
-    "is_nonstandard": "Past",
+    "fling_power": 10,
+    "fling_effect": null,
     "source": "cobblemon",
     "implemented": true
   },
@@ -5159,9 +5169,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "ghost",
     "natural_gift_power": 90,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -5238,9 +5248,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "steel",
     "natural_gift_power": 80,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -5526,9 +5536,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Can be revived into Lileep.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -5743,9 +5753,9 @@
     "gen": 6,
     "desc": "",
     "short_desc": "Evolves Spritzee into Aromatisse when traded.",
+    "is_nonstandard": "Past",
     "fling_power": 80,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -5798,9 +5808,9 @@
     "gen": 6,
     "desc": "",
     "short_desc": "Can be revived into Amaura.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -6021,9 +6031,9 @@
     "gen": 4,
     "desc": "",
     "short_desc": "Can be revived into Cranidos.",
+    "is_nonstandard": "Past",
     "fling_power": 100,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -6330,9 +6340,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "dark",
     "natural_gift_power": 90,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -7015,9 +7025,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "fire",
     "natural_gift_power": 100,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -7050,9 +7060,9 @@
     "gen": 3,
     "desc": "",
     "short_desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "is_nonstandard": "Past",
     "natural_gift_type": "electric",
     "natural_gift_power": 90,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -7063,9 +7073,9 @@
     "gen": 6,
     "desc": "",
     "short_desc": "Evolves Swirlix into Slurpuff when traded.",
+    "is_nonstandard": "Past",
     "fling_power": 80,
     "fling_effect": null,
-    "is_nonstandard": "Past",
     "source": "cobblemon",
     "implemented": true
   },
@@ -7332,6 +7342,26 @@
     "implemented": true
   },
   {
+    "id": "minecraft:azalea",
+    "name": "Azalea",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
+    "id": "minecraft:baked_potato",
+    "name": "Baked Potato",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:bamboo",
     "name": "Bamboo",
     "num": null,
@@ -7340,6 +7370,16 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:barrier",
+    "name": "Barrier",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:basalt",
@@ -7362,6 +7402,26 @@
     "implemented": true
   },
   {
+    "id": "minecraft:beetroot",
+    "name": "Beetroot",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
+    "id": "minecraft:black_shulker_box",
+    "name": "Black Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:blaze_powder",
     "name": "Blaze Powder",
     "num": null,
@@ -7380,6 +7440,16 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:blue_shulker_box",
+    "name": "Blue Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:blue_wool",
@@ -7440,6 +7510,16 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:brown_shulker_box",
+    "name": "Brown Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:brown_wool",
@@ -7522,6 +7602,16 @@
     "implemented": true
   },
   {
+    "id": "minecraft:chorus_flower",
+    "name": "Chorus Flower",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:clay_ball",
     "name": "Clay Ball",
     "num": null,
@@ -7570,6 +7660,16 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:cyan_shulker_box",
+    "name": "Cyan Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:dark_oak_sapling",
@@ -7632,6 +7732,16 @@
     "implemented": true
   },
   {
+    "id": "minecraft:dried_kelp",
+    "name": "Dried Kelp",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:echo_shard",
     "name": "Echo Shard",
     "num": null,
@@ -7660,6 +7770,16 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:enchanted_golden_apple",
+    "name": "Enchanted Golden Apple",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:ender_pearl",
@@ -7702,6 +7822,36 @@
     "implemented": true
   },
   {
+    "id": "minecraft:flowering_azalea",
+    "name": "Flowering Azalea",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
+    "id": "minecraft:glistering_melon_slice",
+    "name": "Glistering Melon Slice",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
+    "id": "minecraft:glow_berries",
+    "name": "Glow Berries",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:glow_ink_sac",
     "name": "Glow Ink Sac",
     "num": null,
@@ -7712,6 +7862,16 @@
     "implemented": true
   },
   {
+    "id": "minecraft:glowstone_dust",
+    "name": "Glowstone Dust",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:gold_nugget",
     "name": "Gold Nugget",
     "num": null,
@@ -7720,6 +7880,26 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:golden_apple",
+    "name": "Golden Apple",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
+    "id": "minecraft:golden_carrot",
+    "name": "Golden Carrot",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:golden_helmet",
@@ -7740,6 +7920,26 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:gray_shulker_box",
+    "name": "Gray Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
+    "id": "minecraft:green_shulker_box",
+    "name": "Green Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:gunpowder",
@@ -7862,6 +8062,16 @@
     "implemented": true
   },
   {
+    "id": "minecraft:light_blue_shulker_box",
+    "name": "Light Blue Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:light_blue_wool",
     "name": "Light Blue Wool",
     "num": null,
@@ -7872,6 +8082,16 @@
     "implemented": true
   },
   {
+    "id": "minecraft:light_gray_shulker_box",
+    "name": "Light Gray Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:lily_pad",
     "name": "Lily Pad",
     "num": null,
@@ -7880,6 +8100,26 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:lime_shulker_box",
+    "name": "Lime Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
+    "id": "minecraft:magenta_shulker_box",
+    "name": "Magenta Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:magma_cream",
@@ -7900,6 +8140,16 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:milk_bucket",
+    "name": "Milk Bucket",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:mud",
@@ -7972,6 +8222,16 @@
     "implemented": true
   },
   {
+    "id": "minecraft:orange_shulker_box",
+    "name": "Orange Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:pearlescent_froglight",
     "name": "Pearlescent Froglight",
     "num": null,
@@ -7990,6 +8250,36 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:pink_petals",
+    "name": "Pink Petals",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
+    "id": "minecraft:pink_shulker_box",
+    "name": "Pink Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
+    "id": "minecraft:poisonous_potato",
+    "name": "Poisonous Potato",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:poppy",
@@ -8052,6 +8342,16 @@
     "implemented": true
   },
   {
+    "id": "minecraft:pumpkin",
+    "name": "Pumpkin",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:pumpkin_seeds",
     "name": "Pumpkin Seeds",
     "num": null,
@@ -8060,6 +8360,16 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:purple_shulker_box",
+    "name": "Purple Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:rabbit",
@@ -8122,6 +8432,16 @@
     "implemented": true
   },
   {
+    "id": "minecraft:red_shulker_box",
+    "name": "Red Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:redstone",
     "name": "Redstone",
     "num": null,
@@ -8172,6 +8492,16 @@
     "implemented": true
   },
   {
+    "id": "minecraft:shulker_box",
+    "name": "Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:slime_ball",
     "name": "Slime Ball",
     "num": null,
@@ -8200,6 +8530,16 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:spore_blossom",
+    "name": "Spore Blossom",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
   },
   {
     "id": "minecraft:stick",
@@ -8312,6 +8652,16 @@
     "implemented": true
   },
   {
+    "id": "minecraft:white_shulker_box",
+    "name": "White Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
     "id": "minecraft:white_wool",
     "name": "White Wool",
     "num": null,
@@ -8330,5 +8680,85 @@
     "short_desc": "",
     "source": "minecraft",
     "implemented": true
+  },
+  {
+    "id": "minecraft:yellow_shulker_box",
+    "name": "Yellow Shulker Box",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "minecraft",
+    "implemented": false
+  },
+  {
+    "id": "packedup:basicbackpack",
+    "name": "Basicbackpack",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "packedup",
+    "implemented": false
+  },
+  {
+    "id": "packedup:copperbackpack",
+    "name": "Copperbackpack",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "packedup",
+    "implemented": false
+  },
+  {
+    "id": "packedup:diamondbackpack",
+    "name": "Diamondbackpack",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "packedup",
+    "implemented": false
+  },
+  {
+    "id": "packedup:goldbackpack",
+    "name": "Goldbackpack",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "packedup",
+    "implemented": false
+  },
+  {
+    "id": "packedup:ironbackpack",
+    "name": "Ironbackpack",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "packedup",
+    "implemented": false
+  },
+  {
+    "id": "packedup:obsidianbackpack",
+    "name": "Obsidianbackpack",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "packedup",
+    "implemented": false
+  },
+  {
+    "id": "packedup:silverbackpack",
+    "name": "Silverbackpack",
+    "num": null,
+    "gen": null,
+    "desc": null,
+    "short_desc": null,
+    "source": "packedup",
+    "implemented": false
   }
 ]

@@ -30,11 +30,9 @@ export class Slug {
   }
 
   static forVariation(variationName: string, gender: string, shiny: boolean): string {
-    const parts = [
-      this.forPokemon(variationName),
-      this.from(gender),
-      shiny ? 'shiny' : '',
-    ].filter((part) => part !== '');
+    const parts = [this.forPokemon(variationName), this.from(gender), shiny ? 'shiny' : ''].filter(
+      (part) => part !== ''
+    );
     return parts.join('-');
   }
 }

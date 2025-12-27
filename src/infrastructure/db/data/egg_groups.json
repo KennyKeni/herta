@@ -1,62 +1,77 @@
 [
   {
     "id": 1,
-    "name": "amorphous"
+    "slug": "amorphous",
+    "name": "Amorphous"
   },
   {
     "id": 2,
-    "name": "bug"
+    "slug": "bug",
+    "name": "Bug"
   },
   {
     "id": 3,
-    "name": "ditto"
+    "slug": "ditto",
+    "name": "Ditto"
   },
   {
     "id": 4,
-    "name": "dragon"
+    "slug": "dragon",
+    "name": "Dragon"
   },
   {
     "id": 5,
-    "name": "fairy"
+    "slug": "fairy",
+    "name": "Fairy"
   },
   {
     "id": 6,
-    "name": "field"
+    "slug": "field",
+    "name": "Field"
   },
   {
     "id": 7,
-    "name": "flying"
+    "slug": "flying",
+    "name": "Flying"
   },
   {
     "id": 8,
-    "name": "grass"
+    "slug": "grass",
+    "name": "Grass"
   },
   {
     "id": 9,
-    "name": "human_like"
+    "slug": "human_like",
+    "name": "Human Like"
   },
   {
     "id": 10,
-    "name": "mineral"
+    "slug": "mineral",
+    "name": "Mineral"
   },
   {
     "id": 11,
-    "name": "monster"
+    "slug": "monster",
+    "name": "Monster"
   },
   {
     "id": 12,
-    "name": "undiscovered"
+    "slug": "undiscovered",
+    "name": "Undiscovered"
   },
   {
     "id": 13,
-    "name": "water_1"
+    "slug": "water_1",
+    "name": "Water 1"
   },
   {
     "id": 14,
-    "name": "water_2"
+    "slug": "water_2",
+    "name": "Water 2"
   },
   {
     "id": 15,
-    "name": "water_3"
+    "slug": "water_3",
+    "name": "Water 3"
   }
 ]

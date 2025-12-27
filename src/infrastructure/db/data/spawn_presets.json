@@ -1,0 +1,10610 @@
+[
+  {
+    "spawnId": 1,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 3,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 4,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 5,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 6,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 7,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 8,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 9,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 10,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 11,
+    "preset": "water"
+  },
+  {
+    "spawnId": 13,
+    "preset": "water"
+  },
+  {
+    "spawnId": 15,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 16,
+    "preset": "water"
+  },
+  {
+    "spawnId": 18,
+    "preset": "water"
+  },
+  {
+    "spawnId": 20,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 21,
+    "preset": "water"
+  },
+  {
+    "spawnId": 23,
+    "preset": "water"
+  },
+  {
+    "spawnId": 25,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 25,
+    "preset": "foliage"
+  },
+  {
+    "spawnId": 25,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 26,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 26,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 28,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 28,
+    "preset": "foliage"
+  },
+  {
+    "spawnId": 28,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 29,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 29,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 31,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 32,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 33,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 34,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 36,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 36,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 38,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 38,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 40,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 42,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 42,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 43,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 43,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 44,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 44,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 45,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 45,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 46,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 46,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 47,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 47,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 48,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 49,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 50,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 51,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 52,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 53,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 54,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 55,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 56,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 57,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 58,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 59,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 60,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 61,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 62,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 62,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 63,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 63,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 64,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 65,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 66,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 67,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 68,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 69,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 70,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 71,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 72,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 73,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 74,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 75,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 76,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 77,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 78,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 79,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 80,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 81,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 82,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 83,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 84,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 84,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 85,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 85,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 86,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 86,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 87,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 87,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 88,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 88,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 89,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 89,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 90,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 91,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 92,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 93,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 94,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 95,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 96,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 97,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 98,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 99,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 100,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 101,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 102,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 103,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 104,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 105,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 106,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 107,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 108,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 109,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 110,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 111,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 112,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 113,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 114,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 115,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 116,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 117,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 118,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 119,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 120,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 121,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 122,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 123,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 124,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 125,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 126,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 127,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 128,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 129,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 130,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 131,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 132,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 133,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 134,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 135,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 136,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 137,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 138,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 139,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 140,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 141,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 142,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 143,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 144,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 145,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 146,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 147,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 148,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 149,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 149,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 150,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 151,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 151,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 152,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 153,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 153,
+    "preset": "illager_structures"
+  },
+  {
+    "spawnId": 154,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 154,
+    "preset": "illager_structures"
+  },
+  {
+    "spawnId": 155,
+    "preset": "illager_structures"
+  },
+  {
+    "spawnId": 156,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 156,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 157,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 158,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 158,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 159,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 160,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 160,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 161,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 162,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 162,
+    "preset": "illager_structures"
+  },
+  {
+    "spawnId": 163,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 163,
+    "preset": "illager_structures"
+  },
+  {
+    "spawnId": 164,
+    "preset": "illager_structures"
+  },
+  {
+    "spawnId": 165,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 166,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 167,
+    "preset": "water"
+  },
+  {
+    "spawnId": 169,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 170,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 171,
+    "preset": "water"
+  },
+  {
+    "spawnId": 173,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 173,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 174,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 174,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 175,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 175,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 176,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 177,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 177,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 178,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 179,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 180,
+    "preset": "water"
+  },
+  {
+    "spawnId": 181,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 182,
+    "preset": "water"
+  },
+  {
+    "spawnId": 183,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 184,
+    "preset": "water"
+  },
+  {
+    "spawnId": 187,
+    "preset": "water"
+  },
+  {
+    "spawnId": 188,
+    "preset": "water"
+  },
+  {
+    "spawnId": 190,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 191,
+    "preset": "water"
+  },
+  {
+    "spawnId": 193,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 194,
+    "preset": "water"
+  },
+  {
+    "spawnId": 195,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 196,
+    "preset": "water"
+  },
+  {
+    "spawnId": 197,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 198,
+    "preset": "water"
+  },
+  {
+    "spawnId": 201,
+    "preset": "water"
+  },
+  {
+    "spawnId": 202,
+    "preset": "water"
+  },
+  {
+    "spawnId": 204,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 205,
+    "preset": "water"
+  },
+  {
+    "spawnId": 207,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 208,
+    "preset": "water"
+  },
+  {
+    "spawnId": 209,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 210,
+    "preset": "water"
+  },
+  {
+    "spawnId": 211,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 212,
+    "preset": "water"
+  },
+  {
+    "spawnId": 215,
+    "preset": "water"
+  },
+  {
+    "spawnId": 216,
+    "preset": "water"
+  },
+  {
+    "spawnId": 218,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 219,
+    "preset": "water"
+  },
+  {
+    "spawnId": 221,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 222,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 223,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 224,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 225,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 226,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 227,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 228,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 229,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 230,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 231,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 232,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 233,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 234,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 235,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 236,
+    "preset": "water"
+  },
+  {
+    "spawnId": 237,
+    "preset": "water"
+  },
+  {
+    "spawnId": 238,
+    "preset": "water"
+  },
+  {
+    "spawnId": 242,
+    "preset": "water"
+  },
+  {
+    "spawnId": 244,
+    "preset": "water"
+  },
+  {
+    "spawnId": 245,
+    "preset": "water"
+  },
+  {
+    "spawnId": 246,
+    "preset": "water"
+  },
+  {
+    "spawnId": 250,
+    "preset": "water"
+  },
+  {
+    "spawnId": 252,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 252,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 253,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 254,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 255,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 255,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 256,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 257,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 258,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 258,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 259,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 260,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 261,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 262,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 263,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 263,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 264,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 265,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 266,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 267,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 267,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 268,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 269,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 270,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 275,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 278,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 281,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 284,
+    "preset": "redstone"
+  },
+  {
+    "spawnId": 286,
+    "preset": "redstone"
+  },
+  {
+    "spawnId": 288,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 288,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 288,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 289,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 289,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 290,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 291,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 292,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 293,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 294,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 294,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 295,
+    "preset": "water"
+  },
+  {
+    "spawnId": 297,
+    "preset": "water"
+  },
+  {
+    "spawnId": 299,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 299,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 300,
+    "preset": "water"
+  },
+  {
+    "spawnId": 302,
+    "preset": "water"
+  },
+  {
+    "spawnId": 304,
+    "preset": "water"
+  },
+  {
+    "spawnId": 305,
+    "preset": "water"
+  },
+  {
+    "spawnId": 305,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 306,
+    "preset": "water"
+  },
+  {
+    "spawnId": 307,
+    "preset": "water"
+  },
+  {
+    "spawnId": 308,
+    "preset": "water"
+  },
+  {
+    "spawnId": 308,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 309,
+    "preset": "water"
+  },
+  {
+    "spawnId": 310,
+    "preset": "water"
+  },
+  {
+    "spawnId": 311,
+    "preset": "water"
+  },
+  {
+    "spawnId": 311,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 312,
+    "preset": "water"
+  },
+  {
+    "spawnId": 313,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 313,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 314,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 315,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 316,
+    "preset": "water"
+  },
+  {
+    "spawnId": 317,
+    "preset": "water"
+  },
+  {
+    "spawnId": 317,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 318,
+    "preset": "water"
+  },
+  {
+    "spawnId": 319,
+    "preset": "water"
+  },
+  {
+    "spawnId": 320,
+    "preset": "water"
+  },
+  {
+    "spawnId": 320,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 321,
+    "preset": "water"
+  },
+  {
+    "spawnId": 322,
+    "preset": "water"
+  },
+  {
+    "spawnId": 323,
+    "preset": "water"
+  },
+  {
+    "spawnId": 323,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 324,
+    "preset": "water"
+  },
+  {
+    "spawnId": 325,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 325,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 326,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 327,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 328,
+    "preset": "water"
+  },
+  {
+    "spawnId": 329,
+    "preset": "water"
+  },
+  {
+    "spawnId": 334,
+    "preset": "water"
+  },
+  {
+    "spawnId": 336,
+    "preset": "water"
+  },
+  {
+    "spawnId": 337,
+    "preset": "water"
+  },
+  {
+    "spawnId": 342,
+    "preset": "water"
+  },
+  {
+    "spawnId": 344,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 345,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 346,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 347,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 348,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 349,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 350,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 351,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 352,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 353,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 354,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 355,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 356,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 357,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 358,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 358,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 359,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 360,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 360,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 361,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 362,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 363,
+    "preset": "water"
+  },
+  {
+    "spawnId": 366,
+    "preset": "water"
+  },
+  {
+    "spawnId": 368,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 369,
+    "preset": "water"
+  },
+  {
+    "spawnId": 372,
+    "preset": "water"
+  },
+  {
+    "spawnId": 374,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 374,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 375,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 377,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 378,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 378,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 379,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 381,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 382,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 383,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 384,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 385,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 386,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 386,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 387,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 387,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 388,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 388,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 389,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 389,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 390,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 390,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 391,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 391,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 392,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 393,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 394,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 395,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 395,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 396,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 397,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 398,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 399,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 400,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 400,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 401,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 402,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 403,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 404,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 405,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 405,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 406,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 406,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 407,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 407,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 408,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 409,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 410,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 410,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 411,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 411,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 412,
+    "preset": "water"
+  },
+  {
+    "spawnId": 414,
+    "preset": "water"
+  },
+  {
+    "spawnId": 416,
+    "preset": "water"
+  },
+  {
+    "spawnId": 418,
+    "preset": "water"
+  },
+  {
+    "spawnId": 420,
+    "preset": "water"
+  },
+  {
+    "spawnId": 422,
+    "preset": "water"
+  },
+  {
+    "spawnId": 424,
+    "preset": "water"
+  },
+  {
+    "spawnId": 426,
+    "preset": "water"
+  },
+  {
+    "spawnId": 428,
+    "preset": "water"
+  },
+  {
+    "spawnId": 430,
+    "preset": "water"
+  },
+  {
+    "spawnId": 432,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 433,
+    "preset": "water"
+  },
+  {
+    "spawnId": 436,
+    "preset": "water"
+  },
+  {
+    "spawnId": 439,
+    "preset": "water"
+  },
+  {
+    "spawnId": 442,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 443,
+    "preset": "water"
+  },
+  {
+    "spawnId": 446,
+    "preset": "water"
+  },
+  {
+    "spawnId": 449,
+    "preset": "water"
+  },
+  {
+    "spawnId": 452,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 452,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 453,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 454,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 455,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 455,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 456,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 457,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 457,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 458,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 458,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 459,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 460,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 460,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 461,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 462,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 463,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 464,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 465,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 466,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 466,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 467,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 468,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 469,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 470,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 471,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 472,
+    "preset": "water"
+  },
+  {
+    "spawnId": 473,
+    "preset": "water"
+  },
+  {
+    "spawnId": 475,
+    "preset": "water"
+  },
+  {
+    "spawnId": 518,
+    "preset": "water"
+  },
+  {
+    "spawnId": 519,
+    "preset": "water"
+  },
+  {
+    "spawnId": 521,
+    "preset": "water"
+  },
+  {
+    "spawnId": 523,
+    "preset": "water"
+  },
+  {
+    "spawnId": 524,
+    "preset": "water"
+  },
+  {
+    "spawnId": 531,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 532,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 533,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 534,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 535,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 536,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 536,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 537,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 538,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 539,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 540,
+    "preset": "water"
+  },
+  {
+    "spawnId": 541,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 541,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 542,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 543,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 545,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 546,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 546,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 547,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 548,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 549,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 550,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 550,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 551,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 552,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 554,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 555,
+    "preset": "water"
+  },
+  {
+    "spawnId": 556,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 557,
+    "preset": "water"
+  },
+  {
+    "spawnId": 558,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 559,
+    "preset": "water"
+  },
+  {
+    "spawnId": 560,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 561,
+    "preset": "water"
+  },
+  {
+    "spawnId": 562,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 563,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 564,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 565,
+    "preset": "water"
+  },
+  {
+    "spawnId": 566,
+    "preset": "water"
+  },
+  {
+    "spawnId": 567,
+    "preset": "water"
+  },
+  {
+    "spawnId": 567,
+    "preset": "ocean_ruins"
+  },
+  {
+    "spawnId": 570,
+    "preset": "water"
+  },
+  {
+    "spawnId": 570,
+    "preset": "ocean_ruins"
+  },
+  {
+    "spawnId": 572,
+    "preset": "water"
+  },
+  {
+    "spawnId": 573,
+    "preset": "water"
+  },
+  {
+    "spawnId": 574,
+    "preset": "water"
+  },
+  {
+    "spawnId": 574,
+    "preset": "ocean_ruins"
+  },
+  {
+    "spawnId": 577,
+    "preset": "water"
+  },
+  {
+    "spawnId": 577,
+    "preset": "ocean_ruins"
+  },
+  {
+    "spawnId": 579,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 580,
+    "preset": "water"
+  },
+  {
+    "spawnId": 580,
+    "preset": "ocean_ruins"
+  },
+  {
+    "spawnId": 581,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 584,
+    "preset": "water"
+  },
+  {
+    "spawnId": 584,
+    "preset": "ocean_ruins"
+  },
+  {
+    "spawnId": 586,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 588,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 590,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 592,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 593,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 594,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 595,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 596,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 597,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 598,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 599,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 600,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 601,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 602,
+    "preset": "water"
+  },
+  {
+    "spawnId": 604,
+    "preset": "water"
+  },
+  {
+    "spawnId": 606,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 607,
+    "preset": "water"
+  },
+  {
+    "spawnId": 609,
+    "preset": "water"
+  },
+  {
+    "spawnId": 611,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 612,
+    "preset": "water"
+  },
+  {
+    "spawnId": 614,
+    "preset": "water"
+  },
+  {
+    "spawnId": 616,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 617,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 618,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 618,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 619,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 619,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 620,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 620,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 622,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 622,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 623,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 623,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 625,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 625,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 626,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 626,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 627,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 628,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 629,
+    "preset": "webs"
+  },
+  {
+    "spawnId": 629,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 630,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 631,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 631,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 632,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 633,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 634,
+    "preset": "webs"
+  },
+  {
+    "spawnId": 634,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 635,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 636,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 637,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 638,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 639,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 640,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 641,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 642,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 643,
+    "preset": "water"
+  },
+  {
+    "spawnId": 645,
+    "preset": "water"
+  },
+  {
+    "spawnId": 647,
+    "preset": "water"
+  },
+  {
+    "spawnId": 649,
+    "preset": "water"
+  },
+  {
+    "spawnId": 651,
+    "preset": "water"
+  },
+  {
+    "spawnId": 653,
+    "preset": "water"
+  },
+  {
+    "spawnId": 655,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 656,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 657,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 658,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 659,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 660,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 661,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 662,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 663,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 664,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 665,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 667,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 668,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 670,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 670,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 671,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 672,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 672,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 673,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 674,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 675,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 676,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 677,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 678,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 679,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 680,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 681,
+    "preset": "water"
+  },
+  {
+    "spawnId": 684,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 685,
+    "preset": "water"
+  },
+  {
+    "spawnId": 688,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 689,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 690,
+    "preset": "water"
+  },
+  {
+    "spawnId": 691,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 692,
+    "preset": "water"
+  },
+  {
+    "spawnId": 693,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 694,
+    "preset": "water"
+  },
+  {
+    "spawnId": 697,
+    "preset": "water"
+  },
+  {
+    "spawnId": 698,
+    "preset": "water"
+  },
+  {
+    "spawnId": 700,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 701,
+    "preset": "water"
+  },
+  {
+    "spawnId": 703,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 703,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 704,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 704,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 705,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 706,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 706,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 707,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 707,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 708,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 709,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 709,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 710,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 710,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 711,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 712,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 712,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 714,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 715,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 716,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 718,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 719,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 720,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 722,
+    "preset": "water"
+  },
+  {
+    "spawnId": 723,
+    "preset": "water"
+  },
+  {
+    "spawnId": 724,
+    "preset": "water"
+  },
+  {
+    "spawnId": 725,
+    "preset": "water"
+  },
+  {
+    "spawnId": 726,
+    "preset": "water"
+  },
+  {
+    "spawnId": 727,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 728,
+    "preset": "water"
+  },
+  {
+    "spawnId": 729,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 730,
+    "preset": "water"
+  },
+  {
+    "spawnId": 731,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 732,
+    "preset": "water"
+  },
+  {
+    "spawnId": 733,
+    "preset": "water"
+  },
+  {
+    "spawnId": 737,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 738,
+    "preset": "water"
+  },
+  {
+    "spawnId": 739,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 740,
+    "preset": "water"
+  },
+  {
+    "spawnId": 747,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 748,
+    "preset": "water"
+  },
+  {
+    "spawnId": 749,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 750,
+    "preset": "water"
+  },
+  {
+    "spawnId": 754,
+    "preset": "water"
+  },
+  {
+    "spawnId": 755,
+    "preset": "water"
+  },
+  {
+    "spawnId": 759,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 760,
+    "preset": "water"
+  },
+  {
+    "spawnId": 761,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 762,
+    "preset": "water"
+  },
+  {
+    "spawnId": 763,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 764,
+    "preset": "water"
+  },
+  {
+    "spawnId": 767,
+    "preset": "water"
+  },
+  {
+    "spawnId": 769,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 770,
+    "preset": "water"
+  },
+  {
+    "spawnId": 771,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 772,
+    "preset": "water"
+  },
+  {
+    "spawnId": 773,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 774,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 774,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 775,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 776,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 777,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 778,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 778,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 779,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 780,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 781,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 781,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 782,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 782,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 783,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 783,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 784,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 784,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 785,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 788,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 791,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 792,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 793,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 794,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 795,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 797,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 798,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 799,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 800,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 801,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 802,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 803,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 804,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 805,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 806,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 807,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 808,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 809,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 810,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 811,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 812,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 813,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 814,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 815,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 816,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 817,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 818,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 819,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 820,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 821,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 822,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 823,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 824,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 825,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 826,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 827,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 828,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 829,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 830,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 831,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 832,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 833,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 834,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 835,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 836,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 837,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 838,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 839,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 840,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 841,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 842,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 843,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 844,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 845,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 846,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 847,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 848,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 849,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 850,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 851,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 852,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 881,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 882,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 882,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 883,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 883,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 884,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 885,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 886,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 886,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 887,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 888,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 889,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 890,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 890,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 891,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 892,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 893,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 893,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 894,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 895,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 896,
+    "preset": "water"
+  },
+  {
+    "spawnId": 897,
+    "preset": "water"
+  },
+  {
+    "spawnId": 897,
+    "preset": "ocean_monument"
+  },
+  {
+    "spawnId": 901,
+    "preset": "water"
+  },
+  {
+    "spawnId": 902,
+    "preset": "water"
+  },
+  {
+    "spawnId": 902,
+    "preset": "ocean_monument"
+  },
+  {
+    "spawnId": 906,
+    "preset": "water"
+  },
+  {
+    "spawnId": 909,
+    "preset": "water"
+  },
+  {
+    "spawnId": 910,
+    "preset": "water"
+  },
+  {
+    "spawnId": 910,
+    "preset": "ocean_monument"
+  },
+  {
+    "spawnId": 914,
+    "preset": "water"
+  },
+  {
+    "spawnId": 915,
+    "preset": "water"
+  },
+  {
+    "spawnId": 915,
+    "preset": "ocean_monument"
+  },
+  {
+    "spawnId": 919,
+    "preset": "water"
+  },
+  {
+    "spawnId": 922,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 922,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 923,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 926,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 929,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 929,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 929,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 930,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 930,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 930,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 931,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 931,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 933,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 933,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 934,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 934,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 935,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 935,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 936,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 936,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 938,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 938,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 939,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 939,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 941,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 942,
+    "preset": "lava"
+  },
+  {
+    "spawnId": 943,
+    "preset": "lava"
+  },
+  {
+    "spawnId": 944,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 945,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 946,
+    "preset": "lava"
+  },
+  {
+    "spawnId": 947,
+    "preset": "lava"
+  },
+  {
+    "spawnId": 948,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 949,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 949,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 950,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 950,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 951,
+    "preset": "water"
+  },
+  {
+    "spawnId": 952,
+    "preset": "water"
+  },
+  {
+    "spawnId": 955,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 956,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 957,
+    "preset": "water"
+  },
+  {
+    "spawnId": 958,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 959,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 964,
+    "preset": "water"
+  },
+  {
+    "spawnId": 966,
+    "preset": "water"
+  },
+  {
+    "spawnId": 968,
+    "preset": "water"
+  },
+  {
+    "spawnId": 970,
+    "preset": "water"
+  },
+  {
+    "spawnId": 973,
+    "preset": "water"
+  },
+  {
+    "spawnId": 975,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 976,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 977,
+    "preset": "water"
+  },
+  {
+    "spawnId": 980,
+    "preset": "water"
+  },
+  {
+    "spawnId": 983,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 983,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 984,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 984,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 985,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 986,
+    "preset": "ruined_portal"
+  },
+  {
+    "spawnId": 987,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 987,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 988,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 989,
+    "preset": "ruined_portal"
+  },
+  {
+    "spawnId": 990,
+    "preset": "water"
+  },
+  {
+    "spawnId": 992,
+    "preset": "water"
+  },
+  {
+    "spawnId": 994,
+    "preset": "water"
+  },
+  {
+    "spawnId": 996,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 996,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 997,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 997,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 998,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 998,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 999,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 999,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1001,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1001,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1002,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1003,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1003,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1004,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1005,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1006,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1007,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1008,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1008,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1009,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1010,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1011,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1012,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1013,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1014,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1015,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1016,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1017,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1017,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1018,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1019,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1020,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1020,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1021,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1022,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1022,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1023,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1024,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1024,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1025,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1026,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1026,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1027,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1027,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1028,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1028,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1029,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1030,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1031,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1032,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1033,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1034,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1035,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1038,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1040,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1041,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1043,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1044,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1045,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1046,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1049,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1051,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1052,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1054,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1055,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1056,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1057,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1060,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1062,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1063,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1065,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1066,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1066,
+    "preset": "pillager_outpost"
+  },
+  {
+    "spawnId": 1067,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1068,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1068,
+    "preset": "pillager_outpost"
+  },
+  {
+    "spawnId": 1069,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1070,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1071,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1071,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1072,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1073,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1074,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1074,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1075,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1076,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1079,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1080,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1083,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1084,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1087,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1087,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1088,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1088,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1089,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1089,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1090,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1090,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1091,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1091,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1092,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1092,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1093,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1093,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1094,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1094,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1095,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1095,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1096,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1097,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1097,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1098,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1099,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1100,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1101,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1101,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1102,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1103,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1104,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1105,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1105,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1106,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1107,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1108,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1109,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1110,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1111,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1112,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1113,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1114,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1115,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1116,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1116,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1116,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1117,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1117,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1117,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1118,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1118,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1119,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1120,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1121,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1122,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1123,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1124,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1125,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1126,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1127,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1128,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1129,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1130,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1131,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1132,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1135,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1136,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1137,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1138,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1139,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1141,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1142,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1143,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1143,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1144,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1145,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1145,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1146,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1147,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1147,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1148,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1149,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1150,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1150,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 1151,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1152,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1152,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 1153,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1154,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1155,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1157,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1159,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1159,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1160,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1162,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1163,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1163,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1164,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1166,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1167,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1169,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1172,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1175,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1177,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1179,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1181,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1183,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1186,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1189,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1192,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1195,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1196,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1197,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1198,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1199,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1200,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1201,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1202,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1203,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1204,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1204,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1205,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1205,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1206,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1206,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1207,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1207,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1208,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1208,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1209,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1209,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1210,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1210,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1211,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1211,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1212,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1212,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1213,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1213,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1214,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1215,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1215,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1216,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1216,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1217,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1218,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1219,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1219,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1220,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1220,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1221,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1221,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1222,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1222,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1223,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1223,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1224,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1224,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1225,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1226,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1227,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1228,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1229,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1230,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1231,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1232,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1233,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1234,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1235,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1238,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1240,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1241,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1246,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1249,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1250,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1253,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1254,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1257,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1258,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1258,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 1260,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1261,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1261,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 1263,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1264,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1265,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1266,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1267,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1268,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1273,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1273,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1274,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1275,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1275,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1276,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1277,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1278,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1279,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1279,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1280,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1281,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1282,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1283,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1284,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1285,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1286,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1286,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1287,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1288,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1289,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1291,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1291,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1292,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1293,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1293,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1294,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1295,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1296,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1297,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1297,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1298,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1299,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1300,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1301,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1303,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1305,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1306,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1308,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1310,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1311,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1313,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1315,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1316,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1319,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1321,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1322,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1324,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1325,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1327,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1329,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1330,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1332,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1333,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1335,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1337,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1338,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1338,
+    "preset": "ocean_ruins"
+  },
+  {
+    "spawnId": 1339,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1345,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1345,
+    "preset": "ocean_ruins"
+  },
+  {
+    "spawnId": 1347,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1350,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1352,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1354,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1354,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1355,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1355,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1356,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1357,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1357,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1358,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1359,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1359,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1360,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1360,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1361,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1362,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1363,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1364,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1367,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1368,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1369,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1372,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1373,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1374,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1377,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1378,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1379,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1380,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1380,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1381,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1381,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1382,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1382,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1383,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1383,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1384,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1384,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1385,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1385,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1386,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1387,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1389,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1391,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1392,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1394,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1396,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1397,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1399,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1401,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1401,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1402,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1402,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1403,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1403,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1404,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1405,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1406,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1409,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1410,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1411,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1414,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1415,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1416,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1416,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1417,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1417,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1418,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1418,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1419,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1421,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1423,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1424,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1425,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1426,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1427,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1428,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1429,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1431,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1432,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1433,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1435,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1435,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1436,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1437,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1438,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1440,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1441,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1442,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1444,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1445,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1447,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1448,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1452,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1453,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1455,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1456,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1460,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1460,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1462,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1463,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1464,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1465,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1466,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1466,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1467,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1467,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1468,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1469,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1470,
+    "preset": "derelict"
+  },
+  {
+    "spawnId": 1471,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1472,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1474,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1474,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1475,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1475,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1476,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1476,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1477,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1477,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1478,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1479,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1479,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1480,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1481,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1482,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1482,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1483,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1484,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1484,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1485,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1486,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1487,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1488,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1491,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1492,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1492,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 1494,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 1496,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1497,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1497,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 1499,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 1500,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1501,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1501,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1502,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1503,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1504,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1504,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1505,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1506,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1506,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1507,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1508,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1509,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1509,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1510,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1510,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1511,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1511,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1513,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1513,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1514,
+    "preset": "ancient_city"
+  },
+  {
+    "spawnId": 1517,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 1518,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1518,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 1519,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1519,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 1521,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1522,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1522,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1523,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1524,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1525,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1526,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1527,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1528,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1528,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1529,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1530,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1531,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1532,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1533,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1534,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1534,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1535,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1536,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1537,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1538,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1539,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1540,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1541,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1541,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1542,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1543,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1543,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1544,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1545,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1545,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1546,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1546,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1547,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1547,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1548,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1548,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1549,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1549,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1550,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1550,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1551,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1551,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1551,
+    "preset": "foliage"
+  },
+  {
+    "spawnId": 1552,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1553,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1554,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1556,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1558,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1560,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1562,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1564,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1566,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1569,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1572,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1572,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1573,
+    "preset": "redstone"
+  },
+  {
+    "spawnId": 1575,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1576,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1576,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1577,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1577,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1578,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1579,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1580,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1581,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1582,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1583,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1585,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1586,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1587,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1588,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1589,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1590,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1591,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1591,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1592,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1593,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1594,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1595,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1595,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1596,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1597,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1598,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1598,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1599,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1600,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1600,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1602,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1603,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1603,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1604,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1605,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1606,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1607,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1608,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1609,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1609,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1610,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1611,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1612,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1613,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1613,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1614,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1614,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1615,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1615,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1616,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1617,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1618,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1619,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1620,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1621,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1622,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1623,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1625,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1626,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1627,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1628,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1630,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1631,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1633,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1634,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1635,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1636,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1638,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1639,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1641,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1642,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1643,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1644,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1646,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1647,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1648,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1648,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1649,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1650,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1650,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1651,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1652,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1652,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1653,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1654,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1655,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1656,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1656,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1657,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1658,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1658,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1659,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1660,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1661,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1662,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1663,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1664,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1664,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1665,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1666,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1666,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1667,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1668,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1669,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1670,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1670,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1670,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1671,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1671,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1671,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1672,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1672,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1673,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1673,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1673,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1674,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1674,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1674,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1675,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1675,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1676,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1676,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1676,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1677,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1677,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1677,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1678,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1678,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1678,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1679,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1679,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1679,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1680,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1680,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1680,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1681,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1681,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1681,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1682,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1682,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1682,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1683,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1683,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1683,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1684,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1684,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1685,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1686,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1686,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1687,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1688,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1688,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1689,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1689,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1690,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1691,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1691,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1692,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1692,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1693,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1694,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1694,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1695,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1695,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1696,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1697,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1697,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1698,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1698,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1699,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1700,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1701,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1702,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1703,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1704,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1705,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1705,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1706,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1707,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1707,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1708,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1709,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1710,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1711,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1711,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1712,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1713,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1713,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1714,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1715,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1715,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1716,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1717,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1717,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1718,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1718,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1719,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1719,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1720,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1720,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1721,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1721,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1722,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1723,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1723,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1724,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1725,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1725,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1726,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1726,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1727,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1728,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1728,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1729,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1730,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1730,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1731,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1731,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1732,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1733,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1733,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1734,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1735,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1736,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1737,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1738,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1739,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1739,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1740,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1740,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1742,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1742,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1743,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1744,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1744,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1745,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1745,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1747,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1747,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1748,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1749,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1750,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1751,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1755,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1756,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1757,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1761,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1762,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1763,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1767,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1768,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1769,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1773,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1775,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1777,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1777,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1778,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1778,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1779,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1779,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1780,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1781,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1781,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 1782,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1782,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 1783,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1784,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1785,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1785,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 1786,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1786,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 1787,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1788,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1789,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1790,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1792,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1792,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1793,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1795,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1795,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1796,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1797,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1798,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1798,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 1799,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1799,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 1800,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 1801,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1801,
+    "preset": "end_city"
+  },
+  {
+    "spawnId": 1804,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1805,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1805,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 1806,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1807,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1807,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 1808,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1809,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1810,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1811,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1812,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1813,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1814,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1814,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1815,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1816,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1816,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1817,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1818,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1818,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1819,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1819,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1820,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1820,
+    "preset": "nether_fossil"
+  },
+  {
+    "spawnId": 1821,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1821,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1822,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1822,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1823,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1823,
+    "preset": "nether_fossil"
+  },
+  {
+    "spawnId": 1824,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1825,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1825,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1826,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1827,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1828,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1829,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1829,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 1830,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1831,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1832,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1833,
+    "preset": "end_city"
+  },
+  {
+    "spawnId": 1834,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1835,
+    "preset": "end_city"
+  },
+  {
+    "spawnId": 1836,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1837,
+    "preset": "end_city"
+  },
+  {
+    "spawnId": 1838,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1839,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1840,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1841,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1842,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1843,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1844,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1845,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1846,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1847,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1848,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1849,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1850,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1851,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1852,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1854,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1855,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1856,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1857,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1858,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1859,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1860,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1861,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1862,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1863,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1864,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1865,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1865,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1866,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1868,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1868,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1869,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1871,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1871,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1872,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1873,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1874,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1875,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1876,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1877,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1878,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1879,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1881,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1883,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1885,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1886,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1888,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1890,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1892,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1895,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1898,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1899,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1900,
+    "preset": "webs"
+  },
+  {
+    "spawnId": 1900,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1901,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1902,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1903,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1904,
+    "preset": "webs"
+  },
+  {
+    "spawnId": 1904,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1905,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1906,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1907,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1908,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1909,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1910,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1911,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1911,
+    "preset": "redstone"
+  },
+  {
+    "spawnId": 1912,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1913,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1914,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1914,
+    "preset": "redstone"
+  },
+  {
+    "spawnId": 1915,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1916,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1917,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1917,
+    "preset": "redstone"
+  },
+  {
+    "spawnId": 1918,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1922,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1923,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1924,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1928,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1929,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1930,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1934,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1935,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1936,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1937,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1938,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1940,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1941,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1943,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1944,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1945,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1946,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1947,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1948,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 1949,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1949,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1950,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1950,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1951,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1951,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1952,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1952,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1953,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1953,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1954,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1955,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1956,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1957,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1960,
+    "preset": "water"
+  },
+  {
+    "spawnId": 1961,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1962,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1962,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1963,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1963,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1964,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1965,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1966,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1966,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1967,
+    "preset": "ancient_city"
+  },
+  {
+    "spawnId": 1968,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1969,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 1970,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1970,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 1971,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1971,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 1973,
+    "preset": "ancient_city"
+  },
+  {
+    "spawnId": 1974,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1975,
+    "preset": "trail_ruins"
+  },
+  {
+    "spawnId": 1976,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1976,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 1977,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1977,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 1979,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1979,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1980,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1980,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1980,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1981,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1981,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1981,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1982,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1982,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1982,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1983,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1983,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1983,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1984,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1984,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1984,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1985,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1985,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1985,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1986,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1986,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1986,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1987,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1987,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 1987,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1988,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1988,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1989,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1989,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 1990,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1991,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1992,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1993,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1994,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1995,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1996,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1997,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1998,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 1999,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2000,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2001,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2002,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2002,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 2003,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2003,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 2004,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2004,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2006,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2006,
+    "preset": "desert_pyramid"
+  },
+  {
+    "spawnId": 2007,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2007,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 2008,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2008,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2010,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2011,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2012,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2013,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2014,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2015,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2016,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2017,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2018,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2019,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2021,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2022,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2023,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2024,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2026,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2027,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2028,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2029,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2031,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2032,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2033,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2033,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2034,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2034,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2035,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2035,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2036,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2036,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2037,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2037,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2038,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2038,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2039,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2039,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2040,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2040,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2041,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2041,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2042,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2042,
+    "preset": "foliage"
+  },
+  {
+    "spawnId": 2044,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2044,
+    "preset": "foliage"
+  },
+  {
+    "spawnId": 2046,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2047,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2048,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2049,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2050,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2052,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2053,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2054,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2055,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2056,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2057,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2058,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2059,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2061,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2061,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2061,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2062,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2063,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2064,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2065,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2066,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2067,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2068,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2069,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2070,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2071,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2072,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2073,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2074,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2081,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2082,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2083,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2084,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2085,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2086,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2087,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2094,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2095,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2096,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2097,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2098,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2099,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2100,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2107,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2108,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2109,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2109,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2110,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2111,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2111,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2112,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2112,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2113,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2114,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2114,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2115,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2116,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2117,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2117,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2118,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2119,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2119,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2120,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2121,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2122,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2122,
+    "preset": "nether_structures"
+  },
+  {
+    "spawnId": 2124,
+    "preset": "stronghold"
+  },
+  {
+    "spawnId": 2126,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2126,
+    "preset": "nether_structures"
+  },
+  {
+    "spawnId": 2128,
+    "preset": "stronghold"
+  },
+  {
+    "spawnId": 2130,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2130,
+    "preset": "nether_structures"
+  },
+  {
+    "spawnId": 2132,
+    "preset": "stronghold"
+  },
+  {
+    "spawnId": 2138,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2138,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2139,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2139,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2140,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2141,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2142,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2149,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2149,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2150,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2150,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2151,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2152,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2153,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2159,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2163,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2164,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2166,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2168,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2170,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2172,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2174,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2176,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2179,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2181,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2183,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2184,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2185,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2186,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2187,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2188,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2188,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2189,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2190,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2191,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2191,
+    "preset": "jungle_pyramid"
+  },
+  {
+    "spawnId": 2192,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2193,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2194,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2195,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2197,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2197,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2198,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2198,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2199,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2199,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2203,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2204,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2205,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2206,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2207,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2208,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2209,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2210,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2211,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2212,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2213,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2213,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2214,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2214,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2215,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2215,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2219,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2220,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2221,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2222,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2223,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2224,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2225,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2226,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2227,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2228,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2229,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2229,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2230,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2230,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2231,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2231,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2235,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2236,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2237,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2238,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2239,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2240,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2241,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2242,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2243,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2244,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2245,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2245,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2246,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2247,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2248,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2248,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2249,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2249,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2250,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2250,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2251,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2251,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2252,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2253,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2254,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2255,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2256,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2257,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2259,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2261,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2262,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2264,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2266,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2268,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2270,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2270,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2271,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2271,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2272,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2272,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2273,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2273,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2274,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2274,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2275,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2275,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2276,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2277,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2278,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2279,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2280,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2282,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2284,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2285,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2287,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2289,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2290,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2292,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2297,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2297,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2298,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2298,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2299,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2300,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2301,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2302,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2304,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2305,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2307,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2309,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2312,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2318,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2323,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2324,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2330,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2336,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2337,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2337,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2338,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2338,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2340,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2340,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2341,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2341,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2343,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2344,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2345,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2346,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2347,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2348,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2349,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2350,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2351,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2352,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2353,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2354,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2355,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2356,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2357,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2358,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2359,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2360,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2361,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2361,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2362,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2363,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2364,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2365,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2367,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2367,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2368,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2368,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2369,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2370,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2376,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2376,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2377,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2377,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2378,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2379,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2387,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2388,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2389,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2394,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2394,
+    "preset": "foliage"
+  },
+  {
+    "spawnId": 2394,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2394,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2395,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2395,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2396,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2396,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2397,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2398,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2399,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2402,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2405,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2405,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2406,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2406,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2407,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2410,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2413,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2415,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2415,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2416,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2416,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2417,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2417,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2418,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2418,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2419,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2419,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2420,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2420,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2421,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2421,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2422,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2422,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2423,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2423,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2424,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2425,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2426,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2427,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2428,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2429,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2431,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2432,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2433,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2435,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2436,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2437,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2439,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2439,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2440,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2440,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2441,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2441,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2442,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2442,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2443,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2443,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2444,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2445,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2446,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2447,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2448,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2449,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2451,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2452,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2454,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2455,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2456,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2457,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2460,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2461,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2464,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2465,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2466,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2466,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2467,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2468,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2468,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2469,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2470,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2470,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2471,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2471,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2473,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2477,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2480,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2482,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2484,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2486,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2488,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2489,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2489,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2490,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2491,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2491,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2492,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2492,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2493,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2493,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2494,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2494,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2495,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2495,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2496,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2496,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2497,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2497,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2502,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2502,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2503,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2504,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2511,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2511,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2512,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2513,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2520,
+    "preset": "mansion_dining"
+  },
+  {
+    "spawnId": 2521,
+    "preset": "mansion_dining"
+  },
+  {
+    "spawnId": 2526,
+    "preset": "mansion_dining"
+  },
+  {
+    "spawnId": 2527,
+    "preset": "mansion_dining"
+  },
+  {
+    "spawnId": 2528,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2528,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2530,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2531,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2531,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2533,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2534,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2534,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2536,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2537,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2537,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2538,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2538,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2539,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2539,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2540,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2540,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2541,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2541,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2542,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2542,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2543,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2543,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2544,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2544,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2545,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2550,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2551,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2553,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2554,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2555,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2555,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2556,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2556,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2557,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2561,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2565,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2566,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2567,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2567,
+    "preset": "nether_structures"
+  },
+  {
+    "spawnId": 2568,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2573,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2576,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2576,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2577,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2577,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2578,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2579,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2580,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2583,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2583,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2584,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2584,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2585,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2586,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2589,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2590,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2593,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2594,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2597,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2597,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2598,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2598,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2599,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2600,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2600,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2601,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2601,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2603,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2605,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2607,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2607,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2608,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2609,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2609,
+    "preset": "ocean_monument"
+  },
+  {
+    "spawnId": 2613,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2614,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2614,
+    "preset": "ocean_monument"
+  },
+  {
+    "spawnId": 2618,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2621,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2622,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2623,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2624,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2625,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2626,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2627,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2628,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2629,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2630,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2633,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2636,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2639,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2640,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2641,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2642,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2643,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2644,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2645,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2646,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2647,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2647,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2648,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2648,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2649,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2650,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2651,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2652,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2652,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2653,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2653,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2654,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2654,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2655,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2655,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2656,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2657,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2658,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2659,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2660,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2661,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2662,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2662,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2663,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2664,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2664,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2665,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2666,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2667,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2668,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2669,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2669,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2670,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2670,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2670,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2671,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2671,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2672,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2672,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2673,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2673,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2674,
+    "preset": "salt"
+  },
+  {
+    "spawnId": 2674,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2674,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2676,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2676,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2677,
+    "preset": "salt"
+  },
+  {
+    "spawnId": 2677,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2677,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2679,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2679,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2680,
+    "preset": "salt"
+  },
+  {
+    "spawnId": 2680,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2680,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2682,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2682,
+    "preset": "nether_structures"
+  },
+  {
+    "spawnId": 2683,
+    "preset": "ruined_portal"
+  },
+  {
+    "spawnId": 2685,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2685,
+    "preset": "nether_structures"
+  },
+  {
+    "spawnId": 2686,
+    "preset": "ruined_portal"
+  },
+  {
+    "spawnId": 2688,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2688,
+    "preset": "nether_structures"
+  },
+  {
+    "spawnId": 2689,
+    "preset": "ruined_portal"
+  },
+  {
+    "spawnId": 2691,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2692,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2693,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2694,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2695,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2698,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2699,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2700,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2703,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2703,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2704,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2705,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2705,
+    "preset": "pillager_outpost"
+  },
+  {
+    "spawnId": 2706,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2706,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2707,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2707,
+    "preset": "urban"
+  },
+  {
+    "spawnId": 2708,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2709,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2709,
+    "preset": "pillager_outpost"
+  },
+  {
+    "spawnId": 2710,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2710,
+    "preset": "mansion"
+  },
+  {
+    "spawnId": 2711,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2711,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2711,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2712,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2712,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2712,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2713,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2714,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2715,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2716,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2717,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2717,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2718,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2718,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2719,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2719,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2720,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2720,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2721,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2721,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2722,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2723,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2724,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2725,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2726,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2726,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2727,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2727,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2728,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2728,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2729,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2729,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2730,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2730,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2732,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2732,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2734,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2734,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2736,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2737,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2738,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2739,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2740,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2743,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2746,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2749,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2752,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2754,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2756,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2757,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2758,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2759,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2760,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2761,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2762,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2765,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2768,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2769,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2770,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2771,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2771,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2772,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2772,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2773,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2773,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2774,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2774,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2775,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2778,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2781,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2784,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2786,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2788,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2788,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2789,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2791,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2793,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2793,
+    "preset": "treetop"
+  },
+  {
+    "spawnId": 2794,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2795,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2796,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2797,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2801,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2802,
+    "preset": "water"
+  },
+  {
+    "spawnId": 2806,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2806,
+    "preset": "wild"
+  },
+  {
+    "spawnId": 2807,
+    "preset": "natural"
+  },
+  {
+    "spawnId": 2808,
+    "preset": "natural"
+  }
+]

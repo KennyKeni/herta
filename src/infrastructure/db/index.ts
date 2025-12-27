@@ -1,8 +1,8 @@
-import { config } from  "../../config"
-import { SQL } from "bun"
-import { PostgresJSDialect } from "kysely-postgres-js"
-import { DB } from "./types"
-import { Kysely } from "kysely"
+import { config } from '../../config';
+import { SQL } from 'bun';
+import { PostgresJSDialect } from 'kysely-postgres-js';
+import { DB } from './types';
+import { Kysely } from 'kysely';
 
 const dialect = new PostgresJSDialect({
   postgres: new SQL({
@@ -13,8 +13,8 @@ const dialect = new PostgresJSDialect({
     password: config.postgres.POSTGRES_PASSWORD,
     max: 10,
   }),
-})
+});
 
 export const db = new Kysely<DB>({
   dialect,
-})
+});

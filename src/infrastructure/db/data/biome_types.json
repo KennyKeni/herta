@@ -1,0 +1,506 @@
+[
+  {
+    "id": 1,
+    "slug": "#aether:is_aether",
+    "name": "Is Aether",
+    "isTag": true
+  },
+  {
+    "id": 2,
+    "slug": "#cobblemon:has_block/mud",
+    "name": "Has Block/Mud",
+    "isTag": true
+  },
+  {
+    "id": 3,
+    "slug": "#cobblemon:is_arid",
+    "name": "Is Arid",
+    "isTag": true
+  },
+  {
+    "id": 4,
+    "slug": "#cobblemon:is_badlands",
+    "name": "Is Badlands",
+    "isTag": true
+  },
+  {
+    "id": 5,
+    "slug": "#cobblemon:is_bamboo",
+    "name": "Is Bamboo",
+    "isTag": true
+  },
+  {
+    "id": 6,
+    "slug": "#cobblemon:is_beach",
+    "name": "Is Beach",
+    "isTag": true
+  },
+  {
+    "id": 7,
+    "slug": "#cobblemon:is_cherry_blossom",
+    "name": "Is Cherry Blossom",
+    "isTag": true
+  },
+  {
+    "id": 8,
+    "slug": "#cobblemon:is_coast",
+    "name": "Is Coast",
+    "isTag": true
+  },
+  {
+    "id": 9,
+    "slug": "#cobblemon:is_cold",
+    "name": "Is Cold",
+    "isTag": true
+  },
+  {
+    "id": 10,
+    "slug": "#cobblemon:is_cold_ocean",
+    "name": "Is Cold Ocean",
+    "isTag": true
+  },
+  {
+    "id": 11,
+    "slug": "#cobblemon:is_deep_dark",
+    "name": "Is Deep Dark",
+    "isTag": true
+  },
+  {
+    "id": 12,
+    "slug": "#cobblemon:is_deep_ocean",
+    "name": "Is Deep Ocean",
+    "isTag": true
+  },
+  {
+    "id": 13,
+    "slug": "#cobblemon:is_desert",
+    "name": "Is Desert",
+    "isTag": true
+  },
+  {
+    "id": 14,
+    "slug": "#cobblemon:is_dripstone",
+    "name": "Is Dripstone",
+    "isTag": true
+  },
+  {
+    "id": 15,
+    "slug": "#cobblemon:is_end",
+    "name": "Is End",
+    "isTag": true
+  },
+  {
+    "id": 16,
+    "slug": "#cobblemon:is_floral",
+    "name": "Is Floral",
+    "isTag": true
+  },
+  {
+    "id": 17,
+    "slug": "#cobblemon:is_forest",
+    "name": "Is Forest",
+    "isTag": true
+  },
+  {
+    "id": 18,
+    "slug": "#cobblemon:is_freezing",
+    "name": "Is Freezing",
+    "isTag": true
+  },
+  {
+    "id": 19,
+    "slug": "#cobblemon:is_freshwater",
+    "name": "Is Freshwater",
+    "isTag": true
+  },
+  {
+    "id": 20,
+    "slug": "#cobblemon:is_frozen_ocean",
+    "name": "Is Frozen Ocean",
+    "isTag": true
+  },
+  {
+    "id": 21,
+    "slug": "#cobblemon:is_glacial",
+    "name": "Is Glacial",
+    "isTag": true
+  },
+  {
+    "id": 22,
+    "slug": "#cobblemon:is_grassland",
+    "name": "Is Grassland",
+    "isTag": true
+  },
+  {
+    "id": 23,
+    "slug": "#cobblemon:is_highlands",
+    "name": "Is Highlands",
+    "isTag": true
+  },
+  {
+    "id": 24,
+    "slug": "#cobblemon:is_hills",
+    "name": "Is Hills",
+    "isTag": true
+  },
+  {
+    "id": 25,
+    "slug": "#cobblemon:is_island",
+    "name": "Is Island",
+    "isTag": true
+  },
+  {
+    "id": 26,
+    "slug": "#cobblemon:is_jungle",
+    "name": "Is Jungle",
+    "isTag": true
+  },
+  {
+    "id": 27,
+    "slug": "#cobblemon:is_lukewarm_ocean",
+    "name": "Is Lukewarm Ocean",
+    "isTag": true
+  },
+  {
+    "id": 28,
+    "slug": "#cobblemon:is_lush",
+    "name": "Is Lush",
+    "isTag": true
+  },
+  {
+    "id": 29,
+    "slug": "#cobblemon:is_magical",
+    "name": "Is Magical",
+    "isTag": true
+  },
+  {
+    "id": 30,
+    "slug": "#cobblemon:is_mountain",
+    "name": "Is Mountain",
+    "isTag": true
+  },
+  {
+    "id": 31,
+    "slug": "#cobblemon:is_mushroom",
+    "name": "Is Mushroom",
+    "isTag": true
+  },
+  {
+    "id": 32,
+    "slug": "#cobblemon:is_ocean",
+    "name": "Is Ocean",
+    "isTag": true
+  },
+  {
+    "id": 33,
+    "slug": "#cobblemon:is_overworld",
+    "name": "Is Overworld",
+    "isTag": true
+  },
+  {
+    "id": 34,
+    "slug": "#cobblemon:is_peak",
+    "name": "Is Peak",
+    "isTag": true
+  },
+  {
+    "id": 35,
+    "slug": "#cobblemon:is_plains",
+    "name": "Is Plains",
+    "isTag": true
+  },
+  {
+    "id": 36,
+    "slug": "#cobblemon:is_plateau",
+    "name": "Is Plateau",
+    "isTag": true
+  },
+  {
+    "id": 37,
+    "slug": "#cobblemon:is_river",
+    "name": "Is River",
+    "isTag": true
+  },
+  {
+    "id": 38,
+    "slug": "#cobblemon:is_sandy",
+    "name": "Is Sandy",
+    "isTag": true
+  },
+  {
+    "id": 39,
+    "slug": "#cobblemon:is_savanna",
+    "name": "Is Savanna",
+    "isTag": true
+  },
+  {
+    "id": 40,
+    "slug": "#cobblemon:is_shrubland",
+    "name": "Is Shrubland",
+    "isTag": true
+  },
+  {
+    "id": 41,
+    "slug": "#cobblemon:is_sky",
+    "name": "Is Sky",
+    "isTag": true
+  },
+  {
+    "id": 42,
+    "slug": "#cobblemon:is_snowy",
+    "name": "Is Snowy",
+    "isTag": true
+  },
+  {
+    "id": 43,
+    "slug": "#cobblemon:is_snowy_forest",
+    "name": "Is Snowy Forest",
+    "isTag": true
+  },
+  {
+    "id": 44,
+    "slug": "#cobblemon:is_snowy_taiga",
+    "name": "Is Snowy Taiga",
+    "isTag": true
+  },
+  {
+    "id": 45,
+    "slug": "#cobblemon:is_spooky",
+    "name": "Is Spooky",
+    "isTag": true
+  },
+  {
+    "id": 46,
+    "slug": "#cobblemon:is_swamp",
+    "name": "Is Swamp",
+    "isTag": true
+  },
+  {
+    "id": 47,
+    "slug": "#cobblemon:is_taiga",
+    "name": "Is Taiga",
+    "isTag": true
+  },
+  {
+    "id": 48,
+    "slug": "#cobblemon:is_temperate",
+    "name": "Is Temperate",
+    "isTag": true
+  },
+  {
+    "id": 49,
+    "slug": "#cobblemon:is_temperate_ocean",
+    "name": "Is Temperate Ocean",
+    "isTag": true
+  },
+  {
+    "id": 50,
+    "slug": "#cobblemon:is_thermal",
+    "name": "Is Thermal",
+    "isTag": true
+  },
+  {
+    "id": 51,
+    "slug": "#cobblemon:is_tropical_island",
+    "name": "Is Tropical Island",
+    "isTag": true
+  },
+  {
+    "id": 52,
+    "slug": "#cobblemon:is_tundra",
+    "name": "Is Tundra",
+    "isTag": true
+  },
+  {
+    "id": 53,
+    "slug": "#cobblemon:is_volcanic",
+    "name": "Is Volcanic",
+    "isTag": true
+  },
+  {
+    "id": 54,
+    "slug": "#cobblemon:is_warm_ocean",
+    "name": "Is Warm Ocean",
+    "isTag": true
+  },
+  {
+    "id": 55,
+    "slug": "#cobblemon:nether/is_basalt",
+    "name": "Nether/Is Basalt",
+    "isTag": true
+  },
+  {
+    "id": 56,
+    "slug": "#cobblemon:nether/is_crimson",
+    "name": "Nether/Is Crimson",
+    "isTag": true
+  },
+  {
+    "id": 57,
+    "slug": "#cobblemon:nether/is_desert",
+    "name": "Nether/Is Desert",
+    "isTag": true
+  },
+  {
+    "id": 58,
+    "slug": "#cobblemon:nether/is_forest",
+    "name": "Nether/Is Forest",
+    "isTag": true
+  },
+  {
+    "id": 59,
+    "slug": "#cobblemon:nether/is_frozen",
+    "name": "Nether/Is Frozen",
+    "isTag": true
+  },
+  {
+    "id": 60,
+    "slug": "#cobblemon:nether/is_fungus",
+    "name": "Nether/Is Fungus",
+    "isTag": true
+  },
+  {
+    "id": 61,
+    "slug": "#cobblemon:nether/is_mountain",
+    "name": "Nether/Is Mountain",
+    "isTag": true
+  },
+  {
+    "id": 62,
+    "slug": "#cobblemon:nether/is_overgrowth",
+    "name": "Nether/Is Overgrowth",
+    "isTag": true
+  },
+  {
+    "id": 63,
+    "slug": "#cobblemon:nether/is_quartz",
+    "name": "Nether/Is Quartz",
+    "isTag": true
+  },
+  {
+    "id": 64,
+    "slug": "#cobblemon:nether/is_soul_fire",
+    "name": "Nether/Is Soul Fire",
+    "isTag": true
+  },
+  {
+    "id": 65,
+    "slug": "#cobblemon:nether/is_soul_sand",
+    "name": "Nether/Is Soul Sand",
+    "isTag": true
+  },
+  {
+    "id": 66,
+    "slug": "#cobblemon:nether/is_toxic",
+    "name": "Nether/Is Toxic",
+    "isTag": true
+  },
+  {
+    "id": 67,
+    "slug": "#cobblemon:nether/is_warped",
+    "name": "Nether/Is Warped",
+    "isTag": true
+  },
+  {
+    "id": 68,
+    "slug": "#cobblemon:nether/is_wasteland",
+    "name": "Nether/Is Wasteland",
+    "isTag": true
+  },
+  {
+    "id": 69,
+    "slug": "#minecraft:is_nether",
+    "name": "Is Nether",
+    "isTag": true
+  },
+  {
+    "id": 70,
+    "slug": "#the_bumblezone:the_bumblezone",
+    "name": "The Bumblezone",
+    "isTag": true
+  },
+  {
+    "id": 71,
+    "slug": "aether:skyroot_forest",
+    "name": "Skyroot Forest",
+    "isTag": false
+  },
+  {
+    "id": 72,
+    "slug": "aether:skyroot_grove",
+    "name": "Skyroot Grove",
+    "isTag": false
+  },
+  {
+    "id": 73,
+    "slug": "aether:skyroot_meadow",
+    "name": "Skyroot Meadow",
+    "isTag": false
+  },
+  {
+    "id": 74,
+    "slug": "aether:skyroot_woodland",
+    "name": "Skyroot Woodland",
+    "isTag": false
+  },
+  {
+    "id": 75,
+    "slug": "biomesoplenty:crystalline_chasm",
+    "name": "Crystalline Chasm",
+    "isTag": false
+  },
+  {
+    "id": 76,
+    "slug": "byg:warped_desert",
+    "name": "Warped Desert",
+    "isTag": false
+  },
+  {
+    "id": 77,
+    "slug": "minecraft:frozen_river",
+    "name": "Frozen River",
+    "isTag": false
+  },
+  {
+    "id": 78,
+    "slug": "minecraft:mushroom_fields",
+    "name": "Mushroom Fields",
+    "isTag": false
+  },
+  {
+    "id": 79,
+    "slug": "minecraft:snowy_beach",
+    "name": "Snowy Beach",
+    "isTag": false
+  },
+  {
+    "id": 80,
+    "slug": "minecraft:sunflower_plains",
+    "name": "Sunflower Plains",
+    "isTag": false
+  },
+  {
+    "id": 81,
+    "slug": "the_bumblezone:crystal_canyon",
+    "name": "Crystal Canyon",
+    "isTag": false
+  },
+  {
+    "id": 82,
+    "slug": "the_bumblezone:floral_meadow",
+    "name": "Floral Meadow",
+    "isTag": false
+  },
+  {
+    "id": 83,
+    "slug": "the_bumblezone:howling_constructs",
+    "name": "Howling Constructs",
+    "isTag": false
+  },
+  {
+    "id": 84,
+    "slug": "the_bumblezone:pollinated_fields",
+    "name": "Pollinated Fields",
+    "isTag": false
+  }
+]
