@@ -1,10 +1,10 @@
+import type { AbilitiesRepository } from '../abilities/repository';
+import type { MovesRepository } from '../moves/repository';
 import type { PokemonFilter } from '../pokemon/domain';
 import type { PokemonRepository } from '../pokemon/repository';
 import type { TypesRepository } from '../types/repository';
-import type { AbilitiesRepository } from '../abilities/repository';
-import type { MovesRepository } from '../moves/repository';
-import type { AgentPokemonQuery, AgentPokemonResponse } from './model';
 import { mapIncludeFlags, toResponse } from './mapper';
+import type { AgentPokemonQuery, AgentPokemonResponse } from './model';
 
 export class AgentService {
   constructor(

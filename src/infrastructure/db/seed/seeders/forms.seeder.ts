@@ -1,4 +1,4 @@
-import { Slug } from '../../../../common/utils/slug';
+import { slugForPokemon } from '../../../../common/utils/slug';
 import type { Seeder } from '../utils';
 import { batchInsert, loadJson } from '../utils';
 
@@ -88,7 +88,7 @@ export const formsSeeder: Seeder = {
       const rows = formsData.map((f) => ({
         id: f.id,
         species_id: f.speciesId,
-        slug: Slug.forPokemon(f.name),
+        slug: slugForPokemon(f.name),
         form_name: f.formName,
         name: f.name,
         generation: f.generation,

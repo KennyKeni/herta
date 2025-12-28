@@ -1,11 +1,11 @@
 import { Elysia } from 'elysia';
-import { db } from './db';
+import { AbilitiesRepository } from '@/modules/abilities/repository';
+import { AgentService } from '@/modules/agent/service';
+import { MovesRepository } from '@/modules/moves/repository';
 import { PokemonRepository } from '@/modules/pokemon/repository';
 import { PokemonService } from '@/modules/pokemon/service';
 import { TypesRepository } from '@/modules/types/repository';
-import { AbilitiesRepository } from '@/modules/abilities/repository';
-import { MovesRepository } from '@/modules/moves/repository';
-import { AgentService } from '@/modules/agent/service';
+import { db } from './db';
 
 const pokemonRepository = new PokemonRepository(db);
 const typesRepository = new TypesRepository(db);

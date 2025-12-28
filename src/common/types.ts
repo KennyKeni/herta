@@ -1,4 +1,4 @@
-export const enum FilterLogic {
+export enum FilterLogic {
   OR,
   AND,
   MIN,

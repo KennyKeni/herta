@@ -1,4 +1,4 @@
-import { Slug } from '../../../../common/utils/slug';
+import { slugForPokemon } from '../../../../common/utils/slug';
 import type { Seeder } from '../utils';
 import { batchInsert, loadJson } from '../utils';
 
@@ -20,7 +20,7 @@ export const naturesSeeder: Seeder = {
 
     const rows = data.map((n) => ({
       id: n.id,
-      slug: Slug.forPokemon(n.name),
+      slug: slugForPokemon(n.name),
       name: n.name,
       plus_stat_id: n.plusStatId,
       minus_stat_id: n.minusStatId,

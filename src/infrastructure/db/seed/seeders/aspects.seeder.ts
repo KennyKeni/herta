@@ -1,4 +1,4 @@
-import { Slug } from '../../../../common/utils/slug';
+import { slugForPokemon } from '../../../../common/utils/slug';
 import type { Seeder } from '../utils';
 import { batchInsert, loadJson } from '../utils';
 
@@ -43,7 +43,7 @@ export const aspectsSeeder: Seeder = {
       const data = await loadJson<AspectJson[]>('aspects.json');
       const rows = data.map((a) => ({
         id: a.id,
-        slug: Slug.forPokemon(a.name),
+        slug: slugForPokemon(a.name),
         name: a.name,
         type: a.type,
       }));
@@ -59,7 +59,7 @@ export const aspectsSeeder: Seeder = {
       const rows = data.map((c) => ({
         id: c.id,
         aspect_id: c.aspectId,
-        slug: Slug.forPokemon(c.name),
+        slug: slugForPokemon(c.name),
         name: c.name,
         aspect_string: c.aspectString,
       }));

@@ -1,24 +1,17 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import { DB } from '@/infrastructure/db/types';
-import { Kysely, sql } from 'kysely';
-import {
+import { type Kysely, sql } from 'kysely';
+import { FilterLogic } from '@/common/types';
+import type { DB } from '@/infrastructure/db/types';
+import type {
   AbilitySlot,
   AspectRef,
-  Behaviour,
   DropPercentage,
   DropRange,
-  EggGroup,
   Form,
   FormAspectCombo,
   FormDrops,
-  FormHitbox,
   PokemonFilter,
-  SpeciesHitbox,
-  SpeciesLighting,
-  SpeciesRiding,
   SpeciesWithForms,
 } from './domain';
-import { FilterLogic } from '@/common/types';
 
 export class PokemonRepository {
   constructor(private db: Kysely<DB>) {}
@@ -29,7 +22,7 @@ export class PokemonRepository {
       .offset(filters.offset ?? 0)
       .execute();
 
-    if (rows.length == 0) return [];
+    if (rows.length === 0) return [];
 
     const formIds = rows.map((r) => r.form_id);
     const speciesIds = [...new Set(rows.map((r) => r.species_id))];
@@ -187,7 +180,7 @@ export class PokemonRepository {
   private typeSubquery(
     idFilter?: number[],
     slugFilter?: string[],
-    filter: FilterLogic = FilterLogic.OR
+    _filter: FilterLogic = FilterLogic.OR
   ) {
     return this.db
       .selectFrom('form_types as ft')
@@ -210,7 +203,7 @@ export class PokemonRepository {
   private abilitySubquery(
     idFilter?: number[],
     slugFilter?: string[],
-    filter: FilterLogic = FilterLogic.OR
+    _filter: FilterLogic = FilterLogic.OR
   ) {
     return this.db
       .selectFrom('form_abilities as fa')
@@ -233,7 +226,7 @@ export class PokemonRepository {
   private movesSubquery(
     idFilter?: number[],
     slugFilter?: string[],
-    filter: FilterLogic = FilterLogic.OR
+    _filter: FilterLogic = FilterLogic.OR
   ) {
     return this.db
       .selectFrom('form_moves as fm')
@@ -256,7 +249,7 @@ export class PokemonRepository {
   private labelsSubquery(
     idFilter?: number[],
     slugFilter?: string[],
-    filter: FilterLogic = FilterLogic.OR
+    _filter: FilterLogic = FilterLogic.OR
   ) {
     return this.db
       .selectFrom('form_labels as fl')
@@ -276,10 +269,11 @@ export class PokemonRepository {
       });
   }
 
+  // biome-ignore lint/correctness/noUnusedPrivateClassMembers: future implementation
   private aspectChoicesSubquery(
     idFilter?: number[],
     slugFilter?: string[],
-    filter: FilterLogic = FilterLogic.OR
+    _filter: FilterLogic = FilterLogic.OR
   ) {
     return this.db
       .selectFrom('form_aspects as fa')
@@ -299,10 +293,11 @@ export class PokemonRepository {
       });
   }
 
+  // biome-ignore lint/correctness/noUnusedPrivateClassMembers: future implementation
   private aspectComboSubquery(
     idFilter?: number[],
     slugFilter?: string[],
-    filter: FilterLogic = FilterLogic.OR
+    _filter: FilterLogic = FilterLogic.OR
   ) {
     return this.db
       .selectFrom('form_aspect_combos as fc')
@@ -323,7 +318,7 @@ export class PokemonRepository {
       });
   }
 
-  private eggGroupSubquery(idFilter?: number[], slugFilter?: string[], logic = FilterLogic.OR) {
+  private eggGroupSubquery(idFilter?: number[], slugFilter?: string[], _filter = FilterLogic.OR) {
     return this.db
       .selectFrom('species_egg_groups as seg')
       .select('seg.species_id')
@@ -625,13 +620,12 @@ export class PokemonRepository {
     >();
 
     for (const row of rows) {
-      if (!speciesMap.has(row.species_id)) {
-        speciesMap.set(row.species_id, {
-          species: this.toSpecies(row, relations),
-          forms: [],
-        });
+      let entry = speciesMap.get(row.species_id);
+      if (!entry) {
+        entry = { species: this.toSpecies(row, relations), forms: [] };
+        speciesMap.set(row.species_id, entry);
       }
-      speciesMap.get(row.species_id)!.forms.push(this.toForm(row, relations));
+      entry.forms.push(this.toForm(row, relations));
     }
 
     return Array.from(speciesMap.values()).map(({ species, forms }) => ({
@@ -656,7 +650,9 @@ export class PokemonRepository {
       baseScale: row.base_scale,
       catchRate: row.catch_rate,
       eggCycles: row.egg_cycles,
-      experienceGroup: relations.experienceGroups.get(row.experience_group_id!) ?? null,
+      experienceGroup:
+        (row.experience_group_id && relations.experienceGroups.get(row.experience_group_id)) ??
+        null,
       maleRatio: row.male_ratio,
       eggGroups: (relations.eggGroups.get(row.species_id) ?? []).map((eg) => ({
         id: eg.id,
@@ -764,10 +760,12 @@ export class PokemonRepository {
     const comboMap = new Map<number, { comboIndex: number; aspects: AspectRef[] }>();
 
     for (const row of rows) {
-      if (!comboMap.has(row.combo_id)) {
-        comboMap.set(row.combo_id, { comboIndex: row.combo_index, aspects: [] });
+      let entry = comboMap.get(row.combo_id);
+      if (!entry) {
+        entry = { comboIndex: row.combo_index, aspects: [] };
+        comboMap.set(row.combo_id, entry);
       }
-      comboMap.get(row.combo_id)!.aspects.push({
+      entry.aspects.push({
         id: row.aspect_id,
         name: row.aspect_name,
         slug: row.aspect_slug,

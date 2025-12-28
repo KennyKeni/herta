@@ -1,8 +1,8 @@
-import { config } from '../../config';
 import { SQL } from 'bun';
-import { PostgresJSDialect } from 'kysely-postgres-js';
-import { DB } from './types';
 import { Kysely } from 'kysely';
+import { PostgresJSDialect } from 'kysely-postgres-js';
+import { config } from '../../config';
+import type { DB } from './types';
 
 const dialect = new PostgresJSDialect({
   postgres: new SQL({

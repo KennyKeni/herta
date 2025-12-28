@@ -1,5 +1,5 @@
-import { PokemonFilter, SpeciesWithForms } from './domain';
-import { PokemonRepository } from './repository';
+import type { PokemonFilter, SpeciesWithForms } from './domain';
+import type { PokemonRepository } from './repository';
 
 export class PokemonService {
   constructor(private pokemonRepository: PokemonRepository) {}

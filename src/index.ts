@@ -1,7 +1,7 @@
-import { Elysia } from 'elysia';
 import { swagger } from '@elysiajs/swagger';
-import { pokemon } from '@/modules/pokemon';
+import { Elysia } from 'elysia';
 import { agent } from '@/modules/agent';
+import { pokemon } from '@/modules/pokemon';
 
 const app = new Elysia()
   .use(

@@ -1,20 +1,20 @@
 import { db } from '../index';
 import { createLogger } from './logger';
-import type { Seeder } from './utils';
 import {
-  baseReferenceSeeder,
-  naturesSeeder,
   abilitiesSeeder,
-  speciesSeeder,
-  formsSeeder,
-  movesSeeder,
-  itemsSeeder,
   aspectsSeeder,
-  gameMechanicsSeeder,
+  baseReferenceSeeder,
   cobblemonSeeder,
-  recipesSeeder,
+  formsSeeder,
+  gameMechanicsSeeder,
+  itemsSeeder,
+  movesSeeder,
+  naturesSeeder,
   pokemonDataSeeder,
+  recipesSeeder,
+  speciesSeeder,
 } from './seeders';
+import type { Seeder } from './utils';
 
 const SEEDERS: Seeder[] = [
   baseReferenceSeeder,

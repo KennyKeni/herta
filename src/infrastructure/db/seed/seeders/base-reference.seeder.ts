@@ -1,4 +1,4 @@
-import { Slug } from '../../../../common/utils/slug';
+import { slugForPokemon } from '../../../../common/utils/slug';
 import type { Seeder } from '../utils';
 import { batchInsert, loadJson } from '../utils';
 
@@ -97,7 +97,7 @@ export const baseReferenceSeeder: Seeder = {
       const data = await loadJson<TypeJson[]>('types.json');
       const rows = data.map((t) => ({
         id: t.id,
-        slug: Slug.forPokemon(t.name),
+        slug: slugForPokemon(t.name),
         name: t.name,
       }));
       const count = await batchInsert(db, 'types', rows);
@@ -138,7 +138,7 @@ export const baseReferenceSeeder: Seeder = {
       const data = await loadJson<MoveTargetJson[]>('move_targets.json');
       const rows = data.map((t) => ({
         id: t.id,
-        slug: Slug.forPokemon(t.name),
+        slug: slugForPokemon(t.name),
         name: t.name,
         description: t.description,
       }));
@@ -182,7 +182,7 @@ export const baseReferenceSeeder: Seeder = {
       const data = await loadJson<EggGroupJson[]>('egg_groups.json');
       const rows = data.map((e) => ({
         id: e.id,
-        slug: Slug.forPokemon(e.name),
+        slug: slugForPokemon(e.name),
         name: e.name,
       }));
       const count = await batchInsert(db, 'egg_groups', rows);
@@ -196,7 +196,7 @@ export const baseReferenceSeeder: Seeder = {
       const data = await loadJson<FlagTypeJson[]>('ability_flag_types.json');
       const rows = data.map((f) => ({
         id: f.id,
-        slug: Slug.forPokemon(f.name),
+        slug: slugForPokemon(f.name),
         name: f.name,
         description: f.description || null,
       }));
@@ -211,7 +211,7 @@ export const baseReferenceSeeder: Seeder = {
       const data = await loadJson<FlagTypeJson[]>('move_flag_types.json');
       const rows = data.map((f) => ({
         id: f.id,
-        slug: Slug.forPokemon(f.name),
+        slug: slugForPokemon(f.name),
         name: f.name,
         description: f.description || null,
       }));
@@ -239,7 +239,7 @@ export const baseReferenceSeeder: Seeder = {
       const data = await loadJson<AspectGroupJson[]>('aspect_groups.json');
       const rows = data.map((g) => ({
         id: g.id,
-        slug: Slug.forPokemon(g.name),
+        slug: slugForPokemon(g.name),
         name: g.name,
         rule: g.rule,
         description: g.description || null,
@@ -255,7 +255,7 @@ export const baseReferenceSeeder: Seeder = {
       const data = await loadJson<LabelJson[]>('labels.json');
       const rows = data.map((l) => ({
         id: l.id,
-        slug: Slug.forPokemon(l.name),
+        slug: slugForPokemon(l.name),
         name: l.name,
       }));
       const count = await batchInsert(db, 'labels', rows);

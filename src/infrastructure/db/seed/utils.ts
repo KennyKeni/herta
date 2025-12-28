@@ -1,6 +1,6 @@
-import { sql, type Kysely, type Insertable } from 'kysely';
+import { type Insertable, type Kysely, sql } from 'kysely';
 import type { DB } from '../types';
-import { createLogger } from './logger';
+import type { createLogger } from './logger';
 
 const DATA_PATH = new URL('../data', import.meta.url).pathname;
 

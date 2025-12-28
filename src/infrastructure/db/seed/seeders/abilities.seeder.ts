@@ -1,4 +1,4 @@
-import { Slug } from '../../../../common/utils/slug';
+import { slugForPokemon } from '../../../../common/utils/slug';
 import type { Seeder } from '../utils';
 import { batchInsert, loadJson } from '../utils';
 
@@ -28,7 +28,7 @@ export const abilitiesSeeder: Seeder = {
       const data = await loadJson<AbilityJson[]>('abilities.json');
       const rows = data.map((a) => ({
         id: a.id,
-        slug: Slug.forPokemon(a.name),
+        slug: slugForPokemon(a.name),
         name: a.name,
         desc: a.desc,
         short_desc: a.shortDesc,

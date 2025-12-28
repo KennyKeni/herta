@@ -1,5 +1,5 @@
-import { DB } from '@/infrastructure/db/types';
-import { Kysely, sql } from 'kysely';
+import { type Kysely, sql } from 'kysely';
+import type { DB } from '@/infrastructure/db/types';
 
 export class MovesRepository {
   constructor(private db: Kysely<DB>) {}

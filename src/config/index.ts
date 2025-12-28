@@ -1,5 +1,5 @@
-import { t } from 'elysia';
 import { Value } from '@sinclair/typebox/value';
+import { t } from 'elysia';
 
 const postgresSchema = t.Object({
   POSTGRES_USER: t.String({ minLength: 1 }),

@@ -1,6 +1,6 @@
 import { Elysia } from 'elysia';
-import { PokemonModel } from './model';
 import { pokemonSetup } from '@/infrastructure/setup';
+import { PokemonModel } from './model';
 
 export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
   .use(pokemonSetup)
@@ -9,6 +9,7 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
     response: PokemonModel.searchResponse,
     detail: {
       summary: 'Search Pokemon',
-      description: 'Search Pokemon species and forms with filtering by IDs, slugs, types, abilities, moves, and more.',
+      description:
+        'Search Pokemon species and forms with filtering by IDs, slugs, types, abilities, moves, and more.',
     },
   });

@@ -1,4 +1,4 @@
-import { t, type Static } from 'elysia';
+import { type Static, t } from 'elysia';
 
 export const AgentPokemonQuerySchema = t.Object({
   names: t.Optional(
@@ -8,27 +8,32 @@ export const AgentPokemonQuerySchema = t.Object({
   ),
   types: t.Optional(
     t.Array(t.String(), {
-      description: 'Filter by type names (e.g., "fire", "water"). Returns Pokemon with any matching type',
+      description:
+        'Filter by type names (e.g., "fire", "water"). Returns Pokemon with any matching type',
     })
   ),
   abilities: t.Optional(
     t.Array(t.String(), {
-      description: 'Filter by ability names (e.g., "levitate"). Returns Pokemon with any matching ability',
+      description:
+        'Filter by ability names (e.g., "levitate"). Returns Pokemon with any matching ability',
     })
   ),
   moves: t.Optional(
     t.Array(t.String(), {
-      description: 'Filter by learnable move names (e.g., "thunderbolt"). Returns Pokemon that can learn any matching move',
+      description:
+        'Filter by learnable move names (e.g., "thunderbolt"). Returns Pokemon that can learn any matching move',
     })
   ),
   eggGroups: t.Optional(
     t.Array(t.String(), {
-      description: 'Filter by egg group names (e.g., "dragon", "monster"). Returns Pokemon in any matching egg group',
+      description:
+        'Filter by egg group names (e.g., "dragon", "monster"). Returns Pokemon in any matching egg group',
     })
   ),
   labels: t.Optional(
     t.Array(t.String(), {
-      description: 'Filter by label names (e.g., "legendary", "starter"). Returns Pokemon with any matching label',
+      description:
+        'Filter by label names (e.g., "legendary", "starter"). Returns Pokemon with any matching label',
     })
   ),
   generation: t.Optional(
@@ -37,14 +42,14 @@ export const AgentPokemonQuerySchema = t.Object({
     })
   ),
 
-  includeDescription: t.Optional(
-    t.Boolean({ description: 'Include Pokedex description text' })
-  ),
+  includeDescription: t.Optional(t.Boolean({ description: 'Include Pokedex description text' })),
   includeGeneration: t.Optional(
     t.Boolean({ description: 'Include generation number the Pokemon was introduced in' })
   ),
   includeStats: t.Optional(
-    t.Boolean({ description: 'Include base stats (HP, Attack, Defense, Sp.Atk, Sp.Def, Speed, Total)' })
+    t.Boolean({
+      description: 'Include base stats (HP, Attack, Defense, Sp.Atk, Sp.Def, Speed, Total)',
+    })
   ),
   includeEvYield: t.Optional(
     t.Boolean({ description: 'Include EV yield when defeated (for training optimization)' })
@@ -59,10 +64,14 @@ export const AgentPokemonQuerySchema = t.Object({
     t.Boolean({ description: 'Include abilities with slot info (slot1, slot2, hidden)' })
   ),
   includeMoves: t.Optional(
-    t.Boolean({ description: 'Include learnable moves with learn method and level. Can be large (100+ moves)' })
+    t.Boolean({
+      description: 'Include learnable moves with learn method and level. Can be large (100+ moves)',
+    })
   ),
   includeDrops: t.Optional(
-    t.Boolean({ description: 'Include Cobblemon item drops when defeated (item name, chance, quantity)' })
+    t.Boolean({
+      description: 'Include Cobblemon item drops when defeated (item name, chance, quantity)',
+    })
   ),
   includeBreeding: t.Optional(
     t.Boolean({ description: 'Include breeding stats: egg cycles, base friendship, male ratio' })
@@ -74,16 +83,22 @@ export const AgentPokemonQuerySchema = t.Object({
     t.Boolean({ description: 'Include experience/leveling group (e.g., "medium_slow", "erratic")' })
   ),
   includeLabels: t.Optional(
-    t.Boolean({ description: 'Include classification labels (e.g., "legendary", "mythical", "starter")' })
+    t.Boolean({
+      description: 'Include classification labels (e.g., "legendary", "mythical", "starter")',
+    })
   ),
   includeAspects: t.Optional(
-    t.Boolean({ description: 'Include cosmetic aspects: choosable variants and valid aspect combinations' })
+    t.Boolean({
+      description: 'Include cosmetic aspects: choosable variants and valid aspect combinations',
+    })
   ),
   includeHitboxes: t.Optional(
     t.Boolean({ description: 'Include Cobblemon hitbox dimensions (width, height, fixed)' })
   ),
   includeLighting: t.Optional(
-    t.Boolean({ description: 'Include Cobblemon lighting properties (light level, liquid glow mode)' })
+    t.Boolean({
+      description: 'Include Cobblemon lighting properties (light level, liquid glow mode)',
+    })
   ),
   includeRiding: t.Optional(
     t.Boolean({ description: 'Include Cobblemon mount/riding configuration data' })
