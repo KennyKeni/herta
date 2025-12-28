@@ -54,7 +54,11 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addPrimaryKeyConstraint('form_aspect_combo_aspects_pk', ['combo_id', 'aspect_id'])
     .execute();
 
-  await db.schema.createIndex('idx_form_moves_move_id').on('form_moves').column('move_id').execute();
+  await db.schema
+    .createIndex('idx_form_moves_move_id')
+    .on('form_moves')
+    .column('move_id')
+    .execute();
   await db.schema
     .createIndex('idx_drop_ranges_form_drop_id')
     .on('drop_ranges')

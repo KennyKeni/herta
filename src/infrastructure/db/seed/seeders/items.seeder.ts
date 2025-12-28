@@ -47,7 +47,14 @@ interface ItemTagHierarchyJson {
 
 export const itemsSeeder: Seeder = {
   name: 'Items',
-  tables: ['item_tag_types', 'items', 'item_boosts', 'item_flags', 'item_tags', 'item_tag_hierarchy'],
+  tables: [
+    'item_tag_types',
+    'items',
+    'item_boosts',
+    'item_flags',
+    'item_tags',
+    'item_tag_hierarchy',
+  ],
 
   async seed(db, logger) {
     let total = 0;

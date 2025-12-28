@@ -81,7 +81,6 @@ export interface Form {
   drops: FormDrops | null;
   aspectCombos: FormAspectCombo[];
   behaviour: Behaviour | null;
-  overrides: FormOverride | null;
 }
 
 export interface FormWithSpecies {
@@ -121,15 +120,6 @@ export interface FormHitbox {
   width: number;
   height: number;
   fixed: boolean;
-}
-
-export interface FormOverride {
-  baseFriendship: number | null;
-  baseScale: number | null;
-  catchRate: number | null;
-  eggCycles: number | null;
-  maleRatio: number | null;
-  eggGroups: EggGroup[];
 }
 
 export interface EggGroup {
@@ -233,6 +223,19 @@ export interface PokemonFilter {
   hasDrops?: boolean;
   isRideable?: boolean;
   isGenderless?: boolean;
+
+  includeTypes?: boolean;
+  includeAbilities?: boolean;
+  includeMoves?: boolean;
+  includeLabels?: boolean;
+  includeAspects?: boolean;
+  includeDrops?: boolean;
+  includeEggGroups?: boolean;
+  includeExperienceGroup?: boolean;
+  includeHitboxes?: boolean;
+  includeLighting?: boolean;
+  includeRiding?: boolean;
+  includeBehaviour?: boolean;
 
   limit?: number;
   offset?: number;

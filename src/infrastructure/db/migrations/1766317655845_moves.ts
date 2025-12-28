@@ -73,7 +73,11 @@ export async function up(db: Kysely<any>): Promise<void> {
 
   await db.schema.createIndex('idx_moves_type_id').on('moves').column('type_id').execute();
   await db.schema.createIndex('idx_moves_category_id').on('moves').column('category_id').execute();
-  await db.schema.createIndex('idx_move_boosts_move_id').on('move_boosts').column('move_id').execute();
+  await db.schema
+    .createIndex('idx_move_boosts_move_id')
+    .on('move_boosts')
+    .column('move_id')
+    .execute();
   await db.schema
     .createIndex('idx_move_effects_move_id')
     .on('move_effects')

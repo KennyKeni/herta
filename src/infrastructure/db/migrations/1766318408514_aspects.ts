@@ -40,7 +40,11 @@ export async function up(db: Kysely<any>): Promise<void> {
     .column('aspect_id')
     .execute();
   await db.schema.createIndex('idx_aspects_slug').on('aspects').column('slug').execute();
-  await db.schema.createIndex('idx_aspect_choices_slug').on('aspect_choices').column('slug').execute();
+  await db.schema
+    .createIndex('idx_aspect_choices_slug')
+    .on('aspect_choices')
+    .column('slug')
+    .execute();
 }
 
 export async function down(db: Kysely<any>): Promise<void> {

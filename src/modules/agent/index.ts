@@ -11,9 +11,26 @@
  */
 
 import { Elysia } from 'elysia';
+import { agentSetup } from '@/infrastructure/setup';
+import { AgentPokemonQuerySchema, AgentPokemonResponseSchema } from './model';
 
-export const agent = new Elysia({ prefix: '/agent' });
-// .get()
+export const agent = new Elysia({ prefix: '/agent', tags: ['agent'] })
+  .use(agentSetup)
+  .get(
+    '/pokemon',
+    async ({ agentService, query }) => {
+      return agentService.searchPokemon(query);
+    },
+    {
+      query: AgentPokemonQuerySchema,
+      response: AgentPokemonResponseSchema,
+      detail: {
+        summary: 'Search Pokemon',
+        description:
+          'Search Pokemon with fuzzy name matching and granular include flags. Optimized for AI agents with minimal default response.',
+      },
+    }
+  );
 
 /**
  * TODO:

@@ -9,9 +9,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "night, noon"
-        ],
+        "times": ["night, noon"],
         "drowsyChance": 0.0333,
         "rouseChance": 0.0042
       },
@@ -56,9 +54,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "night, noon"
-        ],
+        "times": ["night, noon"],
         "drowsyChance": 0.0333,
         "rouseChance": 0.0042
       },
@@ -105,9 +101,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "night, noon"
-        ],
+        "times": ["night, noon"],
         "drowsyChance": 0.0333,
         "rouseChance": 0.0042
       },
@@ -125,9 +119,7 @@
         "maxSize": "8"
       },
       "resting": {
-        "times": [
-          "night, noon"
-        ],
+        "times": ["night, noon"],
         "drowsyChance": 0.0333,
         "rouseChance": 0.0042
       },
@@ -855,9 +847,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -903,9 +893,7 @@
         "maxSize": "7"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -1458,9 +1446,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -1494,9 +1480,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -1515,9 +1499,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -1571,9 +1553,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -1593,9 +1573,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -1623,9 +1601,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -1647,9 +1623,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -1675,9 +1649,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -1715,9 +1687,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -1769,9 +1739,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -1806,9 +1774,7 @@
         "canSleep": true,
         "light": "0-4",
         "depth": "comatose",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -1842,9 +1808,7 @@
         "canSleep": true,
         "light": "0-4",
         "depth": "comatose",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -1868,9 +1832,7 @@
         "canSleep": true,
         "light": "0-4",
         "depth": "comatose",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -1901,9 +1863,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -1950,9 +1910,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -1969,9 +1927,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -2002,9 +1958,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -2019,9 +1973,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -2066,9 +2018,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -2089,9 +2039,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -2128,9 +2076,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -2152,9 +2098,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -2177,9 +2121,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -2230,9 +2172,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -2256,9 +2196,7 @@
     "formId": 86,
     "data": {
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -2509,9 +2447,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -2565,9 +2501,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -2591,9 +2525,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -2622,9 +2554,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.01,
         "rouseChance": 0.0033
       },
@@ -2647,9 +2577,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -2674,9 +2602,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -2691,9 +2617,7 @@
     "formId": 101,
     "data": {
       "resting": {
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -2808,9 +2732,7 @@
         "light": "0-4",
         "willSleepOnBed": true,
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -2834,9 +2756,7 @@
         "canSleep": true,
         "light": "0-4",
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -2860,9 +2780,7 @@
         "canSleep": true,
         "light": "0-4",
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -2889,9 +2807,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -2958,9 +2874,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -2979,9 +2893,7 @@
         "light": "0-4",
         "willSleepOnBed": true,
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -3008,9 +2920,7 @@
       },
       "resting": {
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "willSleepOnBed": true,
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
@@ -3042,9 +2952,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -3066,9 +2974,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -3101,9 +3007,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -3125,9 +3029,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -3368,9 +3270,7 @@
         "canSleep": true,
         "light": "0-16",
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0028,
         "rouseChance": 0.0042
       },
@@ -3396,9 +3296,7 @@
         "canSleep": true,
         "light": "0-16",
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0028,
         "rouseChance": 0.0042
       },
@@ -3421,9 +3319,7 @@
       },
       "resting": {
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0028,
         "rouseChance": 0.0042
       },
@@ -3462,9 +3358,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0028,
         "rouseChance": 0.0042
       },
@@ -3493,9 +3387,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -3630,9 +3522,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -3858,9 +3748,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -3904,9 +3792,7 @@
         }
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -3924,9 +3810,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -3944,9 +3828,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -3981,9 +3863,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -4009,9 +3889,7 @@
         "maxSize": "9"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -4039,9 +3917,7 @@
       "resting": {
         "canSleep": true,
         "light": -1,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -4117,9 +3993,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -4146,9 +4020,7 @@
         "maxSize": "6"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -4166,9 +4038,7 @@
         "maxSize": "7"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -4194,9 +4064,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -4231,9 +4099,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -4248,9 +4114,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -4291,9 +4155,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -4325,9 +4187,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -4376,9 +4236,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -4405,9 +4263,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -4573,9 +4429,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -4678,9 +4532,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -4713,9 +4565,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -4838,9 +4688,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -5120,9 +4968,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -5146,9 +4992,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -5300,9 +5144,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -5317,9 +5159,7 @@
     "formId": 189,
     "data": {
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -5540,9 +5380,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -5576,9 +5414,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -5674,9 +5510,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -5841,9 +5675,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -5940,9 +5772,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -5975,9 +5805,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -6042,9 +5870,7 @@
         "canSleep": true,
         "depth": "comatose",
         "light": "0-15",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0167,
         "rouseChance": 0.0009
       },
@@ -6259,9 +6085,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -6309,13 +6133,9 @@
       },
       "resting": {
         "canSleep": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "light": "0-4",
-        "fluids": [
-          "#minecraft:water"
-        ],
+        "fluids": ["#minecraft:water"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -6357,9 +6177,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -6560,9 +6378,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -6604,9 +6420,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -6644,9 +6458,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -6677,9 +6489,7 @@
         "maxSize": "7"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -6704,9 +6514,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -6743,9 +6551,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -6774,9 +6580,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -6883,9 +6687,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -6922,9 +6724,7 @@
         "maxSize": "5"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -6991,9 +6791,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -7032,9 +6830,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -7059,9 +6855,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -7106,9 +6900,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -7136,9 +6928,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -7180,9 +6970,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -7282,9 +7070,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -7321,9 +7107,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -7742,9 +7526,7 @@
         "maxSize": "9"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -8052,9 +7834,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8102,9 +7882,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8141,9 +7919,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8179,9 +7955,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -8211,9 +7985,7 @@
       },
       "resting": {
         "canSleep": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "willSleepOnBed": true,
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
@@ -8257,9 +8029,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8283,9 +8053,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8340,9 +8108,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8378,9 +8144,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8410,9 +8174,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8462,9 +8224,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8495,9 +8255,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8514,9 +8272,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8537,9 +8293,7 @@
     "formId": 289,
     "data": {
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -8564,9 +8318,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8588,9 +8340,7 @@
     "formId": 291,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8778,9 +8528,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -8801,9 +8549,7 @@
         }
       },
       "resting": {
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -8818,9 +8564,7 @@
     "formId": 300,
     "data": {
       "resting": {
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -8866,9 +8610,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -8996,9 +8738,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -9038,9 +8778,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -9195,9 +8933,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-15",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -9464,9 +9200,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -9504,9 +9238,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -9531,9 +9263,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -9684,9 +9414,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -9953,10 +9681,7 @@
         "rotateFeatures": [
           {
             "key": "mooshtank",
-            "chain": [
-              "red",
-              "brown"
-            ]
+            "chain": ["red", "brown"]
           }
         ]
       },
@@ -10095,9 +9820,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -10146,9 +9869,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -10173,9 +9894,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -10201,9 +9920,7 @@
         "maxSize": "5"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -10233,9 +9950,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -10714,9 +10429,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -10738,9 +10451,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -10787,9 +10498,7 @@
         "willSleepOnBed": true,
         "light": "0-4",
         "canSeeSky": false,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -10850,9 +10559,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -10880,9 +10587,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -10927,9 +10632,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -11025,9 +10728,7 @@
         "canLook": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -11041,9 +10742,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -11079,9 +10778,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -11119,9 +10816,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -11155,9 +10850,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -11740,9 +11433,7 @@
         "light": "0-14",
         "willSleepOnBed": true,
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.01,
         "rouseChance": 0.002
       },
@@ -11806,9 +11497,7 @@
         "light": "0-14",
         "sleepChance": "0.0023",
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0028,
         "rouseChance": 0.0028
       },
@@ -11824,9 +11513,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -11904,9 +11591,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -11947,9 +11632,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -11976,9 +11659,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -12001,9 +11682,7 @@
         "maxSize": "6"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -12110,9 +11789,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -12145,9 +11822,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -12169,9 +11844,7 @@
         "avoidedByPhantom": true
       },
       "resting": {
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -12206,9 +11879,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -12228,9 +11899,7 @@
     "formId": 399,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -12252,9 +11921,7 @@
       "resting": {
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -12274,9 +11941,7 @@
     "formId": 401,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -12330,9 +11995,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -12355,9 +12018,7 @@
         "maxSize": "5"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -12382,9 +12043,7 @@
         "maxSize": "7"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -12403,9 +12062,7 @@
         "maxSize": "8"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -12705,9 +12362,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -12744,9 +12399,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -13413,9 +13066,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -13580,9 +13231,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -13610,9 +13259,7 @@
       },
       "resting": {
         "canSleep": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -13708,9 +13355,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -13745,9 +13390,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -13770,9 +13413,7 @@
         }
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -13797,9 +13438,7 @@
         }
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -13832,9 +13471,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -13863,9 +13500,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -14189,9 +13824,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -14215,9 +13848,7 @@
         "maxSize": "5"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -14235,9 +13866,7 @@
         "maxSize": "6"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -14273,9 +13902,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -14303,9 +13930,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -14377,9 +14002,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -14401,9 +14024,7 @@
     "formId": 467,
     "data": {
       "resting": {
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -14433,9 +14054,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -14471,9 +14090,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -14511,9 +14128,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -14531,9 +14146,7 @@
         "maxSize": "6"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -14713,9 +14326,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -14739,9 +14350,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -14792,9 +14401,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -14857,9 +14464,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -15018,9 +14623,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -15069,9 +14672,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -15115,9 +14716,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -15135,9 +14734,7 @@
         "maxSize": "7"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -15172,9 +14769,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -15206,9 +14801,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -15237,9 +14830,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -15504,9 +15095,7 @@
     "formId": 500,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -15533,9 +15122,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -15559,9 +15146,7 @@
     "formId": 503,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -16138,9 +15723,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -16181,9 +15764,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -16243,9 +15824,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -16265,9 +15844,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -16333,9 +15910,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -16563,9 +16138,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -16583,9 +16156,7 @@
     "formId": 535,
     "data": {
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -16604,9 +16175,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -16946,9 +16515,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -16996,9 +16563,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -17148,9 +16713,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -17186,9 +16749,7 @@
       },
       "resting": {
         "canSleep": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -17208,9 +16769,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -17232,9 +16791,7 @@
         "avoidedByPhantom": true
       },
       "resting": {
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -17268,9 +16825,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -17365,9 +16920,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -17397,9 +16950,7 @@
         "canSleep": true,
         "light": "0-14",
         "sleepChance": "0.0023",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -17539,9 +17090,7 @@
     "formId": 571,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -17892,9 +17441,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -17918,9 +17465,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -18065,9 +17610,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18105,9 +17648,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18259,9 +17800,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -18292,9 +17831,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18363,9 +17900,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18530,9 +18065,7 @@
     "formId": 604,
     "data": {
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -18602,9 +18135,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18686,9 +18217,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18735,9 +18264,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -18766,9 +18293,7 @@
         "maxSize": "5"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18787,9 +18312,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18813,9 +18336,7 @@
     "formId": 613,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18844,9 +18365,7 @@
     "formId": 614,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18873,9 +18392,7 @@
     "formId": 615,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18902,9 +18419,7 @@
     "formId": 616,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -18931,9 +18446,7 @@
     "formId": 617,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -19176,9 +18689,7 @@
         "maxSize": "5"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -19198,9 +18709,7 @@
     "formId": 627,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -19223,9 +18732,7 @@
     "formId": 628,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -19263,9 +18770,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -19357,9 +18862,7 @@
     "formId": 632,
     "data": {
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -20003,9 +19506,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -20029,9 +19530,7 @@
         "avoidedByPhantom": true
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -20373,9 +19872,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -20407,9 +19904,7 @@
       },
       "resting": {
         "depth": "comatose",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -20697,9 +20192,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -20724,9 +20217,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -20753,9 +20244,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -20821,9 +20310,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -20861,9 +20348,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -20901,9 +20386,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -21111,9 +20594,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -21149,9 +20630,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -21173,9 +20652,7 @@
         "maxSize": "8"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -21301,9 +20778,7 @@
       "resting": {
         "canSleep": true,
         "light": "11-15",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -21333,9 +20808,7 @@
       "resting": {
         "canSleep": true,
         "light": "11-15",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -21360,9 +20833,7 @@
       "resting": {
         "canSleep": true,
         "light": "11-15",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -22133,9 +21604,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -22160,9 +21629,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -22185,9 +21652,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -22376,9 +21841,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -22399,9 +21862,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -22426,9 +21887,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -22450,9 +21909,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -22473,9 +21930,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -22571,9 +22026,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -22595,9 +22048,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -22618,9 +22069,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -22867,9 +22316,7 @@
       "resting": {
         "willSleepOnBed": true,
         "canSleep": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -22894,9 +22341,7 @@
       },
       "resting": {
         "canSleep": false,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -22930,9 +22375,7 @@
       },
       "resting": {
         "canSleep": false,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23104,9 +22547,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23167,9 +22608,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23240,9 +22679,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23272,9 +22709,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23356,9 +22791,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -23387,9 +22820,7 @@
         "maxSize": "5"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -23406,9 +22837,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23432,9 +22861,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23460,9 +22887,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23505,9 +22930,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23568,9 +22991,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23626,9 +23047,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23666,9 +23085,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23704,9 +23121,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23724,9 +23139,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23765,9 +23178,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -23805,9 +23216,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "12-15",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -23839,9 +23248,7 @@
         "canSleep": true,
         "light": "12-15",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -23874,9 +23281,7 @@
       "resting": {
         "canSleep": true,
         "light": "12-15",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -24096,9 +23501,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -24143,9 +23546,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -24166,9 +23567,7 @@
         "maxSize": "5"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -24288,9 +23687,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -24307,9 +23704,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -24356,9 +23751,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -24710,9 +24103,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -24735,9 +24126,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -24770,9 +24159,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -24796,9 +24183,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -24830,9 +24215,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -25437,9 +24820,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -25471,9 +24852,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -25499,9 +24878,7 @@
         "maxSize": "5"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -25520,9 +24897,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -25565,9 +24940,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -25603,9 +24976,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -25642,9 +25013,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -26328,9 +25697,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -26365,9 +25732,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       }
@@ -26389,9 +25754,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -26418,9 +25781,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -26447,9 +25808,7 @@
         }
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -26615,9 +25974,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -26653,9 +26010,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -27112,9 +26467,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -27217,9 +26570,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -27246,9 +26597,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -27295,9 +26644,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -27335,9 +26682,7 @@
         "canSleep": true,
         "light": "11-15",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -27376,9 +26721,7 @@
       "resting": {
         "canSleep": true,
         "light": "11-15",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -27530,9 +26873,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -27567,9 +26908,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -27621,9 +26960,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -27687,9 +27024,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -27726,9 +27061,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -27857,9 +27190,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -27888,9 +27219,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -27916,9 +27245,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -27941,9 +27268,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -27964,9 +27289,7 @@
       "resting": {
         "canSleep": true,
         "willSleepOnBed": true,
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -28007,9 +27330,7 @@
       },
       "resting": {
         "canSleep": true,
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -28042,9 +27363,7 @@
       },
       "resting": {
         "canSleep": true,
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -28364,9 +27683,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -28392,9 +27709,7 @@
         "willDefendOwner": true
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -28417,9 +27732,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -28749,9 +28062,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -28796,9 +28107,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       }
@@ -29217,9 +28526,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -29258,9 +28565,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -29300,9 +28605,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -29336,9 +28639,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -29580,9 +28881,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -29613,9 +28912,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -29665,9 +28962,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -29691,9 +28986,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -29812,9 +29105,7 @@
         "willDefendOwner": true
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -29834,9 +29125,7 @@
       },
       "resting": {
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0001,
         "rouseChance": 1.0
       },
@@ -29881,9 +29170,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -29906,9 +29193,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -30010,9 +29295,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -30236,9 +29519,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -30263,9 +29544,7 @@
       },
       "resting": {
         "depth": "comatose",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -30338,9 +29617,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -30375,9 +29652,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -30400,9 +29675,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -30425,9 +29698,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -30447,9 +29718,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -30475,9 +29744,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -30488,9 +29755,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -30526,9 +29791,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -30554,9 +29817,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -30566,9 +29827,7 @@
     "formId": 1049,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -30591,9 +29850,7 @@
     "formId": 1052,
     "data": {
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -30614,9 +29871,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -30650,9 +29905,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -30701,9 +29954,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -30727,9 +29978,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -30750,9 +29999,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -30800,9 +30047,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -30835,9 +30080,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -31331,9 +30574,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -31353,9 +30594,7 @@
         }
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -31366,9 +30605,7 @@
     "data": {
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -31397,9 +30634,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -31428,9 +30663,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -31761,9 +30994,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -31799,9 +31030,7 @@
         "willDefendOwner": true
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -31827,9 +31056,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -32231,9 +31458,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -32267,9 +31492,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -32298,9 +31521,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -32337,9 +31558,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -32362,9 +31581,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -32377,9 +31594,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -32417,9 +31632,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -32454,9 +31667,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -32481,9 +31692,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -32545,9 +31754,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -32634,9 +31841,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -32798,9 +32003,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -32829,9 +32032,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -33263,9 +32464,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -33290,9 +32489,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -33336,9 +32533,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -33386,9 +32581,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "167-11833,13702-22299"
-        ],
+        "times": ["167-11833,13702-22299"],
         "drowsyChance": 0.0021,
         "rouseChance": 0.0042
       },
@@ -33575,9 +32768,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -33675,9 +32866,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -33709,9 +32898,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -33813,9 +33000,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -33985,9 +33170,7 @@
         "maxSize": "5"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -34552,9 +33735,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -34582,9 +33763,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -34980,9 +34159,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -35007,9 +34184,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -35034,9 +34209,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -35055,9 +34228,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -35101,9 +34272,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -35136,9 +34305,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -35190,9 +34357,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -35220,9 +34385,7 @@
         "willDefendOwner": true
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -35379,9 +34542,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -35415,9 +34576,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -35457,9 +34616,7 @@
         "willDefendOwner": true
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -35477,9 +34634,7 @@
         "willDefendOwner": true
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -36211,9 +35366,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -36237,9 +35390,7 @@
         "canSleep": true,
         "willSleepOnBed": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -36278,9 +35429,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -36314,9 +35463,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -36337,9 +35484,7 @@
         "maxSize": "3"
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -36618,9 +35763,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -36677,9 +35820,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -36817,9 +35958,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -36839,9 +35978,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       }
@@ -36860,9 +35997,7 @@
         ]
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -36885,9 +36020,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -36912,9 +36045,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -36939,9 +36070,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -36966,9 +36095,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -36998,9 +36125,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -37032,9 +36157,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -37159,9 +36282,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -37188,9 +36309,7 @@
         "canSleep": true,
         "light": "0-4",
         "willSleepOnBed": true,
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -37214,9 +36333,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -37253,9 +36370,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -37279,9 +36394,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -37301,9 +36414,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -37339,9 +36450,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -37377,9 +36486,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -37429,9 +36536,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -37478,9 +36583,7 @@
       "resting": {
         "canSleep": true,
         "light": "0-4",
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -37548,9 +36651,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -37584,9 +36685,7 @@
       },
       "resting": {
         "willSleepOnBed": true,
-        "times": [
-          "day"
-        ],
+        "times": ["day"],
         "drowsyChance": 0.0033,
         "rouseChance": 0.0042
       },
@@ -37762,9 +36861,7 @@
         "willFlee": false
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       }
@@ -37854,9 +36951,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },
@@ -37881,9 +36976,7 @@
         "maxSize": "4"
       },
       "resting": {
-        "times": [
-          "any"
-        ],
+        "times": ["any"],
         "drowsyChance": 0.0014,
         "rouseChance": 0.0042
       },

@@ -83,13 +83,21 @@ export async function up(db: Kysely<any>): Promise<void> {
     .execute();
 
   await db.schema.createIndex('idx_forms_species_id').on('forms').column('species_id').execute();
-  await db.schema.createIndex('idx_form_types_type_id').on('form_types').column('type_id').execute();
+  await db.schema
+    .createIndex('idx_form_types_type_id')
+    .on('form_types')
+    .column('type_id')
+    .execute();
   await db.schema
     .createIndex('idx_form_abilities_ability_id')
     .on('form_abilities')
     .column('ability_id')
     .execute();
-  await db.schema.createIndex('idx_form_labels_label_id').on('form_labels').column('label_id').execute();
+  await db.schema
+    .createIndex('idx_form_labels_label_id')
+    .on('form_labels')
+    .column('label_id')
+    .execute();
   await db.schema.createIndex('idx_forms_slug').on('forms').column('slug').execute();
   await db.schema.createIndex('idx_labels_slug').on('labels').column('slug').execute();
 }

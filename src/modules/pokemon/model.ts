@@ -51,6 +51,20 @@ export const PokemonSearchQuerySchema = t.Object({
   isRideable: t.Optional(t.Boolean()),
   isGenderless: t.Optional(t.Boolean()),
 
+  includeTypes: t.Optional(t.Boolean()),
+  includeAbilities: t.Optional(t.Boolean()),
+  includeMoves: t.Optional(t.Boolean()),
+  includeLabels: t.Optional(t.Boolean()),
+  includeAspects: t.Optional(t.Boolean()),
+  includeDrops: t.Optional(t.Boolean()),
+  includeEggGroups: t.Optional(t.Boolean()),
+  includeExperienceGroup: t.Optional(t.Boolean()),
+  includeHitboxes: t.Optional(t.Boolean()),
+  includeLighting: t.Optional(t.Boolean()),
+  includeRiding: t.Optional(t.Boolean()),
+  includeBehaviour: t.Optional(t.Boolean()),
+  includeOverrides: t.Optional(t.Boolean()),
+
   limit: t.Optional(t.Number({ minimum: 1, maximum: 100, default: 20 })),
   offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
 });
@@ -173,7 +187,6 @@ const FormSchema = t.Object({
   drops: t.Nullable(FormDropsSchema),
   aspectCombos: t.Array(FormAspectComboSchema),
   behaviour: t.Nullable(t.Object({ data: t.Unknown() })),
-  overrides: t.Nullable(t.Object({})),
 });
 
 const SpeciesWithFormsSchema = t.Object({

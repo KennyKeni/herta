@@ -64,7 +64,11 @@ export async function up(db: Kysely<any>): Promise<void> {
     .on('item_tag_hierarchy')
     .column('child_tag_id')
     .execute();
-  await db.schema.createIndex('idx_item_tag_types_slug').on('item_tag_types').column('slug').execute();
+  await db.schema
+    .createIndex('idx_item_tag_types_slug')
+    .on('item_tag_types')
+    .column('slug')
+    .execute();
 }
 
 export async function down(db: Kysely<any>): Promise<void> {

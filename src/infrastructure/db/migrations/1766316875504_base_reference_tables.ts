@@ -94,7 +94,11 @@ export async function up(db: Kysely<any>): Promise<void> {
     .on('move_flag_types')
     .column('slug')
     .execute();
-  await db.schema.createIndex('idx_aspect_groups_slug').on('aspect_groups').column('slug').execute();
+  await db.schema
+    .createIndex('idx_aspect_groups_slug')
+    .on('aspect_groups')
+    .column('slug')
+    .execute();
   await db.schema.createIndex('idx_egg_groups_slug').on('egg_groups').column('slug').execute();
 }
 

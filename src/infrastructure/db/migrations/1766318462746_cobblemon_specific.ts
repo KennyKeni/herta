@@ -13,7 +13,6 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addColumn('species_id', 'integer', (col) => col.primaryKey().references('species.id'))
     .addColumn('data', 'jsonb', (col) => col.notNull())
     .execute();
-
 }
 
 export async function down(db: Kysely<any>): Promise<void> {

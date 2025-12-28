@@ -1773,9 +1773,7 @@
     "desc": "If held by a Clamperl, its Sp. Def is doubled. Evolves Clamperl into Gorebyss when traded.",
     "short_desc": "If held by a Clamperl, its Sp. Def is doubled.",
     "is_nonstandard": "Past",
-    "item_user": [
-      "Clamperl"
-    ],
+    "item_user": ["Clamperl"],
     "fling_power": 30,
     "fling_effect": null,
     "source": "cobblemon",
@@ -1789,9 +1787,7 @@
     "desc": "If held by a Clamperl, its Sp. Atk is doubled. Evolves Clamperl into Huntail when traded.",
     "short_desc": "If held by a Clamperl, its Sp. Atk is doubled.",
     "is_nonstandard": "Past",
-    "item_user": [
-      "Clamperl"
-    ],
+    "item_user": ["Clamperl"],
     "fling_power": 90,
     "fling_effect": null,
     "source": "cobblemon",
@@ -3934,9 +3930,7 @@
     "desc": "",
     "short_desc": "If held by a Ditto that hasn't Transformed, its Defense is doubled.",
     "is_nonstandard": "Past",
-    "item_user": [
-      "Ditto"
-    ],
+    "item_user": ["Ditto"],
     "fling_power": 10,
     "fling_effect": null,
     "source": "cobblemon",
@@ -5134,9 +5128,7 @@
     "desc": "",
     "short_desc": "If held by a Ditto that hasn't Transformed, its Speed is doubled.",
     "is_nonstandard": "Past",
-    "item_user": [
-      "Ditto"
-    ],
+    "item_user": ["Ditto"],
     "fling_power": 10,
     "fling_effect": null,
     "source": "cobblemon",
