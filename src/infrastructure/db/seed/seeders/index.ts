@@ -1,4 +1,5 @@
 export { abilitiesSeeder } from './abilities.seeder';
+export { articlesSeeder } from './articles.seeder';
 export { aspectsSeeder } from './aspects.seeder';
 export { baseReferenceSeeder } from './base-reference.seeder';
 export { cobblemonSeeder } from './cobblemon.seeder';

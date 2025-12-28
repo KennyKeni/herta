@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "slug": "getting-started",
+    "name": "Getting Started",
+    "description": "New player orientation and beginner guides"
+  },
+  {
+    "id": 2,
+    "slug": "pokemon",
+    "name": "Pokemon",
+    "description": "Core Pokemon mechanics including breeding, catching, and fusions"
+  },
+  {
+    "id": 3,
+    "slug": "exploration",
+    "name": "Exploration",
+    "description": "World features like dungeons, ultra space, fishing, and dowsing"
+  },
+  {
+    "id": 4,
+    "slug": "server",
+    "name": "Server",
+    "description": "Server-specific systems including claims, nicknames, and mods"
+  },
+  {
+    "id": 5,
+    "slug": "items",
+    "name": "Items",
+    "description": "Item acquisition and usage guides"
+  },
+  {
+    "id": 6,
+    "slug": "economy",
+    "name": "Economy",
+    "description": "Trading, shops, and currency systems"
+  }
+]

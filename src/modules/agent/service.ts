@@ -1,4 +1,6 @@
 import type { AbilitiesRepository } from '../abilities/repository';
+import type { Article } from '../article/domain';
+import type { ArticleRepository } from '../article/repository';
 import type { MovesRepository } from '../moves/repository';
 import type { PokemonFilter } from '../pokemon/domain';
 import type { PokemonRepository } from '../pokemon/repository';
@@ -11,7 +13,8 @@ export class AgentService {
     private pokemonRepository: PokemonRepository,
     private typesRepository: TypesRepository,
     private abilitiesRepository: AbilitiesRepository,
-    private movesRepository: MovesRepository
+    private movesRepository: MovesRepository,
+    private articleRepository: ArticleRepository
   ) {}
 
   async searchPokemon(query: AgentPokemonQuery): Promise<AgentPokemonResponse> {
@@ -42,5 +45,9 @@ export class AgentService {
     const total = results.reduce((acc, sp) => acc + sp.forms.length, 0);
 
     return toResponse(results, query, total);
+  }
+
+  async getArticle(identifier: string): Promise<Article | null> {
+    return this.articleRepository.getByIdentifier(identifier);
   }
 }

@@ -12,7 +12,7 @@ export async function up(db: Kysely<any>): Promise<void> {
   await db.schema
     .createTable('articles')
     .addColumn('id', 'serial', (col) => col.primaryKey())
-    .addColumn('identifier', 'text', (col) => col.notNull().unique())
+    .addColumn('slug', 'text', (col) => col.notNull().unique())
     .addColumn('title', 'text', (col) => col.notNull())
     .addColumn('subtitle', 'text')
     .addColumn('description', 'text')
@@ -33,7 +33,7 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addPrimaryKeyConstraint('article_category_map_pk', ['article_id', 'category_id'])
     .execute();
 
-  await sql`CREATE INDEX idx_articles_identifier ON articles (identifier)`.execute(db);
+  await sql`CREATE INDEX idx_articles_slug ON articles (slug)`.execute(db);
   await sql`CREATE INDEX idx_articles_title_trgm ON articles USING gin (title gin_trgm_ops)`.execute(
     db
   );

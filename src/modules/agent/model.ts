@@ -232,3 +232,19 @@ export const AgentPokemonResponseSchema = t.Object({
 });
 
 export type AgentPokemonResponse = Static<typeof AgentPokemonResponseSchema>;
+
+export const AgentArticleResponseSchema = t.Nullable(
+  t.Object({
+    id: t.Number(),
+    slug: t.String(),
+    title: t.String(),
+    subtitle: t.Nullable(t.String()),
+    description: t.Nullable(t.String()),
+    body: t.String(),
+    author: t.Nullable(t.String()),
+    createdAt: t.Date(),
+    updatedAt: t.Date(),
+  })
+);
+
+export type AgentArticleResponse = Static<typeof AgentArticleResponseSchema>;

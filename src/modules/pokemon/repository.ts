@@ -651,7 +651,8 @@ export class PokemonRepository {
       catchRate: row.catch_rate,
       eggCycles: row.egg_cycles,
       experienceGroup:
-        (row.experience_group_id && relations.experienceGroups.get(row.experience_group_id)) ??
+        (row.experience_group_id != null &&
+          relations.experienceGroups.get(row.experience_group_id)) ||
         null,
       maleRatio: row.male_ratio,
       eggGroups: (relations.eggGroups.get(row.species_id) ?? []).map((eg) => ({

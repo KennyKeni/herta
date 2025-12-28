@@ -2,6 +2,7 @@ import { db } from '../index';
 import { createLogger } from './logger';
 import {
   abilitiesSeeder,
+  articlesSeeder,
   aspectsSeeder,
   baseReferenceSeeder,
   cobblemonSeeder,
@@ -29,6 +30,7 @@ const SEEDERS: Seeder[] = [
   cobblemonSeeder,
   recipesSeeder,
   pokemonDataSeeder,
+  articlesSeeder,
 ];
 
 async function main() {

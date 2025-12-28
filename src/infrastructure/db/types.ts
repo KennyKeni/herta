@@ -62,7 +62,7 @@ export interface Articles {
   created_at: Generated<Timestamp>;
   description: string | null;
   id: Generated<number>;
-  identifier: string;
+  slug: string;
   subtitle: string | null;
   title: string;
   updated_at: Generated<Timestamp>;

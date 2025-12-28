@@ -1,1 +1,1 @@
-export { Slug } from './slug';
+export { slugFrom, slugForPokemon, slugForVariation } from './slug';
