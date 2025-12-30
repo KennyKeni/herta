@@ -3,1463 +3,1463 @@
     "moveId": 7,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 8,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "frz"
+    "conditionTypeId": 1,
+    "conditionId": 22
   },
   {
     "moveId": 9,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 20,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "partiallytrapped"
+    "conditionTypeId": 2,
+    "conditionId": 42
   },
   {
     "moveId": 23,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 27,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 29,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 34,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 35,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "partiallytrapped"
+    "conditionTypeId": 2,
+    "conditionId": 42
   },
   {
     "moveId": 40,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 41,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 44,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 47,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "slp"
+    "conditionTypeId": 1,
+    "conditionId": 51
   },
   {
     "moveId": 48,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 50,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "disable"
+    "conditionTypeId": 2,
+    "conditionId": 12
   },
   {
     "moveId": 52,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 53,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 58,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "frz"
+    "conditionTypeId": 1,
+    "conditionId": 22
   },
   {
     "moveId": 59,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "frz"
+    "conditionTypeId": 1,
+    "conditionId": 22
   },
   {
     "moveId": 60,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 73,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "leechseed"
+    "conditionTypeId": 2,
+    "conditionId": 31
   },
   {
     "moveId": 77,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 78,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 79,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "slp"
+    "conditionTypeId": 1,
+    "conditionId": 51
   },
   {
     "moveId": 83,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "partiallytrapped"
+    "conditionTypeId": 2,
+    "conditionId": 42
   },
   {
     "moveId": 84,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 85,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 86,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 87,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 92,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "tox"
+    "conditionTypeId": 1,
+    "conditionId": 64
   },
   {
     "moveId": 93,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 95,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "slp"
+    "conditionTypeId": 1,
+    "conditionId": 51
   },
   {
     "moveId": 107,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "minimize"
+    "conditionTypeId": 2,
+    "conditionId": 35
   },
   {
     "moveId": 109,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 111,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "defensecurl"
+    "conditionTypeId": 2,
+    "conditionId": 10
   },
   {
     "moveId": 116,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "focusenergy"
+    "conditionTypeId": 2,
+    "conditionId": 19
   },
   {
     "moveId": 117,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "bide"
+    "conditionTypeId": 2,
+    "conditionId": 4
   },
   {
     "moveId": 122,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 123,
     "chance": 40,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 124,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 125,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 126,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 127,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 128,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "partiallytrapped"
+    "conditionTypeId": 2,
+    "conditionId": 42
   },
   {
     "moveId": 137,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 139,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 142,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "slp"
+    "conditionTypeId": 1,
+    "conditionId": 51
   },
   {
     "moveId": 143,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 146,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 147,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "slp"
+    "conditionTypeId": 1,
+    "conditionId": 51
   },
   {
     "moveId": 157,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 158,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 164,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "substitute"
+    "conditionTypeId": 2,
+    "conditionId": 58
   },
   {
     "moveId": 171,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "nightmare"
+    "conditionTypeId": 2,
+    "conditionId": 37
   },
   {
     "moveId": 172,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 173,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 174,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "curse"
+    "conditionTypeId": 2,
+    "conditionId": 9
   },
   {
     "moveId": 181,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "frz"
+    "conditionTypeId": 1,
+    "conditionId": 22
   },
   {
     "moveId": 182,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "protect"
+    "conditionTypeId": 2,
+    "conditionId": 46
   },
   {
     "moveId": 186,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 188,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 192,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 193,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "foresight"
+    "conditionTypeId": 2,
+    "conditionId": 21
   },
   {
     "moveId": 194,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "destinybond"
+    "conditionTypeId": 2,
+    "conditionId": 11
   },
   {
     "moveId": 197,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "protect"
+    "conditionTypeId": 2,
+    "conditionId": 46
   },
   {
     "moveId": 203,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "endure"
+    "conditionTypeId": 2,
+    "conditionId": 17
   },
   {
     "moveId": 207,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 209,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 213,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "attract"
+    "conditionTypeId": 2,
+    "conditionId": 2
   },
   {
     "moveId": 221,
     "chance": 50,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 223,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 225,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 227,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "encore"
+    "conditionTypeId": 2,
+    "conditionId": 16
   },
   {
     "moveId": 239,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 250,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "partiallytrapped"
+    "conditionTypeId": 2,
+    "conditionId": 42
   },
   {
     "moveId": 252,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 254,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "stockpile"
+    "conditionTypeId": 2,
+    "conditionId": 57
   },
   {
     "moveId": 257,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 259,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "torment"
+    "conditionTypeId": 2,
+    "conditionId": 63
   },
   {
     "moveId": 260,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 261,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 266,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "followme"
+    "conditionTypeId": 2,
+    "conditionId": 20
   },
   {
     "moveId": 268,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "charge"
+    "conditionTypeId": 2,
+    "conditionId": 7
   },
   {
     "moveId": 269,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "taunt"
+    "conditionTypeId": 2,
+    "conditionId": 61
   },
   {
     "moveId": 270,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "helpinghand"
+    "conditionTypeId": 2,
+    "conditionId": 26
   },
   {
     "moveId": 275,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "ingrain"
+    "conditionTypeId": 2,
+    "conditionId": 28
   },
   {
     "moveId": 277,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "magiccoat"
+    "conditionTypeId": 2,
+    "conditionId": 32
   },
   {
     "moveId": 281,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "yawn"
+    "conditionTypeId": 2,
+    "conditionId": 65
   },
   {
     "moveId": 286,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "imprison"
+    "conditionTypeId": 2,
+    "conditionId": 27
   },
   {
     "moveId": 288,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "grudge"
+    "conditionTypeId": 2,
+    "conditionId": 24
   },
   {
     "moveId": 289,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "snatch"
+    "conditionTypeId": 2,
+    "conditionId": 53
   },
   {
     "moveId": 290,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 298,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 299,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 302,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 305,
     "chance": 50,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "tox"
+    "conditionTypeId": 1,
+    "conditionId": 64
   },
   {
     "moveId": 310,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 316,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "foresight"
+    "conditionTypeId": 2,
+    "conditionId": 21
   },
   {
     "moveId": 320,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "slp"
+    "conditionTypeId": 1,
+    "conditionId": 51
   },
   {
     "moveId": 324,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 326,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 328,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "partiallytrapped"
+    "conditionTypeId": 2,
+    "conditionId": 42
   },
   {
     "moveId": 340,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 342,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 344,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 352,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 357,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "miracleeye"
+    "conditionTypeId": 2,
+    "conditionId": 36
   },
   {
     "moveId": 373,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "embargo"
+    "conditionTypeId": 2,
+    "conditionId": 15
   },
   {
     "moveId": 377,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "healblock"
+    "conditionTypeId": 2,
+    "conditionId": 25
   },
   {
     "moveId": 379,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "powertrick"
+    "conditionTypeId": 2,
+    "conditionId": 45
   },
   {
     "moveId": 380,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "gastroacid"
+    "conditionTypeId": 2,
+    "conditionId": 23
   },
   {
     "moveId": 392,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "aquaring"
+    "conditionTypeId": 2,
+    "conditionId": 1
   },
   {
     "moveId": 393,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "magnetrise"
+    "conditionTypeId": 2,
+    "conditionId": 33
   },
   {
     "moveId": 394,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 395,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 398,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 399,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 403,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 407,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 422,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 422,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 423,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "frz"
+    "conditionTypeId": 1,
+    "conditionId": 22
   },
   {
     "moveId": 423,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 424,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 424,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 428,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 431,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 435,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 436,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 440,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 441,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 442,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 448,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 463,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "partiallytrapped"
+    "conditionTypeId": 2,
+    "conditionId": 42
   },
   {
     "moveId": 464,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "slp"
+    "conditionTypeId": 1,
+    "conditionId": 51
   },
   {
     "moveId": 476,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "ragepowder"
+    "conditionTypeId": 2,
+    "conditionId": 48
   },
   {
     "moveId": 477,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "telekinesis"
+    "conditionTypeId": 2,
+    "conditionId": 62
   },
   {
     "moveId": 479,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "smackdown"
+    "conditionTypeId": 2,
+    "conditionId": 52
   },
   {
     "moveId": 482,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 503,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 517,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 531,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 537,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 542,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 545,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 547,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "slp"
+    "conditionTypeId": 1,
+    "conditionId": 51
   },
   {
     "moveId": 550,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 551,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 553,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 554,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 556,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 573,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "frz"
+    "conditionTypeId": 1,
+    "conditionId": 22
   },
   {
     "moveId": 582,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "electrify"
+    "conditionTypeId": 2,
+    "conditionId": 14
   },
   {
     "moveId": 588,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "kingsshield"
+    "conditionTypeId": 2,
+    "conditionId": 29
   },
   {
     "moveId": 592,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 596,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "spikyshield"
+    "conditionTypeId": 2,
+    "conditionId": 55
   },
   {
     "moveId": 600,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "powder"
+    "conditionTypeId": 2,
+    "conditionId": 43
   },
   {
     "moveId": 609,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 611,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "partiallytrapped"
+    "conditionTypeId": 2,
+    "conditionId": 42
   },
   {
     "moveId": 614,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "smackdown"
+    "conditionTypeId": 2,
+    "conditionId": 52
   },
   {
     "moveId": 661,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "banefulbunker"
+    "conditionTypeId": 2,
+    "conditionId": 3
   },
   {
     "moveId": 664,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "sparklingaria"
+    "conditionTypeId": 2,
+    "conditionId": 54
   },
   {
     "moveId": 671,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "spotlight"
+    "conditionTypeId": 2,
+    "conditionId": 56
   },
   {
     "moveId": 672,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 673,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "laserfocus"
+    "conditionTypeId": 2,
+    "conditionId": 30
   },
   {
     "moveId": 700,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 716,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 730,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 731,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 734,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 735,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 742,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 743,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "maxguard"
+    "conditionTypeId": 2,
+    "conditionId": 34
   },
   {
     "moveId": 748,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "noretreat"
+    "conditionTypeId": 2,
+    "conditionId": 38
   },
   {
     "moveId": 749,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "tarshot"
+    "conditionTypeId": 2,
+    "conditionId": 60
   },
   {
     "moveId": 753,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "octolock"
+    "conditionTypeId": 2,
+    "conditionId": 40
   },
   {
     "moveId": 779,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "partiallytrapped"
+    "conditionTypeId": 2,
+    "conditionId": 42
   },
   {
     "moveId": 780,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 790,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 792,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "obstruct"
+    "conditionTypeId": 2,
+    "conditionId": 39
   },
   {
     "moveId": 801,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 815,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 819,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "partiallytrapped"
+    "conditionTypeId": 2,
+    "conditionId": 42
   },
   {
     "moveId": 821,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "frz"
+    "conditionTypeId": 1,
+    "conditionId": 22
   },
   {
     "moveId": 822,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 829,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "powershift"
+    "conditionTypeId": 2,
+    "conditionId": 44
   },
   {
     "moveId": 836,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 839,
     "chance": 50,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 843,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 844,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 847,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 848,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 852,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "silktrap"
+    "conditionTypeId": 2,
+    "conditionId": 50
   },
   {
     "moveId": 853,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 864,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "saltcure"
+    "conditionTypeId": 2,
+    "conditionId": 49
   },
   {
     "moveId": 866,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 880,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "substitute"
+    "conditionTypeId": 2,
+    "conditionId": 58
   },
   {
     "moveId": 896,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 897,
     "chance": 10,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "slp"
+    "conditionTypeId": 1,
+    "conditionId": 51
   },
   {
     "moveId": 898,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "psn"
+    "conditionTypeId": 1,
+    "conditionId": 47
   },
   {
     "moveId": 899,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "par"
+    "conditionTypeId": 1,
+    "conditionId": 41
   },
   {
     "moveId": 900,
     "chance": 30,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "confusion"
+    "conditionTypeId": 2,
+    "conditionId": 8
   },
   {
     "moveId": 902,
     "chance": 20,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "brn"
+    "conditionTypeId": 1,
+    "conditionId": 5
   },
   {
     "moveId": 903,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "syrupbomb"
+    "conditionTypeId": 2,
+    "conditionId": 59
   },
   {
     "moveId": 908,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "burningbulwark"
+    "conditionTypeId": 2,
+    "conditionId": 6
   },
   {
     "moveId": 913,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "dragoncheer"
+    "conditionTypeId": 2,
+    "conditionId": 13
   },
   {
     "moveId": 917,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "healblock"
+    "conditionTypeId": 2,
+    "conditionId": 25
   },
   {
     "moveId": 918,
     "chance": 100,
     "isSelf": false,
-    "effectTypeId": 2,
-    "effectValue": "flinch"
+    "conditionTypeId": 2,
+    "conditionId": 18
   },
   {
     "moveId": 919,
     "chance": 50,
     "isSelf": false,
-    "effectTypeId": 1,
-    "effectValue": "tox"
+    "conditionTypeId": 1,
+    "conditionId": 64
   }
 ]

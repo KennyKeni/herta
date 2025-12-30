@@ -1,175 +1,150 @@
 [
   {
     "id": 1,
-    "slug": "adamant",
     "name": "Adamant",
     "plusStatId": 2,
     "minusStatId": 4
   },
   {
     "id": 2,
-    "slug": "bashful",
     "name": "Bashful",
     "plusStatId": null,
     "minusStatId": null
   },
   {
     "id": 3,
-    "slug": "bold",
     "name": "Bold",
     "plusStatId": 3,
     "minusStatId": 2
   },
   {
     "id": 4,
-    "slug": "brave",
     "name": "Brave",
     "plusStatId": 2,
     "minusStatId": 6
   },
   {
     "id": 5,
-    "slug": "calm",
     "name": "Calm",
     "plusStatId": 5,
     "minusStatId": 2
   },
   {
     "id": 6,
-    "slug": "careful",
     "name": "Careful",
     "plusStatId": 5,
     "minusStatId": 4
   },
   {
     "id": 7,
-    "slug": "docile",
     "name": "Docile",
     "plusStatId": null,
     "minusStatId": null
   },
   {
     "id": 8,
-    "slug": "gentle",
     "name": "Gentle",
     "plusStatId": 5,
     "minusStatId": 3
   },
   {
     "id": 9,
-    "slug": "hardy",
     "name": "Hardy",
     "plusStatId": null,
     "minusStatId": null
   },
   {
     "id": 10,
-    "slug": "hasty",
     "name": "Hasty",
     "plusStatId": 6,
     "minusStatId": 3
   },
   {
     "id": 11,
-    "slug": "impish",
     "name": "Impish",
     "plusStatId": 3,
     "minusStatId": 4
   },
   {
     "id": 12,
-    "slug": "jolly",
     "name": "Jolly",
     "plusStatId": 6,
     "minusStatId": 4
   },
   {
     "id": 13,
-    "slug": "lax",
     "name": "Lax",
     "plusStatId": 3,
     "minusStatId": 5
   },
   {
     "id": 14,
-    "slug": "lonely",
     "name": "Lonely",
     "plusStatId": 2,
     "minusStatId": 3
   },
   {
     "id": 15,
-    "slug": "mild",
     "name": "Mild",
     "plusStatId": 4,
     "minusStatId": 3
   },
   {
     "id": 16,
-    "slug": "modest",
     "name": "Modest",
     "plusStatId": 4,
     "minusStatId": 2
   },
   {
     "id": 17,
-    "slug": "naive",
     "name": "Naive",
     "plusStatId": 6,
     "minusStatId": 5
   },
   {
     "id": 18,
-    "slug": "naughty",
     "name": "Naughty",
     "plusStatId": 2,
     "minusStatId": 5
   },
   {
     "id": 19,
-    "slug": "quiet",
     "name": "Quiet",
     "plusStatId": 4,
     "minusStatId": 6
   },
   {
     "id": 20,
-    "slug": "quirky",
     "name": "Quirky",
     "plusStatId": null,
     "minusStatId": null
   },
   {
     "id": 21,
-    "slug": "rash",
     "name": "Rash",
     "plusStatId": 4,
     "minusStatId": 5
   },
   {
     "id": 22,
-    "slug": "relaxed",
     "name": "Relaxed",
     "plusStatId": 3,
     "minusStatId": 6
   },
   {
     "id": 23,
-    "slug": "sassy",
     "name": "Sassy",
     "plusStatId": 5,
     "minusStatId": 6
   },
   {
     "id": 24,
-    "slug": "serious",
     "name": "Serious",
     "plusStatId": null,
     "minusStatId": null
   },
   {
     "id": 25,
-    "slug": "timid",
     "name": "Timid",
     "plusStatId": 6,
     "minusStatId": 2

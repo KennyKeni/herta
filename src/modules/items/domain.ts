@@ -61,3 +61,14 @@ export interface RecipeSlotType {
   name: string;
   description: string | null;
 }
+
+export interface ItemFilter {
+  itemIds?: string[];
+  tagIds?: number[];
+  tagSlugs?: string[];
+  includeBoosts?: boolean;
+  includeFlags?: boolean;
+  includeTags?: boolean;
+  limit?: number;
+  offset?: number;
+}

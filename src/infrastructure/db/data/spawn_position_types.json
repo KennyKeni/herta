@@ -1,27 +1,22 @@
 [
   {
     "id": 1,
-    "slug": "grounded",
     "name": "Grounded"
   },
   {
     "id": 2,
-    "slug": "submerged",
     "name": "Submerged"
   },
   {
     "id": 3,
-    "slug": "surface",
     "name": "Surface"
   },
   {
     "id": 4,
-    "slug": "seafloor",
     "name": "Seafloor"
   },
   {
     "id": 5,
-    "slug": "fishing",
     "name": "Fishing"
   }
 ]

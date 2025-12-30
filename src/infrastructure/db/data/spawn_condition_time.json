@@ -1,0 +1,2450 @@
+[
+  {
+    "conditionId": 50,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 52,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 54,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 65,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 69,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 72,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 75,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 78,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 88,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 91,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 101,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 104,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 105,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 140,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 142,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 143,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 145,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 147,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 148,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 152,
+    "timeRangeId": 5
+  },
+  {
+    "conditionId": 156,
+    "timeRangeId": 5
+  },
+  {
+    "conditionId": 160,
+    "timeRangeId": 5
+  },
+  {
+    "conditionId": 164,
+    "timeRangeId": 5
+  },
+  {
+    "conditionId": 167,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 170,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 173,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 176,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 178,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 182,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 185,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 188,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 190,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 193,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 197,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 200,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 203,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 205,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 209,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 211,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 213,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 215,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 217,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 219,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 220,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 221,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 222,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 237,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 238,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 249,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 252,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 254,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 256,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 259,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 261,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 264,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 266,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 269,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 272,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 274,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 276,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 279,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 281,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 388,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 390,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 392,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 394,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 396,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 398,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 401,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 403,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 405,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 445,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 448,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 452,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 455,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 484,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 487,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 489,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 492,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 495,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 497,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 500,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 503,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 505,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 508,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 511,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 514,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 517,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 529,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 531,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 534,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 537,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 540,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 552,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 554,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 605,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 607,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 609,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 611,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 660,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 662,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 664,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 666,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 668,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 671,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 673,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 675,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 677,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 680,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 682,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 685,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 688,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 690,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 692,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 696,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 721,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 723,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 726,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 729,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 732,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 739,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 741,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 744,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 747,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 750,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 764,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 766,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 769,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 771,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 780,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 783,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 786,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 788,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 977,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 978,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 979,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 984,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 989,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 997,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1005,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1009,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1012,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1015,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1017,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1044,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1046,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1047,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1050,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1053,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1055,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1060,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1065,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1066,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1067,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1068,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1072,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1073,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1074,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1119,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1124,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1129,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1136,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1139,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1144,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1147,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1151,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1246,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1247,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1248,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1249,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1262,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1381,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1386,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1457,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1474,
+    "timeRangeId": 5
+  },
+  {
+    "conditionId": 1477,
+    "timeRangeId": 5
+  },
+  {
+    "conditionId": 1480,
+    "timeRangeId": 5
+  },
+  {
+    "conditionId": 1484,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1487,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1541,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1555,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1557,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1560,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1562,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1565,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1575,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1577,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1579,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1581,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1584,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1587,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1589,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1592,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1594,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1596,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1598,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1606,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1608,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1610,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1612,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1614,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1685,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1687,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1690,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1693,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1695,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1698,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1700,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1707,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1714,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1723,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1726,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1729,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1731,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1765,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1768,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1781,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1783,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1813,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1815,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1817,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1819,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1832,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1834,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1840,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1842,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1886,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1888,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1891,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1893,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1916,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1918,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1921,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1924,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1928,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1931,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1933,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1936,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1937,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1940,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 1941,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1943,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1944,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 1946,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2010,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2011,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2012,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2013,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2014,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2015,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2016,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2017,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2018,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2020,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2023,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2025,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2027,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2028,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2100,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2101,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2102,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2103,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2160,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2162,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2164,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2182,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2184,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2199,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2202,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2210,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2213,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2268,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2270,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2271,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2273,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2282,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2286,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2287,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2288,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2291,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2294,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2296,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2298,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2302,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2305,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2307,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2309,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2311,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2312,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2313,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2338,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2340,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2342,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2343,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2344,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2383,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2386,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2393,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2395,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2430,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2436,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2439,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2446,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2451,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2469,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2479,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2550,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2552,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2556,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2559,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2561,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2563,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2566,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2567,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2569,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2573,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2576,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2578,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2580,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2583,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2585,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2587,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2590,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2592,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2595,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2597,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2599,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2601,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2603,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2606,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2608,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2611,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2612,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2613,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2614,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2615,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2616,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2618,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2620,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2622,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2624,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2626,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2628,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2630,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2632,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2645,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2647,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2648,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2650,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2657,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2660,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2663,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2666,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2669,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2672,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2679,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2680,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2686,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2687,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2693,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2694,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2701,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2704,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2708,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2711,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2716,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2720,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2723,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2728,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2772,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2806,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2808,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2810,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2812,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2813,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2816,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2819,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2822,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2849,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2853,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2854,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2856,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2859,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2863,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2864,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2866,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2870,
+    "timeRangeId": 3
+  },
+  {
+    "conditionId": 2874,
+    "timeRangeId": 3
+  },
+  {
+    "conditionId": 2878,
+    "timeRangeId": 3
+  },
+  {
+    "conditionId": 2883,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2889,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2899,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2902,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 2905,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2914,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2933,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2938,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2940,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2945,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2995,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 2999,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3003,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3005,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3007,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3026,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3029,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3034,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3050,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3051,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3052,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3055,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3057,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3058,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3059,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3062,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3064,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3066,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3126,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3130,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3134,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3144,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3146,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3148,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3150,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3152,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3156,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3158,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3160,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3162,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3164,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3166,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3168,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3170,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3172,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3173,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3174,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3176,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3178,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3180,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3182,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3186,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3188,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3190,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3192,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3194,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3196,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3200,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3203,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3206,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3209,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3212,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3215,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3217,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3219,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3221,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3223,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3225,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3227,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3231,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3234,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3237,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3240,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3243,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3246,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3248,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3250,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3252,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3254,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3256,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3258,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3262,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3265,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3268,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3271,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3274,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3277,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3280,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3283,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3289,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3292,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3294,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3296,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3300,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3303,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3305,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3307,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3402,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3404,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3502,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3503,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3504,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3505,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3506,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3508,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3563,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3565,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3567,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3570,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3572,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3576,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3578,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3582,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3584,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3617,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3619,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3649,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3651,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3655,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3657,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3727,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3730,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3793,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3795,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3797,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3799,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3800,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3801,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3802,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3804,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3808,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3810,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3814,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3817,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3821,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3859,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3860,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3862,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3864,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3895,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3898,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3941,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3943,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3945,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3947,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3951,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3953,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 3955,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3957,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3971,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3975,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3979,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3983,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3985,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 3987,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4003,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4021,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4038,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4039,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4042,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4050,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4053,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4056,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4057,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4061,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4064,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4067,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4068,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4072,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4075,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4078,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4079,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4083,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4086,
+    "timeRangeId": 4
+  },
+  {
+    "conditionId": 4088,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4089,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4103,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4158,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4160,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4165,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4167,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4172,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4175,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4177,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4180,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4183,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4187,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4189,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4192,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4195,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4198,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4201,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4211,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4213,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4215,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4216,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4217,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4219,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4221,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4249,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4255,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4258,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4263,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4269,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4272,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4282,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4283,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4285,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4288,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4304,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4306,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4344,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4359,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4360,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4408,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4419,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4421,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4423,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4425,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4427,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4429,
+    "timeRangeId": 1
+  },
+  {
+    "conditionId": 4431,
+    "timeRangeId": 2
+  },
+  {
+    "conditionId": 4433,
+    "timeRangeId": 2
+  }
+]

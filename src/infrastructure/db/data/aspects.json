@@ -1,674 +1,482 @@
 [
   {
     "id": 1,
-    "slug": "absofusion",
     "name": "Absofusion",
-    "type": "form",
-    "aspectFormat": "{{choice}}-fusion"
+    "typeId": 1
   },
   {
     "id": 2,
-    "slug": "alola_bias",
     "name": "Alola Bias",
-    "type": "cosmetic",
-    "aspectFormat": null
+    "typeId": 2
   },
   {
     "id": 3,
-    "slug": "appliance",
     "name": "Appliance",
-    "type": "form",
-    "aspectFormat": "{{choice}}-appliance"
+    "typeId": 1
   },
   {
     "id": 4,
-    "slug": "bagworm_cloak",
     "name": "Bagworm Cloak",
-    "type": "form",
-    "aspectFormat": "{{choice}}-cloak"
+    "typeId": 1
   },
   {
     "id": 5,
-    "slug": "battle_bond",
     "name": "Battle Bond",
-    "type": "form",
-    "aspectFormat": "{{choice}}"
+    "typeId": 1
   },
   {
     "id": 6,
-    "slug": "behemoth_warrior",
     "name": "Behemoth Warrior",
-    "type": "form",
-    "aspectFormat": "{{choice}}"
+    "typeId": 1
   },
   {
     "id": 7,
-    "slug": "blazing_mode",
     "name": "Blazing Mode",
-    "type": "form",
-    "aspectFormat": "{{choice}}-mode"
+    "typeId": 1
   },
   {
     "id": 8,
-    "slug": "bloodmoon",
     "name": "Bloodmoon",
-    "type": "form",
-    "aspectFormat": null
+    "typeId": 1
   },
   {
     "id": 9,
-    "slug": "blossom_form",
     "name": "Blossom Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 10,
-    "slug": "bull_breed",
     "name": "Bull Breed",
-    "type": "form",
-    "aspectFormat": "{{choice}}-breed"
+    "typeId": 1
   },
   {
     "id": 11,
-    "slug": "character",
     "name": "Character",
-    "type": "cosmetic",
-    "aspectFormat": "character-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 12,
-    "slug": "claw",
     "name": "Claw",
-    "type": "cosmetic",
-    "aspectFormat": "claw-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 13,
-    "slug": "cocoon_species",
     "name": "Cocoon Species",
-    "type": "internal",
-    "aspectFormat": "{{choice}}-cocoon"
+    "typeId": 3
   },
   {
     "id": 14,
-    "slug": "color",
     "name": "Color",
-    "type": "cosmetic",
-    "aspectFormat": "color-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 15,
-    "slug": "core_color",
     "name": "Core Color",
-    "type": "cosmetic",
-    "aspectFormat": "{{choice}}-core"
+    "typeId": 2
   },
   {
     "id": 16,
-    "slug": "cosmetic_item",
     "name": "Cosmetic Item",
-    "type": "cosmetic",
-    "aspectFormat": "cosmetic_item-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 17,
-    "slug": "cream",
     "name": "Cream",
-    "type": "cosmetic",
-    "aspectFormat": "cream-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 18,
-    "slug": "dance_style",
     "name": "Dance Style",
-    "type": "form",
-    "aspectFormat": "{{choice}}-style"
+    "typeId": 1
   },
   {
     "id": 19,
-    "slug": "decoration",
     "name": "Decoration",
-    "type": "cosmetic",
-    "aspectFormat": "decoration-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 20,
-    "slug": "disguise_form",
     "name": "Disguise Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 21,
-    "slug": "djinn_state",
     "name": "Djinn State",
-    "type": "form",
-    "aspectFormat": "{{choice}}"
+    "typeId": 1
   },
   {
     "id": 22,
-    "slug": "dolphin_form",
     "name": "Dolphin Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 23,
-    "slug": "dynamax_form",
     "name": "Dynamax Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}"
+    "typeId": 1
   },
   {
     "id": 24,
-    "slug": "embody_aspect",
     "name": "Embody Aspect",
-    "type": "cosmetic",
-    "aspectFormat": null
+    "typeId": 2
   },
   {
     "id": 25,
-    "slug": "face_spots",
     "name": "Face Spots",
-    "type": "cosmetic",
-    "aspectFormat": "face-spots-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 26,
-    "slug": "face_spots2",
     "name": "Face Spots2",
-    "type": "cosmetic",
-    "aspectFormat": "face-spots2-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 27,
-    "slug": "fish_stripes",
     "name": "Fish Stripes",
-    "type": "form",
-    "aspectFormat": "{{choice}}striped"
+    "typeId": 1
   },
   {
     "id": 28,
-    "slug": "flower",
     "name": "Flower",
-    "type": "cosmetic",
-    "aspectFormat": "flower-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 29,
-    "slug": "flower_eternal",
     "name": "Flower (Eternal)",
-    "type": "form",
-    "aspectFormat": "flower-{{choice}}"
+    "typeId": 1
   },
   {
     "id": 30,
-    "slug": "forecast_form",
     "name": "Forecast Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 31,
-    "slug": "galar_bias",
     "name": "Galar Bias",
-    "type": "cosmetic",
-    "aspectFormat": null
+    "typeId": 2
   },
   {
     "id": 32,
-    "slug": "gilded_chest",
     "name": "Gilded Chest",
-    "type": "cosmetic",
-    "aspectFormat": "{{choice}}-gilded-chest"
+    "typeId": 2
   },
   {
     "id": 33,
-    "slug": "gracidea_forme",
     "name": "Gracidea Forme",
-    "type": "form",
-    "aspectFormat": "{{choice}}-forme"
+    "typeId": 1
   },
   {
     "id": 34,
-    "slug": "gyarados_eye_color",
     "name": "Gyarados Eye Color",
-    "type": "cosmetic",
-    "aspectFormat": "gyarados-eye-color-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 35,
-    "slug": "hero",
     "name": "Hero",
-    "type": "form",
-    "aspectFormat": null
+    "typeId": 1
   },
   {
     "id": 36,
-    "slug": "hisui_bias",
     "name": "Hisui Bias",
-    "type": "cosmetic",
-    "aspectFormat": null
+    "typeId": 2
   },
   {
     "id": 37,
-    "slug": "hunger_mode",
     "name": "Hunger Mode",
-    "type": "form",
-    "aspectFormat": "{{choice}}-mode"
+    "typeId": 1
   },
   {
     "id": 38,
-    "slug": "king_steed",
     "name": "King Steed",
-    "type": "form",
-    "aspectFormat": "{{choice}}-rider"
+    "typeId": 1
   },
   {
     "id": 39,
-    "slug": "landsnake_evolution",
     "name": "Landsnake Evolution",
-    "type": "internal",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 3
   },
   {
     "id": 40,
-    "slug": "landsnake_form",
     "name": "Landsnake Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 41,
-    "slug": "league_cap",
     "name": "League Cap",
-    "type": "form",
-    "aspectFormat": "{{choice}}-cap"
+    "typeId": 1
   },
   {
     "id": 42,
-    "slug": "left_ear_spots",
     "name": "Left Ear Spots",
-    "type": "cosmetic",
-    "aspectFormat": "left-ear-spots-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 43,
-    "slug": "life_mode",
     "name": "Life Mode",
-    "type": "form",
-    "aspectFormat": "{{choice}}-mode"
+    "typeId": 1
   },
   {
     "id": 44,
-    "slug": "magikarp_jump",
     "name": "Magikarp Jump",
-    "type": "cosmetic",
-    "aspectFormat": "magikarp-jump-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 45,
-    "slug": "matcha_authenticity",
     "name": "Matcha Authenticity",
-    "type": "form",
-    "aspectFormat": "{{choice}}"
+    "typeId": 1
   },
   {
     "id": 46,
-    "slug": "maushold_evolution",
     "name": "Maushold Evolution",
-    "type": "internal",
-    "aspectFormat": "maushold-family-{{choice}}"
+    "typeId": 3
   },
   {
     "id": 47,
-    "slug": "maushold_family",
     "name": "Maushold Family",
-    "type": "form",
-    "aspectFormat": "maushold-family-{{choice}}"
+    "typeId": 1
   },
   {
     "id": 48,
-    "slug": "mega_evolution",
     "name": "Mega Evolution",
-    "type": "form",
-    "aspectFormat": "{{choice}}"
+    "typeId": 1
   },
   {
     "id": 49,
-    "slug": "metals",
     "name": "Metals",
-    "type": "cosmetic",
-    "aspectFormat": "metals-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 50,
-    "slug": "meteor_shield",
     "name": "Meteor Shield",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 51,
-    "slug": "meteorite_forme",
     "name": "Meteorite Forme",
-    "type": "form",
-    "aspectFormat": "{{choice}}-forme"
+    "typeId": 1
   },
   {
     "id": 52,
-    "slug": "minecraft",
     "name": "Minecraft",
-    "type": "cosmetic",
-    "aspectFormat": null
+    "typeId": 2
   },
   {
     "id": 53,
-    "slug": "mirror_forme",
     "name": "Mirror Forme",
-    "type": "form",
-    "aspectFormat": "{{choice}}-forme"
+    "typeId": 1
   },
   {
     "id": 54,
-    "slug": "missile_form",
     "name": "Missile Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 55,
-    "slug": "mooshtank",
     "name": "Mooshtank",
-    "type": "cosmetic",
-    "aspectFormat": "mooshtank-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 56,
-    "slug": "multitype",
     "name": "Multitype",
-    "type": "form",
-    "aspectFormat": "{{choice}}-plate"
+    "typeId": 1
   },
   {
     "id": 57,
-    "slug": "nectar",
     "name": "Nectar",
-    "type": "cosmetic",
-    "aspectFormat": null
+    "typeId": 2
   },
   {
     "id": 58,
-    "slug": "netherite_coating",
     "name": "Netherite Coating",
-    "type": "cosmetic",
-    "aspectFormat": "netherite-coating-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 59,
-    "slug": "ogre_mask",
     "name": "Ogre Mask",
-    "type": "form",
-    "aspectFormat": "{{choice}}-mask"
+    "typeId": 1
   },
   {
     "id": 60,
-    "slug": "orb_forme",
     "name": "Orb Forme",
-    "type": "form",
-    "aspectFormat": "{{choice}}-forme"
+    "typeId": 1
   },
   {
     "id": 61,
-    "slug": "paint_color",
     "name": "Paint Color",
-    "type": "form",
-    "aspectFormat": "{{choice}}-color"
+    "typeId": 1
   },
   {
     "id": 62,
-    "slug": "pattern",
     "name": "Pattern",
-    "type": "cosmetic",
-    "aspectFormat": "pattern-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 63,
-    "slug": "penguin_head",
     "name": "Penguin Head",
-    "type": "form",
-    "aspectFormat": "{{choice}}"
+    "typeId": 1
   },
   {
     "id": 64,
-    "slug": "percent_cells",
     "name": "Percent Cells",
-    "type": "form",
-    "aspectFormat": "{{choice}}-percent"
+    "typeId": 1
   },
   {
     "id": 65,
-    "slug": "poodle_trim",
     "name": "Poodle Trim",
-    "type": "cosmetic",
-    "aspectFormat": "{{choice}}-trim"
+    "typeId": 2
   },
   {
     "id": 66,
-    "slug": "power_construct",
     "name": "Power Construct",
-    "type": "cosmetic",
-    "aspectFormat": null
+    "typeId": 2
   },
   {
     "id": 67,
-    "slug": "prism_fusion",
     "name": "Prism Fusion",
-    "type": "form",
-    "aspectFormat": "{{choice}}-fusion"
+    "typeId": 1
   },
   {
     "id": 68,
-    "slug": "pumpkin_size",
     "name": "Pumpkin Size",
-    "type": "form",
-    "aspectFormat": "pumpkin-size-{{choice}}"
+    "typeId": 1
   },
   {
     "id": 69,
-    "slug": "punk_form",
     "name": "Punk Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 70,
-    "slug": "regional",
     "name": "Regional Form",
-    "type": "form",
-    "aspectFormat": null
+    "typeId": 1
   },
   {
     "id": 71,
-    "slug": "reversion_state",
     "name": "Reversion State",
-    "type": "form",
-    "aspectFormat": "{{choice}}"
+    "typeId": 1
   },
   {
     "id": 72,
-    "slug": "right_ear_spots",
     "name": "Right Ear Spots",
-    "type": "cosmetic",
-    "aspectFormat": "right-ear-spots-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 73,
-    "slug": "rks_memory",
     "name": "Rks Memory",
-    "type": "form",
-    "aspectFormat": "{{choice}}-memory"
+    "typeId": 1
   },
   {
     "id": 74,
-    "slug": "roaming",
     "name": "Roaming",
-    "type": "form",
-    "aspectFormat": null
+    "typeId": 1
   },
   {
     "id": 75,
-    "slug": "rogue_cape",
     "name": "Rogue Cape",
-    "type": "form",
-    "aspectFormat": "{{choice}}-cape"
+    "typeId": 1
   },
   {
     "id": 76,
-    "slug": "schooling_form",
     "name": "Schooling Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 77,
-    "slug": "sea",
     "name": "Sea",
-    "type": "form",
-    "aspectFormat": "{{choice}}-sea"
+    "typeId": 1
   },
   {
     "id": 78,
-    "slug": "season",
     "name": "Season",
-    "type": "form",
-    "aspectFormat": "{{choice}}"
+    "typeId": 1
   },
   {
     "id": 79,
-    "slug": "snake_pattern",
     "name": "Snake Pattern",
-    "type": "cosmetic",
-    "aspectFormat": "snake-pattern-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 80,
-    "slug": "song_forme",
     "name": "Song Forme",
-    "type": "form",
-    "aspectFormat": "{{choice}}-forme"
+    "typeId": 1
   },
   {
     "id": 81,
-    "slug": "special_spots",
     "name": "Special Spots",
-    "type": "cosmetic",
-    "aspectFormat": "special-spots-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 82,
-    "slug": "squawkabilly_color",
     "name": "Squawkabilly Color",
-    "type": "form",
-    "aspectFormat": "squawkabilly-color-{{choice}}"
+    "typeId": 1
   },
   {
     "id": 83,
-    "slug": "stance_forme",
     "name": "Stance Forme",
-    "type": "form",
-    "aspectFormat": "{{choice}}-forme"
+    "typeId": 1
   },
   {
     "id": 84,
-    "slug": "sword_form",
     "name": "Sword Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 85,
-    "slug": "tatsugiri_texture",
     "name": "Tatsugiri Texture",
-    "type": "form",
-    "aspectFormat": "tatsugiri-texture-{{choice}}"
+    "typeId": 1
   },
   {
     "id": 86,
-    "slug": "tea_authenticity",
     "name": "Tea Authenticity",
-    "type": "form",
-    "aspectFormat": "{{choice}}"
+    "typeId": 1
   },
   {
     "id": 87,
-    "slug": "techno_drive",
     "name": "Techno Drive",
-    "type": "cosmetic",
-    "aspectFormat": "{{choice}}-drive"
+    "typeId": 2
   },
   {
     "id": 88,
-    "slug": "tera_form",
     "name": "Tera Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 89,
-    "slug": "tree",
     "name": "Tree",
-    "type": "cosmetic",
-    "aspectFormat": "tree-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 90,
-    "slug": "valencian",
     "name": "Valencian",
-    "type": "cosmetic",
-    "aspectFormat": null
+    "typeId": 2
   },
   {
     "id": 91,
-    "slug": "vivillon_wings",
     "name": "Vivillon Wings",
-    "type": "cosmetic",
-    "aspectFormat": "vivillon-wings-{{choice}}"
+    "typeId": 2
   },
   {
     "id": 92,
-    "slug": "vivillon_wings_event",
     "name": "Vivillon Wings (Event)",
-    "type": "form",
-    "aspectFormat": "vivillon-wings-{{choice}}"
+    "typeId": 1
   },
   {
     "id": 93,
-    "slug": "whiscash_nero",
     "name": "Whiscash Nero",
-    "type": "cosmetic",
-    "aspectFormat": null
+    "typeId": 2
   },
   {
     "id": 94,
-    "slug": "wolf_form",
     "name": "Wolf Form",
-    "type": "form",
-    "aspectFormat": "{{choice}}-form"
+    "typeId": 1
   },
   {
     "id": 95,
-    "slug": "wooper_heart",
     "name": "Wooper Heart",
-    "type": "cosmetic",
-    "aspectFormat": null
+    "typeId": 2
   },
   {
     "id": 96,
-    "slug": "wushu_style",
     "name": "Wushu Style",
-    "type": "form",
-    "aspectFormat": "{{choice}}-style"
+    "typeId": 1
   }
 ]

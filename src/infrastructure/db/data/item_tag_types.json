@@ -1,717 +1,574 @@
 [
   {
     "id": 1,
-    "slug": "ability_changers",
     "name": "Ability Changers"
   },
   {
     "id": 2,
-    "slug": "additive_iv_candies",
     "name": "Additive Iv Candies"
   },
   {
     "id": 3,
-    "slug": "ancient_poke_balls",
     "name": "Ancient Poke Balls"
   },
   {
     "id": 4,
-    "slug": "apples",
     "name": "Apples"
   },
   {
     "id": 5,
-    "slug": "apricorn_logs",
     "name": "Apricorn Logs"
   },
   {
     "id": 6,
-    "slug": "apricorn_poke_balls",
     "name": "Apricorn Poke Balls"
   },
   {
     "id": 7,
-    "slug": "apricorn_sprouts",
     "name": "Apricorn Sprouts"
   },
   {
     "id": 8,
-    "slug": "apricorns",
     "name": "Apricorns"
   },
   {
     "id": 9,
-    "slug": "aprijuices",
     "name": "Aprijuices"
   },
   {
     "id": 10,
-    "slug": "azalea_tree",
     "name": "Azalea Tree"
   },
   {
     "id": 11,
-    "slug": "battle_items",
     "name": "Battle Items"
   },
   {
     "id": 12,
-    "slug": "berries",
     "name": "Berries"
   },
   {
     "id": 13,
-    "slug": "berries/colour/blue",
     "name": "Berries > Colour > Blue"
   },
   {
     "id": 14,
-    "slug": "berries/colour/brown",
     "name": "Berries > Colour > Brown"
   },
   {
     "id": 15,
-    "slug": "berries/colour/cyan",
     "name": "Berries > Colour > Cyan"
   },
   {
     "id": 16,
-    "slug": "berries/colour/green",
     "name": "Berries > Colour > Green"
   },
   {
     "id": 17,
-    "slug": "berries/colour/light_blue",
     "name": "Berries > Colour > Light Blue"
   },
   {
     "id": 18,
-    "slug": "berries/colour/lime",
     "name": "Berries > Colour > Lime"
   },
   {
     "id": 19,
-    "slug": "berries/colour/magenta",
     "name": "Berries > Colour > Magenta"
   },
   {
     "id": 20,
-    "slug": "berries/colour/orange",
     "name": "Berries > Colour > Orange"
   },
   {
     "id": 21,
-    "slug": "berries/colour/pink",
     "name": "Berries > Colour > Pink"
   },
   {
     "id": 22,
-    "slug": "berries/colour/purple",
     "name": "Berries > Colour > Purple"
   },
   {
     "id": 23,
-    "slug": "berries/colour/red",
     "name": "Berries > Colour > Red"
   },
   {
     "id": 24,
-    "slug": "berries/colour/white",
     "name": "Berries > Colour > White"
   },
   {
     "id": 25,
-    "slug": "berries/colour/yellow",
     "name": "Berries > Colour > Yellow"
   },
   {
     "id": 26,
-    "slug": "berries/damage_reduction",
     "name": "Berries > Damage Reduction"
   },
   {
     "id": 27,
-    "slug": "berries/damaging",
     "name": "Berries > Damaging"
   },
   {
     "id": 28,
-    "slug": "berries/filling",
     "name": "Berries > Filling"
   },
   {
     "id": 29,
-    "slug": "berries/friendship",
     "name": "Berries > Friendship"
   },
   {
     "id": 30,
-    "slug": "berries/hp_recovery",
     "name": "Berries > Hp Recovery"
   },
   {
     "id": 31,
-    "slug": "berries/mutation_result",
     "name": "Berries > Mutation Result"
   },
   {
     "id": 32,
-    "slug": "berries/nature_recovery",
     "name": "Berries > Nature Recovery"
   },
   {
     "id": 33,
-    "slug": "berries/non_battle",
     "name": "Berries > Non Battle"
   },
   {
     "id": 34,
-    "slug": "berries/pp_recovery",
     "name": "Berries > Pp Recovery"
   },
   {
     "id": 35,
-    "slug": "berries/stat_buff",
     "name": "Berries > Stat Buff"
   },
   {
     "id": 36,
-    "slug": "berries/status_recovery",
     "name": "Berries > Status Recovery"
   },
   {
     "id": 37,
-    "slug": "black_tumblestone_bricks",
     "name": "Black Tumblestone Bricks"
   },
   {
     "id": 38,
-    "slug": "black_tumblestones",
     "name": "Black Tumblestones"
   },
   {
     "id": 39,
-    "slug": "boats",
     "name": "Boats"
   },
   {
     "id": 40,
-    "slug": "campfire_pots",
     "name": "Campfire Pots"
   },
   {
     "id": 41,
-    "slug": "candies",
     "name": "Candies"
   },
   {
     "id": 42,
-    "slug": "chest_boats",
     "name": "Chest Boats"
   },
   {
     "id": 43,
-    "slug": "dawn_stone_ores",
     "name": "Dawn Stone Ores"
   },
   {
     "id": 44,
-    "slug": "decorated_pot_sherds",
     "name": "Decorated Pot Sherds"
   },
   {
     "id": 45,
-    "slug": "deep_seas",
     "name": "Deep Seas"
   },
   {
     "id": 46,
-    "slug": "dusk_stone_ores",
     "name": "Dusk Stone Ores"
   },
   {
     "id": 47,
-    "slug": "empty",
     "name": "Empty"
   },
   {
     "id": 48,
-    "slug": "ethers",
     "name": "Ethers"
   },
   {
     "id": 49,
-    "slug": "evolution_items",
     "name": "Evolution Items"
   },
   {
     "id": 50,
-    "slug": "evolution_stone_blocks",
     "name": "Evolution Stone Blocks"
   },
   {
     "id": 51,
-    "slug": "evolution_stones",
     "name": "Evolution Stones"
   },
   {
     "id": 52,
-    "slug": "experience_candies",
     "name": "Experience Candies"
   },
   {
     "id": 53,
-    "slug": "feathers",
     "name": "Feathers"
   },
   {
     "id": 54,
-    "slug": "fire_stone_ores",
     "name": "Fire Stone Ores"
   },
   {
     "id": 55,
-    "slug": "fossil_machine_parts",
     "name": "Fossil Machine Parts"
   },
   {
     "id": 56,
-    "slug": "fossils",
     "name": "Fossils"
   },
   {
     "id": 57,
-    "slug": "full_heal_bottles",
     "name": "Full Heal Bottles"
   },
   {
     "id": 58,
-    "slug": "full_heal_ingredients",
     "name": "Full Heal Ingredients"
   },
   {
     "id": 59,
-    "slug": "gilded_chests",
     "name": "Gilded Chests"
   },
   {
     "id": 60,
-    "slug": "hanging_signs",
     "name": "Hanging Signs"
   },
   {
     "id": 61,
-    "slug": "held/blacklisted_items_to_hold",
     "name": "Held > Blacklisted Items To Hold"
   },
   {
     "id": 62,
-    "slug": "held/consumed_in_npc_battle",
     "name": "Held > Consumed In Npc Battle"
   },
   {
     "id": 63,
-    "slug": "held/consumed_in_pvp_battle",
     "name": "Held > Consumed In Pvp Battle"
   },
   {
     "id": 64,
-    "slug": "held/consumed_in_wild_battle",
     "name": "Held > Consumed In Wild Battle"
   },
   {
     "id": 65,
-    "slug": "held/container_held_items",
     "name": "Held > Container Held Items"
   },
   {
     "id": 66,
-    "slug": "held/destiny_knot",
     "name": "Held > Destiny Knot"
   },
   {
     "id": 67,
-    "slug": "held/everstone",
     "name": "Held > Everstone"
   },
   {
     "id": 68,
-    "slug": "held/experience_share",
     "name": "Held > Experience Share"
   },
   {
     "id": 69,
-    "slug": "held/is_friendship_booster",
     "name": "Held > Is Friendship Booster"
   },
   {
     "id": 70,
-    "slug": "held/is_held_item",
     "name": "Held > Is Held Item"
   },
   {
     "id": 71,
-    "slug": "held/leaves_leftovers",
     "name": "Held > Leaves Leftovers"
   },
   {
     "id": 72,
-    "slug": "held/lucky_egg",
     "name": "Held > Lucky Egg"
   },
   {
     "id": 73,
-    "slug": "held/power_anklet",
     "name": "Held > Power Anklet"
   },
   {
     "id": 74,
-    "slug": "held/power_band",
     "name": "Held > Power Band"
   },
   {
     "id": 75,
-    "slug": "held/power_belt",
     "name": "Held > Power Belt"
   },
   {
     "id": 76,
-    "slug": "held/power_bracer",
     "name": "Held > Power Bracer"
   },
   {
     "id": 77,
-    "slug": "held/power_lens",
     "name": "Held > Power Lens"
   },
   {
     "id": 78,
-    "slug": "held/power_weight",
     "name": "Held > Power Weight"
   },
   {
     "id": 79,
-    "slug": "held/terrain_seeds",
     "name": "Held > Terrain Seeds"
   },
   {
     "id": 80,
-    "slug": "held/visibility/face",
     "name": "Held > Visibility > Face"
   },
   {
     "id": 81,
-    "slug": "held/visibility/hat",
     "name": "Held > Visibility > Hat"
   },
   {
     "id": 82,
-    "slug": "held/visibility/hidden",
     "name": "Held > Visibility > Hidden"
   },
   {
     "id": 83,
-    "slug": "held/whitelisted_items_to_hold",
     "name": "Held > Whitelisted Items To Hold"
   },
   {
     "id": 84,
-    "slug": "herbs",
     "name": "Herbs"
   },
   {
     "id": 85,
-    "slug": "ice_stone_ores",
     "name": "Ice Stone Ores"
   },
   {
     "id": 86,
-    "slug": "iv_candies",
     "name": "Iv Candies"
   },
   {
     "id": 87,
-    "slug": "leaf_stone_ores",
     "name": "Leaf Stone Ores"
   },
   {
     "id": 88,
-    "slug": "machines",
     "name": "Machines"
   },
   {
     "id": 89,
-    "slug": "mint_leaves",
     "name": "Mint Leaves"
   },
   {
     "id": 90,
-    "slug": "mint_seeds",
     "name": "Mint Seeds"
   },
   {
     "id": 91,
-    "slug": "mints",
     "name": "Mints"
   },
   {
     "id": 92,
-    "slug": "mochis",
     "name": "Mochis"
   },
   {
     "id": 93,
-    "slug": "moon_stone_ores",
     "name": "Moon Stone Ores"
   },
   {
     "id": 94,
-    "slug": "plants",
     "name": "Plants"
   },
   {
     "id": 95,
-    "slug": "poke_balls",
     "name": "Poke Balls"
   },
   {
     "id": 96,
-    "slug": "poke_food",
     "name": "Poke Food"
   },
   {
     "id": 97,
-    "slug": "poke_rods",
     "name": "Poke Rods"
   },
   {
     "id": 98,
-    "slug": "pokedex",
     "name": "Pokedex"
   },
   {
     "id": 99,
-    "slug": "pokedex_screen",
     "name": "Pokedex Screen"
   },
   {
     "id": 100,
-    "slug": "potions",
     "name": "Potions"
   },
   {
     "id": 101,
-    "slug": "recipe_filters/bait_seasoning",
     "name": "Recipe Filters > Bait Seasoning"
   },
   {
     "id": 102,
-    "slug": "recipe_filters/colour_seasoning",
     "name": "Recipe Filters > Colour Seasoning"
   },
   {
     "id": 103,
-    "slug": "recipe_filters/effect_seasoning",
     "name": "Recipe Filters > Effect Seasoning"
   },
   {
     "id": 104,
-    "slug": "recipe_filters/flavour_seasoning",
     "name": "Recipe Filters > Flavour Seasoning"
   },
   {
     "id": 105,
-    "slug": "recipe_filters/nutrition_seasoning",
     "name": "Recipe Filters > Nutrition Seasoning"
   },
   {
     "id": 106,
-    "slug": "recipe_filters/poke_puff_seasoning",
     "name": "Recipe Filters > Poke Puff Seasoning"
   },
   {
     "id": 107,
-    "slug": "recipe_filters/tea_seasoning",
     "name": "Recipe Filters > Tea Seasoning"
   },
   {
     "id": 108,
-    "slug": "red_tumblestone_bricks",
     "name": "Red Tumblestone Bricks"
   },
   {
     "id": 109,
-    "slug": "red_tumblestones",
     "name": "Red Tumblestones"
   },
   {
     "id": 110,
-    "slug": "regional_delicacies",
     "name": "Regional Delicacies"
   },
   {
     "id": 111,
-    "slug": "remedies",
     "name": "Remedies"
   },
   {
     "id": 112,
-    "slug": "remedy_berries",
     "name": "Remedy Berries"
   },
   {
     "id": 113,
-    "slug": "restores",
     "name": "Restores"
   },
   {
     "id": 114,
-    "slug": "revives",
     "name": "Revives"
   },
   {
     "id": 115,
-    "slug": "saccharine_logs",
     "name": "Saccharine Logs"
   },
   {
     "id": 116,
-    "slug": "sandwich_veggies",
     "name": "Sandwich Veggies"
   },
   {
     "id": 117,
-    "slug": "seeds",
     "name": "Seeds"
   },
   {
     "id": 118,
-    "slug": "shiny_stone_ores",
     "name": "Shiny Stone Ores"
   },
   {
     "id": 119,
-    "slug": "signs",
     "name": "Signs"
   },
   {
     "id": 120,
-    "slug": "sky_tumblestone_bricks",
     "name": "Sky Tumblestone Bricks"
   },
   {
     "id": 121,
-    "slug": "sky_tumblestones",
     "name": "Sky Tumblestones"
   },
   {
     "id": 122,
-    "slug": "small_flowers",
     "name": "Small Flowers"
   },
   {
     "id": 123,
-    "slug": "subtractive_iv_candies",
     "name": "Subtractive Iv Candies"
   },
   {
     "id": 124,
-    "slug": "sun_stone_ores",
     "name": "Sun Stone Ores"
   },
   {
     "id": 125,
-    "slug": "super_potion_ingredients",
     "name": "Super Potion Ingredients"
   },
   {
     "id": 126,
-    "slug": "sweets",
     "name": "Sweets"
   },
   {
     "id": 127,
-    "slug": "teacups",
     "name": "Teacups"
   },
   {
     "id": 128,
-    "slug": "teapots",
     "name": "Teapots"
   },
   {
     "id": 129,
-    "slug": "thunder_stone_ores",
     "name": "Thunder Stone Ores"
   },
   {
     "id": 130,
-    "slug": "tier_1_poke_ball_materials",
     "name": "Tier 1 Poke Ball Materials"
   },
   {
     "id": 131,
-    "slug": "tier_1_poke_balls",
     "name": "Tier 1 Poke Balls"
   },
   {
     "id": 132,
-    "slug": "tier_2_poke_ball_materials",
     "name": "Tier 2 Poke Ball Materials"
   },
   {
     "id": 133,
-    "slug": "tier_2_poke_balls",
     "name": "Tier 2 Poke Balls"
   },
   {
     "id": 134,
-    "slug": "tier_3_poke_ball_materials",
     "name": "Tier 3 Poke Ball Materials"
   },
   {
     "id": 135,
-    "slug": "tier_3_poke_balls",
     "name": "Tier 3 Poke Balls"
   },
   {
     "id": 136,
-    "slug": "tier_4_poke_ball_materials",
     "name": "Tier 4 Poke Ball Materials"
   },
   {
     "id": 137,
-    "slug": "tier_4_poke_balls",
     "name": "Tier 4 Poke Balls"
   },
   {
     "id": 138,
-    "slug": "tier_5_poke_balls",
     "name": "Tier 5 Poke Balls"
   },
   {
     "id": 139,
-    "slug": "tumblestone_bricks",
     "name": "Tumblestone Bricks"
   },
   {
     "id": 140,
-    "slug": "tumblestones",
     "name": "Tumblestones"
   },
   {
     "id": 141,
-    "slug": "type_gems",
     "name": "Type Gems"
   },
   {
     "id": 142,
-    "slug": "vitamins",
     "name": "Vitamins"
   },
   {
     "id": 143,
-    "slug": "water_stone_ores",
     "name": "Water Stone Ores"
   }
 ]

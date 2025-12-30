@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "Ancient City"
+  },
+  {
+    "id": 2,
+    "name": "Derelict"
+  },
+  {
+    "id": 3,
+    "name": "Desert Pyramid"
+  },
+  {
+    "id": 4,
+    "name": "End City"
+  },
+  {
+    "id": 5,
+    "name": "Foliage"
+  },
+  {
+    "id": 6,
+    "name": "Illager Structures"
+  },
+  {
+    "id": 7,
+    "name": "Jungle Pyramid"
+  },
+  {
+    "id": 8,
+    "name": "Lava"
+  },
+  {
+    "id": 9,
+    "name": "Mansion"
+  },
+  {
+    "id": 10,
+    "name": "Mansion Dining"
+  },
+  {
+    "id": 11,
+    "name": "Natural"
+  },
+  {
+    "id": 12,
+    "name": "Nether Fossil"
+  },
+  {
+    "id": 13,
+    "name": "Nether Structures"
+  },
+  {
+    "id": 14,
+    "name": "Ocean Monument"
+  },
+  {
+    "id": 15,
+    "name": "Ocean Ruins"
+  },
+  {
+    "id": 16,
+    "name": "Pillager Outpost"
+  },
+  {
+    "id": 17,
+    "name": "Redstone"
+  },
+  {
+    "id": 18,
+    "name": "Ruined Portal"
+  },
+  {
+    "id": 19,
+    "name": "Salt"
+  },
+  {
+    "id": 20,
+    "name": "Stronghold"
+  },
+  {
+    "id": 21,
+    "name": "Trail Ruins"
+  },
+  {
+    "id": 22,
+    "name": "Treetop"
+  },
+  {
+    "id": 23,
+    "name": "Urban"
+  },
+  {
+    "id": 24,
+    "name": "Water"
+  },
+  {
+    "id": 25,
+    "name": "Webs"
+  },
+  {
+    "id": 26,
+    "name": "Wild"
+  }
+]

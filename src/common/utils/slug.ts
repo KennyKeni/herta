@@ -34,3 +34,13 @@ export function slugForVariation(variationName: string, gender: string, shiny: b
   );
   return parts.join('-');
 }
+
+export function resourceLocation(namespace: string, name: string): string {
+  const normalizedName = name
+    .toLowerCase()
+    .replace(/[^a-z0-9\s_]/g, '')
+    .replace(/\s+/g, '_')
+    .replace(/_+/g, '_')
+    .replace(/^_+|_+$/g, '');
+  return `${namespace.toLowerCase()}:${normalizedName}`;
+}

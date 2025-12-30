@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "namespaceId": 1,
+    "name": "Is Aether"
+  },
+  {
+    "id": 2,
+    "namespaceId": 8,
+    "name": "Has Block > Mud"
+  },
+  {
+    "id": 3,
+    "namespaceId": 8,
+    "name": "Is Arid"
+  },
+  {
+    "id": 4,
+    "namespaceId": 8,
+    "name": "Is Badlands"
+  },
+  {
+    "id": 5,
+    "namespaceId": 8,
+    "name": "Is Bamboo"
+  },
+  {
+    "id": 6,
+    "namespaceId": 8,
+    "name": "Is Beach"
+  },
+  {
+    "id": 7,
+    "namespaceId": 8,
+    "name": "Is Cherry Blossom"
+  },
+  {
+    "id": 8,
+    "namespaceId": 8,
+    "name": "Is Coast"
+  },
+  {
+    "id": 9,
+    "namespaceId": 8,
+    "name": "Is Cold"
+  },
+  {
+    "id": 10,
+    "namespaceId": 8,
+    "name": "Is Cold Ocean"
+  },
+  {
+    "id": 11,
+    "namespaceId": 8,
+    "name": "Is Deep Dark"
+  },
+  {
+    "id": 12,
+    "namespaceId": 8,
+    "name": "Is Deep Ocean"
+  },
+  {
+    "id": 13,
+    "namespaceId": 8,
+    "name": "Is Desert"
+  },
+  {
+    "id": 14,
+    "namespaceId": 8,
+    "name": "Is Dripstone"
+  },
+  {
+    "id": 15,
+    "namespaceId": 8,
+    "name": "Is End"
+  },
+  {
+    "id": 16,
+    "namespaceId": 8,
+    "name": "Is Floral"
+  },
+  {
+    "id": 17,
+    "namespaceId": 8,
+    "name": "Is Forest"
+  },
+  {
+    "id": 18,
+    "namespaceId": 8,
+    "name": "Is Freezing"
+  },
+  {
+    "id": 19,
+    "namespaceId": 8,
+    "name": "Is Freshwater"
+  },
+  {
+    "id": 20,
+    "namespaceId": 8,
+    "name": "Is Frozen Ocean"
+  },
+  {
+    "id": 21,
+    "namespaceId": 8,
+    "name": "Is Glacial"
+  },
+  {
+    "id": 22,
+    "namespaceId": 8,
+    "name": "Is Grassland"
+  },
+  {
+    "id": 23,
+    "namespaceId": 8,
+    "name": "Is Highlands"
+  },
+  {
+    "id": 24,
+    "namespaceId": 8,
+    "name": "Is Hills"
+  },
+  {
+    "id": 25,
+    "namespaceId": 8,
+    "name": "Is Island"
+  },
+  {
+    "id": 26,
+    "namespaceId": 8,
+    "name": "Is Jungle"
+  },
+  {
+    "id": 27,
+    "namespaceId": 8,
+    "name": "Is Lukewarm Ocean"
+  },
+  {
+    "id": 28,
+    "namespaceId": 8,
+    "name": "Is Lush"
+  },
+  {
+    "id": 29,
+    "namespaceId": 8,
+    "name": "Is Magical"
+  },
+  {
+    "id": 30,
+    "namespaceId": 8,
+    "name": "Is Mountain"
+  },
+  {
+    "id": 31,
+    "namespaceId": 8,
+    "name": "Is Mushroom"
+  },
+  {
+    "id": 32,
+    "namespaceId": 8,
+    "name": "Is Ocean"
+  },
+  {
+    "id": 33,
+    "namespaceId": 8,
+    "name": "Is Overworld"
+  },
+  {
+    "id": 34,
+    "namespaceId": 8,
+    "name": "Is Peak"
+  },
+  {
+    "id": 35,
+    "namespaceId": 8,
+    "name": "Is Plains"
+  },
+  {
+    "id": 36,
+    "namespaceId": 8,
+    "name": "Is Plateau"
+  },
+  {
+    "id": 37,
+    "namespaceId": 8,
+    "name": "Is River"
+  },
+  {
+    "id": 38,
+    "namespaceId": 8,
+    "name": "Is Sandy"
+  },
+  {
+    "id": 39,
+    "namespaceId": 8,
+    "name": "Is Savanna"
+  },
+  {
+    "id": 40,
+    "namespaceId": 8,
+    "name": "Is Shrubland"
+  },
+  {
+    "id": 41,
+    "namespaceId": 8,
+    "name": "Is Sky"
+  },
+  {
+    "id": 42,
+    "namespaceId": 8,
+    "name": "Is Snowy"
+  },
+  {
+    "id": 43,
+    "namespaceId": 8,
+    "name": "Is Snowy Forest"
+  },
+  {
+    "id": 44,
+    "namespaceId": 8,
+    "name": "Is Snowy Taiga"
+  },
+  {
+    "id": 45,
+    "namespaceId": 8,
+    "name": "Is Spooky"
+  },
+  {
+    "id": 46,
+    "namespaceId": 8,
+    "name": "Is Swamp"
+  },
+  {
+    "id": 47,
+    "namespaceId": 8,
+    "name": "Is Taiga"
+  },
+  {
+    "id": 48,
+    "namespaceId": 8,
+    "name": "Is Temperate"
+  },
+  {
+    "id": 49,
+    "namespaceId": 8,
+    "name": "Is Temperate Ocean"
+  },
+  {
+    "id": 50,
+    "namespaceId": 8,
+    "name": "Is Thermal"
+  },
+  {
+    "id": 51,
+    "namespaceId": 8,
+    "name": "Is Tropical Island"
+  },
+  {
+    "id": 52,
+    "namespaceId": 8,
+    "name": "Is Tundra"
+  },
+  {
+    "id": 53,
+    "namespaceId": 8,
+    "name": "Is Volcanic"
+  },
+  {
+    "id": 54,
+    "namespaceId": 8,
+    "name": "Is Warm Ocean"
+  },
+  {
+    "id": 55,
+    "namespaceId": 8,
+    "name": "Nether > Is Basalt"
+  },
+  {
+    "id": 56,
+    "namespaceId": 8,
+    "name": "Nether > Is Crimson"
+  },
+  {
+    "id": 57,
+    "namespaceId": 8,
+    "name": "Nether > Is Desert"
+  },
+  {
+    "id": 58,
+    "namespaceId": 8,
+    "name": "Nether > Is Forest"
+  },
+  {
+    "id": 59,
+    "namespaceId": 8,
+    "name": "Nether > Is Frozen"
+  },
+  {
+    "id": 60,
+    "namespaceId": 8,
+    "name": "Nether > Is Fungus"
+  },
+  {
+    "id": 61,
+    "namespaceId": 8,
+    "name": "Nether > Is Mountain"
+  },
+  {
+    "id": 62,
+    "namespaceId": 8,
+    "name": "Nether > Is Overgrowth"
+  },
+  {
+    "id": 63,
+    "namespaceId": 8,
+    "name": "Nether > Is Quartz"
+  },
+  {
+    "id": 64,
+    "namespaceId": 8,
+    "name": "Nether > Is Soul Fire"
+  },
+  {
+    "id": 65,
+    "namespaceId": 8,
+    "name": "Nether > Is Soul Sand"
+  },
+  {
+    "id": 66,
+    "namespaceId": 8,
+    "name": "Nether > Is Toxic"
+  },
+  {
+    "id": 67,
+    "namespaceId": 8,
+    "name": "Nether > Is Warped"
+  },
+  {
+    "id": 68,
+    "namespaceId": 8,
+    "name": "Nether > Is Wasteland"
+  },
+  {
+    "id": 69,
+    "namespaceId": 14,
+    "name": "Is Nether"
+  },
+  {
+    "id": 70,
+    "namespaceId": 16,
+    "name": "The Bumblezone"
+  }
+]

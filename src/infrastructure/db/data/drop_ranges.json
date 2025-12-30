@@ -1,3529 +1,3529 @@
 [
   {
     "formId": 1,
-    "itemId": "minecraft:melon_seeds",
+    "itemId": 762,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 2,
-    "itemId": "minecraft:melon_seeds",
+    "itemId": 762,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 3,
-    "itemId": "minecraft:melon_seeds",
+    "itemId": 762,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 6,
-    "itemId": "minecraft:blaze_powder",
+    "itemId": 691,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 7,
-    "itemId": "minecraft:blaze_powder",
+    "itemId": 691,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 8,
-    "itemId": "minecraft:blaze_powder",
+    "itemId": 691,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 12,
-    "itemId": "minecraft:turtle_scute",
+    "itemId": 811,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 13,
-    "itemId": "minecraft:turtle_scute",
+    "itemId": 811,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 14,
-    "itemId": "minecraft:turtle_scute",
+    "itemId": 811,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 17,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 18,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 21,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 22,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 25,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 26,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 27,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 29,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 30,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 31,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 32,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 33,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 34,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 50,
-    "itemId": "minecraft:armadillo_scute",
+    "itemId": 682,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 51,
-    "itemId": "minecraft:armadillo_scute",
+    "itemId": 682,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 52,
-    "itemId": "minecraft:armadillo_scute",
+    "itemId": 682,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 53,
-    "itemId": "minecraft:armadillo_scute",
+    "itemId": 682,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 62,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 63,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 63,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 64,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 65,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 65,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 71,
-    "itemId": "minecraft:honey_bottle",
+    "itemId": 745,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 73,
-    "itemId": "minecraft:red_mushroom",
+    "itemId": 791,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 75,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 76,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 77,
-    "itemId": "minecraft:dirt",
+    "itemId": 720,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 78,
-    "itemId": "minecraft:coarse_dirt",
+    "itemId": 712,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 79,
-    "itemId": "minecraft:dirt",
+    "itemId": 720,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 80,
-    "itemId": "minecraft:coarse_dirt",
+    "itemId": 712,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 81,
-    "itemId": "minecraft:gold_nugget",
+    "itemId": 736,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 82,
-    "itemId": "minecraft:gold_nugget",
+    "itemId": 736,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 85,
-    "itemId": "minecraft:gold_nugget",
+    "itemId": 736,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 86,
-    "itemId": "minecraft:gold_nugget",
+    "itemId": 736,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 87,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 88,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 91,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 93,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 98,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 99,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 100,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 109,
-    "itemId": "minecraft:glow_ink_sac",
+    "itemId": 734,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 109,
-    "itemId": "minecraft:ink_sac",
+    "itemId": 747,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 110,
-    "itemId": "minecraft:glow_ink_sac",
+    "itemId": 734,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 110,
-    "itemId": "minecraft:ink_sac",
+    "itemId": 747,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 111,
-    "itemId": "minecraft:gravel",
+    "itemId": 740,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 112,
-    "itemId": "minecraft:raw_copper",
+    "itemId": 789,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 113,
-    "itemId": "minecraft:gravel",
+    "itemId": 740,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 114,
-    "itemId": "minecraft:raw_copper",
+    "itemId": 789,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 115,
-    "itemId": "minecraft:gravel",
+    "itemId": 740,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 116,
-    "itemId": "minecraft:raw_copper",
+    "itemId": 789,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 117,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 118,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 119,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 120,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 121,
-    "itemId": "cobblemon:tasty_tail",
+    "itemId": 615,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 122,
-    "itemId": "cobblemon:galarica_nuts",
+    "itemId": 247,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 122,
-    "itemId": "cobblemon:tasty_tail",
+    "itemId": 615,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 123,
-    "itemId": "cobblemon:tasty_tail",
+    "itemId": 615,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 125,
-    "itemId": "cobblemon:galarica_nuts",
+    "itemId": 247,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 125,
-    "itemId": "cobblemon:tasty_tail",
+    "itemId": 615,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 126,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 127,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 128,
-    "itemId": "cobblemon:medicinal_leek",
+    "itemId": 358,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 128,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 129,
-    "itemId": "cobblemon:medicinal_leek",
+    "itemId": 358,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 129,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 130,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 131,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 132,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 133,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 134,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 136,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 145,
-    "itemId": "minecraft:stone",
+    "itemId": 804,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 151,
-    "itemId": "minecraft:gunpowder",
+    "itemId": 743,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 152,
-    "itemId": "cobblemon:red_apricorn",
+    "itemId": 488,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 152,
-    "itemId": "minecraft:gunpowder",
+    "itemId": 743,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 153,
-    "itemId": "minecraft:gunpowder",
+    "itemId": 743,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 154,
-    "itemId": "cobblemon:red_apricorn",
+    "itemId": 488,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 154,
-    "itemId": "minecraft:gunpowder",
+    "itemId": 743,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 155,
-    "itemId": "minecraft:egg",
+    "itemId": 724,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 157,
-    "itemId": "minecraft:egg",
+    "itemId": 724,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 158,
-    "itemId": "minecraft:egg",
+    "itemId": 724,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 159,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 165,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 173,
-    "itemId": "minecraft:vine",
+    "itemId": 812,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 176,
-    "itemId": "minecraft:ink_sac",
+    "itemId": 747,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 176,
-    "itemId": "minecraft:prismarine_shard",
+    "itemId": 781,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 177,
-    "itemId": "minecraft:ink_sac",
+    "itemId": 747,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 177,
-    "itemId": "minecraft:prismarine_shard",
+    "itemId": 781,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 186,
-    "itemId": "minecraft:redstone",
+    "itemId": 793,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 190,
-    "itemId": "minecraft:beef",
+    "itemId": 688,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 190,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 199,
-    "itemId": "cobblemon:quick_powder",
+    "itemId": 476,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 210,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 212,
-    "itemId": "minecraft:apple",
+    "itemId": 681,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 212,
-    "itemId": "minecraft:apple",
+    "itemId": 681,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 214,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 215,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 216,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 217,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 218,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 219,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 220,
-    "itemId": "minecraft:dragon_breath",
+    "itemId": 721,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 221,
-    "itemId": "minecraft:dragon_breath",
+    "itemId": 721,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 222,
-    "itemId": "minecraft:dragon_breath",
+    "itemId": 721,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 241,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 242,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 245,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 245,
-    "itemId": "minecraft:spider_eye",
+    "itemId": 801,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 245,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 246,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 246,
-    "itemId": "minecraft:spider_eye",
+    "itemId": 801,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 246,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 248,
-    "itemId": "minecraft:prismarine_crystals",
+    "itemId": 780,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 249,
-    "itemId": "minecraft:prismarine_crystals",
+    "itemId": 780,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 256,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 257,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 258,
-    "itemId": "minecraft:mutton",
+    "itemId": 765,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 258,
-    "itemId": "minecraft:white_wool",
+    "itemId": 815,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 259,
-    "itemId": "minecraft:mutton",
+    "itemId": 765,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 260,
-    "itemId": "minecraft:mutton",
+    "itemId": 765,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 269,
-    "itemId": "minecraft:white_wool",
+    "itemId": 815,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 274,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 275,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 276,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 279,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 280,
-    "itemId": "cobblemon:tasty_tail",
+    "itemId": 615,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 281,
-    "itemId": "cobblemon:galarica_nuts",
+    "itemId": 247,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 281,
-    "itemId": "cobblemon:tasty_tail",
+    "itemId": 615,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 283,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 285,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 286,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 287,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 290,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 292,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 293,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 294,
-    "itemId": "minecraft:prismarine_shard",
+    "itemId": 781,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 303,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 304,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 305,
-    "itemId": "minecraft:magma_cream",
+    "itemId": 761,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 306,
-    "itemId": "minecraft:magma_cream",
+    "itemId": 761,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 308,
-    "itemId": "minecraft:brown_wool",
+    "itemId": 701,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 308,
-    "itemId": "minecraft:porkchop",
+    "itemId": 778,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 312,
-    "itemId": "minecraft:ink_sac",
+    "itemId": 747,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 313,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 314,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 316,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 316,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 317,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 317,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 319,
-    "itemId": "minecraft:ink_sac",
+    "itemId": 747,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 319,
-    "itemId": "minecraft:prismarine_shard",
+    "itemId": 781,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 320,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 321,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 323,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 328,
-    "itemId": "minecraft:redstone",
+    "itemId": 793,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 330,
-    "itemId": "minecraft:beef",
+    "itemId": 688,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 330,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 339,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 340,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 342,
-    "itemId": "minecraft:stick",
+    "itemId": 803,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 343,
-    "itemId": "minecraft:stick",
+    "itemId": 803,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 344,
-    "itemId": "minecraft:stick",
+    "itemId": 803,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 346,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 347,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 348,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 350,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 351,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 352,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 354,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 354,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 355,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 355,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 360,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 361,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 363,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 365,
-    "itemId": "minecraft:lily_pad",
+    "itemId": 758,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 366,
-    "itemId": "minecraft:lily_pad",
+    "itemId": 758,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 367,
-    "itemId": "minecraft:lily_pad",
+    "itemId": 758,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 368,
-    "itemId": "minecraft:dark_oak_sapling",
+    "itemId": 716,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 369,
-    "itemId": "minecraft:dark_oak_sapling",
+    "itemId": 716,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 370,
-    "itemId": "minecraft:dark_oak_sapling",
+    "itemId": 716,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 371,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 372,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 373,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 374,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 375,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 376,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 377,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 379,
-    "itemId": "minecraft:honey_bottle",
+    "itemId": 745,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 381,
-    "itemId": "minecraft:brown_mushroom",
+    "itemId": 699,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 382,
-    "itemId": "minecraft:brown_mushroom",
+    "itemId": 699,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 395,
-    "itemId": "minecraft:flint",
+    "itemId": 730,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 398,
-    "itemId": "minecraft:amethyst_shard",
+    "itemId": 680,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 402,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 403,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 404,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 409,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 409,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 410,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 410,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 416,
-    "itemId": "minecraft:rose_bush",
+    "itemId": 794,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 422,
-    "itemId": "minecraft:bone_block",
+    "itemId": 696,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 423,
-    "itemId": "minecraft:bone_block",
+    "itemId": 696,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 427,
-    "itemId": "minecraft:coal",
+    "itemId": 711,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 428,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 428,
-    "itemId": "minecraft:porkchop",
+    "itemId": 778,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 429,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 429,
-    "itemId": "minecraft:porkchop",
+    "itemId": 778,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 430,
-    "itemId": "minecraft:bamboo",
+    "itemId": 685,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 434,
-    "itemId": "minecraft:cactus",
+    "itemId": 702,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 435,
-    "itemId": "minecraft:cactus",
+    "itemId": 702,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 436,
-    "itemId": "minecraft:white_wool",
+    "itemId": 815,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 437,
-    "itemId": "minecraft:white_wool",
+    "itemId": 815,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 443,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 444,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 447,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 448,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 465,
-    "itemId": "cobblemon:nanab_berry",
+    "itemId": 387,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 470,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 471,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 473,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 474,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 475,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 485,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 486,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 487,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 492,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 494,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 500,
-    "itemId": "minecraft:dragon_breath",
+    "itemId": 721,
     "quantityMin": 3,
     "quantityMax": 5
   },
   {
     "formId": 503,
-    "itemId": "minecraft:eye_of_ender",
+    "itemId": 728,
     "quantityMin": 3,
     "quantityMax": 5
   },
   {
     "formId": 508,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 509,
-    "itemId": "minecraft:apple",
+    "itemId": 681,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 513,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 514,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 515,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 516,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 517,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 518,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 519,
-    "itemId": "minecraft:stick",
+    "itemId": 803,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 520,
-    "itemId": "minecraft:stick",
+    "itemId": 803,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 527,
-    "itemId": "minecraft:rose_bush",
+    "itemId": 794,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 528,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 529,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 530,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 531,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 532,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 535,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 539,
-    "itemId": "minecraft:honey_bottle",
+    "itemId": 745,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 539,
-    "itemId": "minecraft:honeycomb",
+    "itemId": 746,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 540,
-    "itemId": "minecraft:honey_bottle",
+    "itemId": 745,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 540,
-    "itemId": "minecraft:honeycomb",
+    "itemId": 746,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 542,
-    "itemId": "minecraft:salmon",
+    "itemId": 796,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 543,
-    "itemId": "minecraft:salmon",
+    "itemId": 796,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 544,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 545,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 547,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 549,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 554,
-    "itemId": "minecraft:rabbit_hide",
+    "itemId": 788,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 555,
-    "itemId": "minecraft:rabbit_hide",
+    "itemId": 788,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 558,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 564,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 565,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 570,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 576,
-    "itemId": "minecraft:apple",
+    "itemId": 681,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 580,
-    "itemId": "minecraft:sand",
+    "itemId": 797,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 581,
-    "itemId": "minecraft:sand",
+    "itemId": 797,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 589,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 590,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 590,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 591,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 591,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 594,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 595,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 597,
-    "itemId": "minecraft:vine",
+    "itemId": 812,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 598,
-    "itemId": "minecraft:redstone",
+    "itemId": 793,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 605,
-    "itemId": "minecraft:brown_wool",
+    "itemId": 701,
     "quantityMin": 2,
     "quantityMax": 3
   },
   {
     "formId": 605,
-    "itemId": "minecraft:porkchop",
+    "itemId": 778,
     "quantityMin": 2,
     "quantityMax": 3
   },
   {
     "formId": 607,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 609,
-    "itemId": "minecraft:flint",
+    "itemId": 730,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 611,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 625,
-    "itemId": "minecraft:blaze_powder",
+    "itemId": 691,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 625,
-    "itemId": "minecraft:magma_cream",
+    "itemId": 761,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 628,
-    "itemId": "minecraft:phantom_membrane",
+    "itemId": 773,
     "quantityMin": 3,
     "quantityMax": 5
   },
   {
     "formId": 632,
-    "itemId": "minecraft:phantom_membrane",
+    "itemId": 773,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 657,
-    "itemId": "minecraft:porkchop",
+    "itemId": 778,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 658,
-    "itemId": "minecraft:porkchop",
+    "itemId": 778,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 659,
-    "itemId": "minecraft:porkchop",
+    "itemId": 778,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 668,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 669,
-    "itemId": "minecraft:blue_wool",
+    "itemId": 694,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 669,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 670,
-    "itemId": "minecraft:blue_wool",
+    "itemId": 694,
     "quantityMin": 2,
     "quantityMax": 3
   },
   {
     "formId": 670,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 671,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 672,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 681,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 682,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 683,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 684,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 685,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 686,
-    "itemId": "minecraft:raw_copper",
+    "itemId": 789,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 687,
-    "itemId": "minecraft:raw_copper",
+    "itemId": 789,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 688,
-    "itemId": "minecraft:raw_copper",
+    "itemId": 789,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 690,
-    "itemId": "minecraft:light_blue_wool",
+    "itemId": 756,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 691,
-    "itemId": "minecraft:dirt",
+    "itemId": 720,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 692,
-    "itemId": "minecraft:dirt",
+    "itemId": 720,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 698,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 699,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 700,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 703,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 704,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 705,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 710,
-    "itemId": "minecraft:white_wool",
+    "itemId": 815,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 727,
-    "itemId": "minecraft:cactus",
+    "itemId": 702,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 728,
-    "itemId": "minecraft:terracotta",
+    "itemId": 810,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 729,
-    "itemId": "minecraft:terracotta",
+    "itemId": 810,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 732,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 736,
-    "itemId": "minecraft:turtle_scute",
+    "itemId": 811,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 737,
-    "itemId": "minecraft:turtle_scute",
+    "itemId": 811,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 738,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 739,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 743,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 745,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 746,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 749,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 750,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 751,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 752,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 753,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 754,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 755,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 756,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 757,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 758,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 759,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 760,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 764,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 771,
-    "itemId": "minecraft:red_mushroom",
+    "itemId": 791,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 772,
-    "itemId": "minecraft:red_mushroom",
+    "itemId": 791,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 773,
-    "itemId": "minecraft:glow_ink_sac",
+    "itemId": 734,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 774,
-    "itemId": "minecraft:glow_ink_sac",
+    "itemId": 734,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 776,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 776,
-    "itemId": "minecraft:spider_eye",
+    "itemId": 801,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 776,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 777,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 777,
-    "itemId": "minecraft:spider_eye",
+    "itemId": 801,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 777,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 778,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 779,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 780,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 781,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 782,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 783,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 784,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 785,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 786,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 787,
-    "itemId": "minecraft:ender_pearl",
+    "itemId": 727,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 788,
-    "itemId": "minecraft:candle",
+    "itemId": 705,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 790,
-    "itemId": "minecraft:candle",
+    "itemId": 705,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 794,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 794,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 795,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 795,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 799,
-    "itemId": "minecraft:mud",
+    "itemId": 764,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 804,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 805,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 808,
-    "itemId": "minecraft:beef",
+    "itemId": 688,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 808,
-    "itemId": "minecraft:brown_wool",
+    "itemId": 701,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 808,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 809,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 811,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 812,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 813,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 813,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 814,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 814,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 816,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 817,
-    "itemId": "minecraft:dragon_breath",
+    "itemId": 721,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 818,
-    "itemId": "minecraft:dragon_breath",
+    "itemId": 721,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 819,
-    "itemId": "minecraft:dragon_breath",
+    "itemId": 721,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 820,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 829,
-    "itemId": "minecraft:dragon_breath",
+    "itemId": 721,
     "quantityMin": 2,
     "quantityMax": 3
   },
   {
     "formId": 830,
-    "itemId": "minecraft:dragon_breath",
+    "itemId": 721,
     "quantityMin": 2,
     "quantityMax": 3
   },
   {
     "formId": 833,
-    "itemId": "minecraft:dragon_breath",
+    "itemId": 721,
     "quantityMin": 2,
     "quantityMax": 3
   },
   {
     "formId": 848,
-    "itemId": "minecraft:blaze_powder",
+    "itemId": 691,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 849,
-    "itemId": "minecraft:blaze_powder",
+    "itemId": 691,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 850,
-    "itemId": "minecraft:blaze_powder",
+    "itemId": 691,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 851,
-    "itemId": "minecraft:pearlescent_froglight",
+    "itemId": 772,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 852,
-    "itemId": "minecraft:pearlescent_froglight",
+    "itemId": 772,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 853,
-    "itemId": "minecraft:pearlescent_froglight",
+    "itemId": 772,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 856,
-    "itemId": "minecraft:rabbit_hide",
+    "itemId": 788,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 857,
-    "itemId": "minecraft:rabbit_hide",
+    "itemId": 788,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 858,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 859,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 860,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 861,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 862,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 866,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 867,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 871,
-    "itemId": "minecraft:poppy",
+    "itemId": 777,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 872,
-    "itemId": "minecraft:mutton",
+    "itemId": 765,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 873,
-    "itemId": "minecraft:mutton",
+    "itemId": 765,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 874,
-    "itemId": "minecraft:bamboo",
+    "itemId": 685,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 875,
-    "itemId": "minecraft:bamboo",
+    "itemId": 685,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 876,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 876,
-    "itemId": "minecraft:white_wool",
+    "itemId": 815,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 880,
-    "itemId": "minecraft:iron_nugget",
+    "itemId": 750,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 881,
-    "itemId": "minecraft:iron_nugget",
+    "itemId": 750,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 882,
-    "itemId": "minecraft:iron_nugget",
+    "itemId": 750,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 886,
-    "itemId": "minecraft:sugar",
+    "itemId": 807,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 887,
-    "itemId": "minecraft:sugar",
+    "itemId": 807,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 888,
-    "itemId": "minecraft:ink_sac",
+    "itemId": 747,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 889,
-    "itemId": "minecraft:ink_sac",
+    "itemId": 747,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 892,
-    "itemId": "minecraft:kelp",
+    "itemId": 753,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 893,
-    "itemId": "minecraft:kelp",
+    "itemId": 753,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 906,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 908,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 909,
-    "itemId": "minecraft:iron_ingot",
+    "itemId": 749,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 909,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 910,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 911,
-    "itemId": "minecraft:iron_ingot",
+    "itemId": 749,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 911,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 913,
-    "itemId": "minecraft:jack_o_lantern",
+    "itemId": 752,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 915,
-    "itemId": "minecraft:pumpkin_seeds",
+    "itemId": 784,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 919,
-    "itemId": "minecraft:pumpkin_seeds",
+    "itemId": 784,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 941,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 943,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 945,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 953,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 954,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 955,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 958,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 959,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 963,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 967,
-    "itemId": "minecraft:honey_bottle",
+    "itemId": 745,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 968,
-    "itemId": "minecraft:honey_bottle",
+    "itemId": 745,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 969,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 969,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 971,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 971,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 976,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 977,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 978,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 978,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 979,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 979,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 984,
-    "itemId": "minecraft:brown_mushroom",
+    "itemId": 699,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 985,
-    "itemId": "minecraft:brown_mushroom",
+    "itemId": 699,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 986,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 987,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 998,
-    "itemId": "minecraft:sand",
+    "itemId": 797,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 999,
-    "itemId": "minecraft:sand",
+    "itemId": 797,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1000,
-    "itemId": "minecraft:slime_ball",
+    "itemId": 799,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1023,
-    "itemId": "minecraft:turtle_scute",
+    "itemId": 811,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1029,
-    "itemId": "minecraft:kelp",
+    "itemId": 753,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1029,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1030,
-    "itemId": "cobblemon:dragon_scale",
+    "itemId": 189,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1031,
-    "itemId": "cobblemon:dragon_scale",
+    "itemId": 189,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1032,
-    "itemId": "cobblemon:dragon_scale",
+    "itemId": 189,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 1040,
-    "itemId": "minecraft:phantom_membrane",
+    "itemId": 773,
     "quantityMin": 3,
     "quantityMax": 5
   },
   {
     "formId": 1041,
-    "itemId": "minecraft:echo_shard",
+    "itemId": 723,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1042,
-    "itemId": "minecraft:echo_shard",
+    "itemId": 723,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1043,
-    "itemId": "minecraft:echo_shard",
+    "itemId": 723,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1044,
-    "itemId": "minecraft:echo_shard",
+    "itemId": 723,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1045,
-    "itemId": "minecraft:echo_shard",
+    "itemId": 723,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1046,
-    "itemId": "minecraft:echo_shard",
+    "itemId": 723,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1047,
-    "itemId": "minecraft:echo_shard",
+    "itemId": 723,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1055,
-    "itemId": "minecraft:echo_shard",
+    "itemId": 723,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 1056,
-    "itemId": "minecraft:echo_shard",
+    "itemId": 723,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1057,
-    "itemId": "minecraft:echo_shard",
+    "itemId": 723,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1058,
-    "itemId": "minecraft:echo_shard",
+    "itemId": 723,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1063,
-    "itemId": "minecraft:stick",
+    "itemId": 803,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1064,
-    "itemId": "minecraft:stick",
+    "itemId": 803,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1065,
-    "itemId": "minecraft:stick",
+    "itemId": 803,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 1067,
-    "itemId": "minecraft:rabbit_hide",
+    "itemId": 788,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1068,
-    "itemId": "minecraft:rabbit_hide",
+    "itemId": 788,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1069,
-    "itemId": "minecraft:rabbit_hide",
+    "itemId": 788,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 1075,
-    "itemId": "cobblemon:oran_berry",
+    "itemId": 403,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1076,
-    "itemId": "cobblemon:oran_berry",
+    "itemId": 403,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1077,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1078,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1079,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 1085,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1086,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 1088,
-    "itemId": "minecraft:white_wool",
+    "itemId": 815,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 1089,
-    "itemId": "minecraft:mutton",
+    "itemId": 765,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 1090,
-    "itemId": "minecraft:mutton",
+    "itemId": 765,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1090,
-    "itemId": "minecraft:white_wool",
+    "itemId": 815,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 1091,
-    "itemId": "minecraft:turtle_scute",
+    "itemId": 811,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1092,
-    "itemId": "minecraft:turtle_scute",
+    "itemId": 811,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1094,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1095,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1096,
-    "itemId": "minecraft:coal",
+    "itemId": 711,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1097,
-    "itemId": "minecraft:coal",
+    "itemId": 711,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1098,
-    "itemId": "minecraft:coal",
+    "itemId": 711,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 1108,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1108,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1121,
-    "itemId": "minecraft:ink_sac",
+    "itemId": 747,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1122,
-    "itemId": "minecraft:ink_sac",
+    "itemId": 747,
     "quantityMin": 2,
     "quantityMax": 4
   },
   {
     "formId": 1138,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1141,
-    "itemId": "minecraft:sugar",
+    "itemId": 807,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1142,
-    "itemId": "minecraft:sugar",
+    "itemId": 807,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1146,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1147,
-    "itemId": "minecraft:snowball",
+    "itemId": 800,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1148,
-    "itemId": "minecraft:stone",
+    "itemId": 804,
     "quantityMin": 2,
     "quantityMax": 2
   },
   {
     "formId": 1149,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1149,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1150,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1150,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1155,
-    "itemId": "minecraft:raw_copper",
+    "itemId": 789,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1156,
-    "itemId": "minecraft:raw_copper",
+    "itemId": 789,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1158,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1158,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1159,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1159,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1160,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1161,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1162,
-    "itemId": "minecraft:iron_ingot",
+    "itemId": 749,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1187,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1188,
-    "itemId": "minecraft:stone_axe",
+    "itemId": 805,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1189,
-    "itemId": "minecraft:sweet_berries",
+    "itemId": 809,
     "quantityMin": 3,
     "quantityMax": 5
   },
   {
     "formId": 1194,
-    "itemId": "minecraft:prismarine_shard",
+    "itemId": 781,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1206,
-    "itemId": "minecraft:porkchop",
+    "itemId": 778,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 1207,
-    "itemId": "minecraft:porkchop",
+    "itemId": 778,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1209,
-    "itemId": "minecraft:spider_eye",
+    "itemId": 801,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1209,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1210,
-    "itemId": "minecraft:spider_eye",
+    "itemId": 801,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1210,
-    "itemId": "minecraft:string",
+    "itemId": 806,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1216,
-    "itemId": "minecraft:wheat_seeds",
+    "itemId": 813,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1217,
-    "itemId": "minecraft:wheat_seeds",
+    "itemId": 813,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1219,
-    "itemId": "minecraft:bread",
+    "itemId": 698,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1220,
-    "itemId": "minecraft:bread",
+    "itemId": 698,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1224,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1228,
-    "itemId": "minecraft:calcite",
+    "itemId": 704,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1229,
-    "itemId": "minecraft:calcite",
+    "itemId": 704,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1230,
-    "itemId": "minecraft:calcite",
+    "itemId": 704,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 1231,
-    "itemId": "minecraft:charcoal",
+    "itemId": 707,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1232,
-    "itemId": "minecraft:charcoal",
+    "itemId": 707,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1233,
-    "itemId": "minecraft:charcoal",
+    "itemId": 707,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1236,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1237,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1238,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1238,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1239,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1239,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1242,
-    "itemId": "minecraft:dead_bush",
+    "itemId": 717,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1242,
-    "itemId": "minecraft:stick",
+    "itemId": 803,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1243,
-    "itemId": "minecraft:dead_bush",
+    "itemId": 717,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1243,
-    "itemId": "minecraft:stick",
+    "itemId": 803,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1244,
-    "itemId": "minecraft:brown_mushroom",
+    "itemId": 699,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1245,
-    "itemId": "minecraft:brown_mushroom",
+    "itemId": 699,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1247,
-    "itemId": "cobblemon:roasted_leek",
+    "itemId": 509,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1248,
-    "itemId": "cobblemon:roasted_leek",
+    "itemId": 509,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1253,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1254,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1255,
-    "itemId": "minecraft:raw_iron",
+    "itemId": 790,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 1258,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1259,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1260,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1262,
-    "itemId": "minecraft:iron_nugget",
+    "itemId": 750,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1263,
-    "itemId": "minecraft:iron_nugget",
+    "itemId": 750,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1265,
-    "itemId": "minecraft:iron_nugget",
+    "itemId": 750,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1266,
-    "itemId": "minecraft:amethyst_shard",
+    "itemId": 680,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1267,
-    "itemId": "minecraft:amethyst_shard",
+    "itemId": 680,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1268,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 1,
     "quantityMax": 2
   },
   {
     "formId": 1268,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1269,
-    "itemId": "minecraft:bone",
+    "itemId": 695,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1269,
-    "itemId": "minecraft:rotten_flesh",
+    "itemId": 795,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1270,
-    "itemId": "minecraft:feather",
+    "itemId": 729,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1271,
-    "itemId": "minecraft:bone_block",
+    "itemId": 696,
     "quantityMin": 0,
     "quantityMax": 1
   },
   {
     "formId": 1272,
-    "itemId": "minecraft:bone_block",
+    "itemId": 696,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1273,
-    "itemId": "minecraft:cod",
+    "itemId": 713,
     "quantityMin": 1,
     "quantityMax": 3
   },
   {
     "formId": 1279,
-    "itemId": "minecraft:clay_ball",
+    "itemId": 710,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1280,
-    "itemId": "minecraft:leather",
+    "itemId": 754,
     "quantityMin": 0,
     "quantityMax": 2
   },
   {
     "formId": 1287,
-    "itemId": "minecraft:phantom_membrane",
+    "itemId": 773,
     "quantityMin": 0,
     "quantityMax": 3
   },
   {
     "formId": 1299,
-    "itemId": "cobblemon:relic_coin",
+    "itemId": 494,
     "quantityMin": 24,
     "quantityMax": 48
   },
   {
     "formId": 1301,
-    "itemId": "cobblemon:relic_coin",
+    "itemId": 494,
     "quantityMin": 24,
     "quantityMax": 48
   }

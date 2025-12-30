@@ -13,7 +13,11 @@
 import { Elysia } from 'elysia';
 import { agentSetup } from '@/infrastructure/setup';
 import {
+  AgentAbilityQuerySchema,
+  AgentAbilityResponseSchema,
   AgentArticleResponseSchema,
+  AgentMoveQuerySchema,
+  AgentMoveResponseSchema,
   AgentPokemonQuerySchema,
   AgentPokemonResponseSchema,
 } from './model';
@@ -47,10 +51,39 @@ export const agent = new Elysia({ prefix: '/agent', tags: ['agent'] })
         description: 'Get an article by its identifier.',
       },
     }
+  )
+  .get(
+    '/abilities',
+    async ({ agentService, query }) => {
+      return agentService.searchAbilities(query);
+    },
+    {
+      query: AgentAbilityQuerySchema,
+      response: AgentAbilityResponseSchema,
+      detail: {
+        summary: 'Search Abilities',
+        description:
+          'Search abilities with fuzzy name matching. Optimized for AI agents with minimal default response.',
+      },
+    }
+  )
+  .get(
+    '/moves',
+    async ({ agentService, query }) => {
+      return agentService.searchMoves(query);
+    },
+    {
+      query: AgentMoveQuerySchema,
+      response: AgentMoveResponseSchema,
+      detail: {
+        summary: 'Search Moves',
+        description:
+          'Search moves with fuzzy name matching and type/category filters. Optimized for AI agents with minimal default response.',
+      },
+    }
   );
 
 /**
- * TODO:
  * Endpoints:
  * Prefix: /agents
  * /pokemon

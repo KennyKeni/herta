@@ -1,12 +1,21 @@
+import type { AbilityFilter } from '../abilities/domain';
 import type { AbilitiesRepository } from '../abilities/repository';
 import type { Article } from '../article/domain';
 import type { ArticleRepository } from '../article/repository';
+import type { MoveFilter } from '../moves/domain';
 import type { MovesRepository } from '../moves/repository';
 import type { PokemonFilter } from '../pokemon/domain';
 import type { PokemonRepository } from '../pokemon/repository';
 import type { TypesRepository } from '../types/repository';
-import { mapIncludeFlags, toResponse } from './mapper';
-import type { AgentPokemonQuery, AgentPokemonResponse } from './model';
+import { mapIncludeFlags, toAbilityResponse, toMoveResponse, toResponse } from './mapper';
+import type {
+  AgentAbilityQuery,
+  AgentAbilityResponse,
+  AgentMoveQuery,
+  AgentMoveResponse,
+  AgentPokemonQuery,
+  AgentPokemonResponse,
+} from './model';
 
 export class AgentService {
   constructor(
@@ -49,5 +58,42 @@ export class AgentService {
 
   async getArticle(identifier: string): Promise<Article | null> {
     return this.articleRepository.getByIdentifier(identifier);
+  }
+
+  async searchAbilities(query: AgentAbilityQuery): Promise<AgentAbilityResponse> {
+    const abilityIds = query.names ? await this.abilitiesRepository.fuzzyResolve(query.names) : [];
+
+    const filter: AbilityFilter = {
+      abilityIds: abilityIds.length ? abilityIds : undefined,
+      includeFlags: query.includeFlags,
+      limit: query.limit,
+      offset: query.offset,
+    };
+
+    const results = await this.abilitiesRepository.searchAbilities(filter);
+    return toAbilityResponse(results, query, results.length);
+  }
+
+  async searchMoves(query: AgentMoveQuery): Promise<AgentMoveResponse> {
+    const [moveIds, typeIds, categoryIds] = await Promise.all([
+      query.names ? this.movesRepository.fuzzyResolve(query.names) : [],
+      query.types ? this.typesRepository.fuzzyResolve(query.types) : [],
+      query.categories ? this.movesRepository.fuzzyResolveCategories(query.categories) : [],
+    ]);
+
+    const filter: MoveFilter = {
+      moveIds: moveIds.length ? moveIds : undefined,
+      typeIds: typeIds.length ? typeIds : undefined,
+      categoryIds: categoryIds.length ? categoryIds : undefined,
+      includeFlags: query.includeFlags,
+      includeBoosts: query.includeBoosts,
+      includeEffects: query.includeEffects,
+      includeZData: query.includeZData,
+      limit: query.limit,
+      offset: query.offset,
+    };
+
+    const results = await this.movesRepository.searchMoves(filter);
+    return toMoveResponse(results, query, results.length);
   }
 }

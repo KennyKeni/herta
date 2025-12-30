@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "name": "Full Moon"
+  },
+  {
+    "id": 1,
+    "name": "Waning Gibbous"
+  },
+  {
+    "id": 2,
+    "name": "Third Quarter"
+  },
+  {
+    "id": 3,
+    "name": "Waning Crescent"
+  },
+  {
+    "id": 4,
+    "name": "New Moon"
+  },
+  {
+    "id": 5,
+    "name": "Waxing Crescent"
+  },
+  {
+    "id": 6,
+    "name": "First Quarter"
+  },
+  {
+    "id": 7,
+    "name": "Waxing Gibbous"
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "namespaceId": 8,
+    "name": "Apricorn Logs"
+  },
+  {
+    "id": 2,
+    "namespaceId": 8,
+    "name": "Apricorns"
+  },
+  {
+    "id": 3,
+    "namespaceId": 8,
+    "name": "Berries"
+  },
+  {
+    "id": 4,
+    "namespaceId": 8,
+    "name": "Pokedex Screen"
+  },
+  {
+    "id": 5,
+    "namespaceId": 8,
+    "name": "Remedy Berries"
+  },
+  {
+    "id": 6,
+    "namespaceId": 8,
+    "name": "Saccharine Logs"
+  },
+  {
+    "id": 7,
+    "namespaceId": 8,
+    "name": "Tier 1 Poke Ball Materials"
+  },
+  {
+    "id": 8,
+    "namespaceId": 8,
+    "name": "Tier 2 Poke Ball Materials"
+  },
+  {
+    "id": 9,
+    "namespaceId": 8,
+    "name": "Tier 3 Poke Ball Materials"
+  },
+  {
+    "id": 10,
+    "namespaceId": 8,
+    "name": "Tier 4 Poke Ball Materials"
+  },
+  {
+    "id": 11,
+    "namespaceId": 9,
+    "name": "Bricks > Normal"
+  },
+  {
+    "id": 12,
+    "namespaceId": 9,
+    "name": "Buckets > Empty"
+  },
+  {
+    "id": 13,
+    "namespaceId": 9,
+    "name": "Chests > Wooden"
+  },
+  {
+    "id": 14,
+    "namespaceId": 9,
+    "name": "Concretes"
+  },
+  {
+    "id": 15,
+    "namespaceId": 9,
+    "name": "Crops > Wheat"
+  },
+  {
+    "id": 16,
+    "namespaceId": 9,
+    "name": "Dusts > Redstone"
+  },
+  {
+    "id": 17,
+    "namespaceId": 9,
+    "name": "Dyes > Red"
+  },
+  {
+    "id": 18,
+    "namespaceId": 9,
+    "name": "Fertilizers"
+  },
+  {
+    "id": 19,
+    "namespaceId": 9,
+    "name": "Gems > Amethyst"
+  },
+  {
+    "id": 20,
+    "namespaceId": 9,
+    "name": "Gems > Diamond"
+  },
+  {
+    "id": 21,
+    "namespaceId": 9,
+    "name": "Gems > Lapis"
+  },
+  {
+    "id": 22,
+    "namespaceId": 9,
+    "name": "Gems > Prismarine"
+  },
+  {
+    "id": 23,
+    "namespaceId": 9,
+    "name": "Gems > Quartz"
+  },
+  {
+    "id": 24,
+    "namespaceId": 9,
+    "name": "Ingots > Copper"
+  },
+  {
+    "id": 25,
+    "namespaceId": 9,
+    "name": "Ingots > Gold"
+  },
+  {
+    "id": 26,
+    "namespaceId": 9,
+    "name": "Ingots > Iron"
+  },
+  {
+    "id": 27,
+    "namespaceId": 9,
+    "name": "Ingots > Netherite"
+  },
+  {
+    "id": 28,
+    "namespaceId": 9,
+    "name": "Leathers"
+  },
+  {
+    "id": 29,
+    "namespaceId": 9,
+    "name": "Nuggets > Gold"
+  },
+  {
+    "id": 30,
+    "namespaceId": 9,
+    "name": "Nuggets > Iron"
+  },
+  {
+    "id": 31,
+    "namespaceId": 9,
+    "name": "Raw Materials > Gold"
+  },
+  {
+    "id": 32,
+    "namespaceId": 9,
+    "name": "Rods > Blaze"
+  },
+  {
+    "id": 33,
+    "namespaceId": 9,
+    "name": "Rods > Wooden"
+  },
+  {
+    "id": 34,
+    "namespaceId": 9,
+    "name": "Seeds"
+  },
+  {
+    "id": 35,
+    "namespaceId": 9,
+    "name": "Slime Balls"
+  },
+  {
+    "id": 36,
+    "namespaceId": 9,
+    "name": "Storage Blocks > Iron"
+  },
+  {
+    "id": 37,
+    "namespaceId": 9,
+    "name": "Strings"
+  },
+  {
+    "id": 38,
+    "namespaceId": 9,
+    "name": "Tools > Shield"
+  },
+  {
+    "id": 39,
+    "namespaceId": 14,
+    "name": "Buttons"
+  },
+  {
+    "id": 40,
+    "namespaceId": 14,
+    "name": "Enchantable > Fishing"
+  },
+  {
+    "id": 41,
+    "namespaceId": 14,
+    "name": "Planks"
+  },
+  {
+    "id": 42,
+    "namespaceId": 14,
+    "name": "Trim Materials"
+  },
+  {
+    "id": 43,
+    "namespaceId": 14,
+    "name": "Trimmable Armor"
+  },
+  {
+    "id": 44,
+    "namespaceId": 14,
+    "name": "Wooden Slabs"
+  },
+  {
+    "id": 45,
+    "namespaceId": 14,
+    "name": "Wool"
+  }
+]

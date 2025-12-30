@@ -1,0 +1,362 @@
+[
+  {
+    "conditionId": 142,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 147,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 1934,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 1938,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2730,
+    "moonPhaseId": 1
+  },
+  {
+    "conditionId": 2730,
+    "moonPhaseId": 2
+  },
+  {
+    "conditionId": 2730,
+    "moonPhaseId": 3
+  },
+  {
+    "conditionId": 2731,
+    "moonPhaseId": 5
+  },
+  {
+    "conditionId": 2731,
+    "moonPhaseId": 6
+  },
+  {
+    "conditionId": 2731,
+    "moonPhaseId": 7
+  },
+  {
+    "conditionId": 2732,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2732,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2733,
+    "moonPhaseId": 1
+  },
+  {
+    "conditionId": 2733,
+    "moonPhaseId": 2
+  },
+  {
+    "conditionId": 2733,
+    "moonPhaseId": 3
+  },
+  {
+    "conditionId": 2734,
+    "moonPhaseId": 5
+  },
+  {
+    "conditionId": 2734,
+    "moonPhaseId": 6
+  },
+  {
+    "conditionId": 2734,
+    "moonPhaseId": 7
+  },
+  {
+    "conditionId": 2735,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2735,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2736,
+    "moonPhaseId": 5
+  },
+  {
+    "conditionId": 2736,
+    "moonPhaseId": 6
+  },
+  {
+    "conditionId": 2736,
+    "moonPhaseId": 7
+  },
+  {
+    "conditionId": 2737,
+    "moonPhaseId": 1
+  },
+  {
+    "conditionId": 2737,
+    "moonPhaseId": 2
+  },
+  {
+    "conditionId": 2737,
+    "moonPhaseId": 3
+  },
+  {
+    "conditionId": 2738,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2738,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2739,
+    "moonPhaseId": 5
+  },
+  {
+    "conditionId": 2739,
+    "moonPhaseId": 6
+  },
+  {
+    "conditionId": 2739,
+    "moonPhaseId": 7
+  },
+  {
+    "conditionId": 2740,
+    "moonPhaseId": 1
+  },
+  {
+    "conditionId": 2740,
+    "moonPhaseId": 2
+  },
+  {
+    "conditionId": 2740,
+    "moonPhaseId": 3
+  },
+  {
+    "conditionId": 2741,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2741,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2742,
+    "moonPhaseId": 1
+  },
+  {
+    "conditionId": 2742,
+    "moonPhaseId": 2
+  },
+  {
+    "conditionId": 2742,
+    "moonPhaseId": 3
+  },
+  {
+    "conditionId": 2743,
+    "moonPhaseId": 5
+  },
+  {
+    "conditionId": 2743,
+    "moonPhaseId": 6
+  },
+  {
+    "conditionId": 2743,
+    "moonPhaseId": 7
+  },
+  {
+    "conditionId": 2744,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2744,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2745,
+    "moonPhaseId": 1
+  },
+  {
+    "conditionId": 2745,
+    "moonPhaseId": 2
+  },
+  {
+    "conditionId": 2745,
+    "moonPhaseId": 3
+  },
+  {
+    "conditionId": 2746,
+    "moonPhaseId": 5
+  },
+  {
+    "conditionId": 2746,
+    "moonPhaseId": 6
+  },
+  {
+    "conditionId": 2746,
+    "moonPhaseId": 7
+  },
+  {
+    "conditionId": 2747,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2747,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2748,
+    "moonPhaseId": 5
+  },
+  {
+    "conditionId": 2748,
+    "moonPhaseId": 6
+  },
+  {
+    "conditionId": 2748,
+    "moonPhaseId": 7
+  },
+  {
+    "conditionId": 2749,
+    "moonPhaseId": 1
+  },
+  {
+    "conditionId": 2749,
+    "moonPhaseId": 2
+  },
+  {
+    "conditionId": 2749,
+    "moonPhaseId": 3
+  },
+  {
+    "conditionId": 2750,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2750,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2751,
+    "moonPhaseId": 5
+  },
+  {
+    "conditionId": 2751,
+    "moonPhaseId": 6
+  },
+  {
+    "conditionId": 2751,
+    "moonPhaseId": 7
+  },
+  {
+    "conditionId": 2752,
+    "moonPhaseId": 1
+  },
+  {
+    "conditionId": 2752,
+    "moonPhaseId": 2
+  },
+  {
+    "conditionId": 2752,
+    "moonPhaseId": 3
+  },
+  {
+    "conditionId": 2753,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2753,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2754,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2754,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2755,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2755,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2756,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2756,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2757,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2757,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2815,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2817,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2821,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2823,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 2905,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 2914,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 4097,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 4097,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 4098,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 4098,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 4099,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 4099,
+    "moonPhaseId": 4
+  },
+  {
+    "conditionId": 4100,
+    "moonPhaseId": 0
+  },
+  {
+    "conditionId": 4100,
+    "moonPhaseId": 4
+  }
+]

@@ -17,6 +17,7 @@ export async function up(db: Kysely<any>): Promise<void> {
   await db.schema
     .createTable('move_categories')
     .addColumn('id', 'integer', (col) => col.primaryKey())
+    .addColumn('slug', 'text', (col) => col.notNull().unique())
     .addColumn('name', 'text', (col) => col.notNull())
     .addColumn('description', 'text')
     .execute();
@@ -83,6 +84,11 @@ export async function up(db: Kysely<any>): Promise<void> {
     .execute();
 
   await db.schema.createIndex('idx_types_slug').on('types').column('slug').execute();
+  await db.schema
+    .createIndex('idx_move_categories_slug')
+    .on('move_categories')
+    .column('slug')
+    .execute();
   await db.schema.createIndex('idx_move_targets_slug').on('move_targets').column('slug').execute();
   await db.schema
     .createIndex('idx_ability_flag_types_slug')

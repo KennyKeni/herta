@@ -124,6 +124,7 @@ export const baseReferenceSeeder: Seeder = {
       const data = await loadJson<MoveCategoryJson[]>('move_categories.json');
       const rows = data.map((c) => ({
         id: c.num,
+        slug: slugForPokemon(c.name),
         name: c.name,
         description: c.description,
       }));

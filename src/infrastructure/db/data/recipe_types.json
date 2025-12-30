@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Blasting"
+  },
+  {
+    "id": 2,
+    "name": "Campfire Cooking"
+  },
+  {
+    "id": 3,
+    "name": "Crafting Shaped"
+  },
+  {
+    "id": 4,
+    "name": "Crafting Shapeless"
+  },
+  {
+    "id": 5,
+    "name": "Smelting"
+  },
+  {
+    "id": 6,
+    "name": "Smithing Transform"
+  },
+  {
+    "id": 7,
+    "name": "Smithing Trim"
+  },
+  {
+    "id": 8,
+    "name": "Smoking"
+  },
+  {
+    "id": 9,
+    "name": "Stonecutting"
+  }
+]

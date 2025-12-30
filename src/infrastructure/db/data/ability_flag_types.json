@@ -1,49 +1,41 @@
 [
   {
     "id": 1,
-    "slug": "breakable",
     "name": "Breakable",
     "description": "Can be suppressed by Mold Breaker and similar abilities."
   },
   {
     "id": 2,
-    "slug": "cantsuppress",
     "name": "Cannot Suppress",
     "description": "Cannot be suppressed by any means."
   },
   {
     "id": 3,
-    "slug": "failroleplay",
     "name": "Fails Role Play",
     "description": "Cannot be copied by Role Play."
   },
   {
     "id": 4,
-    "slug": "failskillswap",
     "name": "Fails Skill Swap",
     "description": "Cannot be swapped with Skill Swap."
   },
   {
     "id": 5,
-    "slug": "noentrain",
     "name": "No Entrainment",
     "description": "Cannot be given to another Pokemon via Entrainment."
   },
   {
     "id": 6,
-    "slug": "noreceiver",
     "name": "No Receiver",
     "description": "Cannot be received by Receiver ability."
   },
   {
     "id": 7,
-    "slug": "notrace",
     "name": "No Trace",
     "description": "Cannot be copied by Trace."
   },
   {
     "id": 8,
-    "slug": "notransform",
     "name": "No Transform",
     "description": "Not copied when a Pokemon transforms."
   }

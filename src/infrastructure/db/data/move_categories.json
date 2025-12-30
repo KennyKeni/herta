@@ -1,20 +1,17 @@
 [
   {
-    "id": "physical",
+    "id": 1,
     "name": "Physical",
-    "description": "Move deals damage with the Attack and Defense stats.",
-    "num": 1
+    "description": "Move deals damage with the Attack and Defense stats."
   },
   {
-    "id": "special",
+    "id": 2,
     "name": "Special",
-    "description": "Move deals damage with the Special Attack and Special Defense stats.",
-    "num": 2
+    "description": "Move deals damage with the Special Attack and Special Defense stats."
   },
   {
-    "id": "status",
+    "id": 3,
     "name": "Status",
-    "description": "Move does not deal damage.",
-    "num": 3
+    "description": "Move does not deal damage."
   }
 ]

@@ -1,77 +1,62 @@
 [
   {
     "id": 1,
-    "slug": "amorphous",
     "name": "Amorphous"
   },
   {
     "id": 2,
-    "slug": "bug",
     "name": "Bug"
   },
   {
     "id": 3,
-    "slug": "ditto",
     "name": "Ditto"
   },
   {
     "id": 4,
-    "slug": "dragon",
     "name": "Dragon"
   },
   {
     "id": 5,
-    "slug": "fairy",
     "name": "Fairy"
   },
   {
     "id": 6,
-    "slug": "field",
     "name": "Field"
   },
   {
     "id": 7,
-    "slug": "flying",
     "name": "Flying"
   },
   {
     "id": 8,
-    "slug": "grass",
     "name": "Grass"
   },
   {
     "id": 9,
-    "slug": "human_like",
-    "name": "Human Like"
+    "name": "Human-Like"
   },
   {
     "id": 10,
-    "slug": "mineral",
     "name": "Mineral"
   },
   {
     "id": 11,
-    "slug": "monster",
     "name": "Monster"
   },
   {
     "id": 12,
-    "slug": "undiscovered",
     "name": "Undiscovered"
   },
   {
     "id": 13,
-    "slug": "water_1",
     "name": "Water 1"
   },
   {
     "id": 14,
-    "slug": "water_2",
     "name": "Water 2"
   },
   {
     "id": 15,
-    "slug": "water_3",
     "name": "Water 3"
   }
 ]

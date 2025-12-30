@@ -1,0 +1,1102 @@
+[
+  {
+    "conditionId": 4,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 6,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 8,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 65,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 122,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 125,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 128,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 131,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 178,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 189,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 193,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 204,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 238,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 247,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 250,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 257,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 267,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 270,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 277,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 307,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 309,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 334,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 336,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 361,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 363,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 443,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 450,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 478,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 482,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 632,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 634,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 636,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 638,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 640,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 642,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 644,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 646,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 773,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 774,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 776,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 931,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 950,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 954,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 958,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 979,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 984,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 989,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 997,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1005,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1016,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1040,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 1043,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 1055,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1060,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1089,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1091,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1093,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1118,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1120,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1123,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1125,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1126,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1151,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1168,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1219,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1600,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 1601,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1603,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1632,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1650,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1668,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1699,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1702,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1704,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1706,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1709,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1711,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1713,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1716,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1718,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1745,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1749,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1765,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1768,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1821,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 1823,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 1825,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 1827,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 1829,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 1831,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 1832,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1834,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1840,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1842,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1909,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1911,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1912,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1913,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1914,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1919,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1922,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1926,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 1929,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2037,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2138,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2140,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2142,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2199,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2202,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2210,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2213,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2223,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 2240,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2244,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2253,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2257,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2268,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2270,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2271,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2273,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2289,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2292,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2300,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2303,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2328,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2389,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2391,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2397,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2399,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2434,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 2442,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 2443,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2444,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2446,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2451,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2481,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2492,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2550,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2554,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2557,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2565,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2567,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2571,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2574,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2582,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2645,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2648,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2700,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2703,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 2894,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 2934,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 2939,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 2941,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 2946,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 3014,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3017,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3019,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3146,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3148,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3152,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3156,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3158,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3160,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3162,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3164,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3166,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3168,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3170,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3172,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3173,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3174,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3178,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3180,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3182,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3287,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3290,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3298,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3301,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3406,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 3412,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3413,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3415,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3441,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3442,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3444,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3470,
+    "isRaining": true,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3471,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3473,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3539,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3540,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3541,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3576,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3578,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3582,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3584,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3687,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3688,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3689,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3744,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 3803,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3806,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3809,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3812,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 3845,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 3848,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 3851,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 3854,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 4047,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 4217,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 4219,
+    "isRaining": false,
+    "isThundering": null
+  },
+  {
+    "conditionId": 4242,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 4245,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 4248,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 4251,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 4254,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 4257,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 4262,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 4265,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 4268,
+    "isRaining": null,
+    "isThundering": true
+  },
+  {
+    "conditionId": 4271,
+    "isRaining": null,
+    "isThundering": true
+  }
+]

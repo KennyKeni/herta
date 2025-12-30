@@ -1,56 +1,56 @@
 [
   {
-    "itemId": "cobblemon:absorb_bulb",
+    "itemId": 5,
     "statId": 4,
     "stages": 1
   },
   {
-    "itemId": "cobblemon:cell_battery",
+    "itemId": 124,
     "statId": 2,
     "stages": 1
   },
   {
-    "itemId": "cobblemon:electric_seed",
+    "itemId": 205,
     "statId": 3,
     "stages": 1
   },
   {
-    "itemId": "cobblemon:grassy_seed",
+    "itemId": 256,
     "statId": 3,
     "stages": 1
   },
   {
-    "itemId": "cobblemon:luminous_moss",
+    "itemId": 339,
     "statId": 5,
     "stages": 1
   },
   {
-    "itemId": "cobblemon:misty_seed",
+    "itemId": 372,
     "statId": 5,
     "stages": 1
   },
   {
-    "itemId": "cobblemon:psychic_seed",
+    "itemId": 470,
     "statId": 5,
     "stages": 1
   },
   {
-    "itemId": "cobblemon:room_service",
+    "itemId": 512,
     "statId": 6,
     "stages": -1
   },
   {
-    "itemId": "cobblemon:throat_spray",
+    "itemId": 620,
     "statId": 4,
     "stages": 1
   },
   {
-    "itemId": "cobblemon:weakness_policy",
+    "itemId": 655,
     "statId": 2,
     "stages": 2
   },
   {
-    "itemId": "cobblemon:weakness_policy",
+    "itemId": 655,
     "statId": 4,
     "stages": 2
   }

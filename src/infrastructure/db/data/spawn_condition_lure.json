@@ -1,0 +1,1937 @@
+[
+  {
+    "conditionId": 321,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 333,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 348,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 360,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 375,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 387,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 416,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 427,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 560,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 564,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 569,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 574,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 578,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 583,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 616,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 618,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 621,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 625,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 627,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 630,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 725,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 727,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 731,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 733,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 736,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 737,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 738,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 743,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 745,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 749,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 751,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 754,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 755,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 756,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 796,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 798,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 799,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 801,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 802,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 803,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 804,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 805,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 806,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 807,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 808,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 809,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 810,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 811,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 812,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 813,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 814,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 815,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 816,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 817,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 818,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 819,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 820,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 821,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 822,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 823,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 825,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 827,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 828,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 829,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 831,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 833,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 834,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 835,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 836,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 837,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 838,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 839,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 840,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 841,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 842,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 852,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 853,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 854,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 858,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 859,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 860,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1022,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1025,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1028,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1031,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1034,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1037,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1079,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1081,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1086,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1088,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1105,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1117,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1201,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1202,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1203,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 1208,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1209,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1210,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 1406,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1407,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1409,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 1412,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1418,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1419,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1421,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 1424,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1428,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1429,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1431,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 1436,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1437,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1439,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 1441,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1446,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1447,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1449,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 1451,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1454,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1455,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1456,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 1461,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1462,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1464,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1468,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1469,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1471,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1521,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1522,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1523,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1525,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1526,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1527,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1545,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1546,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1548,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 1551,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1552,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1554,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 1703,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1705,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1710,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1712,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1717,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1719,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1785,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1787,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 1867,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1868,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1869,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1872,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1873,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1874,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1877,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1878,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1879,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1882,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1883,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 1884,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2002,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2003,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2006,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2007,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2082,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2083,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2084,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2088,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2089,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2091,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2097,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2098,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2099,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2171,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2173,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2179,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2181,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2243,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2248,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2250,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2252,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2256,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2261,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2263,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2265,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2419,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2420,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2422,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 2425,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2426,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2428,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 2924,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2925,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2926,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2930,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2931,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2932,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 2970,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2979,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 2988,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3322,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3323,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3325,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3327,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3328,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3330,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3338,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3339,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3340,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3342,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3343,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3345,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3347,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3348,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3350,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3358,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3359,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3360,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3362,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3363,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3364,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3368,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3369,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3370,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3427,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3428,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3429,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3431,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3432,
+    "minLureLevel": 2,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3434,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3437,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3438,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3440,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3456,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3457,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3458,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3460,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3461,
+    "minLureLevel": 2,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3463,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3466,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3467,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3469,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3485,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3486,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3487,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3489,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3490,
+    "minLureLevel": 2,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3492,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3495,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3496,
+    "minLureLevel": 2,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3498,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3513,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3516,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3520,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3523,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3597,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3598,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3599,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3601,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3602,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3603,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3609,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3610,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3611,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3613,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3614,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3615,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3621,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3622,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3624,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3626,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3627,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3629,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3635,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3636,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3638,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3640,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3641,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3643,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3698,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3699,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3700,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3703,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3705,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3706,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3707,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3715,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3716,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3717,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3720,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3722,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3723,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3724,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3749,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3750,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3751,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3754,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3755,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3756,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 3825,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3828,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3835,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3838,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3863,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3864,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3866,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3870,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3871,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3872,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3877,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3882,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3887,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3892,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 3906,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3907,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3909,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3911,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3912,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3914,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3920,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3921,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3922,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3924,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3925,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3927,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3929,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3930,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3932,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3938,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3939,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3940,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3989,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3990,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3991,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3993,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3994,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 3995,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4025,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4026,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4027,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4029,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4030,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4031,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4034,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4035,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4036,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4108,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4109,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4111,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 4113,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 4118,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4119,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4121,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 4123,
+    "minLureLevel": 0,
+    "maxLureLevel": 1
+  },
+  {
+    "conditionId": 4126,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4127,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4128,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 4256,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4258,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4270,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4272,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4321,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4322,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4323,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4326,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4327,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4328,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4331,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4332,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4333,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4336,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4337,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4338,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4368,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4369,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4370,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4373,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4374,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4375,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4378,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4379,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4380,
+    "minLureLevel": 3,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4397,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4398,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4399,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  },
+  {
+    "conditionId": 4404,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4405,
+    "minLureLevel": 1,
+    "maxLureLevel": null
+  },
+  {
+    "conditionId": 4406,
+    "minLureLevel": 1,
+    "maxLureLevel": 2
+  }
+]

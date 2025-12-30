@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Level Up"
+  },
+  {
+    "id": 2,
+    "name": "Egg Move"
+  },
+  {
+    "id": 3,
+    "name": "TM/HM"
+  },
+  {
+    "id": 4,
+    "name": "Move Tutor"
+  },
+  {
+    "id": 5,
+    "name": "Special"
+  },
+  {
+    "id": 6,
+    "name": "Form Change"
+  },
+  {
+    "id": 7,
+    "name": "Legacy"
+  }
+]

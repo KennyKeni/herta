@@ -307,6 +307,7 @@ export interface MoveCategories {
   description: string | null;
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface MoveEffects {

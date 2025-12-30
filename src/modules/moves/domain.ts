@@ -38,6 +38,7 @@ export interface Move {
 
 export interface MoveCategory {
   id: number;
+  slug: string;
   name: string;
   description: string | null;
 }
@@ -96,4 +97,23 @@ export interface Condition {
 export interface Stat {
   id: number;
   name: string;
+}
+
+export interface MoveFilter {
+  moveIds?: number[];
+  moveSlugs?: string[];
+  typeIds?: number[];
+  typeSlugs?: string[];
+  categoryIds?: number[];
+  categorySlugs?: string[];
+  targetIds?: number[];
+  targetSlugs?: string[];
+  flagIds?: number[];
+  flagSlugs?: string[];
+  includeFlags?: boolean;
+  includeBoosts?: boolean;
+  includeEffects?: boolean;
+  includeZData?: boolean;
+  limit?: number;
+  offset?: number;
 }

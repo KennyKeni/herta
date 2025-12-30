@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Required"
+  },
+  {
+    "id": 2,
+    "name": "Forbidden"
+  },
+  {
+    "id": 3,
+    "name": "Multiplier"
+  }
+]

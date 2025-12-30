@@ -3,3276 +3,2808 @@
     "id": 1,
     "aspectId": 1,
     "value": "white",
-    "name": "White Fusion",
-    "aspectString": "white-fusion"
+    "name": "White Fusion"
   },
   {
     "id": 2,
     "aspectId": 1,
     "value": "black",
-    "name": "Black Fusion",
-    "aspectString": "black-fusion"
+    "name": "Black Fusion"
   },
   {
     "id": 3,
     "aspectId": 2,
     "value": "alola_bias",
-    "name": "Alola Bias",
-    "aspectString": "region-bias-alola"
+    "name": "Alola Bias"
   },
   {
     "id": 4,
     "aspectId": 3,
     "value": "heat",
-    "name": "Heat Appliance",
-    "aspectString": "heat-appliance"
+    "name": "Heat Appliance"
   },
   {
     "id": 5,
     "aspectId": 3,
     "value": "wash",
-    "name": "Wash Appliance",
-    "aspectString": "wash-appliance"
+    "name": "Wash Appliance"
   },
   {
     "id": 6,
     "aspectId": 3,
     "value": "frost",
-    "name": "Frost Appliance",
-    "aspectString": "frost-appliance"
+    "name": "Frost Appliance"
   },
   {
     "id": 7,
     "aspectId": 3,
     "value": "fan",
-    "name": "Fan Appliance",
-    "aspectString": "fan-appliance"
+    "name": "Fan Appliance"
   },
   {
     "id": 8,
     "aspectId": 3,
     "value": "mow",
-    "name": "Mow Appliance",
-    "aspectString": "mow-appliance"
+    "name": "Mow Appliance"
   },
   {
     "id": 9,
     "aspectId": 4,
     "value": "plant",
-    "name": "Plant Cloak",
-    "aspectString": "plant-cloak"
+    "name": "Plant Cloak"
   },
   {
     "id": 10,
     "aspectId": 4,
     "value": "sandy",
-    "name": "Sandy Cloak",
-    "aspectString": "sandy-cloak"
+    "name": "Sandy Cloak"
   },
   {
     "id": 11,
     "aspectId": 4,
     "value": "trash",
-    "name": "Trash Cloak",
-    "aspectString": "trash-cloak"
+    "name": "Trash Cloak"
   },
   {
     "id": 12,
     "aspectId": 5,
     "value": "bond",
-    "name": "Bond",
-    "aspectString": "bond"
+    "name": "Bond"
   },
   {
     "id": 13,
     "aspectId": 5,
     "value": "ash",
-    "name": "Ash",
-    "aspectString": "ash"
+    "name": "Ash"
   },
   {
     "id": 14,
     "aspectId": 6,
     "value": "hero",
-    "name": "Hero",
-    "aspectString": "hero"
+    "name": "Hero"
   },
   {
     "id": 15,
     "aspectId": 6,
     "value": "crowned",
-    "name": "Crowned",
-    "aspectString": "crowned"
+    "name": "Crowned"
   },
   {
     "id": 16,
     "aspectId": 7,
     "value": "standard",
-    "name": "Standard Mode",
-    "aspectString": "standard-mode"
+    "name": "Standard Mode"
   },
   {
     "id": 17,
     "aspectId": 7,
     "value": "zen",
-    "name": "Zen Mode",
-    "aspectString": "zen-mode"
+    "name": "Zen Mode"
   },
   {
     "id": 18,
     "aspectId": 8,
     "value": "bloodmoon",
-    "name": "Bloodmoon",
-    "aspectString": "bloodmoon"
+    "name": "Bloodmoon"
   },
   {
     "id": 19,
     "aspectId": 9,
     "value": "overcast",
-    "name": "Overcast Form",
-    "aspectString": "overcast-form"
+    "name": "Overcast Form"
   },
   {
     "id": 20,
     "aspectId": 9,
     "value": "sunshine",
-    "name": "Sunshine Form",
-    "aspectString": "sunshine-form"
+    "name": "Sunshine Form"
   },
   {
     "id": 21,
     "aspectId": 10,
     "value": "combat",
-    "name": "Combat Breed",
-    "aspectString": "combat-breed"
+    "name": "Combat Breed"
   },
   {
     "id": 22,
     "aspectId": 10,
     "value": "blaze",
-    "name": "Blaze Breed",
-    "aspectString": "blaze-breed"
+    "name": "Blaze Breed"
   },
   {
     "id": 23,
     "aspectId": 10,
     "value": "aqua",
-    "name": "Aqua Breed",
-    "aspectString": "aqua-breed"
+    "name": "Aqua Breed"
   },
   {
     "id": 24,
     "aspectId": 11,
     "value": "a",
-    "name": "Character A",
-    "aspectString": "character-a"
+    "name": "Character A"
   },
   {
     "id": 25,
     "aspectId": 11,
     "value": "b",
-    "name": "Character B",
-    "aspectString": "character-b"
+    "name": "Character B"
   },
   {
     "id": 26,
     "aspectId": 11,
     "value": "c",
-    "name": "Character C",
-    "aspectString": "character-c"
+    "name": "Character C"
   },
   {
     "id": 27,
     "aspectId": 11,
     "value": "d",
-    "name": "Character D",
-    "aspectString": "character-d"
+    "name": "Character D"
   },
   {
     "id": 28,
     "aspectId": 11,
     "value": "e",
-    "name": "Character E",
-    "aspectString": "character-e"
+    "name": "Character E"
   },
   {
     "id": 29,
     "aspectId": 11,
     "value": "f",
-    "name": "Character F",
-    "aspectString": "character-f"
+    "name": "Character F"
   },
   {
     "id": 30,
     "aspectId": 11,
     "value": "g",
-    "name": "Character G",
-    "aspectString": "character-g"
+    "name": "Character G"
   },
   {
     "id": 31,
     "aspectId": 11,
     "value": "h",
-    "name": "Character H",
-    "aspectString": "character-h"
+    "name": "Character H"
   },
   {
     "id": 32,
     "aspectId": 11,
     "value": "i",
-    "name": "Character I",
-    "aspectString": "character-i"
+    "name": "Character I"
   },
   {
     "id": 33,
     "aspectId": 11,
     "value": "j",
-    "name": "Character J",
-    "aspectString": "character-j"
+    "name": "Character J"
   },
   {
     "id": 34,
     "aspectId": 11,
     "value": "k",
-    "name": "Character K",
-    "aspectString": "character-k"
+    "name": "Character K"
   },
   {
     "id": 35,
     "aspectId": 11,
     "value": "l",
-    "name": "Character L",
-    "aspectString": "character-l"
+    "name": "Character L"
   },
   {
     "id": 36,
     "aspectId": 11,
     "value": "m",
-    "name": "Character M",
-    "aspectString": "character-m"
+    "name": "Character M"
   },
   {
     "id": 37,
     "aspectId": 11,
     "value": "n",
-    "name": "Character N",
-    "aspectString": "character-n"
+    "name": "Character N"
   },
   {
     "id": 38,
     "aspectId": 11,
     "value": "o",
-    "name": "Character O",
-    "aspectString": "character-o"
+    "name": "Character O"
   },
   {
     "id": 39,
     "aspectId": 11,
     "value": "p",
-    "name": "Character P",
-    "aspectString": "character-p"
+    "name": "Character P"
   },
   {
     "id": 40,
     "aspectId": 11,
     "value": "q",
-    "name": "Character Q",
-    "aspectString": "character-q"
+    "name": "Character Q"
   },
   {
     "id": 41,
     "aspectId": 11,
     "value": "r",
-    "name": "Character R",
-    "aspectString": "character-r"
+    "name": "Character R"
   },
   {
     "id": 42,
     "aspectId": 11,
     "value": "s",
-    "name": "Character S",
-    "aspectString": "character-s"
+    "name": "Character S"
   },
   {
     "id": 43,
     "aspectId": 11,
     "value": "t",
-    "name": "Character T",
-    "aspectString": "character-t"
+    "name": "Character T"
   },
   {
     "id": 44,
     "aspectId": 11,
     "value": "u",
-    "name": "Character U",
-    "aspectString": "character-u"
+    "name": "Character U"
   },
   {
     "id": 45,
     "aspectId": 11,
     "value": "v",
-    "name": "Character V",
-    "aspectString": "character-v"
+    "name": "Character V"
   },
   {
     "id": 46,
     "aspectId": 11,
     "value": "w",
-    "name": "Character W",
-    "aspectString": "character-w"
+    "name": "Character W"
   },
   {
     "id": 47,
     "aspectId": 11,
     "value": "x",
-    "name": "Character X",
-    "aspectString": "character-x"
+    "name": "Character X"
   },
   {
     "id": 48,
     "aspectId": 11,
     "value": "y",
-    "name": "Character Y",
-    "aspectString": "character-y"
+    "name": "Character Y"
   },
   {
     "id": 49,
     "aspectId": 11,
     "value": "z",
-    "name": "Character Z",
-    "aspectString": "character-z"
+    "name": "Character Z"
   },
   {
     "id": 50,
     "aspectId": 11,
     "value": "!",
-    "name": "Character !",
-    "aspectString": "character-!"
+    "name": "Character !"
   },
   {
     "id": 51,
     "aspectId": 11,
     "value": "?",
-    "name": "Character ?",
-    "aspectString": "character-?"
+    "name": "Character ?"
   },
   {
     "id": 52,
     "aspectId": 12,
     "value": "left",
-    "name": "Claw Left",
-    "aspectString": "claw-left"
+    "name": "Claw Left"
   },
   {
     "id": 53,
     "aspectId": 12,
     "value": "right",
-    "name": "Claw Right",
-    "aspectString": "claw-right"
+    "name": "Claw Right"
   },
   {
     "id": 54,
     "aspectId": 13,
     "value": "silcoon",
-    "name": "Silcoon",
-    "aspectString": "silcoon-cocoon"
+    "name": "Silcoon"
   },
   {
     "id": 55,
     "aspectId": 13,
     "value": "cascoon",
-    "name": "Cascoon",
-    "aspectString": "cascoon-cocoon"
+    "name": "Cascoon"
   },
   {
     "id": 56,
     "aspectId": 14,
     "value": "none",
-    "name": "Color None",
-    "aspectString": "color-none"
+    "name": "Color None"
   },
   {
     "id": 57,
     "aspectId": 14,
     "value": "white",
-    "name": "Color White",
-    "aspectString": "color-white"
+    "name": "Color White"
   },
   {
     "id": 58,
     "aspectId": 14,
     "value": "orange",
-    "name": "Color Orange",
-    "aspectString": "color-orange"
+    "name": "Color Orange"
   },
   {
     "id": 59,
     "aspectId": 14,
     "value": "magenta",
-    "name": "Color Magenta",
-    "aspectString": "color-magenta"
+    "name": "Color Magenta"
   },
   {
     "id": 60,
     "aspectId": 14,
     "value": "light_blue",
-    "name": "Color Light Blue",
-    "aspectString": "color-light_blue"
+    "name": "Color Light Blue"
   },
   {
     "id": 61,
     "aspectId": 14,
     "value": "yellow",
-    "name": "Color Yellow",
-    "aspectString": "color-yellow"
+    "name": "Color Yellow"
   },
   {
     "id": 62,
     "aspectId": 14,
     "value": "lime",
-    "name": "Color Lime",
-    "aspectString": "color-lime"
+    "name": "Color Lime"
   },
   {
     "id": 63,
     "aspectId": 14,
     "value": "pink",
-    "name": "Color Pink",
-    "aspectString": "color-pink"
+    "name": "Color Pink"
   },
   {
     "id": 64,
     "aspectId": 14,
     "value": "gray",
-    "name": "Color Gray",
-    "aspectString": "color-gray"
+    "name": "Color Gray"
   },
   {
     "id": 65,
     "aspectId": 14,
     "value": "light_gray",
-    "name": "Color Light Gray",
-    "aspectString": "color-light_gray"
+    "name": "Color Light Gray"
   },
   {
     "id": 66,
     "aspectId": 14,
     "value": "cyan",
-    "name": "Color Cyan",
-    "aspectString": "color-cyan"
+    "name": "Color Cyan"
   },
   {
     "id": 67,
     "aspectId": 14,
     "value": "purple",
-    "name": "Color Purple",
-    "aspectString": "color-purple"
+    "name": "Color Purple"
   },
   {
     "id": 68,
     "aspectId": 14,
     "value": "blue",
-    "name": "Color Blue",
-    "aspectString": "color-blue"
+    "name": "Color Blue"
   },
   {
     "id": 69,
     "aspectId": 14,
     "value": "brown",
-    "name": "Color Brown",
-    "aspectString": "color-brown"
+    "name": "Color Brown"
   },
   {
     "id": 70,
     "aspectId": 14,
     "value": "green",
-    "name": "Color Green",
-    "aspectString": "color-green"
+    "name": "Color Green"
   },
   {
     "id": 71,
     "aspectId": 14,
     "value": "red",
-    "name": "Color Red",
-    "aspectString": "color-red"
+    "name": "Color Red"
   },
   {
     "id": 72,
     "aspectId": 14,
     "value": "black",
-    "name": "Color Black",
-    "aspectString": "color-black"
+    "name": "Color Black"
   },
   {
     "id": 73,
     "aspectId": 15,
     "value": "red",
-    "name": "Red Core",
-    "aspectString": "red-core"
+    "name": "Red Core"
   },
   {
     "id": 74,
     "aspectId": 15,
     "value": "orange",
-    "name": "Orange Core",
-    "aspectString": "orange-core"
+    "name": "Orange Core"
   },
   {
     "id": 75,
     "aspectId": 15,
     "value": "yellow",
-    "name": "Yellow Core",
-    "aspectString": "yellow-core"
+    "name": "Yellow Core"
   },
   {
     "id": 76,
     "aspectId": 15,
     "value": "green",
-    "name": "Green Core",
-    "aspectString": "green-core"
+    "name": "Green Core"
   },
   {
     "id": 77,
     "aspectId": 15,
     "value": "blue",
-    "name": "Blue Core",
-    "aspectString": "blue-core"
+    "name": "Blue Core"
   },
   {
     "id": 78,
     "aspectId": 15,
     "value": "indigo",
-    "name": "Indigo Core",
-    "aspectString": "indigo-core"
+    "name": "Indigo Core"
   },
   {
     "id": 79,
     "aspectId": 15,
     "value": "violet",
-    "name": "Violet Core",
-    "aspectString": "violet-core"
+    "name": "Violet Core"
   },
   {
     "id": 80,
     "aspectId": 16,
     "value": "wise_glasses",
-    "name": "Cosmetic Item Wise Glasses",
-    "aspectString": "cosmetic_item-wise_glasses"
+    "name": "Cosmetic Item Wise Glasses"
   },
   {
     "id": 81,
     "aspectId": 16,
     "value": "black_glasses",
-    "name": "Cosmetic Item Black Glasses",
-    "aspectString": "cosmetic_item-black_glasses"
+    "name": "Cosmetic Item Black Glasses"
   },
   {
     "id": 82,
     "aspectId": 16,
     "value": "silk_scarf",
-    "name": "Cosmetic Item Silk Scarf",
-    "aspectString": "cosmetic_item-silk_scarf"
+    "name": "Cosmetic Item Silk Scarf"
   },
   {
     "id": 83,
     "aspectId": 16,
     "value": "choice_scarf",
-    "name": "Cosmetic Item Choice Scarf",
-    "aspectString": "cosmetic_item-choice_scarf"
+    "name": "Cosmetic Item Choice Scarf"
   },
   {
     "id": 84,
     "aspectId": 16,
     "value": "minecart",
-    "name": "Cosmetic Item Minecart",
-    "aspectString": "cosmetic_item-minecart"
+    "name": "Cosmetic Item Minecart"
   },
   {
     "id": 85,
     "aspectId": 16,
     "value": "composer",
-    "name": "Cosmetic Item Composer",
-    "aspectString": "cosmetic_item-composer"
+    "name": "Cosmetic Item Composer"
   },
   {
     "id": 86,
     "aspectId": 16,
     "value": "air_balloon",
-    "name": "Cosmetic Item Air Balloon",
-    "aspectString": "cosmetic_item-air_balloon"
+    "name": "Cosmetic Item Air Balloon"
   },
   {
     "id": 87,
     "aspectId": 16,
     "value": "bundle",
-    "name": "Cosmetic Item Bundle",
-    "aspectString": "cosmetic_item-bundle"
+    "name": "Cosmetic Item Bundle"
   },
   {
     "id": 88,
     "aspectId": 16,
     "value": "music",
-    "name": "Cosmetic Item Music",
-    "aspectString": "cosmetic_item-music"
+    "name": "Cosmetic Item Music"
   },
   {
     "id": 89,
     "aspectId": 16,
     "value": "ender_pearl",
-    "name": "Cosmetic Item Ender Pearl",
-    "aspectString": "cosmetic_item-ender_pearl"
+    "name": "Cosmetic Item Ender Pearl"
   },
   {
     "id": 90,
     "aspectId": 16,
     "value": "stick",
-    "name": "Cosmetic Item Stick",
-    "aspectString": "cosmetic_item-stick"
+    "name": "Cosmetic Item Stick"
   },
   {
     "id": 91,
     "aspectId": 16,
     "value": "leaves",
-    "name": "Cosmetic Item Leaves",
-    "aspectString": "cosmetic_item-leaves"
+    "name": "Cosmetic Item Leaves"
   },
   {
     "id": 92,
     "aspectId": 16,
     "value": "rage_candy_bar",
-    "name": "Cosmetic Item Rage Candy Bar",
-    "aspectString": "cosmetic_item-rage_candy_bar"
+    "name": "Cosmetic Item Rage Candy Bar"
   },
   {
     "id": 93,
     "aspectId": 16,
     "value": "lava_cookie",
-    "name": "Cosmetic Item Lava Cookie",
-    "aspectString": "cosmetic_item-lava_cookie"
+    "name": "Cosmetic Item Lava Cookie"
   },
   {
     "id": 94,
     "aspectId": 16,
     "value": "old_gateau",
-    "name": "Cosmetic Item Old Gateau",
-    "aspectString": "cosmetic_item-old_gateau"
+    "name": "Cosmetic Item Old Gateau"
   },
   {
     "id": 95,
     "aspectId": 16,
     "value": "casteliacone",
-    "name": "Cosmetic Item Casteliacone",
-    "aspectString": "cosmetic_item-casteliacone"
+    "name": "Cosmetic Item Casteliacone"
   },
   {
     "id": 96,
     "aspectId": 16,
     "value": "lumiose_galette",
-    "name": "Cosmetic Item Lumiose Galette",
-    "aspectString": "cosmetic_item-lumiose_galette"
+    "name": "Cosmetic Item Lumiose Galette"
   },
   {
     "id": 97,
     "aspectId": 16,
     "value": "big_malasada",
-    "name": "Cosmetic Item Big Malasada",
-    "aspectString": "cosmetic_item-big_malasada"
+    "name": "Cosmetic Item Big Malasada"
   },
   {
     "id": 98,
     "aspectId": 16,
     "value": "smoked_tail_curry",
-    "name": "Cosmetic Item Smoked Tail Curry",
-    "aspectString": "cosmetic_item-smoked_tail_curry"
+    "name": "Cosmetic Item Smoked Tail Curry"
   },
   {
     "id": 99,
     "aspectId": 16,
     "value": "sinister_tea",
-    "name": "Cosmetic Item Sinister Tea",
-    "aspectString": "cosmetic_item-sinister_tea"
+    "name": "Cosmetic Item Sinister Tea"
   },
   {
     "id": 100,
     "aspectId": 16,
     "value": "leather_helmet",
-    "name": "Cosmetic Item Leather Helmet",
-    "aspectString": "cosmetic_item-leather_helmet"
+    "name": "Cosmetic Item Leather Helmet"
   },
   {
     "id": 101,
     "aspectId": 16,
     "value": "cocoa_beans",
-    "name": "Cosmetic Item Cocoa Beans",
-    "aspectString": "cosmetic_item-cocoa_beans"
+    "name": "Cosmetic Item Cocoa Beans"
   },
   {
     "id": 102,
     "aspectId": 16,
     "value": "compass",
-    "name": "Cosmetic Item Compass",
-    "aspectString": "cosmetic_item-compass"
+    "name": "Cosmetic Item Compass"
   },
   {
     "id": 103,
     "aspectId": 16,
     "value": "shears",
-    "name": "Cosmetic Item Shears",
-    "aspectString": "cosmetic_item-shears"
+    "name": "Cosmetic Item Shears"
   },
   {
     "id": 104,
     "aspectId": 16,
     "value": "gold_armor",
-    "name": "Cosmetic Item Gold Armor",
-    "aspectString": "cosmetic_item-gold_armor"
+    "name": "Cosmetic Item Gold Armor"
   },
   {
     "id": 105,
     "aspectId": 17,
     "value": "vanilla",
-    "name": "Cream Vanilla",
-    "aspectString": "cream-vanilla"
+    "name": "Cream Vanilla"
   },
   {
     "id": 106,
     "aspectId": 17,
     "value": "ruby",
-    "name": "Cream Ruby",
-    "aspectString": "cream-ruby"
+    "name": "Cream Ruby"
   },
   {
     "id": 107,
     "aspectId": 17,
     "value": "matcha",
-    "name": "Cream Matcha",
-    "aspectString": "cream-matcha"
+    "name": "Cream Matcha"
   },
   {
     "id": 108,
     "aspectId": 17,
     "value": "mint",
-    "name": "Cream Mint",
-    "aspectString": "cream-mint"
+    "name": "Cream Mint"
   },
   {
     "id": 109,
     "aspectId": 17,
     "value": "lemon",
-    "name": "Cream Lemon",
-    "aspectString": "cream-lemon"
+    "name": "Cream Lemon"
   },
   {
     "id": 110,
     "aspectId": 17,
     "value": "salted",
-    "name": "Cream Salted",
-    "aspectString": "cream-salted"
+    "name": "Cream Salted"
   },
   {
     "id": 111,
     "aspectId": 17,
     "value": "ruby_swirl",
-    "name": "Cream Ruby Swirl",
-    "aspectString": "cream-ruby_swirl"
+    "name": "Cream Ruby Swirl"
   },
   {
     "id": 112,
     "aspectId": 17,
     "value": "caramel_swirl",
-    "name": "Cream Caramel Swirl",
-    "aspectString": "cream-caramel_swirl"
+    "name": "Cream Caramel Swirl"
   },
   {
     "id": 113,
     "aspectId": 17,
     "value": "rainbow_swirl",
-    "name": "Cream Rainbow Swirl",
-    "aspectString": "cream-rainbow_swirl"
+    "name": "Cream Rainbow Swirl"
   },
   {
     "id": 114,
     "aspectId": 18,
     "value": "baile",
-    "name": "Baile Style",
-    "aspectString": "baile-style"
+    "name": "Baile Style"
   },
   {
     "id": 115,
     "aspectId": 18,
     "value": "pom_pom",
-    "name": "Pom Pom Style",
-    "aspectString": "pom_pom-style"
+    "name": "Pom Pom Style"
   },
   {
     "id": 116,
     "aspectId": 18,
     "value": "pa'u",
-    "name": "Pa'U Style",
-    "aspectString": "pa'u-style"
+    "name": "Pa'U Style"
   },
   {
     "id": 117,
     "aspectId": 18,
     "value": "sensu",
-    "name": "Sensu Style",
-    "aspectString": "sensu-style"
+    "name": "Sensu Style"
   },
   {
     "id": 118,
     "aspectId": 19,
     "value": "strawberry",
-    "name": "Decoration Strawberry",
-    "aspectString": "decoration-strawberry"
+    "name": "Decoration Strawberry"
   },
   {
     "id": 119,
     "aspectId": 19,
     "value": "berry",
-    "name": "Decoration Berry",
-    "aspectString": "decoration-berry"
+    "name": "Decoration Berry"
   },
   {
     "id": 120,
     "aspectId": 19,
     "value": "love",
-    "name": "Decoration Love",
-    "aspectString": "decoration-love"
+    "name": "Decoration Love"
   },
   {
     "id": 121,
     "aspectId": 19,
     "value": "star",
-    "name": "Decoration Star",
-    "aspectString": "decoration-star"
+    "name": "Decoration Star"
   },
   {
     "id": 122,
     "aspectId": 19,
     "value": "clover",
-    "name": "Decoration Clover",
-    "aspectString": "decoration-clover"
+    "name": "Decoration Clover"
   },
   {
     "id": 123,
     "aspectId": 19,
     "value": "flower",
-    "name": "Decoration Flower",
-    "aspectString": "decoration-flower"
+    "name": "Decoration Flower"
   },
   {
     "id": 124,
     "aspectId": 19,
     "value": "ribbon",
-    "name": "Decoration Ribbon",
-    "aspectString": "decoration-ribbon"
+    "name": "Decoration Ribbon"
   },
   {
     "id": 125,
     "aspectId": 20,
     "value": "disguised",
-    "name": "Disguised Form",
-    "aspectString": "disguised-form"
+    "name": "Disguised Form"
   },
   {
     "id": 126,
     "aspectId": 20,
     "value": "busted",
-    "name": "Busted Form",
-    "aspectString": "busted-form"
+    "name": "Busted Form"
   },
   {
     "id": 127,
     "aspectId": 21,
     "value": "confined",
-    "name": "Confined",
-    "aspectString": "confined"
+    "name": "Confined"
   },
   {
     "id": 128,
     "aspectId": 21,
     "value": "unbound",
-    "name": "Unbound",
-    "aspectString": "unbound"
+    "name": "Unbound"
   },
   {
     "id": 129,
     "aspectId": 22,
     "value": "zero",
-    "name": "Zero Form",
-    "aspectString": "zero-form"
+    "name": "Zero Form"
   },
   {
     "id": 130,
     "aspectId": 22,
     "value": "hero",
-    "name": "Hero Form",
-    "aspectString": "hero-form"
+    "name": "Hero Form"
   },
   {
     "id": 131,
     "aspectId": 23,
     "value": "gmax",
-    "name": "Gigantamax",
-    "aspectString": "gmax"
+    "name": "Gigantamax"
   },
   {
     "id": 132,
     "aspectId": 23,
     "value": "eternamax",
-    "name": "Eternamax",
-    "aspectString": "eternamax"
+    "name": "Eternamax"
   },
   {
     "id": 133,
     "aspectId": 24,
     "value": "embody_aspect",
-    "name": "Embody Aspect",
-    "aspectString": "embody_aspect"
+    "name": "Embody Aspect"
   },
   {
     "id": 134,
     "aspectId": 25,
     "value": "none",
-    "name": "Face Spots None",
-    "aspectString": "face-spots-none"
+    "name": "Face Spots None"
   },
   {
     "id": 135,
     "aspectId": 25,
     "value": "1",
-    "name": "Face Spots 1",
-    "aspectString": "face-spots-1"
+    "name": "Face Spots 1"
   },
   {
     "id": 136,
     "aspectId": 25,
     "value": "2",
-    "name": "Face Spots 2",
-    "aspectString": "face-spots-2"
+    "name": "Face Spots 2"
   },
   {
     "id": 137,
     "aspectId": 25,
     "value": "3",
-    "name": "Face Spots 3",
-    "aspectString": "face-spots-3"
+    "name": "Face Spots 3"
   },
   {
     "id": 138,
     "aspectId": 25,
     "value": "4",
-    "name": "Face Spots 4",
-    "aspectString": "face-spots-4"
+    "name": "Face Spots 4"
   },
   {
     "id": 139,
     "aspectId": 25,
     "value": "5",
-    "name": "Face Spots 5",
-    "aspectString": "face-spots-5"
+    "name": "Face Spots 5"
   },
   {
     "id": 140,
     "aspectId": 25,
     "value": "6",
-    "name": "Face Spots 6",
-    "aspectString": "face-spots-6"
+    "name": "Face Spots 6"
   },
   {
     "id": 141,
     "aspectId": 25,
     "value": "7",
-    "name": "Face Spots 7",
-    "aspectString": "face-spots-7"
+    "name": "Face Spots 7"
   },
   {
     "id": 142,
     "aspectId": 25,
     "value": "8",
-    "name": "Face Spots 8",
-    "aspectString": "face-spots-8"
+    "name": "Face Spots 8"
   },
   {
     "id": 143,
     "aspectId": 25,
     "value": "9",
-    "name": "Face Spots 9",
-    "aspectString": "face-spots-9"
+    "name": "Face Spots 9"
   },
   {
     "id": 144,
     "aspectId": 25,
     "value": "10",
-    "name": "Face Spots 10",
-    "aspectString": "face-spots-10"
+    "name": "Face Spots 10"
   },
   {
     "id": 145,
     "aspectId": 25,
     "value": "11",
-    "name": "Face Spots 11",
-    "aspectString": "face-spots-11"
+    "name": "Face Spots 11"
   },
   {
     "id": 146,
     "aspectId": 26,
     "value": "none",
-    "name": "Face Spots2 None",
-    "aspectString": "face-spots2-none"
+    "name": "Face Spots2 None"
   },
   {
     "id": 147,
     "aspectId": 26,
     "value": "1",
-    "name": "Face Spots2 1",
-    "aspectString": "face-spots2-1"
+    "name": "Face Spots2 1"
   },
   {
     "id": 148,
     "aspectId": 26,
     "value": "2",
-    "name": "Face Spots2 2",
-    "aspectString": "face-spots2-2"
+    "name": "Face Spots2 2"
   },
   {
     "id": 149,
     "aspectId": 26,
     "value": "3",
-    "name": "Face Spots2 3",
-    "aspectString": "face-spots2-3"
+    "name": "Face Spots2 3"
   },
   {
     "id": 150,
     "aspectId": 26,
     "value": "4",
-    "name": "Face Spots2 4",
-    "aspectString": "face-spots2-4"
+    "name": "Face Spots2 4"
   },
   {
     "id": 151,
     "aspectId": 26,
     "value": "5",
-    "name": "Face Spots2 5",
-    "aspectString": "face-spots2-5"
+    "name": "Face Spots2 5"
   },
   {
     "id": 152,
     "aspectId": 26,
     "value": "6",
-    "name": "Face Spots2 6",
-    "aspectString": "face-spots2-6"
+    "name": "Face Spots2 6"
   },
   {
     "id": 153,
     "aspectId": 26,
     "value": "7",
-    "name": "Face Spots2 7",
-    "aspectString": "face-spots2-7"
+    "name": "Face Spots2 7"
   },
   {
     "id": 154,
     "aspectId": 26,
     "value": "8",
-    "name": "Face Spots2 8",
-    "aspectString": "face-spots2-8"
+    "name": "Face Spots2 8"
   },
   {
     "id": 155,
     "aspectId": 26,
     "value": "9",
-    "name": "Face Spots2 9",
-    "aspectString": "face-spots2-9"
+    "name": "Face Spots2 9"
   },
   {
     "id": 156,
     "aspectId": 26,
     "value": "10",
-    "name": "Face Spots2 10",
-    "aspectString": "face-spots2-10"
+    "name": "Face Spots2 10"
   },
   {
     "id": 157,
     "aspectId": 26,
     "value": "11",
-    "name": "Face Spots2 11",
-    "aspectString": "face-spots2-11"
+    "name": "Face Spots2 11"
   },
   {
     "id": 158,
     "aspectId": 27,
     "value": "red",
-    "name": "Redstriped",
-    "aspectString": "redstriped"
+    "name": "Redstriped"
   },
   {
     "id": 159,
     "aspectId": 27,
     "value": "blue",
-    "name": "Bluestriped",
-    "aspectString": "bluestriped"
+    "name": "Bluestriped"
   },
   {
     "id": 160,
     "aspectId": 27,
     "value": "white",
-    "name": "Whitestriped",
-    "aspectString": "whitestriped"
+    "name": "Whitestriped"
   },
   {
     "id": 161,
     "aspectId": 28,
     "value": "red",
-    "name": "Flower Red",
-    "aspectString": "flower-red"
+    "name": "Flower Red"
   },
   {
     "id": 162,
     "aspectId": 28,
     "value": "yellow",
-    "name": "Flower Yellow",
-    "aspectString": "flower-yellow"
+    "name": "Flower Yellow"
   },
   {
     "id": 163,
     "aspectId": 28,
     "value": "orange",
-    "name": "Flower Orange",
-    "aspectString": "flower-orange"
+    "name": "Flower Orange"
   },
   {
     "id": 164,
     "aspectId": 28,
     "value": "blue",
-    "name": "Flower Blue",
-    "aspectString": "flower-blue"
+    "name": "Flower Blue"
   },
   {
     "id": 165,
     "aspectId": 28,
     "value": "white",
-    "name": "Flower White",
-    "aspectString": "flower-white"
+    "name": "Flower White"
   },
   {
     "id": 166,
     "aspectId": 29,
     "value": "eternal",
-    "name": "Flower Eternal",
-    "aspectString": "flower-eternal"
+    "name": "Flower Eternal"
   },
   {
     "id": 167,
     "aspectId": 30,
     "value": "normal",
-    "name": "Normal",
-    "aspectString": "normal-form"
+    "name": "Normal"
   },
   {
     "id": 168,
     "aspectId": 30,
     "value": "sunny",
-    "name": "Sunny Form",
-    "aspectString": "sunny-form"
+    "name": "Sunny Form"
   },
   {
     "id": 169,
     "aspectId": 30,
     "value": "rainy",
-    "name": "Rainy Form",
-    "aspectString": "rainy-form"
+    "name": "Rainy Form"
   },
   {
     "id": 170,
     "aspectId": 30,
     "value": "snowy",
-    "name": "Snowy Form",
-    "aspectString": "snowy-form"
+    "name": "Snowy Form"
   },
   {
     "id": 171,
     "aspectId": 31,
     "value": "galar_bias",
-    "name": "Galar Bias",
-    "aspectString": "region-bias-galar"
+    "name": "Galar Bias"
   },
   {
     "id": 172,
     "aspectId": 32,
     "value": "red",
-    "name": "Red Gilded Chest",
-    "aspectString": "red-gilded-chest"
+    "name": "Red Gilded Chest"
   },
   {
     "id": 173,
     "aspectId": 32,
     "value": "yellow",
-    "name": "Yellow Gilded Chest",
-    "aspectString": "yellow-gilded-chest"
+    "name": "Yellow Gilded Chest"
   },
   {
     "id": 174,
     "aspectId": 32,
     "value": "green",
-    "name": "Green Gilded Chest",
-    "aspectString": "green-gilded-chest"
+    "name": "Green Gilded Chest"
   },
   {
     "id": 175,
     "aspectId": 32,
     "value": "blue",
-    "name": "Blue Gilded Chest",
-    "aspectString": "blue-gilded-chest"
+    "name": "Blue Gilded Chest"
   },
   {
     "id": 176,
     "aspectId": 32,
     "value": "pink",
-    "name": "Pink Gilded Chest",
-    "aspectString": "pink-gilded-chest"
+    "name": "Pink Gilded Chest"
   },
   {
     "id": 177,
     "aspectId": 32,
     "value": "black",
-    "name": "Black Gilded Chest",
-    "aspectString": "black-gilded-chest"
+    "name": "Black Gilded Chest"
   },
   {
     "id": 178,
     "aspectId": 32,
     "value": "white",
-    "name": "White Gilded Chest",
-    "aspectString": "white-gilded-chest"
+    "name": "White Gilded Chest"
   },
   {
     "id": 179,
     "aspectId": 33,
     "value": "land",
-    "name": "Land Forme",
-    "aspectString": "land-forme"
+    "name": "Land Forme"
   },
   {
     "id": 180,
     "aspectId": 33,
     "value": "sky",
-    "name": "Sky Forme",
-    "aspectString": "sky-forme"
+    "name": "Sky Forme"
   },
   {
     "id": 181,
     "aspectId": 34,
     "value": "red",
-    "name": "Gyarados Eye Color Red",
-    "aspectString": "gyarados-eye-color-red"
+    "name": "Gyarados Eye Color Red"
   },
   {
     "id": 182,
     "aspectId": 34,
     "value": "purple",
-    "name": "Gyarados Eye Color Purple",
-    "aspectString": "gyarados-eye-color-purple"
+    "name": "Gyarados Eye Color Purple"
   },
   {
     "id": 183,
     "aspectId": 35,
     "value": "hero",
-    "name": "Hero",
-    "aspectString": "hero"
+    "name": "Hero"
   },
   {
     "id": 184,
     "aspectId": 36,
     "value": "hisui_bias",
-    "name": "Hisui Bias",
-    "aspectString": "region-bias-hisui"
+    "name": "Hisui Bias"
   },
   {
     "id": 185,
     "aspectId": 37,
     "value": "full_belly",
-    "name": "Full Belly Mode",
-    "aspectString": "full_belly-mode"
+    "name": "Full Belly Mode"
   },
   {
     "id": 186,
     "aspectId": 37,
     "value": "hangry",
-    "name": "Hangry Mode",
-    "aspectString": "hangry-mode"
+    "name": "Hangry Mode"
   },
   {
     "id": 187,
     "aspectId": 38,
     "value": "ice",
-    "name": "Ice Rider",
-    "aspectString": "ice-rider"
+    "name": "Ice Rider"
   },
   {
     "id": 188,
     "aspectId": 38,
     "value": "shadow",
-    "name": "Shadow Rider",
-    "aspectString": "shadow-rider"
+    "name": "Shadow Rider"
   },
   {
     "id": 189,
     "aspectId": 39,
     "value": "two-segment",
-    "name": "Two Segment Form",
-    "aspectString": "two-segment-form"
+    "name": "Two Segment Form"
   },
   {
     "id": 190,
     "aspectId": 39,
     "value": "three-segment",
-    "name": "Three Segment Form",
-    "aspectString": "three-segment-form"
+    "name": "Three Segment Form"
   },
   {
     "id": 191,
     "aspectId": 40,
     "value": "two-segment",
-    "name": "Two Segment Form",
-    "aspectString": "two-segment-form"
+    "name": "Two Segment Form"
   },
   {
     "id": 192,
     "aspectId": 40,
     "value": "three-segment",
-    "name": "Three Segment Form",
-    "aspectString": "three-segment-form"
+    "name": "Three Segment Form"
   },
   {
     "id": 193,
     "aspectId": 41,
     "value": "original",
-    "name": "Original Cap",
-    "aspectString": "original-cap"
+    "name": "Original Cap"
   },
   {
     "id": 194,
     "aspectId": 41,
     "value": "hoenn",
-    "name": "Hoenn Cap",
-    "aspectString": "hoenn-cap"
+    "name": "Hoenn Cap"
   },
   {
     "id": 195,
     "aspectId": 41,
     "value": "sinnoh",
-    "name": "Sinnoh Cap",
-    "aspectString": "sinnoh-cap"
+    "name": "Sinnoh Cap"
   },
   {
     "id": 196,
     "aspectId": 41,
     "value": "unova",
-    "name": "Unova Cap",
-    "aspectString": "unova-cap"
+    "name": "Unova Cap"
   },
   {
     "id": 197,
     "aspectId": 41,
     "value": "kalos",
-    "name": "Kalos Cap",
-    "aspectString": "kalos-cap"
+    "name": "Kalos Cap"
   },
   {
     "id": 198,
     "aspectId": 41,
     "value": "alola",
-    "name": "Alola Cap",
-    "aspectString": "alola-cap"
+    "name": "Alola Cap"
   },
   {
     "id": 199,
     "aspectId": 41,
     "value": "partner",
-    "name": "Partner Cap",
-    "aspectString": "partner-cap"
+    "name": "Partner Cap"
   },
   {
     "id": 200,
     "aspectId": 41,
     "value": "world",
-    "name": "World Cap",
-    "aspectString": "world-cap"
+    "name": "World Cap"
   },
   {
     "id": 201,
     "aspectId": 42,
     "value": "none",
-    "name": "Left Ear Spots None",
-    "aspectString": "left-ear-spots-none"
+    "name": "Left Ear Spots None"
   },
   {
     "id": 202,
     "aspectId": 42,
     "value": "1",
-    "name": "Left Ear Spots 1",
-    "aspectString": "left-ear-spots-1"
+    "name": "Left Ear Spots 1"
   },
   {
     "id": 203,
     "aspectId": 42,
     "value": "2",
-    "name": "Left Ear Spots 2",
-    "aspectString": "left-ear-spots-2"
+    "name": "Left Ear Spots 2"
   },
   {
     "id": 204,
     "aspectId": 42,
     "value": "3",
-    "name": "Left Ear Spots 3",
-    "aspectString": "left-ear-spots-3"
+    "name": "Left Ear Spots 3"
   },
   {
     "id": 205,
     "aspectId": 42,
     "value": "4",
-    "name": "Left Ear Spots 4",
-    "aspectString": "left-ear-spots-4"
+    "name": "Left Ear Spots 4"
   },
   {
     "id": 206,
     "aspectId": 42,
     "value": "5",
-    "name": "Left Ear Spots 5",
-    "aspectString": "left-ear-spots-5"
+    "name": "Left Ear Spots 5"
   },
   {
     "id": 207,
     "aspectId": 42,
     "value": "6",
-    "name": "Left Ear Spots 6",
-    "aspectString": "left-ear-spots-6"
+    "name": "Left Ear Spots 6"
   },
   {
     "id": 208,
     "aspectId": 43,
     "value": "neutral",
-    "name": "Neutral Mode",
-    "aspectString": "neutral-mode"
+    "name": "Neutral Mode"
   },
   {
     "id": 209,
     "aspectId": 43,
     "value": "active",
-    "name": "Active Mode",
-    "aspectString": "active-mode"
+    "name": "Active Mode"
   },
   {
     "id": 210,
     "aspectId": 44,
     "value": "standard",
-    "name": "Magikarp Jump Standard",
-    "aspectString": "magikarp-jump-standard"
+    "name": "Magikarp Jump Standard"
   },
   {
     "id": 211,
     "aspectId": 44,
     "value": "apricot-stripes",
-    "name": "Magikarp Jump Apricot Stripes",
-    "aspectString": "magikarp-jump-apricot-stripes"
+    "name": "Magikarp Jump Apricot Stripes"
   },
   {
     "id": 212,
     "aspectId": 44,
     "value": "apricot-tiger",
-    "name": "Magikarp Jump Apricot Tiger",
-    "aspectString": "magikarp-jump-apricot-tiger"
+    "name": "Magikarp Jump Apricot Tiger"
   },
   {
     "id": 213,
     "aspectId": 44,
     "value": "apricot-zebra",
-    "name": "Magikarp Jump Apricot Zebra",
-    "aspectString": "magikarp-jump-apricot-zebra"
+    "name": "Magikarp Jump Apricot Zebra"
   },
   {
     "id": 214,
     "aspectId": 44,
     "value": "black-forehead",
-    "name": "Magikarp Jump Black Forehead",
-    "aspectString": "magikarp-jump-black-forehead"
+    "name": "Magikarp Jump Black Forehead"
   },
   {
     "id": 215,
     "aspectId": 44,
     "value": "black-mask",
-    "name": "Magikarp Jump Black Mask",
-    "aspectString": "magikarp-jump-black-mask"
+    "name": "Magikarp Jump Black Mask"
   },
   {
     "id": 216,
     "aspectId": 44,
     "value": "blue-raindrops",
-    "name": "Magikarp Jump Blue Raindrops",
-    "aspectString": "magikarp-jump-blue-raindrops"
+    "name": "Magikarp Jump Blue Raindrops"
   },
   {
     "id": 217,
     "aspectId": 44,
     "value": "blue-saucy",
-    "name": "Magikarp Jump Blue Saucy",
-    "aspectString": "magikarp-jump-blue-saucy"
+    "name": "Magikarp Jump Blue Saucy"
   },
   {
     "id": 218,
     "aspectId": 44,
     "value": "brown-stripes",
-    "name": "Magikarp Jump Brown Stripes",
-    "aspectString": "magikarp-jump-brown-stripes"
+    "name": "Magikarp Jump Brown Stripes"
   },
   {
     "id": 219,
     "aspectId": 44,
     "value": "brown-tiger",
-    "name": "Magikarp Jump Brown Tiger",
-    "aspectString": "magikarp-jump-brown-tiger"
+    "name": "Magikarp Jump Brown Tiger"
   },
   {
     "id": 220,
     "aspectId": 44,
     "value": "brown-zebra",
-    "name": "Magikarp Jump Brown Zebra",
-    "aspectString": "magikarp-jump-brown-zebra"
+    "name": "Magikarp Jump Brown Zebra"
   },
   {
     "id": 221,
     "aspectId": 44,
     "value": "calico-orange-gold",
-    "name": "Magikarp Jump Calico Orange Gold",
-    "aspectString": "magikarp-jump-calico-orange-gold"
+    "name": "Magikarp Jump Calico Orange Gold"
   },
   {
     "id": 222,
     "aspectId": 44,
     "value": "calico-orange-white",
-    "name": "Magikarp Jump Calico Orange White",
-    "aspectString": "magikarp-jump-calico-orange-white"
+    "name": "Magikarp Jump Calico Orange White"
   },
   {
     "id": 223,
     "aspectId": 44,
     "value": "calico-orange-white-black",
-    "name": "Magikarp Jump Calico Orange White Black",
-    "aspectString": "magikarp-jump-calico-orange-white-black"
+    "name": "Magikarp Jump Calico Orange White Black"
   },
   {
     "id": 224,
     "aspectId": 44,
     "value": "calico-white-orange",
-    "name": "Magikarp Jump Calico White Orange",
-    "aspectString": "magikarp-jump-calico-white-orange"
+    "name": "Magikarp Jump Calico White Orange"
   },
   {
     "id": 225,
     "aspectId": 44,
     "value": "gray-bubbles",
-    "name": "Magikarp Jump Gray Bubbles",
-    "aspectString": "magikarp-jump-gray-bubbles"
+    "name": "Magikarp Jump Gray Bubbles"
   },
   {
     "id": 226,
     "aspectId": 44,
     "value": "gray-diamonds",
-    "name": "Magikarp Jump Gray Diamonds",
-    "aspectString": "magikarp-jump-gray-diamonds"
+    "name": "Magikarp Jump Gray Diamonds"
   },
   {
     "id": 227,
     "aspectId": 44,
     "value": "gray-patches",
-    "name": "Magikarp Jump Gray Patches",
-    "aspectString": "magikarp-jump-gray-patches"
+    "name": "Magikarp Jump Gray Patches"
   },
   {
     "id": 228,
     "aspectId": 44,
     "value": "orange-dapples",
-    "name": "Magikarp Jump Orange Dapples",
-    "aspectString": "magikarp-jump-orange-dapples"
+    "name": "Magikarp Jump Orange Dapples"
   },
   {
     "id": 229,
     "aspectId": 44,
     "value": "orange-forehead",
-    "name": "Magikarp Jump Orange Forehead",
-    "aspectString": "magikarp-jump-orange-forehead"
+    "name": "Magikarp Jump Orange Forehead"
   },
   {
     "id": 230,
     "aspectId": 44,
     "value": "orange-mask",
-    "name": "Magikarp Jump Orange Mask",
-    "aspectString": "magikarp-jump-orange-mask"
+    "name": "Magikarp Jump Orange Mask"
   },
   {
     "id": 231,
     "aspectId": 44,
     "value": "orange-orca",
-    "name": "Magikarp Jump Orange Orca",
-    "aspectString": "magikarp-jump-orange-orca"
+    "name": "Magikarp Jump Orange Orca"
   },
   {
     "id": 232,
     "aspectId": 44,
     "value": "orange-two-tone",
-    "name": "Magikarp Jump Orange Two Tone",
-    "aspectString": "magikarp-jump-orange-two-tone"
+    "name": "Magikarp Jump Orange Two Tone"
   },
   {
     "id": 233,
     "aspectId": 44,
     "value": "pink-dapples",
-    "name": "Magikarp Jump Pink Dapples",
-    "aspectString": "magikarp-jump-pink-dapples"
+    "name": "Magikarp Jump Pink Dapples"
   },
   {
     "id": 234,
     "aspectId": 44,
     "value": "pink-orca",
-    "name": "Magikarp Jump Pink Orca",
-    "aspectString": "magikarp-jump-pink-orca"
+    "name": "Magikarp Jump Pink Orca"
   },
   {
     "id": 235,
     "aspectId": 44,
     "value": "pink-two-tone",
-    "name": "Magikarp Jump Pink Two Tone",
-    "aspectString": "magikarp-jump-pink-two-tone"
+    "name": "Magikarp Jump Pink Two Tone"
   },
   {
     "id": 236,
     "aspectId": 44,
     "value": "purple-bubbles",
-    "name": "Magikarp Jump Purple Bubbles",
-    "aspectString": "magikarp-jump-purple-bubbles"
+    "name": "Magikarp Jump Purple Bubbles"
   },
   {
     "id": 237,
     "aspectId": 44,
     "value": "purple-diamonds",
-    "name": "Magikarp Jump Purple Diamonds",
-    "aspectString": "magikarp-jump-purple-diamonds"
+    "name": "Magikarp Jump Purple Diamonds"
   },
   {
     "id": 238,
     "aspectId": 44,
     "value": "purple-patches",
-    "name": "Magikarp Jump Purple Patches",
-    "aspectString": "magikarp-jump-purple-patches"
+    "name": "Magikarp Jump Purple Patches"
   },
   {
     "id": 239,
     "aspectId": 44,
     "value": "skelly",
-    "name": "Magikarp Jump Skelly",
-    "aspectString": "magikarp-jump-skelly"
+    "name": "Magikarp Jump Skelly"
   },
   {
     "id": 240,
     "aspectId": 44,
     "value": "violet-raindrops",
-    "name": "Magikarp Jump Violet Raindrops",
-    "aspectString": "magikarp-jump-violet-raindrops"
+    "name": "Magikarp Jump Violet Raindrops"
   },
   {
     "id": 241,
     "aspectId": 44,
     "value": "violet-saucy",
-    "name": "Magikarp Jump Violet Saucy",
-    "aspectString": "magikarp-jump-violet-saucy"
+    "name": "Magikarp Jump Violet Saucy"
   },
   {
     "id": 242,
     "aspectId": 45,
     "value": "counterfeit",
-    "name": "Counterfeit",
-    "aspectString": "counterfeit"
+    "name": "Counterfeit"
   },
   {
     "id": 243,
     "aspectId": 45,
     "value": "artisan",
-    "name": "Artisan",
-    "aspectString": "artisan"
+    "name": "Artisan"
   },
   {
     "id": 244,
     "aspectId": 45,
     "value": "unremarkable",
-    "name": "Unremarkable",
-    "aspectString": "unremarkable"
+    "name": "Unremarkable"
   },
   {
     "id": 245,
     "aspectId": 45,
     "value": "masterpiece",
-    "name": "Masterpiece",
-    "aspectString": "masterpiece"
+    "name": "Masterpiece"
   },
   {
     "id": 246,
     "aspectId": 46,
     "value": "three",
-    "name": "Maushold Family Three",
-    "aspectString": "maushold-family-three"
+    "name": "Maushold Family Three"
   },
   {
     "id": 247,
     "aspectId": 46,
     "value": "four",
-    "name": "Maushold Family Four",
-    "aspectString": "maushold-family-four"
+    "name": "Maushold Family Four"
   },
   {
     "id": 248,
     "aspectId": 47,
     "value": "three",
-    "name": "Maushold Family Three",
-    "aspectString": "maushold-family-three"
+    "name": "Maushold Family Three"
   },
   {
     "id": 249,
     "aspectId": 47,
     "value": "four",
-    "name": "Maushold Family Four",
-    "aspectString": "maushold-family-four"
+    "name": "Maushold Family Four"
   },
   {
     "id": 250,
     "aspectId": 48,
     "value": "mega",
-    "name": "Mega",
-    "aspectString": "mega"
+    "name": "Mega"
   },
   {
     "id": 251,
     "aspectId": 48,
     "value": "mega_x",
-    "name": "Mega X",
-    "aspectString": "mega_x"
+    "name": "Mega X"
   },
   {
     "id": 252,
     "aspectId": 48,
     "value": "mega_y",
-    "name": "Mega Y",
-    "aspectString": "mega_y"
+    "name": "Mega Y"
   },
   {
     "id": 253,
     "aspectId": 49,
     "value": "none",
-    "name": "Metals None",
-    "aspectString": "metals-none"
+    "name": "Metals None"
   },
   {
     "id": 254,
     "aspectId": 49,
     "value": "copper",
-    "name": "Metals Copper",
-    "aspectString": "metals-copper"
+    "name": "Metals Copper"
   },
   {
     "id": 255,
     "aspectId": 49,
     "value": "iron",
-    "name": "Metals Iron",
-    "aspectString": "metals-iron"
+    "name": "Metals Iron"
   },
   {
     "id": 256,
     "aspectId": 49,
     "value": "gold",
-    "name": "Metals Gold",
-    "aspectString": "metals-gold"
+    "name": "Metals Gold"
   },
   {
     "id": 257,
     "aspectId": 49,
     "value": "netherite",
-    "name": "Metals Netherite",
-    "aspectString": "metals-netherite"
+    "name": "Metals Netherite"
   },
   {
     "id": 258,
     "aspectId": 50,
     "value": "meteor",
-    "name": "Meteor Form",
-    "aspectString": "meteor-form"
+    "name": "Meteor Form"
   },
   {
     "id": 259,
     "aspectId": 50,
     "value": "core",
-    "name": "Core Form",
-    "aspectString": "core-form"
+    "name": "Core Form"
   },
   {
     "id": 260,
     "aspectId": 51,
     "value": "normal",
-    "name": "Normal",
-    "aspectString": "normal-forme"
+    "name": "Normal"
   },
   {
     "id": 261,
     "aspectId": 51,
     "value": "attack",
-    "name": "Attack Forme",
-    "aspectString": "attack-forme"
+    "name": "Attack Forme"
   },
   {
     "id": 262,
     "aspectId": 51,
     "value": "defense",
-    "name": "Defense Forme",
-    "aspectString": "defense-forme"
+    "name": "Defense Forme"
   },
   {
     "id": 263,
     "aspectId": 51,
     "value": "speed",
-    "name": "Speed Forme",
-    "aspectString": "speed-forme"
+    "name": "Speed Forme"
   },
   {
     "id": 264,
     "aspectId": 52,
     "value": "minecraft",
-    "name": "Minecraft",
-    "aspectString": "minecraft"
+    "name": "Minecraft"
   },
   {
     "id": 265,
     "aspectId": 53,
     "value": "incarnate",
-    "name": "Incarnate Forme",
-    "aspectString": "incarnate-forme"
+    "name": "Incarnate Forme"
   },
   {
     "id": 266,
     "aspectId": 53,
     "value": "therian",
-    "name": "Therian Forme",
-    "aspectString": "therian-forme"
+    "name": "Therian Forme"
   },
   {
     "id": 267,
     "aspectId": 54,
     "value": "gulping",
-    "name": "Gulping Form",
-    "aspectString": "gulping-form"
+    "name": "Gulping Form"
   },
   {
     "id": 268,
     "aspectId": 54,
     "value": "gorging",
-    "name": "Gorging Form",
-    "aspectString": "gorging-form"
+    "name": "Gorging Form"
   },
   {
     "id": 269,
     "aspectId": 55,
     "value": "false",
-    "name": "Mooshtank False",
-    "aspectString": "mooshtank-false"
+    "name": "Mooshtank False"
   },
   {
     "id": 270,
     "aspectId": 55,
     "value": "red",
-    "name": "Mooshtank Red",
-    "aspectString": "mooshtank-red"
+    "name": "Mooshtank Red"
   },
   {
     "id": 271,
     "aspectId": 55,
     "value": "brown",
-    "name": "Mooshtank Brown",
-    "aspectString": "mooshtank-brown"
+    "name": "Mooshtank Brown"
   },
   {
     "id": 272,
     "aspectId": 56,
     "value": "fighting",
-    "name": "Fighting Plate",
-    "aspectString": "fighting-plate"
+    "name": "Fighting Plate"
   },
   {
     "id": 273,
     "aspectId": 56,
     "value": "flying",
-    "name": "Flying Plate",
-    "aspectString": "flying-plate"
+    "name": "Flying Plate"
   },
   {
     "id": 274,
     "aspectId": 56,
     "value": "poison",
-    "name": "Poison Plate",
-    "aspectString": "poison-plate"
+    "name": "Poison Plate"
   },
   {
     "id": 275,
     "aspectId": 56,
     "value": "ground",
-    "name": "Ground Plate",
-    "aspectString": "ground-plate"
+    "name": "Ground Plate"
   },
   {
     "id": 276,
     "aspectId": 56,
     "value": "rock",
-    "name": "Rock Plate",
-    "aspectString": "rock-plate"
+    "name": "Rock Plate"
   },
   {
     "id": 277,
     "aspectId": 56,
     "value": "bug",
-    "name": "Bug Plate",
-    "aspectString": "bug-plate"
+    "name": "Bug Plate"
   },
   {
     "id": 278,
     "aspectId": 56,
     "value": "ghost",
-    "name": "Ghost Plate",
-    "aspectString": "ghost-plate"
+    "name": "Ghost Plate"
   },
   {
     "id": 279,
     "aspectId": 56,
     "value": "steel",
-    "name": "Steel Plate",
-    "aspectString": "steel-plate"
+    "name": "Steel Plate"
   },
   {
     "id": 280,
     "aspectId": 56,
     "value": "fire",
-    "name": "Fire Plate",
-    "aspectString": "fire-plate"
+    "name": "Fire Plate"
   },
   {
     "id": 281,
     "aspectId": 56,
     "value": "water",
-    "name": "Water Plate",
-    "aspectString": "water-plate"
+    "name": "Water Plate"
   },
   {
     "id": 282,
     "aspectId": 56,
     "value": "grass",
-    "name": "Grass Plate",
-    "aspectString": "grass-plate"
+    "name": "Grass Plate"
   },
   {
     "id": 283,
     "aspectId": 56,
     "value": "electric",
-    "name": "Electric Plate",
-    "aspectString": "electric-plate"
+    "name": "Electric Plate"
   },
   {
     "id": 284,
     "aspectId": 56,
     "value": "psychic",
-    "name": "Psychic Plate",
-    "aspectString": "psychic-plate"
+    "name": "Psychic Plate"
   },
   {
     "id": 285,
     "aspectId": 56,
     "value": "ice",
-    "name": "Ice Plate",
-    "aspectString": "ice-plate"
+    "name": "Ice Plate"
   },
   {
     "id": 286,
     "aspectId": 56,
     "value": "dragon",
-    "name": "Dragon Plate",
-    "aspectString": "dragon-plate"
+    "name": "Dragon Plate"
   },
   {
     "id": 287,
     "aspectId": 56,
     "value": "dark",
-    "name": "Dark Plate",
-    "aspectString": "dark-plate"
+    "name": "Dark Plate"
   },
   {
     "id": 288,
     "aspectId": 56,
     "value": "fairy",
-    "name": "Fairy Plate",
-    "aspectString": "fairy-plate"
+    "name": "Fairy Plate"
   },
   {
     "id": 289,
     "aspectId": 57,
     "value": "nectar",
-    "name": "Nectar",
-    "aspectString": "nectar"
+    "name": "Nectar"
   },
   {
     "id": 290,
     "aspectId": 58,
     "value": "none",
-    "name": "Netherite Coating None",
-    "aspectString": "netherite-coating-none"
+    "name": "Netherite Coating None"
   },
   {
     "id": 291,
     "aspectId": 58,
     "value": "stage1",
-    "name": "Netherite Coating Stage1",
-    "aspectString": "netherite-coating-stage1"
+    "name": "Netherite Coating Stage1"
   },
   {
     "id": 292,
     "aspectId": 58,
     "value": "stage2",
-    "name": "Netherite Coating Stage2",
-    "aspectString": "netherite-coating-stage2"
+    "name": "Netherite Coating Stage2"
   },
   {
     "id": 293,
     "aspectId": 58,
     "value": "stage3",
-    "name": "Netherite Coating Stage3",
-    "aspectString": "netherite-coating-stage3"
+    "name": "Netherite Coating Stage3"
   },
   {
     "id": 294,
     "aspectId": 58,
     "value": "stage4",
-    "name": "Netherite Coating Stage4",
-    "aspectString": "netherite-coating-stage4"
+    "name": "Netherite Coating Stage4"
   },
   {
     "id": 295,
     "aspectId": 58,
     "value": "stage5",
-    "name": "Netherite Coating Stage5",
-    "aspectString": "netherite-coating-stage5"
+    "name": "Netherite Coating Stage5"
   },
   {
     "id": 296,
     "aspectId": 58,
     "value": "stage6",
-    "name": "Netherite Coating Stage6",
-    "aspectString": "netherite-coating-stage6"
+    "name": "Netherite Coating Stage6"
   },
   {
     "id": 297,
     "aspectId": 58,
     "value": "stage7",
-    "name": "Netherite Coating Stage7",
-    "aspectString": "netherite-coating-stage7"
+    "name": "Netherite Coating Stage7"
   },
   {
     "id": 298,
     "aspectId": 58,
     "value": "full",
-    "name": "Netherite Coating Full",
-    "aspectString": "netherite-coating-full"
+    "name": "Netherite Coating Full"
   },
   {
     "id": 299,
     "aspectId": 59,
     "value": "teal",
-    "name": "Teal Mask",
-    "aspectString": "teal-mask"
+    "name": "Teal Mask"
   },
   {
     "id": 300,
     "aspectId": 59,
     "value": "wellspring",
-    "name": "Wellspring Mask",
-    "aspectString": "wellspring-mask"
+    "name": "Wellspring Mask"
   },
   {
     "id": 301,
     "aspectId": 59,
     "value": "hearthflame",
-    "name": "Hearthflame Mask",
-    "aspectString": "hearthflame-mask"
+    "name": "Hearthflame Mask"
   },
   {
     "id": 302,
     "aspectId": 59,
     "value": "cornerstone",
-    "name": "Cornerstone Mask",
-    "aspectString": "cornerstone-mask"
+    "name": "Cornerstone Mask"
   },
   {
     "id": 303,
     "aspectId": 60,
     "value": "altered",
-    "name": "Altered Forme",
-    "aspectString": "altered-forme"
+    "name": "Altered Forme"
   },
   {
     "id": 304,
     "aspectId": 60,
     "value": "origin",
-    "name": "Origin Forme",
-    "aspectString": "origin-forme"
+    "name": "Origin Forme"
   },
   {
     "id": 305,
     "aspectId": 61,
     "value": "original",
-    "name": "Original Color",
-    "aspectString": "original-color"
+    "name": "Original Color"
   },
   {
     "id": 306,
     "aspectId": 62,
     "value": "kanto",
-    "name": "Pattern Kanto",
-    "aspectString": "pattern-kanto"
+    "name": "Pattern Kanto"
   },
   {
     "id": 307,
     "aspectId": 62,
     "value": "johto",
-    "name": "Pattern Johto",
-    "aspectString": "pattern-johto"
+    "name": "Pattern Johto"
   },
   {
     "id": 308,
     "aspectId": 62,
     "value": "hoenn",
-    "name": "Pattern Hoenn",
-    "aspectString": "pattern-hoenn"
+    "name": "Pattern Hoenn"
   },
   {
     "id": 309,
     "aspectId": 62,
     "value": "sinnoh",
-    "name": "Pattern Sinnoh",
-    "aspectString": "pattern-sinnoh"
+    "name": "Pattern Sinnoh"
   },
   {
     "id": 310,
     "aspectId": 62,
     "value": "unova",
-    "name": "Pattern Unova",
-    "aspectString": "pattern-unova"
+    "name": "Pattern Unova"
   },
   {
     "id": 311,
     "aspectId": 62,
     "value": "kalos",
-    "name": "Pattern Kalos",
-    "aspectString": "pattern-kalos"
+    "name": "Pattern Kalos"
   },
   {
     "id": 312,
     "aspectId": 62,
     "value": "alola",
-    "name": "Pattern Alola",
-    "aspectString": "pattern-alola"
+    "name": "Pattern Alola"
   },
   {
     "id": 313,
     "aspectId": 62,
     "value": "galar",
-    "name": "Pattern Galar",
-    "aspectString": "pattern-galar"
+    "name": "Pattern Galar"
   },
   {
     "id": 314,
     "aspectId": 62,
     "value": "hisui",
-    "name": "Pattern Hisui",
-    "aspectString": "pattern-hisui"
+    "name": "Pattern Hisui"
   },
   {
     "id": 315,
     "aspectId": 62,
     "value": "paldea",
-    "name": "Pattern Paldea",
-    "aspectString": "pattern-paldea"
+    "name": "Pattern Paldea"
   },
   {
     "id": 316,
     "aspectId": 63,
     "value": "ice_face",
-    "name": "Ice Face",
-    "aspectString": "ice_face"
+    "name": "Ice Face"
   },
   {
     "id": 317,
     "aspectId": 63,
     "value": "noice_face",
-    "name": "Noice Face",
-    "aspectString": "noice_face"
+    "name": "Noice Face"
   },
   {
     "id": 318,
     "aspectId": 64,
     "value": "50",
-    "name": "50 Percent",
-    "aspectString": "50-percent"
+    "name": "50 Percent"
   },
   {
     "id": 319,
     "aspectId": 64,
     "value": "10",
-    "name": "10 Percent",
-    "aspectString": "10-percent"
+    "name": "10 Percent"
   },
   {
     "id": 320,
     "aspectId": 64,
     "value": "complete",
-    "name": "Complete Percent",
-    "aspectString": "complete-percent"
+    "name": "Complete Percent"
   },
   {
     "id": 321,
     "aspectId": 65,
     "value": "natural",
-    "name": "Natural Trim",
-    "aspectString": "natural-trim"
+    "name": "Natural Trim"
   },
   {
     "id": 322,
     "aspectId": 65,
     "value": "heart",
-    "name": "Heart Trim",
-    "aspectString": "heart-trim"
+    "name": "Heart Trim"
   },
   {
     "id": 323,
     "aspectId": 65,
     "value": "star",
-    "name": "Star Trim",
-    "aspectString": "star-trim"
+    "name": "Star Trim"
   },
   {
     "id": 324,
     "aspectId": 65,
     "value": "diamond",
-    "name": "Diamond Trim",
-    "aspectString": "diamond-trim"
+    "name": "Diamond Trim"
   },
   {
     "id": 325,
     "aspectId": 65,
     "value": "debutante",
-    "name": "Debutante Trim",
-    "aspectString": "debutante-trim"
+    "name": "Debutante Trim"
   },
   {
     "id": 326,
     "aspectId": 65,
     "value": "matron",
-    "name": "Matron Trim",
-    "aspectString": "matron-trim"
+    "name": "Matron Trim"
   },
   {
     "id": 327,
     "aspectId": 65,
     "value": "dandy",
-    "name": "Dandy Trim",
-    "aspectString": "dandy-trim"
+    "name": "Dandy Trim"
   },
   {
     "id": 328,
     "aspectId": 65,
     "value": "la_reine",
-    "name": "La Reine Trim",
-    "aspectString": "la_reine-trim"
+    "name": "La Reine Trim"
   },
   {
     "id": 329,
     "aspectId": 65,
     "value": "kabuki",
-    "name": "Kabuki Trim",
-    "aspectString": "kabuki-trim"
+    "name": "Kabuki Trim"
   },
   {
     "id": 330,
     "aspectId": 65,
     "value": "pharaoh",
-    "name": "Pharaoh Trim",
-    "aspectString": "pharaoh-trim"
+    "name": "Pharaoh Trim"
   },
   {
     "id": 331,
     "aspectId": 65,
     "value": "matcha",
-    "name": "Matcha Trim",
-    "aspectString": "matcha-trim"
+    "name": "Matcha Trim"
   },
   {
     "id": 332,
     "aspectId": 65,
     "value": "lavender",
-    "name": "Lavender Trim",
-    "aspectString": "lavender-trim"
+    "name": "Lavender Trim"
   },
   {
     "id": 333,
     "aspectId": 65,
     "value": "cinnamon",
-    "name": "Cinnamon Trim",
-    "aspectString": "cinnamon-trim"
+    "name": "Cinnamon Trim"
   },
   {
     "id": 334,
     "aspectId": 65,
     "value": "crusader",
-    "name": "Crusader Trim",
-    "aspectString": "crusader-trim"
+    "name": "Crusader Trim"
   },
   {
     "id": 335,
     "aspectId": 65,
     "value": "rocker",
-    "name": "Rocker Trim",
-    "aspectString": "rocker-trim"
+    "name": "Rocker Trim"
   },
   {
     "id": 336,
     "aspectId": 65,
     "value": "mourner",
-    "name": "Mourner Trim",
-    "aspectString": "mourner-trim"
+    "name": "Mourner Trim"
   },
   {
     "id": 337,
     "aspectId": 66,
     "value": "power_construct",
-    "name": "Power Construct",
-    "aspectString": "power_construct"
+    "name": "Power Construct"
   },
   {
     "id": 338,
     "aspectId": 67,
     "value": "dusk",
-    "name": "Dusk Fusion",
-    "aspectString": "dusk-fusion"
+    "name": "Dusk Fusion"
   },
   {
     "id": 339,
     "aspectId": 67,
     "value": "dawn",
-    "name": "Dawn Fusion",
-    "aspectString": "dawn-fusion"
+    "name": "Dawn Fusion"
   },
   {
     "id": 340,
     "aspectId": 67,
     "value": "ultra",
-    "name": "Ultra Fusion",
-    "aspectString": "ultra-fusion"
+    "name": "Ultra Fusion"
   },
   {
     "id": 341,
     "aspectId": 68,
     "value": "average",
-    "name": "Pumpkin Size Average",
-    "aspectString": "pumpkin-size-average"
+    "name": "Pumpkin Size Average"
   },
   {
     "id": 342,
     "aspectId": 68,
     "value": "small",
-    "name": "Pumpkin Size Small",
-    "aspectString": "pumpkin-size-small"
+    "name": "Pumpkin Size Small"
   },
   {
     "id": 343,
     "aspectId": 68,
     "value": "large",
-    "name": "Pumpkin Size Large",
-    "aspectString": "pumpkin-size-large"
+    "name": "Pumpkin Size Large"
   },
   {
     "id": 344,
     "aspectId": 68,
     "value": "super",
-    "name": "Pumpkin Size Super",
-    "aspectString": "pumpkin-size-super"
+    "name": "Pumpkin Size Super"
   },
   {
     "id": 345,
     "aspectId": 69,
     "value": "amped",
-    "name": "Amped Form",
-    "aspectString": "amped-form"
+    "name": "Amped Form"
   },
   {
     "id": 346,
     "aspectId": 69,
     "value": "low_key",
-    "name": "Low Key Form",
-    "aspectString": "low_key-form"
+    "name": "Low Key Form"
   },
   {
     "id": 347,
     "aspectId": 70,
     "value": "alolan",
-    "name": "Alolan",
-    "aspectString": "alolan"
+    "name": "Alolan"
   },
   {
     "id": 348,
     "aspectId": 70,
     "value": "galarian",
-    "name": "Galarian",
-    "aspectString": "galarian"
+    "name": "Galarian"
   },
   {
     "id": 349,
     "aspectId": 70,
     "value": "hisuian",
-    "name": "Hisuian",
-    "aspectString": "hisuian"
+    "name": "Hisuian"
   },
   {
     "id": 350,
     "aspectId": 70,
     "value": "paldean",
-    "name": "Paldean",
-    "aspectString": "paldean"
+    "name": "Paldean"
   },
   {
     "id": 351,
     "aspectId": 71,
     "value": "standard",
-    "name": "Standard",
-    "aspectString": "standard"
+    "name": "Standard"
   },
   {
     "id": 352,
     "aspectId": 71,
     "value": "primal",
-    "name": "Primal",
-    "aspectString": "primal"
+    "name": "Primal"
   },
   {
     "id": 353,
     "aspectId": 72,
     "value": "none",
-    "name": "Right Ear Spots None",
-    "aspectString": "right-ear-spots-none"
+    "name": "Right Ear Spots None"
   },
   {
     "id": 354,
     "aspectId": 72,
     "value": "1",
-    "name": "Right Ear Spots 1",
-    "aspectString": "right-ear-spots-1"
+    "name": "Right Ear Spots 1"
   },
   {
     "id": 355,
     "aspectId": 72,
     "value": "2",
-    "name": "Right Ear Spots 2",
-    "aspectString": "right-ear-spots-2"
+    "name": "Right Ear Spots 2"
   },
   {
     "id": 356,
     "aspectId": 72,
     "value": "3",
-    "name": "Right Ear Spots 3",
-    "aspectString": "right-ear-spots-3"
+    "name": "Right Ear Spots 3"
   },
   {
     "id": 357,
     "aspectId": 72,
     "value": "4",
-    "name": "Right Ear Spots 4",
-    "aspectString": "right-ear-spots-4"
+    "name": "Right Ear Spots 4"
   },
   {
     "id": 358,
     "aspectId": 72,
     "value": "5",
-    "name": "Right Ear Spots 5",
-    "aspectString": "right-ear-spots-5"
+    "name": "Right Ear Spots 5"
   },
   {
     "id": 359,
     "aspectId": 72,
     "value": "6",
-    "name": "Right Ear Spots 6",
-    "aspectString": "right-ear-spots-6"
+    "name": "Right Ear Spots 6"
   },
   {
     "id": 360,
     "aspectId": 73,
     "value": "fighting",
-    "name": "Fighting Memory",
-    "aspectString": "fighting-memory"
+    "name": "Fighting Memory"
   },
   {
     "id": 361,
     "aspectId": 73,
     "value": "flying",
-    "name": "Flying Memory",
-    "aspectString": "flying-memory"
+    "name": "Flying Memory"
   },
   {
     "id": 362,
     "aspectId": 73,
     "value": "poison",
-    "name": "Poison Memory",
-    "aspectString": "poison-memory"
+    "name": "Poison Memory"
   },
   {
     "id": 363,
     "aspectId": 73,
     "value": "ground",
-    "name": "Ground Memory",
-    "aspectString": "ground-memory"
+    "name": "Ground Memory"
   },
   {
     "id": 364,
     "aspectId": 73,
     "value": "rock",
-    "name": "Rock Memory",
-    "aspectString": "rock-memory"
+    "name": "Rock Memory"
   },
   {
     "id": 365,
     "aspectId": 73,
     "value": "bug",
-    "name": "Bug Memory",
-    "aspectString": "bug-memory"
+    "name": "Bug Memory"
   },
   {
     "id": 366,
     "aspectId": 73,
     "value": "ghost",
-    "name": "Ghost Memory",
-    "aspectString": "ghost-memory"
+    "name": "Ghost Memory"
   },
   {
     "id": 367,
     "aspectId": 73,
     "value": "steel",
-    "name": "Steel Memory",
-    "aspectString": "steel-memory"
+    "name": "Steel Memory"
   },
   {
     "id": 368,
     "aspectId": 73,
     "value": "fire",
-    "name": "Fire Memory",
-    "aspectString": "fire-memory"
+    "name": "Fire Memory"
   },
   {
     "id": 369,
     "aspectId": 73,
     "value": "water",
-    "name": "Water Memory",
-    "aspectString": "water-memory"
+    "name": "Water Memory"
   },
   {
     "id": 370,
     "aspectId": 73,
     "value": "grass",
-    "name": "Grass Memory",
-    "aspectString": "grass-memory"
+    "name": "Grass Memory"
   },
   {
     "id": 371,
     "aspectId": 73,
     "value": "electric",
-    "name": "Electric Memory",
-    "aspectString": "electric-memory"
+    "name": "Electric Memory"
   },
   {
     "id": 372,
     "aspectId": 73,
     "value": "psychic",
-    "name": "Psychic Memory",
-    "aspectString": "psychic-memory"
+    "name": "Psychic Memory"
   },
   {
     "id": 373,
     "aspectId": 73,
     "value": "ice",
-    "name": "Ice Memory",
-    "aspectString": "ice-memory"
+    "name": "Ice Memory"
   },
   {
     "id": 374,
     "aspectId": 73,
     "value": "dragon",
-    "name": "Dragon Memory",
-    "aspectString": "dragon-memory"
+    "name": "Dragon Memory"
   },
   {
     "id": 375,
     "aspectId": 73,
     "value": "dark",
-    "name": "Dark Memory",
-    "aspectString": "dark-memory"
+    "name": "Dark Memory"
   },
   {
     "id": 376,
     "aspectId": 73,
     "value": "fairy",
-    "name": "Fairy Memory",
-    "aspectString": "fairy-memory"
+    "name": "Fairy Memory"
   },
   {
     "id": 377,
     "aspectId": 74,
     "value": "roaming",
-    "name": "Roaming",
-    "aspectString": "roaming"
+    "name": "Roaming"
   },
   {
     "id": 378,
     "aspectId": 75,
     "value": "dada",
-    "name": "Dada Cape",
-    "aspectString": "dada-cape"
+    "name": "Dada Cape"
   },
   {
     "id": 379,
     "aspectId": 76,
     "value": "solo",
-    "name": "Solo Form",
-    "aspectString": "solo-form"
+    "name": "Solo Form"
   },
   {
     "id": 380,
     "aspectId": 76,
     "value": "school",
-    "name": "School Form",
-    "aspectString": "school-form"
+    "name": "School Form"
   },
   {
     "id": 381,
     "aspectId": 77,
     "value": "west",
-    "name": "West Sea",
-    "aspectString": "west-sea"
+    "name": "West Sea"
   },
   {
     "id": 382,
     "aspectId": 77,
     "value": "east",
-    "name": "East Sea",
-    "aspectString": "east-sea"
+    "name": "East Sea"
   },
   {
     "id": 383,
     "aspectId": 78,
     "value": "spring",
-    "name": "Spring",
-    "aspectString": "spring"
+    "name": "Spring"
   },
   {
     "id": 384,
     "aspectId": 78,
     "value": "summer",
-    "name": "Summer",
-    "aspectString": "summer"
+    "name": "Summer"
   },
   {
     "id": 385,
     "aspectId": 78,
     "value": "autumn",
-    "name": "Autumn",
-    "aspectString": "autumn"
+    "name": "Autumn"
   },
   {
     "id": 386,
     "aspectId": 78,
     "value": "winter",
-    "name": "Winter",
-    "aspectString": "winter"
+    "name": "Winter"
   },
   {
     "id": 387,
     "aspectId": 79,
     "value": "classic",
-    "name": "Snake Pattern Classic",
-    "aspectString": "snake-pattern-classic"
+    "name": "Snake Pattern Classic"
   },
   {
     "id": 388,
     "aspectId": 79,
     "value": "legacy",
-    "name": "Snake Pattern Legacy",
-    "aspectString": "snake-pattern-legacy"
+    "name": "Snake Pattern Legacy"
   },
   {
     "id": 389,
     "aspectId": 79,
     "value": "attack",
-    "name": "Snake Pattern Attack",
-    "aspectString": "snake-pattern-attack"
+    "name": "Snake Pattern Attack"
   },
   {
     "id": 390,
     "aspectId": 79,
     "value": "dark",
-    "name": "Snake Pattern Dark",
-    "aspectString": "snake-pattern-dark"
+    "name": "Snake Pattern Dark"
   },
   {
     "id": 391,
     "aspectId": 79,
     "value": "elusive",
-    "name": "Snake Pattern Elusive",
-    "aspectString": "snake-pattern-elusive"
+    "name": "Snake Pattern Elusive"
   },
   {
     "id": 392,
     "aspectId": 79,
     "value": "heart",
-    "name": "Snake Pattern Heart",
-    "aspectString": "snake-pattern-heart"
+    "name": "Snake Pattern Heart"
   },
   {
     "id": 393,
     "aspectId": 79,
     "value": "speed",
-    "name": "Snake Pattern Speed",
-    "aspectString": "snake-pattern-speed"
+    "name": "Snake Pattern Speed"
   },
   {
     "id": 394,
     "aspectId": 79,
     "value": "sound",
-    "name": "Snake Pattern Sound",
-    "aspectString": "snake-pattern-sound"
+    "name": "Snake Pattern Sound"
   },
   {
     "id": 395,
     "aspectId": 80,
     "value": "aria",
-    "name": "Aria Forme",
-    "aspectString": "aria-forme"
+    "name": "Aria Forme"
   },
   {
     "id": 396,
     "aspectId": 80,
     "value": "pirouette",
-    "name": "Pirouette Forme",
-    "aspectString": "pirouette-forme"
+    "name": "Pirouette Forme"
   },
   {
     "id": 397,
     "aspectId": 81,
     "value": "none",
-    "name": "Special Spots None",
-    "aspectString": "special-spots-none"
+    "name": "Special Spots None"
   },
   {
     "id": 398,
     "aspectId": 81,
     "value": "1",
-    "name": "Special Spots 1",
-    "aspectString": "special-spots-1"
+    "name": "Special Spots 1"
   },
   {
     "id": 399,
     "aspectId": 81,
     "value": "2",
-    "name": "Special Spots 2",
-    "aspectString": "special-spots-2"
+    "name": "Special Spots 2"
   },
   {
     "id": 400,
     "aspectId": 81,
     "value": "3",
-    "name": "Special Spots 3",
-    "aspectString": "special-spots-3"
+    "name": "Special Spots 3"
   },
   {
     "id": 401,
     "aspectId": 81,
     "value": "4",
-    "name": "Special Spots 4",
-    "aspectString": "special-spots-4"
+    "name": "Special Spots 4"
   },
   {
     "id": 402,
     "aspectId": 82,
     "value": "green",
-    "name": "Squawkabilly Color Green",
-    "aspectString": "squawkabilly-color-green"
+    "name": "Squawkabilly Color Green"
   },
   {
     "id": 403,
     "aspectId": 82,
     "value": "blue",
-    "name": "Squawkabilly Color Blue",
-    "aspectString": "squawkabilly-color-blue"
+    "name": "Squawkabilly Color Blue"
   },
   {
     "id": 404,
     "aspectId": 82,
     "value": "yellow",
-    "name": "Squawkabilly Color Yellow",
-    "aspectString": "squawkabilly-color-yellow"
+    "name": "Squawkabilly Color Yellow"
   },
   {
     "id": 405,
     "aspectId": 82,
     "value": "gray",
-    "name": "Squawkabilly Color Gray",
-    "aspectString": "squawkabilly-color-gray"
+    "name": "Squawkabilly Color Gray"
   },
   {
     "id": 406,
     "aspectId": 83,
     "value": "shield",
-    "name": "Shield Forme",
-    "aspectString": "shield-forme"
+    "name": "Shield Forme"
   },
   {
     "id": 407,
     "aspectId": 83,
     "value": "blade",
-    "name": "Blade Forme",
-    "aspectString": "blade-forme"
+    "name": "Blade Forme"
   },
   {
     "id": 408,
     "aspectId": 84,
     "value": "ordinary",
-    "name": "Ordinary Form",
-    "aspectString": "ordinary-form"
+    "name": "Ordinary Form"
   },
   {
     "id": 409,
     "aspectId": 84,
     "value": "resolute",
-    "name": "Resolute Form",
-    "aspectString": "resolute-form"
+    "name": "Resolute Form"
   },
   {
     "id": 410,
     "aspectId": 85,
     "value": "curly",
-    "name": "Tatsugiri Texture Curly",
-    "aspectString": "tatsugiri-texture-curly"
+    "name": "Tatsugiri Texture Curly"
   },
   {
     "id": 411,
     "aspectId": 85,
     "value": "droopy",
-    "name": "Tatsugiri Texture Droopy",
-    "aspectString": "tatsugiri-texture-droopy"
+    "name": "Tatsugiri Texture Droopy"
   },
   {
     "id": 412,
     "aspectId": 85,
     "value": "stretchy",
-    "name": "Tatsugiri Texture Stretchy",
-    "aspectString": "tatsugiri-texture-stretchy"
+    "name": "Tatsugiri Texture Stretchy"
   },
   {
     "id": 413,
     "aspectId": 86,
     "value": "phony",
-    "name": "Phony",
-    "aspectString": "phony"
+    "name": "Phony"
   },
   {
     "id": 414,
     "aspectId": 86,
     "value": "antique",
-    "name": "Antique",
-    "aspectString": "antique"
+    "name": "Antique"
   },
   {
     "id": 415,
     "aspectId": 87,
     "value": "water",
-    "name": "Water Drive",
-    "aspectString": "water-drive"
+    "name": "Water Drive"
   },
   {
     "id": 416,
     "aspectId": 87,
     "value": "electric",
-    "name": "Electric Drive",
-    "aspectString": "electric-drive"
+    "name": "Electric Drive"
   },
   {
     "id": 417,
     "aspectId": 87,
     "value": "fire",
-    "name": "Fire Drive",
-    "aspectString": "fire-drive"
+    "name": "Fire Drive"
   },
   {
     "id": 418,
     "aspectId": 87,
     "value": "ice",
-    "name": "Ice Drive",
-    "aspectString": "ice-drive"
+    "name": "Ice Drive"
   },
   {
     "id": 419,
     "aspectId": 88,
     "value": "normal",
-    "name": "Normal",
-    "aspectString": "normal-form"
+    "name": "Normal"
   },
   {
     "id": 420,
     "aspectId": 88,
     "value": "terastal",
-    "name": "Terastal Form",
-    "aspectString": "terastal-form"
+    "name": "Terastal Form"
   },
   {
     "id": 421,
     "aspectId": 88,
     "value": "stellar",
-    "name": "Stellar Form",
-    "aspectString": "stellar-form"
+    "name": "Stellar Form"
   },
   {
     "id": 422,
     "aspectId": 89,
     "value": "none",
-    "name": "Tree None",
-    "aspectString": "tree-none"
+    "name": "Tree None"
   },
   {
     "id": 423,
     "aspectId": 89,
     "value": "oak",
-    "name": "Tree Oak",
-    "aspectString": "tree-oak"
+    "name": "Tree Oak"
   },
   {
     "id": 424,
     "aspectId": 89,
     "value": "birch",
-    "name": "Tree Birch",
-    "aspectString": "tree-birch"
+    "name": "Tree Birch"
   },
   {
     "id": 425,
     "aspectId": 89,
     "value": "darkoak",
-    "name": "Tree Darkoak",
-    "aspectString": "tree-darkoak"
+    "name": "Tree Darkoak"
   },
   {
     "id": 426,
     "aspectId": 89,
     "value": "acacia",
-    "name": "Tree Acacia",
-    "aspectString": "tree-acacia"
+    "name": "Tree Acacia"
   },
   {
     "id": 427,
     "aspectId": 89,
     "value": "azalea",
-    "name": "Tree Azalea",
-    "aspectString": "tree-azalea"
+    "name": "Tree Azalea"
   },
   {
     "id": 428,
     "aspectId": 89,
     "value": "swamp",
-    "name": "Tree Swamp",
-    "aspectString": "tree-swamp"
+    "name": "Tree Swamp"
   },
   {
     "id": 429,
     "aspectId": 89,
     "value": "jungle",
-    "name": "Tree Jungle",
-    "aspectString": "tree-jungle"
+    "name": "Tree Jungle"
   },
   {
     "id": 430,
     "aspectId": 89,
     "value": "spruce",
-    "name": "Tree Spruce",
-    "aspectString": "tree-spruce"
+    "name": "Tree Spruce"
   },
   {
     "id": 431,
     "aspectId": 89,
     "value": "mangrove",
-    "name": "Tree Mangrove",
-    "aspectString": "tree-mangrove"
+    "name": "Tree Mangrove"
   },
   {
     "id": 432,
     "aspectId": 89,
     "value": "cherry",
-    "name": "Tree Cherry",
-    "aspectString": "tree-cherry"
+    "name": "Tree Cherry"
   },
   {
     "id": 433,
     "aspectId": 89,
     "value": "apricorn",
-    "name": "Tree Apricorn",
-    "aspectString": "tree-apricorn"
+    "name": "Tree Apricorn"
   },
   {
     "id": 434,
     "aspectId": 89,
     "value": "crimson",
-    "name": "Tree Crimson",
-    "aspectString": "tree-crimson"
+    "name": "Tree Crimson"
   },
   {
     "id": 435,
     "aspectId": 89,
     "value": "warped",
-    "name": "Tree Warped",
-    "aspectString": "tree-warped"
+    "name": "Tree Warped"
   },
   {
     "id": 436,
     "aspectId": 89,
     "value": "apricorn",
-    "name": "Tree Apricorn",
-    "aspectString": "tree-apricorn"
+    "name": "Tree Apricorn"
   },
   {
     "id": 437,
     "aspectId": 89,
     "value": "saccharine",
-    "name": "Tree Saccharine",
-    "aspectString": "tree-saccharine"
+    "name": "Tree Saccharine"
   },
   {
     "id": 438,
     "aspectId": 90,
     "value": "valencian",
-    "name": "Valencian",
-    "aspectString": "valencian"
+    "name": "Valencian"
   },
   {
     "id": 439,
     "aspectId": 91,
     "value": "icy-snow",
-    "name": "Vivillon Wings Icy Snow",
-    "aspectString": "vivillon-wings-icy-snow"
+    "name": "Vivillon Wings Icy Snow"
   },
   {
     "id": 440,
     "aspectId": 91,
     "value": "polar",
-    "name": "Vivillon Wings Polar",
-    "aspectString": "vivillon-wings-polar"
+    "name": "Vivillon Wings Polar"
   },
   {
     "id": 441,
     "aspectId": 91,
     "value": "tundra",
-    "name": "Vivillon Wings Tundra",
-    "aspectString": "vivillon-wings-tundra"
+    "name": "Vivillon Wings Tundra"
   },
   {
     "id": 442,
     "aspectId": 91,
     "value": "continental",
-    "name": "Vivillon Wings Continental",
-    "aspectString": "vivillon-wings-continental"
+    "name": "Vivillon Wings Continental"
   },
   {
     "id": 443,
     "aspectId": 91,
     "value": "garden",
-    "name": "Vivillon Wings Garden",
-    "aspectString": "vivillon-wings-garden"
+    "name": "Vivillon Wings Garden"
   },
   {
     "id": 444,
     "aspectId": 91,
     "value": "elegant",
-    "name": "Vivillon Wings Elegant",
-    "aspectString": "vivillon-wings-elegant"
+    "name": "Vivillon Wings Elegant"
   },
   {
     "id": 445,
     "aspectId": 91,
     "value": "meadow",
-    "name": "Vivillon Wings Meadow",
-    "aspectString": "vivillon-wings-meadow"
+    "name": "Vivillon Wings Meadow"
   },
   {
     "id": 446,
     "aspectId": 91,
     "value": "modern",
-    "name": "Vivillon Wings Modern",
-    "aspectString": "vivillon-wings-modern"
+    "name": "Vivillon Wings Modern"
   },
   {
     "id": 447,
     "aspectId": 91,
     "value": "marine",
-    "name": "Vivillon Wings Marine",
-    "aspectString": "vivillon-wings-marine"
+    "name": "Vivillon Wings Marine"
   },
   {
     "id": 448,
     "aspectId": 91,
     "value": "archipelago",
-    "name": "Vivillon Wings Archipelago",
-    "aspectString": "vivillon-wings-archipelago"
+    "name": "Vivillon Wings Archipelago"
   },
   {
     "id": 449,
     "aspectId": 91,
     "value": "high-plains",
-    "name": "Vivillon Wings High Plains",
-    "aspectString": "vivillon-wings-high-plains"
+    "name": "Vivillon Wings High Plains"
   },
   {
     "id": 450,
     "aspectId": 91,
     "value": "sandstorm",
-    "name": "Vivillon Wings Sandstorm",
-    "aspectString": "vivillon-wings-sandstorm"
+    "name": "Vivillon Wings Sandstorm"
   },
   {
     "id": 451,
     "aspectId": 91,
     "value": "river",
-    "name": "Vivillon Wings River",
-    "aspectString": "vivillon-wings-river"
+    "name": "Vivillon Wings River"
   },
   {
     "id": 452,
     "aspectId": 91,
     "value": "monsoon",
-    "name": "Vivillon Wings Monsoon",
-    "aspectString": "vivillon-wings-monsoon"
+    "name": "Vivillon Wings Monsoon"
   },
   {
     "id": 453,
     "aspectId": 91,
     "value": "savanna",
-    "name": "Vivillon Wings Savanna",
-    "aspectString": "vivillon-wings-savanna"
+    "name": "Vivillon Wings Savanna"
   },
   {
     "id": 454,
     "aspectId": 91,
     "value": "sun",
-    "name": "Vivillon Wings Sun",
-    "aspectString": "vivillon-wings-sun"
+    "name": "Vivillon Wings Sun"
   },
   {
     "id": 455,
     "aspectId": 91,
     "value": "ocean",
-    "name": "Vivillon Wings Ocean",
-    "aspectString": "vivillon-wings-ocean"
+    "name": "Vivillon Wings Ocean"
   },
   {
     "id": 456,
     "aspectId": 91,
     "value": "jungle",
-    "name": "Vivillon Wings Jungle",
-    "aspectString": "vivillon-wings-jungle"
+    "name": "Vivillon Wings Jungle"
   },
   {
     "id": 457,
     "aspectId": 91,
     "value": "inferno",
-    "name": "Vivillon Wings Inferno",
-    "aspectString": "vivillon-wings-inferno"
+    "name": "Vivillon Wings Inferno"
   },
   {
     "id": 458,
     "aspectId": 91,
     "value": "void",
-    "name": "Vivillon Wings Void",
-    "aspectString": "vivillon-wings-void"
+    "name": "Vivillon Wings Void"
   },
   {
     "id": 459,
     "aspectId": 91,
     "value": "forsaken",
-    "name": "Vivillon Wings Forsaken",
-    "aspectString": "vivillon-wings-forsaken"
+    "name": "Vivillon Wings Forsaken"
   },
   {
     "id": 460,
     "aspectId": 92,
     "value": "fancy",
-    "name": "Vivillon Wings Fancy",
-    "aspectString": "vivillon-wings-fancy"
+    "name": "Vivillon Wings Fancy"
   },
   {
     "id": 461,
     "aspectId": 92,
     "value": "poke-ball",
-    "name": "Vivillon Wings Poke Ball",
-    "aspectString": "vivillon-wings-poke-ball"
+    "name": "Vivillon Wings Poke Ball"
   },
   {
     "id": 462,
     "aspectId": 93,
     "value": "whiscash_nero",
-    "name": "Whiscash Nero",
-    "aspectString": "whiscash_nero"
+    "name": "Whiscash Nero"
   },
   {
     "id": 463,
     "aspectId": 94,
     "value": "dusk",
-    "name": "Dusk Form",
-    "aspectString": "dusk-form"
+    "name": "Dusk Form"
   },
   {
     "id": 464,
     "aspectId": 94,
     "value": "midday",
-    "name": "Midday Form",
-    "aspectString": "midday-form"
+    "name": "Midday Form"
   },
   {
     "id": 465,
     "aspectId": 94,
     "value": "midnight",
-    "name": "Midnight Form",
-    "aspectString": "midnight-form"
+    "name": "Midnight Form"
   },
   {
     "id": 466,
     "aspectId": 95,
     "value": "wooper_heart",
-    "name": "Wooper Heart",
-    "aspectString": "wooper_heart"
+    "name": "Wooper Heart"
   },
   {
     "id": 467,
     "aspectId": 96,
     "value": "single_strike",
-    "name": "Single Strike Style",
-    "aspectString": "single_strike-style"
+    "name": "Single Strike Style"
   },
   {
     "id": 468,
     "aspectId": 96,
     "value": "rapid_strike",
-    "name": "Rapid Strike Style",
-    "aspectString": "rapid_strike-style"
+    "name": "Rapid Strike Style"
   }
 ]

@@ -1,3710 +1,3710 @@
 [
   {
-    "id": "ability_shield",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ability_shield",
-    "result_count": 1
+    "id": 1,
+    "typeId": 3,
+    "resultItemId": 4,
+    "resultCount": 1
   },
   {
-    "id": "adamant_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:adamant_mint",
-    "result_count": 1
+    "id": 2,
+    "typeId": 3,
+    "resultItemId": 6,
+    "resultCount": 1
   },
   {
-    "id": "aguav_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:lime_dye",
-    "result_count": 1,
+    "id": 3,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "air_balloon",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:air_balloon",
-    "result_count": 1
+    "id": 4,
+    "typeId": 3,
+    "resultItemId": 8,
+    "resultCount": 1
   },
   {
-    "id": "ancient_azure_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_azure_ball",
-    "result_count": 4
+    "id": 5,
+    "typeId": 3,
+    "resultItemId": 9,
+    "resultCount": 4
   },
   {
-    "id": "ancient_azure_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_azure_rod",
-    "result_count": 1
+    "id": 6,
+    "typeId": 6,
+    "resultItemId": 10,
+    "resultCount": 1
   },
   {
-    "id": "ancient_citrine_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_citrine_ball",
-    "result_count": 4
+    "id": 7,
+    "typeId": 3,
+    "resultItemId": 11,
+    "resultCount": 4
   },
   {
-    "id": "ancient_citrine_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_citrine_rod",
-    "result_count": 1
+    "id": 8,
+    "typeId": 6,
+    "resultItemId": 12,
+    "resultCount": 1
   },
   {
-    "id": "ancient_feather_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_feather_ball",
-    "result_count": 4
+    "id": 9,
+    "typeId": 3,
+    "resultItemId": 13,
+    "resultCount": 4
   },
   {
-    "id": "ancient_feather_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_feather_rod",
-    "result_count": 1
+    "id": 10,
+    "typeId": 6,
+    "resultItemId": 14,
+    "resultCount": 1
   },
   {
-    "id": "ancient_gigaton_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_gigaton_ball",
-    "result_count": 4
+    "id": 11,
+    "typeId": 3,
+    "resultItemId": 15,
+    "resultCount": 4
   },
   {
-    "id": "ancient_gigaton_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_gigaton_rod",
-    "result_count": 1
+    "id": 12,
+    "typeId": 6,
+    "resultItemId": 16,
+    "resultCount": 1
   },
   {
-    "id": "ancient_great_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_great_ball",
-    "result_count": 4
+    "id": 13,
+    "typeId": 3,
+    "resultItemId": 17,
+    "resultCount": 4
   },
   {
-    "id": "ancient_great_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_great_rod",
-    "result_count": 1
+    "id": 14,
+    "typeId": 6,
+    "resultItemId": 18,
+    "resultCount": 1
   },
   {
-    "id": "ancient_heavy_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_heavy_ball",
-    "result_count": 4
+    "id": 15,
+    "typeId": 3,
+    "resultItemId": 19,
+    "resultCount": 4
   },
   {
-    "id": "ancient_heavy_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_heavy_rod",
-    "result_count": 1
+    "id": 16,
+    "typeId": 6,
+    "resultItemId": 20,
+    "resultCount": 1
   },
   {
-    "id": "ancient_ivory_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_ivory_ball",
-    "result_count": 4
+    "id": 17,
+    "typeId": 3,
+    "resultItemId": 21,
+    "resultCount": 4
   },
   {
-    "id": "ancient_ivory_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_ivory_rod",
-    "result_count": 1
+    "id": 18,
+    "typeId": 6,
+    "resultItemId": 22,
+    "resultCount": 1
   },
   {
-    "id": "ancient_jet_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_jet_ball",
-    "result_count": 4
+    "id": 19,
+    "typeId": 3,
+    "resultItemId": 23,
+    "resultCount": 4
   },
   {
-    "id": "ancient_jet_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_jet_rod",
-    "result_count": 1
+    "id": 20,
+    "typeId": 6,
+    "resultItemId": 24,
+    "resultCount": 1
   },
   {
-    "id": "ancient_leaden_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_leaden_ball",
-    "result_count": 4
+    "id": 21,
+    "typeId": 3,
+    "resultItemId": 25,
+    "resultCount": 4
   },
   {
-    "id": "ancient_leaden_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_leaden_rod",
-    "result_count": 1
+    "id": 22,
+    "typeId": 6,
+    "resultItemId": 26,
+    "resultCount": 1
   },
   {
-    "id": "ancient_origin_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_origin_rod",
-    "result_count": 1
+    "id": 23,
+    "typeId": 6,
+    "resultItemId": 28,
+    "resultCount": 1
   },
   {
-    "id": "ancient_poke_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_poke_ball",
-    "result_count": 4
+    "id": 24,
+    "typeId": 3,
+    "resultItemId": 29,
+    "resultCount": 4
   },
   {
-    "id": "ancient_poke_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_poke_rod",
-    "result_count": 1
+    "id": 25,
+    "typeId": 6,
+    "resultItemId": 30,
+    "resultCount": 1
   },
   {
-    "id": "ancient_roseate_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_roseate_ball",
-    "result_count": 4
+    "id": 26,
+    "typeId": 3,
+    "resultItemId": 31,
+    "resultCount": 4
   },
   {
-    "id": "ancient_roseate_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_roseate_rod",
-    "result_count": 1
+    "id": 27,
+    "typeId": 6,
+    "resultItemId": 32,
+    "resultCount": 1
   },
   {
-    "id": "ancient_slate_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_slate_ball",
-    "result_count": 4
+    "id": 28,
+    "typeId": 3,
+    "resultItemId": 33,
+    "resultCount": 4
   },
   {
-    "id": "ancient_slate_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_slate_rod",
-    "result_count": 1
+    "id": 29,
+    "typeId": 6,
+    "resultItemId": 34,
+    "resultCount": 1
   },
   {
-    "id": "ancient_ultra_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_ultra_ball",
-    "result_count": 4
+    "id": 30,
+    "typeId": 3,
+    "resultItemId": 35,
+    "resultCount": 4
   },
   {
-    "id": "ancient_ultra_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_ultra_rod",
-    "result_count": 1
+    "id": 31,
+    "typeId": 6,
+    "resultItemId": 36,
+    "resultCount": 1
   },
   {
-    "id": "ancient_verdant_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_verdant_ball",
-    "result_count": 4
+    "id": 32,
+    "typeId": 3,
+    "resultItemId": 37,
+    "resultCount": 4
   },
   {
-    "id": "ancient_verdant_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_verdant_rod",
-    "result_count": 1
+    "id": 33,
+    "typeId": 6,
+    "resultItemId": 38,
+    "resultCount": 1
   },
   {
-    "id": "ancient_wing_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ancient_wing_ball",
-    "result_count": 4
+    "id": 34,
+    "typeId": 3,
+    "resultItemId": 39,
+    "resultCount": 4
   },
   {
-    "id": "ancient_wing_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ancient_wing_rod",
-    "result_count": 1
+    "id": 35,
+    "typeId": 6,
+    "resultItemId": 40,
+    "resultCount": 1
   },
   {
-    "id": "apicot_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:blue_dye",
-    "result_count": 1,
+    "id": 36,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "apricorn_boat",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:apricorn_boat",
-    "result_count": 1
+    "id": 37,
+    "typeId": 3,
+    "resultItemId": 43,
+    "resultCount": 1
   },
   {
-    "id": "apricorn_bowl",
-    "type": "crafting_shaped",
-    "result_id": "minecraft:bowl",
-    "result_count": 3
+    "id": 38,
+    "typeId": 3,
+    "resultItemId": null,
+    "resultCount": 3
   },
   {
-    "id": "apricorn_button",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:apricorn_button",
-    "result_count": 1
+    "id": 39,
+    "typeId": 4,
+    "resultItemId": 44,
+    "resultCount": 1
   },
   {
-    "id": "apricorn_chest_boat",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:apricorn_chest_boat",
-    "result_count": 1
+    "id": 40,
+    "typeId": 4,
+    "resultItemId": 45,
+    "resultCount": 1
   },
   {
-    "id": "apricorn_door",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:apricorn_door",
-    "result_count": 3
+    "id": 41,
+    "typeId": 3,
+    "resultItemId": 46,
+    "resultCount": 3
   },
   {
-    "id": "apricorn_fence",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:apricorn_fence",
-    "result_count": 3
+    "id": 42,
+    "typeId": 3,
+    "resultItemId": 47,
+    "resultCount": 3
   },
   {
-    "id": "apricorn_fence_gate",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:apricorn_fence_gate",
-    "result_count": 1
+    "id": 43,
+    "typeId": 3,
+    "resultItemId": 48,
+    "resultCount": 1
   },
   {
-    "id": "apricorn_hanging_sign",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:apricorn_hanging_sign",
-    "result_count": 6
+    "id": 44,
+    "typeId": 3,
+    "resultItemId": 49,
+    "resultCount": 6
   },
   {
-    "id": "apricorn_planks",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:apricorn_planks",
-    "result_count": 4
+    "id": 45,
+    "typeId": 4,
+    "resultItemId": 51,
+    "resultCount": 4
   },
   {
-    "id": "apricorn_pressure_plate",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:apricorn_pressure_plate",
-    "result_count": 1
+    "id": 46,
+    "typeId": 3,
+    "resultItemId": 52,
+    "resultCount": 1
   },
   {
-    "id": "apricorn_sign",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:apricorn_sign",
-    "result_count": 3
+    "id": 47,
+    "typeId": 3,
+    "resultItemId": 53,
+    "resultCount": 3
   },
   {
-    "id": "apricorn_slab",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:apricorn_slab",
-    "result_count": 6
+    "id": 48,
+    "typeId": 3,
+    "resultItemId": 54,
+    "resultCount": 6
   },
   {
-    "id": "apricorn_stairs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:apricorn_stairs",
-    "result_count": 4
+    "id": 49,
+    "typeId": 3,
+    "resultItemId": 55,
+    "resultCount": 4
   },
   {
-    "id": "apricorn_trapdoor",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:apricorn_trapdoor",
-    "result_count": 2
+    "id": 50,
+    "typeId": 3,
+    "resultItemId": 56,
+    "resultCount": 2
   },
   {
-    "id": "apricorn_wood",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:apricorn_wood",
-    "result_count": 3
+    "id": 51,
+    "typeId": 3,
+    "resultItemId": 57,
+    "resultCount": 3
   },
   {
-    "id": "aspear_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 52,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "assault_vest",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:assault_vest",
-    "result_count": 1
+    "id": 53,
+    "typeId": 3,
+    "resultItemId": 67,
+    "resultCount": 1
   },
   {
-    "id": "augurite_axe",
-    "type": "crafting_shaped",
-    "result_id": "minecraft:stone_axe",
-    "result_count": 1
+    "id": 54,
+    "typeId": 3,
+    "resultItemId": 805,
+    "resultCount": 1
   },
   {
-    "id": "augurite_block",
-    "type": "crafting_shaped",
-    "result_id": "minecraft:obsidian",
-    "result_count": 1
+    "id": 55,
+    "typeId": 3,
+    "resultItemId": null,
+    "resultCount": 1
   },
   {
-    "id": "automaton_armor_trim_smithing_template",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:automaton_armor_trim_smithing_template",
-    "result_count": 2
+    "id": 56,
+    "typeId": 3,
+    "resultItemId": 69,
+    "resultCount": 2
   },
   {
-    "id": "automaton_armor_trim_smithing_template_smithing_trim",
-    "type": "smithing_trim",
-    "result_id": "",
-    "result_count": 1
+    "id": 57,
+    "typeId": 7,
+    "resultItemId": null,
+    "resultCount": 1
   },
   {
-    "id": "azure_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:azure_ball",
-    "result_count": 4
+    "id": 58,
+    "typeId": 3,
+    "resultItemId": 71,
+    "resultCount": 4
   },
   {
-    "id": "azure_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:azure_rod",
-    "result_count": 1
+    "id": 59,
+    "typeId": 6,
+    "resultItemId": 72,
+    "resultCount": 1
   },
   {
-    "id": "babiri_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:lime_dye",
-    "result_count": 1,
+    "id": 60,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "beast_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:beast_ball",
-    "result_count": 8
+    "id": 61,
+    "typeId": 3,
+    "resultItemId": 74,
+    "resultCount": 8
   },
   {
-    "id": "beast_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:beast_rod",
-    "result_count": 1
+    "id": 62,
+    "typeId": 6,
+    "resultItemId": 75,
+    "resultCount": 1
   },
   {
-    "id": "belue_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:purple_dye",
-    "result_count": 1,
+    "id": 63,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "berry_juice",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:berry_juice",
-    "result_count": 1
+    "id": 64,
+    "typeId": 4,
+    "resultItemId": 77,
+    "resultCount": 1
   },
   {
-    "id": "binding_band",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:binding_band",
-    "result_count": 1
+    "id": 65,
+    "typeId": 3,
+    "resultItemId": 81,
+    "resultCount": 1
   },
   {
-    "id": "black_apricorn_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:black_dye",
-    "result_count": 1,
+    "id": 66,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "black_belt",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:black_belt",
-    "result_count": 1
+    "id": 67,
+    "typeId": 3,
+    "resultItemId": 85,
+    "resultCount": 1
   },
   {
-    "id": "black_gilded_chest",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:black_gilded_chest",
-    "result_count": 1
+    "id": 68,
+    "typeId": 3,
+    "resultItemId": 86,
+    "resultCount": 1
   },
   {
-    "id": "black_glasses",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:black_glasses",
-    "result_count": 1
+    "id": 69,
+    "typeId": 3,
+    "resultItemId": 87,
+    "resultCount": 1
   },
   {
-    "id": "black_tumblestone",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:black_tumblestone",
-    "result_count": 4
+    "id": 70,
+    "typeId": 4,
+    "resultItemId": 89,
+    "resultCount": 4
   },
   {
-    "id": "black_tumblestone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:black_tumblestone_block",
-    "result_count": 1
+    "id": 71,
+    "typeId": 3,
+    "resultItemId": 90,
+    "resultCount": 1
   },
   {
-    "id": "black_tumblestone_brick_slab",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:black_tumblestone_brick_slab",
-    "result_count": 6
+    "id": 72,
+    "typeId": 3,
+    "resultItemId": 91,
+    "resultCount": 6
   },
   {
-    "id": "black_tumblestone_brick_slab_from_black_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:black_tumblestone_brick_slab",
-    "result_count": 2
+    "id": 73,
+    "typeId": 9,
+    "resultItemId": 91,
+    "resultCount": 2
   },
   {
-    "id": "black_tumblestone_brick_slab_from_black_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:black_tumblestone_brick_slab",
-    "result_count": 2
+    "id": 74,
+    "typeId": 9,
+    "resultItemId": 91,
+    "resultCount": 2
   },
   {
-    "id": "black_tumblestone_brick_slab_from_polished_black_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:black_tumblestone_brick_slab",
-    "result_count": 2
+    "id": 75,
+    "typeId": 9,
+    "resultItemId": 91,
+    "resultCount": 2
   },
   {
-    "id": "black_tumblestone_brick_stairs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:black_tumblestone_brick_stairs",
-    "result_count": 4
+    "id": 76,
+    "typeId": 3,
+    "resultItemId": 92,
+    "resultCount": 4
   },
   {
-    "id": "black_tumblestone_brick_stairs_from_black_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:black_tumblestone_brick_stairs",
-    "result_count": 1
+    "id": 77,
+    "typeId": 9,
+    "resultItemId": 92,
+    "resultCount": 1
   },
   {
-    "id": "black_tumblestone_brick_stairs_from_black_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:black_tumblestone_brick_stairs",
-    "result_count": 1
+    "id": 78,
+    "typeId": 9,
+    "resultItemId": 92,
+    "resultCount": 1
   },
   {
-    "id": "black_tumblestone_brick_stairs_from_polished_black_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:black_tumblestone_brick_stairs",
-    "result_count": 1
+    "id": 79,
+    "typeId": 9,
+    "resultItemId": 92,
+    "resultCount": 1
   },
   {
-    "id": "black_tumblestone_brick_wall",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:black_tumblestone_brick_wall",
-    "result_count": 6
+    "id": 80,
+    "typeId": 3,
+    "resultItemId": 93,
+    "resultCount": 6
   },
   {
-    "id": "black_tumblestone_brick_wall_from_black_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:black_tumblestone_brick_wall",
-    "result_count": 1
+    "id": 81,
+    "typeId": 9,
+    "resultItemId": 93,
+    "resultCount": 1
   },
   {
-    "id": "black_tumblestone_brick_wall_from_black_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:black_tumblestone_brick_wall",
-    "result_count": 1
+    "id": 82,
+    "typeId": 9,
+    "resultItemId": 93,
+    "resultCount": 1
   },
   {
-    "id": "black_tumblestone_brick_wall_from_polished_black_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:black_tumblestone_brick_wall",
-    "result_count": 1
+    "id": 83,
+    "typeId": 9,
+    "resultItemId": 93,
+    "resultCount": 1
   },
   {
-    "id": "black_tumblestone_bricks",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:black_tumblestone_bricks",
-    "result_count": 4
+    "id": 84,
+    "typeId": 3,
+    "resultItemId": 94,
+    "resultCount": 4
   },
   {
-    "id": "black_tumblestone_bricks_from_black_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:black_tumblestone_bricks",
-    "result_count": 1
+    "id": 85,
+    "typeId": 9,
+    "resultItemId": 94,
+    "resultCount": 1
   },
   {
-    "id": "black_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:black_tumblestone_bricks",
-    "result_count": 1
+    "id": 86,
+    "typeId": 9,
+    "resultItemId": 94,
+    "resultCount": 1
   },
   {
-    "id": "blue_apricorn_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:blue_dye",
-    "result_count": 1,
+    "id": 87,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "blue_gilded_chest",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:blue_gilded_chest",
-    "result_count": 1
+    "id": 88,
+    "typeId": 3,
+    "resultItemId": 98,
+    "resultCount": 1
   },
   {
-    "id": "bluk_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:purple_dye",
-    "result_count": 1,
+    "id": 89,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "blunder_policy",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:blunder_policy",
-    "result_count": 1
+    "id": 90,
+    "typeId": 3,
+    "resultItemId": 102,
+    "resultCount": 1
   },
   {
-    "id": "bold_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:bold_mint",
-    "result_count": 1
+    "id": 91,
+    "typeId": 3,
+    "resultItemId": 103,
+    "resultCount": 1
   },
   {
-    "id": "brave_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:brave_mint",
-    "result_count": 1
+    "id": 92,
+    "typeId": 3,
+    "resultItemId": 104,
+    "resultCount": 1
   },
   {
-    "id": "bright_powder",
-    "type": "smelting",
-    "result_id": "cobblemon:bright_powder",
-    "result_count": 1,
+    "id": 93,
+    "typeId": 5,
+    "resultItemId": 105,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "cake_with_moomoo_milk",
-    "type": "crafting_shaped",
-    "result_id": "minecraft:cake",
-    "result_count": 1
+    "id": 94,
+    "typeId": 3,
+    "resultItemId": 703,
+    "resultCount": 1
   },
   {
-    "id": "calm_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:calm_mint",
-    "result_count": 1
+    "id": 95,
+    "typeId": 3,
+    "resultItemId": 111,
+    "resultCount": 1
   },
   {
-    "id": "campfire_pot_black",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:campfire_pot_black",
-    "result_count": 1
+    "id": 96,
+    "typeId": 3,
+    "resultItemId": 112,
+    "resultCount": 1
   },
   {
-    "id": "campfire_pot_blue",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:campfire_pot_blue",
-    "result_count": 1
+    "id": 97,
+    "typeId": 3,
+    "resultItemId": 113,
+    "resultCount": 1
   },
   {
-    "id": "campfire_pot_green",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:campfire_pot_green",
-    "result_count": 1
+    "id": 98,
+    "typeId": 3,
+    "resultItemId": 114,
+    "resultCount": 1
   },
   {
-    "id": "campfire_pot_pink",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:campfire_pot_pink",
-    "result_count": 1
+    "id": 99,
+    "typeId": 3,
+    "resultItemId": 115,
+    "resultCount": 1
   },
   {
-    "id": "campfire_pot_red",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:campfire_pot_red",
-    "result_count": 1
+    "id": 100,
+    "typeId": 3,
+    "resultItemId": 116,
+    "resultCount": 1
   },
   {
-    "id": "campfire_pot_white",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:campfire_pot_white",
-    "result_count": 1
+    "id": 101,
+    "typeId": 3,
+    "resultItemId": 117,
+    "resultCount": 1
   },
   {
-    "id": "campfire_pot_yellow",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:campfire_pot_yellow",
-    "result_count": 1
+    "id": 102,
+    "typeId": 3,
+    "resultItemId": 118,
+    "resultCount": 1
   },
   {
-    "id": "careful_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:careful_mint",
-    "result_count": 1
+    "id": 103,
+    "typeId": 3,
+    "resultItemId": 122,
+    "resultCount": 1
   },
   {
-    "id": "cell_battery",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:cell_battery",
-    "result_count": 1
+    "id": 104,
+    "typeId": 3,
+    "resultItemId": 124,
+    "resultCount": 1
   },
   {
-    "id": "charcoal_stick",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:charcoal_stick",
-    "result_count": 1
+    "id": 105,
+    "typeId": 3,
+    "resultItemId": 125,
+    "resultCount": 1
   },
   {
-    "id": "charti_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:brown_dye",
-    "result_count": 1,
+    "id": 106,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "cheri_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 107,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "cherish_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:cherish_rod",
-    "result_count": 1
+    "id": 108,
+    "typeId": 6,
+    "resultItemId": 129,
+    "resultCount": 1
   },
   {
-    "id": "chesto_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:blue_dye",
-    "result_count": 1,
+    "id": 109,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "chilan_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 110,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "chipped_pot",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:chipped_pot",
-    "result_count": 2
+    "id": 111,
+    "typeId": 3,
+    "resultItemId": 132,
+    "resultCount": 2
   },
   {
-    "id": "chiseled_black_tumblestone_bricks",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:chiseled_black_tumblestone_bricks",
-    "result_count": 1
+    "id": 112,
+    "typeId": 3,
+    "resultItemId": 133,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_black_tumblestone_bricks_from_black_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_black_tumblestone_bricks",
-    "result_count": 1
+    "id": 113,
+    "typeId": 9,
+    "resultItemId": 133,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_black_tumblestone_bricks_from_black_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_black_tumblestone_bricks",
-    "result_count": 1
+    "id": 114,
+    "typeId": 9,
+    "resultItemId": 133,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_black_tumblestone_bricks_from_polished_black_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_black_tumblestone_bricks",
-    "result_count": 1
+    "id": 115,
+    "typeId": 9,
+    "resultItemId": 133,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_polished_black_tumblestone",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:chiseled_polished_black_tumblestone",
-    "result_count": 1
+    "id": 116,
+    "typeId": 3,
+    "resultItemId": 134,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_polished_black_tumblestone_from_black_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_polished_black_tumblestone",
-    "result_count": 1
+    "id": 117,
+    "typeId": 9,
+    "resultItemId": 134,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_polished_black_tumblestone_from_polished_black_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_polished_black_tumblestone",
-    "result_count": 1
+    "id": 118,
+    "typeId": 9,
+    "resultItemId": 134,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_polished_sky_tumblestone",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:chiseled_polished_sky_tumblestone",
-    "result_count": 1
+    "id": 119,
+    "typeId": 3,
+    "resultItemId": 135,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_polished_sky_tumblestone_from_polished_sky_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_polished_sky_tumblestone",
-    "result_count": 1
+    "id": 120,
+    "typeId": 9,
+    "resultItemId": 135,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_polished_sky_tumblestone_from_sky_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_polished_sky_tumblestone",
-    "result_count": 1
+    "id": 121,
+    "typeId": 9,
+    "resultItemId": 135,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_polished_tumblestone",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:chiseled_polished_tumblestone",
-    "result_count": 1
+    "id": 122,
+    "typeId": 3,
+    "resultItemId": 136,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_polished_tumblestone_from_polished_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_polished_tumblestone",
-    "result_count": 1
+    "id": 123,
+    "typeId": 9,
+    "resultItemId": 136,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_polished_tumblestone_from_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_polished_tumblestone",
-    "result_count": 1
+    "id": 124,
+    "typeId": 9,
+    "resultItemId": 136,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_sky_tumblestone_bricks",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:chiseled_sky_tumblestone_bricks",
-    "result_count": 1
+    "id": 125,
+    "typeId": 3,
+    "resultItemId": 137,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_sky_tumblestone_bricks_from_polished_sky_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_sky_tumblestone_bricks",
-    "result_count": 1
+    "id": 126,
+    "typeId": 9,
+    "resultItemId": 137,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_sky_tumblestone_bricks_from_sky_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_sky_tumblestone_bricks",
-    "result_count": 1
+    "id": 127,
+    "typeId": 9,
+    "resultItemId": 137,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_sky_tumblestone_bricks_from_sky_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_sky_tumblestone_bricks",
-    "result_count": 1
+    "id": 128,
+    "typeId": 9,
+    "resultItemId": 137,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_tumblestone_bricks",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:chiseled_tumblestone_bricks",
-    "result_count": 1
+    "id": 129,
+    "typeId": 3,
+    "resultItemId": 138,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_tumblestone_bricks_from_polished_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_tumblestone_bricks",
-    "result_count": 1
+    "id": 130,
+    "typeId": 9,
+    "resultItemId": 138,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_tumblestone_bricks_from_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_tumblestone_bricks",
-    "result_count": 1
+    "id": 131,
+    "typeId": 9,
+    "resultItemId": 138,
+    "resultCount": 1
   },
   {
-    "id": "chiseled_tumblestone_bricks_from_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:chiseled_tumblestone_bricks",
-    "result_count": 1
+    "id": 132,
+    "typeId": 9,
+    "resultItemId": 138,
+    "resultCount": 1
   },
   {
-    "id": "choice_band",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:choice_band",
-    "result_count": 1
+    "id": 133,
+    "typeId": 3,
+    "resultItemId": 139,
+    "resultCount": 1
   },
   {
-    "id": "choice_scarf",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:choice_scarf",
-    "result_count": 1
+    "id": 134,
+    "typeId": 3,
+    "resultItemId": 140,
+    "resultCount": 1
   },
   {
-    "id": "choice_specs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:choice_specs",
-    "result_count": 1
+    "id": 135,
+    "typeId": 3,
+    "resultItemId": 141,
+    "resultCount": 1
   },
   {
-    "id": "chople_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 136,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "citrine_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:citrine_ball",
-    "result_count": 4
+    "id": 137,
+    "typeId": 3,
+    "resultItemId": 143,
+    "resultCount": 4
   },
   {
-    "id": "citrine_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:citrine_rod",
-    "result_count": 1
+    "id": 138,
+    "typeId": 6,
+    "resultItemId": 144,
+    "resultCount": 1
   },
   {
-    "id": "cleanse_tag",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:cleanse_tag",
-    "result_count": 1
+    "id": 139,
+    "typeId": 4,
+    "resultItemId": 146,
+    "resultCount": 1
   },
   {
-    "id": "clear_amulet",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:clear_amulet",
-    "result_count": 1
+    "id": 140,
+    "typeId": 3,
+    "resultItemId": 147,
+    "resultCount": 1
   },
   {
-    "id": "clever_feather",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:clever_feather",
-    "result_count": 3
+    "id": 141,
+    "typeId": 4,
+    "resultItemId": 148,
+    "resultCount": 3
   },
   {
-    "id": "coarse_mulch",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:coarse_mulch",
-    "result_count": 1
+    "id": 142,
+    "typeId": 4,
+    "resultItemId": 151,
+    "resultCount": 1
   },
   {
-    "id": "coba_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:light_blue_dye",
-    "result_count": 1,
+    "id": 143,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "colbur_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:magenta_dye",
-    "result_count": 1,
+    "id": 144,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "cornn_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:purple_dye",
-    "result_count": 1,
+    "id": 145,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "covert_cloak",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:covert_cloak",
-    "result_count": 1
+    "id": 146,
+    "typeId": 3,
+    "resultItemId": 157,
+    "resultCount": 1
   },
   {
-    "id": "cracked_pot",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:cracked_pot",
-    "result_count": 1
+    "id": 147,
+    "typeId": 3,
+    "resultItemId": 159,
+    "resultCount": 1
   },
   {
-    "id": "custap_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:orange_dye",
-    "result_count": 1,
+    "id": 148,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "damp_rock",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:damp_rock",
-    "result_count": 1
+    "id": 149,
+    "typeId": 3,
+    "resultItemId": 163,
+    "resultCount": 1
   },
   {
-    "id": "dawn_stone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:dawn_stone_block",
-    "result_count": 1
+    "id": 150,
+    "typeId": 3,
+    "resultItemId": 166,
+    "resultCount": 1
   },
   {
-    "id": "dawn_stone_from_blasting_dawn_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:dawn_stone",
-    "result_count": 1,
+    "id": 151,
+    "typeId": 1,
+    "resultItemId": 165,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "dawn_stone_from_blasting_deepslate_dawn_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:dawn_stone",
-    "result_count": 1,
+    "id": 152,
+    "typeId": 1,
+    "resultItemId": 165,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "dawn_stone_from_block",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:dawn_stone",
-    "result_count": 9
+    "id": 153,
+    "typeId": 4,
+    "resultItemId": 165,
+    "resultCount": 9
   },
   {
-    "id": "dawn_stone_from_smelting_dawn_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:dawn_stone",
-    "result_count": 1,
+    "id": 154,
+    "typeId": 5,
+    "resultItemId": 165,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "dawn_stone_from_smelting_deepslate_dawn_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:dawn_stone",
-    "result_count": 1,
+    "id": 155,
+    "typeId": 5,
+    "resultItemId": 165,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "destiny_knot",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:destiny_knot",
-    "result_count": 1
+    "id": 156,
+    "typeId": 3,
+    "resultItemId": 180,
+    "resultCount": 1
   },
   {
-    "id": "display_case",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:display_case",
-    "result_count": 1
+    "id": 157,
+    "typeId": 3,
+    "resultItemId": 182,
+    "resultCount": 1
   },
   {
-    "id": "dive_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:dive_ball",
-    "result_count": 4
+    "id": 158,
+    "typeId": 3,
+    "resultItemId": 183,
+    "resultCount": 4
   },
   {
-    "id": "dive_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:dive_rod",
-    "result_count": 1
+    "id": 159,
+    "typeId": 6,
+    "resultItemId": 184,
+    "resultCount": 1
   },
   {
-    "id": "dragon_fang",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:dragon_fang",
-    "result_count": 1
+    "id": 160,
+    "typeId": 4,
+    "resultItemId": 187,
+    "resultCount": 1
   },
   {
-    "id": "dream_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:dream_ball",
-    "result_count": 4
+    "id": 161,
+    "typeId": 3,
+    "resultItemId": 190,
+    "resultCount": 4
   },
   {
-    "id": "dream_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:dream_rod",
-    "result_count": 1
+    "id": 162,
+    "typeId": 6,
+    "resultItemId": 191,
+    "resultCount": 1
   },
   {
-    "id": "dubious_disc",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:dubious_disc",
-    "result_count": 1
+    "id": 163,
+    "typeId": 3,
+    "resultItemId": 193,
+    "resultCount": 1
   },
   {
-    "id": "durin_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:lime_dye",
-    "result_count": 1,
+    "id": 164,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "dusk_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:dusk_ball",
-    "result_count": 4
+    "id": 165,
+    "typeId": 3,
+    "resultItemId": 195,
+    "resultCount": 4
   },
   {
-    "id": "dusk_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:dusk_rod",
-    "result_count": 1
+    "id": 166,
+    "typeId": 6,
+    "resultItemId": 196,
+    "resultCount": 1
   },
   {
-    "id": "dusk_stone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:dusk_stone_block",
-    "result_count": 1
+    "id": 167,
+    "typeId": 3,
+    "resultItemId": 198,
+    "resultCount": 1
   },
   {
-    "id": "dusk_stone_from_blasting_deepslate_dusk_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:dusk_stone",
-    "result_count": 1,
+    "id": 168,
+    "typeId": 1,
+    "resultItemId": 197,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "dusk_stone_from_blasting_dusk_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:dusk_stone",
-    "result_count": 1,
+    "id": 169,
+    "typeId": 1,
+    "resultItemId": 197,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "dusk_stone_from_block",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:dusk_stone",
-    "result_count": 9
+    "id": 170,
+    "typeId": 4,
+    "resultItemId": 197,
+    "resultCount": 9
   },
   {
-    "id": "dusk_stone_from_smelting_deepslate_dusk_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:dusk_stone",
-    "result_count": 1,
+    "id": 171,
+    "typeId": 5,
+    "resultItemId": 197,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "dusk_stone_from_smelting_dusk_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:dusk_stone",
-    "result_count": 1,
+    "id": 172,
+    "typeId": 5,
+    "resultItemId": 197,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "eggant_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:blue_dye",
-    "result_count": 1,
+    "id": 173,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "eject_button",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:eject_button",
-    "result_count": 1
+    "id": 174,
+    "typeId": 3,
+    "resultItemId": 201,
+    "resultCount": 1
   },
   {
-    "id": "eject_pack",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:eject_pack",
-    "result_count": 1
+    "id": 175,
+    "typeId": 3,
+    "resultItemId": 202,
+    "resultCount": 1
   },
   {
-    "id": "electirizer",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:electirizer",
-    "result_count": 1
+    "id": 176,
+    "typeId": 3,
+    "resultItemId": 203,
+    "resultCount": 1
   },
   {
-    "id": "enigma_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:white_dye",
-    "result_count": 1,
+    "id": 177,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "eviolite",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:eviolite",
-    "result_count": 1
+    "id": 178,
+    "typeId": 3,
+    "resultItemId": 211,
+    "resultCount": 1
   },
   {
-    "id": "exp_candy_l_from_exp_candy_xl",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:exp_candy_l",
-    "result_count": 3
+    "id": 179,
+    "typeId": 4,
+    "resultItemId": 212,
+    "resultCount": 3
   },
   {
-    "id": "exp_candy_m_from_exp_candy_l",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:exp_candy_m",
-    "result_count": 3
+    "id": 180,
+    "typeId": 4,
+    "resultItemId": 213,
+    "resultCount": 3
   },
   {
-    "id": "exp_candy_s_from_exp_candy_m",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:exp_candy_s",
-    "result_count": 3
+    "id": 181,
+    "typeId": 4,
+    "resultItemId": 214,
+    "resultCount": 3
   },
   {
-    "id": "exp_candy_xs_from_exp_candy_s",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:exp_candy_xs",
-    "result_count": 6
+    "id": 182,
+    "typeId": 4,
+    "resultItemId": 216,
+    "resultCount": 6
   },
   {
-    "id": "exp_share",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:exp_share",
-    "result_count": 1
+    "id": 183,
+    "typeId": 3,
+    "resultItemId": 217,
+    "resultCount": 1
   },
   {
-    "id": "expert_belt",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:expert_belt",
-    "result_count": 1
+    "id": 184,
+    "typeId": 3,
+    "resultItemId": 218,
+    "resultCount": 1
   },
   {
-    "id": "fairy_feather",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:fairy_feather",
-    "result_count": 1
+    "id": 185,
+    "typeId": 4,
+    "resultItemId": 219,
+    "resultCount": 1
   },
   {
-    "id": "fast_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:fast_ball",
-    "result_count": 4
+    "id": 186,
+    "typeId": 3,
+    "resultItemId": 221,
+    "resultCount": 4
   },
   {
-    "id": "fast_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:fast_rod",
-    "result_count": 1
+    "id": 187,
+    "typeId": 6,
+    "resultItemId": 222,
+    "resultCount": 1
   },
   {
-    "id": "figy_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:orange_dye",
-    "result_count": 1,
+    "id": 188,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "fine_remedy",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:fine_remedy",
-    "result_count": 1
+    "id": 189,
+    "typeId": 4,
+    "resultItemId": 225,
+    "resultCount": 1
   },
   {
-    "id": "fire_stone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:fire_stone_block",
-    "result_count": 1
+    "id": 190,
+    "typeId": 3,
+    "resultItemId": 228,
+    "resultCount": 1
   },
   {
-    "id": "fire_stone_from_blasting_deepslate_fire_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:fire_stone",
-    "result_count": 1,
+    "id": 191,
+    "typeId": 1,
+    "resultItemId": 227,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "fire_stone_from_blasting_fire_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:fire_stone",
-    "result_count": 1,
+    "id": 192,
+    "typeId": 1,
+    "resultItemId": 227,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "fire_stone_from_blasting_nether_fire_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:fire_stone",
-    "result_count": 1,
+    "id": 193,
+    "typeId": 1,
+    "resultItemId": 227,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "fire_stone_from_block",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:fire_stone",
-    "result_count": 9
+    "id": 194,
+    "typeId": 4,
+    "resultItemId": 227,
+    "resultCount": 9
   },
   {
-    "id": "fire_stone_from_smelting_deepslate_fire_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:fire_stone",
-    "result_count": 1,
+    "id": 195,
+    "typeId": 5,
+    "resultItemId": 227,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "fire_stone_from_smelting_fire_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:fire_stone",
-    "result_count": 1,
+    "id": 196,
+    "typeId": 5,
+    "resultItemId": 227,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "fire_stone_from_smelting_nether_fire_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:fire_stone",
-    "result_count": 1,
+    "id": 197,
+    "typeId": 5,
+    "resultItemId": 227,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "flame_orb",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:flame_orb",
-    "result_count": 1
+    "id": 198,
+    "typeId": 3,
+    "resultItemId": 230,
+    "resultCount": 1
   },
   {
-    "id": "focus_band",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:focus_band",
-    "result_count": 1
+    "id": 199,
+    "typeId": 3,
+    "resultItemId": 234,
+    "resultCount": 1
   },
   {
-    "id": "focus_sash",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:focus_sash",
-    "result_count": 1
+    "id": 200,
+    "typeId": 3,
+    "resultItemId": 235,
+    "resultCount": 1
   },
   {
-    "id": "fossil_analyzer",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:fossil_analyzer",
-    "result_count": 1
+    "id": 201,
+    "typeId": 3,
+    "resultItemId": 236,
+    "resultCount": 1
   },
   {
-    "id": "friend_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:friend_ball",
-    "result_count": 4
+    "id": 202,
+    "typeId": 3,
+    "resultItemId": 242,
+    "resultCount": 4
   },
   {
-    "id": "friend_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:friend_rod",
-    "result_count": 1
+    "id": 203,
+    "typeId": 6,
+    "resultItemId": 243,
+    "resultCount": 1
   },
   {
-    "id": "galarica_cuff",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:galarica_cuff",
-    "result_count": 1
+    "id": 204,
+    "typeId": 3,
+    "resultItemId": 246,
+    "resultCount": 1
   },
   {
-    "id": "galarica_wreath",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:galarica_wreath",
-    "result_count": 1
+    "id": 205,
+    "typeId": 3,
+    "resultItemId": 248,
+    "resultCount": 1
   },
   {
-    "id": "ganlon_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:blue_dye",
-    "result_count": 1,
+    "id": 206,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "genius_feather",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:genius_feather",
-    "result_count": 3
+    "id": 207,
+    "typeId": 4,
+    "resultItemId": 250,
+    "resultCount": 3
   },
   {
-    "id": "gentle_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:gentle_mint",
-    "result_count": 1
+    "id": 208,
+    "typeId": 3,
+    "resultItemId": 252,
+    "resultCount": 1
   },
   {
-    "id": "gilded_chest",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:gilded_chest",
-    "result_count": 1
+    "id": 209,
+    "typeId": 3,
+    "resultItemId": 254,
+    "resultCount": 1
   },
   {
-    "id": "gold_nugget_from_blasting_coin",
-    "type": "blasting",
-    "result_id": "minecraft:gold_nugget",
-    "result_count": 1,
+    "id": 210,
+    "typeId": 1,
+    "resultItemId": 736,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 50
+    "cookingTime": 50
   },
   {
-    "id": "gold_nugget_from_smelting_coin",
-    "type": "smelting",
-    "result_id": "minecraft:gold_nugget",
-    "result_count": 1,
+    "id": 211,
+    "typeId": 5,
+    "resultItemId": 736,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "great_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:great_ball",
-    "result_count": 4
+    "id": 212,
+    "typeId": 3,
+    "resultItemId": 257,
+    "resultCount": 4
   },
   {
-    "id": "great_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:great_rod",
-    "result_count": 1
+    "id": 213,
+    "typeId": 6,
+    "resultItemId": 258,
+    "resultCount": 1
   },
   {
-    "id": "green_apricorn_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:green_dye",
-    "result_count": 1,
+    "id": 214,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "green_gilded_chest",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:green_gilded_chest",
-    "result_count": 1
+    "id": 215,
+    "typeId": 3,
+    "resultItemId": 261,
+    "resultCount": 1
   },
   {
-    "id": "grepa_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 216,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "growth_mulch",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:growth_mulch",
-    "result_count": 1
+    "id": 217,
+    "typeId": 4,
+    "resultItemId": 267,
+    "resultCount": 1
   },
   {
-    "id": "haban_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 218,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "hard_stone",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:hard_stone",
-    "result_count": 1
+    "id": 219,
+    "typeId": 3,
+    "resultItemId": 270,
+    "resultCount": 1
   },
   {
-    "id": "hasty_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:hasty_mint",
-    "result_count": 1
+    "id": 220,
+    "typeId": 3,
+    "resultItemId": 271,
+    "resultCount": 1
   },
   {
-    "id": "heal_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:heal_ball",
-    "result_count": 4
+    "id": 221,
+    "typeId": 3,
+    "resultItemId": 272,
+    "resultCount": 4
   },
   {
-    "id": "heal_powder",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:heal_powder",
-    "result_count": 1
+    "id": 222,
+    "typeId": 4,
+    "resultItemId": 273,
+    "resultCount": 1
   },
   {
-    "id": "heal_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:heal_rod",
-    "result_count": 1
+    "id": 223,
+    "typeId": 6,
+    "resultItemId": 274,
+    "resultCount": 1
   },
   {
-    "id": "healing_machine",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:healing_machine",
-    "result_count": 1
+    "id": 224,
+    "typeId": 3,
+    "resultItemId": 275,
+    "resultCount": 1
   },
   {
-    "id": "health_feather",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:health_feather",
-    "result_count": 3
+    "id": 225,
+    "typeId": 4,
+    "resultItemId": 277,
+    "resultCount": 3
   },
   {
-    "id": "hearty_grain_bale",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:hearty_grain_bale",
-    "result_count": 1
+    "id": 226,
+    "typeId": 3,
+    "resultItemId": 279,
+    "resultCount": 1
   },
   {
-    "id": "hearty_grains_from_bale",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:hearty_grains",
-    "result_count": 9
+    "id": 227,
+    "typeId": 4,
+    "resultItemId": 280,
+    "resultCount": 9
   },
   {
-    "id": "heat_rock",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:heat_rock",
-    "result_count": 1
+    "id": 228,
+    "typeId": 3,
+    "resultItemId": 281,
+    "resultCount": 1
   },
   {
-    "id": "heavy_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:heavy_ball",
-    "result_count": 4
+    "id": 229,
+    "typeId": 3,
+    "resultItemId": 282,
+    "resultCount": 4
   },
   {
-    "id": "heavy_duty_boots",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:heavy_duty_boots",
-    "result_count": 1
+    "id": 230,
+    "typeId": 3,
+    "resultItemId": 283,
+    "resultCount": 1
   },
   {
-    "id": "heavy_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:heavy_rod",
-    "result_count": 1
+    "id": 231,
+    "typeId": 6,
+    "resultItemId": 284,
+    "resultCount": 1
   },
   {
-    "id": "hondew_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:lime_dye",
-    "result_count": 1,
+    "id": 232,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "hopo_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 233,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "humid_mulch",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:humid_mulch",
-    "result_count": 1
+    "id": 234,
+    "typeId": 4,
+    "resultItemId": 290,
+    "resultCount": 1
   },
   {
-    "id": "iapapa_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 235,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "ice_stone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ice_stone_block",
-    "result_count": 1
+    "id": 236,
+    "typeId": 3,
+    "resultItemId": 296,
+    "resultCount": 1
   },
   {
-    "id": "ice_stone_from_blasting_deepslate_ice_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:ice_stone",
-    "result_count": 1,
+    "id": 237,
+    "typeId": 1,
+    "resultItemId": 295,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "ice_stone_from_blasting_ice_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:ice_stone",
-    "result_count": 1,
+    "id": 238,
+    "typeId": 1,
+    "resultItemId": 295,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "ice_stone_from_block",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:ice_stone",
-    "result_count": 9
+    "id": 239,
+    "typeId": 4,
+    "resultItemId": 295,
+    "resultCount": 9
   },
   {
-    "id": "ice_stone_from_smelting_deepslate_ice_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:ice_stone",
-    "result_count": 1,
+    "id": 240,
+    "typeId": 5,
+    "resultItemId": 295,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "ice_stone_from_smelting_ice_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:ice_stone",
-    "result_count": 1,
+    "id": 241,
+    "typeId": 5,
+    "resultItemId": 295,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "icy_rock",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:icy_rock",
-    "result_count": 1
+    "id": 242,
+    "typeId": 3,
+    "resultItemId": 298,
+    "resultCount": 1
   },
   {
-    "id": "impish_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:impish_mint",
-    "result_count": 1
+    "id": 243,
+    "typeId": 3,
+    "resultItemId": 299,
+    "resultCount": 1
   },
   {
-    "id": "iron_ball",
-    "type": "stonecutting",
-    "result_id": "cobblemon:iron_ball",
-    "result_count": 1
+    "id": 244,
+    "typeId": 9,
+    "resultItemId": 301,
+    "resultCount": 1
   },
   {
-    "id": "jaboca_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 245,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "jolly_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:jolly_mint",
-    "result_count": 1
+    "id": 246,
+    "typeId": 3,
+    "resultItemId": 304,
+    "resultCount": 1
   },
   {
-    "id": "kasib_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:purple_dye",
-    "result_count": 1,
+    "id": 247,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "kebia_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:green_dye",
-    "result_count": 1,
+    "id": 248,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "kee_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:pink_dye",
-    "result_count": 1,
+    "id": 249,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "kelpsy_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:light_blue_dye",
-    "result_count": 1,
+    "id": 250,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "kings_rock",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:kings_rock",
-    "result_count": 1
+    "id": 251,
+    "typeId": 3,
+    "resultItemId": 310,
+    "resultCount": 1
   },
   {
-    "id": "lansat_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 252,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "lax_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:lax_mint",
-    "result_count": 1
+    "id": 253,
+    "typeId": 3,
+    "resultItemId": 317,
+    "resultCount": 1
   },
   {
-    "id": "leaf_stone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:leaf_stone_block",
-    "result_count": 1
+    "id": 254,
+    "typeId": 3,
+    "resultItemId": 319,
+    "resultCount": 1
   },
   {
-    "id": "leaf_stone_from_blasting_deepslate_leaf_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:leaf_stone",
-    "result_count": 1,
+    "id": 255,
+    "typeId": 1,
+    "resultItemId": 318,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "leaf_stone_from_blasting_leaf_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:leaf_stone",
-    "result_count": 1,
+    "id": 256,
+    "typeId": 1,
+    "resultItemId": 318,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "leaf_stone_from_block",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:leaf_stone",
-    "result_count": 9
+    "id": 257,
+    "typeId": 4,
+    "resultItemId": 318,
+    "resultCount": 9
   },
   {
-    "id": "leaf_stone_from_smelting_deepslate_leaf_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:leaf_stone",
-    "result_count": 1,
+    "id": 258,
+    "typeId": 5,
+    "resultItemId": 318,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "leaf_stone_from_smelting_leaf_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:leaf_stone",
-    "result_count": 1,
+    "id": 259,
+    "typeId": 5,
+    "resultItemId": 318,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "leek_and_potato_stew",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:leek_and_potato_stew",
-    "result_count": 1
+    "id": 260,
+    "typeId": 4,
+    "resultItemId": 321,
+    "resultCount": 1
   },
   {
-    "id": "leppa_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 261,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "level_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:level_ball",
-    "result_count": 4
+    "id": 262,
+    "typeId": 3,
+    "resultItemId": 324,
+    "resultCount": 4
   },
   {
-    "id": "level_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:level_rod",
-    "result_count": 1
+    "id": 263,
+    "typeId": 6,
+    "resultItemId": 325,
+    "resultCount": 1
   },
   {
-    "id": "liechi_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:orange_dye",
-    "result_count": 1,
+    "id": 264,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "life_orb",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:life_orb",
-    "result_count": 1
+    "id": 265,
+    "typeId": 3,
+    "resultItemId": 327,
+    "resultCount": 1
   },
   {
-    "id": "light_clay",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:light_clay",
-    "result_count": 1
+    "id": 266,
+    "typeId": 3,
+    "resultItemId": 329,
+    "resultCount": 1
   },
   {
-    "id": "link_cable",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:link_cable",
-    "result_count": 1
+    "id": 267,
+    "typeId": 3,
+    "resultItemId": 330,
+    "resultCount": 1
   },
   {
-    "id": "loaded_dice",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:loaded_dice",
-    "result_count": 1
+    "id": 268,
+    "typeId": 3,
+    "resultItemId": 331,
+    "resultCount": 1
   },
   {
-    "id": "loamy_mulch",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:loamy_mulch",
-    "result_count": 1
+    "id": 269,
+    "typeId": 4,
+    "resultItemId": 332,
+    "resultCount": 1
   },
   {
-    "id": "lonely_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:lonely_mint",
-    "result_count": 1
+    "id": 270,
+    "typeId": 3,
+    "resultItemId": 333,
+    "resultCount": 1
   },
   {
-    "id": "love_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:love_ball",
-    "result_count": 4
+    "id": 271,
+    "typeId": 3,
+    "resultItemId": 334,
+    "resultCount": 4
   },
   {
-    "id": "love_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:love_rod",
-    "result_count": 1
+    "id": 272,
+    "typeId": 6,
+    "resultItemId": 335,
+    "resultCount": 1
   },
   {
-    "id": "lum_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:green_dye",
-    "result_count": 1,
+    "id": 273,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "luminous_moss",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:luminous_moss",
-    "result_count": 1
+    "id": 274,
+    "typeId": 4,
+    "resultItemId": 339,
+    "resultCount": 1
   },
   {
-    "id": "lure_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:lure_ball",
-    "result_count": 4
+    "id": 275,
+    "typeId": 3,
+    "resultItemId": 341,
+    "resultCount": 4
   },
   {
-    "id": "lure_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:lure_rod",
-    "result_count": 1
+    "id": 276,
+    "typeId": 6,
+    "resultItemId": 342,
+    "resultCount": 1
   },
   {
-    "id": "luxury_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:luxury_ball",
-    "result_count": 4
+    "id": 277,
+    "typeId": 3,
+    "resultItemId": 343,
+    "resultCount": 4
   },
   {
-    "id": "luxury_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:luxury_rod",
-    "result_count": 1
+    "id": 278,
+    "typeId": 6,
+    "resultItemId": 344,
+    "resultCount": 1
   },
   {
-    "id": "magmarizer",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:magmarizer",
-    "result_count": 1
+    "id": 279,
+    "typeId": 3,
+    "resultItemId": 345,
+    "resultCount": 1
   },
   {
-    "id": "magnet",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:magnet",
-    "result_count": 1
+    "id": 280,
+    "typeId": 3,
+    "resultItemId": 346,
+    "resultCount": 1
   },
   {
-    "id": "mago_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:pink_dye",
-    "result_count": 1,
+    "id": 281,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "magost_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:pink_dye",
-    "result_count": 1,
+    "id": 282,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "maranga_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 283,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "master_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:master_ball",
-    "result_count": 1
+    "id": 284,
+    "typeId": 3,
+    "resultItemId": 351,
+    "resultCount": 1
   },
   {
-    "id": "master_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:master_rod",
-    "result_count": 1
+    "id": 285,
+    "typeId": 6,
+    "resultItemId": 352,
+    "resultCount": 1
   },
   {
-    "id": "masterpiece_teacup",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:masterpiece_teacup",
-    "result_count": 2
+    "id": 286,
+    "typeId": 3,
+    "resultItemId": 353,
+    "resultCount": 2
   },
   {
-    "id": "medicinal_leek_to_magenta_dye",
-    "type": "crafting_shapeless",
-    "result_id": "minecraft:magenta_dye",
-    "result_count": 1
+    "id": 287,
+    "typeId": 4,
+    "resultItemId": null,
+    "resultCount": 1
   },
   {
-    "id": "metal_coat",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:metal_coat",
-    "result_count": 1
+    "id": 288,
+    "typeId": 3,
+    "resultItemId": 364,
+    "resultCount": 1
   },
   {
-    "id": "metronome",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:metronome",
-    "result_count": 1
+    "id": 289,
+    "typeId": 3,
+    "resultItemId": 366,
+    "resultCount": 1
   },
   {
-    "id": "micle_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:lime_dye",
-    "result_count": 1,
+    "id": 290,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "mild_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:mild_mint",
-    "result_count": 1
+    "id": 291,
+    "typeId": 3,
+    "resultItemId": 369,
+    "resultCount": 1
   },
   {
-    "id": "miracle_seed",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:miracle_seed",
-    "result_count": 1
+    "id": 292,
+    "typeId": 3,
+    "resultItemId": 370,
+    "resultCount": 1
   },
   {
-    "id": "modest_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:modest_mint",
-    "result_count": 1
+    "id": 293,
+    "typeId": 3,
+    "resultItemId": 373,
+    "resultCount": 1
   },
   {
-    "id": "monitor",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:monitor",
-    "result_count": 1
+    "id": 294,
+    "typeId": 3,
+    "resultItemId": 374,
+    "resultCount": 1
   },
   {
-    "id": "moon_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:moon_ball",
-    "result_count": 4
+    "id": 295,
+    "typeId": 3,
+    "resultItemId": 376,
+    "resultCount": 4
   },
   {
-    "id": "moon_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:moon_rod",
-    "result_count": 1
+    "id": 296,
+    "typeId": 6,
+    "resultItemId": 377,
+    "resultCount": 1
   },
   {
-    "id": "moon_stone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:moon_stone_block",
-    "result_count": 1
+    "id": 297,
+    "typeId": 3,
+    "resultItemId": 379,
+    "resultCount": 1
   },
   {
-    "id": "moon_stone_from_blasting_deepslate_moon_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:moon_stone",
-    "result_count": 1,
+    "id": 298,
+    "typeId": 1,
+    "resultItemId": 378,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "moon_stone_from_blasting_dripstone_moon_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:moon_stone",
-    "result_count": 1,
+    "id": 299,
+    "typeId": 1,
+    "resultItemId": 378,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "moon_stone_from_blasting_moon_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:moon_stone",
-    "result_count": 1,
+    "id": 300,
+    "typeId": 1,
+    "resultItemId": 378,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "moon_stone_from_block",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:moon_stone",
-    "result_count": 9
+    "id": 301,
+    "typeId": 4,
+    "resultItemId": 378,
+    "resultCount": 9
   },
   {
-    "id": "moon_stone_from_smelting_deepslate_moon_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:moon_stone",
-    "result_count": 1,
+    "id": 302,
+    "typeId": 5,
+    "resultItemId": 378,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "moon_stone_from_smelting_dripstone_moon_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:moon_stone",
-    "result_count": 1,
+    "id": 303,
+    "typeId": 5,
+    "resultItemId": 378,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "moon_stone_from_smelting_moon_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:moon_stone",
-    "result_count": 1,
+    "id": 304,
+    "typeId": 5,
+    "resultItemId": 378,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "mulch_base",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:mulch_base",
-    "result_count": 3
+    "id": 305,
+    "typeId": 4,
+    "resultItemId": 381,
+    "resultCount": 3
   },
   {
-    "id": "muscle_band",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:muscle_band",
-    "result_count": 1
+    "id": 306,
+    "typeId": 3,
+    "resultItemId": 382,
+    "resultCount": 1
   },
   {
-    "id": "muscle_feather",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:muscle_feather",
-    "result_count": 3
+    "id": 307,
+    "typeId": 4,
+    "resultItemId": 383,
+    "resultCount": 3
   },
   {
-    "id": "mystic_water",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:mystic_water",
-    "result_count": 1
+    "id": 308,
+    "typeId": 3,
+    "resultItemId": 385,
+    "resultCount": 1
   },
   {
-    "id": "naive_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:naive_mint",
-    "result_count": 1
+    "id": 309,
+    "typeId": 3,
+    "resultItemId": 386,
+    "resultCount": 1
   },
   {
-    "id": "nanab_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:pink_dye",
-    "result_count": 1,
+    "id": 310,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "naughty_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:naughty_mint",
-    "result_count": 1
+    "id": 311,
+    "typeId": 3,
+    "resultItemId": 388,
+    "resultCount": 1
   },
   {
-    "id": "nest_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:nest_ball",
-    "result_count": 4
+    "id": 312,
+    "typeId": 3,
+    "resultItemId": 389,
+    "resultCount": 4
   },
   {
-    "id": "nest_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:nest_rod",
-    "result_count": 1
+    "id": 313,
+    "typeId": 6,
+    "resultItemId": 390,
+    "resultCount": 1
   },
   {
-    "id": "net_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:net_ball",
-    "result_count": 4
+    "id": 314,
+    "typeId": 3,
+    "resultItemId": 391,
+    "resultCount": 4
   },
   {
-    "id": "net_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:net_rod",
-    "result_count": 1
+    "id": 315,
+    "typeId": 6,
+    "resultItemId": 392,
+    "resultCount": 1
   },
   {
-    "id": "never_melt_ice",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:never_melt_ice",
-    "result_count": 1
+    "id": 316,
+    "typeId": 3,
+    "resultItemId": 394,
+    "resultCount": 1
   },
   {
-    "id": "nomel_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 317,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "occa_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:orange_dye",
-    "result_count": 1,
+    "id": 318,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "oran_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:light_blue_dye",
-    "result_count": 1,
+    "id": 319,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "pamtre_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:purple_dye",
-    "result_count": 1,
+    "id": 320,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "park_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:park_ball",
-    "result_count": 4
+    "id": 321,
+    "typeId": 3,
+    "resultItemId": 407,
+    "resultCount": 4
   },
   {
-    "id": "park_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:park_rod",
-    "result_count": 1
+    "id": 322,
+    "typeId": 6,
+    "resultItemId": 408,
+    "resultCount": 1
   },
   {
-    "id": "passho_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:blue_dye",
-    "result_count": 1,
+    "id": 323,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "pasture",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:pasture",
-    "result_count": 1
+    "id": 324,
+    "typeId": 3,
+    "resultItemId": 410,
+    "resultCount": 1
   },
   {
-    "id": "payapa_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:magenta_dye",
-    "result_count": 1,
+    "id": 325,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "pc",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:pc",
-    "result_count": 1
+    "id": 326,
+    "typeId": 3,
+    "resultItemId": 412,
+    "resultCount": 1
   },
   {
-    "id": "peat_block",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:peat_block",
-    "result_count": 1
+    "id": 327,
+    "typeId": 4,
+    "resultItemId": 413,
+    "resultCount": 1
   },
   {
-    "id": "peat_mulch",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:peat_mulch",
-    "result_count": 1
+    "id": 328,
+    "typeId": 4,
+    "resultItemId": 414,
+    "resultCount": 1
   },
   {
-    "id": "pecha_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:pink_dye",
-    "result_count": 1,
+    "id": 329,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "pep_up_flower_to_white_dye",
-    "type": "crafting_shapeless",
-    "result_id": "minecraft:white_dye",
-    "result_count": 1
+    "id": 330,
+    "typeId": 4,
+    "resultItemId": null,
+    "resultCount": 1
   },
   {
-    "id": "persim_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:pink_dye",
-    "result_count": 1,
+    "id": 331,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "petaya_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:orange_dye",
-    "result_count": 1,
+    "id": 332,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "pinap_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 333,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "pink_apricorn_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:pink_dye",
-    "result_count": 1,
+    "id": 334,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "pink_gilded_chest",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:pink_gilded_chest",
-    "result_count": 1
+    "id": 335,
+    "typeId": 3,
+    "resultItemId": 423,
+    "resultCount": 1
   },
   {
-    "id": "poison_barb",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:poison_barb",
-    "result_count": 1
+    "id": 336,
+    "typeId": 3,
+    "resultItemId": 427,
+    "resultCount": 1
   },
   {
-    "id": "poke_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:poke_ball",
-    "result_count": 4
+    "id": 337,
+    "typeId": 3,
+    "resultItemId": 429,
+    "resultCount": 4
   },
   {
-    "id": "poke_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:poke_rod",
-    "result_count": 1
+    "id": 338,
+    "typeId": 6,
+    "resultItemId": 430,
+    "resultCount": 1
   },
   {
-    "id": "pokedex_black",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:pokedex_black",
-    "result_count": 1
+    "id": 339,
+    "typeId": 3,
+    "resultItemId": 432,
+    "resultCount": 1
   },
   {
-    "id": "pokedex_blue",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:pokedex_blue",
-    "result_count": 1
+    "id": 340,
+    "typeId": 3,
+    "resultItemId": 433,
+    "resultCount": 1
   },
   {
-    "id": "pokedex_green",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:pokedex_green",
-    "result_count": 1
+    "id": 341,
+    "typeId": 3,
+    "resultItemId": 434,
+    "resultCount": 1
   },
   {
-    "id": "pokedex_pink",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:pokedex_pink",
-    "result_count": 1
+    "id": 342,
+    "typeId": 3,
+    "resultItemId": 435,
+    "resultCount": 1
   },
   {
-    "id": "pokedex_red",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:pokedex_red",
-    "result_count": 1
+    "id": 343,
+    "typeId": 3,
+    "resultItemId": 436,
+    "resultCount": 1
   },
   {
-    "id": "pokedex_white",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:pokedex_white",
-    "result_count": 1
+    "id": 344,
+    "typeId": 3,
+    "resultItemId": 437,
+    "resultCount": 1
   },
   {
-    "id": "pokedex_yellow",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:pokedex_yellow",
-    "result_count": 1
+    "id": 345,
+    "typeId": 3,
+    "resultItemId": 438,
+    "resultCount": 1
   },
   {
-    "id": "pokerod_smithing_template",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:pokerod_smithing_template",
-    "result_count": 2
+    "id": 346,
+    "typeId": 3,
+    "resultItemId": 439,
+    "resultCount": 2
   },
   {
-    "id": "polished_black_tumblestone",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_black_tumblestone",
-    "result_count": 4
+    "id": 347,
+    "typeId": 3,
+    "resultItemId": 440,
+    "resultCount": 4
   },
   {
-    "id": "polished_black_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_black_tumblestone",
-    "result_count": 1
+    "id": 348,
+    "typeId": 9,
+    "resultItemId": 440,
+    "resultCount": 1
   },
   {
-    "id": "polished_black_tumblestone_slab",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_black_tumblestone_slab",
-    "result_count": 6
+    "id": 349,
+    "typeId": 3,
+    "resultItemId": 441,
+    "resultCount": 6
   },
   {
-    "id": "polished_black_tumblestone_slab_from_black_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_black_tumblestone_slab",
-    "result_count": 2
+    "id": 350,
+    "typeId": 9,
+    "resultItemId": 441,
+    "resultCount": 2
   },
   {
-    "id": "polished_black_tumblestone_slab_from_polished_black_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_black_tumblestone_slab",
-    "result_count": 2
+    "id": 351,
+    "typeId": 9,
+    "resultItemId": 441,
+    "resultCount": 2
   },
   {
-    "id": "polished_black_tumblestone_stairs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_black_tumblestone_stairs",
-    "result_count": 4
+    "id": 352,
+    "typeId": 3,
+    "resultItemId": 442,
+    "resultCount": 4
   },
   {
-    "id": "polished_black_tumblestone_stairs_from_black_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_black_tumblestone_stairs",
-    "result_count": 1
+    "id": 353,
+    "typeId": 9,
+    "resultItemId": 442,
+    "resultCount": 1
   },
   {
-    "id": "polished_black_tumblestone_stairs_from_polished_black_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_black_tumblestone_stairs",
-    "result_count": 1
+    "id": 354,
+    "typeId": 9,
+    "resultItemId": 442,
+    "resultCount": 1
   },
   {
-    "id": "polished_black_tumblestone_wall",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_black_tumblestone_wall",
-    "result_count": 6
+    "id": 355,
+    "typeId": 3,
+    "resultItemId": 443,
+    "resultCount": 6
   },
   {
-    "id": "polished_black_tumblestone_wall_from_black_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_black_tumblestone_wall",
-    "result_count": 1
+    "id": 356,
+    "typeId": 9,
+    "resultItemId": 443,
+    "resultCount": 1
   },
   {
-    "id": "polished_black_tumblestone_wall_from_polished_black_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_black_tumblestone_wall",
-    "result_count": 1
+    "id": 357,
+    "typeId": 9,
+    "resultItemId": 443,
+    "resultCount": 1
   },
   {
-    "id": "polished_sky_tumblestone",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_sky_tumblestone",
-    "result_count": 4
+    "id": 358,
+    "typeId": 3,
+    "resultItemId": 444,
+    "resultCount": 4
   },
   {
-    "id": "polished_sky_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_sky_tumblestone",
-    "result_count": 1
+    "id": 359,
+    "typeId": 9,
+    "resultItemId": 444,
+    "resultCount": 1
   },
   {
-    "id": "polished_sky_tumblestone_slab",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_sky_tumblestone_slab",
-    "result_count": 6
+    "id": 360,
+    "typeId": 3,
+    "resultItemId": 445,
+    "resultCount": 6
   },
   {
-    "id": "polished_sky_tumblestone_slab_from_polished_sky_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_sky_tumblestone_slab",
-    "result_count": 2
+    "id": 361,
+    "typeId": 9,
+    "resultItemId": 445,
+    "resultCount": 2
   },
   {
-    "id": "polished_sky_tumblestone_slab_from_sky_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_sky_tumblestone_slab",
-    "result_count": 2
+    "id": 362,
+    "typeId": 9,
+    "resultItemId": 445,
+    "resultCount": 2
   },
   {
-    "id": "polished_sky_tumblestone_stairs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_sky_tumblestone_stairs",
-    "result_count": 4
+    "id": 363,
+    "typeId": 3,
+    "resultItemId": 446,
+    "resultCount": 4
   },
   {
-    "id": "polished_sky_tumblestone_stairs_from_polished_sky_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_sky_tumblestone_stairs",
-    "result_count": 1
+    "id": 364,
+    "typeId": 9,
+    "resultItemId": 446,
+    "resultCount": 1
   },
   {
-    "id": "polished_sky_tumblestone_stairs_from_sky_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_sky_tumblestone_stairs",
-    "result_count": 1
+    "id": 365,
+    "typeId": 9,
+    "resultItemId": 446,
+    "resultCount": 1
   },
   {
-    "id": "polished_sky_tumblestone_wall",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_sky_tumblestone_wall",
-    "result_count": 6
+    "id": 366,
+    "typeId": 3,
+    "resultItemId": 447,
+    "resultCount": 6
   },
   {
-    "id": "polished_sky_tumblestone_wall_from_polished_sky_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_sky_tumblestone_wall",
-    "result_count": 1
+    "id": 367,
+    "typeId": 9,
+    "resultItemId": 447,
+    "resultCount": 1
   },
   {
-    "id": "polished_sky_tumblestone_wall_from_sky_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_sky_tumblestone_wall",
-    "result_count": 1
+    "id": 368,
+    "typeId": 9,
+    "resultItemId": 447,
+    "resultCount": 1
   },
   {
-    "id": "polished_tumblestone",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_tumblestone",
-    "result_count": 4
+    "id": 369,
+    "typeId": 3,
+    "resultItemId": 448,
+    "resultCount": 4
   },
   {
-    "id": "polished_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_tumblestone",
-    "result_count": 1
+    "id": 370,
+    "typeId": 9,
+    "resultItemId": 448,
+    "resultCount": 1
   },
   {
-    "id": "polished_tumblestone_slab",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_tumblestone_slab",
-    "result_count": 6
+    "id": 371,
+    "typeId": 3,
+    "resultItemId": 449,
+    "resultCount": 6
   },
   {
-    "id": "polished_tumblestone_slab_from_polished_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_tumblestone_slab",
-    "result_count": 2
+    "id": 372,
+    "typeId": 9,
+    "resultItemId": 449,
+    "resultCount": 2
   },
   {
-    "id": "polished_tumblestone_slab_from_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_tumblestone_slab",
-    "result_count": 2
+    "id": 373,
+    "typeId": 9,
+    "resultItemId": 449,
+    "resultCount": 2
   },
   {
-    "id": "polished_tumblestone_stairs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_tumblestone_stairs",
-    "result_count": 4
+    "id": 374,
+    "typeId": 3,
+    "resultItemId": 450,
+    "resultCount": 4
   },
   {
-    "id": "polished_tumblestone_stairs_from_polished_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_tumblestone_stairs",
-    "result_count": 1
+    "id": 375,
+    "typeId": 9,
+    "resultItemId": 450,
+    "resultCount": 1
   },
   {
-    "id": "polished_tumblestone_stairs_from_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_tumblestone_stairs",
-    "result_count": 1
+    "id": 376,
+    "typeId": 9,
+    "resultItemId": 450,
+    "resultCount": 1
   },
   {
-    "id": "polished_tumblestone_wall",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:polished_tumblestone_wall",
-    "result_count": 6
+    "id": 377,
+    "typeId": 3,
+    "resultItemId": 451,
+    "resultCount": 6
   },
   {
-    "id": "polished_tumblestone_wall_from_polished_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_tumblestone_wall",
-    "result_count": 1
+    "id": 378,
+    "typeId": 9,
+    "resultItemId": 451,
+    "resultCount": 1
   },
   {
-    "id": "polished_tumblestone_wall_from_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:polished_tumblestone_wall",
-    "result_count": 1
+    "id": 379,
+    "typeId": 9,
+    "resultItemId": 451,
+    "resultCount": 1
   },
   {
-    "id": "pomeg_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 380,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "power_anklet",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:power_anklet",
-    "result_count": 1
+    "id": 381,
+    "typeId": 3,
+    "resultItemId": 454,
+    "resultCount": 1
   },
   {
-    "id": "power_band",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:power_band",
-    "result_count": 1
+    "id": 382,
+    "typeId": 3,
+    "resultItemId": 455,
+    "resultCount": 1
   },
   {
-    "id": "power_belt",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:power_belt",
-    "result_count": 1
+    "id": 383,
+    "typeId": 3,
+    "resultItemId": 456,
+    "resultCount": 1
   },
   {
-    "id": "power_bracer",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:power_bracer",
-    "result_count": 1
+    "id": 384,
+    "typeId": 3,
+    "resultItemId": 457,
+    "resultCount": 1
   },
   {
-    "id": "power_lens",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:power_lens",
-    "result_count": 1
+    "id": 385,
+    "typeId": 3,
+    "resultItemId": 459,
+    "resultCount": 1
   },
   {
-    "id": "power_weight",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:power_weight",
-    "result_count": 1
+    "id": 386,
+    "typeId": 3,
+    "resultItemId": 460,
+    "resultCount": 1
   },
   {
-    "id": "premier_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:premier_ball",
-    "result_count": 4
+    "id": 387,
+    "typeId": 3,
+    "resultItemId": 463,
+    "resultCount": 4
   },
   {
-    "id": "premier_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:premier_rod",
-    "result_count": 1
+    "id": 388,
+    "typeId": 6,
+    "resultItemId": 464,
+    "resultCount": 1
   },
   {
-    "id": "protective_pads",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:protective_pads",
-    "result_count": 1
+    "id": 389,
+    "typeId": 3,
+    "resultItemId": 466,
+    "resultCount": 1
   },
   {
-    "id": "protector",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:protector",
-    "result_count": 1
+    "id": 390,
+    "typeId": 3,
+    "resultItemId": 467,
+    "resultCount": 1
   },
   {
-    "id": "punching_glove",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:punching_glove",
-    "result_count": 1
+    "id": 391,
+    "typeId": 3,
+    "resultItemId": 471,
+    "resultCount": 1
   },
   {
-    "id": "qualot_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:pink_dye",
-    "result_count": 1,
+    "id": 392,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "quick_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:quick_ball",
-    "result_count": 4
+    "id": 393,
+    "typeId": 3,
+    "resultItemId": 473,
+    "resultCount": 4
   },
   {
-    "id": "quick_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:quick_rod",
-    "result_count": 1
+    "id": 394,
+    "typeId": 6,
+    "resultItemId": 477,
+    "resultCount": 1
   },
   {
-    "id": "quiet_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:quiet_mint",
-    "result_count": 1
+    "id": 395,
+    "typeId": 3,
+    "resultItemId": 478,
+    "resultCount": 1
   },
   {
-    "id": "rabuta_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:green_dye",
-    "result_count": 1,
+    "id": 396,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "rash_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:rash_mint",
-    "result_count": 1
+    "id": 397,
+    "typeId": 3,
+    "resultItemId": 482,
+    "resultCount": 1
   },
   {
-    "id": "rawst_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:cyan_dye",
-    "result_count": 1,
+    "id": 398,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "razz_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 399,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "reaper_cloth",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:reaper_cloth",
-    "result_count": 1
+    "id": 400,
+    "typeId": 3,
+    "resultItemId": 487,
+    "resultCount": 1
   },
   {
-    "id": "red_apricorn_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 401,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "red_card",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:red_card",
-    "result_count": 1
+    "id": 402,
+    "typeId": 3,
+    "resultItemId": 490,
+    "resultCount": 1
   },
   {
-    "id": "relaxed_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:relaxed_mint",
-    "result_count": 1
+    "id": 403,
+    "typeId": 3,
+    "resultItemId": 493,
+    "resultCount": 1
   },
   {
-    "id": "relic_coin_from_pouch",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:relic_coin",
-    "result_count": 9
+    "id": 404,
+    "typeId": 3,
+    "resultItemId": 494,
+    "resultCount": 9
   },
   {
-    "id": "relic_coin_sack",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:relic_coin_sack",
-    "result_count": 1
+    "id": 405,
+    "typeId": 3,
+    "resultItemId": 496,
+    "resultCount": 1
   },
   {
-    "id": "relic_pouch_from_coin",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:relic_coin_pouch",
-    "result_count": 1
+    "id": 406,
+    "typeId": 3,
+    "resultItemId": 495,
+    "resultCount": 1
   },
   {
-    "id": "relic_pouch_from_relic_sack",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:relic_coin_pouch",
-    "result_count": 9
+    "id": 407,
+    "typeId": 3,
+    "resultItemId": 495,
+    "resultCount": 9
   },
   {
-    "id": "remedy",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:remedy",
-    "result_count": 1
+    "id": 408,
+    "typeId": 4,
+    "resultItemId": 497,
+    "resultCount": 1
   },
   {
-    "id": "repeat_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:repeat_ball",
-    "result_count": 4
+    "id": 409,
+    "typeId": 3,
+    "resultItemId": 498,
+    "resultCount": 4
   },
   {
-    "id": "repeat_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:repeat_rod",
-    "result_count": 1
+    "id": 410,
+    "typeId": 6,
+    "resultItemId": 499,
+    "resultCount": 1
   },
   {
-    "id": "resist_feather",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:resist_feather",
-    "result_count": 3
+    "id": 411,
+    "typeId": 4,
+    "resultItemId": 500,
+    "resultCount": 3
   },
   {
-    "id": "restoration_tank",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:restoration_tank",
-    "result_count": 1
+    "id": 412,
+    "typeId": 3,
+    "resultItemId": 502,
+    "resultCount": 1
   },
   {
-    "id": "rich_mulch",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:rich_mulch",
-    "result_count": 1
+    "id": 413,
+    "typeId": 4,
+    "resultItemId": 506,
+    "resultCount": 1
   },
   {
-    "id": "rindo_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:lime_dye",
-    "result_count": 1,
+    "id": 414,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "ring_target",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ring_target",
-    "result_count": 1
+    "id": 415,
+    "typeId": 3,
+    "resultItemId": 508,
+    "resultCount": 1
   },
   {
-    "id": "roasted_leek",
-    "type": "smelting",
-    "result_id": "cobblemon:roasted_leek",
-    "result_count": 1,
+    "id": 416,
+    "typeId": 5,
+    "resultItemId": 509,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "roasted_leek_by_campfire",
-    "type": "campfire_cooking",
-    "result_id": "cobblemon:roasted_leek",
-    "result_count": 1,
+    "id": 417,
+    "typeId": 2,
+    "resultItemId": 509,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 600
+    "cookingTime": 600
   },
   {
-    "id": "roasted_leek_by_smoking",
-    "type": "smoking",
-    "result_id": "cobblemon:roasted_leek",
-    "result_count": 1,
+    "id": 418,
+    "typeId": 8,
+    "resultItemId": 509,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "rocky_helmet",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:rocky_helmet",
-    "result_count": 1
+    "id": 419,
+    "typeId": 3,
+    "resultItemId": 511,
+    "resultCount": 1
   },
   {
-    "id": "room_service",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:room_service",
-    "result_count": 1
+    "id": 420,
+    "typeId": 3,
+    "resultItemId": 512,
+    "resultCount": 1
   },
   {
-    "id": "roseate_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:roseate_ball",
-    "result_count": 4
+    "id": 421,
+    "typeId": 3,
+    "resultItemId": 514,
+    "resultCount": 4
   },
   {
-    "id": "roseate_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:roseate_rod",
-    "result_count": 1
+    "id": 422,
+    "typeId": 6,
+    "resultItemId": 515,
+    "resultCount": 1
   },
   {
-    "id": "roseli_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 423,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "rowap_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:cyan_dye",
-    "result_count": 1,
+    "id": 424,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "saccharine_boat",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:saccharine_boat",
-    "result_count": 1
+    "id": 425,
+    "typeId": 3,
+    "resultItemId": 518,
+    "resultCount": 1
   },
   {
-    "id": "saccharine_button",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:saccharine_button",
-    "result_count": 1
+    "id": 426,
+    "typeId": 4,
+    "resultItemId": 519,
+    "resultCount": 1
   },
   {
-    "id": "saccharine_chest_boat",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:saccharine_chest_boat",
-    "result_count": 1
+    "id": 427,
+    "typeId": 4,
+    "resultItemId": 520,
+    "resultCount": 1
   },
   {
-    "id": "saccharine_door",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:saccharine_door",
-    "result_count": 3
+    "id": 428,
+    "typeId": 3,
+    "resultItemId": 521,
+    "resultCount": 3
   },
   {
-    "id": "saccharine_fence",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:saccharine_fence",
-    "result_count": 3
+    "id": 429,
+    "typeId": 3,
+    "resultItemId": 522,
+    "resultCount": 3
   },
   {
-    "id": "saccharine_fence_gate",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:saccharine_fence_gate",
-    "result_count": 1
+    "id": 430,
+    "typeId": 3,
+    "resultItemId": 523,
+    "resultCount": 1
   },
   {
-    "id": "saccharine_hanging_sign",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:saccharine_hanging_sign",
-    "result_count": 6
+    "id": 431,
+    "typeId": 3,
+    "resultItemId": 524,
+    "resultCount": 6
   },
   {
-    "id": "saccharine_planks",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:saccharine_planks",
-    "result_count": 4
+    "id": 432,
+    "typeId": 4,
+    "resultItemId": 527,
+    "resultCount": 4
   },
   {
-    "id": "saccharine_pressure_plate",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:saccharine_pressure_plate",
-    "result_count": 1
+    "id": 433,
+    "typeId": 3,
+    "resultItemId": 528,
+    "resultCount": 1
   },
   {
-    "id": "saccharine_sign",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:saccharine_sign",
-    "result_count": 3
+    "id": 434,
+    "typeId": 3,
+    "resultItemId": 529,
+    "resultCount": 3
   },
   {
-    "id": "saccharine_slab",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:saccharine_slab",
-    "result_count": 6
+    "id": 435,
+    "typeId": 3,
+    "resultItemId": 530,
+    "resultCount": 6
   },
   {
-    "id": "saccharine_stairs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:saccharine_stairs",
-    "result_count": 4
+    "id": 436,
+    "typeId": 3,
+    "resultItemId": 531,
+    "resultCount": 4
   },
   {
-    "id": "saccharine_trapdoor",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:saccharine_trapdoor",
-    "result_count": 2
+    "id": 437,
+    "typeId": 3,
+    "resultItemId": 532,
+    "resultCount": 2
   },
   {
-    "id": "saccharine_wood",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:saccharine_wood",
-    "result_count": 3
+    "id": 438,
+    "typeId": 3,
+    "resultItemId": 533,
+    "resultCount": 3
   },
   {
-    "id": "sachet",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:sachet",
-    "result_count": 1
+    "id": 439,
+    "typeId": 3,
+    "resultItemId": 534,
+    "resultCount": 1
   },
   {
-    "id": "safari_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:safari_ball",
-    "result_count": 4
+    "id": 440,
+    "typeId": 3,
+    "resultItemId": 536,
+    "resultCount": 4
   },
   {
-    "id": "safari_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:safari_rod",
-    "result_count": 1
+    "id": 441,
+    "typeId": 6,
+    "resultItemId": 537,
+    "resultCount": 1
   },
   {
-    "id": "safety_goggles",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:safety_goggles",
-    "result_count": 1
+    "id": 442,
+    "typeId": 3,
+    "resultItemId": 538,
+    "resultCount": 1
   },
   {
-    "id": "salac_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:green_dye",
-    "result_count": 1,
+    "id": 443,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "sandy_mulch",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:sandy_mulch",
-    "result_count": 1
+    "id": 444,
+    "typeId": 4,
+    "resultItemId": 541,
+    "resultCount": 1
   },
   {
-    "id": "sassy_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:sassy_mint",
-    "result_count": 1
+    "id": 445,
+    "typeId": 3,
+    "resultItemId": 542,
+    "resultCount": 1
   },
   {
-    "id": "scope_lens",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:scope_lens",
-    "result_count": 1
+    "id": 446,
+    "typeId": 3,
+    "resultItemId": 543,
+    "resultCount": 1
   },
   {
-    "id": "serious_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:serious_mint",
-    "result_count": 1
+    "id": 447,
+    "typeId": 3,
+    "resultItemId": 546,
+    "resultCount": 1
   },
   {
-    "id": "shell_bell",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:shell_bell",
-    "result_count": 1
+    "id": 448,
+    "typeId": 4,
+    "resultItemId": 549,
+    "resultCount": 1
   },
   {
-    "id": "shiny_stone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:shiny_stone_block",
-    "result_count": 1
+    "id": 449,
+    "typeId": 3,
+    "resultItemId": 552,
+    "resultCount": 1
   },
   {
-    "id": "shiny_stone_from_blasting_deepslate_shiny_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:shiny_stone",
-    "result_count": 1,
+    "id": 450,
+    "typeId": 1,
+    "resultItemId": 551,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "shiny_stone_from_blasting_shiny_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:shiny_stone",
-    "result_count": 1,
+    "id": 451,
+    "typeId": 1,
+    "resultItemId": 551,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "shiny_stone_from_block",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:shiny_stone",
-    "result_count": 9
+    "id": 452,
+    "typeId": 4,
+    "resultItemId": 551,
+    "resultCount": 9
   },
   {
-    "id": "shiny_stone_from_smelting_deepslate_shiny_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:shiny_stone",
-    "result_count": 1,
+    "id": 453,
+    "typeId": 5,
+    "resultItemId": 551,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "shiny_stone_from_smelting_shiny_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:shiny_stone",
-    "result_count": 1,
+    "id": 454,
+    "typeId": 5,
+    "resultItemId": 551,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "shuca_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:brown_dye",
-    "result_count": 1,
+    "id": 455,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "silk_scarf",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:silk_scarf",
-    "result_count": 1
+    "id": 456,
+    "typeId": 3,
+    "resultItemId": 556,
+    "resultCount": 1
   },
   {
-    "id": "silver_powder",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:silver_powder",
-    "result_count": 1
+    "id": 457,
+    "typeId": 4,
+    "resultItemId": 557,
+    "resultCount": 1
   },
   {
-    "id": "sitrus_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 458,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "sky_tumblestone",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:sky_tumblestone",
-    "result_count": 4
+    "id": 459,
+    "typeId": 4,
+    "resultItemId": 560,
+    "resultCount": 4
   },
   {
-    "id": "sky_tumblestone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:sky_tumblestone_block",
-    "result_count": 1
+    "id": 460,
+    "typeId": 3,
+    "resultItemId": 561,
+    "resultCount": 1
   },
   {
-    "id": "sky_tumblestone_brick_slab",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:sky_tumblestone_brick_slab",
-    "result_count": 6
+    "id": 461,
+    "typeId": 3,
+    "resultItemId": 562,
+    "resultCount": 6
   },
   {
-    "id": "sky_tumblestone_brick_slab_from_polished_sky_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:sky_tumblestone_brick_slab",
-    "result_count": 2
+    "id": 462,
+    "typeId": 9,
+    "resultItemId": 562,
+    "resultCount": 2
   },
   {
-    "id": "sky_tumblestone_brick_slab_from_sky_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:sky_tumblestone_brick_slab",
-    "result_count": 2
+    "id": 463,
+    "typeId": 9,
+    "resultItemId": 562,
+    "resultCount": 2
   },
   {
-    "id": "sky_tumblestone_brick_slab_from_sky_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:sky_tumblestone_brick_slab",
-    "result_count": 2
+    "id": 464,
+    "typeId": 9,
+    "resultItemId": 562,
+    "resultCount": 2
   },
   {
-    "id": "sky_tumblestone_brick_stairs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:sky_tumblestone_brick_stairs",
-    "result_count": 4
+    "id": 465,
+    "typeId": 3,
+    "resultItemId": 563,
+    "resultCount": 4
   },
   {
-    "id": "sky_tumblestone_brick_stairs_from_polished_sky_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:sky_tumblestone_brick_stairs",
-    "result_count": 1
+    "id": 466,
+    "typeId": 9,
+    "resultItemId": 563,
+    "resultCount": 1
   },
   {
-    "id": "sky_tumblestone_brick_stairs_from_sky_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:sky_tumblestone_brick_stairs",
-    "result_count": 1
+    "id": 467,
+    "typeId": 9,
+    "resultItemId": 563,
+    "resultCount": 1
   },
   {
-    "id": "sky_tumblestone_brick_stairs_from_sky_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:sky_tumblestone_brick_stairs",
-    "result_count": 1
+    "id": 468,
+    "typeId": 9,
+    "resultItemId": 563,
+    "resultCount": 1
   },
   {
-    "id": "sky_tumblestone_brick_wall",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:sky_tumblestone_brick_wall",
-    "result_count": 6
+    "id": 469,
+    "typeId": 3,
+    "resultItemId": 564,
+    "resultCount": 6
   },
   {
-    "id": "sky_tumblestone_brick_wall_from_polished_sky_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:sky_tumblestone_brick_wall",
-    "result_count": 1
+    "id": 470,
+    "typeId": 9,
+    "resultItemId": 564,
+    "resultCount": 1
   },
   {
-    "id": "sky_tumblestone_brick_wall_from_sky_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:sky_tumblestone_brick_wall",
-    "result_count": 1
+    "id": 471,
+    "typeId": 9,
+    "resultItemId": 564,
+    "resultCount": 1
   },
   {
-    "id": "sky_tumblestone_brick_wall_from_sky_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:sky_tumblestone_brick_wall",
-    "result_count": 1
+    "id": 472,
+    "typeId": 9,
+    "resultItemId": 564,
+    "resultCount": 1
   },
   {
-    "id": "sky_tumblestone_bricks",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:sky_tumblestone_bricks",
-    "result_count": 4
+    "id": 473,
+    "typeId": 3,
+    "resultItemId": 565,
+    "resultCount": 4
   },
   {
-    "id": "sky_tumblestone_bricks_from_sky_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:sky_tumblestone_bricks",
-    "result_count": 1
+    "id": 474,
+    "typeId": 9,
+    "resultItemId": 565,
+    "resultCount": 1
   },
   {
-    "id": "sky_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:sky_tumblestone_bricks",
-    "result_count": 1
+    "id": 475,
+    "typeId": 9,
+    "resultItemId": 565,
+    "resultCount": 1
   },
   {
-    "id": "slate_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:slate_ball",
-    "result_count": 4
+    "id": 476,
+    "typeId": 3,
+    "resultItemId": 567,
+    "resultCount": 4
   },
   {
-    "id": "slate_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:slate_rod",
-    "result_count": 1
+    "id": 477,
+    "typeId": 6,
+    "resultItemId": 568,
+    "resultCount": 1
   },
   {
-    "id": "smooth_black_tumblestone",
-    "type": "smelting",
-    "result_id": "cobblemon:smooth_black_tumblestone",
-    "result_count": 1,
+    "id": 478,
+    "typeId": 5,
+    "resultItemId": 576,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "smooth_black_tumblestone_slab",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:smooth_black_tumblestone_slab",
-    "result_count": 6
+    "id": 479,
+    "typeId": 3,
+    "resultItemId": 577,
+    "resultCount": 6
   },
   {
-    "id": "smooth_black_tumblestone_slab_from_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:smooth_black_tumblestone_slab",
-    "result_count": 2
+    "id": 480,
+    "typeId": 9,
+    "resultItemId": 577,
+    "resultCount": 2
   },
   {
-    "id": "smooth_black_tumblestone_stairs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:smooth_black_tumblestone_stairs",
-    "result_count": 4
+    "id": 481,
+    "typeId": 3,
+    "resultItemId": 578,
+    "resultCount": 4
   },
   {
-    "id": "smooth_black_tumblestone_stairs_from_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:smooth_black_tumblestone_stairs",
-    "result_count": 1
+    "id": 482,
+    "typeId": 9,
+    "resultItemId": 578,
+    "resultCount": 1
   },
   {
-    "id": "smooth_rock",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:smooth_rock",
-    "result_count": 1
+    "id": 483,
+    "typeId": 3,
+    "resultItemId": 579,
+    "resultCount": 1
   },
   {
-    "id": "smooth_sky_tumblestone",
-    "type": "smelting",
-    "result_id": "cobblemon:smooth_sky_tumblestone",
-    "result_count": 1,
+    "id": 484,
+    "typeId": 5,
+    "resultItemId": 580,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "smooth_sky_tumblestone_slab",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:smooth_sky_tumblestone_slab",
-    "result_count": 6
+    "id": 485,
+    "typeId": 3,
+    "resultItemId": 581,
+    "resultCount": 6
   },
   {
-    "id": "smooth_sky_tumblestone_slab_from_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:smooth_sky_tumblestone_slab",
-    "result_count": 2
+    "id": 486,
+    "typeId": 9,
+    "resultItemId": 581,
+    "resultCount": 2
   },
   {
-    "id": "smooth_sky_tumblestone_stairs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:smooth_sky_tumblestone_stairs",
-    "result_count": 4
+    "id": 487,
+    "typeId": 3,
+    "resultItemId": 582,
+    "resultCount": 4
   },
   {
-    "id": "smooth_sky_tumblestone_stairs_from_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:smooth_sky_tumblestone_stairs",
-    "result_count": 1
+    "id": 488,
+    "typeId": 9,
+    "resultItemId": 582,
+    "resultCount": 1
   },
   {
-    "id": "smooth_tumblestone",
-    "type": "smelting",
-    "result_id": "cobblemon:smooth_tumblestone",
-    "result_count": 1,
+    "id": 489,
+    "typeId": 5,
+    "resultItemId": 583,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "smooth_tumblestone_slab",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:smooth_tumblestone_slab",
-    "result_count": 6
+    "id": 490,
+    "typeId": 3,
+    "resultItemId": 584,
+    "resultCount": 6
   },
   {
-    "id": "smooth_tumblestone_slab_from_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:smooth_tumblestone_slab",
-    "result_count": 2
+    "id": 491,
+    "typeId": 9,
+    "resultItemId": 584,
+    "resultCount": 2
   },
   {
-    "id": "smooth_tumblestone_stairs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:smooth_tumblestone_stairs",
-    "result_count": 4
+    "id": 492,
+    "typeId": 3,
+    "resultItemId": 585,
+    "resultCount": 4
   },
   {
-    "id": "smooth_tumblestone_stairs_from_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:smooth_tumblestone_stairs",
-    "result_count": 1
+    "id": 493,
+    "typeId": 9,
+    "resultItemId": 585,
+    "resultCount": 1
   },
   {
-    "id": "soft_sand",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:soft_sand",
-    "result_count": 1
+    "id": 494,
+    "typeId": 3,
+    "resultItemId": 586,
+    "resultCount": 1
   },
   {
-    "id": "soothe_bell",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:soothe_bell",
-    "result_count": 1
+    "id": 495,
+    "typeId": 3,
+    "resultItemId": 587,
+    "resultCount": 1
   },
   {
-    "id": "spell_tag",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:spell_tag",
-    "result_count": 1
+    "id": 496,
+    "typeId": 4,
+    "resultItemId": 588,
+    "resultCount": 1
   },
   {
-    "id": "spelon_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 497,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "sport_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:sport_ball",
-    "result_count": 4
+    "id": 498,
+    "typeId": 3,
+    "resultItemId": 590,
+    "resultCount": 4
   },
   {
-    "id": "sport_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:sport_rod",
-    "result_count": 1
+    "id": 499,
+    "typeId": 6,
+    "resultItemId": 591,
+    "resultCount": 1
   },
   {
-    "id": "starf_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:green_dye",
-    "result_count": 1,
+    "id": 500,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "stripped_apricorn_wood",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:stripped_apricorn_wood",
-    "result_count": 3
+    "id": 501,
+    "typeId": 3,
+    "resultItemId": 598,
+    "resultCount": 3
   },
   {
-    "id": "sun_stone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:sun_stone_block",
-    "result_count": 1
+    "id": 502,
+    "typeId": 3,
+    "resultItemId": 602,
+    "resultCount": 1
   },
   {
-    "id": "sun_stone_from_blasting_deepslate_sun_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:sun_stone",
-    "result_count": 1,
+    "id": 503,
+    "typeId": 1,
+    "resultItemId": 601,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "sun_stone_from_blasting_sun_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:sun_stone",
-    "result_count": 1,
+    "id": 504,
+    "typeId": 1,
+    "resultItemId": 601,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "sun_stone_from_blasting_terracotta_sun_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:sun_stone",
-    "result_count": 1,
+    "id": 505,
+    "typeId": 1,
+    "resultItemId": 601,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "sun_stone_from_block",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:sun_stone",
-    "result_count": 9
+    "id": 506,
+    "typeId": 4,
+    "resultItemId": 601,
+    "resultCount": 9
   },
   {
-    "id": "sun_stone_from_smelting_deepslate_sun_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:sun_stone",
-    "result_count": 1,
+    "id": 507,
+    "typeId": 5,
+    "resultItemId": 601,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "sun_stone_from_smelting_sun_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:sun_stone",
-    "result_count": 1,
+    "id": 508,
+    "typeId": 5,
+    "resultItemId": 601,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "sun_stone_from_smelting_terracotta_sun_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:sun_stone",
-    "result_count": 1,
+    "id": 509,
+    "typeId": 5,
+    "resultItemId": 601,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "superb_remedy",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:superb_remedy",
-    "result_count": 1
+    "id": 510,
+    "typeId": 4,
+    "resultItemId": 605,
+    "resultCount": 1
   },
   {
-    "id": "superb_remedy_2",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:superb_remedy",
-    "result_count": 1
+    "id": 511,
+    "typeId": 4,
+    "resultItemId": 605,
+    "resultCount": 1
   },
   {
-    "id": "surprise_mulch",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:surprise_mulch",
-    "result_count": 1
+    "id": 512,
+    "typeId": 4,
+    "resultItemId": 606,
+    "resultCount": 1
   },
   {
-    "id": "swift_feather",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:swift_feather",
-    "result_count": 3
+    "id": 513,
+    "typeId": 4,
+    "resultItemId": 609,
+    "resultCount": 3
   },
   {
-    "id": "tamato_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 514,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "tanga_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:green_dye",
-    "result_count": 1,
+    "id": 515,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "tatami_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:tatami_block",
-    "result_count": 2
+    "id": 516,
+    "typeId": 3,
+    "resultItemId": 616,
+    "resultCount": 2
   },
   {
-    "id": "tatami_mat",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:tatami_mat",
-    "result_count": 3
+    "id": 517,
+    "typeId": 3,
+    "resultItemId": 617,
+    "resultCount": 3
   },
   {
-    "id": "terrain_extender",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:terrain_extender",
-    "result_count": 1
+    "id": 518,
+    "typeId": 3,
+    "resultItemId": 619,
+    "resultCount": 1
   },
   {
-    "id": "thunder_stone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:thunder_stone_block",
-    "result_count": 1
+    "id": 519,
+    "typeId": 3,
+    "resultItemId": 622,
+    "resultCount": 1
   },
   {
-    "id": "thunder_stone_from_blasting_deepslate_thunder_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:thunder_stone",
-    "result_count": 1,
+    "id": 520,
+    "typeId": 1,
+    "resultItemId": 621,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "thunder_stone_from_blasting_thunder_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:thunder_stone",
-    "result_count": 1,
+    "id": 521,
+    "typeId": 1,
+    "resultItemId": 621,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "thunder_stone_from_block",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:thunder_stone",
-    "result_count": 9
+    "id": 522,
+    "typeId": 4,
+    "resultItemId": 621,
+    "resultCount": 9
   },
   {
-    "id": "thunder_stone_from_smelting_deepslate_thunder_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:thunder_stone",
-    "result_count": 1,
+    "id": 523,
+    "typeId": 5,
+    "resultItemId": 621,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "thunder_stone_from_smelting_thunder_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:thunder_stone",
-    "result_count": 1,
+    "id": 524,
+    "typeId": 5,
+    "resultItemId": 621,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "timer_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:timer_ball",
-    "result_count": 4
+    "id": 525,
+    "typeId": 3,
+    "resultItemId": 624,
+    "resultCount": 4
   },
   {
-    "id": "timer_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:timer_rod",
-    "result_count": 1
+    "id": 526,
+    "typeId": 6,
+    "resultItemId": 625,
+    "resultCount": 1
   },
   {
-    "id": "timid_mint",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:timid_mint",
-    "result_count": 1
+    "id": 527,
+    "typeId": 3,
+    "resultItemId": 626,
+    "resultCount": 1
   },
   {
-    "id": "touga_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:red_dye",
-    "result_count": 1,
+    "id": 528,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "toxic_orb",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:toxic_orb",
-    "result_count": 1
+    "id": 529,
+    "typeId": 3,
+    "resultItemId": 629,
+    "resultCount": 1
   },
   {
-    "id": "tumblestone",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:tumblestone",
-    "result_count": 4
+    "id": 530,
+    "typeId": 4,
+    "resultItemId": 630,
+    "resultCount": 4
   },
   {
-    "id": "tumblestone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:tumblestone_block",
-    "result_count": 1
+    "id": 531,
+    "typeId": 3,
+    "resultItemId": 631,
+    "resultCount": 1
   },
   {
-    "id": "tumblestone_brick_slab",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:tumblestone_brick_slab",
-    "result_count": 6
+    "id": 532,
+    "typeId": 3,
+    "resultItemId": 632,
+    "resultCount": 6
   },
   {
-    "id": "tumblestone_brick_slab_from_polished_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:tumblestone_brick_slab",
-    "result_count": 2
+    "id": 533,
+    "typeId": 9,
+    "resultItemId": 632,
+    "resultCount": 2
   },
   {
-    "id": "tumblestone_brick_slab_from_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:tumblestone_brick_slab",
-    "result_count": 2
+    "id": 534,
+    "typeId": 9,
+    "resultItemId": 632,
+    "resultCount": 2
   },
   {
-    "id": "tumblestone_brick_slab_from_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:tumblestone_brick_slab",
-    "result_count": 2
+    "id": 535,
+    "typeId": 9,
+    "resultItemId": 632,
+    "resultCount": 2
   },
   {
-    "id": "tumblestone_brick_stairs",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:tumblestone_brick_stairs",
-    "result_count": 4
+    "id": 536,
+    "typeId": 3,
+    "resultItemId": 633,
+    "resultCount": 4
   },
   {
-    "id": "tumblestone_brick_stairs_from_polished_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:tumblestone_brick_stairs",
-    "result_count": 1
+    "id": 537,
+    "typeId": 9,
+    "resultItemId": 633,
+    "resultCount": 1
   },
   {
-    "id": "tumblestone_brick_stairs_from_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:tumblestone_brick_stairs",
-    "result_count": 1
+    "id": 538,
+    "typeId": 9,
+    "resultItemId": 633,
+    "resultCount": 1
   },
   {
-    "id": "tumblestone_brick_stairs_from_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:tumblestone_brick_stairs",
-    "result_count": 1
+    "id": 539,
+    "typeId": 9,
+    "resultItemId": 633,
+    "resultCount": 1
   },
   {
-    "id": "tumblestone_brick_wall",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:tumblestone_brick_wall",
-    "result_count": 6
+    "id": 540,
+    "typeId": 3,
+    "resultItemId": 634,
+    "resultCount": 6
   },
   {
-    "id": "tumblestone_brick_wall_from_polished_tumblestone_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:tumblestone_brick_wall",
-    "result_count": 1
+    "id": 541,
+    "typeId": 9,
+    "resultItemId": 634,
+    "resultCount": 1
   },
   {
-    "id": "tumblestone_brick_wall_from_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:tumblestone_brick_wall",
-    "result_count": 1
+    "id": 542,
+    "typeId": 9,
+    "resultItemId": 634,
+    "resultCount": 1
   },
   {
-    "id": "tumblestone_brick_wall_from_tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:tumblestone_brick_wall",
-    "result_count": 1
+    "id": 543,
+    "typeId": 9,
+    "resultItemId": 634,
+    "resultCount": 1
   },
   {
-    "id": "tumblestone_bricks",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:tumblestone_bricks",
-    "result_count": 4
+    "id": 544,
+    "typeId": 3,
+    "resultItemId": 635,
+    "resultCount": 4
   },
   {
-    "id": "tumblestone_bricks_from_tumblestone_block_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:tumblestone_bricks",
-    "result_count": 1
+    "id": 545,
+    "typeId": 9,
+    "resultItemId": 635,
+    "resultCount": 1
   },
   {
-    "id": "tumblestone_bricks_in_stonecutter",
-    "type": "stonecutting",
-    "result_id": "cobblemon:tumblestone_bricks",
-    "result_count": 1
+    "id": 546,
+    "typeId": 9,
+    "resultItemId": 635,
+    "resultCount": 1
   },
   {
-    "id": "twisted_spoon",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:twisted_spoon",
-    "result_count": 1
+    "id": 547,
+    "typeId": 4,
+    "resultItemId": 637,
+    "resultCount": 1
   },
   {
-    "id": "ultra_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:ultra_ball",
-    "result_count": 4
+    "id": 548,
+    "typeId": 3,
+    "resultItemId": 638,
+    "resultCount": 4
   },
   {
-    "id": "ultra_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:ultra_rod",
-    "result_count": 1
+    "id": 549,
+    "typeId": 6,
+    "resultItemId": 639,
+    "resultCount": 1
   },
   {
-    "id": "unremarkable_teacup",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:unremarkable_teacup",
-    "result_count": 1
+    "id": 550,
+    "typeId": 3,
+    "resultItemId": 640,
+    "resultCount": 1
   },
   {
-    "id": "upgrade",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:upgrade",
-    "result_count": 1
+    "id": 551,
+    "typeId": 3,
+    "resultItemId": 641,
+    "resultCount": 1
   },
   {
-    "id": "utility_umbrella",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:utility_umbrella",
-    "result_count": 1
+    "id": 552,
+    "typeId": 3,
+    "resultItemId": 642,
+    "resultCount": 1
   },
   {
-    "id": "verdant_ball",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:verdant_ball",
-    "result_count": 4
+    "id": 553,
+    "typeId": 3,
+    "resultItemId": 643,
+    "resultCount": 4
   },
   {
-    "id": "verdant_rod",
-    "type": "smithing_transform",
-    "result_id": "cobblemon:verdant_rod",
-    "result_count": 1
+    "id": 554,
+    "typeId": 6,
+    "resultItemId": 645,
+    "resultCount": 1
   },
   {
-    "id": "vivichoke_seeds",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:vivichoke_seeds",
-    "result_count": 1
+    "id": 555,
+    "typeId": 4,
+    "resultItemId": 647,
+    "resultCount": 1
   },
   {
-    "id": "wacan_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 556,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "water_stone_block",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:water_stone_block",
-    "result_count": 1
+    "id": 557,
+    "typeId": 3,
+    "resultItemId": 651,
+    "resultCount": 1
   },
   {
-    "id": "water_stone_from_blasting_deepslate_water_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:water_stone",
-    "result_count": 1,
+    "id": 558,
+    "typeId": 1,
+    "resultItemId": 650,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "water_stone_from_blasting_water_stone_ore",
-    "type": "blasting",
-    "result_id": "cobblemon:water_stone",
-    "result_count": 1,
+    "id": 559,
+    "typeId": 1,
+    "resultItemId": 650,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 100
+    "cookingTime": 100
   },
   {
-    "id": "water_stone_from_block",
-    "type": "crafting_shapeless",
-    "result_id": "cobblemon:water_stone",
-    "result_count": 9
+    "id": 560,
+    "typeId": 4,
+    "resultItemId": 650,
+    "resultCount": 9
   },
   {
-    "id": "water_stone_from_smelting_deepslate_water_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:water_stone",
-    "result_count": 1,
+    "id": 561,
+    "typeId": 5,
+    "resultItemId": 650,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "water_stone_from_smelting_water_stone_ore",
-    "type": "smelting",
-    "result_id": "cobblemon:water_stone",
-    "result_count": 1,
+    "id": 562,
+    "typeId": 5,
+    "resultItemId": 650,
+    "resultCount": 1,
     "experience": 0.2,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "watmel_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:pink_dye",
-    "result_count": 1,
+    "id": 563,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "weakness_policy",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:weakness_policy",
-    "result_count": 1
+    "id": 564,
+    "typeId": 3,
+    "resultItemId": 655,
+    "resultCount": 1
   },
   {
-    "id": "wepear_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:lime_dye",
-    "result_count": 1,
+    "id": 565,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "white_apricorn_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:white_dye",
-    "result_count": 1,
+    "id": 566,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "white_gilded_chest",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:white_gilded_chest",
-    "result_count": 1
+    "id": 567,
+    "typeId": 3,
+    "resultItemId": 660,
+    "resultCount": 1
   },
   {
-    "id": "wide_lens",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:wide_lens",
-    "result_count": 1
+    "id": 568,
+    "typeId": 3,
+    "resultItemId": 664,
+    "resultCount": 1
   },
   {
-    "id": "wiki_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:purple_dye",
-    "result_count": 1,
+    "id": 569,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "wise_glasses",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:wise_glasses",
-    "result_count": 1
+    "id": 570,
+    "typeId": 3,
+    "resultItemId": 666,
+    "resultCount": 1
   },
   {
-    "id": "yache_berry_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:cyan_dye",
-    "result_count": 1,
+    "id": 571,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "yellow_apricorn_smelt_to_dye",
-    "type": "smelting",
-    "result_id": "minecraft:yellow_dye",
-    "result_count": 1,
+    "id": 572,
+    "typeId": 5,
+    "resultItemId": null,
+    "resultCount": 1,
     "experience": 0.1,
-    "cooking_time": 200
+    "cookingTime": 200
   },
   {
-    "id": "yellow_gilded_chest",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:yellow_gilded_chest",
-    "result_count": 1
+    "id": 573,
+    "typeId": 3,
+    "resultItemId": 676,
+    "resultCount": 1
   },
   {
-    "id": "zoom_lens",
-    "type": "crafting_shaped",
-    "result_id": "cobblemon:zoom_lens",
-    "result_count": 1
+    "id": 574,
+    "typeId": 3,
+    "resultItemId": 678,
+    "resultCount": 1
   }
 ]

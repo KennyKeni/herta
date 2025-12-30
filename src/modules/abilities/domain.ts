@@ -13,3 +13,13 @@ export interface AbilityFlagType {
   slug: string;
   description: string | null;
 }
+
+export interface AbilityFilter {
+  abilityIds?: number[];
+  abilitySlugs?: string[];
+  flagIds?: number[];
+  flagSlugs?: string[];
+  includeFlags?: boolean;
+  limit?: number;
+  offset?: number;
+}

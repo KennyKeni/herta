@@ -1,5 +1,17 @@
+import type { Ability } from '../abilities/domain';
+import type { Move } from '../moves/domain';
 import type { PokemonFilter, SpeciesWithForms } from '../pokemon/domain';
-import type { AgentPokemon, AgentPokemonQuery, AgentPokemonResponse } from './model';
+import type {
+  AgentAbility,
+  AgentAbilityQuery,
+  AgentAbilityResponse,
+  AgentMove,
+  AgentMoveQuery,
+  AgentMoveResponse,
+  AgentPokemon,
+  AgentPokemonQuery,
+  AgentPokemonResponse,
+} from './model';
 
 export function mapIncludeFlags(query: AgentPokemonQuery): Partial<PokemonFilter> {
   return {
@@ -29,6 +41,7 @@ export function toResponse(
     for (const form of sp.forms) {
       const pokemon: AgentPokemon = {
         name: form.fullName,
+        slug: form.slug,
         speciesName: sp.name,
       };
 
@@ -155,6 +168,101 @@ export function toResponse(
       results.push(pokemon);
     }
   }
+
+  return {
+    results,
+    total,
+    limit: query.limit ?? 20,
+    offset: query.offset ?? 0,
+  };
+}
+
+export function toAbilityResponse(
+  abilities: Ability[],
+  query: AgentAbilityQuery,
+  total: number
+): AgentAbilityResponse {
+  const results: AgentAbility[] = abilities.map((ability) => {
+    const result: AgentAbility = {
+      name: ability.name,
+      slug: ability.slug,
+    };
+
+    if (query.includeDescription) {
+      result.shortDesc = ability.shortDesc;
+      result.desc = ability.desc;
+    }
+
+    if (query.includeFlags && ability.flags.length > 0) {
+      result.flags = ability.flags.map((f) => f.name);
+    }
+
+    return result;
+  });
+
+  return {
+    results,
+    total,
+    limit: query.limit ?? 20,
+    offset: query.offset ?? 0,
+  };
+}
+
+export function toMoveResponse(
+  moves: Move[],
+  query: AgentMoveQuery,
+  total: number
+): AgentMoveResponse {
+  const results: AgentMove[] = moves.map((move) => {
+    const result: AgentMove = {
+      name: move.name,
+      slug: move.slug,
+      type: move.type.name,
+      category: move.category.name,
+      power: move.power,
+      accuracy: move.accuracy,
+      pp: move.pp,
+      priority: move.priority,
+    };
+
+    if (query.includeDescription) {
+      result.shortDesc = move.shortDesc;
+      result.desc = move.desc;
+      result.target = move.target?.name ?? null;
+    }
+
+    if (query.includeFlags && move.flags.length > 0) {
+      result.flags = move.flags.map((f) => f.name);
+    }
+
+    if (query.includeBoosts && move.boosts.length > 0) {
+      result.boosts = move.boosts.map((b) => ({
+        stat: b.stat.name,
+        stages: b.stages,
+        isSelf: b.isSelf,
+      }));
+    }
+
+    if (query.includeEffects && move.effects.length > 0) {
+      result.effects = move.effects.map((e) => ({
+        effect: e.effectType.name,
+        chance: e.chance,
+        isSelf: e.isSelf,
+        condition: e.condition?.name ?? null,
+      }));
+    }
+
+    if (query.includeZData && move.zData) {
+      result.zData = {
+        zPower: move.zData.zPower,
+        zEffect: move.zData.zEffect,
+        zCrystal: move.zData.zCrystal,
+        isZExclusive: move.zData.isZExclusive,
+      };
+    }
+
+    return result;
+  });
 
   return {
     results,

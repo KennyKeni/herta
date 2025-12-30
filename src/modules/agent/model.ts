@@ -192,6 +192,7 @@ const PhysicalSchema = t.Object({
 
 export const AgentPokemonSchema = t.Object({
   name: t.String({ description: 'Form name (e.g., "Base", "Mega Charizard X")' }),
+  slug: t.String({ description: 'Form slug for URLs (e.g., "charizard", "charizard-mega-x")' }),
   speciesName: t.String({ description: 'Species name (e.g., "Charizard")' }),
 
   description: t.Optional(t.Nullable(t.String({ description: 'Pokedex flavor text' }))),
@@ -248,3 +249,130 @@ export const AgentArticleResponseSchema = t.Nullable(
 );
 
 export type AgentArticleResponse = Static<typeof AgentArticleResponseSchema>;
+
+export const AgentAbilityQuerySchema = t.Object({
+  names: t.Optional(
+    t.Array(t.String(), {
+      description: 'Fuzzy match ability names (e.g., "levitate", "intimidate")',
+    })
+  ),
+  includeDescription: t.Optional(t.Boolean({ description: 'Include full description text' })),
+  includeFlags: t.Optional(t.Boolean({ description: 'Include ability flags' })),
+  limit: t.Optional(
+    t.Number({
+      minimum: 1,
+      maximum: 100,
+      default: 20,
+      description: 'Max results to return (1-100, default 20)',
+    })
+  ),
+  offset: t.Optional(
+    t.Number({ minimum: 0, default: 0, description: 'Number of results to skip for pagination' })
+  ),
+});
+
+export type AgentAbilityQuery = Static<typeof AgentAbilityQuerySchema>;
+
+export const AgentAbilitySchema = t.Object({
+  name: t.String({ description: 'Ability name' }),
+  slug: t.String({ description: 'Ability slug for URLs' }),
+  shortDesc: t.Optional(t.Nullable(t.String({ description: 'Short description' }))),
+  desc: t.Optional(t.Nullable(t.String({ description: 'Full description' }))),
+  flags: t.Optional(t.Array(t.String(), { description: 'Ability flag names' })),
+});
+
+export type AgentAbility = Static<typeof AgentAbilitySchema>;
+
+export const AgentAbilityResponseSchema = t.Object({
+  results: t.Array(AgentAbilitySchema, { description: 'Matching abilities' }),
+  total: t.Number({ description: 'Total matching results' }),
+  limit: t.Number({ description: 'Results per page' }),
+  offset: t.Number({ description: 'Results skipped' }),
+});
+
+export type AgentAbilityResponse = Static<typeof AgentAbilityResponseSchema>;
+
+const AgentMoveBoostSchema = t.Object({
+  stat: t.String({ description: 'Stat name (e.g., "attack", "speed")' }),
+  stages: t.Number({ description: 'Number of stages (+/-)' }),
+  isSelf: t.Boolean({ description: 'Whether boost applies to user' }),
+});
+
+const AgentMoveEffectSchema = t.Object({
+  effect: t.String({ description: 'Effect type name' }),
+  chance: t.Number({ description: 'Chance percentage (0-100)' }),
+  isSelf: t.Boolean({ description: 'Whether effect applies to user' }),
+  condition: t.Optional(t.Nullable(t.String({ description: 'Status condition name' }))),
+});
+
+const AgentZDataSchema = t.Object({
+  zPower: t.Nullable(t.Number({ description: 'Z-Move base power' })),
+  zEffect: t.Nullable(t.String({ description: 'Z-Move effect' })),
+  zCrystal: t.Nullable(t.String({ description: 'Required Z-Crystal' })),
+  isZExclusive: t.Boolean({ description: 'Whether this is a signature Z-Move' }),
+});
+
+export const AgentMoveQuerySchema = t.Object({
+  names: t.Optional(
+    t.Array(t.String(), {
+      description: 'Fuzzy match move names (e.g., "thunderbolt", "earthquake")',
+    })
+  ),
+  types: t.Optional(
+    t.Array(t.String(), {
+      description: 'Fuzzy match type names (e.g., "fire", "water")',
+    })
+  ),
+  categories: t.Optional(
+    t.Array(t.String(), {
+      description: 'Filter by category names (e.g., "Physical", "Special", "Status")',
+    })
+  ),
+  includeDescription: t.Optional(t.Boolean({ description: 'Include full description text' })),
+  includeFlags: t.Optional(t.Boolean({ description: 'Include move flags' })),
+  includeBoosts: t.Optional(t.Boolean({ description: 'Include stat boosts' })),
+  includeEffects: t.Optional(t.Boolean({ description: 'Include move effects' })),
+  includeZData: t.Optional(t.Boolean({ description: 'Include Z-Move data' })),
+  limit: t.Optional(
+    t.Number({
+      minimum: 1,
+      maximum: 100,
+      default: 20,
+      description: 'Max results to return (1-100, default 20)',
+    })
+  ),
+  offset: t.Optional(
+    t.Number({ minimum: 0, default: 0, description: 'Number of results to skip for pagination' })
+  ),
+});
+
+export type AgentMoveQuery = Static<typeof AgentMoveQuerySchema>;
+
+export const AgentMoveSchema = t.Object({
+  name: t.String({ description: 'Move name' }),
+  slug: t.String({ description: 'Move slug for URLs' }),
+  type: t.String({ description: 'Move type name' }),
+  category: t.String({ description: 'Move category (Physical/Special/Status)' }),
+  power: t.Nullable(t.Number({ description: 'Base power (null for status moves)' })),
+  accuracy: t.Nullable(t.Number({ description: 'Accuracy percentage (null if always hits)' })),
+  pp: t.Number({ description: 'Base PP' }),
+  priority: t.Number({ description: 'Priority bracket (-7 to +5)' }),
+  target: t.Optional(t.Nullable(t.String({ description: 'Target type' }))),
+  shortDesc: t.Optional(t.Nullable(t.String({ description: 'Short description' }))),
+  desc: t.Optional(t.Nullable(t.String({ description: 'Full description' }))),
+  flags: t.Optional(t.Array(t.String(), { description: 'Move flag names' })),
+  boosts: t.Optional(t.Array(AgentMoveBoostSchema)),
+  effects: t.Optional(t.Array(AgentMoveEffectSchema)),
+  zData: t.Optional(t.Nullable(AgentZDataSchema)),
+});
+
+export type AgentMove = Static<typeof AgentMoveSchema>;
+
+export const AgentMoveResponseSchema = t.Object({
+  results: t.Array(AgentMoveSchema, { description: 'Matching moves' }),
+  total: t.Number({ description: 'Total matching results' }),
+  limit: t.Number({ description: 'Results per page' }),
+  offset: t.Number({ description: 'Results skipped' }),
+});
+
+export type AgentMoveResponse = Static<typeof AgentMoveResponseSchema>;
