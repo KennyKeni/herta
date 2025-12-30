@@ -5,7 +5,7 @@ import type { Item, ItemFilter } from './domain';
 export class ItemsRepository {
   constructor(private db: Kysely<DB>) {}
 
-  async fuzzyResolve(names: string[]): Promise<string[]> {
+  async fuzzyResolve(names: string[]): Promise<number[]> {
     if (!names.length) return [];
 
     const results = await Promise.all(
@@ -20,7 +20,7 @@ export class ItemsRepository {
       )
     );
 
-    return results.filter((r): r is { id: string } => r != null).map((r) => r.id);
+    return results.filter((r): r is { id: number } => r != null).map((r) => r.id);
   }
 
   async searchItems(filters: ItemFilter): Promise<Item[]> {
@@ -40,21 +40,13 @@ export class ItemsRepository {
   private buildSearchQuery(filters: ItemFilter) {
     let query = this.db
       .selectFrom('items as i')
-      .leftJoin('types as t', 't.id', 'i.natural_gift_type_id')
       .select([
         'i.id',
         'i.name',
         'i.desc',
         'i.short_desc',
-        'i.source',
         'i.gen',
         'i.implemented',
-        'i.fling_power',
-        'i.fling_effect',
-        'i.natural_gift_power',
-        't.id as natural_gift_type_id',
-        't.name as natural_gift_type_name',
-        't.slug as natural_gift_type_slug',
       ]);
 
     if (filters.itemIds?.length) query = query.where('i.id', 'in', filters.itemIds);
@@ -84,7 +76,7 @@ export class ItemsRepository {
       });
   }
 
-  private async fetchRelations(itemIds: string[], filters: ItemFilter) {
+  private async fetchRelations(itemIds: number[], filters: ItemFilter) {
     const [boosts, flags, tags] = await Promise.all([
       this.fetchBoosts(filters.includeBoosts !== false ? itemIds : []),
       this.fetchFlags(filters.includeFlags !== false ? itemIds : []),
@@ -98,11 +90,11 @@ export class ItemsRepository {
     };
   }
 
-  private fetchBoosts(itemIds: string[]) {
+  private fetchBoosts(itemIds: number[]) {
     if (!itemIds.length)
       return Promise.resolve(
         [] as {
-          item_id: string;
+          item_id: number;
           stat_id: number;
           stat_name: string;
           stages: number;
@@ -116,26 +108,28 @@ export class ItemsRepository {
       .execute();
   }
 
-  private fetchFlags(itemIds: string[]) {
+  private fetchFlags(itemIds: number[]) {
     if (!itemIds.length)
       return Promise.resolve(
         [] as {
-          item_id: string;
-          flag: string;
+          item_id: number;
+          flag_type_id: number;
+          flag_name: string;
         }[]
       );
     return this.db
       .selectFrom('item_flags as if')
-      .select(['if.item_id', 'if.flag'])
+      .innerJoin('item_flag_types as ift', 'ift.id', 'if.flag_type_id')
+      .select(['if.item_id', 'if.flag_type_id', 'ift.name as flag_name'])
       .where('if.item_id', 'in', itemIds)
       .execute();
   }
 
-  private fetchTags(itemIds: string[]) {
+  private fetchTags(itemIds: number[]) {
     if (!itemIds.length)
       return Promise.resolve(
         [] as {
-          item_id: string;
+          item_id: number;
           tag_slug: string;
           tag_name: string;
         }[]
@@ -171,25 +165,14 @@ export class ItemsRepository {
       name: row.name,
       desc: row.desc,
       shortDesc: row.short_desc,
-      source: row.source,
       generation: row.gen,
       implemented: row.implemented,
-      flingPower: row.fling_power,
-      flingEffect: row.fling_effect,
-      naturalGiftPower: row.natural_gift_power,
-      naturalGiftType: row.natural_gift_type_id
-        ? {
-            id: row.natural_gift_type_id,
-            name: row.natural_gift_type_name ?? '',
-            slug: row.natural_gift_type_slug ?? '',
-          }
-        : null,
       boosts: boosts.map((b) => ({
         stat: { id: b.stat_id, name: b.stat_name },
         stages: b.stages,
       })),
-      flags: flags.map((f) => ({ flag: f.flag })),
-      tags: tags.map((t) => ({ namespace: 'minecraft', tag: t.tag_name })),
+      flags: flags.map((f) => ({ id: f.flag_type_id, name: f.flag_name })),
+      tags: tags.map((t) => ({ slug: t.tag_slug, name: t.tag_name })),
       recipes: [],
     };
   }

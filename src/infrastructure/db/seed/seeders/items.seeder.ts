@@ -1,41 +1,36 @@
+import { slugForPokemon } from '../../../../common/utils/slug';
 import type { Seeder } from '../utils';
 import { batchInsert, loadJson } from '../utils';
 
 interface ItemJson {
-  id: string;
+  id: number;
   name: string;
   num: number | null;
   gen: number | null;
-  desc: string;
-  short_desc: string;
-  fling_power?: number;
-  fling_effect?: string | null;
-  natural_gift_type?: string;
-  natural_gift_power?: number;
-  source: string;
+  desc: string | null;
+  shortDesc: string | null;
+  namespaceId: number | null;
   implemented: boolean;
 }
 
 interface ItemBoostJson {
-  itemId: string;
+  itemId: number;
   statId: number;
   stages: number;
 }
 
 interface ItemFlagJson {
-  item_id: string;
-  flag: string;
+  itemId: number;
+  flagTypeId: number;
 }
 
 interface ItemTagTypeJson {
   id: number;
-  slug: string;
   name: string;
 }
 
 interface ItemTagJson {
-  id: number;
-  itemId: string;
+  itemId: number;
   tagId: number;
 }
 
@@ -59,20 +54,13 @@ export const itemsSeeder: Seeder = {
   async seed(db, logger) {
     let total = 0;
 
-    // Build type name -> id map
-    const typeMap = new Map<string, number>();
-    const types = await db.selectFrom('types').select(['id', 'name']).execute();
-    for (const t of types) {
-      typeMap.set(t.name.toLowerCase(), t.id);
-    }
-
     // item_tag_types
     {
       const start = Date.now();
       const data = await loadJson<ItemTagTypeJson[]>('item_tag_types.json');
       const rows = data.map((t) => ({
         id: t.id,
-        slug: t.slug,
+        slug: slugForPokemon(t.name),
         name: t.name,
       }));
       const count = await batchInsert(db, 'item_tag_types', rows);
@@ -87,16 +75,11 @@ export const itemsSeeder: Seeder = {
       const rows = data.map((i) => ({
         id: i.id,
         name: i.name,
+        num: i.num,
         gen: i.gen,
         desc: i.desc || null,
-        short_desc: i.short_desc || null,
-        fling_power: i.fling_power ?? null,
-        fling_effect: i.fling_effect ?? null,
-        natural_gift_type_id: i.natural_gift_type
-          ? (typeMap.get(i.natural_gift_type.toLowerCase()) ?? null)
-          : null,
-        natural_gift_power: i.natural_gift_power ?? null,
-        source: i.source,
+        short_desc: i.shortDesc || null,
+        namespace_id: i.namespaceId,
         implemented: i.implemented,
       }));
       const count = await batchInsert(db, 'items', rows);
@@ -123,8 +106,8 @@ export const itemsSeeder: Seeder = {
       const start = Date.now();
       const data = await loadJson<ItemFlagJson[]>('item_flags.json');
       const rows = data.map((f) => ({
-        item_id: f.item_id,
-        flag: f.flag,
+        item_id: f.itemId,
+        flag_type_id: f.flagTypeId,
       }));
       const count = await batchInsert(db, 'item_flags', rows);
       logger.table('item_flags', count, Date.now() - start);
@@ -136,7 +119,6 @@ export const itemsSeeder: Seeder = {
       const start = Date.now();
       const data = await loadJson<ItemTagJson[]>('item_tags.json');
       const rows = data.map((t) => ({
-        id: t.id,
         item_id: t.itemId,
         tag_id: t.tagId,
       }));

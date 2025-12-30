@@ -151,9 +151,7 @@ const BreedingSchema = t.Object({
 
 const AbilitySchema = t.Object({
   name: t.String({ description: 'Ability name' }),
-  slot: t.Union([t.Literal('slot1'), t.Literal('slot2'), t.Literal('hidden')], {
-    description: 'slot1/slot2 are regular abilities, hidden is the hidden ability',
-  }),
+  slot: t.String({ description: 'Ability slot name (e.g., slot1, slot2, hidden)' }),
 });
 
 const MoveSchema = t.Object({

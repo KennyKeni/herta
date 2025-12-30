@@ -96,14 +96,14 @@ export function toResponse(
       if (query.includeAbilities && form.abilities.length > 0) {
         pokemon.abilities = form.abilities.map((a) => ({
           name: a.ability.name,
-          slot: a.slot,
+          slot: a.slot.name,
         }));
       }
 
       if (query.includeMoves && form.moves.length > 0) {
         pokemon.moves = form.moves.map((m) => ({
           name: m.move.name,
-          method: m.method,
+          method: m.method.name,
           level: m.level,
         }));
       }
@@ -153,8 +153,11 @@ export function toResponse(
         pokemon.hitbox = form.hitbox ?? sp.hitbox ?? null;
       }
 
-      if (query.includeLighting) {
-        pokemon.lighting = sp.lighting;
+      if (query.includeLighting && sp.lighting) {
+        pokemon.lighting = {
+          lightLevel: sp.lighting.lightLevel,
+          liquidGlowMode: sp.lighting.liquidGlowMode,
+        };
       }
 
       if (query.includeRiding) {
@@ -245,7 +248,7 @@ export function toMoveResponse(
 
     if (query.includeEffects && move.effects.length > 0) {
       result.effects = move.effects.map((e) => ({
-        effect: e.effectType.name,
+        effect: e.conditionType.name,
         chance: e.chance,
         isSelf: e.isSelf,
         condition: e.condition?.name ?? null,

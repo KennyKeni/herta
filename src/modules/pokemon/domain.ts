@@ -1,3 +1,7 @@
+import type { Spawn } from '../spawns/domain';
+
+export type { Spawn };
+
 export interface TypeRef {
   id: number;
   name: string;
@@ -25,7 +29,7 @@ export interface AspectRef {
 export interface AspectChoiceRef {
   id: number;
   name: string;
-  slug: string;
+  value: string;
 }
 
 export interface Species {
@@ -81,17 +85,21 @@ export interface Form {
   drops: FormDrops | null;
   aspectCombos: FormAspectCombo[];
   behaviour: Behaviour | null;
+  spawns: Spawn[];
 }
 
 export interface FormWithSpecies {
   species: Species;
 }
 
-export type AbilitySlot = 'slot1' | 'slot2' | 'hidden';
+export interface AbilitySlotRef {
+  id: number;
+  name: string;
+}
 
 export interface FormAbility {
   ability: AbilityRef;
-  slot: AbilitySlot;
+  slot: AbilitySlotRef;
 }
 
 export interface FormType {
@@ -99,9 +107,14 @@ export interface FormType {
   slot: number;
 }
 
+export interface MoveLearnMethodRef {
+  id: number;
+  name: string;
+}
+
 export interface FormMove {
   move: MoveRef;
-  method: string;
+  method: MoveLearnMethodRef;
   level: number | null;
 }
 
@@ -125,6 +138,7 @@ export interface FormHitbox {
 export interface EggGroup {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface ExperienceGroup {
@@ -159,9 +173,8 @@ export interface Label {
 }
 
 export interface ItemRef {
-  id: string;
+  id: number;
   name: string;
-  source: string;
 }
 
 export interface DropPercentage {
@@ -236,6 +249,7 @@ export interface PokemonFilter {
   includeLighting?: boolean;
   includeRiding?: boolean;
   includeBehaviour?: boolean;
+  includeSpawns?: boolean;
 
   limit?: number;
   offset?: number;

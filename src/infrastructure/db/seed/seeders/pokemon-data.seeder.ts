@@ -4,7 +4,7 @@ import { batchInsert, loadJson } from '../utils';
 interface FormMoveJson {
   formId: number;
   moveId: number;
-  method: string;
+  methodId: number;
   level: number | null;
 }
 
@@ -19,15 +19,16 @@ interface FormDropJson {
 }
 
 interface DropRangeJson {
+  id: number;
   formId: number;
-  itemId: string;
+  itemId: number;
   quantityMin: number;
   quantityMax: number;
 }
 
 interface DropPercentageJson {
   formId: number;
-  itemId: string;
+  itemId: number;
   percentage: number;
 }
 
@@ -65,7 +66,7 @@ export const pokemonDataSeeder: Seeder = {
         const rows = data.map((m) => ({
           form_id: m.formId,
           move_id: m.moveId,
-          method: m.method,
+          method_id: m.methodId,
           level: m.level,
         }));
         const count = await batchInsert(db, 'form_moves', rows);
@@ -111,7 +112,8 @@ export const pokemonDataSeeder: Seeder = {
       const start = Date.now();
       const data = await loadJson<DropRangeJson[]>('drop_ranges.json');
       const rows = data.map((d) => ({
-        form_drop_id: d.formId,
+        id: d.id,
+        form_id: d.formId,
         item_id: d.itemId,
         quantity_min: d.quantityMin,
         quantity_max: d.quantityMax,
@@ -126,7 +128,7 @@ export const pokemonDataSeeder: Seeder = {
       const start = Date.now();
       const data = await loadJson<DropPercentageJson[]>('drop_percentages.json');
       const rows = data.map((d) => ({
-        form_drop_id: d.formId,
+        form_id: d.formId,
         item_id: d.itemId,
         percentage: d.percentage,
       }));

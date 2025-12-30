@@ -1,590 +1,422 @@
 [
   {
     "speciesId": 4,
-    "data": {
-      "lightLevel": 11,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 11,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 5,
-    "data": {
-      "lightLevel": 12,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 12,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 6,
-    "data": {
-      "lightLevel": 14,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 14,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 72,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 73,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 77,
-    "data": {
-      "lightLevel": 15,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 15,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 78,
-    "data": {
-      "lightLevel": 15,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 15,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 120,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 121,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 126,
-    "data": {
-      "lightLevel": 9,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 9,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 146,
-    "data": {
-      "lightLevel": 15,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 15,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 170,
-    "data": {
-      "lightLevel": 14,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 14,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 171,
-    "data": {
-      "lightLevel": 15,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 15,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 179,
-    "data": {
-      "lightLevel": 10,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 10,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 180,
-    "data": {
-      "lightLevel": 10,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 10,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 181,
-    "data": {
-      "lightLevel": 12,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 12,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 197,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 200,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 218,
-    "data": {
-      "lightLevel": 15,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 15,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 219,
-    "data": {
-      "lightLevel": 15,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 15,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 313,
-    "data": {
-      "lightLevel": 11,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 11,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 314,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 324,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 355,
-    "data": {
-      "lightLevel": 4,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 4,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 367,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 390,
-    "data": {
-      "lightLevel": 11,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 11,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 391,
-    "data": {
-      "lightLevel": 12,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 12,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 392,
-    "data": {
-      "lightLevel": 14,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 14,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 429,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 442,
-    "data": {
-      "lightLevel": 9,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 9,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 456,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 457,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 467,
-    "data": {
-      "lightLevel": 10,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 10,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 479,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 485,
-    "data": {
-      "lightLevel": 12,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 12,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 488,
-    "data": {
-      "lightLevel": 10,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 10,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 500,
-    "data": {
-      "lightLevel": 15,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 15,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 504,
-    "data": {
-      "lightLevel": 3,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 3,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 505,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 555,
-    "data": {
-      "lightLevel": 14,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 14,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 607,
-    "data": {
-      "lightLevel": 11,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 11,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 608,
-    "data": {
-      "lightLevel": 12,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 12,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 609,
-    "data": {
-      "lightLevel": 13,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 13,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 615,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 622,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 623,
-    "data": {
-      "lightLevel": 10,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 10,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 710,
-    "data": {
-      "lightLevel": 9,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 9,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 711,
-    "data": {
-      "lightLevel": 10,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 10,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 726,
-    "data": {
-      "lightLevel": 10,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 10,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 727,
-    "data": {
-      "lightLevel": 13,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 13,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 755,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 756,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 774,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 796,
-    "data": {
-      "lightLevel": 15,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 15,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 838,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 839,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 848,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 849,
-    "data": {
-      "lightLevel": 10,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 10,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 850,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 851,
-    "data": {
-      "lightLevel": 15,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 15,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 890,
-    "data": {
-      "lightLevel": 13,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 13,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 894,
-    "data": {
-      "lightLevel": 15,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 15,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 909,
-    "data": {
-      "lightLevel": 9,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 9,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 910,
-    "data": {
-      "lightLevel": 14,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 14,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 911,
-    "data": {
-      "lightLevel": 15,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 15,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 935,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 936,
-    "data": {
-      "lightLevel": 10,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 10,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 937,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 939,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 954,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 971,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "LAND"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "LAND"
   },
   {
     "speciesId": 990,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 991,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 992,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 993,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 994,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 995,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 1004,
-    "data": {
-      "lightLevel": 8,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 8,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 1006,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 1008,
-    "data": {
-      "lightLevel": 10,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 10,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 1010,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 1022,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 1023,
-    "data": {
-      "lightLevel": 6,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 6,
+    "liquidGlowMode": "BOTH"
   },
   {
     "speciesId": 1024,
-    "data": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+    "lightLevel": 7,
+    "liquidGlowMode": "BOTH"
   }
 ]

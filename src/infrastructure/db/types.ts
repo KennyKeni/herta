@@ -3,12 +3,11 @@
  * Please do not edit it manually.
  */
 
-import type { ColumnType } from 'kysely';
+import type { ColumnType } from "kysely";
 
-export type Generated<T> =
-  T extends ColumnType<infer S, infer I, infer U>
-    ? ColumnType<S, I | undefined, U>
-    : ColumnType<T, T | undefined, T>;
+export type Generated<T> = T extends ColumnType<infer S, infer I, infer U>
+  ? ColumnType<S, I | undefined, U>
+  : ColumnType<T, T | undefined, T>;
 
 export type Json = JsonValue;
 
@@ -44,6 +43,11 @@ export interface AbilityFlagTypes {
   slug: string;
 }
 
+export interface AbilitySlots {
+  id: number;
+  name: string;
+}
+
 export interface ArticleCategories {
   description: string | null;
   id: Generated<number>;
@@ -70,10 +74,10 @@ export interface Articles {
 
 export interface AspectChoices {
   aspect_id: number;
-  aspect_string: string;
+  aspect_string: string | null;
   id: number;
   name: string;
-  slug: string;
+  value: string;
 }
 
 export interface AspectGroups {
@@ -90,10 +94,16 @@ export interface AspectGroupsMap {
 }
 
 export interface Aspects {
+  aspect_format: string | null;
   id: number;
   name: string;
   slug: string;
-  type: string;
+  type_id: number;
+}
+
+export interface AspectTypes {
+  id: number;
+  name: string;
 }
 
 export interface Behaviour {
@@ -101,31 +111,47 @@ export interface Behaviour {
   form_id: number;
 }
 
+export interface Biomes {
+  id: number;
+  name: string;
+  namespace_id: number | null;
+}
+
+export interface BiomeTagBiomes {
+  biome_id: number;
+  biome_tag_id: number;
+}
+
+export interface BiomeTags {
+  id: number;
+  name: string;
+  namespace_id: number | null;
+}
+
 export interface Conditions {
   description: string | null;
   id: number;
   name: string;
-  type: string;
+  type_id: number;
+}
+
+export interface ConditionTypes {
+  id: number;
+  name: string;
 }
 
 export interface DropPercentages {
-  form_drop_id: number;
-  id: Generated<number>;
-  item_id: string;
+  form_id: number;
+  item_id: number;
   percentage: number;
 }
 
 export interface DropRanges {
-  form_drop_id: number;
+  form_id: number;
   id: Generated<number>;
-  item_id: string;
+  item_id: number;
   quantity_max: number;
   quantity_min: number;
-}
-
-export interface EffectTypes {
-  id: number;
-  name: string;
 }
 
 export interface EggGroups {
@@ -138,12 +164,13 @@ export interface ExperienceGroups {
   formula: string;
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface FormAbilities {
   ability_id: number;
   form_id: number;
-  slot: string;
+  slot_id: number;
 }
 
 export interface FormAspectComboAspects {
@@ -182,7 +209,7 @@ export interface FormLabels {
 export interface FormMoves {
   form_id: number;
   level: number | null;
-  method: string;
+  method_id: number;
   move_id: number;
 }
 
@@ -225,6 +252,18 @@ export interface Forms {
   weight: number;
 }
 
+export interface FormTags {
+  form_id: number;
+  id: Generated<number>;
+  tag_id: number;
+}
+
+export interface FormTagTypes {
+  id: number;
+  name: string;
+  slug: string;
+}
+
 export interface FormTypes {
   form_id: number;
   slot: number;
@@ -247,28 +286,30 @@ export interface HiddenPowerIvs {
 }
 
 export interface ItemBoosts {
-  item_id: string;
+  item_id: number;
   stages: number;
   stat_id: number;
 }
 
 export interface ItemFlags {
-  flag: string;
-  item_id: string;
+  flag_type_id: number;
+  item_id: number;
+}
+
+export interface ItemFlagTypes {
+  id: number;
+  name: string;
 }
 
 export interface Items {
   desc: string | null;
-  fling_effect: string | null;
-  fling_power: number | null;
   gen: number | null;
-  id: string;
+  id: number;
   implemented: Generated<boolean>;
   name: string;
-  natural_gift_power: number | null;
-  natural_gift_type_id: number | null;
+  namespace_id: number | null;
+  num: number | null;
   short_desc: string | null;
-  source: string;
 }
 
 export interface ItemTagHierarchy {
@@ -278,8 +319,7 @@ export interface ItemTagHierarchy {
 }
 
 export interface ItemTags {
-  id: number;
-  item_id: string;
+  item_id: number;
   tag_id: number;
 }
 
@@ -293,6 +333,17 @@ export interface Labels {
   id: number;
   name: string;
   slug: string;
+}
+
+export interface Lighting {
+  light_level: number;
+  liquid_glow_mode: string | null;
+  species_id: number;
+}
+
+export interface MoonPhases {
+  id: number;
+  name: string;
 }
 
 export interface MoveBoosts {
@@ -313,7 +364,7 @@ export interface MoveCategories {
 export interface MoveEffects {
   chance: number;
   condition_id: number | null;
-  effect_type_id: number;
+  condition_type_id: number;
   id: Generated<number>;
   is_self: boolean;
   move_id: number;
@@ -329,6 +380,11 @@ export interface MoveFlagTypes {
   id: number;
   name: string;
   slug: string;
+}
+
+export interface MoveLearnMethods {
+  id: number;
+  name: string;
 }
 
 export interface MoveMaxPower {
@@ -372,6 +428,11 @@ export interface MoveZData {
   z_power: number | null;
 }
 
+export interface Namespaces {
+  id: number;
+  name: string;
+}
+
 export interface Natures {
   id: number;
   minus_stat_id: number | null;
@@ -390,26 +451,135 @@ export interface OutboxEvents {
 }
 
 export interface RecipeInputs {
-  id: Generated<number>;
-  input_namespace: string;
-  input_type: string;
-  input_value: string;
-  recipe_id: string;
+  item_id: number;
+  recipe_id: number;
   slot: number | null;
   slot_type_id: number | null;
 }
 
 export interface Recipes {
-  id: string;
+  cooking_time: number | null;
+  experience: number | null;
+  id: number;
   result_count: Generated<number>;
-  result_id: string;
-  type: string;
+  result_item_id: number | null;
+  type_id: number;
 }
 
 export interface RecipeSlotTypes {
   description: string | null;
   id: number;
   name: string;
+}
+
+export interface RecipeTagInputs {
+  recipe_id: number;
+  slot: number | null;
+  slot_type_id: number | null;
+  tag_id: number;
+}
+
+export interface RecipeTagTypes {
+  id: number;
+  name: string;
+  slug: string;
+}
+
+export interface RecipeTypes {
+  id: number;
+  name: string;
+}
+
+export interface Riding {
+  data: Json;
+  species_id: number;
+}
+
+export interface SpawnBuckets {
+  id: number;
+  name: string;
+}
+
+export interface SpawnConditionBiomes {
+  biome_id: number;
+  condition_id: number;
+}
+
+export interface SpawnConditionBiomeTags {
+  biome_tag_id: number;
+  condition_id: number;
+}
+
+export interface SpawnConditionLure {
+  condition_id: number;
+  max_lure_level: number | null;
+  min_lure_level: number | null;
+}
+
+export interface SpawnConditionMoonPhases {
+  condition_id: number;
+  moon_phase_id: number;
+}
+
+export interface SpawnConditionPosition {
+  condition_id: number;
+  max_y: number | null;
+  min_y: number | null;
+}
+
+export interface SpawnConditions {
+  condition_type: string;
+  id: number;
+  multiplier: number | null;
+  spawn_id: number;
+}
+
+export interface SpawnConditionSky {
+  can_see_sky: boolean | null;
+  condition_id: number;
+  max_sky_light: number | null;
+  min_sky_light: number | null;
+}
+
+export interface SpawnConditionTime {
+  condition_id: number;
+  time_range_id: number;
+}
+
+export interface SpawnConditionTypes {
+  id: number;
+  name: string;
+}
+
+export interface SpawnConditionWeather {
+  condition_id: number;
+  is_raining: boolean | null;
+  is_thundering: boolean | null;
+}
+
+export interface SpawnPositionTypes {
+  id: number;
+  name: string;
+}
+
+export interface SpawnPresets {
+  preset_type_id: number;
+  spawn_id: number;
+}
+
+export interface SpawnPresetTypes {
+  id: number;
+  name: string;
+}
+
+export interface Spawns {
+  bucket_id: number;
+  form_id: number;
+  id: number;
+  level_max: number;
+  level_min: number;
+  position_type_id: number;
+  weight: number;
 }
 
 export interface Species {
@@ -438,18 +608,12 @@ export interface SpeciesHitboxes {
   width: number;
 }
 
-export interface SpeciesLighting {
-  light_level: number;
-  liquid_glow_mode: string | null;
-  species_id: number;
-}
-
-export interface SpeciesRiding {
-  data: Json;
-  species_id: number;
-}
-
 export interface Stats {
+  id: number;
+  name: string;
+}
+
+export interface TimeRanges {
   id: number;
   name: string;
 }
@@ -470,18 +634,23 @@ export interface DB {
   abilities: Abilities;
   ability_flag_types: AbilityFlagTypes;
   ability_flags: AbilityFlags;
+  ability_slots: AbilitySlots;
   article_categories: ArticleCategories;
   article_category_map: ArticleCategoryMap;
   articles: Articles;
   aspect_choices: AspectChoices;
   aspect_groups: AspectGroups;
   aspect_groups_map: AspectGroupsMap;
+  aspect_types: AspectTypes;
   aspects: Aspects;
   behaviour: Behaviour;
+  biome_tag_biomes: BiomeTagBiomes;
+  biome_tags: BiomeTags;
+  biomes: Biomes;
+  condition_types: ConditionTypes;
   conditions: Conditions;
   drop_percentages: DropPercentages;
   drop_ranges: DropRanges;
-  effect_types: EffectTypes;
   egg_groups: EggGroups;
   experience_groups: ExperienceGroups;
   form_abilities: FormAbilities;
@@ -494,37 +663,62 @@ export interface DB {
   form_moves: FormMoves;
   form_override_egg_groups: FormOverrideEggGroups;
   form_overrides: FormOverrides;
+  form_tag_types: FormTagTypes;
+  form_tags: FormTags;
   form_types: FormTypes;
   forms: Forms;
   gmax_moves: GmaxMoves;
   hidden_power_ivs: HiddenPowerIvs;
   item_boosts: ItemBoosts;
+  item_flag_types: ItemFlagTypes;
   item_flags: ItemFlags;
   item_tag_hierarchy: ItemTagHierarchy;
   item_tag_types: ItemTagTypes;
   item_tags: ItemTags;
   items: Items;
   labels: Labels;
+  lighting: Lighting;
+  moon_phases: MoonPhases;
   move_boosts: MoveBoosts;
   move_categories: MoveCategories;
   move_effects: MoveEffects;
   move_flag_types: MoveFlagTypes;
   move_flags: MoveFlags;
+  move_learn_methods: MoveLearnMethods;
   move_max_power: MoveMaxPower;
   move_targets: MoveTargets;
   move_z_data: MoveZData;
   moves: Moves;
+  namespaces: Namespaces;
   natures: Natures;
   outbox_events: OutboxEvents;
   recipe_inputs: RecipeInputs;
   recipe_slot_types: RecipeSlotTypes;
+  recipe_tag_inputs: RecipeTagInputs;
+  recipe_tag_types: RecipeTagTypes;
+  recipe_types: RecipeTypes;
   recipes: Recipes;
+  riding: Riding;
+  spawn_buckets: SpawnBuckets;
+  spawn_condition_biome_tags: SpawnConditionBiomeTags;
+  spawn_condition_biomes: SpawnConditionBiomes;
+  spawn_condition_lure: SpawnConditionLure;
+  spawn_condition_moon_phases: SpawnConditionMoonPhases;
+  spawn_condition_position: SpawnConditionPosition;
+  spawn_condition_sky: SpawnConditionSky;
+  spawn_condition_time: SpawnConditionTime;
+  spawn_condition_types: SpawnConditionTypes;
+  spawn_condition_weather: SpawnConditionWeather;
+  spawn_conditions: SpawnConditions;
+  spawn_position_types: SpawnPositionTypes;
+  spawn_preset_types: SpawnPresetTypes;
+  spawn_presets: SpawnPresets;
+  spawns: Spawns;
   species: Species;
   species_egg_groups: SpeciesEggGroups;
   species_hitboxes: SpeciesHitboxes;
-  species_lighting: SpeciesLighting;
-  species_riding: SpeciesRiding;
   stats: Stats;
+  time_ranges: TimeRanges;
   type_matchups: TypeMatchups;
   types: Types;
 }

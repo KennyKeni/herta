@@ -1,4 +1,5 @@
 import type { Kysely } from 'kysely';
+import { sql } from 'kysely';
 
 export async function up(db: Kysely<any>): Promise<void> {
   await db.schema
@@ -45,7 +46,7 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addColumn('move_id', 'integer', (col) => col.notNull().references('moves.id'))
     .addColumn('chance', 'integer', (col) => col.notNull())
     .addColumn('is_self', 'boolean', (col) => col.notNull())
-    .addColumn('effect_type_id', 'integer', (col) => col.notNull().references('effect_types.id'))
+    .addColumn('condition_type_id', 'integer', (col) => col.notNull().references('condition_types.id'))
     .addColumn('condition_id', 'integer', (col) => col.references('conditions.id'))
     .execute();
 
@@ -89,9 +90,12 @@ export async function up(db: Kysely<any>): Promise<void> {
     .column('species_id')
     .execute();
   await db.schema.createIndex('idx_moves_slug').on('moves').column('slug').execute();
+
+  await sql`CREATE INDEX idx_moves_name_trgm ON moves USING gin (name gin_trgm_ops)`.execute(db);
 }
 
 export async function down(db: Kysely<any>): Promise<void> {
+  await sql`DROP INDEX IF EXISTS idx_moves_name_trgm`.execute(db);
   await db.schema.dropTable('gmax_moves').execute();
   await db.schema.dropTable('move_max_power').execute();
   await db.schema.dropTable('move_z_data').execute();

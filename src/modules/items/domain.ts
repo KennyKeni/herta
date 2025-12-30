@@ -1,26 +1,15 @@
-export interface TypeRef {
-  id: number;
-  name: string;
-  slug: string;
-}
-
 export interface StatRef {
   id: number;
   name: string;
 }
 
 export interface Item {
-  id: string;
+  id: number;
   name: string;
   desc: string | null;
   shortDesc: string | null;
-  source: string;
   generation: number | null;
   implemented: boolean;
-  flingPower: number | null;
-  flingEffect: string | null;
-  naturalGiftPower: number | null;
-  naturalGiftType: TypeRef | null;
   boosts: ItemBoost[];
   flags: ItemFlag[];
   tags: ItemTag[];
@@ -33,16 +22,17 @@ export interface ItemBoost {
 }
 
 export interface ItemFlag {
-  flag: string;
+  id: number;
+  name: string;
 }
 
 export interface ItemTag {
-  namespace: string;
-  tag: string;
+  slug: string;
+  name: string;
 }
 
 export interface Recipe {
-  id: string;
+  id: number;
   type: string;
   resultCount: number;
   inputs: RecipeInput[];
@@ -63,7 +53,7 @@ export interface RecipeSlotType {
 }
 
 export interface ItemFilter {
-  itemIds?: string[];
+  itemIds?: number[];
   tagIds?: number[];
   tagSlugs?: string[];
   includeBoosts?: boolean;

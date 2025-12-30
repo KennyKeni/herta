@@ -79,14 +79,16 @@ export class MovesRepository {
 
       this.db
         .selectFrom('move_effects')
-        .innerJoin('effect_types', 'effect_types.id', 'move_effects.effect_type_id')
+        .innerJoin('condition_types', 'condition_types.id', 'move_effects.condition_type_id')
         .leftJoin('conditions', 'conditions.id', 'move_effects.condition_id')
+        .leftJoin('condition_types as ct2', 'ct2.id', 'conditions.type_id')
         .select([
-          'effect_types.id as effect_type_id',
-          'effect_types.name as effect_type_name',
+          'condition_types.id as condition_type_id',
+          'condition_types.name as condition_type_name',
           'conditions.id as condition_id',
           'conditions.name as condition_name',
-          'conditions.type as condition_type',
+          'conditions.type_id as condition_type_fk',
+          'ct2.name as condition_type_fk_name',
           'conditions.description as condition_description',
           'move_effects.chance',
           'move_effects.is_self',
@@ -139,12 +141,13 @@ export class MovesRepository {
         isSelf: b.is_self,
       })),
       effects: effects.map((e) => ({
-        effectType: { id: e.effect_type_id, name: e.effect_type_name },
+        conditionType: { id: e.condition_type_id, name: e.condition_type_name },
         condition: e.condition_id
           ? {
               id: e.condition_id,
               name: e.condition_name ?? '',
-              type: e.condition_type ?? '',
+              typeId: e.condition_type_fk ?? 0,
+              typeName: e.condition_type_fk_name ?? '',
               description: e.condition_description,
             }
           : null,
@@ -351,11 +354,12 @@ export class MovesRepository {
       return Promise.resolve(
         [] as {
           move_id: number;
-          effect_type_id: number;
-          effect_type_name: string;
+          condition_type_id: number;
+          condition_type_name: string;
           condition_id: number | null;
           condition_name: string | null;
-          condition_type: string | null;
+          condition_type_fk: number | null;
+          condition_type_fk_name: string | null;
           condition_description: string | null;
           chance: number;
           is_self: boolean;
@@ -363,15 +367,17 @@ export class MovesRepository {
       );
     return this.db
       .selectFrom('move_effects as me')
-      .innerJoin('effect_types as et', 'et.id', 'me.effect_type_id')
+      .innerJoin('condition_types as ct', 'ct.id', 'me.condition_type_id')
       .leftJoin('conditions as c', 'c.id', 'me.condition_id')
+      .leftJoin('condition_types as ct2', 'ct2.id', 'c.type_id')
       .select([
         'me.move_id',
-        'et.id as effect_type_id',
-        'et.name as effect_type_name',
+        'ct.id as condition_type_id',
+        'ct.name as condition_type_name',
         'c.id as condition_id',
         'c.name as condition_name',
-        'c.type as condition_type',
+        'c.type_id as condition_type_fk',
+        'ct2.name as condition_type_fk_name',
         'c.description as condition_description',
         'me.chance',
         'me.is_self',
@@ -436,12 +442,13 @@ export class MovesRepository {
         isSelf: b.is_self,
       })),
       effects: effects.map((e) => ({
-        effectType: { id: e.effect_type_id, name: e.effect_type_name },
+        conditionType: { id: e.condition_type_id, name: e.condition_type_name },
         condition: e.condition_id
           ? {
               id: e.condition_id,
               name: e.condition_name ?? '',
-              type: e.condition_type ?? '',
+              typeId: e.condition_type_fk ?? 0,
+              typeName: e.condition_type_fk_name ?? '',
               description: e.condition_description,
             }
           : null,

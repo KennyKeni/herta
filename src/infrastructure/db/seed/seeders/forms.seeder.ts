@@ -5,7 +5,6 @@ import { batchInsert, loadJson } from '../utils';
 interface FormJson {
   id: number;
   speciesId: number;
-  slug: string;
   formName: string;
   name: string;
   generation: number | null;
@@ -36,7 +35,7 @@ interface FormTypeJson {
 interface FormAbilityJson {
   formId: number;
   abilityId: number;
-  slot: string;
+  slotId: number;
 }
 
 interface FormLabelJson {
@@ -65,6 +64,12 @@ interface FormHitboxJson {
   fixed: boolean;
 }
 
+interface FormTagJson {
+  id: number;
+  formId: number;
+  tagId: number;
+}
+
 export const formsSeeder: Seeder = {
   name: 'Forms',
   tables: [
@@ -75,6 +80,7 @@ export const formsSeeder: Seeder = {
     'form_overrides',
     'form_hitboxes',
     'form_override_egg_groups',
+    'form_tags',
   ],
 
   async seed(db, logger) {
@@ -135,7 +141,7 @@ export const formsSeeder: Seeder = {
       const rows = data.map((a) => ({
         form_id: a.formId,
         ability_id: a.abilityId,
-        slot: a.slot,
+        slot_id: a.slotId,
       }));
       const count = await batchInsert(db, 'form_abilities', rows);
       logger.table('form_abilities', count, Date.now() - start);
@@ -197,6 +203,20 @@ export const formsSeeder: Seeder = {
       }));
       const count = await batchInsert(db, 'form_hitboxes', rows);
       logger.table('form_hitboxes', count, Date.now() - start);
+      total += count;
+    }
+
+    // form_tags
+    {
+      const start = Date.now();
+      const data = await loadJson<FormTagJson[]>('form_tags.json');
+      const rows = data.map((t) => ({
+        id: t.id,
+        form_id: t.formId,
+        tag_id: t.tagId,
+      }));
+      const count = await batchInsert(db, 'form_tags', rows);
+      logger.table('form_tags', count, Date.now() - start);
       total += count;
     }
 

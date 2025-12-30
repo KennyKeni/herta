@@ -1,4 +1,5 @@
 import type { Kysely } from 'kysely';
+import { sql } from 'kysely';
 
 export async function up(db: Kysely<any>): Promise<void> {
   await db.schema
@@ -37,9 +38,12 @@ export async function up(db: Kysely<any>): Promise<void> {
     .column('egg_group_id')
     .execute();
   await db.schema.createIndex('idx_species_slug').on('species').column('slug').execute();
+
+  await sql`CREATE INDEX idx_species_name_trgm ON species USING gin (name gin_trgm_ops)`.execute(db);
 }
 
 export async function down(db: Kysely<any>): Promise<void> {
+  await sql`DROP INDEX IF EXISTS idx_species_name_trgm`.execute(db);
   await db.schema.dropTable('species_egg_groups').execute();
   await db.schema.dropTable('species_hitboxes').execute();
   await db.schema.dropTable('species').execute();

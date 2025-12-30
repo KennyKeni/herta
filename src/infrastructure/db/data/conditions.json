@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "name": "aquaring",
+    "name": "Aqua Ring",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 2,
-    "name": "attract",
+    "name": "Attract",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 3,
-    "name": "banefulbunker",
+    "name": "Baneful Bunker",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 4,
-    "name": "bide",
+    "name": "Bide",
     "typeId": 2,
     "description": ""
   },
@@ -31,97 +31,97 @@
   },
   {
     "id": 6,
-    "name": "burningbulwark",
+    "name": "Burning Bulwark",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 7,
-    "name": "charge",
+    "name": "Charge",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 8,
-    "name": "confusion",
+    "name": "Confusion",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 9,
-    "name": "curse",
+    "name": "Curse",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 10,
-    "name": "defensecurl",
+    "name": "Defense Curl",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 11,
-    "name": "destinybond",
+    "name": "Destiny Bond",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 12,
-    "name": "disable",
+    "name": "Disable",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 13,
-    "name": "dragoncheer",
+    "name": "Dragon Cheer",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 14,
-    "name": "electrify",
+    "name": "Electrify",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 15,
-    "name": "embargo",
+    "name": "Embargo",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 16,
-    "name": "encore",
+    "name": "Encore",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 17,
-    "name": "endure",
+    "name": "Endure",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 18,
-    "name": "flinch",
+    "name": "Flinch",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 19,
-    "name": "focusenergy",
+    "name": "Focus Energy",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 20,
-    "name": "followme",
+    "name": "Follow Me",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 21,
-    "name": "foresight",
+    "name": "Foresight",
     "typeId": 2,
     "description": ""
   },
@@ -133,109 +133,109 @@
   },
   {
     "id": 23,
-    "name": "gastroacid",
+    "name": "Gastro Acid",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 24,
-    "name": "grudge",
+    "name": "Grudge",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 25,
-    "name": "healblock",
+    "name": "Heal Block",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 26,
-    "name": "helpinghand",
+    "name": "Helping Hand",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 27,
-    "name": "imprison",
+    "name": "Imprison",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 28,
-    "name": "ingrain",
+    "name": "Ingrain",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 29,
-    "name": "kingsshield",
+    "name": "King's Shield",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 30,
-    "name": "laserfocus",
+    "name": "Laser Focus",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 31,
-    "name": "leechseed",
+    "name": "Leech Seed",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 32,
-    "name": "magiccoat",
+    "name": "Magic Coat",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 33,
-    "name": "magnetrise",
+    "name": "Magnet Rise",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 34,
-    "name": "maxguard",
+    "name": "Max Guard",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 35,
-    "name": "minimize",
+    "name": "Minimize",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 36,
-    "name": "miracleeye",
+    "name": "Miracle Eye",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 37,
-    "name": "nightmare",
+    "name": "Nightmare",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 38,
-    "name": "noretreat",
+    "name": "No Retreat",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 39,
-    "name": "obstruct",
+    "name": "Obstruct",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 40,
-    "name": "octolock",
+    "name": "Octolock",
     "typeId": 2,
     "description": ""
   },
@@ -247,31 +247,31 @@
   },
   {
     "id": 42,
-    "name": "partiallytrapped",
+    "name": "Partiallytrapped",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 43,
-    "name": "powder",
+    "name": "Powder",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 44,
-    "name": "powershift",
+    "name": "Power Shift",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 45,
-    "name": "powertrick",
+    "name": "Power Trick",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 46,
-    "name": "protect",
+    "name": "Protect",
     "typeId": 2,
     "description": ""
   },
@@ -283,19 +283,19 @@
   },
   {
     "id": 48,
-    "name": "ragepowder",
+    "name": "Rage Powder",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 49,
-    "name": "saltcure",
+    "name": "Salt Cure",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 50,
-    "name": "silktrap",
+    "name": "Silk Trap",
     "typeId": 2,
     "description": ""
   },
@@ -307,73 +307,73 @@
   },
   {
     "id": 52,
-    "name": "smackdown",
+    "name": "Smack Down",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 53,
-    "name": "snatch",
+    "name": "Snatch",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 54,
-    "name": "sparklingaria",
+    "name": "Sparkling Aria",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 55,
-    "name": "spikyshield",
+    "name": "Spiky Shield",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 56,
-    "name": "spotlight",
+    "name": "Spotlight",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 57,
-    "name": "stockpile",
+    "name": "Stockpile",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 58,
-    "name": "substitute",
+    "name": "Substitute",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 59,
-    "name": "syrupbomb",
+    "name": "Syrup Bomb",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 60,
-    "name": "tarshot",
+    "name": "Tar Shot",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 61,
-    "name": "taunt",
+    "name": "Taunt",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 62,
-    "name": "telekinesis",
+    "name": "Telekinesis",
     "typeId": 2,
     "description": ""
   },
   {
     "id": 63,
-    "name": "torment",
+    "name": "Torment",
     "typeId": 2,
     "description": ""
   },
@@ -385,7 +385,7 @@
   },
   {
     "id": 65,
-    "name": "yawn",
+    "name": "Yawn",
     "typeId": 2,
     "description": ""
   }

@@ -1,8 +1,9 @@
 import { type Kysely, sql } from 'kysely';
 import { FilterLogic } from '@/common/types';
 import type { DB } from '@/infrastructure/db/types';
+import type { Spawn } from '../spawns/domain';
+import { SpawnRepository } from '../spawns/repository';
 import type {
-  AbilitySlot,
   AspectRef,
   DropPercentage,
   DropRange,
@@ -14,7 +15,11 @@ import type {
 } from './domain';
 
 export class PokemonRepository {
-  constructor(private db: Kysely<DB>) {}
+  private spawnRepository: SpawnRepository;
+
+  constructor(private db: Kysely<DB>) {
+    this.spawnRepository = new SpawnRepository(db);
+  }
 
   async searchPokemon(filters: PokemonFilter): Promise<SpeciesWithForms[]> {
     const rows = await this.buildSearchQuery(filters)
@@ -272,7 +277,7 @@ export class PokemonRepository {
   // biome-ignore lint/correctness/noUnusedPrivateClassMembers: future implementation
   private aspectChoicesSubquery(
     idFilter?: number[],
-    slugFilter?: string[],
+    valueFilter?: string[],
     _filter: FilterLogic = FilterLogic.OR
   ) {
     return this.db
@@ -285,8 +290,8 @@ export class PokemonRepository {
         if (idFilter?.length) {
           conditions.push(eb('fc.id', 'in', idFilter));
         }
-        if (slugFilter?.length) {
-          conditions.push(eb('fc.slug', 'in', slugFilter));
+        if (valueFilter?.length) {
+          conditions.push(eb('fc.value', 'in', valueFilter));
         }
 
         return conditions.length ? eb.or(conditions) : eb.lit(true);
@@ -357,6 +362,7 @@ export class PokemonRepository {
       speciesRiding,
       formHitboxes,
       behaviour,
+      spawns,
     ] = await Promise.all([
       this.fetchTypes(filter.includeTypes !== false ? formIds : []),
       this.fetchAbilities(filter.includeAbilities !== false ? formIds : []),
@@ -372,6 +378,7 @@ export class PokemonRepository {
       this.fetchSpeciesRiding(filter.includeRiding !== false ? speciesIds : []),
       this.fetchFormHitboxes(filter.includeHitboxes !== false ? formIds : []),
       this.fetchBehaviour(filter.includeBehaviour !== false ? formIds : []),
+      filter.includeSpawns ? this.spawnRepository.findByFormIds(formIds) : Promise.resolve(new Map<number, Spawn[]>()),
     ]);
 
     return {
@@ -389,6 +396,7 @@ export class PokemonRepository {
       speciesRiding: new Map(speciesRiding.map((r) => [r.species_id, r])),
       formHitboxes: new Map(formHitboxes.map((h) => [h.form_id, h])),
       behaviour: new Map(behaviour.map((b) => [b.form_id, b])),
+      spawns,
     };
   }
 
@@ -408,12 +416,27 @@ export class PokemonRepository {
   private fetchAbilities(formIds: number[]) {
     if (!formIds.length)
       return Promise.resolve(
-        [] as { form_id: number; slot: string; id: number; name: string; slug: string }[]
+        [] as {
+          form_id: number;
+          slot_id: number;
+          slot_name: string;
+          id: number;
+          name: string;
+          slug: string;
+        }[]
       );
     return this.db
       .selectFrom('form_abilities as fa')
       .innerJoin('abilities as a', 'a.id', 'fa.ability_id')
-      .select(['fa.form_id', 'fa.slot', 'a.id', 'a.name', 'a.slug'])
+      .innerJoin('ability_slots as s', 's.id', 'fa.slot_id')
+      .select([
+        'fa.form_id',
+        'fa.slot_id',
+        's.name as slot_name',
+        'a.id',
+        'a.name',
+        'a.slug',
+      ])
       .where('fa.form_id', 'in', formIds)
       .execute();
   }
@@ -423,7 +446,8 @@ export class PokemonRepository {
       return Promise.resolve(
         [] as {
           form_id: number;
-          method: string;
+          method_id: number;
+          method_name: string;
           level: number | null;
           id: number;
           name: string;
@@ -433,7 +457,16 @@ export class PokemonRepository {
     return this.db
       .selectFrom('form_moves as fm')
       .innerJoin('moves as m', 'm.id', 'fm.move_id')
-      .select(['fm.form_id', 'fm.method', 'fm.level', 'm.id', 'm.name', 'm.slug'])
+      .innerJoin('move_learn_methods as mlm', 'mlm.id', 'fm.method_id')
+      .select([
+        'fm.form_id',
+        'fm.method_id',
+        'mlm.name as method_name',
+        'fm.level',
+        'm.id',
+        'm.name',
+        'm.slug',
+      ])
       .where('fm.form_id', 'in', formIds)
       .execute();
   }
@@ -451,11 +484,11 @@ export class PokemonRepository {
 
   private fetchAspectChoices(formIds: number[]) {
     if (!formIds.length)
-      return Promise.resolve([] as { form_id: number; id: number; name: string; slug: string }[]);
+      return Promise.resolve([] as { form_id: number; id: number; name: string; value: string }[]);
     return this.db
       .selectFrom('form_aspects as fa')
       .innerJoin('aspect_choices as ac', 'ac.id', 'fa.aspect_choice_id')
-      .select(['fa.form_id', 'ac.id', 'ac.name', 'ac.slug'])
+      .select(['fa.form_id', 'ac.id', 'ac.name', 'ac.value'])
       .where('fa.form_id', 'in', formIds)
       .execute();
   }
@@ -495,18 +528,18 @@ export class PokemonRepository {
           form_id: number;
           amount: number;
           percentage: number | null;
-          pct_item_id: string | null;
+          pct_item_id: number | null;
           pct_item_name: string | null;
           quantity_min: number | null;
           quantity_max: number | null;
-          range_item_id: string | null;
+          range_item_id: number | null;
           range_item_name: string | null;
         }[]
       );
     return this.db
       .selectFrom('form_drops as fd')
-      .leftJoin('drop_percentages as dp', 'dp.form_drop_id', 'fd.form_id')
-      .leftJoin('drop_ranges as dr', 'dr.form_drop_id', 'fd.form_id')
+      .leftJoin('drop_percentages as dp', 'dp.form_id', 'fd.form_id')
+      .leftJoin('drop_ranges as dr', 'dr.form_id', 'fd.form_id')
       .leftJoin('items as ip', 'ip.id', 'dp.item_id')
       .leftJoin('items as ir', 'ir.id', 'dr.item_id')
       .select([
@@ -564,7 +597,7 @@ export class PokemonRepository {
         [] as { species_id: number; light_level: number; liquid_glow_mode: string | null }[]
       );
     return this.db
-      .selectFrom('species_lighting')
+      .selectFrom('lighting')
       .select(['species_id', 'light_level', 'liquid_glow_mode'])
       .where('species_id', 'in', speciesIds)
       .execute();
@@ -573,7 +606,7 @@ export class PokemonRepository {
   private fetchSpeciesRiding(speciesIds: number[]) {
     if (!speciesIds.length) return Promise.resolve([] as { species_id: number; data: unknown }[]);
     return this.db
-      .selectFrom('species_riding')
+      .selectFrom('riding')
       .select(['species_id', 'data'])
       .where('species_id', 'in', speciesIds)
       .execute();
@@ -704,7 +737,7 @@ export class PokemonRepository {
       aspectChoices: (relations.aspectChoices.get(formId) ?? []).map((ac) => ({
         id: ac.id,
         name: ac.name,
-        slug: ac.slug,
+        value: ac.value,
       })),
       types: (relations.types.get(formId) ?? []).map((t) => ({
         type: { id: t.id, name: t.name, slug: t.slug },
@@ -712,17 +745,18 @@ export class PokemonRepository {
       })),
       abilities: (relations.abilities.get(formId) ?? []).map((a) => ({
         ability: { id: a.id, name: a.name, slug: a.slug },
-        slot: a.slot as AbilitySlot,
+        slot: { id: a.slot_id, name: a.slot_name },
       })),
       moves: (relations.moves.get(formId) ?? []).map((m) => ({
         move: { id: m.id, name: m.name, slug: m.slug },
-        method: m.method,
+        method: { id: m.method_id, name: m.method_name },
         level: m.level,
       })),
       hitbox: relations.formHitboxes.get(formId) ?? null,
       drops: this.toDrops(relations.drops.get(formId) ?? []),
       aspectCombos: this.toAspectCombos(relations.aspectCombos.get(formId) ?? []),
       behaviour: relations.behaviour.get(formId) ?? null,
+      spawns: relations.spawns.get(formId) ?? [],
     };
   }
 
@@ -733,15 +767,15 @@ export class PokemonRepository {
     const ranges: DropRange[] = [];
 
     for (const row of rows) {
-      if (row.pct_item_id && row.percentage != null) {
+      if (row.pct_item_id != null && row.percentage != null) {
         percentages.push({
-          item: { id: String(row.pct_item_id), name: row.pct_item_name ?? '', source: '' },
+          item: { id: row.pct_item_id, name: row.pct_item_name ?? '' },
           percentage: row.percentage,
         });
       }
-      if (row.range_item_id && row.quantity_min != null) {
+      if (row.range_item_id != null && row.quantity_min != null) {
         ranges.push({
-          item: { id: String(row.range_item_id), name: row.range_item_name ?? '', source: '' },
+          item: { id: row.range_item_id, name: row.range_item_name ?? '' },
           quantityMin: row.quantity_min,
           quantityMax: row.quantity_max ?? row.quantity_min,
         });

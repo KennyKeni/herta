@@ -51,7 +51,7 @@ export interface MoveTarget {
 }
 
 export interface MoveEffect {
-  effectType: EffectType;
+  conditionType: ConditionType;
   condition: Condition | null;
   chance: number;
   isSelf: boolean;
@@ -82,7 +82,7 @@ export interface GmaxMove {
   move: Move;
 }
 
-export interface EffectType {
+export interface ConditionType {
   id: number;
   name: string;
 }
@@ -90,7 +90,8 @@ export interface EffectType {
 export interface Condition {
   id: number;
   name: string;
-  type: string;
+  typeId: number;
+  typeName: string;
   description: string | null;
 }
 

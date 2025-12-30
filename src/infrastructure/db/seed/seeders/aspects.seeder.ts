@@ -4,12 +4,8 @@ import { batchInsert, loadJson } from '../utils';
 
 interface AspectJson {
   id: number;
-  slug: string;
   name: string;
-  type: string;
-  isCosmetic: boolean;
-  isFlag: boolean;
-  aspectFormat: string | null;
+  typeId: number;
 }
 
 interface AspectChoiceJson {
@@ -17,7 +13,6 @@ interface AspectChoiceJson {
   aspectId: number;
   value: string;
   name: string;
-  aspectString: string;
 }
 
 interface AspectGroupsMapJson {
@@ -45,7 +40,8 @@ export const aspectsSeeder: Seeder = {
         id: a.id,
         slug: slugForPokemon(a.name),
         name: a.name,
-        type: a.type,
+        type_id: a.typeId,
+        aspect_format: null,
       }));
       const count = await batchInsert(db, 'aspects', rows);
       logger.table('aspects', count, Date.now() - start);
@@ -59,9 +55,9 @@ export const aspectsSeeder: Seeder = {
       const rows = data.map((c) => ({
         id: c.id,
         aspect_id: c.aspectId,
-        slug: slugForPokemon(c.name),
+        value: c.value,
         name: c.name,
-        aspect_string: c.aspectString,
+        aspect_string: null,
       }));
       const count = await batchInsert(db, 'aspect_choices', rows);
       logger.table('aspect_choices', count, Date.now() - start);

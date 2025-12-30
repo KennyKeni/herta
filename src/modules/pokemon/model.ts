@@ -64,6 +64,7 @@ export const PokemonSearchQuerySchema = t.Object({
   includeRiding: t.Optional(t.Boolean()),
   includeBehaviour: t.Optional(t.Boolean()),
   includeOverrides: t.Optional(t.Boolean()),
+  includeSpawns: t.Optional(t.Boolean()),
 
   limit: t.Optional(t.Number({ minimum: 1, maximum: 100, default: 20 })),
   offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
@@ -98,6 +99,17 @@ const LabelSchema = t.Object({
 const EggGroupSchema = t.Object({
   id: t.Number(),
   name: t.String(),
+  slug: t.String(),
+});
+
+const AbilitySlotRefSchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
+});
+
+const MoveLearnMethodRefSchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
 });
 
 const FormTypeSchema = t.Object({
@@ -107,19 +119,18 @@ const FormTypeSchema = t.Object({
 
 const FormAbilitySchema = t.Object({
   ability: AbilityRefSchema,
-  slot: t.Union([t.Literal('slot1'), t.Literal('slot2'), t.Literal('hidden')]),
+  slot: AbilitySlotRefSchema,
 });
 
 const FormMoveSchema = t.Object({
   move: MoveRefSchema,
-  method: t.String(),
+  method: MoveLearnMethodRefSchema,
   level: t.Nullable(t.Number()),
 });
 
 const ItemRefSchema = t.Object({
-  id: t.String(),
+  id: t.Number(),
   name: t.String(),
-  source: t.String(),
 });
 
 const DropPercentageSchema = t.Object({
@@ -145,9 +156,90 @@ const AspectRefSchema = t.Object({
   slug: t.String(),
 });
 
+const AspectChoiceRefSchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
+  value: t.String(),
+});
+
 const FormAspectComboSchema = t.Object({
   comboIndex: t.Number(),
   aspects: t.Array(AspectRefSchema),
+});
+
+const SpawnBucketRefSchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
+});
+
+const SpawnPositionTypeRefSchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
+});
+
+const BiomeRefSchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
+});
+
+const BiomeTagRefSchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
+});
+
+const TimeRangeRefSchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
+});
+
+const MoonPhaseRefSchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
+});
+
+const SpawnConditionWeatherSchema = t.Object({
+  isRaining: t.Nullable(t.Boolean()),
+  isThundering: t.Nullable(t.Boolean()),
+});
+
+const SpawnConditionSkySchema = t.Object({
+  canSeeSky: t.Nullable(t.Boolean()),
+  minSkyLight: t.Nullable(t.Number()),
+  maxSkyLight: t.Nullable(t.Number()),
+});
+
+const SpawnConditionPositionSchema = t.Object({
+  minY: t.Nullable(t.Number()),
+  maxY: t.Nullable(t.Number()),
+});
+
+const SpawnConditionLureSchema = t.Object({
+  minLureLevel: t.Nullable(t.Number()),
+  maxLureLevel: t.Nullable(t.Number()),
+});
+
+const SpawnConditionSchema = t.Object({
+  id: t.Number(),
+  type: t.String(),
+  multiplier: t.Nullable(t.Number()),
+  biomes: t.Array(BiomeRefSchema),
+  biomeTags: t.Array(BiomeTagRefSchema),
+  timeRanges: t.Array(TimeRangeRefSchema),
+  moonPhases: t.Array(MoonPhaseRefSchema),
+  weather: t.Nullable(SpawnConditionWeatherSchema),
+  sky: t.Nullable(SpawnConditionSkySchema),
+  position: t.Nullable(SpawnConditionPositionSchema),
+  lure: t.Nullable(SpawnConditionLureSchema),
+});
+
+const FormSpawnSchema = t.Object({
+  id: t.Number(),
+  bucket: SpawnBucketRefSchema,
+  positionType: SpawnPositionTypeRefSchema,
+  weight: t.Number(),
+  levelMin: t.Number(),
+  levelMax: t.Number(),
+  conditions: t.Array(SpawnConditionSchema),
 });
 
 const FormSchema = t.Object({
@@ -173,7 +265,7 @@ const FormSchema = t.Object({
   evSpecialDefence: t.Number(),
   evSpeed: t.Number(),
   labels: t.Array(LabelSchema),
-  aspectChoices: t.Array(AspectRefSchema),
+  aspectChoices: t.Array(AspectChoiceRefSchema),
   types: t.Array(FormTypeSchema),
   abilities: t.Array(FormAbilitySchema),
   moves: t.Array(FormMoveSchema),
@@ -187,6 +279,7 @@ const FormSchema = t.Object({
   drops: t.Nullable(FormDropsSchema),
   aspectCombos: t.Array(FormAspectComboSchema),
   behaviour: t.Nullable(t.Object({ data: t.Unknown() })),
+  spawns: t.Array(FormSpawnSchema),
 });
 
 const SpeciesWithFormsSchema = t.Object({

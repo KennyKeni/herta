@@ -5,9 +5,9 @@ export async function up(db: Kysely<any>): Promise<void> {
     .createTable('form_moves')
     .addColumn('form_id', 'integer', (col) => col.notNull().references('forms.id'))
     .addColumn('move_id', 'integer', (col) => col.notNull().references('moves.id'))
-    .addColumn('method', 'text', (col) => col.notNull())
+    .addColumn('method_id', 'integer', (col) => col.notNull().references('move_learn_methods.id'))
     .addColumn('level', 'integer')
-    .addPrimaryKeyConstraint('form_moves_pk', ['form_id', 'move_id', 'method'])
+    .addPrimaryKeyConstraint('form_moves_pk', ['form_id', 'move_id', 'method_id'])
     .execute();
 
   await db.schema
@@ -25,18 +25,18 @@ export async function up(db: Kysely<any>): Promise<void> {
   await db.schema
     .createTable('drop_ranges')
     .addColumn('id', 'serial', (col) => col.primaryKey())
-    .addColumn('form_drop_id', 'integer', (col) => col.notNull().references('form_drops.form_id'))
-    .addColumn('item_id', 'text', (col) => col.notNull().references('items.id'))
+    .addColumn('form_id', 'integer', (col) => col.notNull().references('form_drops.form_id'))
+    .addColumn('item_id', 'integer', (col) => col.notNull().references('items.id'))
     .addColumn('quantity_min', 'integer', (col) => col.notNull())
     .addColumn('quantity_max', 'integer', (col) => col.notNull())
     .execute();
 
   await db.schema
     .createTable('drop_percentages')
-    .addColumn('id', 'serial', (col) => col.primaryKey())
-    .addColumn('form_drop_id', 'integer', (col) => col.notNull().references('form_drops.form_id'))
-    .addColumn('item_id', 'text', (col) => col.notNull().references('items.id'))
+    .addColumn('form_id', 'integer', (col) => col.notNull().references('form_drops.form_id'))
+    .addColumn('item_id', 'integer', (col) => col.notNull().references('items.id'))
     .addColumn('percentage', 'real', (col) => col.notNull())
+    .addPrimaryKeyConstraint('drop_percentages_pk', ['form_id', 'item_id'])
     .execute();
 
   await db.schema
@@ -54,36 +54,13 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addPrimaryKeyConstraint('form_aspect_combo_aspects_pk', ['combo_id', 'aspect_id'])
     .execute();
 
-  await db.schema
-    .createIndex('idx_form_moves_move_id')
-    .on('form_moves')
-    .column('move_id')
-    .execute();
-  await db.schema
-    .createIndex('idx_drop_ranges_form_drop_id')
-    .on('drop_ranges')
-    .column('form_drop_id')
-    .execute();
-  await db.schema
-    .createIndex('idx_drop_ranges_item_id')
-    .on('drop_ranges')
-    .column('item_id')
-    .execute();
-  await db.schema
-    .createIndex('idx_drop_percentages_form_drop_id')
-    .on('drop_percentages')
-    .column('form_drop_id')
-    .execute();
-  await db.schema
-    .createIndex('idx_drop_percentages_item_id')
-    .on('drop_percentages')
-    .column('item_id')
-    .execute();
-  await db.schema
-    .createIndex('idx_form_aspect_combos_form_id')
-    .on('form_aspect_combos')
-    .column('form_id')
-    .execute();
+  await db.schema.createIndex('idx_form_moves_move_id').on('form_moves').column('move_id').execute();
+  await db.schema.createIndex('idx_form_moves_method_id').on('form_moves').column('method_id').execute();
+  await db.schema.createIndex('idx_drop_ranges_form_id').on('drop_ranges').column('form_id').execute();
+  await db.schema.createIndex('idx_drop_ranges_item_id').on('drop_ranges').column('item_id').execute();
+  await db.schema.createIndex('idx_drop_percentages_form_id').on('drop_percentages').column('form_id').execute();
+  await db.schema.createIndex('idx_drop_percentages_item_id').on('drop_percentages').column('item_id').execute();
+  await db.schema.createIndex('idx_form_aspect_combos_form_id').on('form_aspect_combos').column('form_id').execute();
 }
 
 export async function down(db: Kysely<any>): Promise<void> {

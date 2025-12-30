@@ -4,7 +4,6 @@ import { batchInsert, loadJson } from '../utils';
 
 interface MoveJson {
   id: number;
-  slug: string;
   name: string;
   typeId: number;
   categoryId: number;
@@ -39,8 +38,8 @@ interface MoveEffectJson {
   moveId: number;
   chance: number;
   isSelf: boolean;
-  effectTypeId: number;
-  effectValue: string;
+  conditionTypeId: number;
+  conditionId: number;
 }
 
 interface MoveZDataJson {
@@ -75,13 +74,6 @@ export const movesSeeder: Seeder = {
 
   async seed(db, logger) {
     let total = 0;
-
-    // Build condition name -> id map for effects
-    const conditionMap = new Map<string, number>();
-    const conditions = await db.selectFrom('conditions').select(['id', 'name']).execute();
-    for (const c of conditions) {
-      conditionMap.set(c.name.toLowerCase(), c.id);
-    }
 
     // moves
     {
@@ -148,8 +140,8 @@ export const movesSeeder: Seeder = {
         move_id: e.moveId,
         chance: e.chance,
         is_self: e.isSelf,
-        effect_type_id: e.effectTypeId,
-        condition_id: conditionMap.get(e.effectValue.toLowerCase()) ?? null,
+        condition_type_id: e.conditionTypeId,
+        condition_id: e.conditionId,
       }));
       const count = await batchInsert(db, 'move_effects', rows);
       logger.table('move_effects', count, Date.now() - start);

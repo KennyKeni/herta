@@ -1,28 +1,26 @@
 import { slugForPokemon } from '../../../../common/utils/slug';
+import type { DB } from '../../types';
 import type { Seeder } from '../utils';
 import { batchInsert, loadJson } from '../utils';
 
-interface TypeJson {
+interface IdName {
   id: number;
-  slug: string;
   name: string;
 }
 
-interface StatJson {
+interface TypeJson {
   id: number;
   name: string;
 }
 
 interface MoveCategoryJson {
-  id: string;
+  id: number;
   name: string;
   description: string;
-  num: number;
 }
 
 interface MoveTargetJson {
   id: number;
-  slug: string;
   name: string;
   description: string;
 }
@@ -30,7 +28,7 @@ interface MoveTargetJson {
 interface ConditionJson {
   id: number;
   name: string;
-  type: string;
+  typeId: number;
   description: string;
 }
 
@@ -42,19 +40,12 @@ interface ExperienceGroupJson {
 
 interface FlagTypeJson {
   id: number;
-  slug: string;
   name: string;
   description: string;
 }
 
-interface EffectTypeJson {
-  id: number;
-  name: string;
-}
-
 interface AspectGroupJson {
   id: number;
-  slug: string;
   name: string;
   rule: string;
   description: string;
@@ -62,13 +53,29 @@ interface AspectGroupJson {
 
 interface LabelJson {
   id: number;
-  slug: string;
   name: string;
 }
 
 interface EggGroupJson {
   id: number;
   name: string;
+}
+
+interface BiomeJson {
+  id: number;
+  namespaceId: number;
+  name: string;
+}
+
+interface BiomeTagJson {
+  id: number;
+  namespaceId: number;
+  name: string;
+}
+
+interface BiomeTagBiomeJson {
+  biomeId: number;
+  biomeTagId: number;
 }
 
 export const baseReferenceSeeder: Seeder = {
@@ -78,18 +85,52 @@ export const baseReferenceSeeder: Seeder = {
     'stats',
     'move_categories',
     'move_targets',
+    'condition_types',
     'conditions',
     'experience_groups',
     'egg_groups',
     'ability_flag_types',
     'move_flag_types',
-    'effect_types',
     'aspect_groups',
     'labels',
+    'namespaces',
+    'ability_slots',
+    'aspect_types',
+    'item_flag_types',
+    'move_learn_methods',
+    'time_ranges',
+    'moon_phases',
+    'spawn_position_types',
+    'spawn_preset_types',
+    'spawn_buckets',
+    'recipe_types',
+    'form_tag_types',
+    'recipe_tag_types',
+    'biome_tags',
+    'biomes',
+    'biome_tag_biomes',
   ],
 
   async seed(db, logger) {
     let total = 0;
+
+    const seedSimple = async (table: keyof DB, file: string) => {
+      const start = Date.now();
+      const data = await loadJson<IdName[]>(file);
+      const rows = data.map((d) => ({ id: d.id, name: d.name }));
+      const count = await batchInsert(db, table, rows);
+      logger.table(table, count, Date.now() - start);
+      return count;
+    };
+
+    const seedWithGeneratedSlug = async (table: keyof DB, file: string) => {
+      const start = Date.now();
+      const data = await loadJson<IdName[]>(file);
+      const rows = data.map((d) => ({ id: d.id, slug: slugForPokemon(d.name), name: d.name }));
+      const count = await batchInsert(db, table, rows);
+      logger.table(table, count, Date.now() - start);
+      return count;
+    };
 
     // types
     {
@@ -106,24 +147,14 @@ export const baseReferenceSeeder: Seeder = {
     }
 
     // stats
-    {
-      const start = Date.now();
-      const data = await loadJson<StatJson[]>('stats.json');
-      const rows = data.map((s) => ({
-        id: s.id,
-        name: s.name,
-      }));
-      const count = await batchInsert(db, 'stats', rows);
-      logger.table('stats', count, Date.now() - start);
-      total += count;
-    }
+    total += await seedSimple('stats', 'stats.json');
 
     // move_categories
     {
       const start = Date.now();
       const data = await loadJson<MoveCategoryJson[]>('move_categories.json');
       const rows = data.map((c) => ({
-        id: c.num,
+        id: c.id,
         slug: slugForPokemon(c.name),
         name: c.name,
         description: c.description,
@@ -148,6 +179,9 @@ export const baseReferenceSeeder: Seeder = {
       total += count;
     }
 
+    // condition_types
+    total += await seedSimple('condition_types', 'condition_types.json');
+
     // conditions
     {
       const start = Date.now();
@@ -155,7 +189,7 @@ export const baseReferenceSeeder: Seeder = {
       const rows = data.map((c) => ({
         id: c.id,
         name: c.name,
-        type: c.type,
+        type_id: c.typeId,
         description: c.description || null,
       }));
       const count = await batchInsert(db, 'conditions', rows);
@@ -169,6 +203,7 @@ export const baseReferenceSeeder: Seeder = {
       const data = await loadJson<ExperienceGroupJson[]>('experience_groups.json');
       const rows = data.map((e) => ({
         id: e.id,
+        slug: slugForPokemon(e.name),
         name: e.name,
         formula: e.formula,
       }));
@@ -221,19 +256,6 @@ export const baseReferenceSeeder: Seeder = {
       total += count;
     }
 
-    // effect_types
-    {
-      const start = Date.now();
-      const data = await loadJson<EffectTypeJson[]>('effect_types.json');
-      const rows = data.map((e) => ({
-        id: e.id,
-        name: e.name,
-      }));
-      const count = await batchInsert(db, 'effect_types', rows);
-      logger.table('effect_types', count, Date.now() - start);
-      total += count;
-    }
-
     // aspect_groups
     {
       const start = Date.now();
@@ -261,6 +283,63 @@ export const baseReferenceSeeder: Seeder = {
       }));
       const count = await batchInsert(db, 'labels', rows);
       logger.table('labels', count, Date.now() - start);
+      total += count;
+    }
+
+    // New lookup tables
+    total += await seedSimple('namespaces', 'namespaces.json');
+    total += await seedSimple('ability_slots', 'ability_slots.json');
+    total += await seedSimple('aspect_types', 'aspect_types.json');
+    total += await seedSimple('item_flag_types', 'item_flag_types.json');
+    total += await seedSimple('move_learn_methods', 'move_learn_methods.json');
+    total += await seedSimple('time_ranges', 'time_ranges.json');
+    total += await seedSimple('moon_phases', 'moon_phases.json');
+    total += await seedSimple('spawn_position_types', 'spawn_position_types.json');
+    total += await seedSimple('spawn_preset_types', 'spawn_preset_types.json');
+    total += await seedSimple('spawn_buckets', 'spawn_buckets.json');
+    total += await seedSimple('spawn_condition_types', 'spawn_condition_types.json');
+    total += await seedSimple('recipe_types', 'recipe_types.json');
+    total += await seedWithGeneratedSlug('form_tag_types', 'form_tag_types.json');
+    total += await seedWithGeneratedSlug('recipe_tag_types', 'recipe_tag_types.json');
+
+    // biome_tags
+    {
+      const start = Date.now();
+      const data = await loadJson<BiomeTagJson[]>('biome_tags.json');
+      const rows = data.map((b) => ({
+        id: b.id,
+        namespace_id: b.namespaceId,
+        name: b.name,
+      }));
+      const count = await batchInsert(db, 'biome_tags', rows);
+      logger.table('biome_tags', count, Date.now() - start);
+      total += count;
+    }
+
+    // biomes
+    {
+      const start = Date.now();
+      const data = await loadJson<BiomeJson[]>('biomes.json');
+      const rows = data.map((b) => ({
+        id: b.id,
+        namespace_id: b.namespaceId,
+        name: b.name,
+      }));
+      const count = await batchInsert(db, 'biomes', rows);
+      logger.table('biomes', count, Date.now() - start);
+      total += count;
+    }
+
+    // biome_tag_biomes
+    {
+      const start = Date.now();
+      const data = await loadJson<BiomeTagBiomeJson[]>('biome_tag_biomes.json');
+      const rows = data.map((b) => ({
+        biome_id: b.biomeId,
+        biome_tag_id: b.biomeTagId,
+      }));
+      const count = await batchInsert(db, 'biome_tag_biomes', rows);
+      logger.table('biome_tag_biomes', count, Date.now() - start);
       total += count;
     }
 

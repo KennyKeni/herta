@@ -144,7 +144,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 31
+    "conditionId": null
   },
   {
     "moveId": 77,
@@ -242,14 +242,14 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 10
+    "conditionId": null
   },
   {
     "moveId": 116,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 19
+    "conditionId": null
   },
   {
     "moveId": 117,
@@ -445,7 +445,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 11
+    "conditionId": null
   },
   {
     "moveId": 197,
@@ -571,7 +571,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 20
+    "conditionId": null
   },
   {
     "moveId": 268,
@@ -592,7 +592,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 26
+    "conditionId": null
   },
   {
     "moveId": 275,
@@ -606,7 +606,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 32
+    "conditionId": null
   },
   {
     "moveId": 281,
@@ -746,7 +746,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 36
+    "conditionId": null
   },
   {
     "moveId": 373,
@@ -760,35 +760,35 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 25
+    "conditionId": null
   },
   {
     "moveId": 379,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 45
+    "conditionId": null
   },
   {
     "moveId": 380,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 23
+    "conditionId": null
   },
   {
     "moveId": 392,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 1
+    "conditionId": null
   },
   {
     "moveId": 393,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 33
+    "conditionId": null
   },
   {
     "moveId": 394,
@@ -949,7 +949,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 48
+    "conditionId": null
   },
   {
     "moveId": 477,
@@ -963,7 +963,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 52
+    "conditionId": null
   },
   {
     "moveId": 482,
@@ -1075,7 +1075,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 29
+    "conditionId": null
   },
   {
     "moveId": 592,
@@ -1089,7 +1089,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 55
+    "conditionId": null
   },
   {
     "moveId": 600,
@@ -1117,21 +1117,21 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 52
+    "conditionId": null
   },
   {
     "moveId": 661,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 3
+    "conditionId": null
   },
   {
     "moveId": 664,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 54
+    "conditionId": null
   },
   {
     "moveId": 671,
@@ -1152,7 +1152,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 30
+    "conditionId": null
   },
   {
     "moveId": 700,
@@ -1208,21 +1208,21 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 34
+    "conditionId": null
   },
   {
     "moveId": 748,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 38
+    "conditionId": null
   },
   {
     "moveId": 749,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 60
+    "conditionId": null
   },
   {
     "moveId": 753,
@@ -1299,7 +1299,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 44
+    "conditionId": null
   },
   {
     "moveId": 836,
@@ -1348,7 +1348,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 50
+    "conditionId": null
   },
   {
     "moveId": 853,
@@ -1362,7 +1362,7 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 49
+    "conditionId": null
   },
   {
     "moveId": 866,
@@ -1425,28 +1425,28 @@
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 59
+    "conditionId": null
   },
   {
     "moveId": 908,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 6
+    "conditionId": null
   },
   {
     "moveId": 913,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 13
+    "conditionId": null
   },
   {
     "moveId": 917,
     "chance": 100,
     "isSelf": false,
     "conditionTypeId": 2,
-    "conditionId": 25
+    "conditionId": null
   },
   {
     "moveId": 918,
