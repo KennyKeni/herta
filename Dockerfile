@@ -14,7 +14,7 @@ USER bun
 
 FROM release AS api
 EXPOSE 3000
-CMD ["bun", "run", "start"]
+CMD ["sh", "-c", "bun run migrate:latest && bun run start"]
 
 FROM release AS worker
 CMD ["bun", "run", "worker:outbox"]
