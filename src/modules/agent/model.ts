@@ -120,6 +120,12 @@ const AgentPokemonFilterSchema = t.Object({
   includeBehaviour: t.Optional(
     t.Boolean({ description: 'Include Cobblemon AI behaviour configuration. Can be large' })
   ),
+  includeSpawns: t.Optional(
+    t.Boolean({
+      description:
+        'Include Cobblemon spawn data (biomes, conditions, rarity). Can be large for Pokemon with many spawn entries',
+    })
+  ),
 });
 
 export const AgentPokemonQuerySchema = t.Composite([AgentPokemonFilterSchema, PaginationSchema]);
@@ -192,6 +198,64 @@ const PhysicalSchema = t.Object({
   weight: t.Number({ description: 'Weight in hectograms (divide by 10 for kg)' }),
 });
 
+const SpawnConditionWeatherSchema = t.Object({
+  isRaining: t.Nullable(
+    t.Boolean({ description: 'Must be raining (true), not raining (false), or any (null)' })
+  ),
+  isThundering: t.Nullable(
+    t.Boolean({ description: 'Must be thundering (true), not thundering (false), or any (null)' })
+  ),
+});
+
+const SpawnConditionSkySchema = t.Object({
+  canSeeSky: t.Nullable(
+    t.Boolean({
+      description: 'Must have sky visibility (true), underground (false), or any (null)',
+    })
+  ),
+  minSkyLight: t.Nullable(t.Number({ description: 'Minimum sky light level (0-15)' })),
+  maxSkyLight: t.Nullable(t.Number({ description: 'Maximum sky light level (0-15)' })),
+});
+
+const SpawnConditionPositionSchema = t.Object({
+  minY: t.Nullable(t.Number({ description: 'Minimum Y coordinate' })),
+  maxY: t.Nullable(t.Number({ description: 'Maximum Y coordinate' })),
+});
+
+const SpawnConditionLureSchema = t.Object({
+  minLureLevel: t.Nullable(t.Number({ description: 'Minimum lure level required' })),
+  maxLureLevel: t.Nullable(t.Number({ description: 'Maximum lure level allowed' })),
+});
+
+const SpawnConditionSchema = t.Object({
+  type: t.String({ description: 'Condition type (e.g., "spawn", "requirement")' }),
+  multiplier: t.Nullable(t.Number({ description: 'Spawn rate multiplier when condition is met' })),
+  biomes: t.Array(t.String(), { description: 'Required biome names' }),
+  biomeTags: t.Array(t.String(), { description: 'Required biome tag names (e.g., "is_forest")' }),
+  timeRanges: t.Array(t.String(), {
+    description: 'Valid time ranges (e.g., "day", "night", "dusk")',
+  }),
+  moonPhases: t.Array(t.String(), {
+    description: 'Valid moon phases (e.g., "full_moon", "new_moon")',
+  }),
+  weather: t.Nullable(SpawnConditionWeatherSchema),
+  sky: t.Nullable(SpawnConditionSkySchema),
+  position: t.Nullable(SpawnConditionPositionSchema),
+  lure: t.Nullable(SpawnConditionLureSchema),
+});
+
+const SpawnSchema = t.Object({
+  bucket: t.String({
+    description: 'Spawn bucket (e.g., "common", "uncommon", "rare", "ultra-rare")',
+  }),
+  positionType: t.String({ description: 'Position type (e.g., "land", "water", "seafloor")' }),
+  weight: t.Number({ description: 'Spawn weight within bucket (higher = more common)' }),
+  levelMin: t.Number({ description: 'Minimum spawn level' }),
+  levelMax: t.Number({ description: 'Maximum spawn level' }),
+  presets: t.Array(t.String(), { description: 'Spawn preset types (e.g., "natural", "fishing")' }),
+  conditions: t.Array(SpawnConditionSchema, { description: 'Spawn conditions and requirements' }),
+});
+
 export const AgentPokemonSchema = t.Object({
   name: t.String({ description: 'Form name (e.g., "Base", "Mega Charizard X")' }),
   slug: t.String({ description: 'Form slug for URLs (e.g., "charizard", "charizard-mega-x")' }),
@@ -222,6 +286,9 @@ export const AgentPokemonSchema = t.Object({
   ),
   behaviour: t.Optional(
     t.Nullable(t.Object({ data: t.Unknown() }, { description: 'Cobblemon AI behaviour config' }))
+  ),
+  spawns: t.Optional(
+    t.Array(SpawnSchema, { description: 'Cobblemon spawn locations and conditions' })
   ),
 });
 

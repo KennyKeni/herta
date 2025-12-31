@@ -2,10 +2,10 @@ import { Value } from '@sinclair/typebox/value';
 import { t } from 'elysia';
 
 const appSchema = t.Object({
-	NODE_ENV: t.Union([t.Literal('development'), t.Literal('production'), t.Literal('test')]),
-	PORT: t.Numeric({ minimum: 1 }),
-	CORS_ORIGIN: t.String({ minLength: 1 }),
-	SWAGGER_ENABLED: t.BooleanString(),
+  NODE_ENV: t.Union([t.Literal('development'), t.Literal('production'), t.Literal('test')]),
+  PORT: t.Numeric({ minimum: 1 }),
+  CORS_ORIGIN: t.String({ minLength: 1 }),
+  SWAGGER_ENABLED: t.BooleanString(),
 });
 
 const postgresSchema = t.Object({

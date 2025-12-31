@@ -35,6 +35,7 @@ export function mapIncludeFlags(query: AgentPokemonQuery): Partial<PokemonFilter
     includeLighting: query.includeLighting,
     includeRiding: query.includeRiding,
     includeBehaviour: query.includeBehaviour,
+    includeSpawns: query.includeSpawns,
   };
 }
 
@@ -174,6 +175,29 @@ export function toResponse(
 
       if (query.includeBehaviour) {
         pokemon.behaviour = form.behaviour;
+      }
+
+      if (query.includeSpawns && form.spawns.length > 0) {
+        pokemon.spawns = form.spawns.map((spawn) => ({
+          bucket: spawn.bucket.name,
+          positionType: spawn.positionType.name,
+          weight: spawn.weight,
+          levelMin: spawn.levelMin,
+          levelMax: spawn.levelMax,
+          presets: spawn.presets.map((p) => p.presetType.name),
+          conditions: spawn.conditions.map((c) => ({
+            type: c.type,
+            multiplier: c.multiplier,
+            biomes: c.biomes.map((b) => b.name),
+            biomeTags: c.biomeTags.map((bt) => bt.name),
+            timeRanges: c.timeRanges.map((tr) => tr.name),
+            moonPhases: c.moonPhases.map((mp) => mp.name),
+            weather: c.weather,
+            sky: c.sky,
+            position: c.position,
+            lure: c.lure,
+          })),
+        }));
       }
 
       results.push(pokemon);

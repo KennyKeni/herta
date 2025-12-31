@@ -29,9 +29,11 @@ const swaggerPlugin = swagger({
 });
 
 const app = new Elysia()
-  .use(cors({
-    origin: config.app.CORS_ORIGIN === '*' ? true : config.app.CORS_ORIGIN.split(','),
-  }))
+  .use(
+    cors({
+      origin: config.app.CORS_ORIGIN === '*' ? true : config.app.CORS_ORIGIN.split(','),
+    })
+  )
   .use(config.app.SWAGGER_ENABLED ? swaggerPlugin : (app) => app)
   .onRequest(({ request }) => {
     console.log(`--> ${request.method} ${request.url}`);

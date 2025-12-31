@@ -339,10 +339,7 @@ const SpeciesWithFormsSchema = t.Composite([
   t.Object({ forms: t.Array(FormSchema) }),
 ]);
 
-const SpeciesWithFormSchema = t.Composite([
-  SpeciesSchema,
-  t.Object({ form: FormSchema }),
-]);
+const SpeciesWithFormSchema = t.Composite([SpeciesSchema, t.Object({ form: FormSchema })]);
 
 export const PokemonSearchResponseSchema = t.Array(SpeciesWithFormsSchema);
 
