@@ -442,6 +442,9 @@ const AgentItemFilterSchema = t.Object({
   includeDescription: t.Optional(t.Boolean({ description: 'Include description text' })),
   includeBoosts: t.Optional(t.Boolean({ description: 'Include stat boosts' })),
   includeTags: t.Optional(t.Boolean({ description: 'Include item tags' })),
+  includeRecipes: t.Optional(
+    t.Boolean({ description: 'Include crafting recipes that produce this item' })
+  ),
 });
 
 export const AgentItemQuerySchema = t.Composite([AgentItemFilterSchema, PaginationSchema]);
@@ -453,6 +456,27 @@ const AgentItemBoostSchema = t.Object({
   stages: t.Number({ description: 'Number of stages' }),
 });
 
+const AgentRecipeInputSchema = t.Object({
+  item: t.String({ description: 'Input item name' }),
+  slot: t.Nullable(t.Number({ description: 'Slot position (for shaped recipes)' })),
+  slotType: t.Optional(t.Nullable(t.String({ description: 'Slot type name (e.g., "top", "bottom")' }))),
+});
+
+const AgentRecipeTagInputSchema = t.Object({
+  tag: t.String({ description: 'Input tag name (matches any item with this tag)' }),
+  slot: t.Nullable(t.Number({ description: 'Slot position (for shaped recipes)' })),
+  slotType: t.Optional(t.Nullable(t.String({ description: 'Slot type name' }))),
+});
+
+const AgentRecipeSchema = t.Object({
+  type: t.String({ description: 'Recipe type (e.g., "crafting", "smelting", "cooking")' }),
+  resultCount: t.Number({ description: 'Number of items produced' }),
+  experience: t.Optional(t.Nullable(t.Number({ description: 'Experience gained' }))),
+  cookingTime: t.Optional(t.Nullable(t.Number({ description: 'Cooking time in ticks' }))),
+  inputs: t.Array(AgentRecipeInputSchema, { description: 'Item inputs' }),
+  tagInputs: t.Array(AgentRecipeTagInputSchema, { description: 'Tag-based inputs' }),
+});
+
 export const AgentItemSchema = t.Object({
   name: t.String({ description: 'Item name' }),
   slug: t.String({ description: 'Item slug for URLs' }),
@@ -460,6 +484,7 @@ export const AgentItemSchema = t.Object({
   desc: t.Optional(t.Nullable(t.String({ description: 'Full description' }))),
   boosts: t.Optional(t.Array(AgentItemBoostSchema)),
   tags: t.Optional(t.Array(t.String(), { description: 'Item tag names' })),
+  recipes: t.Optional(t.Array(AgentRecipeSchema, { description: 'Crafting recipes that produce this item' })),
 });
 
 export type AgentItem = Static<typeof AgentItemSchema>;

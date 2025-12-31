@@ -1,4 +1,5 @@
 import { type Kysely, sql } from 'kysely';
+import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } from '@/common/fuzzy';
 import { FilterLogic } from '@/common/types';
 import type { DB } from '@/infrastructure/db/types';
 import type { Ability, AbilityFilter, IncludeOptions } from './domain';
@@ -80,6 +81,14 @@ export class AbilitiesRepository {
     );
 
     return results.filter((r): r is { id: number } => r != null).map((r) => r.id);
+  }
+
+  async fuzzyMatch(query: string, options?: FuzzyMatchOptions): Promise<FuzzyMatchResult[]> {
+    return createFuzzyMatcher(this.db, {
+      table: 'abilities',
+      matchColumn: 'name',
+      idColumn: 'id',
+    })(query, options);
   }
 
   private buildSearchQuery(filters: AbilityFilter) {

@@ -1,4 +1,5 @@
 import { type Kysely, sql } from 'kysely';
+import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } from '@/common/fuzzy';
 import { FilterLogic } from '@/common/types';
 import type { DB } from '@/infrastructure/db/types';
 import type { Spawn } from '../spawns/domain';
@@ -231,6 +232,47 @@ export class PokemonRepository {
     );
 
     return results.filter((r): r is { id: number } => r != null).map((r) => r.id);
+  }
+
+  async fuzzyMatchSpecies(
+    query: string,
+    options?: FuzzyMatchOptions
+  ): Promise<FuzzyMatchResult<string>[]> {
+    return createFuzzyMatcher<string>(this.db, {
+      table: 'species',
+      matchColumn: 'name',
+      idColumn: 'slug',
+    })(query, options);
+  }
+
+  async fuzzyMatchForms(
+    query: string,
+    options?: FuzzyMatchOptions
+  ): Promise<FuzzyMatchResult<string>[]> {
+    return createFuzzyMatcher<string>(this.db, {
+      table: 'forms',
+      matchColumn: 'name',
+      idColumn: 'slug',
+    })(query, options);
+  }
+
+  async fuzzyMatchEggGroups(
+    query: string,
+    options?: FuzzyMatchOptions
+  ): Promise<FuzzyMatchResult[]> {
+    return createFuzzyMatcher(this.db, {
+      table: 'egg_groups',
+      matchColumn: 'name',
+      idColumn: 'id',
+    })(query, options);
+  }
+
+  async fuzzyMatchLabels(query: string, options?: FuzzyMatchOptions): Promise<FuzzyMatchResult[]> {
+    return createFuzzyMatcher(this.db, {
+      table: 'labels',
+      matchColumn: 'name',
+      idColumn: 'id',
+    })(query, options);
   }
 
   private buildSearchQuery(filter: PokemonFilter) {

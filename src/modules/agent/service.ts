@@ -41,14 +41,21 @@ export class AgentService {
   ) {}
 
   async searchPokemon(query: AgentPokemonQuery): Promise<AgentPokemonResponse> {
-    const [typeIds, abilityIds, moveIds, eggGroupIds, labelIds, formSlugs] = await Promise.all([
+    const [typeIds, abilityIds, moveIds, eggGroupIds, labelIds, formMatches] = await Promise.all([
       query.types ? this.typesRepository.fuzzyResolve(query.types) : [],
       query.abilities ? this.abilitiesRepository.fuzzyResolve(query.abilities) : [],
       query.moves ? this.movesRepository.fuzzyResolve(query.moves) : [],
       query.eggGroups ? this.pokemonRepository.fuzzyResolveEggGroups(query.eggGroups) : [],
       query.labels ? this.pokemonRepository.fuzzyResolveLabels(query.labels) : [],
-      query.names ? this.pokemonRepository.fuzzyResolveForms(query.names) : [],
+      query.names
+        ? Promise.all(
+            query.names.map((name) =>
+              this.pokemonRepository.fuzzyMatchForms(name, { limit: query.limit })
+            )
+          ).then((results) => results.flat())
+        : [],
     ]);
+    const formSlugs = formMatches.map((m) => m.id);
 
     const filter: PokemonFilter = {
       typeIds: typeIds.length ? typeIds : undefined,
@@ -122,6 +129,7 @@ export class AgentService {
       tagIds: tagIds.length ? tagIds : undefined,
       includeBoosts: query.includeBoosts,
       includeTags: query.includeTags,
+      includeRecipes: query.includeRecipes,
       limit: query.limit,
       offset: query.offset,
     };

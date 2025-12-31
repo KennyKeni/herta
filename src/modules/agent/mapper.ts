@@ -334,6 +334,25 @@ export function toItemResponse(
       result.tags = item.tags.map((t) => t.name);
     }
 
+    if (query.includeRecipes && item.recipes.length > 0) {
+      result.recipes = item.recipes.map((r) => ({
+        type: r.type.name,
+        resultCount: r.resultCount,
+        experience: r.experience,
+        cookingTime: r.cookingTime,
+        inputs: r.inputs.map((i) => ({
+          item: i.item.name,
+          slot: i.slot,
+          slotType: i.slotType?.name ?? null,
+        })),
+        tagInputs: r.tagInputs.map((t) => ({
+          tag: t.tag.name,
+          slot: t.slot,
+          slotType: t.slotType?.name ?? null,
+        })),
+      }));
+    }
+
     return result;
   });
 

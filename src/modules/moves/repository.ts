@@ -1,4 +1,5 @@
 import { type Kysely, sql } from 'kysely';
+import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } from '@/common/fuzzy';
 import { FilterLogic } from '@/common/types';
 import type { DB } from '@/infrastructure/db/types';
 import type { IncludeOptions, Move, MoveFilter } from './domain';
@@ -234,6 +235,25 @@ export class MovesRepository {
     );
 
     return results.filter((r): r is { id: number } => r != null).map((r) => r.id);
+  }
+
+  async fuzzyMatch(query: string, options?: FuzzyMatchOptions): Promise<FuzzyMatchResult[]> {
+    return createFuzzyMatcher(this.db, {
+      table: 'moves',
+      matchColumn: 'name',
+      idColumn: 'id',
+    })(query, options);
+  }
+
+  async fuzzyMatchCategories(
+    query: string,
+    options?: FuzzyMatchOptions
+  ): Promise<FuzzyMatchResult[]> {
+    return createFuzzyMatcher(this.db, {
+      table: 'move_categories',
+      matchColumn: 'name',
+      idColumn: 'id',
+    })(query, options);
   }
 
   async searchMoves(filters: MoveFilter): Promise<Move[]> {

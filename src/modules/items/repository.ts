@@ -1,6 +1,7 @@
 import { type Kysely, sql } from 'kysely';
+import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } from '@/common/fuzzy';
 import type { DB } from '@/infrastructure/db/types';
-import type { IncludeOptions, Item, ItemFilter } from './domain';
+import type { IncludeOptions, Item, ItemFilter, Recipe } from './domain';
 
 export class ItemsRepository {
   constructor(private db: Kysely<DB>) {}
@@ -70,6 +71,22 @@ export class ItemsRepository {
     return results.filter((r): r is { id: number } => r != null).map((r) => r.id);
   }
 
+  async fuzzyMatch(query: string, options?: FuzzyMatchOptions): Promise<FuzzyMatchResult[]> {
+    return createFuzzyMatcher(this.db, {
+      table: 'items',
+      matchColumn: 'name',
+      idColumn: 'id',
+    })(query, options);
+  }
+
+  async fuzzyMatchTags(query: string, options?: FuzzyMatchOptions): Promise<FuzzyMatchResult[]> {
+    return createFuzzyMatcher(this.db, {
+      table: 'item_tag_types',
+      matchColumn: 'name',
+      idColumn: 'id',
+    })(query, options);
+  }
+
   async searchItems(filters: ItemFilter): Promise<Item[]> {
     const rows = await this.buildSearchQuery(filters)
       .limit(filters.limit ?? 20)
@@ -130,16 +147,22 @@ export class ItemsRepository {
   }
 
   private async fetchRelations(itemIds: number[], options: IncludeOptions) {
-    const [boosts, flags, tags] = await Promise.all([
+    const [boosts, flags, tags, recipes, recipeInputs, recipeTagInputs] = await Promise.all([
       this.fetchBoosts(options.includeBoosts !== false ? itemIds : []),
       this.fetchFlags(options.includeFlags !== false ? itemIds : []),
       this.fetchTags(options.includeTags !== false ? itemIds : []),
+      this.fetchRecipes(options.includeRecipes ? itemIds : []),
+      this.fetchRecipeInputs(options.includeRecipes ? itemIds : []),
+      this.fetchRecipeTagInputs(options.includeRecipes ? itemIds : []),
     ]);
 
     return {
       boosts: this.groupBy(boosts, 'item_id'),
       flags: this.groupBy(flags, 'item_id'),
       tags: this.groupBy(tags, 'item_id'),
+      recipes: this.groupBy(recipes, 'result_item_id'),
+      recipeInputs: this.groupBy(recipeInputs, 'recipe_id'),
+      recipeTagInputs: this.groupBy(recipeTagInputs, 'recipe_id'),
     };
   }
 
@@ -204,6 +227,105 @@ export class ItemsRepository {
       .execute();
   }
 
+  private fetchRecipes(itemIds: number[]) {
+    if (!itemIds.length)
+      return Promise.resolve(
+        [] as {
+          id: number;
+          result_item_id: number;
+          type_id: number;
+          type_slug: string;
+          type_name: string;
+          result_count: number;
+          experience: number | null;
+          cooking_time: number | null;
+        }[]
+      );
+    return this.db
+      .selectFrom('recipes as r')
+      .innerJoin('recipe_types as rt', 'rt.id', 'r.type_id')
+      .select([
+        'r.id',
+        'r.result_item_id',
+        'rt.id as type_id',
+        'rt.slug as type_slug',
+        'rt.name as type_name',
+        'r.result_count',
+        'r.experience',
+        'r.cooking_time',
+      ])
+      .where('r.result_item_id', 'in', itemIds)
+      .execute();
+  }
+
+  private fetchRecipeInputs(itemIds: number[]) {
+    if (!itemIds.length)
+      return Promise.resolve(
+        [] as {
+          recipe_id: number;
+          item_id: number;
+          item_name: string;
+          slot: number | null;
+          slot_type_id: number | null;
+          slot_type_slug: string | null;
+          slot_type_name: string | null;
+          slot_type_description: string | null;
+        }[]
+      );
+    return this.db
+      .selectFrom('recipe_inputs as ri')
+      .innerJoin('recipes as r', 'r.id', 'ri.recipe_id')
+      .innerJoin('items as i', 'i.id', 'ri.item_id')
+      .leftJoin('recipe_slot_types as rst', 'rst.id', 'ri.slot_type_id')
+      .select([
+        'ri.recipe_id',
+        'ri.item_id',
+        'i.name as item_name',
+        'ri.slot',
+        'rst.id as slot_type_id',
+        'rst.slug as slot_type_slug',
+        'rst.name as slot_type_name',
+        'rst.description as slot_type_description',
+      ])
+      .where('r.result_item_id', 'in', itemIds)
+      .execute();
+  }
+
+  private fetchRecipeTagInputs(itemIds: number[]) {
+    if (!itemIds.length)
+      return Promise.resolve(
+        [] as {
+          recipe_id: number;
+          tag_id: number;
+          tag_slug: string;
+          tag_name: string;
+          slot: number | null;
+          slot_type_id: number | null;
+          slot_type_slug: string | null;
+          slot_type_name: string | null;
+          slot_type_description: string | null;
+        }[]
+      );
+    return this.db
+      .selectFrom('recipe_tag_inputs as rti')
+      .innerJoin('recipes as r', 'r.id', 'rti.recipe_id')
+      .innerJoin('recipe_tag_types as rtt', 'rtt.id', 'rti.tag_id')
+      .leftJoin('recipe_slot_types as rst', 'rst.id', 'rti.slot_type_id')
+      .select([
+        'rti.recipe_id',
+        'rtt.id as tag_id',
+        'rtt.slug as tag_slug',
+        'rtt.name as tag_name',
+        'rti.slot',
+        'rst.id as slot_type_id',
+        'rst.slug as slot_type_slug',
+        'rst.name as slot_type_name',
+        'rst.description as slot_type_description',
+      ])
+      .where('r.result_item_id', 'in', itemIds)
+      .execute();
+  }
+
   private groupBy<T, K extends keyof T>(rows: T[], key: K): Map<T[K], T[]> {
     const map = new Map<T[K], T[]>();
     for (const row of rows) {
@@ -221,6 +343,44 @@ export class ItemsRepository {
     const boosts = relations.boosts.get(row.id) ?? [];
     const flags = relations.flags.get(row.id) ?? [];
     const tags = relations.tags.get(row.id) ?? [];
+    const recipeRows = relations.recipes.get(row.id) ?? [];
+
+    const recipes: Recipe[] = recipeRows.map((r) => {
+      const inputs = relations.recipeInputs.get(r.id) ?? [];
+      const tagInputs = relations.recipeTagInputs.get(r.id) ?? [];
+
+      return {
+        id: r.id,
+        type: { id: r.type_id, slug: r.type_slug, name: r.type_name },
+        resultCount: r.result_count,
+        experience: r.experience,
+        cookingTime: r.cooking_time,
+        inputs: inputs.map((i) => ({
+          item: { id: i.item_id, name: i.item_name },
+          slot: i.slot,
+          slotType: i.slot_type_id
+            ? {
+                id: i.slot_type_id,
+                slug: i.slot_type_slug ?? '',
+                name: i.slot_type_name ?? '',
+                description: i.slot_type_description,
+              }
+            : null,
+        })),
+        tagInputs: tagInputs.map((t) => ({
+          tag: { id: t.tag_id, slug: t.tag_slug, name: t.tag_name },
+          slot: t.slot,
+          slotType: t.slot_type_id
+            ? {
+                id: t.slot_type_id,
+                slug: t.slot_type_slug ?? '',
+                name: t.slot_type_name ?? '',
+                description: t.slot_type_description,
+              }
+            : null,
+        })),
+      };
+    });
 
     return {
       id: row.id,
@@ -240,7 +400,7 @@ export class ItemsRepository {
       })),
       flags: flags.map((f) => ({ id: f.flag_type_id, slug: f.flag_slug, name: f.flag_name })),
       tags: tags.map((t) => ({ id: t.tag_id, slug: t.tag_slug, name: t.tag_name })),
-      recipes: [],
+      recipes,
     };
   }
 }

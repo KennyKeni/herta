@@ -1,4 +1,5 @@
 import { type Kysely, sql } from 'kysely';
+import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } from '@/common/fuzzy';
 import type { DB } from '@/infrastructure/db/types';
 import type { Article, ArticleCategory, ArticleFilter, IncludeOptions } from './domain';
 
@@ -39,6 +40,26 @@ export class ArticleRepository {
     );
 
     return results.filter((r): r is { id: number } => r != null).map((r) => r.id);
+  }
+
+  async fuzzyMatch(query: string, options?: FuzzyMatchOptions): Promise<FuzzyMatchResult[]> {
+    return createFuzzyMatcher(this.db, {
+      table: 'articles',
+      matchColumn: 'title',
+      idColumn: 'id',
+      nameColumn: 'title',
+    })(query, options);
+  }
+
+  async fuzzyMatchCategories(
+    query: string,
+    options?: FuzzyMatchOptions
+  ): Promise<FuzzyMatchResult[]> {
+    return createFuzzyMatcher(this.db, {
+      table: 'article_categories',
+      matchColumn: 'name',
+      idColumn: 'id',
+    })(query, options);
   }
 
   async searchArticles(filters: ArticleFilter): Promise<Article[]> {
