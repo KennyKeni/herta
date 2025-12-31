@@ -1,18 +1,24 @@
-export type AspectType = 'cosmetic' | 'form';
+export interface AspectType {
+  id: number;
+  slug: string;
+  name: string;
+}
 
 export interface Aspect {
   id: number;
   name: string;
   slug: string;
   type: AspectType;
+  aspectFormat: string | null;
 }
 
 export interface AspectChoice {
   id: number;
-  aspect: Aspect;
-  name: string;
   slug: string;
-  aspectString: string;
+  aspectId: number;
+  name: string;
+  value: string;
+  aspectString: string | null;
 }
 
 export interface AspectGroup {
@@ -22,4 +28,15 @@ export interface AspectGroup {
   rule: string;
   description: string | null;
   aspects: Aspect[];
+}
+
+export interface AspectFilter {
+  aspectIds?: number[];
+  aspectSlugs?: string[];
+  typeIds?: number[];
+  groupIds?: number[];
+  groupSlugs?: string[];
+  includeGroups?: boolean;
+  limit?: number;
+  offset?: number;
 }

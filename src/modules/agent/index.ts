@@ -15,7 +15,11 @@ import { agentSetup } from '@/infrastructure/setup';
 import {
   AgentAbilityQuerySchema,
   AgentAbilityResponseSchema,
+  AgentArticleQuerySchema,
   AgentArticleResponseSchema,
+  AgentArticleSearchResponseSchema,
+  AgentItemQuerySchema,
+  AgentItemResponseSchema,
   AgentMoveQuerySchema,
   AgentMoveResponseSchema,
   AgentPokemonQuerySchema,
@@ -79,6 +83,36 @@ export const agent = new Elysia({ prefix: '/agent', tags: ['agent'] })
         summary: 'Search Moves',
         description:
           'Search moves with fuzzy name matching and type/category filters. Optimized for AI agents with minimal default response.',
+      },
+    }
+  )
+  .get(
+    '/items',
+    async ({ agentService, query }) => {
+      return agentService.searchItems(query);
+    },
+    {
+      query: AgentItemQuerySchema,
+      response: AgentItemResponseSchema,
+      detail: {
+        summary: 'Search Items',
+        description:
+          'Search items with fuzzy name matching and tag filters. Optimized for AI agents with minimal default response.',
+      },
+    }
+  )
+  .get(
+    '/articles',
+    async ({ agentService, query }) => {
+      return agentService.searchArticles(query);
+    },
+    {
+      query: AgentArticleQuerySchema,
+      response: AgentArticleSearchResponseSchema,
+      detail: {
+        summary: 'Search Articles',
+        description:
+          'Search articles with fuzzy title matching and category filters. Optimized for AI agents with minimal default response.',
       },
     }
   );

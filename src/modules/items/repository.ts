@@ -1,9 +1,38 @@
 import { type Kysely, sql } from 'kysely';
 import type { DB } from '@/infrastructure/db/types';
-import type { Item, ItemFilter } from './domain';
+import type { IncludeOptions, Item, ItemFilter } from './domain';
 
 export class ItemsRepository {
   constructor(private db: Kysely<DB>) {}
+
+  async getByIdentifier(identifier: string, options: IncludeOptions = {}): Promise<Item | null> {
+    const isId = /^\d+$/.test(identifier);
+
+    const row = await this.db
+      .selectFrom('items as i')
+      .leftJoin('namespaces as ns', 'ns.id', 'i.namespace_id')
+      .select([
+        'i.id',
+        'i.slug',
+        'i.name',
+        'i.num',
+        'i.desc',
+        'i.short_desc',
+        'i.gen',
+        'i.namespace_id',
+        'ns.slug as namespace_slug',
+        'ns.name as namespace_name',
+        'i.implemented',
+      ])
+      .where(isId ? 'i.id' : 'i.slug', '=', isId ? Number(identifier) : identifier)
+      .executeTakeFirst();
+
+    if (!row) return null;
+
+    const relations = await this.fetchRelations([row.id], options);
+
+    return this.toItem(row, relations);
+  }
 
   async fuzzyResolve(names: string[]): Promise<number[]> {
     if (!names.length) return [];
@@ -12,6 +41,24 @@ export class ItemsRepository {
       names.map((name) =>
         this.db
           .selectFrom('items')
+          .select(['id'])
+          .where(sql<boolean>`name % ${name}`)
+          .orderBy(sql`similarity(name, ${name})`, 'desc')
+          .limit(1)
+          .executeTakeFirst()
+      )
+    );
+
+    return results.filter((r): r is { id: number } => r != null).map((r) => r.id);
+  }
+
+  async fuzzyResolveTags(names: string[]): Promise<number[]> {
+    if (!names.length) return [];
+
+    const results = await Promise.all(
+      names.map((name) =>
+        this.db
+          .selectFrom('item_tag_types')
           .select(['id'])
           .where(sql<boolean>`name % ${name}`)
           .orderBy(sql`similarity(name, ${name})`, 'desc')
@@ -40,12 +87,18 @@ export class ItemsRepository {
   private buildSearchQuery(filters: ItemFilter) {
     let query = this.db
       .selectFrom('items as i')
+      .leftJoin('namespaces as ns', 'ns.id', 'i.namespace_id')
       .select([
         'i.id',
+        'i.slug',
         'i.name',
+        'i.num',
         'i.desc',
         'i.short_desc',
         'i.gen',
+        'i.namespace_id',
+        'ns.slug as namespace_slug',
+        'ns.name as namespace_name',
         'i.implemented',
       ]);
 
@@ -76,11 +129,11 @@ export class ItemsRepository {
       });
   }
 
-  private async fetchRelations(itemIds: number[], filters: ItemFilter) {
+  private async fetchRelations(itemIds: number[], options: IncludeOptions) {
     const [boosts, flags, tags] = await Promise.all([
-      this.fetchBoosts(filters.includeBoosts !== false ? itemIds : []),
-      this.fetchFlags(filters.includeFlags !== false ? itemIds : []),
-      this.fetchTags(filters.includeTags !== false ? itemIds : []),
+      this.fetchBoosts(options.includeBoosts !== false ? itemIds : []),
+      this.fetchFlags(options.includeFlags !== false ? itemIds : []),
+      this.fetchTags(options.includeTags !== false ? itemIds : []),
     ]);
 
     return {
@@ -96,6 +149,7 @@ export class ItemsRepository {
         [] as {
           item_id: number;
           stat_id: number;
+          stat_slug: string;
           stat_name: string;
           stages: number;
         }[]
@@ -103,7 +157,13 @@ export class ItemsRepository {
     return this.db
       .selectFrom('item_boosts as ib')
       .innerJoin('stats as s', 's.id', 'ib.stat_id')
-      .select(['ib.item_id', 's.id as stat_id', 's.name as stat_name', 'ib.stages'])
+      .select([
+        'ib.item_id',
+        's.id as stat_id',
+        's.slug as stat_slug',
+        's.name as stat_name',
+        'ib.stages',
+      ])
       .where('ib.item_id', 'in', itemIds)
       .execute();
   }
@@ -114,13 +174,14 @@ export class ItemsRepository {
         [] as {
           item_id: number;
           flag_type_id: number;
+          flag_slug: string;
           flag_name: string;
         }[]
       );
     return this.db
       .selectFrom('item_flags as if')
       .innerJoin('item_flag_types as ift', 'ift.id', 'if.flag_type_id')
-      .select(['if.item_id', 'if.flag_type_id', 'ift.name as flag_name'])
+      .select(['if.item_id', 'if.flag_type_id', 'ift.slug as flag_slug', 'ift.name as flag_name'])
       .where('if.item_id', 'in', itemIds)
       .execute();
   }
@@ -130,6 +191,7 @@ export class ItemsRepository {
       return Promise.resolve(
         [] as {
           item_id: number;
+          tag_id: number;
           tag_slug: string;
           tag_name: string;
         }[]
@@ -137,7 +199,7 @@ export class ItemsRepository {
     return this.db
       .selectFrom('item_tags as it')
       .innerJoin('item_tag_types as itt', 'itt.id', 'it.tag_id')
-      .select(['it.item_id', 'itt.slug as tag_slug', 'itt.name as tag_name'])
+      .select(['it.item_id', 'itt.id as tag_id', 'itt.slug as tag_slug', 'itt.name as tag_name'])
       .where('it.item_id', 'in', itemIds)
       .execute();
   }
@@ -162,17 +224,22 @@ export class ItemsRepository {
 
     return {
       id: row.id,
+      slug: row.slug,
       name: row.name,
+      num: row.num,
       desc: row.desc,
       shortDesc: row.short_desc,
       generation: row.gen,
+      namespace: row.namespace_id
+        ? { id: row.namespace_id, slug: row.namespace_slug ?? '', name: row.namespace_name ?? '' }
+        : null,
       implemented: row.implemented,
       boosts: boosts.map((b) => ({
-        stat: { id: b.stat_id, name: b.stat_name },
+        stat: { id: b.stat_id, slug: b.stat_slug, name: b.stat_name },
         stages: b.stages,
       })),
-      flags: flags.map((f) => ({ id: f.flag_type_id, name: f.flag_name })),
-      tags: tags.map((t) => ({ slug: t.tag_slug, name: t.tag_name })),
+      flags: flags.map((f) => ({ id: f.flag_type_id, slug: f.flag_slug, name: f.flag_name })),
+      tags: tags.map((t) => ({ id: t.tag_id, slug: t.tag_slug, name: t.tag_name })),
       recipes: [],
     };
   }

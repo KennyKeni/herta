@@ -18,7 +18,9 @@ export async function up(db: Kysely<any>): Promise<void> {
     .createTable('spawns')
     .addColumn('id', 'integer', (col) => col.primaryKey())
     .addColumn('bucket_id', 'integer', (col) => col.notNull().references('spawn_buckets.id'))
-    .addColumn('position_type_id', 'integer', (col) => col.notNull().references('spawn_position_types.id'))
+    .addColumn('position_type_id', 'integer', (col) =>
+      col.notNull().references('spawn_position_types.id')
+    )
     .addColumn('level_min', 'integer', (col) => col.notNull())
     .addColumn('level_max', 'integer', (col) => col.notNull())
     .addColumn('weight', 'real', (col) => col.notNull())
@@ -36,7 +38,9 @@ export async function up(db: Kysely<any>): Promise<void> {
   await db.schema
     .createTable('spawn_presets')
     .addColumn('spawn_id', 'integer', (col) => col.notNull().references('spawns.id'))
-    .addColumn('preset_type_id', 'integer', (col) => col.notNull().references('spawn_preset_types.id'))
+    .addColumn('preset_type_id', 'integer', (col) =>
+      col.notNull().references('spawn_preset_types.id')
+    )
     .addPrimaryKeyConstraint('spawn_presets_pk', ['spawn_id', 'preset_type_id'])
     .execute();
 
@@ -63,7 +67,9 @@ export async function up(db: Kysely<any>): Promise<void> {
 
   await db.schema
     .createTable('spawn_condition_weather')
-    .addColumn('condition_id', 'integer', (col) => col.primaryKey().references('spawn_conditions.id'))
+    .addColumn('condition_id', 'integer', (col) =>
+      col.primaryKey().references('spawn_conditions.id')
+    )
     .addColumn('is_raining', 'boolean')
     .addColumn('is_thundering', 'boolean')
     .execute();
@@ -77,7 +83,9 @@ export async function up(db: Kysely<any>): Promise<void> {
 
   await db.schema
     .createTable('spawn_condition_sky')
-    .addColumn('condition_id', 'integer', (col) => col.primaryKey().references('spawn_conditions.id'))
+    .addColumn('condition_id', 'integer', (col) =>
+      col.primaryKey().references('spawn_conditions.id')
+    )
     .addColumn('can_see_sky', 'boolean')
     .addColumn('min_sky_light', 'integer')
     .addColumn('max_sky_light', 'integer')
@@ -85,21 +93,29 @@ export async function up(db: Kysely<any>): Promise<void> {
 
   await db.schema
     .createTable('spawn_condition_position')
-    .addColumn('condition_id', 'integer', (col) => col.primaryKey().references('spawn_conditions.id'))
+    .addColumn('condition_id', 'integer', (col) =>
+      col.primaryKey().references('spawn_conditions.id')
+    )
     .addColumn('min_y', 'integer')
     .addColumn('max_y', 'integer')
     .execute();
 
   await db.schema
     .createTable('spawn_condition_lure')
-    .addColumn('condition_id', 'integer', (col) => col.primaryKey().references('spawn_conditions.id'))
+    .addColumn('condition_id', 'integer', (col) =>
+      col.primaryKey().references('spawn_conditions.id')
+    )
     .addColumn('min_lure_level', 'integer')
     .addColumn('max_lure_level', 'integer')
     .execute();
 
   await db.schema.createIndex('idx_spawns_form_id').on('spawns').column('form_id').execute();
   await db.schema.createIndex('idx_spawns_bucket_id').on('spawns').column('bucket_id').execute();
-  await db.schema.createIndex('idx_spawn_conditions_spawn_id').on('spawn_conditions').column('spawn_id').execute();
+  await db.schema
+    .createIndex('idx_spawn_conditions_spawn_id')
+    .on('spawn_conditions')
+    .column('spawn_id')
+    .execute();
 }
 
 export async function down(db: Kysely<any>): Promise<void> {

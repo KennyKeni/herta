@@ -86,6 +86,7 @@ const TABLES_TO_CLEAR = [
   'recipe_tag_types',
   'form_tag_types',
   'recipe_types',
+  'spawn_condition_types',
   'spawn_buckets',
   'spawn_preset_types',
   'spawn_position_types',

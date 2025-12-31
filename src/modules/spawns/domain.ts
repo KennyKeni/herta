@@ -1,30 +1,42 @@
 export interface SpawnBucketRef {
   id: number;
+  slug: string;
   name: string;
 }
 
 export interface SpawnPositionTypeRef {
   id: number;
+  slug: string;
+  name: string;
+}
+
+export interface SpawnPresetTypeRef {
+  id: number;
+  slug: string;
   name: string;
 }
 
 export interface BiomeRef {
   id: number;
+  slug: string;
   name: string;
 }
 
 export interface BiomeTagRef {
   id: number;
+  slug: string;
   name: string;
 }
 
 export interface TimeRangeRef {
   id: number;
+  slug: string;
   name: string;
 }
 
 export interface MoonPhaseRef {
   id: number;
+  slug: string;
   name: string;
 }
 
@@ -63,6 +75,10 @@ export interface SpawnCondition {
   lure: SpawnConditionLure | null;
 }
 
+export interface SpawnPreset {
+  presetType: SpawnPresetTypeRef;
+}
+
 export interface Spawn {
   id: number;
   formId: number;
@@ -71,6 +87,7 @@ export interface Spawn {
   weight: number;
   levelMin: number;
   levelMax: number;
+  presets: SpawnPreset[];
   conditions: SpawnCondition[];
 }
 
@@ -79,9 +96,8 @@ export interface SpawnFilter {
   biomeIds?: number[];
   biomeTagIds?: number[];
   bucketIds?: number[];
-
   includeConditions?: boolean;
-
+  includePresets?: boolean;
   limit?: number;
   offset?: number;
 }

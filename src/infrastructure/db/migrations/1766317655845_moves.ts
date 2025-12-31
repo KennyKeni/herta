@@ -46,7 +46,9 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addColumn('move_id', 'integer', (col) => col.notNull().references('moves.id'))
     .addColumn('chance', 'integer', (col) => col.notNull())
     .addColumn('is_self', 'boolean', (col) => col.notNull())
-    .addColumn('condition_type_id', 'integer', (col) => col.notNull().references('condition_types.id'))
+    .addColumn('condition_type_id', 'integer', (col) =>
+      col.notNull().references('condition_types.id')
+    )
     .addColumn('condition_id', 'integer', (col) => col.references('conditions.id'))
     .execute();
 

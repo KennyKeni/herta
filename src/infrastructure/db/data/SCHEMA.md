@@ -10,7 +10,8 @@ Auto-generated documentation for the pipeline output.
 - **Moves** (`moves/`): 11 tables
 - **Abilities** (`abilities/`): 4 tables
 - **Items & Recipes** (`items/`): 13 tables
-- **Spawning** (`spawning/`): 20 tables
+- **Spawns** (`spawns/`): 15 tables
+- **World** (`world/`): 5 tables
 - **Game Mechanics** (`mechanics/`): 7 tables
 
 ## Tables
@@ -32,7 +33,7 @@ Auto-generated documentation for the pipeline output.
 | `species_hitboxes` | 965 | speciesId, width, height, fixed |
 | `form_hitboxes` | 14 | formId, width, height, fixed |
 | `aspects` | 96 | id, slug, name, typeId, aspectFormat |
-| `aspect_choices` | 468 | id, aspectId, value, name, aspectString |
+| `aspect_choices` | 467 | id, aspectId, value, name, aspectString |
 | `aspect_groups` | 5 | id, slug, name, rule, description |
 | `aspect_groups_map` | 12 | aspectId, aspectGroupId |
 | `aspect_types` | 3 | id, slug, name |
@@ -94,14 +95,15 @@ Auto-generated documentation for the pipeline output.
 | `recipe_tag_types` | 45 | id, slug, namespaceId, path, name |
 | `recipe_tag_inputs` | 573 | recipeId, tagTypeId, slot |
 
-### Spawning
+### Spawns
 
 | Table | Rows | Columns |
 |-------|------|---------|
 | `spawns` | 2924 | id, pokemon, bucketId, positionTypeId, levelMin, ... (+3) |
+| `spawn_buckets` | 4 | id, slug, name |
+| `spawn_position_types` | 5 | id, slug, name |
 | `spawn_presets` | 2652 | spawnId, presetTypeId |
 | `spawn_preset_types` | 26 | id, slug, name |
-| `spawn_buckets` | 4 | id, slug, name |
 | `spawn_conditions` | 4434 | id, spawnId, conditionType, multiplier |
 | `spawn_condition_types` | 3 | id, slug, name |
 | `spawn_condition_biomes` | 308 | conditionId, biomeId |
@@ -112,7 +114,11 @@ Auto-generated documentation for the pipeline output.
 | `spawn_condition_moon_phases` | 90 | conditionId, moonPhaseId |
 | `spawn_condition_position` | 369 | conditionId, minY, maxY |
 | `spawn_condition_sky` | 2364 | conditionId, canSeeSky, minSkyLight, maxSkyLight |
-| `spawn_position_types` | 5 | id, slug, name |
+
+### World
+
+| Table | Rows | Columns |
+|-------|------|---------|
 | `biomes` | 410 | id, slug, namespaceId, path, name |
 | `biome_tags` | 70 | id, slug, namespaceId, path, name |
 | `biome_tag_biomes` | 671 | biomeTagId, biomeId |

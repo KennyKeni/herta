@@ -10,14 +10,24 @@ export class WorldRepository {
     const rows = await this.db
       .selectFrom('biomes as b')
       .leftJoin('namespaces as n', 'n.id', 'b.namespace_id')
-      .select(['b.id', 'b.name', 'n.id as namespace_id', 'n.name as namespace_name'])
+      .select([
+        'b.id',
+        'b.slug',
+        'b.name',
+        'n.id as namespace_id',
+        'n.slug as namespace_slug',
+        'n.name as namespace_name',
+      ])
       .where('b.id', 'in', ids)
       .execute();
 
     return rows.map((r) => ({
       id: r.id,
+      slug: r.slug,
       name: r.name,
-      namespace: r.namespace_id ? { id: r.namespace_id, name: r.namespace_name! } : null,
+      namespace: r.namespace_id
+        ? { id: r.namespace_id, slug: r.namespace_slug ?? '', name: r.namespace_name ?? '' }
+        : null,
     }));
   }
 
@@ -26,14 +36,24 @@ export class WorldRepository {
     const rows = await this.db
       .selectFrom('biome_tags as bt')
       .leftJoin('namespaces as n', 'n.id', 'bt.namespace_id')
-      .select(['bt.id', 'bt.name', 'n.id as namespace_id', 'n.name as namespace_name'])
+      .select([
+        'bt.id',
+        'bt.slug',
+        'bt.name',
+        'n.id as namespace_id',
+        'n.slug as namespace_slug',
+        'n.name as namespace_name',
+      ])
       .where('bt.id', 'in', ids)
       .execute();
 
     return rows.map((r) => ({
       id: r.id,
+      slug: r.slug,
       name: r.name,
-      namespace: r.namespace_id ? { id: r.namespace_id, name: r.namespace_name! } : null,
+      namespace: r.namespace_id
+        ? { id: r.namespace_id, slug: r.namespace_slug ?? '', name: r.namespace_name ?? '' }
+        : null,
     }));
   }
 
@@ -41,7 +61,7 @@ export class WorldRepository {
     if (!ids.length) return [];
     return this.db
       .selectFrom('moon_phases')
-      .select(['id', 'name'])
+      .select(['id', 'slug', 'name'])
       .where('id', 'in', ids)
       .execute();
   }
@@ -50,7 +70,7 @@ export class WorldRepository {
     if (!ids.length) return [];
     return this.db
       .selectFrom('time_ranges')
-      .select(['id', 'name'])
+      .select(['id', 'slug', 'name'])
       .where('id', 'in', ids)
       .execute();
   }
@@ -59,13 +79,23 @@ export class WorldRepository {
     const rows = await this.db
       .selectFrom('biomes as b')
       .leftJoin('namespaces as n', 'n.id', 'b.namespace_id')
-      .select(['b.id', 'b.name', 'n.id as namespace_id', 'n.name as namespace_name'])
+      .select([
+        'b.id',
+        'b.slug',
+        'b.name',
+        'n.id as namespace_id',
+        'n.slug as namespace_slug',
+        'n.name as namespace_name',
+      ])
       .execute();
 
     return rows.map((r) => ({
       id: r.id,
+      slug: r.slug,
       name: r.name,
-      namespace: r.namespace_id ? { id: r.namespace_id, name: r.namespace_name! } : null,
+      namespace: r.namespace_id
+        ? { id: r.namespace_id, slug: r.namespace_slug ?? '', name: r.namespace_name ?? '' }
+        : null,
     }));
   }
 
@@ -73,21 +103,31 @@ export class WorldRepository {
     const rows = await this.db
       .selectFrom('biome_tags as bt')
       .leftJoin('namespaces as n', 'n.id', 'bt.namespace_id')
-      .select(['bt.id', 'bt.name', 'n.id as namespace_id', 'n.name as namespace_name'])
+      .select([
+        'bt.id',
+        'bt.slug',
+        'bt.name',
+        'n.id as namespace_id',
+        'n.slug as namespace_slug',
+        'n.name as namespace_name',
+      ])
       .execute();
 
     return rows.map((r) => ({
       id: r.id,
+      slug: r.slug,
       name: r.name,
-      namespace: r.namespace_id ? { id: r.namespace_id, name: r.namespace_name! } : null,
+      namespace: r.namespace_id
+        ? { id: r.namespace_id, slug: r.namespace_slug ?? '', name: r.namespace_name ?? '' }
+        : null,
     }));
   }
 
   async getAllMoonPhases(): Promise<MoonPhase[]> {
-    return this.db.selectFrom('moon_phases').select(['id', 'name']).execute();
+    return this.db.selectFrom('moon_phases').select(['id', 'slug', 'name']).execute();
   }
 
   async getAllTimeRanges(): Promise<TimeRange[]> {
-    return this.db.selectFrom('time_ranges').select(['id', 'name']).execute();
+    return this.db.selectFrom('time_ranges').select(['id', 'slug', 'name']).execute();
   }
 }

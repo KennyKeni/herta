@@ -1,10 +1,18 @@
 import type { Ability } from '../abilities/domain';
+import type { Article } from '../article/domain';
+import type { Item } from '../items/domain';
 import type { Move } from '../moves/domain';
 import type { PokemonFilter, SpeciesWithForms } from '../pokemon/domain';
 import type {
   AgentAbility,
   AgentAbilityQuery,
   AgentAbilityResponse,
+  AgentArticle,
+  AgentArticleQuery,
+  AgentArticleSearchResponse,
+  AgentItem,
+  AgentItemQuery,
+  AgentItemResponse,
   AgentMove,
   AgentMoveQuery,
   AgentMoveResponse,
@@ -262,6 +270,78 @@ export function toMoveResponse(
         zCrystal: move.zData.zCrystal,
         isZExclusive: move.zData.isZExclusive,
       };
+    }
+
+    return result;
+  });
+
+  return {
+    results,
+    total,
+    limit: query.limit ?? 20,
+    offset: query.offset ?? 0,
+  };
+}
+
+export function toItemResponse(
+  items: Item[],
+  query: AgentItemQuery,
+  total: number
+): AgentItemResponse {
+  const results: AgentItem[] = items.map((item) => {
+    const result: AgentItem = {
+      name: item.name,
+      slug: item.slug,
+    };
+
+    if (query.includeDescription) {
+      result.shortDesc = item.shortDesc;
+      result.desc = item.desc;
+    }
+
+    if (query.includeBoosts && item.boosts.length > 0) {
+      result.boosts = item.boosts.map((b) => ({
+        stat: b.stat.name,
+        stages: b.stages,
+      }));
+    }
+
+    if (query.includeTags && item.tags.length > 0) {
+      result.tags = item.tags.map((t) => t.name);
+    }
+
+    return result;
+  });
+
+  return {
+    results,
+    total,
+    limit: query.limit ?? 20,
+    offset: query.offset ?? 0,
+  };
+}
+
+export function toArticleSearchResponse(
+  articles: Article[],
+  query: AgentArticleQuery,
+  total: number
+): AgentArticleSearchResponse {
+  const results: AgentArticle[] = articles.map((article) => {
+    const result: AgentArticle = {
+      title: article.title,
+      slug: article.slug,
+    };
+
+    result.subtitle = article.subtitle;
+    result.description = article.description;
+    result.author = article.author;
+
+    if (query.includeBody) {
+      result.body = article.body;
+    }
+
+    if (query.includeCategories && article.categories.length > 0) {
+      result.categories = article.categories.map((c) => c.name);
     }
 
     return result;

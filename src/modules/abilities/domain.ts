@@ -14,12 +14,15 @@ export interface AbilityFlagType {
   description: string | null;
 }
 
-export interface AbilityFilter {
+export interface IncludeOptions {
+  includeFlags?: boolean;
+}
+
+export interface AbilityFilter extends IncludeOptions {
   abilityIds?: number[];
   abilitySlugs?: string[];
   flagIds?: number[];
   flagSlugs?: string[];
-  includeFlags?: boolean;
   limit?: number;
   offset?: number;
 }

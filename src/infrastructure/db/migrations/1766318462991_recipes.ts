@@ -14,7 +14,8 @@ export async function up(db: Kysely<any>): Promise<void> {
   await db.schema
     .createTable('recipe_slot_types')
     .addColumn('id', 'integer', (col) => col.primaryKey())
-    .addColumn('name', 'text', (col) => col.notNull().unique())
+    .addColumn('slug', 'text', (col) => col.notNull().unique())
+    .addColumn('name', 'text', (col) => col.notNull())
     .addColumn('description', 'text')
     .execute();
 
@@ -26,7 +27,9 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addColumn('slot_type_id', 'integer', (col) => col.references('recipe_slot_types.id'))
     .execute();
 
-  await sql`ALTER TABLE recipe_inputs ADD CONSTRAINT recipe_inputs_slot_check CHECK (slot IS NOT NULL OR slot_type_id IS NOT NULL)`.execute(db);
+  await sql`ALTER TABLE recipe_inputs ADD CONSTRAINT recipe_inputs_slot_check CHECK (slot IS NOT NULL OR slot_type_id IS NOT NULL)`.execute(
+    db
+  );
 
   await db.schema
     .createTable('recipe_tag_inputs')
@@ -36,10 +39,20 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addColumn('slot_type_id', 'integer', (col) => col.references('recipe_slot_types.id'))
     .execute();
 
-  await sql`ALTER TABLE recipe_tag_inputs ADD CONSTRAINT recipe_tag_inputs_slot_check CHECK (slot IS NOT NULL OR slot_type_id IS NOT NULL)`.execute(db);
+  await sql`ALTER TABLE recipe_tag_inputs ADD CONSTRAINT recipe_tag_inputs_slot_check CHECK (slot IS NOT NULL OR slot_type_id IS NOT NULL)`.execute(
+    db
+  );
 
-  await db.schema.createIndex('idx_recipe_inputs_recipe_id').on('recipe_inputs').column('recipe_id').execute();
-  await db.schema.createIndex('idx_recipe_tag_inputs_recipe_id').on('recipe_tag_inputs').column('recipe_id').execute();
+  await db.schema
+    .createIndex('idx_recipe_inputs_recipe_id')
+    .on('recipe_inputs')
+    .column('recipe_id')
+    .execute();
+  await db.schema
+    .createIndex('idx_recipe_tag_inputs_recipe_id')
+    .on('recipe_tag_inputs')
+    .column('recipe_id')
+    .execute();
   await db.schema.createIndex('idx_recipes_type_id').on('recipes').column('type_id').execute();
 }
 

@@ -10,6 +10,7 @@ import type {
   Form,
   FormAspectCombo,
   FormDrops,
+  IncludeOptions,
   PokemonFilter,
   SpeciesWithForms,
 } from './domain';
@@ -19,6 +20,64 @@ export class PokemonRepository {
 
   constructor(private db: Kysely<DB>) {
     this.spawnRepository = new SpawnRepository(db);
+  }
+
+  async getByIdentifier(
+    identifier: string,
+    options: IncludeOptions = {}
+  ): Promise<SpeciesWithForms | null> {
+    const isId = /^\d+$/.test(identifier);
+
+    const rows = await this.db
+      .selectFrom('forms as f')
+      .innerJoin('species as s', 's.id', 'f.species_id')
+      .select([
+        'f.id as form_id',
+        'f.slug as form_slug',
+        'f.name as form_name',
+        'f.form_name as form_full_name',
+        'f.description as form_description',
+        'f.generation as form_generation',
+        'f.species_id',
+        'f.height',
+        'f.weight',
+        'f.base_hp',
+        'f.base_attack',
+        'f.base_defence',
+        'f.base_special_attack',
+        'f.base_special_defence',
+        'f.base_speed',
+        'f.base_experience_yield',
+        'f.ev_hp',
+        'f.ev_attack',
+        'f.ev_defence',
+        'f.ev_special_attack',
+        'f.ev_special_defence',
+        'f.ev_speed',
+        's.id as species_id',
+        's.slug as species_slug',
+        's.name as species_name',
+        's.description as species_description',
+        's.generation as species_generation',
+        's.base_friendship',
+        's.base_scale',
+        's.catch_rate',
+        's.egg_cycles',
+        's.male_ratio',
+        's.experience_group_id',
+      ])
+      .where(isId ? 's.id' : 's.slug', '=', isId ? Number(identifier) : identifier)
+      .execute();
+
+    if (rows.length === 0) return null;
+
+    const formIds = rows.map((r) => r.form_id);
+    const speciesIds = [rows[0].species_id];
+    const experienceGroupIds = rows[0].experience_group_id ? [rows[0].experience_group_id] : [];
+
+    const relations = await this.fetchRelations(formIds, speciesIds, experienceGroupIds, options);
+
+    return this.assembleResults(rows, relations)[0] ?? null;
   }
 
   async searchPokemon(filters: PokemonFilter): Promise<SpeciesWithForms[]> {
@@ -176,6 +235,23 @@ export class PokemonRepository {
         's.id',
         'in',
         this.eggGroupSubquery(filter.eggGroupIds, filter.eggGroupSlugs)
+      );
+    }
+    if (filter.biomeIds?.length || filter.biomeSlugs?.length) {
+      query = query.where('f.id', 'in', this.biomeSubquery(filter.biomeIds, filter.biomeSlugs));
+    }
+    if (filter.biomeTagIds?.length || filter.biomeTagSlugs?.length) {
+      query = query.where(
+        'f.id',
+        'in',
+        this.biomeTagSubquery(filter.biomeTagIds, filter.biomeTagSlugs)
+      );
+    }
+    if (filter.spawnBucketIds?.length || filter.spawnBucketSlugs?.length) {
+      query = query.where(
+        'f.id',
+        'in',
+        this.spawnBucketSubquery(filter.spawnBucketIds, filter.spawnBucketSlugs)
       );
     }
 
@@ -341,11 +417,66 @@ export class PokemonRepository {
       });
   }
 
+  private biomeSubquery(idFilter?: number[], slugFilter?: string[]) {
+    return this.db
+      .selectFrom('spawns as sp')
+      .innerJoin('spawn_conditions as sc', 'sc.spawn_id', 'sp.id')
+      .innerJoin('spawn_condition_biomes as scb', 'scb.condition_id', 'sc.id')
+      .innerJoin('biomes as b', 'b.id', 'scb.biome_id')
+      .select('sp.form_id')
+      .where((eb) => {
+        const conditions = [];
+        if (idFilter?.length) {
+          conditions.push(eb('b.id', 'in', idFilter));
+        }
+        if (slugFilter?.length) {
+          conditions.push(eb('b.slug', 'in', slugFilter));
+        }
+        return conditions.length ? eb.or(conditions) : eb.lit(true);
+      });
+  }
+
+  private biomeTagSubquery(idFilter?: number[], slugFilter?: string[]) {
+    return this.db
+      .selectFrom('spawns as sp')
+      .innerJoin('spawn_conditions as sc', 'sc.spawn_id', 'sp.id')
+      .innerJoin('spawn_condition_biome_tags as scbt', 'scbt.condition_id', 'sc.id')
+      .innerJoin('biome_tags as bt', 'bt.id', 'scbt.biome_tag_id')
+      .select('sp.form_id')
+      .where((eb) => {
+        const conditions = [];
+        if (idFilter?.length) {
+          conditions.push(eb('bt.id', 'in', idFilter));
+        }
+        if (slugFilter?.length) {
+          conditions.push(eb('bt.slug', 'in', slugFilter));
+        }
+        return conditions.length ? eb.or(conditions) : eb.lit(true);
+      });
+  }
+
+  private spawnBucketSubquery(idFilter?: number[], slugFilter?: string[]) {
+    return this.db
+      .selectFrom('spawns as sp')
+      .innerJoin('spawn_buckets as sb', 'sb.id', 'sp.bucket_id')
+      .select('sp.form_id')
+      .where((eb) => {
+        const conditions = [];
+        if (idFilter?.length) {
+          conditions.push(eb('sb.id', 'in', idFilter));
+        }
+        if (slugFilter?.length) {
+          conditions.push(eb('sb.slug', 'in', slugFilter));
+        }
+        return conditions.length ? eb.or(conditions) : eb.lit(true);
+      });
+  }
+
   private async fetchRelations(
     formIds: number[],
     speciesIds: number[],
     experienceGroupIds: number[],
-    filter: PokemonFilter
+    options: IncludeOptions = {}
   ) {
     const [
       types,
@@ -364,21 +495,25 @@ export class PokemonRepository {
       behaviour,
       spawns,
     ] = await Promise.all([
-      this.fetchTypes(filter.includeTypes !== false ? formIds : []),
-      this.fetchAbilities(filter.includeAbilities !== false ? formIds : []),
-      this.fetchMoves(filter.includeMoves !== false ? formIds : []),
-      this.fetchLabels(filter.includeLabels !== false ? formIds : []),
-      this.fetchAspectChoices(filter.includeAspects !== false ? formIds : []),
-      this.fetchAspectCombos(filter.includeAspects !== false ? formIds : []),
-      this.fetchDrops(filter.includeDrops !== false ? formIds : []),
-      this.fetchEggGroups(filter.includeEggGroups !== false ? speciesIds : []),
-      this.fetchExperienceGroups(filter.includeExperienceGroup !== false ? experienceGroupIds : []),
-      this.fetchSpeciesHitboxes(filter.includeHitboxes !== false ? speciesIds : []),
-      this.fetchSpeciesLighting(filter.includeLighting !== false ? speciesIds : []),
-      this.fetchSpeciesRiding(filter.includeRiding !== false ? speciesIds : []),
-      this.fetchFormHitboxes(filter.includeHitboxes !== false ? formIds : []),
-      this.fetchBehaviour(filter.includeBehaviour !== false ? formIds : []),
-      filter.includeSpawns ? this.spawnRepository.findByFormIds(formIds) : Promise.resolve(new Map<number, Spawn[]>()),
+      this.fetchTypes(options.includeTypes !== false ? formIds : []),
+      this.fetchAbilities(options.includeAbilities !== false ? formIds : []),
+      this.fetchMoves(options.includeMoves !== false ? formIds : []),
+      this.fetchLabels(options.includeLabels !== false ? formIds : []),
+      this.fetchAspectChoices(options.includeAspects !== false ? formIds : []),
+      this.fetchAspectCombos(options.includeAspects !== false ? formIds : []),
+      this.fetchDrops(options.includeDrops !== false ? formIds : []),
+      this.fetchEggGroups(options.includeEggGroups !== false ? speciesIds : []),
+      this.fetchExperienceGroups(
+        options.includeExperienceGroup !== false ? experienceGroupIds : []
+      ),
+      this.fetchSpeciesHitboxes(options.includeHitboxes !== false ? speciesIds : []),
+      this.fetchSpeciesLighting(options.includeLighting !== false ? speciesIds : []),
+      this.fetchSpeciesRiding(options.includeRiding !== false ? speciesIds : []),
+      this.fetchFormHitboxes(options.includeHitboxes !== false ? formIds : []),
+      this.fetchBehaviour(options.includeBehaviour !== false ? formIds : []),
+      options.includeSpawns !== false
+        ? this.spawnRepository.findByFormIds(formIds)
+        : Promise.resolve(new Map<number, Spawn[]>()),
     ]);
 
     return {
@@ -419,6 +554,7 @@ export class PokemonRepository {
         [] as {
           form_id: number;
           slot_id: number;
+          slot_slug: string;
           slot_name: string;
           id: number;
           name: string;
@@ -432,6 +568,7 @@ export class PokemonRepository {
       .select([
         'fa.form_id',
         'fa.slot_id',
+        's.slug as slot_slug',
         's.name as slot_name',
         'a.id',
         'a.name',
@@ -447,6 +584,7 @@ export class PokemonRepository {
         [] as {
           form_id: number;
           method_id: number;
+          method_slug: string;
           method_name: string;
           level: number | null;
           id: number;
@@ -461,6 +599,7 @@ export class PokemonRepository {
       .select([
         'fm.form_id',
         'fm.method_id',
+        'mlm.slug as method_slug',
         'mlm.name as method_name',
         'fm.level',
         'm.id',
@@ -484,11 +623,13 @@ export class PokemonRepository {
 
   private fetchAspectChoices(formIds: number[]) {
     if (!formIds.length)
-      return Promise.resolve([] as { form_id: number; id: number; name: string; value: string }[]);
+      return Promise.resolve(
+        [] as { form_id: number; id: number; slug: string; name: string; value: string }[]
+      );
     return this.db
       .selectFrom('form_aspects as fa')
       .innerJoin('aspect_choices as ac', 'ac.id', 'fa.aspect_choice_id')
-      .select(['fa.form_id', 'ac.id', 'ac.name', 'ac.value'])
+      .select(['fa.form_id', 'ac.id', 'ac.slug', 'ac.name', 'ac.value'])
       .where('fa.form_id', 'in', formIds)
       .execute();
   }
@@ -571,10 +712,11 @@ export class PokemonRepository {
   }
 
   private fetchExperienceGroups(ids: number[]) {
-    if (!ids.length) return Promise.resolve([] as { id: number; name: string; formula: string }[]);
+    if (!ids.length)
+      return Promise.resolve([] as { id: number; slug: string; name: string; formula: string }[]);
     return this.db
       .selectFrom('experience_groups')
-      .select(['id', 'name', 'formula'])
+      .select(['id', 'slug', 'name', 'formula'])
       .where('id', 'in', ids)
       .execute();
   }
@@ -736,6 +878,7 @@ export class PokemonRepository {
       })),
       aspectChoices: (relations.aspectChoices.get(formId) ?? []).map((ac) => ({
         id: ac.id,
+        slug: ac.slug,
         name: ac.name,
         value: ac.value,
       })),
@@ -745,11 +888,11 @@ export class PokemonRepository {
       })),
       abilities: (relations.abilities.get(formId) ?? []).map((a) => ({
         ability: { id: a.id, name: a.name, slug: a.slug },
-        slot: { id: a.slot_id, name: a.slot_name },
+        slot: { id: a.slot_id, slug: a.slot_slug, name: a.slot_name },
       })),
       moves: (relations.moves.get(formId) ?? []).map((m) => ({
         move: { id: m.id, name: m.name, slug: m.slug },
-        method: { id: m.method_id, name: m.method_name },
+        method: { id: m.method_id, slug: m.method_slug, name: m.method_name },
         level: m.level,
       })),
       hitbox: relations.formHitboxes.get(formId) ?? null,

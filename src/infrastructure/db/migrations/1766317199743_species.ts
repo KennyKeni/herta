@@ -39,7 +39,9 @@ export async function up(db: Kysely<any>): Promise<void> {
     .execute();
   await db.schema.createIndex('idx_species_slug').on('species').column('slug').execute();
 
-  await sql`CREATE INDEX idx_species_name_trgm ON species USING gin (name gin_trgm_ops)`.execute(db);
+  await sql`CREATE INDEX idx_species_name_trgm ON species USING gin (name gin_trgm_ops)`.execute(
+    db
+  );
 }
 
 export async function down(db: Kysely<any>): Promise<void> {

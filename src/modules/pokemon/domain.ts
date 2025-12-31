@@ -28,6 +28,7 @@ export interface AspectRef {
 
 export interface AspectChoiceRef {
   id: number;
+  slug: string;
   name: string;
   value: string;
 }
@@ -94,6 +95,7 @@ export interface FormWithSpecies {
 
 export interface AbilitySlotRef {
   id: number;
+  slug: string;
   name: string;
 }
 
@@ -109,6 +111,7 @@ export interface FormType {
 
 export interface MoveLearnMethodRef {
   id: number;
+  slug: string;
   name: string;
 }
 
@@ -143,6 +146,7 @@ export interface EggGroup {
 
 export interface ExperienceGroup {
   id: number;
+  slug: string;
   name: string;
   formula: string;
 }
@@ -193,7 +197,24 @@ export interface Range {
   lte?: number;
 }
 
-export interface PokemonFilter {
+export interface IncludeOptions {
+  includeTypes?: boolean;
+  includeAbilities?: boolean;
+  includeMoves?: boolean;
+  includeLabels?: boolean;
+  includeAspects?: boolean;
+  includeDrops?: boolean;
+  includeEggGroups?: boolean;
+  includeExperienceGroup?: boolean;
+  includeHitboxes?: boolean;
+  includeLighting?: boolean;
+  includeRiding?: boolean;
+  includeBehaviour?: boolean;
+  includeOverrides?: boolean;
+  includeSpawns?: boolean;
+}
+
+export interface PokemonFilter extends IncludeOptions {
   formIds?: number[];
   formSlugs?: string[];
   speciesIds?: number[];
@@ -211,6 +232,13 @@ export interface PokemonFilter {
   labelSlugs?: string[];
   experienceGroupIds?: number[];
   experienceGroupSlugs?: string[];
+
+  biomeIds?: number[];
+  biomeSlugs?: string[];
+  biomeTagIds?: number[];
+  biomeTagSlugs?: string[];
+  spawnBucketIds?: number[];
+  spawnBucketSlugs?: string[];
 
   generation?: number;
   generations?: number[];
@@ -236,20 +264,6 @@ export interface PokemonFilter {
   hasDrops?: boolean;
   isRideable?: boolean;
   isGenderless?: boolean;
-
-  includeTypes?: boolean;
-  includeAbilities?: boolean;
-  includeMoves?: boolean;
-  includeLabels?: boolean;
-  includeAspects?: boolean;
-  includeDrops?: boolean;
-  includeEggGroups?: boolean;
-  includeExperienceGroup?: boolean;
-  includeHitboxes?: boolean;
-  includeLighting?: boolean;
-  includeRiding?: boolean;
-  includeBehaviour?: boolean;
-  includeSpawns?: boolean;
 
   limit?: number;
   offset?: number;

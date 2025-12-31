@@ -7,7 +7,26 @@ const RangeSchema = t.Optional(
   })
 );
 
-export const PokemonSearchQuerySchema = t.Object({
+export const IncludeOptionsSchema = t.Object({
+  includeTypes: t.Optional(t.Boolean()),
+  includeAbilities: t.Optional(t.Boolean()),
+  includeMoves: t.Optional(t.Boolean()),
+  includeLabels: t.Optional(t.Boolean()),
+  includeAspects: t.Optional(t.Boolean()),
+  includeDrops: t.Optional(t.Boolean()),
+  includeEggGroups: t.Optional(t.Boolean()),
+  includeExperienceGroup: t.Optional(t.Boolean()),
+  includeHitboxes: t.Optional(t.Boolean()),
+  includeLighting: t.Optional(t.Boolean()),
+  includeRiding: t.Optional(t.Boolean()),
+  includeBehaviour: t.Optional(t.Boolean()),
+  includeOverrides: t.Optional(t.Boolean()),
+  includeSpawns: t.Optional(t.Boolean()),
+});
+
+export type IncludeOptionsQuery = typeof IncludeOptionsSchema.static;
+
+const PokemonFilterSchema = t.Object({
   formIds: t.Optional(t.Array(t.Number())),
   formSlugs: t.Optional(t.Array(t.String())),
   speciesIds: t.Optional(t.Array(t.Number())),
@@ -25,6 +44,13 @@ export const PokemonSearchQuerySchema = t.Object({
   labelSlugs: t.Optional(t.Array(t.String())),
   experienceGroupIds: t.Optional(t.Array(t.Number())),
   experienceGroupSlugs: t.Optional(t.Array(t.String())),
+
+  biomeIds: t.Optional(t.Array(t.Number())),
+  biomeSlugs: t.Optional(t.Array(t.String())),
+  biomeTagIds: t.Optional(t.Array(t.Number())),
+  biomeTagSlugs: t.Optional(t.Array(t.String())),
+  spawnBucketIds: t.Optional(t.Array(t.Number())),
+  spawnBucketSlugs: t.Optional(t.Array(t.String())),
 
   generation: t.Optional(t.Number()),
   generations: t.Optional(t.Array(t.Number())),
@@ -51,24 +77,11 @@ export const PokemonSearchQuerySchema = t.Object({
   isRideable: t.Optional(t.Boolean()),
   isGenderless: t.Optional(t.Boolean()),
 
-  includeTypes: t.Optional(t.Boolean()),
-  includeAbilities: t.Optional(t.Boolean()),
-  includeMoves: t.Optional(t.Boolean()),
-  includeLabels: t.Optional(t.Boolean()),
-  includeAspects: t.Optional(t.Boolean()),
-  includeDrops: t.Optional(t.Boolean()),
-  includeEggGroups: t.Optional(t.Boolean()),
-  includeExperienceGroup: t.Optional(t.Boolean()),
-  includeHitboxes: t.Optional(t.Boolean()),
-  includeLighting: t.Optional(t.Boolean()),
-  includeRiding: t.Optional(t.Boolean()),
-  includeBehaviour: t.Optional(t.Boolean()),
-  includeOverrides: t.Optional(t.Boolean()),
-  includeSpawns: t.Optional(t.Boolean()),
-
   limit: t.Optional(t.Number({ minimum: 1, maximum: 100, default: 20 })),
   offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
 });
+
+export const PokemonSearchQuerySchema = t.Composite([IncludeOptionsSchema, PokemonFilterSchema]);
 
 export type PokemonSearchQuery = typeof PokemonSearchQuerySchema.static;
 
@@ -104,11 +117,13 @@ const EggGroupSchema = t.Object({
 
 const AbilitySlotRefSchema = t.Object({
   id: t.Number(),
+  slug: t.String(),
   name: t.String(),
 });
 
 const MoveLearnMethodRefSchema = t.Object({
   id: t.Number(),
+  slug: t.String(),
   name: t.String(),
 });
 
@@ -158,6 +173,7 @@ const AspectRefSchema = t.Object({
 
 const AspectChoiceRefSchema = t.Object({
   id: t.Number(),
+  slug: t.String(),
   name: t.String(),
   value: t.String(),
 });
@@ -295,6 +311,7 @@ const SpeciesWithFormsSchema = t.Object({
   experienceGroup: t.Nullable(
     t.Object({
       id: t.Number(),
+      slug: t.String(),
       name: t.String(),
       formula: t.String(),
     })
@@ -325,4 +342,6 @@ export type PokemonSearchResponse = typeof PokemonSearchResponseSchema.static;
 export const PokemonModel = {
   searchQuery: PokemonSearchQuerySchema,
   searchResponse: PokemonSearchResponseSchema,
+  getOneQuery: IncludeOptionsSchema,
+  getOneResponse: SpeciesWithFormsSchema,
 };

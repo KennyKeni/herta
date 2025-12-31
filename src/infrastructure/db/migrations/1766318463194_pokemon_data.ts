@@ -54,13 +54,41 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addPrimaryKeyConstraint('form_aspect_combo_aspects_pk', ['combo_id', 'aspect_id'])
     .execute();
 
-  await db.schema.createIndex('idx_form_moves_move_id').on('form_moves').column('move_id').execute();
-  await db.schema.createIndex('idx_form_moves_method_id').on('form_moves').column('method_id').execute();
-  await db.schema.createIndex('idx_drop_ranges_form_id').on('drop_ranges').column('form_id').execute();
-  await db.schema.createIndex('idx_drop_ranges_item_id').on('drop_ranges').column('item_id').execute();
-  await db.schema.createIndex('idx_drop_percentages_form_id').on('drop_percentages').column('form_id').execute();
-  await db.schema.createIndex('idx_drop_percentages_item_id').on('drop_percentages').column('item_id').execute();
-  await db.schema.createIndex('idx_form_aspect_combos_form_id').on('form_aspect_combos').column('form_id').execute();
+  await db.schema
+    .createIndex('idx_form_moves_move_id')
+    .on('form_moves')
+    .column('move_id')
+    .execute();
+  await db.schema
+    .createIndex('idx_form_moves_method_id')
+    .on('form_moves')
+    .column('method_id')
+    .execute();
+  await db.schema
+    .createIndex('idx_drop_ranges_form_id')
+    .on('drop_ranges')
+    .column('form_id')
+    .execute();
+  await db.schema
+    .createIndex('idx_drop_ranges_item_id')
+    .on('drop_ranges')
+    .column('item_id')
+    .execute();
+  await db.schema
+    .createIndex('idx_drop_percentages_form_id')
+    .on('drop_percentages')
+    .column('form_id')
+    .execute();
+  await db.schema
+    .createIndex('idx_drop_percentages_item_id')
+    .on('drop_percentages')
+    .column('item_id')
+    .execute();
+  await db.schema
+    .createIndex('idx_form_aspect_combos_form_id')
+    .on('form_aspect_combos')
+    .column('form_id')
+    .execute();
 }
 
 export async function down(db: Kysely<any>): Promise<void> {

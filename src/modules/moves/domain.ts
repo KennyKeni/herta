@@ -34,6 +34,7 @@ export interface Move {
   effects: MoveEffect[];
   maxPower: number | null;
   zData: MoveZData | null;
+  gmaxSpecies: SpeciesRef[];
 }
 
 export interface MoveCategory {
@@ -84,23 +85,33 @@ export interface GmaxMove {
 
 export interface ConditionType {
   id: number;
+  slug: string;
   name: string;
 }
 
 export interface Condition {
   id: number;
+  slug: string;
   name: string;
-  typeId: number;
-  typeName: string;
+  type: ConditionType;
   description: string | null;
 }
 
 export interface Stat {
   id: number;
+  slug: string;
   name: string;
 }
 
-export interface MoveFilter {
+export interface IncludeOptions {
+  includeFlags?: boolean;
+  includeBoosts?: boolean;
+  includeEffects?: boolean;
+  includeZData?: boolean;
+  includeGmaxSpecies?: boolean;
+}
+
+export interface MoveFilter extends IncludeOptions {
   moveIds?: number[];
   moveSlugs?: string[];
   typeIds?: number[];
@@ -111,10 +122,6 @@ export interface MoveFilter {
   targetSlugs?: string[];
   flagIds?: number[];
   flagSlugs?: string[];
-  includeFlags?: boolean;
-  includeBoosts?: boolean;
-  includeEffects?: boolean;
-  includeZData?: boolean;
   limit?: number;
   offset?: number;
 }

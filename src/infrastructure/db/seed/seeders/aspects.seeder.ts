@@ -1,4 +1,4 @@
-import { slugForPokemon } from '../../../../common/utils/slug';
+import { slugForPokemon } from '@/common/utils/slug';
 import type { Seeder } from '../utils';
 import { batchInsert, loadJson } from '../utils';
 
@@ -48,12 +48,16 @@ export const aspectsSeeder: Seeder = {
       total += count;
     }
 
-    // aspect_choices
+    // aspect_choices (slug needs aspect prefix for uniqueness)
+    const aspects = await loadJson<AspectJson[]>('aspects.json');
+    const aspectMap = new Map(aspects.map((a) => [a.id, slugForPokemon(a.name)]));
+
     {
       const start = Date.now();
       const data = await loadJson<AspectChoiceJson[]>('aspect_choices.json');
       const rows = data.map((c) => ({
         id: c.id,
+        slug: `${aspectMap.get(c.aspectId) ?? 'unknown'}-${slugForPokemon(c.name)}`,
         aspect_id: c.aspectId,
         value: c.value,
         name: c.name,

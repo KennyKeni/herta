@@ -1,4 +1,4 @@
-import { slugForPokemon } from '../../../../common/utils/slug';
+import { slugForPokemon } from '@/common/utils/slug';
 import type { DB } from '../../types';
 import type { Seeder } from '../utils';
 import { batchInsert, loadJson } from '../utils';
@@ -117,7 +117,7 @@ export const baseReferenceSeeder: Seeder = {
     const seedSimple = async (table: keyof DB, file: string) => {
       const start = Date.now();
       const data = await loadJson<IdName[]>(file);
-      const rows = data.map((d) => ({ id: d.id, name: d.name }));
+      const rows = data.map((d) => ({ id: d.id, slug: slugForPokemon(d.name), name: d.name }));
       const count = await batchInsert(db, table, rows);
       logger.table(table, count, Date.now() - start);
       return count;
@@ -188,6 +188,7 @@ export const baseReferenceSeeder: Seeder = {
       const data = await loadJson<ConditionJson[]>('conditions.json');
       const rows = data.map((c) => ({
         id: c.id,
+        slug: slugForPokemon(c.name),
         name: c.name,
         type_id: c.typeId,
         description: c.description || null,
@@ -296,18 +297,22 @@ export const baseReferenceSeeder: Seeder = {
     total += await seedSimple('moon_phases', 'moon_phases.json');
     total += await seedSimple('spawn_position_types', 'spawn_position_types.json');
     total += await seedSimple('spawn_preset_types', 'spawn_preset_types.json');
-    total += await seedSimple('spawn_buckets', 'spawn_buckets.json');
+    total += await seedWithGeneratedSlug('spawn_buckets', 'spawn_buckets.json');
     total += await seedSimple('spawn_condition_types', 'spawn_condition_types.json');
     total += await seedSimple('recipe_types', 'recipe_types.json');
     total += await seedWithGeneratedSlug('form_tag_types', 'form_tag_types.json');
     total += await seedWithGeneratedSlug('recipe_tag_types', 'recipe_tag_types.json');
 
-    // biome_tags
+    // biome_tags (need namespace lookup for unique slugs)
+    const namespaces = await loadJson<IdName[]>('namespaces.json');
+    const nsMap = new Map(namespaces.map((n) => [n.id, slugForPokemon(n.name)]));
+
     {
       const start = Date.now();
       const data = await loadJson<BiomeTagJson[]>('biome_tags.json');
       const rows = data.map((b) => ({
         id: b.id,
+        slug: `${nsMap.get(b.namespaceId) ?? 'unknown'}-${slugForPokemon(b.name)}`,
         namespace_id: b.namespaceId,
         name: b.name,
       }));
@@ -322,6 +327,7 @@ export const baseReferenceSeeder: Seeder = {
       const data = await loadJson<BiomeJson[]>('biomes.json');
       const rows = data.map((b) => ({
         id: b.id,
+        slug: `${nsMap.get(b.namespaceId) ?? 'unknown'}-${slugForPokemon(b.name)}`,
         namespace_id: b.namespaceId,
         name: b.name,
       }));

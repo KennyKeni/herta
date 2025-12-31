@@ -1,4 +1,4 @@
-import { slugForPokemon } from '../../../../common/utils/slug';
+import { slugForPokemon } from '@/common/utils/slug';
 import type { Seeder } from '../utils';
 import { batchInsert, loadJson } from '../utils';
 

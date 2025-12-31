@@ -1,16 +1,29 @@
 import type { AbilityFilter } from '../abilities/domain';
 import type { AbilitiesRepository } from '../abilities/repository';
-import type { Article } from '../article/domain';
+import type { Article, ArticleFilter } from '../article/domain';
 import type { ArticleRepository } from '../article/repository';
+import type { ItemFilter } from '../items/domain';
+import type { ItemsRepository } from '../items/repository';
 import type { MoveFilter } from '../moves/domain';
 import type { MovesRepository } from '../moves/repository';
 import type { PokemonFilter } from '../pokemon/domain';
 import type { PokemonRepository } from '../pokemon/repository';
 import type { TypesRepository } from '../types/repository';
-import { mapIncludeFlags, toAbilityResponse, toMoveResponse, toResponse } from './mapper';
+import {
+  mapIncludeFlags,
+  toAbilityResponse,
+  toArticleSearchResponse,
+  toItemResponse,
+  toMoveResponse,
+  toResponse,
+} from './mapper';
 import type {
   AgentAbilityQuery,
   AgentAbilityResponse,
+  AgentArticleQuery,
+  AgentArticleSearchResponse,
+  AgentItemQuery,
+  AgentItemResponse,
   AgentMoveQuery,
   AgentMoveResponse,
   AgentPokemonQuery,
@@ -23,6 +36,7 @@ export class AgentService {
     private typesRepository: TypesRepository,
     private abilitiesRepository: AbilitiesRepository,
     private movesRepository: MovesRepository,
+    private itemsRepository: ItemsRepository,
     private articleRepository: ArticleRepository
   ) {}
 
@@ -95,5 +109,42 @@ export class AgentService {
 
     const results = await this.movesRepository.searchMoves(filter);
     return toMoveResponse(results, query, results.length);
+  }
+
+  async searchItems(query: AgentItemQuery): Promise<AgentItemResponse> {
+    const [itemIds, tagIds] = await Promise.all([
+      query.names ? this.itemsRepository.fuzzyResolve(query.names) : [],
+      query.tags ? this.itemsRepository.fuzzyResolveTags(query.tags) : [],
+    ]);
+
+    const filter: ItemFilter = {
+      itemIds: itemIds.length ? itemIds : undefined,
+      tagIds: tagIds.length ? tagIds : undefined,
+      includeBoosts: query.includeBoosts,
+      includeTags: query.includeTags,
+      limit: query.limit,
+      offset: query.offset,
+    };
+
+    const results = await this.itemsRepository.searchItems(filter);
+    return toItemResponse(results, query, results.length);
+  }
+
+  async searchArticles(query: AgentArticleQuery): Promise<AgentArticleSearchResponse> {
+    const [articleIds, categoryIds] = await Promise.all([
+      query.titles ? this.articleRepository.fuzzyResolve(query.titles) : [],
+      query.categories ? this.articleRepository.fuzzyResolveCategories(query.categories) : [],
+    ]);
+
+    const filter: ArticleFilter = {
+      articleIds: articleIds.length ? articleIds : undefined,
+      categoryIds: categoryIds.length ? categoryIds : undefined,
+      includeCategories: query.includeCategories,
+      limit: query.limit,
+      offset: query.offset,
+    };
+
+    const results = await this.articleRepository.searchArticles(filter);
+    return toArticleSearchResponse(results, query, results.length);
   }
 }

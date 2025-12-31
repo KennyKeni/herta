@@ -229,7 +229,9 @@ export const cobblemonSeeder: Seeder = {
     // spawn_condition_moon_phases
     {
       const start = Date.now();
-      const data = await loadJson<SpawnConditionMoonPhaseJson[]>('spawn_condition_moon_phases.json');
+      const data = await loadJson<SpawnConditionMoonPhaseJson[]>(
+        'spawn_condition_moon_phases.json'
+      );
       const rows = data.map((m) => ({
         condition_id: m.conditionId,
         moon_phase_id: m.moonPhaseId,

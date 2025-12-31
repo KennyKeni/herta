@@ -3,11 +3,12 @@
  * Please do not edit it manually.
  */
 
-import type { ColumnType } from "kysely";
+import type { ColumnType } from 'kysely';
 
-export type Generated<T> = T extends ColumnType<infer S, infer I, infer U>
-  ? ColumnType<S, I | undefined, U>
-  : ColumnType<T, T | undefined, T>;
+export type Generated<T> =
+  T extends ColumnType<infer S, infer I, infer U>
+    ? ColumnType<S, I | undefined, U>
+    : ColumnType<T, T | undefined, T>;
 
 export type Json = JsonValue;
 
@@ -46,6 +47,7 @@ export interface AbilityFlagTypes {
 export interface AbilitySlots {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface ArticleCategories {
@@ -77,6 +79,7 @@ export interface AspectChoices {
   aspect_string: string | null;
   id: number;
   name: string;
+  slug: string;
   value: string;
 }
 
@@ -104,6 +107,7 @@ export interface Aspects {
 export interface AspectTypes {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface Behaviour {
@@ -115,6 +119,7 @@ export interface Biomes {
   id: number;
   name: string;
   namespace_id: number | null;
+  slug: string;
 }
 
 export interface BiomeTagBiomes {
@@ -126,18 +131,21 @@ export interface BiomeTags {
   id: number;
   name: string;
   namespace_id: number | null;
+  slug: string;
 }
 
 export interface Conditions {
   description: string | null;
   id: number;
   name: string;
+  slug: string;
   type_id: number;
 }
 
 export interface ConditionTypes {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface DropPercentages {
@@ -299,6 +307,7 @@ export interface ItemFlags {
 export interface ItemFlagTypes {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface Items {
@@ -310,6 +319,7 @@ export interface Items {
   namespace_id: number | null;
   num: number | null;
   short_desc: string | null;
+  slug: string;
 }
 
 export interface ItemTagHierarchy {
@@ -344,6 +354,7 @@ export interface Lighting {
 export interface MoonPhases {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface MoveBoosts {
@@ -385,6 +396,7 @@ export interface MoveFlagTypes {
 export interface MoveLearnMethods {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface MoveMaxPower {
@@ -431,6 +443,7 @@ export interface MoveZData {
 export interface Namespaces {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface Natures {
@@ -470,6 +483,7 @@ export interface RecipeSlotTypes {
   description: string | null;
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface RecipeTagInputs {
@@ -488,6 +502,7 @@ export interface RecipeTagTypes {
 export interface RecipeTypes {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface Riding {
@@ -498,6 +513,7 @@ export interface Riding {
 export interface SpawnBuckets {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface SpawnConditionBiomes {
@@ -549,6 +565,7 @@ export interface SpawnConditionTime {
 export interface SpawnConditionTypes {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface SpawnConditionWeather {
@@ -560,6 +577,7 @@ export interface SpawnConditionWeather {
 export interface SpawnPositionTypes {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface SpawnPresets {
@@ -570,6 +588,7 @@ export interface SpawnPresets {
 export interface SpawnPresetTypes {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface Spawns {
@@ -611,11 +630,13 @@ export interface SpeciesHitboxes {
 export interface Stats {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface TimeRanges {
   id: number;
   name: string;
+  slug: string;
 }
 
 export interface TypeMatchups {

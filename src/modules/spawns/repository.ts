@@ -10,6 +10,7 @@ import type {
   SpawnConditionPosition,
   SpawnConditionSky,
   SpawnConditionWeather,
+  SpawnPreset,
   TimeRangeRef,
 } from './domain';
 
@@ -17,8 +18,10 @@ interface SpawnRow {
   id: number;
   form_id: number;
   bucket_id: number;
+  bucket_slug: string;
   bucket_name: string;
   position_type_id: number;
+  position_type_slug: string;
   position_type_name: string;
   weight: number;
   level_min: number;
@@ -45,7 +48,7 @@ export class SpawnRepository {
     const conditions = await this.fetchConditions(spawnIds);
     const conditionIds = [...conditions.values()].flat().map((c) => c.id);
 
-    const [biomes, biomeTags, timeRanges, moonPhases, weather, sky, position, lure] =
+    const [biomes, biomeTags, timeRanges, moonPhases, weather, sky, position, lure, presets] =
       await Promise.all([
         this.fetchConditionBiomes(conditionIds),
         this.fetchConditionBiomeTags(conditionIds),
@@ -55,6 +58,7 @@ export class SpawnRepository {
         this.fetchConditionSky(conditionIds),
         this.fetchConditionPosition(conditionIds),
         this.fetchConditionLure(conditionIds),
+        this.fetchPresets(spawnIds),
       ]);
 
     return this.assembleSpawns(
@@ -67,7 +71,8 @@ export class SpawnRepository {
       weather,
       sky,
       position,
-      lure
+      lure,
+      presets
     );
   }
 
@@ -80,8 +85,10 @@ export class SpawnRepository {
         's.id',
         's.form_id',
         's.bucket_id',
+        'sb.slug as bucket_slug',
         'sb.name as bucket_name',
         's.position_type_id',
+        'spt.slug as position_type_slug',
         'spt.name as position_type_name',
         's.weight',
         's.level_min',
@@ -115,14 +122,14 @@ export class SpawnRepository {
     const rows = await this.db
       .selectFrom('spawn_condition_biomes as scb')
       .innerJoin('biomes as b', 'b.id', 'scb.biome_id')
-      .select(['scb.condition_id', 'b.id', 'b.name'])
+      .select(['scb.condition_id', 'b.id', 'b.slug', 'b.name'])
       .where('scb.condition_id', 'in', conditionIds)
       .execute();
 
     const map = new Map<number, BiomeRef[]>();
     for (const row of rows) {
       const arr = map.get(row.condition_id) ?? [];
-      arr.push({ id: row.id, name: row.name });
+      arr.push({ id: row.id, slug: row.slug, name: row.name });
       map.set(row.condition_id, arr);
     }
     return map;
@@ -136,14 +143,14 @@ export class SpawnRepository {
     const rows = await this.db
       .selectFrom('spawn_condition_biome_tags as scbt')
       .innerJoin('biome_tags as bt', 'bt.id', 'scbt.biome_tag_id')
-      .select(['scbt.condition_id', 'bt.id', 'bt.name'])
+      .select(['scbt.condition_id', 'bt.id', 'bt.slug', 'bt.name'])
       .where('scbt.condition_id', 'in', conditionIds)
       .execute();
 
     const map = new Map<number, BiomeTagRef[]>();
     for (const row of rows) {
       const arr = map.get(row.condition_id) ?? [];
-      arr.push({ id: row.id, name: row.name });
+      arr.push({ id: row.id, slug: row.slug, name: row.name });
       map.set(row.condition_id, arr);
     }
     return map;
@@ -157,14 +164,14 @@ export class SpawnRepository {
     const rows = await this.db
       .selectFrom('spawn_condition_time as sct')
       .innerJoin('time_ranges as tr', 'tr.id', 'sct.time_range_id')
-      .select(['sct.condition_id', 'tr.id', 'tr.name'])
+      .select(['sct.condition_id', 'tr.id', 'tr.slug', 'tr.name'])
       .where('sct.condition_id', 'in', conditionIds)
       .execute();
 
     const map = new Map<number, TimeRangeRef[]>();
     for (const row of rows) {
       const arr = map.get(row.condition_id) ?? [];
-      arr.push({ id: row.id, name: row.name });
+      arr.push({ id: row.id, slug: row.slug, name: row.name });
       map.set(row.condition_id, arr);
     }
     return map;
@@ -178,14 +185,14 @@ export class SpawnRepository {
     const rows = await this.db
       .selectFrom('spawn_condition_moon_phases as scmp')
       .innerJoin('moon_phases as mp', 'mp.id', 'scmp.moon_phase_id')
-      .select(['scmp.condition_id', 'mp.id', 'mp.name'])
+      .select(['scmp.condition_id', 'mp.id', 'mp.slug', 'mp.name'])
       .where('scmp.condition_id', 'in', conditionIds)
       .execute();
 
     const map = new Map<number, MoonPhaseRef[]>();
     for (const row of rows) {
       const arr = map.get(row.condition_id) ?? [];
-      arr.push({ id: row.id, name: row.name });
+      arr.push({ id: row.id, slug: row.slug, name: row.name });
       map.set(row.condition_id, arr);
     }
     return map;
@@ -212,9 +219,7 @@ export class SpawnRepository {
     return map;
   }
 
-  private async fetchConditionSky(
-    conditionIds: number[]
-  ): Promise<Map<number, SpawnConditionSky>> {
+  private async fetchConditionSky(conditionIds: number[]): Promise<Map<number, SpawnConditionSky>> {
     if (!conditionIds.length) return new Map();
 
     const rows = await this.db
@@ -276,6 +281,25 @@ export class SpawnRepository {
     return map;
   }
 
+  private async fetchPresets(spawnIds: number[]): Promise<Map<number, SpawnPreset[]>> {
+    if (!spawnIds.length) return new Map();
+
+    const rows = await this.db
+      .selectFrom('spawn_presets as sp')
+      .innerJoin('spawn_preset_types as spt', 'spt.id', 'sp.preset_type_id')
+      .select(['sp.spawn_id', 'spt.id', 'spt.slug', 'spt.name'])
+      .where('sp.spawn_id', 'in', spawnIds)
+      .execute();
+
+    const map = new Map<number, SpawnPreset[]>();
+    for (const row of rows) {
+      const arr = map.get(row.spawn_id) ?? [];
+      arr.push({ presetType: { id: row.id, slug: row.slug, name: row.name } });
+      map.set(row.spawn_id, arr);
+    }
+    return map;
+  }
+
   private assembleSpawns(
     spawns: SpawnRow[],
     conditions: Map<number, ConditionRow[]>,
@@ -286,7 +310,8 @@ export class SpawnRepository {
     weather: Map<number, SpawnConditionWeather>,
     sky: Map<number, SpawnConditionSky>,
     position: Map<number, SpawnConditionPosition>,
-    lure: Map<number, SpawnConditionLure>
+    lure: Map<number, SpawnConditionLure>,
+    presets: Map<number, SpawnPreset[]>
   ): Map<number, Spawn[]> {
     const result = new Map<number, Spawn[]>();
 
@@ -309,11 +334,16 @@ export class SpawnRepository {
       const spawnEntity: Spawn = {
         id: spawn.id,
         formId: spawn.form_id,
-        bucket: { id: spawn.bucket_id, name: spawn.bucket_name },
-        positionType: { id: spawn.position_type_id, name: spawn.position_type_name },
+        bucket: { id: spawn.bucket_id, slug: spawn.bucket_slug, name: spawn.bucket_name },
+        positionType: {
+          id: spawn.position_type_id,
+          slug: spawn.position_type_slug,
+          name: spawn.position_type_name,
+        },
         weight: spawn.weight,
         levelMin: spawn.level_min,
         levelMax: spawn.level_max,
+        presets: presets.get(spawn.id) ?? [],
         conditions: assembledConditions,
       };
 

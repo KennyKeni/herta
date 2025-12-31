@@ -1,12 +1,12 @@
 import { type Kysely, sql } from 'kysely';
 import { FilterLogic } from '@/common/types';
 import type { DB } from '@/infrastructure/db/types';
-import type { Move, MoveFilter } from './domain';
+import type { IncludeOptions, Move, MoveFilter } from './domain';
 
 export class MovesRepository {
   constructor(private db: Kysely<DB>) {}
 
-  async getByIdentifier(identifier: string): Promise<Move | null> {
+  async getByIdentifier(identifier: string, options: IncludeOptions = {}): Promise<Move | null> {
     const isId = /^\d+$/.test(identifier);
 
     const row = await this.db
@@ -15,6 +15,7 @@ export class MovesRepository {
       .innerJoin('move_categories', 'move_categories.id', 'moves.category_id')
       .leftJoin('move_targets', 'move_targets.id', 'moves.target_id')
       .leftJoin('move_z_data', 'move_z_data.move_id', 'moves.id')
+      .leftJoin('move_max_power', 'move_max_power.move_id', 'moves.id')
       .select([
         'moves.id',
         'moves.name',
@@ -46,61 +47,18 @@ export class MovesRepository {
         'move_z_data.z_effect',
         'move_z_data.z_crystal',
         'move_z_data.is_z_exclusive',
+        'move_max_power.max_power',
       ])
       .where(isId ? 'moves.id' : 'moves.slug', '=', isId ? Number(identifier) : identifier)
       .executeTakeFirst();
 
     if (!row) return null;
 
-    const [flags, boosts, effects, maxPower] = await Promise.all([
-      this.db
-        .selectFrom('move_flags')
-        .innerJoin('move_flag_types', 'move_flag_types.id', 'move_flags.flag_id')
-        .select([
-          'move_flag_types.id',
-          'move_flag_types.name',
-          'move_flag_types.slug',
-          'move_flag_types.description',
-        ])
-        .where('move_flags.move_id', '=', row.id)
-        .execute(),
-
-      this.db
-        .selectFrom('move_boosts')
-        .innerJoin('stats', 'stats.id', 'move_boosts.stat_id')
-        .select([
-          'stats.id as stat_id',
-          'stats.name as stat_name',
-          'move_boosts.stages',
-          'move_boosts.is_self',
-        ])
-        .where('move_boosts.move_id', '=', row.id)
-        .execute(),
-
-      this.db
-        .selectFrom('move_effects')
-        .innerJoin('condition_types', 'condition_types.id', 'move_effects.condition_type_id')
-        .leftJoin('conditions', 'conditions.id', 'move_effects.condition_id')
-        .leftJoin('condition_types as ct2', 'ct2.id', 'conditions.type_id')
-        .select([
-          'condition_types.id as condition_type_id',
-          'condition_types.name as condition_type_name',
-          'conditions.id as condition_id',
-          'conditions.name as condition_name',
-          'conditions.type_id as condition_type_fk',
-          'ct2.name as condition_type_fk_name',
-          'conditions.description as condition_description',
-          'move_effects.chance',
-          'move_effects.is_self',
-        ])
-        .where('move_effects.move_id', '=', row.id)
-        .execute(),
-
-      this.db
-        .selectFrom('move_max_power')
-        .select('max_power')
-        .where('move_id', '=', row.id)
-        .executeTakeFirst(),
+    const [flags, boosts, effects, gmaxSpecies] = await Promise.all([
+      options.includeFlags !== false ? this.fetchFlagsForMove(row.id) : [],
+      options.includeBoosts !== false ? this.fetchBoostsForMove(row.id) : [],
+      options.includeEffects !== false ? this.fetchEffectsForMove(row.id) : [],
+      options.includeGmaxSpecies !== false ? this.fetchGmaxSpeciesForMove(row.id) : [],
     ]);
 
     return {
@@ -135,28 +93,11 @@ export class MovesRepository {
       healPercent: row.heal_percent,
       recoilPercent: row.recoil_percent,
       flags,
-      boosts: boosts.map((b) => ({
-        stat: { id: b.stat_id, name: b.stat_name },
-        stages: b.stages,
-        isSelf: b.is_self,
-      })),
-      effects: effects.map((e) => ({
-        conditionType: { id: e.condition_type_id, name: e.condition_type_name },
-        condition: e.condition_id
-          ? {
-              id: e.condition_id,
-              name: e.condition_name ?? '',
-              typeId: e.condition_type_fk ?? 0,
-              typeName: e.condition_type_fk_name ?? '',
-              description: e.condition_description,
-            }
-          : null,
-        chance: e.chance,
-        isSelf: e.is_self,
-      })),
-      maxPower: maxPower?.max_power ?? null,
+      boosts,
+      effects,
+      maxPower: row.max_power ?? null,
       zData:
-        row.z_power != null || row.z_effect != null
+        options.includeZData !== false && (row.z_power != null || row.z_effect != null)
           ? {
               zPower: row.z_power,
               zEffect: row.z_effect,
@@ -164,7 +105,99 @@ export class MovesRepository {
               isZExclusive: row.is_z_exclusive ?? false,
             }
           : null,
+      gmaxSpecies,
     };
+  }
+
+  private async fetchFlagsForMove(moveId: number) {
+    return this.db
+      .selectFrom('move_flags')
+      .innerJoin('move_flag_types', 'move_flag_types.id', 'move_flags.flag_id')
+      .select([
+        'move_flag_types.id',
+        'move_flag_types.name',
+        'move_flag_types.slug',
+        'move_flag_types.description',
+      ])
+      .where('move_flags.move_id', '=', moveId)
+      .execute();
+  }
+
+  private async fetchBoostsForMove(moveId: number) {
+    const boosts = await this.db
+      .selectFrom('move_boosts')
+      .innerJoin('stats', 'stats.id', 'move_boosts.stat_id')
+      .select([
+        'stats.id as stat_id',
+        'stats.slug as stat_slug',
+        'stats.name as stat_name',
+        'move_boosts.stages',
+        'move_boosts.is_self',
+      ])
+      .where('move_boosts.move_id', '=', moveId)
+      .execute();
+
+    return boosts.map((b) => ({
+      stat: { id: b.stat_id, slug: b.stat_slug, name: b.stat_name },
+      stages: b.stages,
+      isSelf: b.is_self,
+    }));
+  }
+
+  private async fetchEffectsForMove(moveId: number) {
+    const effects = await this.db
+      .selectFrom('move_effects')
+      .innerJoin('condition_types', 'condition_types.id', 'move_effects.condition_type_id')
+      .leftJoin('conditions', 'conditions.id', 'move_effects.condition_id')
+      .leftJoin('condition_types as ct2', 'ct2.id', 'conditions.type_id')
+      .select([
+        'condition_types.id as condition_type_id',
+        'condition_types.slug as condition_type_slug',
+        'condition_types.name as condition_type_name',
+        'conditions.id as condition_id',
+        'conditions.slug as condition_slug',
+        'conditions.name as condition_name',
+        'conditions.type_id as condition_type_fk',
+        'ct2.slug as condition_type_fk_slug',
+        'ct2.name as condition_type_fk_name',
+        'conditions.description as condition_description',
+        'move_effects.chance',
+        'move_effects.is_self',
+      ])
+      .where('move_effects.move_id', '=', moveId)
+      .execute();
+
+    return effects.map((e) => ({
+      conditionType: {
+        id: e.condition_type_id,
+        slug: e.condition_type_slug,
+        name: e.condition_type_name,
+      },
+      condition: e.condition_id
+        ? {
+            id: e.condition_id,
+            slug: e.condition_slug ?? '',
+            name: e.condition_name ?? '',
+            type: {
+              id: e.condition_type_fk ?? 0,
+              slug: e.condition_type_fk_slug ?? '',
+              name: e.condition_type_fk_name ?? '',
+            },
+            description: e.condition_description,
+          }
+        : null,
+      chance: e.chance,
+      isSelf: e.is_self,
+    }));
+  }
+
+  private async fetchGmaxSpeciesForMove(moveId: number) {
+    return this.db
+      .selectFrom('gmax_moves')
+      .innerJoin('species', 'species.id', 'gmax_moves.species_id')
+      .select(['species.id', 'species.name', 'species.slug'])
+      .where('gmax_moves.move_id', '=', moveId)
+      .execute();
   }
 
   async fuzzyResolve(names: string[]): Promise<number[]> {
@@ -298,16 +331,18 @@ export class MovesRepository {
   }
 
   private async fetchRelations(moveIds: number[], filters: MoveFilter) {
-    const [flags, boosts, effects] = await Promise.all([
+    const [flags, boosts, effects, gmaxSpecies] = await Promise.all([
       this.fetchFlags(filters.includeFlags !== false ? moveIds : []),
       this.fetchBoosts(filters.includeBoosts !== false ? moveIds : []),
       this.fetchEffects(filters.includeEffects !== false ? moveIds : []),
+      this.fetchGmaxSpecies(filters.includeGmaxSpecies !== false ? moveIds : []),
     ]);
 
     return {
       flags: this.groupBy(flags, 'move_id'),
       boosts: this.groupBy(boosts, 'move_id'),
       effects: this.groupBy(effects, 'move_id'),
+      gmaxSpecies: this.groupBy(gmaxSpecies, 'move_id'),
     };
   }
 
@@ -336,6 +371,7 @@ export class MovesRepository {
         [] as {
           move_id: number;
           stat_id: number;
+          stat_slug: string;
           stat_name: string;
           stages: number;
           is_self: boolean;
@@ -344,7 +380,14 @@ export class MovesRepository {
     return this.db
       .selectFrom('move_boosts as mb')
       .innerJoin('stats as s', 's.id', 'mb.stat_id')
-      .select(['mb.move_id', 's.id as stat_id', 's.name as stat_name', 'mb.stages', 'mb.is_self'])
+      .select([
+        'mb.move_id',
+        's.id as stat_id',
+        's.slug as stat_slug',
+        's.name as stat_name',
+        'mb.stages',
+        'mb.is_self',
+      ])
       .where('mb.move_id', 'in', moveIds)
       .execute();
   }
@@ -355,10 +398,13 @@ export class MovesRepository {
         [] as {
           move_id: number;
           condition_type_id: number;
+          condition_type_slug: string;
           condition_type_name: string;
           condition_id: number | null;
+          condition_slug: string | null;
           condition_name: string | null;
           condition_type_fk: number | null;
+          condition_type_fk_slug: string | null;
           condition_type_fk_name: string | null;
           condition_description: string | null;
           chance: number;
@@ -373,16 +419,37 @@ export class MovesRepository {
       .select([
         'me.move_id',
         'ct.id as condition_type_id',
+        'ct.slug as condition_type_slug',
         'ct.name as condition_type_name',
         'c.id as condition_id',
+        'c.slug as condition_slug',
         'c.name as condition_name',
         'c.type_id as condition_type_fk',
+        'ct2.slug as condition_type_fk_slug',
         'ct2.name as condition_type_fk_name',
         'c.description as condition_description',
         'me.chance',
         'me.is_self',
       ])
       .where('me.move_id', 'in', moveIds)
+      .execute();
+  }
+
+  private fetchGmaxSpecies(moveIds: number[]) {
+    if (!moveIds.length)
+      return Promise.resolve(
+        [] as {
+          move_id: number;
+          id: number;
+          name: string;
+          slug: string;
+        }[]
+      );
+    return this.db
+      .selectFrom('gmax_moves as gm')
+      .innerJoin('species as s', 's.id', 'gm.species_id')
+      .select(['gm.move_id', 's.id', 's.name', 's.slug'])
+      .where('gm.move_id', 'in', moveIds)
       .execute();
   }
 
@@ -403,6 +470,7 @@ export class MovesRepository {
     const flags = relations.flags.get(row.id) ?? [];
     const boosts = relations.boosts.get(row.id) ?? [];
     const effects = relations.effects.get(row.id) ?? [];
+    const gmaxSpeciesRows = relations.gmaxSpecies.get(row.id) ?? [];
 
     return {
       id: row.id,
@@ -437,18 +505,26 @@ export class MovesRepository {
       recoilPercent: row.recoil_percent,
       flags,
       boosts: boosts.map((b) => ({
-        stat: { id: b.stat_id, name: b.stat_name },
+        stat: { id: b.stat_id, slug: b.stat_slug, name: b.stat_name },
         stages: b.stages,
         isSelf: b.is_self,
       })),
       effects: effects.map((e) => ({
-        conditionType: { id: e.condition_type_id, name: e.condition_type_name },
+        conditionType: {
+          id: e.condition_type_id,
+          slug: e.condition_type_slug,
+          name: e.condition_type_name,
+        },
         condition: e.condition_id
           ? {
               id: e.condition_id,
+              slug: e.condition_slug ?? '',
               name: e.condition_name ?? '',
-              typeId: e.condition_type_fk ?? 0,
-              typeName: e.condition_type_fk_name ?? '',
+              type: {
+                id: e.condition_type_fk ?? 0,
+                slug: e.condition_type_fk_slug ?? '',
+                name: e.condition_type_fk_name ?? '',
+              },
               description: e.condition_description,
             }
           : null,
@@ -465,6 +541,7 @@ export class MovesRepository {
               isZExclusive: row.is_z_exclusive ?? false,
             }
           : null,
+      gmaxSpecies: gmaxSpeciesRows.map((g) => ({ id: g.id, name: g.name, slug: g.slug })),
     };
   }
 }

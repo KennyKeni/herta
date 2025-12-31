@@ -12,6 +12,7 @@ export async function up(db: Kysely<any>): Promise<void> {
   await db.schema
     .createTable('items')
     .addColumn('id', 'integer', (col) => col.primaryKey())
+    .addColumn('slug', 'text', (col) => col.notNull().unique())
     .addColumn('name', 'text', (col) => col.notNull())
     .addColumn('num', 'integer')
     .addColumn('gen', 'integer')
@@ -52,12 +53,29 @@ export async function up(db: Kysely<any>): Promise<void> {
 
   await db.schema.createIndex('idx_item_tags_item_id').on('item_tags').column('item_id').execute();
   await db.schema.createIndex('idx_item_tags_tag_id').on('item_tags').column('tag_id').execute();
-  await db.schema.createIndex('idx_item_tag_hierarchy_parent').on('item_tag_hierarchy').column('parent_tag_id').execute();
-  await db.schema.createIndex('idx_item_tag_hierarchy_child').on('item_tag_hierarchy').column('child_tag_id').execute();
-  await db.schema.createIndex('idx_item_tag_types_slug').on('item_tag_types').column('slug').execute();
-  await db.schema.createIndex('idx_items_namespace_id').on('items').column('namespace_id').execute();
+  await db.schema
+    .createIndex('idx_item_tag_hierarchy_parent')
+    .on('item_tag_hierarchy')
+    .column('parent_tag_id')
+    .execute();
+  await db.schema
+    .createIndex('idx_item_tag_hierarchy_child')
+    .on('item_tag_hierarchy')
+    .column('child_tag_id')
+    .execute();
+  await db.schema
+    .createIndex('idx_item_tag_types_slug')
+    .on('item_tag_types')
+    .column('slug')
+    .execute();
+  await db.schema
+    .createIndex('idx_items_namespace_id')
+    .on('items')
+    .column('namespace_id')
+    .execute();
 
   await sql`CREATE INDEX idx_items_name_trgm ON items USING gin (name gin_trgm_ops)`.execute(db);
+  await db.schema.createIndex('idx_items_slug').on('items').column('slug').execute();
 }
 
 export async function down(db: Kysely<any>): Promise<void> {

@@ -1,12 +1,12 @@
 import { type Kysely, sql } from 'kysely';
 import { FilterLogic } from '@/common/types';
 import type { DB } from '@/infrastructure/db/types';
-import type { Ability, AbilityFilter } from './domain';
+import type { Ability, AbilityFilter, IncludeOptions } from './domain';
 
 export class AbilitiesRepository {
   constructor(private db: Kysely<DB>) {}
 
-  async getByIdentifier(identifier: string): Promise<Ability | null> {
+  async getByIdentifier(identifier: string, options: IncludeOptions = {}): Promise<Ability | null> {
     const isId = /^\d+$/.test(identifier);
 
     const row = await this.db
@@ -17,17 +17,20 @@ export class AbilitiesRepository {
 
     if (!row) return null;
 
-    const flags = await this.db
-      .selectFrom('ability_flags')
-      .innerJoin('ability_flag_types', 'ability_flag_types.id', 'ability_flags.flag_id')
-      .select([
-        'ability_flag_types.id',
-        'ability_flag_types.name',
-        'ability_flag_types.slug',
-        'ability_flag_types.description',
-      ])
-      .where('ability_flags.ability_id', '=', row.id)
-      .execute();
+    const flags =
+      options.includeFlags !== false
+        ? await this.db
+            .selectFrom('ability_flags')
+            .innerJoin('ability_flag_types', 'ability_flag_types.id', 'ability_flags.flag_id')
+            .select([
+              'ability_flag_types.id',
+              'ability_flag_types.name',
+              'ability_flag_types.slug',
+              'ability_flag_types.description',
+            ])
+            .where('ability_flags.ability_id', '=', row.id)
+            .execute()
+        : [];
 
     return {
       id: row.id,
