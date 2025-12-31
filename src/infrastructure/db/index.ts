@@ -1,5 +1,5 @@
 import { SQL } from 'bun';
-import { Kysely } from 'kysely';
+import { Kysely, sql } from 'kysely';
 import { PostgresJSDialect } from 'kysely-postgres-js';
 import { config } from '../../config';
 import type { DB } from './types';
@@ -18,3 +18,14 @@ const dialect = new PostgresJSDialect({
 export const db = new Kysely<DB>({
   dialect,
 });
+
+export async function checkDbConnection(): Promise<boolean> {
+  try {
+    await sql`SELECT 1`.execute(db);
+    console.log('[postgres] Connected');
+    return true;
+  } catch (err) {
+    console.error('[postgres] Connection error:', (err as Error).message);
+    return false;
+  }
+}

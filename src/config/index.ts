@@ -19,6 +19,7 @@ const postgresSchema = t.Object({
 const redisSchema = t.Object({
   REDIS_HOST: t.String({ minLength: 1 }),
   REDIS_PORT: t.Numeric({ minLength: 1 }),
+  REDIS_PASSWORD: t.Optional(t.String()),
 });
 
 const kafkaSchema = t.Object({

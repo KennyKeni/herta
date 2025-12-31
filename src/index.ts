@@ -2,6 +2,7 @@ import { cors } from '@elysiajs/cors';
 import { swagger } from '@elysiajs/swagger';
 import { Elysia } from 'elysia';
 import { config } from '@/config';
+import { checkDbConnection } from '@/infrastructure/db';
 import { abilities } from '@/modules/abilities';
 import { agent } from '@/modules/agent';
 import { articles } from '@/modules/article';
@@ -33,10 +34,13 @@ const app = new Elysia()
   }))
   .use(config.app.SWAGGER_ENABLED ? swaggerPlugin : (app) => app)
   .onRequest(({ request }) => {
-    console.log(`${request.method} ${request.url}`);
+    console.log(`--> ${request.method} ${request.url}`);
+  })
+  .onAfterResponse(({ request, set }) => {
+    console.log(`<-- ${request.method} ${request.url} ${set.status ?? 200}`);
   })
   .onError(({ error, request }) => {
-    console.error(`${request.method} ${request.url}`, error);
+    console.error(`[error] ${request.method} ${request.url}`, error);
   })
   .get('/', () => 'Hello Elysia')
   .use(pokemon)
@@ -47,4 +51,6 @@ const app = new Elysia()
   .use(agent)
   .listen(config.app.PORT);
 
-console.log(`Elysia is running at ${app.server?.hostname}:${app.server?.port}`);
+checkDbConnection().then(() => {
+  console.log(`[app] Ready at ${app.server?.hostname}:${app.server?.port}`);
+});
