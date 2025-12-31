@@ -51,6 +51,8 @@ const PokemonFilterSchema = t.Object({
   biomeTagSlugs: t.Optional(t.Array(t.String())),
   spawnBucketIds: t.Optional(t.Array(t.Number())),
   spawnBucketSlugs: t.Optional(t.Array(t.String())),
+  dropItemIds: t.Optional(t.Array(t.Number())),
+  dropItemSlugs: t.Optional(t.Array(t.String())),
 
   generation: t.Optional(t.Number()),
   generations: t.Optional(t.Array(t.Number())),

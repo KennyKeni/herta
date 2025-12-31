@@ -36,10 +36,10 @@ const app = new Elysia()
   )
   .use(config.app.SWAGGER_ENABLED ? swaggerPlugin : (app) => app)
   .onRequest(({ request }) => {
-    console.log(`--> ${request.method} ${request.url}`);
+    console.log(`[req] ${request.method} ${request.url}`);
   })
   .onAfterResponse(({ request, set }) => {
-    console.log(`<-- ${request.method} ${request.url} ${set.status ?? 200}`);
+    console.log(`[res] ${request.method} ${request.url} ${set.status ?? 200}`);
   })
   .onError(({ error, request }) => {
     console.error(`[error] ${request.method} ${request.url}`, error);

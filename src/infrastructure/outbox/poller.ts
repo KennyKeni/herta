@@ -21,7 +21,8 @@ function groupBy<T, K extends string>(items: T[], keyFn: (item: T) => K): Record
   const result = {} as Record<K, T[]>;
   for (const item of items) {
     const key = keyFn(item);
-    (result[key] ??= []).push(item);
+    result[key] = result[key] ?? [];
+    result[key].push(item);
   }
   return result;
 }

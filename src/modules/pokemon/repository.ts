@@ -359,6 +359,13 @@ export class PokemonRepository {
         this.spawnBucketSubquery(filter.spawnBucketIds, filter.spawnBucketSlugs)
       );
     }
+    if (filter.dropItemIds?.length || filter.dropItemSlugs?.length) {
+      query = query.where(
+        'f.id',
+        'in',
+        this.dropItemSubquery(filter.dropItemIds, filter.dropItemSlugs)
+      );
+    }
 
     return query;
   }
@@ -572,6 +579,28 @@ export class PokemonRepository {
         }
         if (slugFilter?.length) {
           conditions.push(eb('sb.slug', 'in', slugFilter));
+        }
+        return conditions.length ? eb.or(conditions) : eb.lit(true);
+      });
+  }
+
+  private dropItemSubquery(idFilter?: number[], slugFilter?: string[]) {
+    return this.db
+      .selectFrom('form_drops as fd')
+      .leftJoin('drop_percentages as dp', 'dp.form_id', 'fd.form_id')
+      .leftJoin('drop_ranges as dr', 'dr.form_id', 'fd.form_id')
+      .leftJoin('items as ip', 'ip.id', 'dp.item_id')
+      .leftJoin('items as ir', 'ir.id', 'dr.item_id')
+      .select('fd.form_id')
+      .where((eb) => {
+        const conditions = [];
+        if (idFilter?.length) {
+          conditions.push(eb('ip.id', 'in', idFilter));
+          conditions.push(eb('ir.id', 'in', idFilter));
+        }
+        if (slugFilter?.length) {
+          conditions.push(eb('ip.slug', 'in', slugFilter));
+          conditions.push(eb('ir.slug', 'in', slugFilter));
         }
         return conditions.length ? eb.or(conditions) : eb.lit(true);
       });

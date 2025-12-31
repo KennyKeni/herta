@@ -41,20 +41,22 @@ export class AgentService {
   ) {}
 
   async searchPokemon(query: AgentPokemonQuery): Promise<AgentPokemonResponse> {
-    const [typeIds, abilityIds, moveIds, eggGroupIds, labelIds, formMatches] = await Promise.all([
-      query.types ? this.typesRepository.fuzzyResolve(query.types) : [],
-      query.abilities ? this.abilitiesRepository.fuzzyResolve(query.abilities) : [],
-      query.moves ? this.movesRepository.fuzzyResolve(query.moves) : [],
-      query.eggGroups ? this.pokemonRepository.fuzzyResolveEggGroups(query.eggGroups) : [],
-      query.labels ? this.pokemonRepository.fuzzyResolveLabels(query.labels) : [],
-      query.names
-        ? Promise.all(
-            query.names.map((name) =>
-              this.pokemonRepository.fuzzyMatchForms(name, { limit: query.limit })
-            )
-          ).then((results) => results.flat())
-        : [],
-    ]);
+    const [typeIds, abilityIds, moveIds, eggGroupIds, labelIds, dropItemIds, formMatches] =
+      await Promise.all([
+        query.types ? this.typesRepository.fuzzyResolve(query.types) : [],
+        query.abilities ? this.abilitiesRepository.fuzzyResolve(query.abilities) : [],
+        query.moves ? this.movesRepository.fuzzyResolve(query.moves) : [],
+        query.eggGroups ? this.pokemonRepository.fuzzyResolveEggGroups(query.eggGroups) : [],
+        query.labels ? this.pokemonRepository.fuzzyResolveLabels(query.labels) : [],
+        query.dropsItems ? this.itemsRepository.fuzzyResolve(query.dropsItems) : [],
+        query.names
+          ? Promise.all(
+              query.names.map((name) =>
+                this.pokemonRepository.fuzzyMatchForms(name, { limit: query.limit })
+              )
+            ).then((results) => results.flat())
+          : [],
+      ]);
     const formSlugs = formMatches.map((m) => m.id);
 
     const filter: PokemonFilter = {
@@ -63,6 +65,7 @@ export class AgentService {
       moveIds: moveIds.length ? moveIds : undefined,
       eggGroupIds: eggGroupIds.length ? eggGroupIds : undefined,
       labelIds: labelIds.length ? labelIds : undefined,
+      dropItemIds: dropItemIds.length ? dropItemIds : undefined,
       formSlugs: formSlugs.length ? formSlugs : undefined,
       generation: Array.isArray(query.generation) ? undefined : query.generation,
       generations: Array.isArray(query.generation) ? query.generation : undefined,

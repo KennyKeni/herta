@@ -50,6 +50,12 @@ const AgentPokemonFilterSchema = t.Object({
         'Filter by label names (e.g., "legendary", "starter"). Returns Pokemon with any matching label',
     })
   ),
+  dropsItems: t.Optional(
+    t.Array(t.String(), {
+      description:
+        'Filter by dropped item names (e.g., "oran berry", "potion"). Returns Pokemon that drop any matching item',
+    })
+  ),
   generation: t.Optional(
     t.Union([t.Number(), t.Array(t.Number())], {
       description: 'Filter by generation number(s) (e.g., 1 or [1, 2, 3])',
@@ -459,7 +465,9 @@ const AgentItemBoostSchema = t.Object({
 const AgentRecipeInputSchema = t.Object({
   item: t.String({ description: 'Input item name' }),
   slot: t.Nullable(t.Number({ description: 'Slot position (for shaped recipes)' })),
-  slotType: t.Optional(t.Nullable(t.String({ description: 'Slot type name (e.g., "top", "bottom")' }))),
+  slotType: t.Optional(
+    t.Nullable(t.String({ description: 'Slot type name (e.g., "top", "bottom")' }))
+  ),
 });
 
 const AgentRecipeTagInputSchema = t.Object({
@@ -484,7 +492,9 @@ export const AgentItemSchema = t.Object({
   desc: t.Optional(t.Nullable(t.String({ description: 'Full description' }))),
   boosts: t.Optional(t.Array(AgentItemBoostSchema)),
   tags: t.Optional(t.Array(t.String(), { description: 'Item tag names' })),
-  recipes: t.Optional(t.Array(AgentRecipeSchema, { description: 'Crafting recipes that produce this item' })),
+  recipes: t.Optional(
+    t.Array(AgentRecipeSchema, { description: 'Crafting recipes that produce this item' })
+  ),
 });
 
 export type AgentItem = Static<typeof AgentItemSchema>;

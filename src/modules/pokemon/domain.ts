@@ -239,6 +239,8 @@ export interface PokemonFilter extends IncludeOptions {
   biomeTagSlugs?: string[];
   spawnBucketIds?: number[];
   spawnBucketSlugs?: string[];
+  dropItemIds?: number[];
+  dropItemSlugs?: string[];
 
   generation?: number;
   generations?: number[];
