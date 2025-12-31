@@ -11,3 +11,4 @@ export { naturesSeeder } from './natures.seeder';
 export { pokemonDataSeeder } from './pokemon-data.seeder';
 export { recipesSeeder } from './recipes.seeder';
 export { speciesSeeder } from './species.seeder';
+export { outboxSeeder } from './outbox.seeder';

@@ -89,8 +89,8 @@ export interface Form {
   spawns: Spawn[];
 }
 
-export interface FormWithSpecies {
-  species: Species;
+export interface SpeciesWithForm extends Species {
+  form: Form;
 }
 
 export interface AbilitySlotRef {

@@ -183,7 +183,7 @@ export function toResponse(
   return {
     results,
     total,
-    limit: query.limit ?? 20,
+    limit: query.limit ?? 5,
     offset: query.offset ?? 0,
   };
 }
@@ -214,7 +214,7 @@ export function toAbilityResponse(
   return {
     results,
     total,
-    limit: query.limit ?? 20,
+    limit: query.limit ?? 5,
     offset: query.offset ?? 0,
   };
 }
@@ -278,7 +278,7 @@ export function toMoveResponse(
   return {
     results,
     total,
-    limit: query.limit ?? 20,
+    limit: query.limit ?? 5,
     offset: query.offset ?? 0,
   };
 }
@@ -316,7 +316,7 @@ export function toItemResponse(
   return {
     results,
     total,
-    limit: query.limit ?? 20,
+    limit: query.limit ?? 5,
     offset: query.offset ?? 0,
   };
 }
@@ -350,7 +350,7 @@ export function toArticleSearchResponse(
   return {
     results,
     total,
-    limit: query.limit ?? 20,
+    limit: query.limit ?? 5,
     offset: query.offset ?? 0,
   };
 }

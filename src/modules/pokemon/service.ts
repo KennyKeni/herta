@@ -1,4 +1,4 @@
-import type { IncludeOptions, PokemonFilter, SpeciesWithForms } from './domain';
+import type { IncludeOptions, PokemonFilter, SpeciesWithForm, SpeciesWithForms } from './domain';
 import type { PokemonRepository } from './repository';
 
 export class PokemonService {
@@ -13,5 +13,12 @@ export class PokemonService {
     options?: IncludeOptions
   ): Promise<SpeciesWithForms | null> {
     return this.pokemonRepository.getByIdentifier(identifier, options);
+  }
+
+  async getFormByIdentifier(
+    identifier: string,
+    options?: IncludeOptions
+  ): Promise<SpeciesWithForm | null> {
+    return this.pokemonRepository.getFormByIdentifier(identifier, options);
   }
 }

@@ -1,6 +1,20 @@
 import { type Static, t } from 'elysia';
 
-export const AgentPokemonQuerySchema = t.Object({
+const PaginationSchema = t.Object({
+  limit: t.Optional(
+    t.Number({
+      minimum: 1,
+      maximum: 100,
+      default: 5,
+      description: 'Max results to return (1-100, default 5)',
+    })
+  ),
+  offset: t.Optional(
+    t.Number({ minimum: 0, default: 0, description: 'Number of results to skip for pagination' })
+  ),
+});
+
+const AgentPokemonFilterSchema = t.Object({
   names: t.Optional(
     t.Array(t.String(), {
       description: 'Fuzzy match Pokemon or form names (e.g., "pikachu", "mega charizard")',
@@ -106,19 +120,9 @@ export const AgentPokemonQuerySchema = t.Object({
   includeBehaviour: t.Optional(
     t.Boolean({ description: 'Include Cobblemon AI behaviour configuration. Can be large' })
   ),
-
-  limit: t.Optional(
-    t.Number({
-      minimum: 1,
-      maximum: 100,
-      default: 20,
-      description: 'Max results to return (1-100, default 20)',
-    })
-  ),
-  offset: t.Optional(
-    t.Number({ minimum: 0, default: 0, description: 'Number of results to skip for pagination' })
-  ),
 });
+
+export const AgentPokemonQuerySchema = t.Composite([AgentPokemonFilterSchema, PaginationSchema]);
 
 export type AgentPokemonQuery = Static<typeof AgentPokemonQuerySchema>;
 
@@ -248,7 +252,7 @@ export const AgentArticleResponseSchema = t.Nullable(
 
 export type AgentArticleResponse = Static<typeof AgentArticleResponseSchema>;
 
-export const AgentAbilityQuerySchema = t.Object({
+const AgentAbilityFilterSchema = t.Object({
   names: t.Optional(
     t.Array(t.String(), {
       description: 'Fuzzy match ability names (e.g., "levitate", "intimidate")',
@@ -256,18 +260,9 @@ export const AgentAbilityQuerySchema = t.Object({
   ),
   includeDescription: t.Optional(t.Boolean({ description: 'Include full description text' })),
   includeFlags: t.Optional(t.Boolean({ description: 'Include ability flags' })),
-  limit: t.Optional(
-    t.Number({
-      minimum: 1,
-      maximum: 100,
-      default: 20,
-      description: 'Max results to return (1-100, default 20)',
-    })
-  ),
-  offset: t.Optional(
-    t.Number({ minimum: 0, default: 0, description: 'Number of results to skip for pagination' })
-  ),
 });
+
+export const AgentAbilityQuerySchema = t.Composite([AgentAbilityFilterSchema, PaginationSchema]);
 
 export type AgentAbilityQuery = Static<typeof AgentAbilityQuerySchema>;
 
@@ -310,7 +305,7 @@ const AgentZDataSchema = t.Object({
   isZExclusive: t.Boolean({ description: 'Whether this is a signature Z-Move' }),
 });
 
-export const AgentMoveQuerySchema = t.Object({
+const AgentMoveFilterSchema = t.Object({
   names: t.Optional(
     t.Array(t.String(), {
       description: 'Fuzzy match move names (e.g., "thunderbolt", "earthquake")',
@@ -331,18 +326,9 @@ export const AgentMoveQuerySchema = t.Object({
   includeBoosts: t.Optional(t.Boolean({ description: 'Include stat boosts' })),
   includeEffects: t.Optional(t.Boolean({ description: 'Include move effects' })),
   includeZData: t.Optional(t.Boolean({ description: 'Include Z-Move data' })),
-  limit: t.Optional(
-    t.Number({
-      minimum: 1,
-      maximum: 100,
-      default: 20,
-      description: 'Max results to return (1-100, default 20)',
-    })
-  ),
-  offset: t.Optional(
-    t.Number({ minimum: 0, default: 0, description: 'Number of results to skip for pagination' })
-  ),
 });
+
+export const AgentMoveQuerySchema = t.Composite([AgentMoveFilterSchema, PaginationSchema]);
 
 export type AgentMoveQuery = Static<typeof AgentMoveQuerySchema>;
 
@@ -375,7 +361,7 @@ export const AgentMoveResponseSchema = t.Object({
 
 export type AgentMoveResponse = Static<typeof AgentMoveResponseSchema>;
 
-export const AgentItemQuerySchema = t.Object({
+const AgentItemFilterSchema = t.Object({
   names: t.Optional(
     t.Array(t.String(), {
       description: 'Fuzzy match item names (e.g., "potion", "pokeball")',
@@ -389,18 +375,9 @@ export const AgentItemQuerySchema = t.Object({
   includeDescription: t.Optional(t.Boolean({ description: 'Include description text' })),
   includeBoosts: t.Optional(t.Boolean({ description: 'Include stat boosts' })),
   includeTags: t.Optional(t.Boolean({ description: 'Include item tags' })),
-  limit: t.Optional(
-    t.Number({
-      minimum: 1,
-      maximum: 100,
-      default: 20,
-      description: 'Max results to return (1-100, default 20)',
-    })
-  ),
-  offset: t.Optional(
-    t.Number({ minimum: 0, default: 0, description: 'Number of results to skip for pagination' })
-  ),
 });
+
+export const AgentItemQuerySchema = t.Composite([AgentItemFilterSchema, PaginationSchema]);
 
 export type AgentItemQuery = Static<typeof AgentItemQuerySchema>;
 
@@ -429,7 +406,7 @@ export const AgentItemResponseSchema = t.Object({
 
 export type AgentItemResponse = Static<typeof AgentItemResponseSchema>;
 
-export const AgentArticleQuerySchema = t.Object({
+const AgentArticleFilterSchema = t.Object({
   titles: t.Optional(
     t.Array(t.String(), {
       description: 'Fuzzy match article titles (e.g., "breeding", "ev training")',
@@ -442,18 +419,9 @@ export const AgentArticleQuerySchema = t.Object({
   ),
   includeBody: t.Optional(t.Boolean({ description: 'Include full article body. Can be large' })),
   includeCategories: t.Optional(t.Boolean({ description: 'Include category names' })),
-  limit: t.Optional(
-    t.Number({
-      minimum: 1,
-      maximum: 100,
-      default: 20,
-      description: 'Max results to return (1-100, default 20)',
-    })
-  ),
-  offset: t.Optional(
-    t.Number({ minimum: 0, default: 0, description: 'Number of results to skip for pagination' })
-  ),
 });
+
+export const AgentArticleQuerySchema = t.Composite([AgentArticleFilterSchema, PaginationSchema]);
 
 export type AgentArticleQuery = Static<typeof AgentArticleQuerySchema>;
 

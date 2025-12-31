@@ -12,6 +12,8 @@ import { PokemonRepository } from '@/modules/pokemon/repository';
 import { PokemonService } from '@/modules/pokemon/service';
 import { TypesRepository } from '@/modules/types/repository';
 import { db } from './db';
+import { OutboxRepository } from './outbox/repository';
+import { OutboxService } from './outbox/service';
 
 const pokemonRepository = new PokemonRepository(db);
 const typesRepository = new TypesRepository(db);
@@ -19,6 +21,7 @@ const abilitiesRepository = new AbilitiesRepository(db);
 const movesRepository = new MovesRepository(db);
 const itemsRepository = new ItemsRepository(db);
 const articleRepository = new ArticleRepository(db);
+const outboxRepository = new OutboxRepository(db);
 
 const pokemonService = new PokemonService(pokemonRepository);
 const abilitiesService = new AbilitiesService(abilitiesRepository);
@@ -33,6 +36,7 @@ const agentService = new AgentService(
   itemsRepository,
   articleRepository
 );
+const outboxService = new OutboxService(outboxRepository);
 
 export const pokemonSetup = new Elysia({ name: 'setup:pokemon' }).decorate(
   'pokemonService',
@@ -63,3 +67,10 @@ export const agentSetup = new Elysia({ name: 'setup:agent' }).decorate(
   'agentService',
   agentService
 );
+
+export const outboxSetup = new Elysia({ name: 'setup:outbox' }).decorate(
+  'outboxService',
+  outboxService
+);
+
+export { outboxService };

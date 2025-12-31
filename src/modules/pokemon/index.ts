@@ -14,6 +14,22 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
     },
   })
   .get(
+    '/form/:identifier',
+    async ({ params, query, pokemonService }) => {
+      const result = await pokemonService.getFormByIdentifier(params.identifier, query);
+      if (!result) throw new NotFoundError('Form not found');
+      return result;
+    },
+    {
+      query: PokemonModel.getFormQuery,
+      response: PokemonModel.getFormResponse,
+      detail: {
+        summary: 'Get Pokemon form by ID or slug',
+        description: 'Get a single Pokemon form with its parent species by form ID or slug.',
+      },
+    }
+  )
+  .get(
     '/:identifier',
     async ({ params, query, pokemonService }) => {
       const result = await pokemonService.getByIdentifier(params.identifier, query);

@@ -12,6 +12,8 @@ import type {
   FormDrops,
   IncludeOptions,
   PokemonFilter,
+  Species,
+  SpeciesWithForm,
   SpeciesWithForms,
 } from './domain';
 
@@ -78,6 +80,67 @@ export class PokemonRepository {
     const relations = await this.fetchRelations(formIds, speciesIds, experienceGroupIds, options);
 
     return this.assembleResults(rows, relations)[0] ?? null;
+  }
+
+  async getFormByIdentifier(
+    identifier: string,
+    options: IncludeOptions = {}
+  ): Promise<SpeciesWithForm | null> {
+    const isId = /^\d+$/.test(identifier);
+
+    const row = await this.db
+      .selectFrom('forms as f')
+      .innerJoin('species as s', 's.id', 'f.species_id')
+      .select([
+        'f.id as form_id',
+        'f.slug as form_slug',
+        'f.name as form_name',
+        'f.form_name as form_full_name',
+        'f.description as form_description',
+        'f.generation as form_generation',
+        'f.species_id',
+        'f.height',
+        'f.weight',
+        'f.base_hp',
+        'f.base_attack',
+        'f.base_defence',
+        'f.base_special_attack',
+        'f.base_special_defence',
+        'f.base_speed',
+        'f.base_experience_yield',
+        'f.ev_hp',
+        'f.ev_attack',
+        'f.ev_defence',
+        'f.ev_special_attack',
+        'f.ev_special_defence',
+        'f.ev_speed',
+        's.id as species_id',
+        's.slug as species_slug',
+        's.name as species_name',
+        's.description as species_description',
+        's.generation as species_generation',
+        's.base_friendship',
+        's.base_scale',
+        's.catch_rate',
+        's.egg_cycles',
+        's.male_ratio',
+        's.experience_group_id',
+      ])
+      .where(isId ? 'f.id' : 'f.slug', '=', isId ? Number(identifier) : identifier)
+      .executeTakeFirst();
+
+    if (!row) return null;
+
+    const formIds = [row.form_id];
+    const speciesIds = [row.species_id];
+    const experienceGroupIds = row.experience_group_id ? [row.experience_group_id] : [];
+
+    const relations = await this.fetchRelations(formIds, speciesIds, experienceGroupIds, options);
+
+    const species = this.toSpeciesOnly(row, relations);
+    const form = this.toForm(row, relations);
+
+    return { ...species, form };
   }
 
   async searchPokemon(filters: PokemonFilter): Promise<SpeciesWithForms[]> {
@@ -841,6 +904,13 @@ export class PokemonRepository {
         : null,
       riding: relations.speciesRiding.get(row.species_id) ?? null,
     };
+  }
+
+  private toSpeciesOnly(
+    row: Awaited<ReturnType<ReturnType<typeof this.buildSearchQuery>['execute']>>[number],
+    relations: Awaited<ReturnType<typeof this.fetchRelations>>
+  ): Species {
+    return this.toSpecies(row, relations);
   }
 
   private toForm(

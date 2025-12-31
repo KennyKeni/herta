@@ -1,5 +1,7 @@
+import { cors } from '@elysiajs/cors';
 import { swagger } from '@elysiajs/swagger';
 import { Elysia } from 'elysia';
+import { config } from '@/config';
 import { abilities } from '@/modules/abilities';
 import { agent } from '@/modules/agent';
 import { articles } from '@/modules/article';
@@ -7,26 +9,29 @@ import { items } from '@/modules/items';
 import { moves } from '@/modules/moves';
 import { pokemon } from '@/modules/pokemon';
 
+const swaggerPlugin = swagger({
+  documentation: {
+    info: {
+      title: 'Herta API',
+      version: '1.0.0',
+      description: 'Pokemon and Cobblemon data API',
+    },
+    tags: [
+      { name: 'pokemon', description: 'Pokemon data endpoints' },
+      { name: 'abilities', description: 'Ability data endpoints' },
+      { name: 'moves', description: 'Move data endpoints' },
+      { name: 'items', description: 'Item data endpoints' },
+      { name: 'articles', description: 'Article data endpoints' },
+      { name: 'agent', description: 'Simplified API for AI agents' },
+    ],
+  },
+});
+
 const app = new Elysia()
-  .use(
-    swagger({
-      documentation: {
-        info: {
-          title: 'Herta API',
-          version: '1.0.0',
-          description: 'Pokemon and Cobblemon data API',
-        },
-        tags: [
-          { name: 'pokemon', description: 'Pokemon data endpoints' },
-          { name: 'abilities', description: 'Ability data endpoints' },
-          { name: 'moves', description: 'Move data endpoints' },
-          { name: 'items', description: 'Item data endpoints' },
-          { name: 'articles', description: 'Article data endpoints' },
-          { name: 'agent', description: 'Simplified API for AI agents' },
-        ],
-      },
-    })
-  )
+  .use(cors({
+    origin: config.app.CORS_ORIGIN === '*' ? true : config.app.CORS_ORIGIN.split(','),
+  }))
+  .use(config.app.SWAGGER_ENABLED ? swaggerPlugin : (app) => app)
   .onRequest(({ request }) => {
     console.log(`${request.method} ${request.url}`);
   })
@@ -40,6 +45,6 @@ const app = new Elysia()
   .use(items)
   .use(articles)
   .use(agent)
-  .listen(3000);
+  .listen(config.app.PORT);
 
 console.log(`Elysia is running at ${app.server?.hostname}:${app.server?.port}`);

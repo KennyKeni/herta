@@ -11,6 +11,7 @@ import {
   itemsSeeder,
   movesSeeder,
   naturesSeeder,
+  outboxSeeder,
   pokemonDataSeeder,
   recipesSeeder,
   speciesSeeder,
@@ -31,6 +32,7 @@ const SEEDERS: Seeder[] = [
   recipesSeeder,
   pokemonDataSeeder,
   articlesSeeder,
+  outboxSeeder,
 ];
 
 async function main() {

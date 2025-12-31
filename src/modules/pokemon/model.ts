@@ -298,7 +298,7 @@ const FormSchema = t.Object({
   spawns: t.Array(FormSpawnSchema),
 });
 
-const SpeciesWithFormsSchema = t.Object({
+const SpeciesSchema = t.Object({
   id: t.Number(),
   name: t.String(),
   slug: t.String(),
@@ -332,8 +332,17 @@ const SpeciesWithFormsSchema = t.Object({
     })
   ),
   riding: t.Nullable(t.Object({ data: t.Unknown() })),
-  forms: t.Array(FormSchema),
 });
+
+const SpeciesWithFormsSchema = t.Composite([
+  SpeciesSchema,
+  t.Object({ forms: t.Array(FormSchema) }),
+]);
+
+const SpeciesWithFormSchema = t.Composite([
+  SpeciesSchema,
+  t.Object({ form: FormSchema }),
+]);
 
 export const PokemonSearchResponseSchema = t.Array(SpeciesWithFormsSchema);
 
@@ -344,4 +353,6 @@ export const PokemonModel = {
   searchResponse: PokemonSearchResponseSchema,
   getOneQuery: IncludeOptionsSchema,
   getOneResponse: SpeciesWithFormsSchema,
+  getFormQuery: IncludeOptionsSchema,
+  getFormResponse: SpeciesWithFormSchema,
 };
