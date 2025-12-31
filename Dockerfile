@@ -9,7 +9,7 @@ FROM base AS release
 COPY --from=install /app/node_modules node_modules
 COPY src src
 COPY .config .config
-COPY package.json ./
+COPY package.json tsconfig.json ./
 USER bun
 
 FROM release AS api
