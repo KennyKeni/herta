@@ -32,7 +32,7 @@ const swaggerPlugin = swagger({
 const app = new Elysia()
   .use(
     cors({
-      origin: config.app.CORS_ORIGIN === '*' ? true : config.app.CORS_ORIGIN.split(','),
+      origin: config.app.CORS_ORIGIN === '*' ? '*' : config.app.CORS_ORIGIN.split(','),
     })
   )
   .use(serverTiming())
@@ -41,9 +41,6 @@ const app = new Elysia()
     console.log(`[req] ${request.method} ${request.url}`);
   })
   .onAfterHandle(({ request, set }) => {
-    delete set.headers['Vary'];
-    set.headers['Vary'] = 'Accept-Encoding';
-
     if (!config.cache.CACHE_ENABLED) return;
     if (request.method !== 'GET') return;
 
