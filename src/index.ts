@@ -29,10 +29,19 @@ const swaggerPlugin = swagger({
   },
 });
 
+const parseOrigins = (origins: string): (string | RegExp)[] =>
+  origins.split(',').map((o) => {
+    const trimmed = o.trim();
+    if (trimmed.startsWith('/') && trimmed.endsWith('/')) {
+      return new RegExp(trimmed.slice(1, -1));
+    }
+    return trimmed;
+  });
+
 const app = new Elysia()
   .use(
     cors({
-      origin: config.app.CORS_ORIGIN === '*' ? true : config.app.CORS_ORIGIN.split(','),
+      origin: config.app.CORS_ORIGIN === '*' ? true : parseOrigins(config.app.CORS_ORIGIN),
     })
   )
   .use(serverTiming())
