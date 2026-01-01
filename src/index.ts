@@ -29,18 +29,22 @@ const swaggerPlugin = swagger({
   },
 });
 
+const isWildcardCors = config.app.CORS_ORIGIN === '*';
+
 const app = new Elysia()
-  .use(
-    cors({
-      origin: config.app.CORS_ORIGIN === '*' ? '*' : config.app.CORS_ORIGIN.split(','),
-    })
-  )
+  .use(isWildcardCors ? (app) => app : cors({ origin: config.app.CORS_ORIGIN.split(',') }))
   .use(serverTiming())
   .use(config.app.SWAGGER_ENABLED ? swaggerPlugin : (app) => app)
   .onRequest(({ request }) => {
     console.log(`[req] ${request.method} ${request.url}`);
   })
   .onAfterHandle(({ request, set }) => {
+    if (isWildcardCors) {
+      set.headers['Access-Control-Allow-Origin'] = '*';
+      set.headers['Access-Control-Allow-Methods'] = 'GET, POST, PUT, PATCH, DELETE, OPTIONS';
+      set.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization';
+    }
+
     if (!config.cache.CACHE_ENABLED) return;
     if (request.method !== 'GET') return;
 
