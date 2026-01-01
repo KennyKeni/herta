@@ -35,6 +35,10 @@ const app = new Elysia()
       origin: config.app.CORS_ORIGIN === '*' ? true : config.app.CORS_ORIGIN.split(','),
     })
   )
+  .derive(({ set }) => {
+    set.headers['Vary'] = 'Accept-Encoding';
+    return {};
+  })
   .use(serverTiming())
   .use(config.app.SWAGGER_ENABLED ? swaggerPlugin : (app) => app)
   .onRequest(({ request }) => {
