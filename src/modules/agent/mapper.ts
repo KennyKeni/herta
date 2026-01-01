@@ -133,9 +133,9 @@ export function toResponse(
 
       if (query.includeBreeding) {
         pokemon.breeding = {
-          eggCycles: sp.eggCycles,
-          baseFriendship: sp.baseFriendship,
-          maleRatio: sp.maleRatio,
+          eggCycles: form.eggCycles,
+          baseFriendship: form.baseFriendship,
+          maleRatio: form.maleRatio,
         };
       }
 

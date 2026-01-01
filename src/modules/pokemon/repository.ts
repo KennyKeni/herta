@@ -34,6 +34,7 @@ export class PokemonRepository {
     const rows = await this.db
       .selectFrom('forms as f')
       .innerJoin('species as s', 's.id', 'f.species_id')
+      .leftJoin('form_overrides as fo', 'fo.form_id', 'f.id')
       .select([
         'f.id as form_id',
         'f.slug as form_slug',
@@ -62,13 +63,13 @@ export class PokemonRepository {
         's.name as species_name',
         's.description as species_description',
         's.generation as species_generation',
-        's.base_friendship',
-        's.base_scale',
-        's.catch_rate',
-        's.egg_cycles',
-        's.male_ratio',
         's.experience_group_id',
       ])
+      .select(sql<number>`COALESCE(fo.catch_rate, s.catch_rate)`.as('catch_rate'))
+      .select(sql<number>`COALESCE(fo.base_friendship, s.base_friendship)`.as('base_friendship'))
+      .select(sql<number>`COALESCE(fo.egg_cycles, s.egg_cycles)`.as('egg_cycles'))
+      .select(sql<number | null>`COALESCE(fo.male_ratio, s.male_ratio)`.as('male_ratio'))
+      .select(sql<number | null>`COALESCE(fo.base_scale, s.base_scale)`.as('base_scale'))
       .where(isId ? 's.id' : 's.slug', '=', isId ? Number(identifier) : identifier)
       .execute();
 
@@ -92,6 +93,7 @@ export class PokemonRepository {
     const row = await this.db
       .selectFrom('forms as f')
       .innerJoin('species as s', 's.id', 'f.species_id')
+      .leftJoin('form_overrides as fo', 'fo.form_id', 'f.id')
       .select([
         'f.id as form_id',
         'f.slug as form_slug',
@@ -120,13 +122,13 @@ export class PokemonRepository {
         's.name as species_name',
         's.description as species_description',
         's.generation as species_generation',
-        's.base_friendship',
-        's.base_scale',
-        's.catch_rate',
-        's.egg_cycles',
-        's.male_ratio',
         's.experience_group_id',
       ])
+      .select(sql<number>`COALESCE(fo.catch_rate, s.catch_rate)`.as('catch_rate'))
+      .select(sql<number>`COALESCE(fo.base_friendship, s.base_friendship)`.as('base_friendship'))
+      .select(sql<number>`COALESCE(fo.egg_cycles, s.egg_cycles)`.as('egg_cycles'))
+      .select(sql<number | null>`COALESCE(fo.male_ratio, s.male_ratio)`.as('male_ratio'))
+      .select(sql<number | null>`COALESCE(fo.base_scale, s.base_scale)`.as('base_scale'))
       .where(isId ? 'f.id' : 'f.slug', '=', isId ? Number(identifier) : identifier)
       .executeTakeFirst();
 
@@ -279,6 +281,7 @@ export class PokemonRepository {
     let query = this.db
       .selectFrom('forms as f')
       .innerJoin('species as s', 's.id', 'f.species_id')
+      .leftJoin('form_overrides as fo', 'fo.form_id', 'f.id')
       .select([
         'f.id as form_id',
         'f.slug as form_slug',
@@ -307,13 +310,13 @@ export class PokemonRepository {
         's.name as species_name',
         's.description as species_description',
         's.generation as species_generation',
-        's.base_friendship',
-        's.base_scale',
-        's.catch_rate',
-        's.egg_cycles',
-        's.male_ratio',
         's.experience_group_id',
-      ]);
+      ])
+      .select(sql<number>`COALESCE(fo.catch_rate, s.catch_rate)`.as('catch_rate'))
+      .select(sql<number>`COALESCE(fo.base_friendship, s.base_friendship)`.as('base_friendship'))
+      .select(sql<number>`COALESCE(fo.egg_cycles, s.egg_cycles)`.as('egg_cycles'))
+      .select(sql<number | null>`COALESCE(fo.male_ratio, s.male_ratio)`.as('male_ratio'))
+      .select(sql<number | null>`COALESCE(fo.base_scale, s.base_scale)`.as('base_scale'));
     if (filter.formIds?.length) query = query.where('f.id', 'in', filter.formIds);
     if (filter.formSlugs?.length) query = query.where('f.slug', 'in', filter.formSlugs);
     if (filter.typeIds?.length || filter.typeSlugs?.length) {
@@ -955,15 +958,10 @@ export class PokemonRepository {
       slug: row.species_slug,
       description: row.species_description,
       generation: row.species_generation,
-      baseFriendship: row.base_friendship,
-      baseScale: row.base_scale,
-      catchRate: row.catch_rate,
-      eggCycles: row.egg_cycles,
       experienceGroup:
         (row.experience_group_id != null &&
           relations.experienceGroups.get(row.experience_group_id)) ||
         null,
-      maleRatio: row.male_ratio,
       eggGroups: (relations.eggGroups.get(row.species_id) ?? []).map((eg) => ({
         id: eg.id,
         name: eg.name,
@@ -999,6 +997,11 @@ export class PokemonRepository {
       generation: row.form_generation,
       height: row.height,
       weight: row.weight,
+      catchRate: row.catch_rate,
+      baseFriendship: row.base_friendship,
+      eggCycles: row.egg_cycles,
+      maleRatio: row.male_ratio,
+      baseScale: row.base_scale,
       baseHp: row.base_hp,
       baseAttack: row.base_attack,
       baseDefence: row.base_defence,

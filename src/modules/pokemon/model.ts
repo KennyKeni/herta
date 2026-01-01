@@ -20,7 +20,6 @@ export const IncludeOptionsSchema = t.Object({
   includeLighting: t.Optional(t.Boolean()),
   includeRiding: t.Optional(t.Boolean()),
   includeBehaviour: t.Optional(t.Boolean()),
-  includeOverrides: t.Optional(t.Boolean()),
   includeSpawns: t.Optional(t.Boolean()),
 });
 
@@ -269,6 +268,11 @@ const FormSchema = t.Object({
   generation: t.Nullable(t.Number()),
   height: t.Number(),
   weight: t.Number(),
+  catchRate: t.Number(),
+  baseFriendship: t.Number(),
+  eggCycles: t.Number(),
+  maleRatio: t.Nullable(t.Number()),
+  baseScale: t.Nullable(t.Number()),
   baseHp: t.Number(),
   baseAttack: t.Number(),
   baseDefence: t.Number(),
@@ -306,10 +310,6 @@ const SpeciesSchema = t.Object({
   slug: t.String(),
   description: t.Nullable(t.String()),
   generation: t.Number(),
-  baseFriendship: t.Number(),
-  baseScale: t.Nullable(t.Number()),
-  catchRate: t.Number(),
-  eggCycles: t.Number(),
   experienceGroup: t.Nullable(
     t.Object({
       id: t.Number(),
@@ -318,7 +318,6 @@ const SpeciesSchema = t.Object({
       formula: t.String(),
     })
   ),
-  maleRatio: t.Nullable(t.Number()),
   eggGroups: t.Array(EggGroupSchema),
   hitbox: t.Nullable(
     t.Object({

@@ -39,12 +39,7 @@ export interface Species {
   slug: string;
   description: string | null;
   generation: number;
-  baseFriendship: number;
-  baseScale: number | null;
-  catchRate: number;
-  eggCycles: number;
   experienceGroup: ExperienceGroup | null;
-  maleRatio: number | null;
   eggGroups: EggGroup[];
   hitbox: SpeciesHitbox | null;
   lighting: SpeciesLighting | null;
@@ -64,6 +59,11 @@ export interface Form {
   generation: number | null;
   height: number;
   weight: number;
+  catchRate: number;
+  baseFriendship: number;
+  eggCycles: number;
+  maleRatio: number | null;
+  baseScale: number | null;
   baseHp: number;
   baseAttack: number;
   baseDefence: number;
@@ -210,7 +210,6 @@ export interface IncludeOptions {
   includeLighting?: boolean;
   includeRiding?: boolean;
   includeBehaviour?: boolean;
-  includeOverrides?: boolean;
   includeSpawns?: boolean;
 }
 
