@@ -32,6 +32,12 @@ const outboxSchema = t.Object({
   OUTBOX_KAFKA_TOPIC: t.String({ minLength: 1 }),
 });
 
+const cacheSchema = t.Object({
+  CACHE_MAX_AGE: t.Numeric({ minimum: 0 }),
+  CACHE_STALE_WHILE_REVALIDATE: t.Numeric({ minimum: 0 }),
+  CACHE_ENABLED: t.BooleanString(),
+});
+
 const postgres = Value.Parse(postgresSchema, {
   POSTGRES_DB: 'herta',
   POSTGRES_HOST: 'localhost',
@@ -65,10 +71,18 @@ const app = Value.Parse(appSchema, {
   ...Bun.env,
 });
 
+const cache = Value.Parse(cacheSchema, {
+  CACHE_MAX_AGE: '60',
+  CACHE_STALE_WHILE_REVALIDATE: '300',
+  CACHE_ENABLED: 'true',
+  ...Bun.env,
+});
+
 export const config = {
   app,
   postgres,
   redis,
   kafka,
   outbox,
+  cache,
 } as const;

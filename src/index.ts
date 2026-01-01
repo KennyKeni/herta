@@ -40,6 +40,16 @@ const app = new Elysia()
   .onRequest(({ request }) => {
     console.log(`[req] ${request.method} ${request.url}`);
   })
+  .onAfterHandle(({ request, set }) => {
+    if (!config.cache.CACHE_ENABLED) return;
+    if (request.method !== 'GET') return;
+
+    const status = Number(set.status ?? 200);
+    if (status < 200 || status >= 300) return;
+
+    set.headers['Cache-Control'] =
+      `public, max-age=${config.cache.CACHE_MAX_AGE}, stale-while-revalidate=${config.cache.CACHE_STALE_WHILE_REVALIDATE}`;
+  })
   .onAfterResponse(({ request, set }) => {
     console.log(`[res] ${request.method} ${request.url} ${set.status ?? 200}`);
   })
