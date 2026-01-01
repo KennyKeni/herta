@@ -41,6 +41,7 @@ const app = new Elysia()
     console.log(`[req] ${request.method} ${request.url}`);
   })
   .onAfterHandle(({ request, set }) => {
+    delete set.headers['Vary'];
     set.headers['Vary'] = 'Accept-Encoding';
 
     if (!config.cache.CACHE_ENABLED) return;
