@@ -41,6 +41,8 @@ const app = new Elysia()
     console.log(`[req] ${request.method} ${request.url}`);
   })
   .onAfterHandle(({ request, set }) => {
+    set.headers['Vary'] = 'Accept-Encoding';
+
     if (!config.cache.CACHE_ENABLED) return;
     if (request.method !== 'GET') return;
 
