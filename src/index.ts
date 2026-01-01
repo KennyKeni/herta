@@ -46,7 +46,8 @@ const app = new Elysia()
   )
   .use(serverTiming())
   .use(config.app.SWAGGER_ENABLED ? swaggerPlugin : (app) => app)
-  .onRequest(({ request }) => {
+  .onRequest(({ request, store }) => {
+    (store as { startTime: number }).startTime = performance.now();
     console.log(`[req] ${request.method} ${request.url}`);
   })
   .onAfterHandle(({ request, set }) => {
@@ -59,8 +60,9 @@ const app = new Elysia()
     set.headers['Cache-Control'] =
       `public, max-age=${config.cache.CACHE_MAX_AGE}, stale-while-revalidate=${config.cache.CACHE_STALE_WHILE_REVALIDATE}`;
   })
-  .onAfterResponse(({ request, set }) => {
-    console.log(`[res] ${request.method} ${request.url} ${set.status ?? 200}`);
+  .onAfterResponse(({ request, set, store }) => {
+    const duration = performance.now() - (store as { startTime: number }).startTime;
+    console.log(`[res] ${request.method} ${request.url} ${set.status ?? 200} ${duration.toFixed(0)}ms`);
   })
   .onError(({ error, request }) => {
     console.error(`[error] ${request.method} ${request.url}`, error);
