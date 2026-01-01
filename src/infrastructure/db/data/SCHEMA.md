@@ -2,11 +2,12 @@
 
 Auto-generated documentation for the pipeline output.
 
-**Total files:** 86
+**Total files:** 111
 
 ## Domains
 
 - **Pokemon** (`pokemon/`): 31 tables
+- **Evolutions** (`evolutions/`): 25 tables
 - **Moves** (`moves/`): 11 tables
 - **Abilities** (`abilities/`): 4 tables
 - **Items & Recipes** (`items/`): 13 tables
@@ -51,6 +52,36 @@ Auto-generated documentation for the pipeline output.
 | `experience_groups` | 6 | id, slug, name, formula |
 | `natures` | 25 | id, slug, name, plusStatId, minusStatId |
 | `stats` | 6 | id, name |
+
+### Evolutions
+
+| Table | Rows | Columns |
+|-------|------|---------|
+| `evolution_triggers` | 3 | id, slug, name |
+| `evolutions` | 660 | id, fromFormId, toFormId, triggerId, contextItemId, ... (+1) |
+| `evolution_moves` | 452 | evolutionId, moveId |
+| `evo_req_level` | 422 | evolutionId, minLevel, id |
+| `evo_req_friendship` | 21 | evolutionId, amount, id |
+| `evo_req_time_range` | 85 | evolutionId, timeRange, id |
+| `evo_req_biome` | 75 | evolutionId, biomeCondition, biomeAnticondition, id |
+| `evo_req_held_item` | 93 | evolutionId, itemCondition, id |
+| `evo_req_has_move` | 19 | evolutionId, move, id |
+| `evo_req_has_move_type` | 1 | evolutionId, type, id |
+| `evo_req_stat_compare` | 2 | evolutionId, highStat, lowStat, id |
+| `evo_req_stat_equal` | 1 | evolutionId, statOne, statTwo, id |
+| `evo_req_party_member` | 3 | evolutionId, target, contains, id |
+| `evo_req_moon_phase` | 1 | evolutionId, moonPhase, id |
+| `evo_req_weather` | 2 | evolutionId, isRaining, id |
+| `evo_req_structure` | 19 | evolutionId, structureCondition, structureAnticondition, id |
+| `evo_req_blocks_traveled` | 3 | evolutionId, amount, id |
+| `evo_req_use_move` | 1 | evolutionId, move, amount, id |
+| `evo_req_battle_critical_hits` | 1 | evolutionId, amount, id |
+| `evo_req_damage_taken` | 1 | evolutionId, amount, id |
+| `evo_req_defeat` | 1 | evolutionId, target, amount, id |
+| `evo_req_recoil` | 1 | evolutionId, amount, id |
+| `evo_req_properties` | 38 | evolutionId, target, id |
+| `evo_req_advancement` | 1 | evolutionId, advancement, id |
+| `evo_req_property_range` | 14 | evolutionId, feature, range, id |
 
 ### Moves
 

@@ -1,4 +1,5 @@
 import { cors } from '@elysiajs/cors';
+import { serverTiming } from '@elysiajs/server-timing';
 import { swagger } from '@elysiajs/swagger';
 import { Elysia } from 'elysia';
 import { config } from '@/config';
@@ -34,6 +35,7 @@ const app = new Elysia()
       origin: config.app.CORS_ORIGIN === '*' ? true : config.app.CORS_ORIGIN.split(','),
     })
   )
+  .use(serverTiming())
   .use(config.app.SWAGGER_ENABLED ? swaggerPlugin : (app) => app)
   .onRequest(({ request }) => {
     console.log(`[req] ${request.method} ${request.url}`);
