@@ -164,6 +164,36 @@ export class PokemonRepository {
     return this.assembleResults(rows, relations);
   }
 
+  async searchBySpecies(filters: PokemonFilter): Promise<SpeciesWithForms[]> {
+    const speciesIdsQuery = this.buildSearchQuery(filters)
+      .select('f.species_id')
+      .distinctOn('f.species_id')
+      .orderBy('f.species_id')
+      .limit(filters.limit ?? 20)
+      .offset(filters.offset ?? 0);
+
+    const speciesRows = await speciesIdsQuery.execute();
+    if (speciesRows.length === 0) return [];
+
+    const targetSpeciesIds = speciesRows.map((r) => r.species_id);
+
+    const rows = await this.buildSearchQuery(filters)
+      .where('f.species_id', 'in', targetSpeciesIds)
+      .orderBy('f.species_id')
+      .execute();
+
+    if (rows.length === 0) return [];
+
+    const formIds = rows.map((r) => r.form_id);
+    const speciesIds = [...new Set(rows.map((r) => r.species_id))];
+    const experienceGroupIds = [
+      ...new Set(rows.map((r) => r.experience_group_id).filter((id): id is number => id != null)),
+    ];
+
+    const relations = await this.fetchRelations(formIds, speciesIds, experienceGroupIds, filters);
+    return this.assembleResults(rows, relations);
+  }
+
   async fuzzyResolveSpecies(names: string[]): Promise<string[]> {
     if (!names.length) return [];
 

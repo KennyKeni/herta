@@ -4,12 +4,12 @@ import { AbilityModel } from './model';
 
 export const abilities = new Elysia({ prefix: '/abilities', tags: ['abilities'] })
   .use(abilitiesSetup)
-  .get('/search', ({ query, abilitiesService }) => abilitiesService.search(query), {
+  .get('/', ({ query, abilitiesService }) => abilitiesService.search(query), {
     query: AbilityModel.searchQuery,
     response: AbilityModel.searchResponse,
     detail: {
-      summary: 'Search Abilities',
-      description: 'Search abilities with filtering by IDs, slugs, and flags.',
+      summary: 'List Abilities',
+      description: 'List abilities with optional filtering by IDs, slugs, and flags.',
     },
   })
   .get(

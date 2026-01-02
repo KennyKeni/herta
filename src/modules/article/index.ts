@@ -4,12 +4,12 @@ import { ArticleModel } from './model';
 
 export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
   .use(articleSetup)
-  .get('/search', ({ query, articleService }) => articleService.search(query), {
+  .get('/', ({ query, articleService }) => articleService.search(query), {
     query: ArticleModel.searchQuery,
     response: ArticleModel.searchResponse,
     detail: {
-      summary: 'Search Articles',
-      description: 'Search articles with filtering by IDs, slugs, categories, and author.',
+      summary: 'List Articles',
+      description: 'List articles with optional filtering by IDs, slugs, categories, and author.',
     },
   })
   .get(

@@ -4,13 +4,13 @@ import { MoveModel } from './model';
 
 export const moves = new Elysia({ prefix: '/moves', tags: ['moves'] })
   .use(movesSetup)
-  .get('/search', ({ query, movesService }) => movesService.search(query), {
+  .get('/', ({ query, movesService }) => movesService.search(query), {
     query: MoveModel.searchQuery,
     response: MoveModel.searchResponse,
     detail: {
-      summary: 'Search Moves',
+      summary: 'List Moves',
       description:
-        'Search moves with filtering by IDs, slugs, types, categories, targets, and flags.',
+        'List moves with optional filtering by IDs, slugs, types, categories, targets, and flags.',
     },
   })
   .get(

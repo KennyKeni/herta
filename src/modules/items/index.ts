@@ -4,12 +4,12 @@ import { ItemModel } from './model';
 
 export const items = new Elysia({ prefix: '/items', tags: ['items'] })
   .use(itemsSetup)
-  .get('/search', ({ query, itemsService }) => itemsService.search(query), {
+  .get('/', ({ query, itemsService }) => itemsService.search(query), {
     query: ItemModel.searchQuery,
     response: ItemModel.searchResponse,
     detail: {
-      summary: 'Search Items',
-      description: 'Search items with filtering by IDs and tags.',
+      summary: 'List Items',
+      description: 'List items with optional filtering by IDs and tags.',
     },
   })
   .get(
