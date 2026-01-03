@@ -71,6 +71,7 @@ export class PokemonRepository {
       .select(sql<number | null>`COALESCE(fo.male_ratio, s.male_ratio)`.as('male_ratio'))
       .select(sql<number | null>`COALESCE(fo.base_scale, s.base_scale)`.as('base_scale'))
       .where(isId ? 's.id' : 's.slug', '=', isId ? Number(identifier) : identifier)
+      .orderBy('f.id')
       .execute();
 
     if (rows.length === 0) return null;
@@ -180,6 +181,7 @@ export class PokemonRepository {
     const rows = await this.buildSearchQuery(filters)
       .where('f.species_id', 'in', targetSpeciesIds)
       .orderBy('f.species_id')
+      .orderBy('f.id')
       .execute();
 
     if (rows.length === 0) return [];
