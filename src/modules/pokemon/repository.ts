@@ -148,7 +148,17 @@ export class PokemonRepository {
   }
 
   async searchPokemon(filters: PokemonFilter): Promise<SpeciesWithForms[]> {
-    const rows = await this.buildSearchQuery(filters)
+    let query = this.buildSearchQuery(filters);
+
+    if (filters.name) {
+      query = query
+        .where(sql<boolean>`f.name % ${filters.name}`)
+        .orderBy(sql`similarity(f.name, ${filters.name})`, 'desc');
+    } else {
+      query = query.orderBy('f.species_id').orderBy('f.id');
+    }
+
+    const rows = await query
       .limit(filters.limit ?? 20)
       .offset(filters.offset ?? 0)
       .execute();
@@ -166,23 +176,37 @@ export class PokemonRepository {
   }
 
   async searchBySpecies(filters: PokemonFilter): Promise<SpeciesWithForms[]> {
-    const speciesIdsQuery = this.buildSearchQuery(filters)
+    let speciesIdsQuery = this.buildSearchQuery(filters)
       .select('f.species_id')
-      .distinctOn('f.species_id')
-      .orderBy('f.species_id')
-      .limit(filters.limit ?? 20)
-      .offset(filters.offset ?? 0);
+      .distinctOn('f.species_id');
+
+    if (filters.name) {
+      speciesIdsQuery = speciesIdsQuery
+        .where(sql<boolean>`s.name % ${filters.name}`)
+        .orderBy('f.species_id')
+        .orderBy(sql`similarity(s.name, ${filters.name})`, 'desc');
+    } else {
+      speciesIdsQuery = speciesIdsQuery.orderBy('f.species_id');
+    }
+
+    speciesIdsQuery = speciesIdsQuery.limit(filters.limit ?? 20).offset(filters.offset ?? 0);
 
     const speciesRows = await speciesIdsQuery.execute();
     if (speciesRows.length === 0) return [];
 
     const targetSpeciesIds = speciesRows.map((r) => r.species_id);
 
-    const rows = await this.buildSearchQuery(filters)
-      .where('f.species_id', 'in', targetSpeciesIds)
-      .orderBy('f.species_id')
-      .orderBy('f.id')
-      .execute();
+    let formsQuery = this.buildSearchQuery(filters).where('f.species_id', 'in', targetSpeciesIds);
+
+    if (filters.name) {
+      formsQuery = formsQuery
+        .orderBy(sql`similarity(s.name, ${filters.name})`, 'desc')
+        .orderBy('f.id');
+    } else {
+      formsQuery = formsQuery.orderBy('f.species_id').orderBy('f.id');
+    }
+
+    const rows = await formsQuery.execute();
 
     if (rows.length === 0) return [];
 

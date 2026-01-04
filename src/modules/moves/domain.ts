@@ -112,6 +112,7 @@ export interface IncludeOptions {
 }
 
 export interface MoveFilter extends IncludeOptions {
+  name?: string;
   moveIds?: number[];
   moveSlugs?: string[];
   typeIds?: number[];

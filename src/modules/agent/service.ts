@@ -41,32 +41,23 @@ export class AgentService {
   ) {}
 
   async searchPokemon(query: AgentPokemonQuery): Promise<AgentPokemonResponse> {
-    const [typeIds, abilityIds, moveIds, eggGroupIds, labelIds, dropItemIds, formMatches] =
-      await Promise.all([
-        query.types ? this.typesRepository.fuzzyResolve(query.types) : [],
-        query.abilities ? this.abilitiesRepository.fuzzyResolve(query.abilities) : [],
-        query.moves ? this.movesRepository.fuzzyResolve(query.moves) : [],
-        query.eggGroups ? this.pokemonRepository.fuzzyResolveEggGroups(query.eggGroups) : [],
-        query.labels ? this.pokemonRepository.fuzzyResolveLabels(query.labels) : [],
-        query.dropsItems ? this.itemsRepository.fuzzyResolve(query.dropsItems) : [],
-        query.names
-          ? Promise.all(
-              query.names.map((name) =>
-                this.pokemonRepository.fuzzyMatchForms(name, { limit: query.limit })
-              )
-            ).then((results) => results.flat())
-          : [],
-      ]);
-    const formSlugs = formMatches.map((m) => m.id);
+    const [typeIds, abilityIds, moveIds, eggGroupIds, labelIds, dropItemIds] = await Promise.all([
+      query.types ? this.typesRepository.fuzzyResolve(query.types) : [],
+      query.abilities ? this.abilitiesRepository.fuzzyResolve(query.abilities) : [],
+      query.moves ? this.movesRepository.fuzzyResolve(query.moves) : [],
+      query.eggGroups ? this.pokemonRepository.fuzzyResolveEggGroups(query.eggGroups) : [],
+      query.labels ? this.pokemonRepository.fuzzyResolveLabels(query.labels) : [],
+      query.dropsItems ? this.itemsRepository.fuzzyResolve(query.dropsItems) : [],
+    ]);
 
     const filter: PokemonFilter = {
+      name: query.name,
       typeIds: typeIds.length ? typeIds : undefined,
       abilityIds: abilityIds.length ? abilityIds : undefined,
       moveIds: moveIds.length ? moveIds : undefined,
       eggGroupIds: eggGroupIds.length ? eggGroupIds : undefined,
       labelIds: labelIds.length ? labelIds : undefined,
       dropItemIds: dropItemIds.length ? dropItemIds : undefined,
-      formSlugs: formSlugs.length ? formSlugs : undefined,
       generation: Array.isArray(query.generation) ? undefined : query.generation,
       generations: Array.isArray(query.generation) ? query.generation : undefined,
       ...mapIncludeFlags(query),
@@ -85,10 +76,8 @@ export class AgentService {
   }
 
   async searchAbilities(query: AgentAbilityQuery): Promise<AgentAbilityResponse> {
-    const abilityIds = query.names ? await this.abilitiesRepository.fuzzyResolve(query.names) : [];
-
     const filter: AbilityFilter = {
-      abilityIds: abilityIds.length ? abilityIds : undefined,
+      name: query.name,
       includeFlags: query.includeFlags,
       limit: query.limit,
       offset: query.offset,
@@ -99,14 +88,13 @@ export class AgentService {
   }
 
   async searchMoves(query: AgentMoveQuery): Promise<AgentMoveResponse> {
-    const [moveIds, typeIds, categoryIds] = await Promise.all([
-      query.names ? this.movesRepository.fuzzyResolve(query.names) : [],
+    const [typeIds, categoryIds] = await Promise.all([
       query.types ? this.typesRepository.fuzzyResolve(query.types) : [],
       query.categories ? this.movesRepository.fuzzyResolveCategories(query.categories) : [],
     ]);
 
     const filter: MoveFilter = {
-      moveIds: moveIds.length ? moveIds : undefined,
+      name: query.name,
       typeIds: typeIds.length ? typeIds : undefined,
       categoryIds: categoryIds.length ? categoryIds : undefined,
       includeFlags: query.includeFlags,
@@ -122,13 +110,10 @@ export class AgentService {
   }
 
   async searchItems(query: AgentItemQuery): Promise<AgentItemResponse> {
-    const [itemIds, tagIds] = await Promise.all([
-      query.names ? this.itemsRepository.fuzzyResolve(query.names) : [],
-      query.tags ? this.itemsRepository.fuzzyResolveTags(query.tags) : [],
-    ]);
+    const tagIds = query.tags ? await this.itemsRepository.fuzzyResolveTags(query.tags) : [];
 
     const filter: ItemFilter = {
-      itemIds: itemIds.length ? itemIds : undefined,
+      name: query.name,
       tagIds: tagIds.length ? tagIds : undefined,
       includeBoosts: query.includeBoosts,
       includeTags: query.includeTags,
@@ -142,13 +127,12 @@ export class AgentService {
   }
 
   async searchArticles(query: AgentArticleQuery): Promise<AgentArticleSearchResponse> {
-    const [articleIds, categoryIds] = await Promise.all([
-      query.titles ? this.articleRepository.fuzzyResolve(query.titles) : [],
-      query.categories ? this.articleRepository.fuzzyResolveCategories(query.categories) : [],
-    ]);
+    const categoryIds = query.categories
+      ? await this.articleRepository.fuzzyResolveCategories(query.categories)
+      : [];
 
     const filter: ArticleFilter = {
-      articleIds: articleIds.length ? articleIds : undefined,
+      title: query.title,
       categoryIds: categoryIds.length ? categoryIds : undefined,
       includeCategories: query.includeCategories,
       limit: query.limit,

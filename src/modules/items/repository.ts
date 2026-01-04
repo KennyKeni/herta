@@ -88,7 +88,17 @@ export class ItemsRepository {
   }
 
   async searchItems(filters: ItemFilter): Promise<Item[]> {
-    const rows = await this.buildSearchQuery(filters)
+    let query = this.buildSearchQuery(filters);
+
+    if (filters.name) {
+      query = query
+        .where(sql<boolean>`i.name % ${filters.name}`)
+        .orderBy(sql`similarity(i.name, ${filters.name})`, 'desc');
+    } else {
+      query = query.orderBy('i.id');
+    }
+
+    const rows = await query
       .limit(filters.limit ?? 20)
       .offset(filters.offset ?? 0)
       .execute();

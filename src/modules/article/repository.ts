@@ -63,7 +63,17 @@ export class ArticleRepository {
   }
 
   async searchArticles(filters: ArticleFilter): Promise<Article[]> {
-    const rows = await this.buildSearchQuery(filters)
+    let query = this.buildSearchQuery(filters);
+
+    if (filters.title) {
+      query = query
+        .where(sql<boolean>`title % ${filters.title}`)
+        .orderBy(sql`similarity(title, ${filters.title})`, 'desc');
+    } else {
+      query = query.orderBy('id');
+    }
+
+    const rows = await query
       .limit(filters.limit ?? 20)
       .offset(filters.offset ?? 0)
       .execute();

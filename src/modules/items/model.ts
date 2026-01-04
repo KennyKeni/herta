@@ -8,6 +8,7 @@ export const IncludeOptionsSchema = t.Object({
 });
 
 const ItemFilterSchema = t.Object({
+  name: t.Optional(t.String()),
   itemIds: t.Optional(t.Array(t.Number())),
   tagIds: t.Optional(t.Array(t.Number())),
   tagSlugs: t.Optional(t.Array(t.String())),

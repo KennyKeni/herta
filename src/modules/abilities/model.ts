@@ -5,6 +5,7 @@ export const IncludeOptionsSchema = t.Object({
 });
 
 const AbilityFilterSchema = t.Object({
+  name: t.Optional(t.String()),
   abilityIds: t.Optional(t.Array(t.Number())),
   abilitySlugs: t.Optional(t.Array(t.String())),
   flagIds: t.Optional(t.Array(t.Number())),

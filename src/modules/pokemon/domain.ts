@@ -214,6 +214,7 @@ export interface IncludeOptions {
 }
 
 export interface PokemonFilter extends IncludeOptions {
+  name?: string;
   formIds?: number[];
   formSlugs?: string[];
   speciesIds?: number[];

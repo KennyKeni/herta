@@ -44,7 +44,17 @@ export class AbilitiesRepository {
   }
 
   async searchAbilities(filters: AbilityFilter): Promise<Ability[]> {
-    const rows = await this.buildSearchQuery(filters)
+    let query = this.buildSearchQuery(filters);
+
+    if (filters.name) {
+      query = query
+        .where(sql<boolean>`a.name % ${filters.name}`)
+        .orderBy(sql`similarity(a.name, ${filters.name})`, 'desc');
+    } else {
+      query = query.orderBy('a.id');
+    }
+
+    const rows = await query
       .limit(filters.limit ?? 20)
       .offset(filters.offset ?? 0)
       .execute();

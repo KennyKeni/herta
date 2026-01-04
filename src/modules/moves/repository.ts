@@ -257,7 +257,17 @@ export class MovesRepository {
   }
 
   async searchMoves(filters: MoveFilter): Promise<Move[]> {
-    const rows = await this.buildSearchQuery(filters)
+    let query = this.buildSearchQuery(filters);
+
+    if (filters.name) {
+      query = query
+        .where(sql<boolean>`m.name % ${filters.name}`)
+        .orderBy(sql`similarity(m.name, ${filters.name})`, 'desc');
+    } else {
+      query = query.orderBy('m.id');
+    }
+
+    const rows = await query
       .limit(filters.limit ?? 20)
       .offset(filters.offset ?? 0)
       .execute();

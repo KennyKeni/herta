@@ -26,6 +26,7 @@ export const IncludeOptionsSchema = t.Object({
 export type IncludeOptionsQuery = typeof IncludeOptionsSchema.static;
 
 const PokemonFilterSchema = t.Object({
+  name: t.Optional(t.String()),
   formIds: t.Optional(t.Array(t.Number())),
   formSlugs: t.Optional(t.Array(t.String())),
   speciesIds: t.Optional(t.Array(t.Number())),

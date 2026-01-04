@@ -9,6 +9,7 @@ export const IncludeOptionsSchema = t.Object({
 });
 
 const MoveFilterSchema = t.Object({
+  name: t.Optional(t.String()),
   moveIds: t.Optional(t.Array(t.Number())),
   moveSlugs: t.Optional(t.Array(t.String())),
   typeIds: t.Optional(t.Array(t.Number())),

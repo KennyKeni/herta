@@ -23,6 +23,7 @@ export interface IncludeOptions {
 }
 
 export interface ArticleFilter extends IncludeOptions {
+  title?: string;
   articleIds?: number[];
   articleSlugs?: string[];
   categoryIds?: number[];

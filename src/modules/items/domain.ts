@@ -97,6 +97,7 @@ export interface IncludeOptions {
 }
 
 export interface ItemFilter extends IncludeOptions {
+  name?: string;
   itemIds?: number[];
   tagIds?: number[];
   tagSlugs?: string[];

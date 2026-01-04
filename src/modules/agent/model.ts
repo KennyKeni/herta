@@ -15,9 +15,9 @@ const PaginationSchema = t.Object({
 });
 
 const AgentPokemonFilterSchema = t.Object({
-  names: t.Optional(
-    t.Array(t.String(), {
-      description: 'Fuzzy match Pokemon or form names (e.g., "pikachu", "mega charizard")',
+  name: t.Optional(
+    t.String({
+      description: 'Fuzzy match Pokemon or form name (e.g., "pikachu", "mega charizard")',
     })
   ),
   types: t.Optional(
@@ -326,9 +326,9 @@ export const AgentArticleResponseSchema = t.Nullable(
 export type AgentArticleResponse = Static<typeof AgentArticleResponseSchema>;
 
 const AgentAbilityFilterSchema = t.Object({
-  names: t.Optional(
-    t.Array(t.String(), {
-      description: 'Fuzzy match ability names (e.g., "levitate", "intimidate")',
+  name: t.Optional(
+    t.String({
+      description: 'Fuzzy match ability name (e.g., "levitate", "intimidate")',
     })
   ),
   includeDescription: t.Optional(t.Boolean({ description: 'Include full description text' })),
@@ -379,9 +379,9 @@ const AgentZDataSchema = t.Object({
 });
 
 const AgentMoveFilterSchema = t.Object({
-  names: t.Optional(
-    t.Array(t.String(), {
-      description: 'Fuzzy match move names (e.g., "thunderbolt", "earthquake")',
+  name: t.Optional(
+    t.String({
+      description: 'Fuzzy match move name (e.g., "thunderbolt", "earthquake")',
     })
   ),
   types: t.Optional(
@@ -435,9 +435,9 @@ export const AgentMoveResponseSchema = t.Object({
 export type AgentMoveResponse = Static<typeof AgentMoveResponseSchema>;
 
 const AgentItemFilterSchema = t.Object({
-  names: t.Optional(
-    t.Array(t.String(), {
-      description: 'Fuzzy match item names (e.g., "potion", "pokeball")',
+  name: t.Optional(
+    t.String({
+      description: 'Fuzzy match item name (e.g., "potion", "pokeball")',
     })
   ),
   tags: t.Optional(
@@ -509,9 +509,9 @@ export const AgentItemResponseSchema = t.Object({
 export type AgentItemResponse = Static<typeof AgentItemResponseSchema>;
 
 const AgentArticleFilterSchema = t.Object({
-  titles: t.Optional(
-    t.Array(t.String(), {
-      description: 'Fuzzy match article titles (e.g., "breeding", "ev training")',
+  title: t.Optional(
+    t.String({
+      description: 'Fuzzy match article title (e.g., "breeding", "ev training")',
     })
   ),
   categories: t.Optional(

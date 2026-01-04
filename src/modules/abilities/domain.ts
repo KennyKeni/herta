@@ -19,6 +19,7 @@ export interface IncludeOptions {
 }
 
 export interface AbilityFilter extends IncludeOptions {
+  name?: string;
   abilityIds?: number[];
   abilitySlugs?: string[];
   flagIds?: number[];
