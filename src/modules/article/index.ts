@@ -1,10 +1,10 @@
 import { Elysia, NotFoundError } from 'elysia';
-import { articleSetup } from '@/infrastructure/setup';
+import { articlesSetup } from '@/infrastructure/setup';
 import { ArticleModel } from './model';
 
 export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
-  .use(articleSetup)
-  .get('/', ({ query, articleService }) => articleService.search(query), {
+  .use(articlesSetup)
+  .get('/', ({ query, articlesService }) => articlesService.search(query), {
     query: ArticleModel.searchQuery,
     response: ArticleModel.searchResponse,
     detail: {
@@ -14,8 +14,8 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
   })
   .get(
     '/:identifier',
-    async ({ params, query, articleService }) => {
-      const result = await articleService.getByIdentifier(params.identifier, query);
+    async ({ params, query, articlesService }) => {
+      const result = await articlesService.getByIdentifier(params.identifier, query);
       if (!result) throw new NotFoundError('Article not found');
       return result;
     },

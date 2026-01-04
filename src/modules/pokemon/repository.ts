@@ -175,7 +175,7 @@ export class PokemonRepository {
     return this.assembleResults(rows, relations);
   }
 
-  async searchBySpecies(filters: PokemonFilter): Promise<SpeciesWithForms[]> {
+  async searchByForm(filters: PokemonFilter): Promise<SpeciesWithForms[]> {
     let speciesIdsQuery = this.buildSearchQuery(filters)
       .select('f.species_id')
       .distinctOn('f.species_id');

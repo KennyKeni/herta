@@ -3,7 +3,7 @@ import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } fro
 import type { DB } from '@/infrastructure/db/types';
 import type { Article, ArticleCategory, ArticleFilter, IncludeOptions } from './domain';
 
-export class ArticleRepository {
+export class ArticlesRepository {
   constructor(private db: Kysely<DB>) {}
 
   async fuzzyResolve(titles: string[]): Promise<number[]> {

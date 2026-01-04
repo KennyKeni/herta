@@ -1,7 +1,7 @@
 import type { AbilityFilter } from '../abilities/domain';
 import type { AbilitiesRepository } from '../abilities/repository';
 import type { Article, ArticleFilter } from '../article/domain';
-import type { ArticleRepository } from '../article/repository';
+import type { ArticlesRepository } from '../article/repository';
 import type { ItemFilter } from '../items/domain';
 import type { ItemsRepository } from '../items/repository';
 import type { MoveFilter } from '../moves/domain';
@@ -37,7 +37,7 @@ export class AgentService {
     private abilitiesRepository: AbilitiesRepository,
     private movesRepository: MovesRepository,
     private itemsRepository: ItemsRepository,
-    private articleRepository: ArticleRepository
+    private articlesRepository: ArticlesRepository
   ) {}
 
   async searchPokemon(query: AgentPokemonQuery): Promise<AgentPokemonResponse> {
@@ -72,7 +72,7 @@ export class AgentService {
   }
 
   async getArticle(identifier: string): Promise<Article | null> {
-    return this.articleRepository.getByIdentifier(identifier);
+    return this.articlesRepository.getByIdentifier(identifier);
   }
 
   async searchAbilities(query: AgentAbilityQuery): Promise<AgentAbilityResponse> {
@@ -128,7 +128,7 @@ export class AgentService {
 
   async searchArticles(query: AgentArticleQuery): Promise<AgentArticleSearchResponse> {
     const categoryIds = query.categories
-      ? await this.articleRepository.fuzzyResolveCategories(query.categories)
+      ? await this.articlesRepository.fuzzyResolveCategories(query.categories)
       : [];
 
     const filter: ArticleFilter = {
@@ -139,7 +139,7 @@ export class AgentService {
       offset: query.offset,
     };
 
-    const results = await this.articleRepository.searchArticles(filter);
+    const results = await this.articlesRepository.searchArticles(filter);
     return toArticleSearchResponse(results, query, results.length);
   }
 }

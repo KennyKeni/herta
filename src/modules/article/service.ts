@@ -1,14 +1,14 @@
 import type { Article, ArticleFilter, IncludeOptions } from './domain';
-import type { ArticleRepository } from './repository';
+import type { ArticlesRepository } from './repository';
 
-export class ArticleService {
-  constructor(private articleRepository: ArticleRepository) {}
+export class ArticlesService {
+  constructor(private articlesRepository: ArticlesRepository) {}
 
   async search(filter: ArticleFilter): Promise<Article[]> {
-    return this.articleRepository.searchArticles(filter);
+    return this.articlesRepository.searchArticles(filter);
   }
 
   async getByIdentifier(identifier: string, options?: IncludeOptions): Promise<Article | null> {
-    return this.articleRepository.getByIdentifier(identifier, options);
+    return this.articlesRepository.getByIdentifier(identifier, options);
   }
 }

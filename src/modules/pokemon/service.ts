@@ -5,7 +5,7 @@ export class PokemonService {
   constructor(private pokemonRepository: PokemonRepository) {}
 
   async search(filter: PokemonFilter): Promise<SpeciesWithForms[]> {
-    return this.pokemonRepository.searchBySpecies(filter);
+    return this.pokemonRepository.searchByForm(filter);
   }
 
   async getByIdentifier(

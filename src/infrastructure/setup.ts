@@ -2,8 +2,8 @@ import { Elysia } from 'elysia';
 import { AbilitiesRepository } from '@/modules/abilities/repository';
 import { AbilitiesService } from '@/modules/abilities/service';
 import { AgentService } from '@/modules/agent/service';
-import { ArticleRepository } from '@/modules/article/repository';
-import { ArticleService } from '@/modules/article/service';
+import { ArticlesRepository } from '@/modules/article/repository';
+import { ArticlesService } from '@/modules/article/service';
 import { ItemsRepository } from '@/modules/items/repository';
 import { ItemsService } from '@/modules/items/service';
 import { MovesRepository } from '@/modules/moves/repository';
@@ -20,21 +20,21 @@ const typesRepository = new TypesRepository(db);
 const abilitiesRepository = new AbilitiesRepository(db);
 const movesRepository = new MovesRepository(db);
 const itemsRepository = new ItemsRepository(db);
-const articleRepository = new ArticleRepository(db);
+const articlesRepository = new ArticlesRepository(db);
 const outboxRepository = new OutboxRepository(db);
 
 const pokemonService = new PokemonService(pokemonRepository);
 const abilitiesService = new AbilitiesService(abilitiesRepository);
 const movesService = new MovesService(movesRepository);
 const itemsService = new ItemsService(itemsRepository);
-const articleService = new ArticleService(articleRepository);
+const articlesService = new ArticlesService(articlesRepository);
 const agentService = new AgentService(
   pokemonRepository,
   typesRepository,
   abilitiesRepository,
   movesRepository,
   itemsRepository,
-  articleRepository
+  articlesRepository
 );
 const outboxService = new OutboxService(outboxRepository);
 
@@ -58,9 +58,9 @@ export const itemsSetup = new Elysia({ name: 'setup:items' }).decorate(
   itemsService
 );
 
-export const articleSetup = new Elysia({ name: 'setup:article' }).decorate(
-  'articleService',
-  articleService
+export const articlesSetup = new Elysia({ name: 'setup:articles' }).decorate(
+  'articlesService',
+  articlesService
 );
 
 export const agentSetup = new Elysia({ name: 'setup:agent' }).decorate(
