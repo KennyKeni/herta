@@ -175,14 +175,22 @@ export class PokemonRepository {
     return this.assembleResults(rows, relations);
   }
 
-  async searchByForm(filters: PokemonFilter): Promise<SpeciesWithForms[]> {
+  async searchByForm(filters: PokemonFilter): Promise<{ data: SpeciesWithForms[]; total: number }> {
     let speciesIdsQuery = this.buildSearchQuery(filters)
       .select('f.species_id')
       .distinctOn('f.species_id');
 
+    let countQuery = this.buildSearchQuery(filters)
+      .clearSelect()
+      .select(sql<number>`COUNT(DISTINCT f.species_id)`.as('count'));
+
+    if (filters.name) {
+      speciesIdsQuery = speciesIdsQuery.where(sql<boolean>`s.name % ${filters.name}`);
+      countQuery = countQuery.where(sql<boolean>`s.name % ${filters.name}`);
+    }
+
     if (filters.name) {
       speciesIdsQuery = speciesIdsQuery
-        .where(sql<boolean>`s.name % ${filters.name}`)
         .orderBy('f.species_id')
         .orderBy(sql`similarity(s.name, ${filters.name})`, 'desc');
     } else {
@@ -191,8 +199,12 @@ export class PokemonRepository {
 
     speciesIdsQuery = speciesIdsQuery.limit(filters.limit ?? 20).offset(filters.offset ?? 0);
 
-    const speciesRows = await speciesIdsQuery.execute();
-    if (speciesRows.length === 0) return [];
+    const [speciesRows, countResult] = await Promise.all([
+      speciesIdsQuery.execute(),
+      countQuery.executeTakeFirstOrThrow(),
+    ]);
+
+    if (speciesRows.length === 0) return { data: [], total: Number(countResult.count) };
 
     const targetSpeciesIds = speciesRows.map((r) => r.species_id);
 
@@ -208,7 +220,7 @@ export class PokemonRepository {
 
     const rows = await formsQuery.execute();
 
-    if (rows.length === 0) return [];
+    if (rows.length === 0) return { data: [], total: Number(countResult.count) };
 
     const formIds = rows.map((r) => r.form_id);
     const speciesIds = [...new Set(rows.map((r) => r.species_id))];
@@ -217,7 +229,9 @@ export class PokemonRepository {
     ];
 
     const relations = await this.fetchRelations(formIds, speciesIds, experienceGroupIds, filters);
-    return this.assembleResults(rows, relations);
+    const data = this.assembleResults(rows, relations);
+
+    return { data, total: Number(countResult.count) };
   }
 
   async fuzzyResolveSpecies(names: string[]): Promise<string[]> {

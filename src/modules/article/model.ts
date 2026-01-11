@@ -1,4 +1,5 @@
 import { t } from 'elysia';
+import { PaginatedResponseSchema } from '@/common/pagination';
 
 export const IncludeOptionsSchema = t.Object({
   includeCategories: t.Optional(t.Boolean()),
@@ -37,11 +38,9 @@ const ArticleSchema = t.Object({
   categories: t.Array(ArticleCategorySchema),
 });
 
-const ArticleSearchResponseSchema = t.Array(ArticleSchema);
-
 export const ArticleModel = {
   searchQuery: ArticleSearchQuerySchema,
-  searchResponse: ArticleSearchResponseSchema,
+  searchResponse: PaginatedResponseSchema(ArticleSchema),
   getOneQuery: IncludeOptionsSchema,
   getOneResponse: ArticleSchema,
 };

@@ -62,29 +62,37 @@ export class ArticlesRepository {
     })(query, options);
   }
 
-  async searchArticles(filters: ArticleFilter): Promise<Article[]> {
+  async searchArticles(filters: ArticleFilter): Promise<{ data: Article[]; total: number }> {
     let query = this.buildSearchQuery(filters);
+    let countQuery = this.buildSearchQuery(filters)
+      .clearSelect()
+      .select(sql<number>`COUNT(*)`.as('count'));
 
     if (filters.title) {
-      query = query
-        .where(sql<boolean>`title % ${filters.title}`)
-        .orderBy(sql`similarity(title, ${filters.title})`, 'desc');
+      query = query.where(sql<boolean>`title % ${filters.title}`);
+      countQuery = countQuery.where(sql<boolean>`title % ${filters.title}`);
+    }
+
+    if (filters.title) {
+      query = query.orderBy(sql`similarity(title, ${filters.title})`, 'desc');
     } else {
       query = query.orderBy('id');
     }
 
-    const rows = await query
-      .limit(filters.limit ?? 20)
-      .offset(filters.offset ?? 0)
-      .execute();
+    query = query.limit(filters.limit ?? 20).offset(filters.offset ?? 0);
 
-    if (rows.length === 0) return [];
+    const [rows, countResult] = await Promise.all([
+      query.execute(),
+      countQuery.executeTakeFirstOrThrow(),
+    ]);
+
+    if (rows.length === 0) return { data: [], total: Number(countResult.count) };
 
     const articleIds = rows.map((r) => r.id);
     const categories =
       filters.includeCategories !== false ? await this.fetchCategories(articleIds) : new Map();
 
-    return rows.map((row) => ({
+    const data = rows.map((row) => ({
       id: row.id,
       slug: row.slug,
       title: row.title,
@@ -96,6 +104,8 @@ export class ArticlesRepository {
       updatedAt: row.updated_at,
       categories: categories.get(row.id) ?? [],
     }));
+
+    return { data, total: Number(countResult.count) };
   }
 
   private buildSearchQuery(filters: ArticleFilter) {

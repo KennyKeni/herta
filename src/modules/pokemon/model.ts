@@ -1,4 +1,5 @@
 import { t } from 'elysia';
+import { PaginatedResponseSchema } from '@/common/pagination';
 
 const RangeSchema = t.Optional(
   t.Object({
@@ -343,13 +344,11 @@ const SpeciesWithFormsSchema = t.Composite([
 
 const SpeciesWithFormSchema = t.Composite([SpeciesSchema, t.Object({ form: FormSchema })]);
 
-export const PokemonSearchResponseSchema = t.Array(SpeciesWithFormsSchema);
-
-export type PokemonSearchResponse = typeof PokemonSearchResponseSchema.static;
+export type PokemonSearchResponse = typeof PaginatedResponseSchema.static;
 
 export const PokemonModel = {
   searchQuery: PokemonSearchQuerySchema,
-  searchResponse: PokemonSearchResponseSchema,
+  searchResponse: PaginatedResponseSchema(SpeciesWithFormsSchema),
   getOneQuery: IncludeOptionsSchema,
   getOneResponse: SpeciesWithFormsSchema,
   getFormQuery: IncludeOptionsSchema,

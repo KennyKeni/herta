@@ -10,6 +10,8 @@ import { articles } from '@/modules/article';
 import { items } from '@/modules/items';
 import { moves } from '@/modules/moves';
 import { pokemon } from '@/modules/pokemon';
+import { spawns } from '@/modules/spawns';
+import { types } from '@/modules/types';
 
 const swaggerPlugin = swagger({
   documentation: {
@@ -20,9 +22,11 @@ const swaggerPlugin = swagger({
     },
     tags: [
       { name: 'pokemon', description: 'Pokemon data endpoints' },
+      { name: 'types', description: 'Type data endpoints' },
       { name: 'abilities', description: 'Ability data endpoints' },
       { name: 'moves', description: 'Move data endpoints' },
       { name: 'items', description: 'Item data endpoints' },
+      { name: 'spawns', description: 'Spawn data endpoints' },
       { name: 'articles', description: 'Article data endpoints' },
       { name: 'agent', description: 'Simplified API for AI agents' },
     ],
@@ -67,9 +71,11 @@ const app = new Elysia()
   })
   .get('/', () => 'Hello Elysia')
   .use(pokemon)
+  .use(types)
   .use(abilities)
   .use(moves)
   .use(items)
+  .use(spawns)
   .use(articles)
   .use(agent)
   .listen(config.app.PORT);

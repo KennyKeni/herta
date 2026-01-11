@@ -1,3 +1,5 @@
+import type { PaginatedResponse } from '@/common/pagination';
+
 export interface NamespaceRef {
   id: number;
   slug: string;
@@ -30,6 +32,8 @@ export interface Item {
   tags: ItemTag[];
   recipes: Recipe[];
 }
+
+export type ItemSearchResponse = PaginatedResponse<Item>;
 
 export interface ItemBoost {
   stat: StatRef;

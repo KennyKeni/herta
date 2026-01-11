@@ -1,3 +1,5 @@
+import type { PaginatedResponse } from '@/common/pagination';
+
 export interface ArticleCategory {
   id: number;
   slug: string;
@@ -17,6 +19,8 @@ export interface Article {
   updatedAt: Date;
   categories: ArticleCategory[];
 }
+
+export type ArticleSearchResponse = PaginatedResponse<Article>;
 
 export interface IncludeOptions {
   includeCategories?: boolean;

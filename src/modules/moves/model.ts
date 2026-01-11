@@ -1,4 +1,5 @@
 import { t } from 'elysia';
+import { PaginatedResponseSchema } from '@/common/pagination';
 
 export const IncludeOptionsSchema = t.Object({
   includeFlags: t.Optional(t.Boolean()),
@@ -126,11 +127,9 @@ const MoveSchema = t.Object({
   gmaxSpecies: t.Array(SpeciesRefSchema),
 });
 
-const MoveSearchResponseSchema = t.Array(MoveSchema);
-
 export const MoveModel = {
   searchQuery: MoveSearchQuerySchema,
-  searchResponse: MoveSearchResponseSchema,
+  searchResponse: PaginatedResponseSchema(MoveSchema),
   getOneQuery: IncludeOptionsSchema,
   getOneResponse: MoveSchema,
 };

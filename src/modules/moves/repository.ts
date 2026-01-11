@@ -256,28 +256,38 @@ export class MovesRepository {
     })(query, options);
   }
 
-  async searchMoves(filters: MoveFilter): Promise<Move[]> {
+  async searchMoves(filters: MoveFilter): Promise<{ data: Move[]; total: number }> {
     let query = this.buildSearchQuery(filters);
+    let countQuery = this.buildSearchQuery(filters)
+      .clearSelect()
+      .select(sql<number>`COUNT(*)`.as('count'));
 
     if (filters.name) {
-      query = query
-        .where(sql<boolean>`m.name % ${filters.name}`)
-        .orderBy(sql`similarity(m.name, ${filters.name})`, 'desc');
+      query = query.where(sql<boolean>`m.name % ${filters.name}`);
+      countQuery = countQuery.where(sql<boolean>`m.name % ${filters.name}`);
+    }
+
+    if (filters.name) {
+      query = query.orderBy(sql`similarity(m.name, ${filters.name})`, 'desc');
     } else {
       query = query.orderBy('m.id');
     }
 
-    const rows = await query
-      .limit(filters.limit ?? 20)
-      .offset(filters.offset ?? 0)
-      .execute();
+    query = query.limit(filters.limit ?? 20).offset(filters.offset ?? 0);
 
-    if (rows.length === 0) return [];
+    const [rows, countResult] = await Promise.all([
+      query.execute(),
+      countQuery.executeTakeFirstOrThrow(),
+    ]);
+
+    if (rows.length === 0) return { data: [], total: Number(countResult.count) };
 
     const moveIds = rows.map((r) => r.id);
     const relations = await this.fetchRelations(moveIds, filters);
 
-    return rows.map((row) => this.toMove(row, relations));
+    const data = rows.map((row) => this.toMove(row, relations));
+
+    return { data, total: Number(countResult.count) };
   }
 
   private buildSearchQuery(filters: MoveFilter) {

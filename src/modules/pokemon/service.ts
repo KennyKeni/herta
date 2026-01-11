@@ -1,11 +1,18 @@
+import type { PaginatedResponse } from '@/common/pagination';
 import type { IncludeOptions, PokemonFilter, SpeciesWithForm, SpeciesWithForms } from './domain';
 import type { PokemonRepository } from './repository';
 
 export class PokemonService {
   constructor(private pokemonRepository: PokemonRepository) {}
 
-  async search(filter: PokemonFilter): Promise<SpeciesWithForms[]> {
-    return this.pokemonRepository.searchByForm(filter);
+  async search(filter: PokemonFilter): Promise<PaginatedResponse<SpeciesWithForms>> {
+    const { data, total } = await this.pokemonRepository.searchByForm(filter);
+    return {
+      data,
+      total,
+      limit: filter.limit ?? 20,
+      offset: filter.offset ?? 0,
+    };
   }
 
   async getByIdentifier(

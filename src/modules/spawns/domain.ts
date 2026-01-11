@@ -93,11 +93,7 @@ export interface Spawn {
 
 export interface SpawnFilter {
   formIds?: number[];
-  biomeIds?: number[];
-  biomeTagIds?: number[];
   bucketIds?: number[];
-  includeConditions?: boolean;
-  includePresets?: boolean;
   limit?: number;
   offset?: number;
 }

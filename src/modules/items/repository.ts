@@ -87,28 +87,38 @@ export class ItemsRepository {
     })(query, options);
   }
 
-  async searchItems(filters: ItemFilter): Promise<Item[]> {
+  async searchItems(filters: ItemFilter): Promise<{ data: Item[]; total: number }> {
     let query = this.buildSearchQuery(filters);
+    let countQuery = this.buildSearchQuery(filters)
+      .clearSelect()
+      .select(sql<number>`COUNT(*)`.as('count'));
 
     if (filters.name) {
-      query = query
-        .where(sql<boolean>`i.name % ${filters.name}`)
-        .orderBy(sql`similarity(i.name, ${filters.name})`, 'desc');
+      query = query.where(sql<boolean>`i.name % ${filters.name}`);
+      countQuery = countQuery.where(sql<boolean>`i.name % ${filters.name}`);
+    }
+
+    if (filters.name) {
+      query = query.orderBy(sql`similarity(i.name, ${filters.name})`, 'desc');
     } else {
       query = query.orderBy('i.id');
     }
 
-    const rows = await query
-      .limit(filters.limit ?? 20)
-      .offset(filters.offset ?? 0)
-      .execute();
+    query = query.limit(filters.limit ?? 20).offset(filters.offset ?? 0);
 
-    if (rows.length === 0) return [];
+    const [rows, countResult] = await Promise.all([
+      query.execute(),
+      countQuery.executeTakeFirstOrThrow(),
+    ]);
+
+    if (rows.length === 0) return { data: [], total: Number(countResult.count) };
 
     const itemIds = rows.map((r) => r.id);
     const relations = await this.fetchRelations(itemIds, filters);
 
-    return rows.map((row) => this.toItem(row, relations));
+    const data = rows.map((row) => this.toItem(row, relations));
+
+    return { data, total: Number(countResult.count) };
   }
 
   private buildSearchQuery(filters: ItemFilter) {

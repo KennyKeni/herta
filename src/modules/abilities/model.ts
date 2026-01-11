@@ -1,4 +1,5 @@
 import { t } from 'elysia';
+import { PaginatedResponseSchema } from '@/common/pagination';
 
 export const IncludeOptionsSchema = t.Object({
   includeFlags: t.Optional(t.Boolean()),
@@ -32,11 +33,9 @@ const AbilitySchema = t.Object({
   flags: t.Array(AbilityFlagTypeSchema),
 });
 
-const AbilitySearchResponseSchema = t.Array(AbilitySchema);
-
 export const AbilityModel = {
   searchQuery: AbilitySearchQuerySchema,
-  searchResponse: AbilitySearchResponseSchema,
+  searchResponse: PaginatedResponseSchema(AbilitySchema),
   getOneQuery: IncludeOptionsSchema,
   getOneResponse: AbilitySchema,
 };

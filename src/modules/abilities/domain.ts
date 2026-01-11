@@ -1,3 +1,5 @@
+import type { PaginatedResponse } from '@/common/pagination';
+
 export interface Ability {
   id: number;
   name: string;
@@ -6,6 +8,8 @@ export interface Ability {
   shortDesc: string | null;
   flags: AbilityFlagType[];
 }
+
+export type AbilitySearchResponse = PaginatedResponse<Ability>;
 
 export interface AbilityFlagType {
   id: number;

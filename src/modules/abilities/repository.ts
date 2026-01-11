@@ -43,29 +43,37 @@ export class AbilitiesRepository {
     };
   }
 
-  async searchAbilities(filters: AbilityFilter): Promise<Ability[]> {
+  async searchAbilities(filters: AbilityFilter): Promise<{ data: Ability[]; total: number }> {
     let query = this.buildSearchQuery(filters);
+    let countQuery = this.buildSearchQuery(filters)
+      .clearSelect()
+      .select(sql<number>`COUNT(*)`.as('count'));
 
     if (filters.name) {
-      query = query
-        .where(sql<boolean>`a.name % ${filters.name}`)
-        .orderBy(sql`similarity(a.name, ${filters.name})`, 'desc');
+      query = query.where(sql<boolean>`a.name % ${filters.name}`);
+      countQuery = countQuery.where(sql<boolean>`a.name % ${filters.name}`);
+    }
+
+    if (filters.name) {
+      query = query.orderBy(sql`similarity(a.name, ${filters.name})`, 'desc');
     } else {
       query = query.orderBy('a.id');
     }
 
-    const rows = await query
-      .limit(filters.limit ?? 20)
-      .offset(filters.offset ?? 0)
-      .execute();
+    query = query.limit(filters.limit ?? 20).offset(filters.offset ?? 0);
 
-    if (rows.length === 0) return [];
+    const [rows, countResult] = await Promise.all([
+      query.execute(),
+      countQuery.executeTakeFirstOrThrow(),
+    ]);
+
+    if (rows.length === 0) return { data: [], total: Number(countResult.count) };
 
     const abilityIds = rows.map((r) => r.id);
     const flags = await this.fetchFlags(filters.includeFlags !== false ? abilityIds : []);
     const flagsMap = this.groupBy(flags, 'ability_id');
 
-    return rows.map((row) => ({
+    const data = rows.map((row) => ({
       id: row.id,
       name: row.name,
       slug: row.slug,
@@ -73,6 +81,8 @@ export class AbilitiesRepository {
       shortDesc: row.short_desc,
       flags: flagsMap.get(row.id) ?? [],
     }));
+
+    return { data, total: Number(countResult.count) };
   }
 
   async fuzzyResolve(names: string[]): Promise<number[]> {

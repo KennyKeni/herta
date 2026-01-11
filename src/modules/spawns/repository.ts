@@ -1,4 +1,4 @@
-import type { Kysely } from 'kysely';
+import { type Kysely, sql } from 'kysely';
 import type { DB } from '@/infrastructure/db/types';
 import type {
   BiomeRef,
@@ -10,6 +10,7 @@ import type {
   SpawnConditionPosition,
   SpawnConditionSky,
   SpawnConditionWeather,
+  SpawnFilter,
   SpawnPreset,
   TimeRangeRef,
 } from './domain';
@@ -74,6 +75,93 @@ export class SpawnRepository {
       lure,
       presets
     );
+  }
+
+  async searchSpawns(filter: SpawnFilter): Promise<{ data: Spawn[]; total: number }> {
+    let baseQuery = this.db
+      .selectFrom('spawns as s')
+      .innerJoin('spawn_buckets as sb', 'sb.id', 's.bucket_id')
+      .innerJoin('spawn_position_types as spt', 'spt.id', 's.position_type_id')
+      .select([
+        's.id',
+        's.form_id',
+        's.bucket_id',
+        'sb.slug as bucket_slug',
+        'sb.name as bucket_name',
+        's.position_type_id',
+        'spt.slug as position_type_slug',
+        'spt.name as position_type_name',
+        's.weight',
+        's.level_min',
+        's.level_max',
+      ]);
+
+    let countQuery = this.db
+      .selectFrom('spawns as s')
+      .select(sql<number>`COUNT(DISTINCT s.id)`.as('count'));
+
+    if (filter.formIds?.length) {
+      baseQuery = baseQuery.where('s.form_id', 'in', filter.formIds);
+      countQuery = countQuery.where('s.form_id', 'in', filter.formIds);
+    }
+    if (filter.bucketIds?.length) {
+      baseQuery = baseQuery.where('s.bucket_id', 'in', filter.bucketIds);
+      countQuery = countQuery.where('s.bucket_id', 'in', filter.bucketIds);
+    }
+
+    baseQuery = baseQuery
+      .orderBy('s.id')
+      .limit(filter.limit ?? 20)
+      .offset(filter.offset ?? 0);
+
+    const [spawns, countResult] = await Promise.all([
+      baseQuery.execute(),
+      countQuery.executeTakeFirstOrThrow(),
+    ]);
+
+    if (spawns.length === 0) {
+      return { data: [], total: Number(countResult.count) };
+    }
+
+    const spawnIds = spawns.map((s) => s.id);
+    const conditions = await this.fetchConditions(spawnIds);
+    const conditionIds = [...conditions.values()].flat().map((c) => c.id);
+
+    const [biomes, biomeTags, timeRanges, moonPhases, weather, sky, position, lure, presets] =
+      await Promise.all([
+        this.fetchConditionBiomes(conditionIds),
+        this.fetchConditionBiomeTags(conditionIds),
+        this.fetchConditionTimeRanges(conditionIds),
+        this.fetchConditionMoonPhases(conditionIds),
+        this.fetchConditionWeather(conditionIds),
+        this.fetchConditionSky(conditionIds),
+        this.fetchConditionPosition(conditionIds),
+        this.fetchConditionLure(conditionIds),
+        this.fetchPresets(spawnIds),
+      ]);
+
+    const spawnMap = this.assembleSpawns(
+      spawns,
+      conditions,
+      biomes,
+      biomeTags,
+      timeRanges,
+      moonPhases,
+      weather,
+      sky,
+      position,
+      lure,
+      presets
+    );
+
+    const data = spawns
+      .map((spawn) => {
+        const formSpawns = spawnMap.get(spawn.form_id) ?? [];
+        return formSpawns.find((s) => s.id === spawn.id);
+      })
+      .filter((s): s is Spawn => s !== undefined);
+
+    return { data, total: Number(countResult.count) };
   }
 
   private async fetchSpawnRows(formIds: number[]): Promise<SpawnRow[]> {

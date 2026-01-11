@@ -10,7 +10,10 @@ import { MovesRepository } from '@/modules/moves/repository';
 import { MovesService } from '@/modules/moves/service';
 import { PokemonRepository } from '@/modules/pokemon/repository';
 import { PokemonService } from '@/modules/pokemon/service';
+import { SpawnRepository } from '@/modules/spawns/repository';
+import { SpawnsService } from '@/modules/spawns/service';
 import { TypesRepository } from '@/modules/types/repository';
+import { TypesService } from '@/modules/types/service';
 import { db } from './db';
 import { OutboxRepository } from './outbox/repository';
 import { OutboxService } from './outbox/service';
@@ -21,13 +24,16 @@ const abilitiesRepository = new AbilitiesRepository(db);
 const movesRepository = new MovesRepository(db);
 const itemsRepository = new ItemsRepository(db);
 const articlesRepository = new ArticlesRepository(db);
+const spawnRepository = new SpawnRepository(db);
 const outboxRepository = new OutboxRepository(db);
 
 const pokemonService = new PokemonService(pokemonRepository);
+const typesService = new TypesService(typesRepository);
 const abilitiesService = new AbilitiesService(abilitiesRepository);
 const movesService = new MovesService(movesRepository);
 const itemsService = new ItemsService(itemsRepository);
 const articlesService = new ArticlesService(articlesRepository);
+const spawnsService = new SpawnsService(spawnRepository);
 const agentService = new AgentService(
   pokemonRepository,
   typesRepository,
@@ -41,6 +47,11 @@ const outboxService = new OutboxService(outboxRepository);
 export const pokemonSetup = new Elysia({ name: 'setup:pokemon' }).decorate(
   'pokemonService',
   pokemonService
+);
+
+export const typesSetup = new Elysia({ name: 'setup:types' }).decorate(
+  'typesService',
+  typesService
 );
 
 export const abilitiesSetup = new Elysia({ name: 'setup:abilities' }).decorate(
@@ -61,6 +72,11 @@ export const itemsSetup = new Elysia({ name: 'setup:items' }).decorate(
 export const articlesSetup = new Elysia({ name: 'setup:articles' }).decorate(
   'articlesService',
   articlesService
+);
+
+export const spawnsSetup = new Elysia({ name: 'setup:spawns' }).decorate(
+  'spawnsService',
+  spawnsService
 );
 
 export const agentSetup = new Elysia({ name: 'setup:agent' }).decorate(

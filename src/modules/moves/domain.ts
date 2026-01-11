@@ -1,3 +1,5 @@
+import type { PaginatedResponse } from '@/common/pagination';
+
 export interface TypeRef {
   id: number;
   name: string;
@@ -36,6 +38,8 @@ export interface Move {
   zData: MoveZData | null;
   gmaxSpecies: SpeciesRef[];
 }
+
+export type MoveSearchResponse = PaginatedResponse<Move>;
 
 export interface MoveCategory {
   id: number;

@@ -1,3 +1,4 @@
+import type { PaginatedResponse } from '@/common/pagination';
 import type { Spawn } from '../spawns/domain';
 
 export type { Spawn };
@@ -49,6 +50,8 @@ export interface Species {
 export interface SpeciesWithForms extends Species {
   forms: Form[];
 }
+
+export type PokemonSearchResponse = PaginatedResponse<SpeciesWithForms>;
 
 export interface Form {
   id: number;
