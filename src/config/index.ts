@@ -45,6 +45,14 @@ const authSchema = t.Object({
   AUTH_JWT_EXPIRES_IN: t.String({ minLength: 1 }),
 });
 
+const s3Schema = t.Object({
+  S3_ENDPOINT: t.String({ minLength: 1 }),
+  S3_REGION: t.String({ minLength: 1 }),
+  S3_ACCESS_KEY_ID: t.String({ minLength: 1 }),
+  S3_SECRET_ACCESS_KEY: t.String({ minLength: 1 }),
+  S3_BUCKET: t.String({ minLength: 1 }),
+});
+
 const postgres = Value.Parse(postgresSchema, {
   POSTGRES_DB: 'herta',
   POSTGRES_HOST: 'localhost',
@@ -93,6 +101,16 @@ const auth = Value.Parse(authSchema, {
   ...Bun.env,
 });
 
+const s3 = (() => {
+  try {
+    return Value.Parse(s3Schema, { S3_REGION: 'auto', ...Bun.env });
+  } catch {
+    throw new Error(
+      'Missing S3 config. Set S3_ENDPOINT, S3_ACCESS_KEY_ID, S3_SECRET_ACCESS_KEY, S3_BUCKET in .env'
+    );
+  }
+})();
+
 export const config = {
   app,
   postgres,
@@ -101,4 +119,5 @@ export const config = {
   outbox,
   cache,
   auth,
+  s3,
 } as const;

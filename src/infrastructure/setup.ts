@@ -1,4 +1,5 @@
 import { Elysia } from 'elysia';
+import { config } from '@/config';
 import { AbilitiesRepository } from '@/modules/abilities/repository';
 import { AbilitiesService } from '@/modules/abilities/service';
 import { AgentService } from '@/modules/agent/service';
@@ -17,6 +18,8 @@ import { TypesService } from '@/modules/types/service';
 import { db } from './db';
 import { OutboxRepository } from './outbox/repository';
 import { OutboxService } from './outbox/service';
+import { s3 } from './s3';
+import { S3Service } from './s3/service';
 
 const pokemonRepository = new PokemonRepository(db);
 const typesRepository = new TypesRepository(db);
@@ -43,6 +46,7 @@ const agentService = new AgentService(
   articlesRepository
 );
 const outboxService = new OutboxService(outboxRepository);
+const s3Service = new S3Service(s3, config.s3.S3_BUCKET);
 
 export const pokemonSetup = new Elysia({ name: 'setup:pokemon' }).decorate(
   'pokemonService',
@@ -88,5 +92,7 @@ export const outboxSetup = new Elysia({ name: 'setup:outbox' }).decorate(
   'outboxService',
   outboxService
 );
+
+export const s3Setup = new Elysia({ name: 'setup:s3' }).decorate('s3Service', s3Service);
 
 export { outboxService };
