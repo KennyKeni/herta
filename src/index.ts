@@ -7,6 +7,7 @@ import { checkDbConnection } from '@/infrastructure/db';
 import { abilities } from '@/modules/abilities';
 import { agent } from '@/modules/agent';
 import { articles } from '@/modules/article';
+import { authModule } from '@/modules/auth';
 import { items } from '@/modules/items';
 import { moves } from '@/modules/moves';
 import { pokemon } from '@/modules/pokemon';
@@ -70,6 +71,7 @@ const app = new Elysia()
     console.error(`[error] ${request.method} ${request.url}`, error);
   })
   .get('/', () => 'Hello Elysia')
+  .use(authModule)
   .use(pokemon)
   .use(types)
   .use(abilities)

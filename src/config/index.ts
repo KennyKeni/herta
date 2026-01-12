@@ -38,6 +38,13 @@ const cacheSchema = t.Object({
   CACHE_ENABLED: t.BooleanString(),
 });
 
+const authSchema = t.Object({
+  BETTER_AUTH_SECRET: t.String({ minLength: 32 }),
+  AUTH_SESSION_EXPIRES_IN: t.Numeric({ minimum: 60 }),
+  AUTH_SESSION_UPDATE_AGE: t.Numeric({ minimum: 60 }),
+  AUTH_JWT_EXPIRES_IN: t.String({ minLength: 1 }),
+});
+
 const postgres = Value.Parse(postgresSchema, {
   POSTGRES_DB: 'herta',
   POSTGRES_HOST: 'localhost',
@@ -78,6 +85,14 @@ const cache = Value.Parse(cacheSchema, {
   ...Bun.env,
 });
 
+const auth = Value.Parse(authSchema, {
+  BETTER_AUTH_SECRET: 'change-me-change-me-change-me-change-me',
+  AUTH_SESSION_EXPIRES_IN: '604800',
+  AUTH_SESSION_UPDATE_AGE: '86400',
+  AUTH_JWT_EXPIRES_IN: '1h',
+  ...Bun.env,
+});
+
 export const config = {
   app,
   postgres,
@@ -85,4 +100,5 @@ export const config = {
   kafka,
   outbox,
   cache,
+  auth,
 } as const;

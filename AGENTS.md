@@ -135,6 +135,13 @@ JSON response
 
 ---
 
+## Auth
+
+- Better Auth sessions must stay in Redis only (`session.storeSessionInDatabase = false`).
+- Do not create or use a `session` table in Postgres for auth.
+
+---
+
 ## Elysia Best Practices
 
 ### Controller (index.ts)
