@@ -1,7 +1,6 @@
-import { SEARCH_CONFIG } from '@/common/config';
 import { ConflictError } from '@/common/errors';
 import type { PaginatedResponse } from '@/common/pagination';
-import { slugForPokemon } from '@/common/utils/slug';
+import { shouldUseFuzzySearch, slugForPokemon } from '@/common/utils';
 import type { S3Service } from '@/infrastructure/s3/service';
 import type {
   CreatedForm,
@@ -18,11 +17,6 @@ import type {
   UpdateSpecies,
 } from './domain';
 import type { PokemonRepository } from './repository';
-
-function shouldUseFuzzySearch(name?: string): boolean {
-  if (!name || !SEARCH_CONFIG.USE_HYBRID) return true;
-  return name.length > SEARCH_CONFIG.FUZZY_THRESHOLD;
-}
 
 export class PokemonService {
   constructor(

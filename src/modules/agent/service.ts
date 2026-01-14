@@ -1,3 +1,4 @@
+import { shouldUseFuzzySearch } from '@/common/utils';
 import type { AbilityFilter } from '../abilities/domain';
 import type { AbilitiesRepository } from '../abilities/repository';
 import type { Article, ArticleFilter } from '../article/domain';
@@ -65,10 +66,10 @@ export class AgentService {
       offset: query.offset,
     };
 
-    const results = await this.pokemonRepository.searchPokemon(filter);
-    const total = results.reduce((acc, sp) => acc + sp.forms.length, 0);
+    const useFuzzy = shouldUseFuzzySearch(filter.name);
+    const { data, total } = await this.pokemonRepository.searchByForm(filter, useFuzzy);
 
-    return toResponse(results, query, total);
+    return toResponse(data, query, total);
   }
 
   async getArticle(identifier: string): Promise<Article | null> {
