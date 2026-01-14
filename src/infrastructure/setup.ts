@@ -30,12 +30,15 @@ const articlesRepository = new ArticlesRepository(db);
 const spawnRepository = new SpawnRepository(db);
 const outboxRepository = new OutboxRepository(db);
 
-const pokemonService = new PokemonService(pokemonRepository);
+const s3Service = new S3Service(s3, config.s3.S3_BUCKET);
+const outboxService = new OutboxService(outboxRepository);
+
+const pokemonService = new PokemonService(pokemonRepository, s3Service);
 const typesService = new TypesService(typesRepository);
 const abilitiesService = new AbilitiesService(abilitiesRepository);
 const movesService = new MovesService(movesRepository);
 const itemsService = new ItemsService(itemsRepository);
-const articlesService = new ArticlesService(articlesRepository);
+const articlesService = new ArticlesService(articlesRepository, s3Service);
 const spawnsService = new SpawnsService(spawnRepository);
 const agentService = new AgentService(
   pokemonRepository,
@@ -45,8 +48,6 @@ const agentService = new AgentService(
   itemsRepository,
   articlesRepository
 );
-const outboxService = new OutboxService(outboxRepository);
-const s3Service = new S3Service(s3, config.s3.S3_BUCKET);
 
 export const pokemonSetup = new Elysia({ name: 'setup:pokemon' }).decorate(
   'pokemonService',

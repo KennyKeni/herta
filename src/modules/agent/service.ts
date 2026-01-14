@@ -84,7 +84,7 @@ export class AgentService {
     };
 
     const results = await this.abilitiesRepository.searchAbilities(filter);
-    return toAbilityResponse(results, query, results.length);
+    return toAbilityResponse(results.data, query, results.data.length);
   }
 
   async searchMoves(query: AgentMoveQuery): Promise<AgentMoveResponse> {
@@ -106,7 +106,7 @@ export class AgentService {
     };
 
     const results = await this.movesRepository.searchMoves(filter);
-    return toMoveResponse(results, query, results.length);
+    return toMoveResponse(results.data, query, results.data.length);
   }
 
   async searchItems(query: AgentItemQuery): Promise<AgentItemResponse> {
@@ -123,7 +123,7 @@ export class AgentService {
     };
 
     const results = await this.itemsRepository.searchItems(filter);
-    return toItemResponse(results, query, results.length);
+    return toItemResponse(results.data, query, results.data.length);
   }
 
   async searchArticles(query: AgentArticleQuery): Promise<AgentArticleSearchResponse> {
@@ -140,6 +140,6 @@ export class AgentService {
     };
 
     const results = await this.articlesRepository.searchArticles(filter);
-    return toArticleSearchResponse(results, query, results.length);
+    return toArticleSearchResponse(results.data, query, results.data.length);
   }
 }

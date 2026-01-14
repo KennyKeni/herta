@@ -1,6 +1,6 @@
 import { Algorithm, hash, verify } from '@node-rs/argon2';
 import { betterAuth } from 'better-auth';
-import { jwt } from 'better-auth/plugins';
+import { admin, jwt } from 'better-auth/plugins';
 import { config } from '@/config';
 import { db } from '@/infrastructure/db';
 import { redis } from '@/infrastructure/redis';
@@ -54,5 +54,6 @@ export const auth = betterAuth({
         expirationTime: config.auth.AUTH_JWT_EXPIRES_IN,
       },
     }),
+    admin(),
   ],
 });

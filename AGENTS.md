@@ -605,3 +605,61 @@ const users = await db.selectFrom("user").selectAll().execute();
 4. Regenerate types: `bun run kysely-codegen`
 
 **Important:** Always create migration files using the CLI command, not manually. This ensures correct timestamps and file naming.
+
+### Transactions
+
+Kysely is a query builder, not an ORM with change tracking—so Unit of Work doesn't apply. Two options for handling transactions:
+
+| | Option 1: Pass trx as param | Option 2: Inject at construction |
+|-|----------------------------|----------------------------------|
+| **How** | `repo.create(data, trx)` | `new Repo(trx).create(data)` |
+| **Pros** | Singleton repos, simpler DI | Can't forget to pass trx |
+| **Cons** | Easy to forget trx → silent bugs | New instance per transaction |
+
+**We use Option 2** — inject at construction. Forgetting to pass `trx` in Option 1 causes queries to silently run outside the transaction. The object creation overhead is negligible.
+
+**Infrastructure:**
+
+```ts
+// src/infrastructure/db/index.ts
+export type Transaction = Kysely<DB>;
+
+export function withTransaction<T>(fn: (trx: Transaction) => Promise<T>): Promise<T> {
+  return db.transaction().execute(fn);
+}
+```
+
+**Repository pattern:**
+
+```ts
+// Each repository exposes withTransaction()
+export class PokemonRepository {
+  constructor(private db: Kysely<DB>) {}
+
+  withTransaction(trx: Kysely<DB>): PokemonRepository {
+    return new PokemonRepository(trx);
+  }
+
+  // All methods use this.db (which may be db or trx)
+  async create(data: CreateSpecies) {
+    return this.db.insertInto('species').values(data).execute();
+  }
+}
+```
+
+**Service usage:**
+
+```ts
+import { withTransaction } from '@/infrastructure/db';
+
+async createSpecies(data: CreateSpecies): Promise<CreatedSpecies> {
+  return withTransaction(async (trx) => {
+    const repo = this.pokemonRepository.withTransaction(trx);
+    const { idExists, slugExists } = await repo.checkSpeciesExists(data.id, slug);
+    if (idExists) throw new ConflictError('...');
+    return repo.createSpecies(data, slug);
+  });
+}
+```
+
+All queries within the callback use the same transaction. If any throws, the entire transaction rolls back.

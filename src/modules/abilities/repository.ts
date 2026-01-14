@@ -43,19 +43,25 @@ export class AbilitiesRepository {
     };
   }
 
-  async searchAbilities(filters: AbilityFilter): Promise<{ data: Ability[]; total: number }> {
+  async searchAbilities(
+    filters: AbilityFilter,
+    useFuzzy: boolean
+  ): Promise<{ data: Ability[]; total: number }> {
     let query = this.buildSearchQuery(filters);
     let countQuery = this.buildSearchQuery(filters)
       .clearSelect()
       .select(sql<number>`COUNT(*)`.as('count'));
 
     if (filters.name) {
-      query = query.where(sql<boolean>`a.name % ${filters.name}`);
-      countQuery = countQuery.where(sql<boolean>`a.name % ${filters.name}`);
-    }
-
-    if (filters.name) {
-      query = query.orderBy(sql`similarity(a.name, ${filters.name})`, 'desc');
+      if (useFuzzy) {
+        query = query.where(sql<boolean>`a.name % ${filters.name}`);
+        countQuery = countQuery.where(sql<boolean>`a.name % ${filters.name}`);
+        query = query.orderBy(sql`similarity(a.name, ${filters.name})`, 'desc');
+      } else {
+        query = query.where('a.name', 'ilike', `${filters.name}%`);
+        countQuery = countQuery.where('a.name', 'ilike', `${filters.name}%`);
+        query = query.orderBy('a.name');
+      }
     } else {
       query = query.orderBy('a.id');
     }

@@ -57,25 +57,25 @@ const postgres = Value.Parse(postgresSchema, {
   POSTGRES_DB: 'herta',
   POSTGRES_HOST: 'localhost',
   POSTGRES_PORT: '5432',
-  ...Bun.env,
+  ...process.env,
 });
 
 const redis = Value.Parse(redisSchema, {
   REDIS_HOST: 'localhost',
   REDIS_PORT: '6379',
-  ...Bun.env,
+  ...process.env,
 });
 
 const kafka = Value.Parse(kafkaSchema, {
   KAFKA_BROKERS: 'localhost:9092',
-  ...Bun.env,
+  ...process.env,
 });
 
 const outbox = Value.Parse(outboxSchema, {
   OUTBOX_POLL_INTERVAL_MS: '10000',
   OUTBOX_BATCH_SIZE: '100',
   OUTBOX_KAFKA_TOPIC: 'entity-events',
-  ...Bun.env,
+  ...process.env,
 });
 
 const app = Value.Parse(appSchema, {
@@ -83,14 +83,14 @@ const app = Value.Parse(appSchema, {
   PORT: '3000',
   CORS_ORIGIN: '*',
   SWAGGER_ENABLED: 'true',
-  ...Bun.env,
+  ...process.env,
 });
 
 const cache = Value.Parse(cacheSchema, {
   CACHE_MAX_AGE: '60',
   CACHE_STALE_WHILE_REVALIDATE: '300',
   CACHE_ENABLED: 'true',
-  ...Bun.env,
+  ...process.env,
 });
 
 const auth = Value.Parse(authSchema, {
@@ -98,12 +98,12 @@ const auth = Value.Parse(authSchema, {
   AUTH_SESSION_EXPIRES_IN: '604800',
   AUTH_SESSION_UPDATE_AGE: '86400',
   AUTH_JWT_EXPIRES_IN: '1h',
-  ...Bun.env,
+  ...process.env,
 });
 
 const s3 = (() => {
   try {
-    return Value.Parse(s3Schema, { S3_REGION: 'auto', ...Bun.env });
+    return Value.Parse(s3Schema, { S3_REGION: 'auto', ...process.env });
   } catch {
     throw new Error(
       'Missing S3 config. Set S3_ENDPOINT, S3_ACCESS_KEY_ID, S3_SECRET_ACCESS_KEY, S3_BUCKET in .env'

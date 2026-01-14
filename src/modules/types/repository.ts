@@ -57,7 +57,10 @@ export class TypesRepository {
     })(query, options);
   }
 
-  async searchTypes(filter: TypeFilter): Promise<{ data: Type[]; total: number }> {
+  async searchTypes(
+    filter: TypeFilter,
+    useFuzzy: boolean
+  ): Promise<{ data: Type[]; total: number }> {
     let query = this.db.selectFrom('types').select(['id', 'name', 'slug']);
     let countQuery = this.db.selectFrom('types').select(sql<number>`COUNT(*)`.as('count'));
 
@@ -70,12 +73,15 @@ export class TypesRepository {
       countQuery = countQuery.where('slug', 'in', filter.typeSlugs);
     }
     if (filter.name) {
-      query = query.where(sql<boolean>`name % ${filter.name}`);
-      countQuery = countQuery.where(sql<boolean>`name % ${filter.name}`);
-    }
-
-    if (filter.name) {
-      query = query.orderBy(sql`similarity(name, ${filter.name})`, 'desc');
+      if (useFuzzy) {
+        query = query.where(sql<boolean>`name % ${filter.name}`);
+        countQuery = countQuery.where(sql<boolean>`name % ${filter.name}`);
+        query = query.orderBy(sql`similarity(name, ${filter.name})`, 'desc');
+      } else {
+        query = query.where('name', 'ilike', `${filter.name}%`);
+        countQuery = countQuery.where('name', 'ilike', `${filter.name}%`);
+        query = query.orderBy('name');
+      }
     } else {
       query = query.orderBy('id');
     }

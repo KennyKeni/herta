@@ -10,6 +10,8 @@ export type Generated<T> =
     ? ColumnType<S, I | undefined, U>
     : ColumnType<T, T | undefined, T>;
 
+export type ImageStatus = 'pending' | 'uploaded';
+
 export type Json = JsonValue;
 
 export type JsonArray = JsonValue[];
@@ -50,6 +52,22 @@ export interface AbilitySlots {
   slug: string;
 }
 
+export interface Account {
+  accessToken: string | null;
+  accessTokenExpiresAt: Timestamp | null;
+  accountId: string;
+  createdAt: Generated<Timestamp>;
+  id: string;
+  idToken: string | null;
+  password: string | null;
+  providerId: string;
+  refreshToken: string | null;
+  refreshTokenExpiresAt: Timestamp | null;
+  scope: string | null;
+  updatedAt: Generated<Timestamp>;
+  userId: string;
+}
+
 export interface ArticleCategories {
   description: string | null;
   id: Generated<number>;
@@ -60,6 +78,17 @@ export interface ArticleCategories {
 export interface ArticleCategoryMap {
   article_id: number;
   category_id: number;
+}
+
+export interface ArticleImages {
+  article_id: number;
+  confirmed_at: Timestamp | null;
+  content_type: string;
+  created_at: Generated<Timestamp>;
+  id: Generated<number>;
+  is_cover: Generated<boolean>;
+  key: string;
+  status: Generated<ImageStatus>;
 }
 
 export interface Articles {
@@ -337,6 +366,14 @@ export interface ItemTagTypes {
   id: number;
   name: string;
   slug: string;
+}
+
+export interface Jwks {
+  createdAt: Generated<Timestamp>;
+  expiresAt: Timestamp | null;
+  id: string;
+  privateKey: string;
+  publicKey: string;
 }
 
 export interface Labels {
@@ -651,13 +688,38 @@ export interface Types {
   slug: string;
 }
 
+export interface User {
+  banExpires: Timestamp | null;
+  banned: Generated<boolean | null>;
+  banReason: string | null;
+  createdAt: Generated<Timestamp>;
+  email: string;
+  emailVerified: Generated<boolean>;
+  id: string;
+  image: string | null;
+  name: string;
+  role: Generated<string | null>;
+  updatedAt: Generated<Timestamp>;
+}
+
+export interface Verification {
+  createdAt: Generated<Timestamp>;
+  expiresAt: Timestamp;
+  id: string;
+  identifier: string;
+  updatedAt: Generated<Timestamp>;
+  value: string;
+}
+
 export interface DB {
   abilities: Abilities;
   ability_flag_types: AbilityFlagTypes;
   ability_flags: AbilityFlags;
   ability_slots: AbilitySlots;
+  account: Account;
   article_categories: ArticleCategories;
   article_category_map: ArticleCategoryMap;
+  article_images: ArticleImages;
   articles: Articles;
   aspect_choices: AspectChoices;
   aspect_groups: AspectGroups;
@@ -697,6 +759,7 @@ export interface DB {
   item_tag_types: ItemTagTypes;
   item_tags: ItemTags;
   items: Items;
+  jwks: Jwks;
   labels: Labels;
   lighting: Lighting;
   moon_phases: MoonPhases;
@@ -742,4 +805,6 @@ export interface DB {
   time_ranges: TimeRanges;
   type_matchups: TypeMatchups;
   types: Types;
+  user: User;
+  verification: Verification;
 }

@@ -36,3 +36,56 @@ export interface ArticleFilter extends IncludeOptions {
   limit?: number;
   offset?: number;
 }
+
+export interface CreateArticle {
+  title: string;
+  subtitle?: string | null;
+  description?: string | null;
+  body: string;
+  author?: string | null;
+  categoryIds?: number[];
+}
+
+export interface UpdateArticle {
+  title?: string;
+  subtitle?: string | null;
+  description?: string | null;
+  body?: string;
+  author?: string | null;
+  categoryIds?: number[];
+}
+
+export interface CreatedArticle {
+  id: number;
+  slug: string;
+}
+
+export interface UpdatedArticle {
+  id: number;
+  slug: string;
+}
+
+export type ImageStatus = 'pending' | 'uploaded';
+
+export interface ArticleImage {
+  id: number;
+  articleId: number;
+  key: string;
+  status: ImageStatus;
+  contentType: string;
+  isCover: boolean;
+  createdAt: Date;
+  confirmedAt: Date | null;
+}
+
+export interface CreateArticleImage {
+  articleId: number;
+  key: string;
+  contentType: string;
+  isCover?: boolean;
+}
+
+export interface CreatedArticleImage {
+  id: number;
+  key: string;
+}

@@ -344,7 +344,196 @@ const SpeciesWithFormsSchema = t.Composite([
 
 const SpeciesWithFormSchema = t.Composite([SpeciesSchema, t.Object({ form: FormSchema })]);
 
-export type PokemonSearchResponse = typeof PaginatedResponseSchema.static;
+const CreateSpeciesHitboxSchema = t.Object({
+  width: t.Number(),
+  height: t.Number(),
+  fixed: t.Boolean(),
+});
+
+const CreateSpeciesLightingSchema = t.Object({
+  lightLevel: t.Number(),
+  liquidGlowMode: t.Optional(t.Nullable(t.String())),
+});
+
+const CreateSpeciesRidingSchema = t.Object({
+  data: t.Unknown(),
+});
+
+const CreateSpeciesBodySchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
+  description: t.Optional(t.Nullable(t.String())),
+  generation: t.Number(),
+  catchRate: t.Number(),
+  baseFriendship: t.Number(),
+  eggCycles: t.Number(),
+  maleRatio: t.Optional(t.Nullable(t.Number())),
+  baseScale: t.Optional(t.Nullable(t.Number())),
+  experienceGroupId: t.Optional(t.Nullable(t.Number())),
+  eggGroupIds: t.Optional(t.Array(t.Number())),
+  hitbox: t.Optional(t.Nullable(CreateSpeciesHitboxSchema)),
+  lighting: t.Optional(t.Nullable(CreateSpeciesLightingSchema)),
+  riding: t.Optional(t.Nullable(CreateSpeciesRidingSchema)),
+});
+
+const UpdateSpeciesBodySchema = t.Object({
+  name: t.Optional(t.String()),
+  description: t.Optional(t.Nullable(t.String())),
+  generation: t.Optional(t.Number()),
+  catchRate: t.Optional(t.Number()),
+  baseFriendship: t.Optional(t.Number()),
+  eggCycles: t.Optional(t.Number()),
+  maleRatio: t.Optional(t.Nullable(t.Number())),
+  baseScale: t.Optional(t.Nullable(t.Number())),
+  experienceGroupId: t.Optional(t.Nullable(t.Number())),
+  eggGroupIds: t.Optional(t.Array(t.Number())),
+  hitbox: t.Optional(t.Nullable(CreateSpeciesHitboxSchema)),
+  lighting: t.Optional(t.Nullable(CreateSpeciesLightingSchema)),
+  riding: t.Optional(t.Nullable(CreateSpeciesRidingSchema)),
+});
+
+const CreatedSpeciesResponseSchema = t.Object({
+  id: t.Number(),
+  slug: t.String(),
+});
+
+const UpdatedSpeciesResponseSchema = t.Object({
+  id: t.Number(),
+  slug: t.String(),
+});
+
+const CreateFormTypeSchema = t.Object({
+  typeId: t.Number(),
+  slot: t.Number(),
+});
+
+const CreateFormAbilitySchema = t.Object({
+  abilityId: t.Number(),
+  slotId: t.Number(),
+});
+
+const CreateFormHitboxSchema = t.Object({
+  width: t.Number(),
+  height: t.Number(),
+  fixed: t.Boolean(),
+});
+
+const CreateFormOverridesSchema = t.Object({
+  catchRate: t.Optional(t.Nullable(t.Number())),
+  baseFriendship: t.Optional(t.Nullable(t.Number())),
+  eggCycles: t.Optional(t.Nullable(t.Number())),
+  maleRatio: t.Optional(t.Nullable(t.Number())),
+  baseScale: t.Optional(t.Nullable(t.Number())),
+});
+
+const CreateFormDropPercentageSchema = t.Object({
+  itemId: t.Number(),
+  percentage: t.Number(),
+});
+
+const CreateFormDropRangeSchema = t.Object({
+  itemId: t.Number(),
+  quantityMin: t.Number(),
+  quantityMax: t.Number(),
+});
+
+const CreateFormDropsSchema = t.Object({
+  amount: t.Number(),
+  percentages: t.Optional(t.Array(CreateFormDropPercentageSchema)),
+  ranges: t.Optional(t.Array(CreateFormDropRangeSchema)),
+});
+
+const CreateFormAspectComboSchema = t.Object({
+  comboIndex: t.Number(),
+  aspectIds: t.Array(t.Number()),
+});
+
+const CreateFormBehaviourSchema = t.Object({
+  data: t.Unknown(),
+});
+
+const CreateFormBodySchema = t.Object({
+  id: t.Number(),
+  speciesId: t.Number(),
+  name: t.String(),
+  formName: t.String(),
+  description: t.Optional(t.Nullable(t.String())),
+  generation: t.Optional(t.Nullable(t.Number())),
+  height: t.Number(),
+  weight: t.Number(),
+  baseHp: t.Number(),
+  baseAttack: t.Number(),
+  baseDefence: t.Number(),
+  baseSpecialAttack: t.Number(),
+  baseSpecialDefence: t.Number(),
+  baseSpeed: t.Number(),
+  baseExperienceYield: t.Optional(t.Nullable(t.Number())),
+  evHp: t.Optional(t.Number({ default: 0 })),
+  evAttack: t.Optional(t.Number({ default: 0 })),
+  evDefence: t.Optional(t.Number({ default: 0 })),
+  evSpecialAttack: t.Optional(t.Number({ default: 0 })),
+  evSpecialDefence: t.Optional(t.Number({ default: 0 })),
+  evSpeed: t.Optional(t.Number({ default: 0 })),
+  types: t.Optional(t.Array(CreateFormTypeSchema)),
+  abilities: t.Optional(t.Array(CreateFormAbilitySchema)),
+  labelIds: t.Optional(t.Array(t.Number())),
+  aspectChoiceIds: t.Optional(t.Array(t.Number())),
+  hitbox: t.Optional(t.Nullable(CreateFormHitboxSchema)),
+  overrides: t.Optional(t.Nullable(CreateFormOverridesSchema)),
+  drops: t.Optional(t.Nullable(CreateFormDropsSchema)),
+  aspectCombos: t.Optional(t.Array(CreateFormAspectComboSchema)),
+  behaviour: t.Optional(t.Nullable(CreateFormBehaviourSchema)),
+});
+
+const UpdateFormBodySchema = t.Object({
+  name: t.Optional(t.String()),
+  formName: t.Optional(t.String()),
+  description: t.Optional(t.Nullable(t.String())),
+  generation: t.Optional(t.Nullable(t.Number())),
+  height: t.Optional(t.Number()),
+  weight: t.Optional(t.Number()),
+  baseHp: t.Optional(t.Number()),
+  baseAttack: t.Optional(t.Number()),
+  baseDefence: t.Optional(t.Number()),
+  baseSpecialAttack: t.Optional(t.Number()),
+  baseSpecialDefence: t.Optional(t.Number()),
+  baseSpeed: t.Optional(t.Number()),
+  baseExperienceYield: t.Optional(t.Nullable(t.Number())),
+  evHp: t.Optional(t.Number()),
+  evAttack: t.Optional(t.Number()),
+  evDefence: t.Optional(t.Number()),
+  evSpecialAttack: t.Optional(t.Number()),
+  evSpecialDefence: t.Optional(t.Number()),
+  evSpeed: t.Optional(t.Number()),
+  types: t.Optional(t.Array(CreateFormTypeSchema)),
+  abilities: t.Optional(t.Array(CreateFormAbilitySchema)),
+  labelIds: t.Optional(t.Array(t.Number())),
+  aspectChoiceIds: t.Optional(t.Array(t.Number())),
+  hitbox: t.Optional(t.Nullable(CreateFormHitboxSchema)),
+  overrides: t.Optional(t.Nullable(CreateFormOverridesSchema)),
+  drops: t.Optional(t.Nullable(CreateFormDropsSchema)),
+  aspectCombos: t.Optional(t.Array(CreateFormAspectComboSchema)),
+  behaviour: t.Optional(t.Nullable(CreateFormBehaviourSchema)),
+});
+
+const CreatedFormResponseSchema = t.Object({
+  id: t.Number(),
+  slug: t.String(),
+});
+
+const UpdatedFormResponseSchema = t.Object({
+  id: t.Number(),
+  slug: t.String(),
+});
+
+const UploadUrlResponseSchema = t.Object({
+  url: t.String(),
+  key: t.String(),
+});
+
+const UploadUrlBodySchema = t.Object({
+  contentType: t.String({ default: 'image/png' }),
+});
 
 export const PokemonModel = {
   searchQuery: PokemonSearchQuerySchema,
@@ -353,4 +542,14 @@ export const PokemonModel = {
   getOneResponse: SpeciesWithFormsSchema,
   getFormQuery: IncludeOptionsSchema,
   getFormResponse: SpeciesWithFormSchema,
+  createSpeciesBody: CreateSpeciesBodySchema,
+  updateSpeciesBody: UpdateSpeciesBodySchema,
+  createdSpeciesResponse: CreatedSpeciesResponseSchema,
+  updatedSpeciesResponse: UpdatedSpeciesResponseSchema,
+  createFormBody: CreateFormBodySchema,
+  updateFormBody: UpdateFormBodySchema,
+  createdFormResponse: CreatedFormResponseSchema,
+  updatedFormResponse: UpdatedFormResponseSchema,
+  uploadUrlBody: UploadUrlBodySchema,
+  uploadUrlResponse: UploadUrlResponseSchema,
 };

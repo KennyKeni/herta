@@ -200,6 +200,188 @@ export interface Range {
   lte?: number;
 }
 
+export interface CreateSpeciesHitbox {
+  width: number;
+  height: number;
+  fixed: boolean;
+}
+
+export interface CreateSpeciesLighting {
+  lightLevel: number;
+  liquidGlowMode?: string | null;
+}
+
+export interface CreateSpeciesRiding {
+  data: unknown;
+}
+
+export interface CreateSpecies {
+  id: number;
+  name: string;
+  description?: string | null;
+  generation: number;
+  catchRate: number;
+  baseFriendship: number;
+  eggCycles: number;
+  maleRatio?: number | null;
+  baseScale?: number | null;
+  experienceGroupId?: number | null;
+  eggGroupIds?: number[];
+  hitbox?: CreateSpeciesHitbox | null;
+  lighting?: CreateSpeciesLighting | null;
+  riding?: CreateSpeciesRiding | null;
+}
+
+export interface UpdateSpecies {
+  name?: string;
+  description?: string | null;
+  generation?: number;
+  catchRate?: number;
+  baseFriendship?: number;
+  eggCycles?: number;
+  maleRatio?: number | null;
+  baseScale?: number | null;
+  experienceGroupId?: number | null;
+  eggGroupIds?: number[];
+  hitbox?: CreateSpeciesHitbox | null;
+  lighting?: CreateSpeciesLighting | null;
+  riding?: CreateSpeciesRiding | null;
+}
+
+export interface CreatedSpecies {
+  id: number;
+  slug: string;
+}
+
+export interface UpdatedSpecies {
+  id: number;
+  slug: string;
+}
+
+export interface CreateFormType {
+  typeId: number;
+  slot: number;
+}
+
+export interface CreateFormAbility {
+  abilityId: number;
+  slotId: number;
+}
+
+export interface CreateFormHitbox {
+  width: number;
+  height: number;
+  fixed: boolean;
+}
+
+export interface CreateFormOverrides {
+  catchRate?: number | null;
+  baseFriendship?: number | null;
+  eggCycles?: number | null;
+  maleRatio?: number | null;
+  baseScale?: number | null;
+}
+
+export interface CreateFormDropPercentage {
+  itemId: number;
+  percentage: number;
+}
+
+export interface CreateFormDropRange {
+  itemId: number;
+  quantityMin: number;
+  quantityMax: number;
+}
+
+export interface CreateFormDrops {
+  amount: number;
+  percentages?: CreateFormDropPercentage[];
+  ranges?: CreateFormDropRange[];
+}
+
+export interface CreateFormAspectCombo {
+  comboIndex: number;
+  aspectIds: number[];
+}
+
+export interface CreateFormBehaviour {
+  data: unknown;
+}
+
+export interface CreateForm {
+  id: number;
+  speciesId: number;
+  name: string;
+  formName: string;
+  description?: string | null;
+  generation?: number | null;
+  height: number;
+  weight: number;
+  baseHp: number;
+  baseAttack: number;
+  baseDefence: number;
+  baseSpecialAttack: number;
+  baseSpecialDefence: number;
+  baseSpeed: number;
+  baseExperienceYield?: number | null;
+  evHp?: number;
+  evAttack?: number;
+  evDefence?: number;
+  evSpecialAttack?: number;
+  evSpecialDefence?: number;
+  evSpeed?: number;
+  types?: CreateFormType[];
+  abilities?: CreateFormAbility[];
+  labelIds?: number[];
+  aspectChoiceIds?: number[];
+  hitbox?: CreateFormHitbox | null;
+  overrides?: CreateFormOverrides | null;
+  drops?: CreateFormDrops | null;
+  aspectCombos?: CreateFormAspectCombo[];
+  behaviour?: CreateFormBehaviour | null;
+}
+
+export interface UpdateForm {
+  name?: string;
+  formName?: string;
+  description?: string | null;
+  generation?: number | null;
+  height?: number;
+  weight?: number;
+  baseHp?: number;
+  baseAttack?: number;
+  baseDefence?: number;
+  baseSpecialAttack?: number;
+  baseSpecialDefence?: number;
+  baseSpeed?: number;
+  baseExperienceYield?: number | null;
+  evHp?: number;
+  evAttack?: number;
+  evDefence?: number;
+  evSpecialAttack?: number;
+  evSpecialDefence?: number;
+  evSpeed?: number;
+  types?: CreateFormType[];
+  abilities?: CreateFormAbility[];
+  labelIds?: number[];
+  aspectChoiceIds?: number[];
+  hitbox?: CreateFormHitbox | null;
+  overrides?: CreateFormOverrides | null;
+  drops?: CreateFormDrops | null;
+  aspectCombos?: CreateFormAspectCombo[];
+  behaviour?: CreateFormBehaviour | null;
+}
+
+export interface CreatedForm {
+  id: number;
+  slug: string;
+}
+
+export interface UpdatedForm {
+  id: number;
+  slug: string;
+}
+
 export interface IncludeOptions {
   includeTypes?: boolean;
   includeAbilities?: boolean;

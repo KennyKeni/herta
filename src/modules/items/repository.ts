@@ -87,19 +87,25 @@ export class ItemsRepository {
     })(query, options);
   }
 
-  async searchItems(filters: ItemFilter): Promise<{ data: Item[]; total: number }> {
+  async searchItems(
+    filters: ItemFilter,
+    useFuzzy: boolean
+  ): Promise<{ data: Item[]; total: number }> {
     let query = this.buildSearchQuery(filters);
     let countQuery = this.buildSearchQuery(filters)
       .clearSelect()
       .select(sql<number>`COUNT(*)`.as('count'));
 
     if (filters.name) {
-      query = query.where(sql<boolean>`i.name % ${filters.name}`);
-      countQuery = countQuery.where(sql<boolean>`i.name % ${filters.name}`);
-    }
-
-    if (filters.name) {
-      query = query.orderBy(sql`similarity(i.name, ${filters.name})`, 'desc');
+      if (useFuzzy) {
+        query = query.where(sql<boolean>`i.name % ${filters.name}`);
+        countQuery = countQuery.where(sql<boolean>`i.name % ${filters.name}`);
+        query = query.orderBy(sql`similarity(i.name, ${filters.name})`, 'desc');
+      } else {
+        query = query.where('i.name', 'ilike', `${filters.name}%`);
+        countQuery = countQuery.where('i.name', 'ilike', `${filters.name}%`);
+        query = query.orderBy('i.name');
+      }
     } else {
       query = query.orderBy('i.id');
     }

@@ -14,6 +14,7 @@
     "migrate:list": "bunx --bun kysely-ctl migrate:list --config .config/kysely.config.ts",
     "seed": "bun run src/infrastructure/db/seed/index.ts",
     "seed:clear": "bun run src/infrastructure/db/seed/clear.ts",
+    "create-admin": "bun run scripts/create-admin.ts",
     "worker:outbox": "bun run src/workers/outbox-poller.ts",
     "codegen": "sh -c '. ./.env && DATABASE_URL=\"postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST:-localhost}:${POSTGRES_PORT:-5432}/${POSTGRES_DB}\" kysely-codegen --dialect postgres --out-file ./src/infrastructure/db/types.ts'",
     "check": "biome check src",
@@ -35,7 +36,7 @@
     "ioredis": "^5.8.2",
     "kafkajs": "^2.2.4",
     "kysely": "^0.28.9",
-    "kysely-ctl": "^0.19.0",
+    "kysely-ctl": "^0.20.0",
     "kysely-postgres-js": "^3.0.0"
   },
   "devDependencies": {

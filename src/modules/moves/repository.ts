@@ -256,19 +256,25 @@ export class MovesRepository {
     })(query, options);
   }
 
-  async searchMoves(filters: MoveFilter): Promise<{ data: Move[]; total: number }> {
+  async searchMoves(
+    filters: MoveFilter,
+    useFuzzy: boolean
+  ): Promise<{ data: Move[]; total: number }> {
     let query = this.buildSearchQuery(filters);
     let countQuery = this.buildSearchQuery(filters)
       .clearSelect()
       .select(sql<number>`COUNT(*)`.as('count'));
 
     if (filters.name) {
-      query = query.where(sql<boolean>`m.name % ${filters.name}`);
-      countQuery = countQuery.where(sql<boolean>`m.name % ${filters.name}`);
-    }
-
-    if (filters.name) {
-      query = query.orderBy(sql`similarity(m.name, ${filters.name})`, 'desc');
+      if (useFuzzy) {
+        query = query.where(sql<boolean>`m.name % ${filters.name}`);
+        countQuery = countQuery.where(sql<boolean>`m.name % ${filters.name}`);
+        query = query.orderBy(sql`similarity(m.name, ${filters.name})`, 'desc');
+      } else {
+        query = query.where('m.name', 'ilike', `${filters.name}%`);
+        countQuery = countQuery.where('m.name', 'ilike', `${filters.name}%`);
+        query = query.orderBy('m.name');
+      }
     } else {
       query = query.orderBy('m.id');
     }

@@ -1,11 +1,15 @@
 import { type Kysely, sql } from 'kysely';
 import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } from '@/common/fuzzy';
 import { FilterLogic } from '@/common/types';
-import type { DB } from '@/infrastructure/db/types';
+import type { DB, Json } from '@/infrastructure/db/types';
 import type { Spawn } from '../spawns/domain';
 import { SpawnRepository } from '../spawns/repository';
 import type {
   AspectRef,
+  CreatedForm,
+  CreatedSpecies,
+  CreateForm,
+  CreateSpecies,
   DropPercentage,
   DropRange,
   Form,
@@ -16,6 +20,10 @@ import type {
   Species,
   SpeciesWithForm,
   SpeciesWithForms,
+  UpdatedForm,
+  UpdatedSpecies,
+  UpdateForm,
+  UpdateSpecies,
 } from './domain';
 
 export class PokemonRepository {
@@ -23,6 +31,10 @@ export class PokemonRepository {
 
   constructor(private db: Kysely<DB>) {
     this.spawnRepository = new SpawnRepository(db);
+  }
+
+  withTransaction(trx: Kysely<DB>): PokemonRepository {
+    return new PokemonRepository(trx);
   }
 
   async getByIdentifier(
@@ -175,24 +187,31 @@ export class PokemonRepository {
     return this.assembleResults(rows, relations);
   }
 
-  async searchByForm(filters: PokemonFilter): Promise<{ data: SpeciesWithForms[]; total: number }> {
+  async searchByForm(
+    filters: PokemonFilter,
+    useFuzzy: boolean
+  ): Promise<{ data: SpeciesWithForms[]; total: number }> {
     let speciesIdsQuery = this.buildSearchQuery(filters)
+      .clearSelect()
       .select('f.species_id')
-      .distinctOn('f.species_id');
+      .groupBy('f.species_id');
 
     let countQuery = this.buildSearchQuery(filters)
       .clearSelect()
       .select(sql<number>`COUNT(DISTINCT f.species_id)`.as('count'));
 
     if (filters.name) {
-      speciesIdsQuery = speciesIdsQuery.where(sql<boolean>`s.name % ${filters.name}`);
-      countQuery = countQuery.where(sql<boolean>`s.name % ${filters.name}`);
-    }
-
-    if (filters.name) {
-      speciesIdsQuery = speciesIdsQuery
-        .orderBy('f.species_id')
-        .orderBy(sql`similarity(s.name, ${filters.name})`, 'desc');
+      if (useFuzzy) {
+        speciesIdsQuery = speciesIdsQuery
+          .where(sql<boolean>`s.name % ${filters.name}`)
+          .orderBy(sql`MAX(similarity(s.name, ${filters.name}))`, 'desc');
+        countQuery = countQuery.where(sql<boolean>`s.name % ${filters.name}`);
+      } else {
+        speciesIdsQuery = speciesIdsQuery
+          .where('s.name', 'ilike', `${filters.name}%`)
+          .orderBy(sql`MIN(s.name)`);
+        countQuery = countQuery.where('s.name', 'ilike', `${filters.name}%`);
+      }
     } else {
       speciesIdsQuery = speciesIdsQuery.orderBy('f.species_id');
     }
@@ -211,9 +230,13 @@ export class PokemonRepository {
     let formsQuery = this.buildSearchQuery(filters).where('f.species_id', 'in', targetSpeciesIds);
 
     if (filters.name) {
-      formsQuery = formsQuery
-        .orderBy(sql`similarity(s.name, ${filters.name})`, 'desc')
-        .orderBy('f.id');
+      if (useFuzzy) {
+        formsQuery = formsQuery
+          .orderBy(sql`similarity(s.name, ${filters.name})`, 'desc')
+          .orderBy('f.id');
+      } else {
+        formsQuery = formsQuery.orderBy('s.name').orderBy('f.id');
+      }
     } else {
       formsQuery = formsQuery.orderBy('f.species_id').orderBy('f.id');
     }
@@ -1165,5 +1188,784 @@ export class PokemonRepository {
     }
 
     return Array.from(comboMap.values());
+  }
+
+  async createSpecies(data: CreateSpecies, slug: string): Promise<CreatedSpecies> {
+    return this.db.transaction().execute(async (trx) => {
+      await trx
+        .insertInto('species')
+        .values({
+          id: data.id,
+          slug,
+          name: data.name,
+          description: data.description ?? null,
+          generation: data.generation,
+          catch_rate: data.catchRate,
+          base_friendship: data.baseFriendship,
+          egg_cycles: data.eggCycles,
+          male_ratio: data.maleRatio ?? null,
+          base_scale: data.baseScale ?? null,
+          experience_group_id: data.experienceGroupId ?? null,
+        })
+        .execute();
+
+      if (data.eggGroupIds?.length) {
+        await trx
+          .insertInto('species_egg_groups')
+          .values(
+            data.eggGroupIds.map((eggGroupId) => ({
+              species_id: data.id,
+              egg_group_id: eggGroupId,
+            }))
+          )
+          .execute();
+      }
+
+      if (data.hitbox) {
+        await trx
+          .insertInto('species_hitboxes')
+          .values({
+            species_id: data.id,
+            width: data.hitbox.width,
+            height: data.hitbox.height,
+            fixed: data.hitbox.fixed,
+          })
+          .execute();
+      }
+
+      if (data.lighting) {
+        await trx
+          .insertInto('lighting')
+          .values({
+            species_id: data.id,
+            light_level: data.lighting.lightLevel,
+            liquid_glow_mode: data.lighting.liquidGlowMode ?? null,
+          })
+          .execute();
+      }
+
+      if (data.riding) {
+        await trx
+          .insertInto('riding')
+          .values({
+            species_id: data.id,
+            data: data.riding.data as Json,
+          })
+          .execute();
+      }
+
+      return { id: data.id, slug };
+    });
+  }
+
+  async updateSpecies(
+    identifier: string,
+    data: UpdateSpecies,
+    newSlug?: string
+  ): Promise<UpdatedSpecies | null> {
+    const isId = /^\d+$/.test(identifier);
+    const speciesId = isId ? Number(identifier) : null;
+
+    return this.db.transaction().execute(async (trx) => {
+      let id: number;
+      let slug: string;
+
+      if (speciesId) {
+        const existing = await trx
+          .selectFrom('species')
+          .select(['id', 'slug'])
+          .where('id', '=', speciesId)
+          .executeTakeFirst();
+        if (!existing) return null;
+        id = existing.id;
+        slug = newSlug ?? existing.slug;
+      } else {
+        const existing = await trx
+          .selectFrom('species')
+          .select(['id', 'slug'])
+          .where('slug', '=', identifier)
+          .executeTakeFirst();
+        if (!existing) return null;
+        id = existing.id;
+        slug = newSlug ?? existing.slug;
+      }
+
+      const updateValues: Record<string, unknown> = {};
+      if (newSlug !== undefined) updateValues.slug = newSlug;
+      if (data.name !== undefined) updateValues.name = data.name;
+      if (data.description !== undefined) updateValues.description = data.description;
+      if (data.generation !== undefined) updateValues.generation = data.generation;
+      if (data.catchRate !== undefined) updateValues.catch_rate = data.catchRate;
+      if (data.baseFriendship !== undefined) updateValues.base_friendship = data.baseFriendship;
+      if (data.eggCycles !== undefined) updateValues.egg_cycles = data.eggCycles;
+      if (data.maleRatio !== undefined) updateValues.male_ratio = data.maleRatio;
+      if (data.baseScale !== undefined) updateValues.base_scale = data.baseScale;
+      if (data.experienceGroupId !== undefined)
+        updateValues.experience_group_id = data.experienceGroupId;
+
+      if (Object.keys(updateValues).length > 0) {
+        await trx.updateTable('species').set(updateValues).where('id', '=', id).execute();
+      }
+
+      if (data.eggGroupIds !== undefined) {
+        await trx.deleteFrom('species_egg_groups').where('species_id', '=', id).execute();
+        if (data.eggGroupIds.length > 0) {
+          await trx
+            .insertInto('species_egg_groups')
+            .values(
+              data.eggGroupIds.map((eggGroupId) => ({ species_id: id, egg_group_id: eggGroupId }))
+            )
+            .execute();
+        }
+      }
+
+      if (data.hitbox !== undefined) {
+        if (data.hitbox) {
+          await trx
+            .insertInto('species_hitboxes')
+            .values({
+              species_id: id,
+              width: data.hitbox.width,
+              height: data.hitbox.height,
+              fixed: data.hitbox.fixed,
+            })
+            .onConflict((oc) =>
+              oc.column('species_id').doUpdateSet({
+                width: data.hitbox?.width,
+                height: data.hitbox?.height,
+                fixed: data.hitbox?.fixed,
+              })
+            )
+            .execute();
+        } else {
+          await trx.deleteFrom('species_hitboxes').where('species_id', '=', id).execute();
+        }
+      }
+
+      if (data.lighting !== undefined) {
+        if (data.lighting) {
+          await trx
+            .insertInto('lighting')
+            .values({
+              species_id: id,
+              light_level: data.lighting.lightLevel,
+              liquid_glow_mode: data.lighting.liquidGlowMode ?? null,
+            })
+            .onConflict((oc) =>
+              oc.column('species_id').doUpdateSet({
+                light_level: data.lighting?.lightLevel,
+                liquid_glow_mode: data.lighting?.liquidGlowMode ?? null,
+              })
+            )
+            .execute();
+        } else {
+          await trx.deleteFrom('lighting').where('species_id', '=', id).execute();
+        }
+      }
+
+      if (data.riding !== undefined) {
+        if (data.riding) {
+          await trx
+            .insertInto('riding')
+            .values({
+              species_id: id,
+              data: data.riding.data as Json,
+            })
+            .onConflict((oc) =>
+              oc.column('species_id').doUpdateSet({
+                data: data.riding?.data as Json,
+              })
+            )
+            .execute();
+        } else {
+          await trx.deleteFrom('riding').where('species_id', '=', id).execute();
+        }
+      }
+
+      return { id, slug };
+    });
+  }
+
+  async getSpeciesSlugById(id: number): Promise<string | null> {
+    const result = await this.db
+      .selectFrom('species')
+      .select('slug')
+      .where('id', '=', id)
+      .executeTakeFirst();
+    return result?.slug ?? null;
+  }
+
+  async getSpeciesIdBySlug(slug: string): Promise<number | null> {
+    const result = await this.db
+      .selectFrom('species')
+      .select('id')
+      .where('slug', '=', slug)
+      .executeTakeFirst();
+    return result?.id ?? null;
+  }
+
+  async getFormIdBySlug(slug: string): Promise<number | null> {
+    const result = await this.db
+      .selectFrom('forms')
+      .select('id')
+      .where('slug', '=', slug)
+      .executeTakeFirst();
+    return result?.id ?? null;
+  }
+
+  async checkSpeciesExists(
+    id: number,
+    slug: string
+  ): Promise<{ idExists: boolean; slugExists: boolean }> {
+    const [idResult, slugResult] = await Promise.all([
+      this.db.selectFrom('species').select('id').where('id', '=', id).executeTakeFirst(),
+      this.db.selectFrom('species').select('id').where('slug', '=', slug).executeTakeFirst(),
+    ]);
+    return { idExists: !!idResult, slugExists: !!slugResult };
+  }
+
+  async checkSpeciesSlugConflict(slug: string, excludeId: number): Promise<boolean> {
+    const result = await this.db
+      .selectFrom('species')
+      .select('id')
+      .where('slug', '=', slug)
+      .where('id', '!=', excludeId)
+      .executeTakeFirst();
+    return !!result;
+  }
+
+  async checkFormExists(
+    id: number,
+    slug: string
+  ): Promise<{ idExists: boolean; slugExists: boolean }> {
+    const [idResult, slugResult] = await Promise.all([
+      this.db.selectFrom('forms').select('id').where('id', '=', id).executeTakeFirst(),
+      this.db.selectFrom('forms').select('id').where('slug', '=', slug).executeTakeFirst(),
+    ]);
+    return { idExists: !!idResult, slugExists: !!slugResult };
+  }
+
+  async checkFormSlugConflict(slug: string, excludeId: number): Promise<boolean> {
+    const result = await this.db
+      .selectFrom('forms')
+      .select('id')
+      .where('slug', '=', slug)
+      .where('id', '!=', excludeId)
+      .executeTakeFirst();
+    return !!result;
+  }
+
+  async createForm(data: CreateForm, slug: string): Promise<CreatedForm> {
+    return this.db.transaction().execute(async (trx) => {
+      await trx
+        .insertInto('forms')
+        .values({
+          id: data.id,
+          species_id: data.speciesId,
+          slug,
+          name: data.name,
+          form_name: data.formName,
+          description: data.description ?? null,
+          generation: data.generation ?? null,
+          height: data.height,
+          weight: data.weight,
+          base_hp: data.baseHp,
+          base_attack: data.baseAttack,
+          base_defence: data.baseDefence,
+          base_special_attack: data.baseSpecialAttack,
+          base_special_defence: data.baseSpecialDefence,
+          base_speed: data.baseSpeed,
+          base_experience_yield: data.baseExperienceYield ?? null,
+          ev_hp: data.evHp ?? 0,
+          ev_attack: data.evAttack ?? 0,
+          ev_defence: data.evDefence ?? 0,
+          ev_special_attack: data.evSpecialAttack ?? 0,
+          ev_special_defence: data.evSpecialDefence ?? 0,
+          ev_speed: data.evSpeed ?? 0,
+        })
+        .execute();
+
+      if (data.types?.length) {
+        await trx
+          .insertInto('form_types')
+          .values(data.types.map((t) => ({ form_id: data.id, type_id: t.typeId, slot: t.slot })))
+          .execute();
+      }
+
+      if (data.abilities?.length) {
+        await trx
+          .insertInto('form_abilities')
+          .values(
+            data.abilities.map((a) => ({
+              form_id: data.id,
+              ability_id: a.abilityId,
+              slot_id: a.slotId,
+            }))
+          )
+          .execute();
+      }
+
+      if (data.labelIds?.length) {
+        await trx
+          .insertInto('form_labels')
+          .values(data.labelIds.map((labelId) => ({ form_id: data.id, label_id: labelId })))
+          .execute();
+      }
+
+      if (data.aspectChoiceIds?.length) {
+        await trx
+          .insertInto('form_aspects')
+          .values(
+            data.aspectChoiceIds.map((aspectChoiceId) => ({
+              form_id: data.id,
+              aspect_choice_id: aspectChoiceId,
+            }))
+          )
+          .execute();
+      }
+
+      if (data.hitbox) {
+        await trx
+          .insertInto('form_hitboxes')
+          .values({
+            form_id: data.id,
+            width: data.hitbox.width,
+            height: data.hitbox.height,
+            fixed: data.hitbox.fixed,
+          })
+          .execute();
+      }
+
+      if (data.overrides) {
+        await trx
+          .insertInto('form_overrides')
+          .values({
+            form_id: data.id,
+            catch_rate: data.overrides.catchRate ?? null,
+            base_friendship: data.overrides.baseFriendship ?? null,
+            egg_cycles: data.overrides.eggCycles ?? null,
+            male_ratio: data.overrides.maleRatio ?? null,
+            base_scale: data.overrides.baseScale ?? null,
+          })
+          .execute();
+      }
+
+      if (data.drops) {
+        await trx
+          .insertInto('form_drops')
+          .values({ form_id: data.id, amount: data.drops.amount })
+          .execute();
+
+        if (data.drops.percentages?.length) {
+          await trx
+            .insertInto('drop_percentages')
+            .values(
+              data.drops.percentages.map((p) => ({
+                form_id: data.id,
+                item_id: p.itemId,
+                percentage: p.percentage,
+              }))
+            )
+            .execute();
+        }
+
+        if (data.drops.ranges?.length) {
+          await trx
+            .insertInto('drop_ranges')
+            .values(
+              data.drops.ranges.map((r) => ({
+                form_id: data.id,
+                item_id: r.itemId,
+                quantity_min: r.quantityMin,
+                quantity_max: r.quantityMax,
+              }))
+            )
+            .execute();
+        }
+      }
+
+      if (data.aspectCombos?.length) {
+        for (const combo of data.aspectCombos) {
+          const insertedCombo = await trx
+            .insertInto('form_aspect_combos')
+            .values({ form_id: data.id, combo_index: combo.comboIndex })
+            .returning('id')
+            .executeTakeFirstOrThrow();
+
+          if (combo.aspectIds.length) {
+            await trx
+              .insertInto('form_aspect_combo_aspects')
+              .values(
+                combo.aspectIds.map((aspectId) => ({
+                  combo_id: insertedCombo.id,
+                  aspect_id: aspectId,
+                }))
+              )
+              .execute();
+          }
+        }
+      }
+
+      if (data.behaviour) {
+        await trx
+          .insertInto('behaviour')
+          .values({ form_id: data.id, data: data.behaviour.data as Json })
+          .execute();
+      }
+
+      return { id: data.id, slug };
+    });
+  }
+
+  async updateForm(
+    identifier: string,
+    data: UpdateForm,
+    newSlug?: string
+  ): Promise<UpdatedForm | null> {
+    const isId = /^\d+$/.test(identifier);
+    const formId = isId ? Number(identifier) : null;
+
+    return this.db.transaction().execute(async (trx) => {
+      let id: number;
+      let slug: string;
+
+      if (formId) {
+        const existing = await trx
+          .selectFrom('forms')
+          .select(['id', 'slug'])
+          .where('id', '=', formId)
+          .executeTakeFirst();
+        if (!existing) return null;
+        id = existing.id;
+        slug = newSlug ?? existing.slug;
+      } else {
+        const existing = await trx
+          .selectFrom('forms')
+          .select(['id', 'slug'])
+          .where('slug', '=', identifier)
+          .executeTakeFirst();
+        if (!existing) return null;
+        id = existing.id;
+        slug = newSlug ?? existing.slug;
+      }
+
+      const updateValues: Record<string, unknown> = {};
+      if (newSlug !== undefined) updateValues.slug = newSlug;
+      if (data.name !== undefined) updateValues.name = data.name;
+      if (data.formName !== undefined) updateValues.form_name = data.formName;
+      if (data.description !== undefined) updateValues.description = data.description;
+      if (data.generation !== undefined) updateValues.generation = data.generation;
+      if (data.height !== undefined) updateValues.height = data.height;
+      if (data.weight !== undefined) updateValues.weight = data.weight;
+      if (data.baseHp !== undefined) updateValues.base_hp = data.baseHp;
+      if (data.baseAttack !== undefined) updateValues.base_attack = data.baseAttack;
+      if (data.baseDefence !== undefined) updateValues.base_defence = data.baseDefence;
+      if (data.baseSpecialAttack !== undefined)
+        updateValues.base_special_attack = data.baseSpecialAttack;
+      if (data.baseSpecialDefence !== undefined)
+        updateValues.base_special_defence = data.baseSpecialDefence;
+      if (data.baseSpeed !== undefined) updateValues.base_speed = data.baseSpeed;
+      if (data.baseExperienceYield !== undefined)
+        updateValues.base_experience_yield = data.baseExperienceYield;
+      if (data.evHp !== undefined) updateValues.ev_hp = data.evHp;
+      if (data.evAttack !== undefined) updateValues.ev_attack = data.evAttack;
+      if (data.evDefence !== undefined) updateValues.ev_defence = data.evDefence;
+      if (data.evSpecialAttack !== undefined) updateValues.ev_special_attack = data.evSpecialAttack;
+      if (data.evSpecialDefence !== undefined)
+        updateValues.ev_special_defence = data.evSpecialDefence;
+      if (data.evSpeed !== undefined) updateValues.ev_speed = data.evSpeed;
+
+      if (Object.keys(updateValues).length > 0) {
+        await trx.updateTable('forms').set(updateValues).where('id', '=', id).execute();
+      }
+
+      if (data.types !== undefined) {
+        await trx.deleteFrom('form_types').where('form_id', '=', id).execute();
+        if (data.types.length > 0) {
+          await trx
+            .insertInto('form_types')
+            .values(data.types.map((t) => ({ form_id: id, type_id: t.typeId, slot: t.slot })))
+            .execute();
+        }
+      }
+
+      if (data.abilities !== undefined) {
+        await trx.deleteFrom('form_abilities').where('form_id', '=', id).execute();
+        if (data.abilities.length > 0) {
+          await trx
+            .insertInto('form_abilities')
+            .values(
+              data.abilities.map((a) => ({
+                form_id: id,
+                ability_id: a.abilityId,
+                slot_id: a.slotId,
+              }))
+            )
+            .execute();
+        }
+      }
+
+      if (data.labelIds !== undefined) {
+        await trx.deleteFrom('form_labels').where('form_id', '=', id).execute();
+        if (data.labelIds.length > 0) {
+          await trx
+            .insertInto('form_labels')
+            .values(data.labelIds.map((labelId) => ({ form_id: id, label_id: labelId })))
+            .execute();
+        }
+      }
+
+      if (data.aspectChoiceIds !== undefined) {
+        await trx.deleteFrom('form_aspects').where('form_id', '=', id).execute();
+        if (data.aspectChoiceIds.length > 0) {
+          await trx
+            .insertInto('form_aspects')
+            .values(
+              data.aspectChoiceIds.map((aspectChoiceId) => ({
+                form_id: id,
+                aspect_choice_id: aspectChoiceId,
+              }))
+            )
+            .execute();
+        }
+      }
+
+      if (data.hitbox !== undefined) {
+        if (data.hitbox) {
+          await trx
+            .insertInto('form_hitboxes')
+            .values({
+              form_id: id,
+              width: data.hitbox.width,
+              height: data.hitbox.height,
+              fixed: data.hitbox.fixed,
+            })
+            .onConflict((oc) =>
+              oc.column('form_id').doUpdateSet({
+                width: data.hitbox?.width,
+                height: data.hitbox?.height,
+                fixed: data.hitbox?.fixed,
+              })
+            )
+            .execute();
+        } else {
+          await trx.deleteFrom('form_hitboxes').where('form_id', '=', id).execute();
+        }
+      }
+
+      if (data.overrides !== undefined) {
+        if (data.overrides) {
+          await trx
+            .insertInto('form_overrides')
+            .values({
+              form_id: id,
+              catch_rate: data.overrides.catchRate ?? null,
+              base_friendship: data.overrides.baseFriendship ?? null,
+              egg_cycles: data.overrides.eggCycles ?? null,
+              male_ratio: data.overrides.maleRatio ?? null,
+              base_scale: data.overrides.baseScale ?? null,
+            })
+            .onConflict((oc) =>
+              oc.column('form_id').doUpdateSet({
+                catch_rate: data.overrides?.catchRate ?? null,
+                base_friendship: data.overrides?.baseFriendship ?? null,
+                egg_cycles: data.overrides?.eggCycles ?? null,
+                male_ratio: data.overrides?.maleRatio ?? null,
+                base_scale: data.overrides?.baseScale ?? null,
+              })
+            )
+            .execute();
+        } else {
+          await trx.deleteFrom('form_overrides').where('form_id', '=', id).execute();
+        }
+      }
+
+      if (data.drops !== undefined) {
+        await trx.deleteFrom('drop_percentages').where('form_id', '=', id).execute();
+        await trx.deleteFrom('drop_ranges').where('form_id', '=', id).execute();
+        await trx.deleteFrom('form_drops').where('form_id', '=', id).execute();
+
+        if (data.drops) {
+          await trx
+            .insertInto('form_drops')
+            .values({ form_id: id, amount: data.drops.amount })
+            .execute();
+
+          if (data.drops.percentages?.length) {
+            await trx
+              .insertInto('drop_percentages')
+              .values(
+                data.drops.percentages.map((p) => ({
+                  form_id: id,
+                  item_id: p.itemId,
+                  percentage: p.percentage,
+                }))
+              )
+              .execute();
+          }
+
+          if (data.drops.ranges?.length) {
+            await trx
+              .insertInto('drop_ranges')
+              .values(
+                data.drops.ranges.map((r) => ({
+                  form_id: id,
+                  item_id: r.itemId,
+                  quantity_min: r.quantityMin,
+                  quantity_max: r.quantityMax,
+                }))
+              )
+              .execute();
+          }
+        }
+      }
+
+      if (data.aspectCombos !== undefined) {
+        const existingCombos = await trx
+          .selectFrom('form_aspect_combos')
+          .select('id')
+          .where('form_id', '=', id)
+          .execute();
+
+        for (const combo of existingCombos) {
+          await trx
+            .deleteFrom('form_aspect_combo_aspects')
+            .where('combo_id', '=', combo.id)
+            .execute();
+        }
+        await trx.deleteFrom('form_aspect_combos').where('form_id', '=', id).execute();
+
+        if (data.aspectCombos.length > 0) {
+          for (const combo of data.aspectCombos) {
+            const insertedCombo = await trx
+              .insertInto('form_aspect_combos')
+              .values({ form_id: id, combo_index: combo.comboIndex })
+              .returning('id')
+              .executeTakeFirstOrThrow();
+
+            if (combo.aspectIds.length) {
+              await trx
+                .insertInto('form_aspect_combo_aspects')
+                .values(
+                  combo.aspectIds.map((aspectId) => ({
+                    combo_id: insertedCombo.id,
+                    aspect_id: aspectId,
+                  }))
+                )
+                .execute();
+            }
+          }
+        }
+      }
+
+      if (data.behaviour !== undefined) {
+        if (data.behaviour) {
+          await trx
+            .insertInto('behaviour')
+            .values({ form_id: id, data: data.behaviour.data as Json })
+            .onConflict((oc) =>
+              oc.column('form_id').doUpdateSet({
+                data: data.behaviour?.data as Json,
+              })
+            )
+            .execute();
+        } else {
+          await trx.deleteFrom('behaviour').where('form_id', '=', id).execute();
+        }
+      }
+
+      return { id, slug };
+    });
+  }
+
+  async getFormWithSpeciesSlug(
+    identifier: string
+  ): Promise<{ formId: number; formSlug: string; speciesSlug: string } | null> {
+    const isId = /^\d+$/.test(identifier);
+
+    const result = await this.db
+      .selectFrom('forms as f')
+      .innerJoin('species as s', 's.id', 'f.species_id')
+      .select(['f.id as formId', 'f.slug as formSlug', 's.slug as speciesSlug'])
+      .where(isId ? 'f.id' : 'f.slug', '=', isId ? Number(identifier) : identifier)
+      .executeTakeFirst();
+
+    return result ?? null;
+  }
+
+  async deleteSpecies(identifier: string): Promise<boolean> {
+    const isId = /^\d+$/.test(identifier);
+
+    return this.db.transaction().execute(async (trx) => {
+      const species = await trx
+        .selectFrom('species')
+        .select('id')
+        .where(isId ? 'id' : 'slug', '=', isId ? Number(identifier) : identifier)
+        .executeTakeFirst();
+
+      if (!species) return false;
+
+      const formIds = await trx
+        .selectFrom('forms')
+        .select('id')
+        .where('species_id', '=', species.id)
+        .execute();
+
+      for (const { id: formId } of formIds) {
+        await this.deleteFormRelations(trx, formId);
+        await trx.deleteFrom('forms').where('id', '=', formId).execute();
+      }
+
+      await trx.deleteFrom('species_egg_groups').where('species_id', '=', species.id).execute();
+      await trx.deleteFrom('species_hitboxes').where('species_id', '=', species.id).execute();
+      await trx.deleteFrom('lighting').where('species_id', '=', species.id).execute();
+      await trx.deleteFrom('riding').where('species_id', '=', species.id).execute();
+      await trx.deleteFrom('species').where('id', '=', species.id).execute();
+
+      return true;
+    });
+  }
+
+  async deleteForm(identifier: string): Promise<boolean> {
+    const isId = /^\d+$/.test(identifier);
+
+    return this.db.transaction().execute(async (trx) => {
+      const form = await trx
+        .selectFrom('forms')
+        .select('id')
+        .where(isId ? 'id' : 'slug', '=', isId ? Number(identifier) : identifier)
+        .executeTakeFirst();
+
+      if (!form) return false;
+
+      await this.deleteFormRelations(trx, form.id);
+      await trx.deleteFrom('forms').where('id', '=', form.id).execute();
+
+      return true;
+    });
+  }
+
+  private async deleteFormRelations(trx: Kysely<DB>, formId: number): Promise<void> {
+    await trx.deleteFrom('form_types').where('form_id', '=', formId).execute();
+    await trx.deleteFrom('form_abilities').where('form_id', '=', formId).execute();
+    await trx.deleteFrom('form_labels').where('form_id', '=', formId).execute();
+    await trx.deleteFrom('form_aspects').where('form_id', '=', formId).execute();
+    await trx.deleteFrom('form_hitboxes').where('form_id', '=', formId).execute();
+    await trx.deleteFrom('form_overrides').where('form_id', '=', formId).execute();
+    await trx.deleteFrom('drop_percentages').where('form_id', '=', formId).execute();
+    await trx.deleteFrom('drop_ranges').where('form_id', '=', formId).execute();
+    await trx.deleteFrom('form_drops').where('form_id', '=', formId).execute();
+    await trx.deleteFrom('behaviour').where('form_id', '=', formId).execute();
+
+    const combos = await trx
+      .selectFrom('form_aspect_combos')
+      .select('id')
+      .where('form_id', '=', formId)
+      .execute();
+
+    for (const combo of combos) {
+      await trx.deleteFrom('form_aspect_combo_aspects').where('combo_id', '=', combo.id).execute();
+    }
+    await trx.deleteFrom('form_aspect_combos').where('form_id', '=', formId).execute();
   }
 }

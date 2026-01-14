@@ -19,6 +19,12 @@ export const db = new Kysely<DB>({
   dialect,
 });
 
+export type Transaction = Kysely<DB>;
+
+export function withTransaction<T>(fn: (trx: Transaction) => Promise<T>): Promise<T> {
+  return db.transaction().execute(fn);
+}
+
 export async function checkDbConnection(): Promise<boolean> {
   try {
     await sql`SELECT 1`.execute(db);
