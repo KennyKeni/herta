@@ -111,8 +111,14 @@ export class ArticlesRepository {
     if (rows.length === 0) return { data: [], total: Number(countResult.count) };
 
     const articleIds = rows.map((r) => r.id);
-    const categories =
-      filters.includeCategories !== false ? await this.fetchCategories(articleIds) : new Map();
+    const [categories, images] = await Promise.all([
+      filters.includeCategories !== false
+        ? this.fetchCategories(articleIds)
+        : Promise.resolve(new Map<number, ArticleCategory[]>()),
+      filters.includeImages !== false
+        ? this.fetchImages(articleIds)
+        : Promise.resolve(new Map<number, ArticleImage[]>()),
+    ]);
 
     const data = rows.map((row) => ({
       id: row.id,
@@ -125,6 +131,7 @@ export class ArticlesRepository {
       createdAt: row.created_at,
       updatedAt: row.updated_at,
       categories: categories.get(row.id) ?? [],
+      images: images.get(row.id) ?? [],
     }));
 
     return { data, total: Number(countResult.count) };
@@ -171,8 +178,14 @@ export class ArticlesRepository {
 
     if (!row) return null;
 
-    const categories =
-      options.includeCategories !== false ? await this.fetchCategories([row.id]) : new Map();
+    const [categories, images] = await Promise.all([
+      options.includeCategories !== false
+        ? this.fetchCategories([row.id])
+        : Promise.resolve(new Map<number, ArticleCategory[]>()),
+      options.includeImages !== false
+        ? this.fetchImages([row.id])
+        : Promise.resolve(new Map<number, ArticleImage[]>()),
+    ]);
 
     return {
       id: row.id,
@@ -185,6 +198,7 @@ export class ArticlesRepository {
       createdAt: row.created_at,
       updatedAt: row.updated_at,
       categories: categories.get(row.id) ?? [],
+      images: images.get(row.id) ?? [],
     };
   }
 
@@ -202,6 +216,34 @@ export class ArticlesRepository {
     for (const row of rows) {
       const arr = map.get(row.article_id) ?? [];
       arr.push({ id: row.id, slug: row.slug, name: row.name, description: row.description });
+      map.set(row.article_id, arr);
+    }
+    return map;
+  }
+
+  private async fetchImages(articleIds: number[]): Promise<Map<number, ArticleImage[]>> {
+    if (!articleIds.length) return new Map();
+
+    const rows = await this.db
+      .selectFrom('article_images')
+      .selectAll()
+      .where('article_id', 'in', articleIds)
+      .where('status', '=', 'uploaded')
+      .execute();
+
+    const map = new Map<number, ArticleImage[]>();
+    for (const row of rows) {
+      const arr = map.get(row.article_id) ?? [];
+      arr.push({
+        id: row.id,
+        articleId: row.article_id,
+        key: row.key,
+        status: row.status,
+        contentType: row.content_type,
+        isCover: row.is_cover,
+        createdAt: row.created_at,
+        confirmedAt: row.confirmed_at,
+      });
       map.set(row.article_id, arr);
     }
     return map;

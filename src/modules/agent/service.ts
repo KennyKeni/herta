@@ -83,7 +83,7 @@ export class AgentService {
       offset: query.offset,
     };
 
-    const results = await this.abilitiesRepository.searchAbilities(filter);
+    const results = await this.abilitiesRepository.searchAbilities(filter, true);
     return toAbilityResponse(results.data, query, results.data.length);
   }
 
@@ -105,7 +105,7 @@ export class AgentService {
       offset: query.offset,
     };
 
-    const results = await this.movesRepository.searchMoves(filter);
+    const results = await this.movesRepository.searchMoves(filter, true);
     return toMoveResponse(results.data, query, results.data.length);
   }
 
@@ -122,7 +122,7 @@ export class AgentService {
       offset: query.offset,
     };
 
-    const results = await this.itemsRepository.searchItems(filter);
+    const results = await this.itemsRepository.searchItems(filter, true);
     return toItemResponse(results.data, query, results.data.length);
   }
 
@@ -139,7 +139,7 @@ export class AgentService {
       offset: query.offset,
     };
 
-    const results = await this.articlesRepository.searchArticles(filter);
+    const results = await this.articlesRepository.searchArticles(filter, true);
     return toArticleSearchResponse(results.data, query, results.data.length);
   }
 }

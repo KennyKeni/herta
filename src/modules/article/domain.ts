@@ -18,12 +18,14 @@ export interface Article {
   createdAt: Date;
   updatedAt: Date;
   categories: ArticleCategory[];
+  images: ArticleImage[];
 }
 
 export type ArticleSearchResponse = PaginatedResponse<Article>;
 
 export interface IncludeOptions {
   includeCategories?: boolean;
+  includeImages?: boolean;
 }
 
 export interface ArticleFilter extends IncludeOptions {

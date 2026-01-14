@@ -3,6 +3,7 @@ import { PaginatedResponseSchema } from '@/common/pagination';
 
 export const IncludeOptionsSchema = t.Object({
   includeCategories: t.Optional(t.Boolean()),
+  includeImages: t.Optional(t.Boolean()),
 });
 
 const ArticleFilterSchema = t.Object({
@@ -25,6 +26,13 @@ const ArticleCategorySchema = t.Object({
   description: t.Nullable(t.String()),
 });
 
+const ArticleImageSchema = t.Object({
+  id: t.Number(),
+  key: t.String(),
+  contentType: t.String(),
+  isCover: t.Boolean(),
+});
+
 const ArticleSchema = t.Object({
   id: t.Number(),
   slug: t.String(),
@@ -36,6 +44,7 @@ const ArticleSchema = t.Object({
   createdAt: t.Date(),
   updatedAt: t.Date(),
   categories: t.Array(ArticleCategorySchema),
+  images: t.Array(ArticleImageSchema),
 });
 
 const CreateArticleBodySchema = t.Object({
@@ -77,7 +86,7 @@ const UploadUrlResponseSchema = t.Object({
   imageId: t.Number(),
 });
 
-const ArticleImageSchema = t.Object({
+const ArticleImageDetailSchema = t.Object({
   id: t.Number(),
   articleId: t.Number(),
   key: t.String(),
@@ -99,5 +108,5 @@ export const ArticleModel = {
   updateResponse: UpdatedArticleSchema,
   uploadUrlBody: UploadUrlBodySchema,
   uploadUrlResponse: UploadUrlResponseSchema,
-  imageResponse: ArticleImageSchema,
+  imageResponse: ArticleImageDetailSchema,
 };
