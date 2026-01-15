@@ -25,4 +25,8 @@ export class TypesService {
   async getByIdentifier(identifier: string, options?: IncludeOptions): Promise<TypeDetail | null> {
     return this.typesRepository.getByIdentifierWithDetails(identifier, options);
   }
+
+  async resolveByNames(names: string[]): Promise<number[]> {
+    return this.typesRepository.fuzzyResolve(names);
+  }
 }

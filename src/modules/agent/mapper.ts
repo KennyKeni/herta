@@ -379,7 +379,7 @@ export function toArticleSearchResponse(
     result.description = article.description;
     result.author = article.author;
 
-    if (query.includeBody) {
+    if (query.includeBody && article.body) {
       result.body = article.body;
     }
 

@@ -40,6 +40,7 @@ const cacheSchema = t.Object({
 
 const authSchema = t.Object({
   BETTER_AUTH_SECRET: t.String({ minLength: 32 }),
+  BETTER_AUTH_TRUSTED_ORIGINS: t.Optional(t.String()),
   AUTH_SESSION_EXPIRES_IN: t.Numeric({ minimum: 60 }),
   AUTH_SESSION_UPDATE_AGE: t.Numeric({ minimum: 60 }),
   AUTH_JWT_EXPIRES_IN: t.String({ minLength: 1 }),

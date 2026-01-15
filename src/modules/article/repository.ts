@@ -120,13 +120,14 @@ export class ArticlesRepository {
         : Promise.resolve(new Map<number, ArticleImage[]>()),
     ]);
 
+    const includeBody = filters.includeBody !== false;
     const data = rows.map((row) => ({
       id: row.id,
       slug: row.slug,
       title: row.title,
       subtitle: row.subtitle,
       description: row.description,
-      body: row.body,
+      body: includeBody ? row.body : null,
       author: row.author,
       createdAt: row.created_at,
       updatedAt: row.updated_at,
@@ -193,7 +194,7 @@ export class ArticlesRepository {
       title: row.title,
       subtitle: row.subtitle,
       description: row.description,
-      body: row.body,
+      body: options.includeBody !== false ? row.body : null,
       author: row.author,
       createdAt: row.created_at,
       updatedAt: row.updated_at,

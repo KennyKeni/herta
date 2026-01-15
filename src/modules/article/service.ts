@@ -126,4 +126,8 @@ export class ArticlesService {
   async getImage(imageId: number): Promise<ArticleImage | null> {
     return this.articlesRepository.getArticleImageById(imageId);
   }
+
+  async resolveCategoriesByNames(names: string[]): Promise<number[]> {
+    return this.articlesRepository.fuzzyResolveCategories(names);
+  }
 }

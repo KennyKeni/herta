@@ -27,9 +27,18 @@ const secondaryStorage = {
   },
 };
 
+const parseTrustedOrigins = (origins?: string): string[] | undefined => {
+  if (!origins) return undefined;
+  return origins
+    .split(',')
+    .map((o) => o.trim())
+    .filter(Boolean);
+};
+
 export const auth = betterAuth({
   basePath: '/auth',
   secret: config.auth.BETTER_AUTH_SECRET,
+  trustedOrigins: parseTrustedOrigins(config.auth.BETTER_AUTH_TRUSTED_ORIGINS),
   database: {
     db,
     type: 'postgres',

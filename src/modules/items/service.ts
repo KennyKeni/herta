@@ -25,4 +25,12 @@ export class ItemsService {
   async getByIdentifier(identifier: string, options?: IncludeOptions): Promise<Item | null> {
     return this.itemsRepository.getByIdentifier(identifier, options);
   }
+
+  async resolveByNames(names: string[]): Promise<number[]> {
+    return this.itemsRepository.fuzzyResolve(names);
+  }
+
+  async resolveTagsByNames(names: string[]): Promise<number[]> {
+    return this.itemsRepository.fuzzyResolveTags(names);
+  }
 }

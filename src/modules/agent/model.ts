@@ -316,7 +316,7 @@ export const AgentArticleResponseSchema = t.Nullable(
     title: t.String(),
     subtitle: t.Nullable(t.String()),
     description: t.Nullable(t.String()),
-    body: t.String(),
+    body: t.Nullable(t.String()),
     author: t.Nullable(t.String()),
     createdAt: t.Date(),
     updatedAt: t.Date(),

@@ -4,6 +4,7 @@ import { PaginatedResponseSchema } from '@/common/pagination';
 export const IncludeOptionsSchema = t.Object({
   includeCategories: t.Optional(t.Boolean()),
   includeImages: t.Optional(t.Boolean()),
+  includeBody: t.Optional(t.Boolean()),
 });
 
 const ArticleFilterSchema = t.Object({
@@ -39,7 +40,7 @@ const ArticleSchema = t.Object({
   title: t.String(),
   subtitle: t.Nullable(t.String()),
   description: t.Nullable(t.String()),
-  body: t.String(),
+  body: t.Nullable(t.String()),
   author: t.Nullable(t.String()),
   createdAt: t.Date(),
   updatedAt: t.Date(),

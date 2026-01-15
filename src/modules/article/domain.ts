@@ -13,7 +13,7 @@ export interface Article {
   title: string;
   subtitle: string | null;
   description: string | null;
-  body: string;
+  body: string | null;
   author: string | null;
   createdAt: Date;
   updatedAt: Date;
@@ -26,6 +26,7 @@ export type ArticleSearchResponse = PaginatedResponse<Article>;
 export interface IncludeOptions {
   includeCategories?: boolean;
   includeImages?: boolean;
+  includeBody?: boolean;
 }
 
 export interface ArticleFilter extends IncludeOptions {

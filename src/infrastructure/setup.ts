@@ -41,12 +41,12 @@ const itemsService = new ItemsService(itemsRepository);
 const articlesService = new ArticlesService(articlesRepository, s3Service);
 const spawnsService = new SpawnsService(spawnRepository);
 const agentService = new AgentService(
-  pokemonRepository,
-  typesRepository,
-  abilitiesRepository,
-  movesRepository,
-  itemsRepository,
-  articlesRepository
+  pokemonService,
+  typesService,
+  abilitiesService,
+  movesService,
+  itemsService,
+  articlesService
 );
 
 export const pokemonSetup = new Elysia({ name: 'setup:pokemon' }).decorate(

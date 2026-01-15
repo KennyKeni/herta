@@ -25,4 +25,12 @@ export class MovesService {
   async getByIdentifier(identifier: string, options?: IncludeOptions): Promise<Move | null> {
     return this.movesRepository.getByIdentifier(identifier, options);
   }
+
+  async resolveByNames(names: string[]): Promise<number[]> {
+    return this.movesRepository.fuzzyResolve(names);
+  }
+
+  async resolveCategoriesByNames(names: string[]): Promise<number[]> {
+    return this.movesRepository.fuzzyResolveCategories(names);
+  }
 }

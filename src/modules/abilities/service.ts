@@ -25,4 +25,8 @@ export class AbilitiesService {
   async getByIdentifier(identifier: string, options?: IncludeOptions): Promise<Ability | null> {
     return this.abilitiesRepository.getByIdentifier(identifier, options);
   }
+
+  async resolveByNames(names: string[]): Promise<number[]> {
+    return this.abilitiesRepository.fuzzyResolve(names);
+  }
 }

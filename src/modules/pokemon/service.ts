@@ -141,4 +141,12 @@ export class PokemonService {
   async deleteForm(identifier: string): Promise<boolean> {
     return this.pokemonRepository.deleteForm(identifier);
   }
+
+  async resolveEggGroupsByNames(names: string[]): Promise<number[]> {
+    return this.pokemonRepository.fuzzyResolveEggGroups(names);
+  }
+
+  async resolveLabelsByNames(names: string[]): Promise<number[]> {
+    return this.pokemonRepository.fuzzyResolveLabels(names);
+  }
 }

@@ -1,15 +1,14 @@
-import { shouldUseFuzzySearch } from '@/common/utils';
 import type { AbilityFilter } from '../abilities/domain';
-import type { AbilitiesRepository } from '../abilities/repository';
+import type { AbilitiesService } from '../abilities/service';
 import type { Article, ArticleFilter } from '../article/domain';
-import type { ArticlesRepository } from '../article/repository';
+import type { ArticlesService } from '../article/service';
 import type { ItemFilter } from '../items/domain';
-import type { ItemsRepository } from '../items/repository';
+import type { ItemsService } from '../items/service';
 import type { MoveFilter } from '../moves/domain';
-import type { MovesRepository } from '../moves/repository';
+import type { MovesService } from '../moves/service';
 import type { PokemonFilter } from '../pokemon/domain';
-import type { PokemonRepository } from '../pokemon/repository';
-import type { TypesRepository } from '../types/repository';
+import type { PokemonService } from '../pokemon/service';
+import type { TypesService } from '../types/service';
 import {
   mapIncludeFlags,
   toAbilityResponse,
@@ -33,22 +32,22 @@ import type {
 
 export class AgentService {
   constructor(
-    private pokemonRepository: PokemonRepository,
-    private typesRepository: TypesRepository,
-    private abilitiesRepository: AbilitiesRepository,
-    private movesRepository: MovesRepository,
-    private itemsRepository: ItemsRepository,
-    private articlesRepository: ArticlesRepository
+    private pokemonService: PokemonService,
+    private typesService: TypesService,
+    private abilitiesService: AbilitiesService,
+    private movesService: MovesService,
+    private itemsService: ItemsService,
+    private articlesService: ArticlesService
   ) {}
 
   async searchPokemon(query: AgentPokemonQuery): Promise<AgentPokemonResponse> {
     const [typeIds, abilityIds, moveIds, eggGroupIds, labelIds, dropItemIds] = await Promise.all([
-      query.types ? this.typesRepository.fuzzyResolve(query.types) : [],
-      query.abilities ? this.abilitiesRepository.fuzzyResolve(query.abilities) : [],
-      query.moves ? this.movesRepository.fuzzyResolve(query.moves) : [],
-      query.eggGroups ? this.pokemonRepository.fuzzyResolveEggGroups(query.eggGroups) : [],
-      query.labels ? this.pokemonRepository.fuzzyResolveLabels(query.labels) : [],
-      query.dropsItems ? this.itemsRepository.fuzzyResolve(query.dropsItems) : [],
+      query.types ? this.typesService.resolveByNames(query.types) : [],
+      query.abilities ? this.abilitiesService.resolveByNames(query.abilities) : [],
+      query.moves ? this.movesService.resolveByNames(query.moves) : [],
+      query.eggGroups ? this.pokemonService.resolveEggGroupsByNames(query.eggGroups) : [],
+      query.labels ? this.pokemonService.resolveLabelsByNames(query.labels) : [],
+      query.dropsItems ? this.itemsService.resolveByNames(query.dropsItems) : [],
     ]);
 
     const filter: PokemonFilter = {
@@ -66,14 +65,13 @@ export class AgentService {
       offset: query.offset,
     };
 
-    const useFuzzy = shouldUseFuzzySearch(filter.name);
-    const { data, total } = await this.pokemonRepository.searchByForm(filter, useFuzzy);
+    const { data, total } = await this.pokemonService.search(filter);
 
     return toResponse(data, query, total);
   }
 
   async getArticle(identifier: string): Promise<Article | null> {
-    return this.articlesRepository.getByIdentifier(identifier);
+    return this.articlesService.getByIdentifier(identifier);
   }
 
   async searchAbilities(query: AgentAbilityQuery): Promise<AgentAbilityResponse> {
@@ -84,14 +82,14 @@ export class AgentService {
       offset: query.offset,
     };
 
-    const results = await this.abilitiesRepository.searchAbilities(filter, true);
-    return toAbilityResponse(results.data, query, results.data.length);
+    const { data, total } = await this.abilitiesService.search(filter);
+    return toAbilityResponse(data, query, total);
   }
 
   async searchMoves(query: AgentMoveQuery): Promise<AgentMoveResponse> {
     const [typeIds, categoryIds] = await Promise.all([
-      query.types ? this.typesRepository.fuzzyResolve(query.types) : [],
-      query.categories ? this.movesRepository.fuzzyResolveCategories(query.categories) : [],
+      query.types ? this.typesService.resolveByNames(query.types) : [],
+      query.categories ? this.movesService.resolveCategoriesByNames(query.categories) : [],
     ]);
 
     const filter: MoveFilter = {
@@ -106,12 +104,12 @@ export class AgentService {
       offset: query.offset,
     };
 
-    const results = await this.movesRepository.searchMoves(filter, true);
-    return toMoveResponse(results.data, query, results.data.length);
+    const { data, total } = await this.movesService.search(filter);
+    return toMoveResponse(data, query, total);
   }
 
   async searchItems(query: AgentItemQuery): Promise<AgentItemResponse> {
-    const tagIds = query.tags ? await this.itemsRepository.fuzzyResolveTags(query.tags) : [];
+    const tagIds = query.tags ? await this.itemsService.resolveTagsByNames(query.tags) : [];
 
     const filter: ItemFilter = {
       name: query.name,
@@ -123,13 +121,13 @@ export class AgentService {
       offset: query.offset,
     };
 
-    const results = await this.itemsRepository.searchItems(filter, true);
-    return toItemResponse(results.data, query, results.data.length);
+    const { data, total } = await this.itemsService.search(filter);
+    return toItemResponse(data, query, total);
   }
 
   async searchArticles(query: AgentArticleQuery): Promise<AgentArticleSearchResponse> {
     const categoryIds = query.categories
-      ? await this.articlesRepository.fuzzyResolveCategories(query.categories)
+      ? await this.articlesService.resolveCategoriesByNames(query.categories)
       : [];
 
     const filter: ArticleFilter = {
@@ -140,7 +138,7 @@ export class AgentService {
       offset: query.offset,
     };
 
-    const results = await this.articlesRepository.searchArticles(filter, true);
-    return toArticleSearchResponse(results.data, query, results.data.length);
+    const { data, total } = await this.articlesService.search(filter);
+    return toArticleSearchResponse(data, query, total);
   }
 }
