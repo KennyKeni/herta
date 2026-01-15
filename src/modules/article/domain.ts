@@ -15,6 +15,7 @@ export interface Article {
   description: string | null;
   body: string | null;
   author: string | null;
+  ownerId: string | null;
   createdAt: Date;
   updatedAt: Date;
   categories: ArticleCategory[];
@@ -36,6 +37,7 @@ export interface ArticleFilter extends IncludeOptions {
   categoryIds?: number[];
   categorySlugs?: string[];
   author?: string;
+  ownerIds?: string[];
   limit?: number;
   offset?: number;
 }
@@ -46,6 +48,7 @@ export interface CreateArticle {
   description?: string | null;
   body: string;
   author?: string | null;
+  ownerId?: string | null;
   categoryIds?: number[];
 }
 
@@ -55,6 +58,7 @@ export interface UpdateArticle {
   description?: string | null;
   body?: string;
   author?: string | null;
+  ownerId?: string | null;
   categoryIds?: number[];
 }
 
@@ -68,27 +72,16 @@ export interface UpdatedArticle {
   slug: string;
 }
 
-export type ImageStatus = 'pending' | 'uploaded';
-
 export interface ArticleImage {
-  id: number;
-  articleId: number;
-  key: string;
-  status: ImageStatus;
-  contentType: string;
+  imageId: string;
+  s3Key: string;
+  mimeType: string | null;
   isCover: boolean;
-  createdAt: Date;
-  confirmedAt: Date | null;
+  sortOrder: number;
 }
 
-export interface CreateArticleImage {
-  articleId: number;
-  key: string;
-  contentType: string;
+export interface AttachImageToArticle {
+  imageId: string;
   isCover?: boolean;
-}
-
-export interface CreatedArticleImage {
-  id: number;
-  key: string;
+  sortOrder?: number;
 }

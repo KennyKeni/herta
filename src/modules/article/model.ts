@@ -14,6 +14,7 @@ const ArticleFilterSchema = t.Object({
   categoryIds: t.Optional(t.Array(t.Number())),
   categorySlugs: t.Optional(t.Array(t.String())),
   author: t.Optional(t.String()),
+  ownerIds: t.Optional(t.Array(t.String())),
   limit: t.Optional(t.Number({ minimum: 1, maximum: 100, default: 20 })),
   offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
 });
@@ -28,10 +29,11 @@ const ArticleCategorySchema = t.Object({
 });
 
 const ArticleImageSchema = t.Object({
-  id: t.Number(),
-  key: t.String(),
-  contentType: t.String(),
+  imageId: t.String(),
+  s3Key: t.String(),
+  mimeType: t.Nullable(t.String()),
   isCover: t.Boolean(),
+  sortOrder: t.Number(),
 });
 
 const ArticleSchema = t.Object({
@@ -42,6 +44,7 @@ const ArticleSchema = t.Object({
   description: t.Nullable(t.String()),
   body: t.Nullable(t.String()),
   author: t.Nullable(t.String()),
+  ownerId: t.Nullable(t.String()),
   createdAt: t.Date(),
   updatedAt: t.Date(),
   categories: t.Array(ArticleCategorySchema),
@@ -76,26 +79,13 @@ const UpdatedArticleSchema = t.Object({
   slug: t.String(),
 });
 
-const UploadUrlBodySchema = t.Object({
-  contentType: t.String(),
+const AttachImageBodySchema = t.Object({
   isCover: t.Optional(t.Boolean()),
+  sortOrder: t.Optional(t.Number()),
 });
 
-const UploadUrlResponseSchema = t.Object({
-  url: t.String(),
-  key: t.String(),
-  imageId: t.Number(),
-});
-
-const ArticleImageDetailSchema = t.Object({
-  id: t.Number(),
-  articleId: t.Number(),
-  key: t.String(),
-  status: t.Union([t.Literal('pending'), t.Literal('uploaded')]),
-  contentType: t.String(),
-  isCover: t.Boolean(),
-  createdAt: t.Date(),
-  confirmedAt: t.Nullable(t.Date()),
+const SuccessResponseSchema = t.Object({
+  success: t.Boolean(),
 });
 
 export const ArticleModel = {
@@ -107,7 +97,6 @@ export const ArticleModel = {
   createResponse: CreatedArticleSchema,
   updateBody: UpdateArticleBodySchema,
   updateResponse: UpdatedArticleSchema,
-  uploadUrlBody: UploadUrlBodySchema,
-  uploadUrlResponse: UploadUrlResponseSchema,
-  imageResponse: ArticleImageDetailSchema,
+  attachImageBody: AttachImageBodySchema,
+  successResponse: SuccessResponseSchema,
 };

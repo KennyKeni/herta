@@ -455,3 +455,31 @@ export interface PokemonFilter extends IncludeOptions {
   limit?: number;
   offset?: number;
 }
+
+export interface SpeciesImage {
+  imageId: string;
+  s3Key: string;
+  mimeType: string | null;
+  isPrimary: boolean;
+  sortOrder: number;
+}
+
+export interface FormImage {
+  imageId: string;
+  s3Key: string;
+  mimeType: string | null;
+  isPrimary: boolean;
+  sortOrder: number;
+}
+
+export interface AttachImageToSpecies {
+  imageId: string;
+  isPrimary?: boolean;
+  sortOrder?: number;
+}
+
+export interface AttachImageToForm {
+  imageId: string;
+  isPrimary?: boolean;
+  sortOrder?: number;
+}

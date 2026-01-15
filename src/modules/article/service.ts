@@ -1,12 +1,10 @@
 import { SEARCH_CONFIG } from '@/common/config';
-import { ConflictError } from '@/common/errors';
 import type { PaginatedResponse } from '@/common/pagination';
-import { slugFrom } from '@/common/utils/slug';
-import type { S3Service } from '@/infrastructure/s3/service';
+import { generateUniqueSlug, slugFrom } from '@/common/utils/slug';
 import type {
   Article,
   ArticleFilter,
-  ArticleImage,
+  AttachImageToArticle,
   CreateArticle,
   CreatedArticle,
   IncludeOptions,
@@ -21,10 +19,7 @@ function shouldUseFuzzySearch(text?: string): boolean {
 }
 
 export class ArticlesService {
-  constructor(
-    private articlesRepository: ArticlesRepository,
-    private s3Service: S3Service
-  ) {}
+  constructor(private articlesRepository: ArticlesRepository) {}
 
   async search(filter: ArticleFilter): Promise<PaginatedResponse<Article>> {
     const useFuzzy = shouldUseFuzzySearch(filter.title);
@@ -42,9 +37,10 @@ export class ArticlesService {
   }
 
   async createArticle(data: CreateArticle): Promise<CreatedArticle> {
-    const slug = slugFrom(data.title);
-    const exists = await this.articlesRepository.checkArticleExists(slug);
-    if (exists) throw new ConflictError(`Article with slug '${slug}' already exists`);
+    const baseSlug = slugFrom(data.title);
+    const slug = await generateUniqueSlug(baseSlug, (s) =>
+      this.articlesRepository.checkArticleExists(s)
+    );
 
     return this.articlesRepository.createArticle(data, slug);
   }
@@ -52,16 +48,16 @@ export class ArticlesService {
   async updateArticle(identifier: string, data: UpdateArticle): Promise<UpdatedArticle | null> {
     let newSlug: string | undefined;
     if (data.title) {
-      newSlug = slugFrom(data.title);
+      const baseSlug = slugFrom(data.title);
       const isId = /^\d+$/.test(identifier);
       const currentId = isId
         ? Number(identifier)
         : await this.articlesRepository.getArticleIdBySlug(identifier);
-      if (
-        currentId &&
-        (await this.articlesRepository.checkArticleSlugConflict(newSlug, currentId))
-      ) {
-        throw new ConflictError(`Article with slug '${newSlug}' already exists`);
+
+      if (currentId) {
+        newSlug = await generateUniqueSlug(baseSlug, (s) =>
+          this.articlesRepository.checkArticleSlugConflict(s, currentId)
+        );
       }
     }
 
@@ -72,59 +68,25 @@ export class ArticlesService {
     return this.articlesRepository.deleteArticle(identifier);
   }
 
-  async getUploadUrl(
-    identifier: string,
-    contentType: string,
-    isCover?: boolean
-  ): Promise<{ url: string; key: string; imageId: number } | null> {
+  async attachImage(identifier: string, data: AttachImageToArticle): Promise<boolean> {
+    const articleId = await this.resolveArticleId(identifier);
+    if (!articleId) return false;
+
+    await this.articlesRepository.attachImage(articleId, data);
+    return true;
+  }
+
+  async detachImage(identifier: string, imageId: string): Promise<boolean> {
+    const articleId = await this.resolveArticleId(identifier);
+    if (!articleId) return false;
+
+    return this.articlesRepository.detachImage(articleId, imageId);
+  }
+
+  private async resolveArticleId(identifier: string): Promise<number | null> {
     const isId = /^\d+$/.test(identifier);
-    let articleId: number | null;
-    let slug: string | null;
-
-    if (isId) {
-      articleId = Number(identifier);
-      slug = await this.articlesRepository.getArticleSlugById(articleId);
-    } else {
-      slug = identifier;
-      articleId = await this.articlesRepository.getArticleIdBySlug(identifier);
-    }
-
-    if (!articleId || !slug) return null;
-
-    const timestamp = Date.now();
-    const key = `articles/${slug}/${timestamp}.png`;
-
-    const image = await this.articlesRepository.createArticleImage({
-      articleId,
-      key,
-      contentType,
-      isCover,
-    });
-
-    const url = await this.s3Service.getUploadUrl(key, contentType);
-    return { url, key, imageId: image.id };
-  }
-
-  async confirmImage(imageId: number): Promise<ArticleImage | null> {
-    const confirmed = await this.articlesRepository.confirmArticleImage(imageId);
-    if (!confirmed) return null;
-
-    return this.articlesRepository.getArticleImageById(imageId);
-  }
-
-  async deleteImage(imageId: number): Promise<boolean> {
-    const image = await this.articlesRepository.getArticleImageById(imageId);
-    if (!image) return false;
-
-    const deleted = await this.articlesRepository.deleteArticleImage(imageId);
-    if (deleted) {
-      await this.s3Service.deleteObject(image.key);
-    }
-    return deleted;
-  }
-
-  async getImage(imageId: number): Promise<ArticleImage | null> {
-    return this.articlesRepository.getArticleImageById(imageId);
+    if (isId) return Number(identifier);
+    return this.articlesRepository.getArticleIdBySlug(identifier);
   }
 
   async resolveCategoriesByNames(names: string[]): Promise<number[]> {

@@ -526,13 +526,13 @@ const UpdatedFormResponseSchema = t.Object({
   slug: t.String(),
 });
 
-const UploadUrlResponseSchema = t.Object({
-  url: t.String(),
-  key: t.String(),
+const AttachImageBodySchema = t.Object({
+  isPrimary: t.Optional(t.Boolean()),
+  sortOrder: t.Optional(t.Number()),
 });
 
-const UploadUrlBodySchema = t.Object({
-  contentType: t.String({ default: 'image/png' }),
+const SuccessResponseSchema = t.Object({
+  success: t.Boolean(),
 });
 
 export const PokemonModel = {
@@ -550,6 +550,6 @@ export const PokemonModel = {
   updateFormBody: UpdateFormBodySchema,
   createdFormResponse: CreatedFormResponseSchema,
   updatedFormResponse: UpdatedFormResponseSchema,
-  uploadUrlBody: UploadUrlBodySchema,
-  uploadUrlResponse: UploadUrlResponseSchema,
+  attachImageBody: AttachImageBodySchema,
+  successResponse: SuccessResponseSchema,
 };

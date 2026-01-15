@@ -76,19 +76,40 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
       },
     }
   )
-  .post(
-    '/species/:identifier/upload-url',
+  .put(
+    '/species/:identifier/images/:imageId',
     async ({ params, body, pokemonService }) => {
-      const result = await pokemonService.getSpeciesUploadUrl(params.identifier, body.contentType);
-      if (!result) throw new NotFoundError('Species not found');
-      return result;
+      const attached = await pokemonService.attachImageToSpecies(params.identifier, {
+        imageId: params.imageId,
+        ...body,
+      });
+      if (!attached) throw new NotFoundError('Species not found');
+      return { success: true };
     },
     {
-      body: PokemonModel.uploadUrlBody,
-      response: PokemonModel.uploadUrlResponse,
+      body: PokemonModel.attachImageBody,
+      response: PokemonModel.successResponse,
       detail: {
-        summary: 'Get species sprite upload URL',
-        description: 'Get a presigned URL for uploading a species sprite image.',
+        summary: 'Attach Image to Species',
+        description: 'Attach an existing image to a species.',
+      },
+    }
+  )
+  .delete(
+    '/species/:identifier/images/:imageId',
+    async ({ params, pokemonService }) => {
+      const detached = await pokemonService.detachImageFromSpecies(
+        params.identifier,
+        params.imageId
+      );
+      if (!detached) throw new NotFoundError('Image not attached to species');
+      return { success: true };
+    },
+    {
+      response: PokemonModel.successResponse,
+      detail: {
+        summary: 'Detach Image from Species',
+        description: 'Remove an image from a species.',
       },
     }
   )
@@ -122,19 +143,37 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
       },
     }
   )
-  .post(
-    '/forms/:identifier/upload-url',
+  .put(
+    '/forms/:identifier/images/:imageId',
     async ({ params, body, pokemonService }) => {
-      const result = await pokemonService.getFormUploadUrl(params.identifier, body.contentType);
-      if (!result) throw new NotFoundError('Form not found');
-      return result;
+      const attached = await pokemonService.attachImageToForm(params.identifier, {
+        imageId: params.imageId,
+        ...body,
+      });
+      if (!attached) throw new NotFoundError('Form not found');
+      return { success: true };
     },
     {
-      body: PokemonModel.uploadUrlBody,
-      response: PokemonModel.uploadUrlResponse,
+      body: PokemonModel.attachImageBody,
+      response: PokemonModel.successResponse,
       detail: {
-        summary: 'Get form sprite upload URL',
-        description: 'Get a presigned URL for uploading a form sprite image.',
+        summary: 'Attach Image to Form',
+        description: 'Attach an existing image to a form.',
+      },
+    }
+  )
+  .delete(
+    '/forms/:identifier/images/:imageId',
+    async ({ params, pokemonService }) => {
+      const detached = await pokemonService.detachImageFromForm(params.identifier, params.imageId);
+      if (!detached) throw new NotFoundError('Image not attached to form');
+      return { success: true };
+    },
+    {
+      response: PokemonModel.successResponse,
+      detail: {
+        summary: 'Detach Image from Form',
+        description: 'Remove an image from a form.',
       },
     }
   )

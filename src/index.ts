@@ -8,6 +8,7 @@ import { abilities } from '@/modules/abilities';
 import { agent } from '@/modules/agent';
 import { articles } from '@/modules/article';
 import { authModule } from '@/modules/auth';
+import { images } from '@/modules/images';
 import { items } from '@/modules/items';
 import { moves } from '@/modules/moves';
 import { pokemon } from '@/modules/pokemon';
@@ -29,6 +30,7 @@ const swaggerPlugin = swagger({
       { name: 'items', description: 'Item data endpoints' },
       { name: 'spawns', description: 'Spawn data endpoints' },
       { name: 'articles', description: 'Article data endpoints' },
+      { name: 'images', description: 'Image upload and management endpoints' },
       { name: 'agent', description: 'Simplified API for AI agents' },
     ],
   },
@@ -79,6 +81,7 @@ const app = new Elysia()
   .use(items)
   .use(spawns)
   .use(articles)
+  .use(images)
   .use(agent)
   .listen(config.app.PORT);
 

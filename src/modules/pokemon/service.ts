@@ -1,8 +1,9 @@
 import { ConflictError } from '@/common/errors';
 import type { PaginatedResponse } from '@/common/pagination';
 import { shouldUseFuzzySearch, slugForPokemon } from '@/common/utils';
-import type { S3Service } from '@/infrastructure/s3/service';
 import type {
+  AttachImageToForm,
+  AttachImageToSpecies,
   CreatedForm,
   CreatedSpecies,
   CreateForm,
@@ -19,10 +20,7 @@ import type {
 import type { PokemonRepository } from './repository';
 
 export class PokemonService {
-  constructor(
-    private pokemonRepository: PokemonRepository,
-    private s3Service: S3Service
-  ) {}
+  constructor(private pokemonRepository: PokemonRepository) {}
 
   async search(filter: PokemonFilter): Promise<PaginatedResponse<SpeciesWithForms>> {
     const useFuzzy = shouldUseFuzzySearch(filter.name);
@@ -77,24 +75,25 @@ export class PokemonService {
     return this.pokemonRepository.updateSpecies(identifier, data, newSlug);
   }
 
-  async getSpeciesUploadUrl(
-    identifier: string,
-    contentType: string
-  ): Promise<{ url: string; key: string } | null> {
+  async attachImageToSpecies(identifier: string, data: AttachImageToSpecies): Promise<boolean> {
+    const speciesId = await this.resolveSpeciesId(identifier);
+    if (!speciesId) return false;
+
+    await this.pokemonRepository.attachImageToSpecies(speciesId, data);
+    return true;
+  }
+
+  async detachImageFromSpecies(identifier: string, imageId: string): Promise<boolean> {
+    const speciesId = await this.resolveSpeciesId(identifier);
+    if (!speciesId) return false;
+
+    return this.pokemonRepository.detachImageFromSpecies(speciesId, imageId);
+  }
+
+  private async resolveSpeciesId(identifier: string): Promise<number | null> {
     const isId = /^\d+$/.test(identifier);
-    let slug: string | null;
-
-    if (isId) {
-      slug = await this.pokemonRepository.getSpeciesSlugById(Number(identifier));
-    } else {
-      slug = identifier;
-    }
-
-    if (!slug) return null;
-
-    const key = `pokemon/${slug}/sprite.png`;
-    const url = await this.s3Service.getUploadUrl(key, contentType);
-    return { url, key };
+    if (isId) return Number(identifier);
+    return this.pokemonRepository.getSpeciesIdBySlug(identifier);
   }
 
   async createForm(data: CreateForm): Promise<CreatedForm> {
@@ -122,16 +121,25 @@ export class PokemonService {
     return this.pokemonRepository.updateForm(identifier, data, newSlug);
   }
 
-  async getFormUploadUrl(
-    identifier: string,
-    contentType: string
-  ): Promise<{ url: string; key: string } | null> {
-    const result = await this.pokemonRepository.getFormWithSpeciesSlug(identifier);
-    if (!result) return null;
+  async attachImageToForm(identifier: string, data: AttachImageToForm): Promise<boolean> {
+    const formId = await this.resolveFormId(identifier);
+    if (!formId) return false;
 
-    const key = `pokemon/${result.speciesSlug}/${result.formSlug}/sprite.png`;
-    const url = await this.s3Service.getUploadUrl(key, contentType);
-    return { url, key };
+    await this.pokemonRepository.attachImageToForm(formId, data);
+    return true;
+  }
+
+  async detachImageFromForm(identifier: string, imageId: string): Promise<boolean> {
+    const formId = await this.resolveFormId(identifier);
+    if (!formId) return false;
+
+    return this.pokemonRepository.detachImageFromForm(formId, imageId);
+  }
+
+  private async resolveFormId(identifier: string): Promise<number | null> {
+    const isId = /^\d+$/.test(identifier);
+    if (isId) return Number(identifier);
+    return this.pokemonRepository.getFormIdBySlug(identifier);
   }
 
   async deleteSpecies(identifier: string): Promise<boolean> {

@@ -16,7 +16,7 @@ import {
   recipesSeeder,
   speciesSeeder,
 } from './seeders';
-import type { Seeder } from './utils';
+import { resetSequences, type Seeder } from './utils';
 
 const SEEDERS: Seeder[] = [
   baseReferenceSeeder,
@@ -47,6 +47,9 @@ async function main() {
       const count = await seeder.seed(db, logger);
       totalRows += count;
     }
+
+    await resetSequences(db);
+    logger.info('Reset all sequences to match seeded data');
 
     logger.summary(totalRows, Date.now() - startTime);
   } catch (error) {

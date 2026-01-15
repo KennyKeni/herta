@@ -21,6 +21,21 @@ export function slugFrom(input: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
+export async function generateUniqueSlug(
+  baseSlug: string,
+  checkExists: (slug: string) => Promise<boolean>
+): Promise<string> {
+  if (!(await checkExists(baseSlug))) {
+    return baseSlug;
+  }
+
+  let suffix = 2;
+  while (await checkExists(`${baseSlug}-${suffix}`)) {
+    suffix++;
+  }
+  return `${baseSlug}-${suffix}`;
+}
+
 export function slugForPokemon(input: string): string {
   input = normalizeGender(input);
   input = normalizeAccent(input);

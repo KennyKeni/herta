@@ -1,9 +1,11 @@
 import { Elysia, NotFoundError } from 'elysia';
 import { articlesSetup } from '@/infrastructure/setup';
+import { authModule } from '@/modules/auth';
 import { ArticleModel } from './model';
 
 export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
   .use(articlesSetup)
+  .use(authModule)
   .get('/', ({ query, articlesService }) => articlesService.search(query), {
     query: ArticleModel.searchQuery,
     response: ArticleModel.searchResponse,
@@ -12,14 +14,20 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
       description: 'List articles with optional filtering by IDs, slugs, categories, and author.',
     },
   })
-  .post('/', ({ body, articlesService }) => articlesService.createArticle(body), {
-    body: ArticleModel.createBody,
-    response: ArticleModel.createResponse,
-    detail: {
-      summary: 'Create Article',
-      description: 'Create a new article.',
-    },
-  })
+  .post(
+    '/',
+    ({ body, user, articlesService }) =>
+      articlesService.createArticle({ ...body, ownerId: user.id }),
+    {
+      auth: true,
+      body: ArticleModel.createBody,
+      response: ArticleModel.createResponse,
+      detail: {
+        summary: 'Create Article',
+        description: 'Create a new article. Requires authentication.',
+      },
+    }
+  )
   .get(
     '/:identifier',
     async ({ params, query, articlesService }) => {
@@ -44,11 +52,12 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
       return result;
     },
     {
+      auth: true,
       body: ArticleModel.updateBody,
       response: ArticleModel.updateResponse,
       detail: {
         summary: 'Update Article',
-        description: 'Update an existing article by ID or slug.',
+        description: 'Update an existing article by ID or slug. Requires authentication.',
       },
     }
   )
@@ -60,59 +69,46 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
       return { success: true };
     },
     {
+      auth: true,
       detail: {
         summary: 'Delete Article',
-        description: 'Delete an article by ID or slug.',
+        description: 'Delete an article by ID or slug. Requires authentication.',
       },
     }
   )
-  .post(
-    '/:identifier/upload-url',
+  .put(
+    '/:identifier/images/:imageId',
     async ({ params, body, articlesService }) => {
-      const result = await articlesService.getUploadUrl(
-        params.identifier,
-        body.contentType,
-        body.isCover
-      );
-      if (!result) throw new NotFoundError('Article not found');
-      return result;
+      const attached = await articlesService.attachImage(params.identifier, {
+        imageId: params.imageId,
+        ...body,
+      });
+      if (!attached) throw new NotFoundError('Article not found');
+      return { success: true };
     },
     {
-      body: ArticleModel.uploadUrlBody,
-      response: ArticleModel.uploadUrlResponse,
+      auth: true,
+      body: ArticleModel.attachImageBody,
+      response: ArticleModel.successResponse,
       detail: {
-        summary: 'Get Article Image Upload URL',
-        description:
-          'Get a presigned URL to upload an article image. Creates a pending image record.',
-      },
-    }
-  )
-  .post(
-    '/images/:imageId/confirm',
-    async ({ params, articlesService }) => {
-      const result = await articlesService.confirmImage(Number(params.imageId));
-      if (!result) throw new NotFoundError('Image not found or already confirmed');
-      return result;
-    },
-    {
-      response: ArticleModel.imageResponse,
-      detail: {
-        summary: 'Confirm Image Upload',
-        description: 'Confirm that an image has been uploaded to S3.',
+        summary: 'Attach Image to Article',
+        description: 'Attach an existing image to an article. Requires authentication.',
       },
     }
   )
   .delete(
-    '/images/:imageId',
+    '/:identifier/images/:imageId',
     async ({ params, articlesService }) => {
-      const deleted = await articlesService.deleteImage(Number(params.imageId));
-      if (!deleted) throw new NotFoundError('Image not found');
+      const detached = await articlesService.detachImage(params.identifier, params.imageId);
+      if (!detached) throw new NotFoundError('Image not attached to article');
       return { success: true };
     },
     {
+      auth: true,
+      response: ArticleModel.successResponse,
       detail: {
-        summary: 'Delete Image',
-        description: 'Delete an article image.',
+        summary: 'Detach Image from Article',
+        description: 'Remove an image from an article. Requires authentication.',
       },
     }
   );

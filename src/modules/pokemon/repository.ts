@@ -6,6 +6,8 @@ import type { Spawn } from '../spawns/domain';
 import { SpawnRepository } from '../spawns/repository';
 import type {
   AspectRef,
+  AttachImageToForm,
+  AttachImageToSpecies,
   CreatedForm,
   CreatedSpecies,
   CreateForm,
@@ -15,9 +17,11 @@ import type {
   Form,
   FormAspectCombo,
   FormDrops,
+  FormImage,
   IncludeOptions,
   PokemonFilter,
   Species,
+  SpeciesImage,
   SpeciesWithForm,
   SpeciesWithForms,
   UpdatedForm,
@@ -1967,5 +1971,117 @@ export class PokemonRepository {
       await trx.deleteFrom('form_aspect_combo_aspects').where('combo_id', '=', combo.id).execute();
     }
     await trx.deleteFrom('form_aspect_combos').where('form_id', '=', formId).execute();
+  }
+
+  async attachImageToSpecies(speciesId: number, data: AttachImageToSpecies): Promise<void> {
+    await this.db
+      .insertInto('species_images')
+      .values({
+        species_id: speciesId,
+        image_id: data.imageId,
+        is_primary: data.isPrimary ?? false,
+        sort_order: data.sortOrder ?? 0,
+      })
+      .execute();
+  }
+
+  async detachImageFromSpecies(speciesId: number, imageId: string): Promise<boolean> {
+    const result = await this.db
+      .deleteFrom('species_images')
+      .where('species_id', '=', speciesId)
+      .where('image_id', '=', imageId)
+      .executeTakeFirst();
+
+    return (result.numDeletedRows ?? 0n) > 0n;
+  }
+
+  async fetchSpeciesImages(speciesIds: number[]): Promise<Map<number, SpeciesImage[]>> {
+    if (!speciesIds.length) return new Map();
+
+    const rows = await this.db
+      .selectFrom('species_images as si')
+      .innerJoin('images as i', 'i.id', 'si.image_id')
+      .select([
+        'si.species_id',
+        'si.image_id',
+        'si.is_primary',
+        'si.sort_order',
+        'i.s3_key',
+        'i.mime_type',
+      ])
+      .where('si.species_id', 'in', speciesIds)
+      .where('i.status', '=', 'published')
+      .orderBy('si.sort_order')
+      .execute();
+
+    const map = new Map<number, SpeciesImage[]>();
+    for (const row of rows) {
+      const arr = map.get(row.species_id) ?? [];
+      arr.push({
+        imageId: row.image_id,
+        s3Key: row.s3_key,
+        mimeType: row.mime_type,
+        isPrimary: row.is_primary,
+        sortOrder: row.sort_order,
+      });
+      map.set(row.species_id, arr);
+    }
+    return map;
+  }
+
+  async attachImageToForm(formId: number, data: AttachImageToForm): Promise<void> {
+    await this.db
+      .insertInto('form_images')
+      .values({
+        form_id: formId,
+        image_id: data.imageId,
+        is_primary: data.isPrimary ?? false,
+        sort_order: data.sortOrder ?? 0,
+      })
+      .execute();
+  }
+
+  async detachImageFromForm(formId: number, imageId: string): Promise<boolean> {
+    const result = await this.db
+      .deleteFrom('form_images')
+      .where('form_id', '=', formId)
+      .where('image_id', '=', imageId)
+      .executeTakeFirst();
+
+    return (result.numDeletedRows ?? 0n) > 0n;
+  }
+
+  async fetchFormImages(formIds: number[]): Promise<Map<number, FormImage[]>> {
+    if (!formIds.length) return new Map();
+
+    const rows = await this.db
+      .selectFrom('form_images as fi')
+      .innerJoin('images as i', 'i.id', 'fi.image_id')
+      .select([
+        'fi.form_id',
+        'fi.image_id',
+        'fi.is_primary',
+        'fi.sort_order',
+        'i.s3_key',
+        'i.mime_type',
+      ])
+      .where('fi.form_id', 'in', formIds)
+      .where('i.status', '=', 'published')
+      .orderBy('fi.sort_order')
+      .execute();
+
+    const map = new Map<number, FormImage[]>();
+    for (const row of rows) {
+      const arr = map.get(row.form_id) ?? [];
+      arr.push({
+        imageId: row.image_id,
+        s3Key: row.s3_key,
+        mimeType: row.mime_type,
+        isPrimary: row.is_primary,
+        sortOrder: row.sort_order,
+      });
+      map.set(row.form_id, arr);
+    }
+    return map;
   }
 }

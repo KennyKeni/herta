@@ -95,7 +95,7 @@ const cache = Value.Parse(cacheSchema, {
 });
 
 const auth = Value.Parse(authSchema, {
-  BETTER_AUTH_SECRET: 'change-me-change-me-change-me-change-me',
+  BETTER_AUTH_SECRET: '',
   AUTH_SESSION_EXPIRES_IN: '604800',
   AUTH_SESSION_UPDATE_AGE: '86400',
   AUTH_JWT_EXPIRES_IN: '1h',

@@ -6,10 +6,9 @@ import type {
   ArticleCategory,
   ArticleFilter,
   ArticleImage,
+  AttachImageToArticle,
   CreateArticle,
-  CreateArticleImage,
   CreatedArticle,
-  CreatedArticleImage,
   IncludeOptions,
   UpdateArticle,
   UpdatedArticle,
@@ -129,6 +128,7 @@ export class ArticlesRepository {
       description: row.description,
       body: includeBody ? row.body : null,
       author: row.author,
+      ownerId: row.owner_id,
       createdAt: row.created_at,
       updatedAt: row.updated_at,
       categories: categories.get(row.id) ?? [],
@@ -144,6 +144,7 @@ export class ArticlesRepository {
     if (filters.articleIds?.length) query = query.where('id', 'in', filters.articleIds);
     if (filters.articleSlugs?.length) query = query.where('slug', 'in', filters.articleSlugs);
     if (filters.author) query = query.where('author', '=', filters.author);
+    if (filters.ownerIds?.length) query = query.where('owner_id', 'in', filters.ownerIds);
     if (filters.categoryIds?.length || filters.categorySlugs?.length) {
       query = query.where(
         'id',
@@ -196,6 +197,7 @@ export class ArticlesRepository {
       description: row.description,
       body: options.includeBody !== false ? row.body : null,
       author: row.author,
+      ownerId: row.owner_id,
       createdAt: row.created_at,
       updatedAt: row.updated_at,
       categories: categories.get(row.id) ?? [],
@@ -226,24 +228,30 @@ export class ArticlesRepository {
     if (!articleIds.length) return new Map();
 
     const rows = await this.db
-      .selectFrom('article_images')
-      .selectAll()
-      .where('article_id', 'in', articleIds)
-      .where('status', '=', 'uploaded')
+      .selectFrom('article_images as ai')
+      .innerJoin('images as i', 'i.id', 'ai.image_id')
+      .select([
+        'ai.article_id',
+        'ai.image_id',
+        'ai.is_cover',
+        'ai.sort_order',
+        'i.s3_key',
+        'i.mime_type',
+      ])
+      .where('ai.article_id', 'in', articleIds)
+      .where('i.status', '=', 'published')
+      .orderBy('ai.sort_order')
       .execute();
 
     const map = new Map<number, ArticleImage[]>();
     for (const row of rows) {
       const arr = map.get(row.article_id) ?? [];
       arr.push({
-        id: row.id,
-        articleId: row.article_id,
-        key: row.key,
-        status: row.status,
-        contentType: row.content_type,
+        imageId: row.image_id,
+        s3Key: row.s3_key,
+        mimeType: row.mime_type,
         isCover: row.is_cover,
-        createdAt: row.created_at,
-        confirmedAt: row.confirmed_at,
+        sortOrder: row.sort_order,
       });
       map.set(row.article_id, arr);
     }
@@ -261,6 +269,7 @@ export class ArticlesRepository {
           description: data.description ?? null,
           body: data.body,
           author: data.author ?? null,
+          owner_id: data.ownerId ?? null,
         })
         .returning(['id', 'slug'])
         .executeTakeFirstOrThrow();
@@ -307,6 +316,7 @@ export class ArticlesRepository {
       if (data.description !== undefined) updateValues.description = data.description;
       if (data.body !== undefined) updateValues.body = data.body;
       if (data.author !== undefined) updateValues.author = data.author;
+      if (data.ownerId !== undefined) updateValues.owner_id = data.ownerId;
 
       if (Object.keys(updateValues).length > 0) {
         updateValues.updated_at = new Date();
@@ -388,73 +398,45 @@ export class ArticlesRepository {
     return result?.id ?? null;
   }
 
-  async createArticleImage(data: CreateArticleImage): Promise<CreatedArticleImage> {
-    const result = await this.db
+  async attachImage(articleId: number, data: AttachImageToArticle): Promise<void> {
+    await this.db
       .insertInto('article_images')
       .values({
-        article_id: data.articleId,
-        key: data.key,
-        content_type: data.contentType,
+        article_id: articleId,
+        image_id: data.imageId,
         is_cover: data.isCover ?? false,
-        status: 'pending',
+        sort_order: data.sortOrder ?? 0,
       })
-      .returning(['id', 'key'])
-      .executeTakeFirstOrThrow();
-
-    return { id: result.id, key: result.key };
+      .execute();
   }
 
-  async getArticleImageById(id: number): Promise<ArticleImage | null> {
-    const result = await this.db
-      .selectFrom('article_images')
-      .selectAll()
-      .where('id', '=', id)
-      .executeTakeFirst();
-
-    if (!result) return null;
-
-    return {
-      id: result.id,
-      articleId: result.article_id,
-      key: result.key,
-      status: result.status,
-      contentType: result.content_type,
-      isCover: result.is_cover,
-      createdAt: result.created_at,
-      confirmedAt: result.confirmed_at,
-    };
-  }
-
-  async confirmArticleImage(id: number): Promise<boolean> {
-    const result = await this.db
-      .updateTable('article_images')
-      .set({
-        status: 'uploaded',
-        confirmed_at: new Date(),
-      })
-      .where('id', '=', id)
-      .where('status', '=', 'pending')
-      .executeTakeFirst();
-
-    return (result.numUpdatedRows ?? 0n) > 0n;
-  }
-
-  async deleteArticleImage(id: number): Promise<boolean> {
+  async detachImage(articleId: number, imageId: string): Promise<boolean> {
     const result = await this.db
       .deleteFrom('article_images')
-      .where('id', '=', id)
+      .where('article_id', '=', articleId)
+      .where('image_id', '=', imageId)
       .executeTakeFirst();
 
     return (result.numDeletedRows ?? 0n) > 0n;
   }
 
-  async getArticleIdForImage(imageId: number): Promise<number | null> {
-    const result = await this.db
-      .selectFrom('article_images')
-      .select('article_id')
-      .where('id', '=', imageId)
-      .executeTakeFirst();
+  async updateImageMetadata(
+    articleId: number,
+    imageId: string,
+    data: { isCover?: boolean; sortOrder?: number }
+  ): Promise<boolean> {
+    const updateValues: Record<string, unknown> = {};
+    if (data.isCover !== undefined) updateValues.is_cover = data.isCover;
+    if (data.sortOrder !== undefined) updateValues.sort_order = data.sortOrder;
 
-    return result?.article_id ?? null;
+    if (Object.keys(updateValues).length === 0) return true;
+
+    const result = await this.db
+      .updateTable('article_images')
+      .set(updateValues)
+      .where('article_id', '=', articleId)
+      .where('image_id', '=', imageId)
+      .executeTakeFirst();
+    return (result.numUpdatedRows ?? 0n) > 0n;
   }
 }

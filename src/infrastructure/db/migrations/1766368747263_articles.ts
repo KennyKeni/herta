@@ -18,6 +18,7 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addColumn('description', 'text')
     .addColumn('body', 'text', (col) => col.notNull())
     .addColumn('author', 'text')
+    .addColumn('owner_id', 'text', (col) => col.references('user.id').onDelete('set null'))
     .addColumn('created_at', 'timestamptz', (col) => col.defaultTo(sql`now()`).notNull())
     .addColumn('updated_at', 'timestamptz', (col) => col.defaultTo(sql`now()`).notNull())
     .execute();
@@ -34,6 +35,7 @@ export async function up(db: Kysely<any>): Promise<void> {
     .execute();
 
   await sql`CREATE INDEX idx_articles_slug ON articles (slug)`.execute(db);
+  await sql`CREATE INDEX idx_articles_owner_id ON articles (owner_id)`.execute(db);
   await sql`CREATE INDEX idx_articles_title_trgm ON articles USING gin (title gin_trgm_ops)`.execute(
     db
   );

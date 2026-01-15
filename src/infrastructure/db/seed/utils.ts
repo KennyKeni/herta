@@ -58,3 +58,29 @@ export async function truncateTables(db: Kysely<DB>, tables: string[]): Promise<
     await sql`TRUNCATE TABLE ${sql.ref(table)} CASCADE`.execute(db);
   }
 }
+
+export async function resetSequences(db: Kysely<DB>): Promise<void> {
+  await sql`
+    DO $$
+    DECLARE
+      r RECORD;
+    BEGIN
+      FOR r IN
+        SELECT
+          s.relname AS seq_name,
+          t.relname AS table_name,
+          a.attname AS column_name
+        FROM pg_class s
+        JOIN pg_depend d ON d.objid = s.oid
+        JOIN pg_class t ON d.refobjid = t.oid
+        JOIN pg_attribute a ON a.attrelid = t.oid AND a.attnum = d.refobjsubid
+        WHERE s.relkind = 'S'
+      LOOP
+        EXECUTE format(
+          'SELECT setval(%L, COALESCE((SELECT MAX(%I) FROM %I), 1))',
+          r.seq_name, r.column_name, r.table_name
+        );
+      END LOOP;
+    END $$
+  `.execute(db);
+}

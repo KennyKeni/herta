@@ -5,6 +5,8 @@ import { AbilitiesService } from '@/modules/abilities/service';
 import { AgentService } from '@/modules/agent/service';
 import { ArticlesRepository } from '@/modules/article/repository';
 import { ArticlesService } from '@/modules/article/service';
+import { ImagesRepository } from '@/modules/images/repository';
+import { ImagesService } from '@/modules/images/service';
 import { ItemsRepository } from '@/modules/items/repository';
 import { ItemsService } from '@/modules/items/service';
 import { MovesRepository } from '@/modules/moves/repository';
@@ -27,18 +29,20 @@ const abilitiesRepository = new AbilitiesRepository(db);
 const movesRepository = new MovesRepository(db);
 const itemsRepository = new ItemsRepository(db);
 const articlesRepository = new ArticlesRepository(db);
+const imagesRepository = new ImagesRepository(db);
 const spawnRepository = new SpawnRepository(db);
 const outboxRepository = new OutboxRepository(db);
 
 const s3Service = new S3Service(s3, config.s3.S3_BUCKET);
 const outboxService = new OutboxService(outboxRepository);
+const imagesService = new ImagesService(imagesRepository, s3Service);
 
-const pokemonService = new PokemonService(pokemonRepository, s3Service);
+const pokemonService = new PokemonService(pokemonRepository);
 const typesService = new TypesService(typesRepository);
 const abilitiesService = new AbilitiesService(abilitiesRepository);
 const movesService = new MovesService(movesRepository);
 const itemsService = new ItemsService(itemsRepository);
-const articlesService = new ArticlesService(articlesRepository, s3Service);
+const articlesService = new ArticlesService(articlesRepository);
 const spawnsService = new SpawnsService(spawnRepository);
 const agentService = new AgentService(
   pokemonService,
@@ -95,5 +99,10 @@ export const outboxSetup = new Elysia({ name: 'setup:outbox' }).decorate(
 );
 
 export const s3Setup = new Elysia({ name: 'setup:s3' }).decorate('s3Service', s3Service);
+
+export const imagesSetup = new Elysia({ name: 'setup:images' }).decorate(
+  'imagesService',
+  imagesService
+);
 
 export { outboxService };

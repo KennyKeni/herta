@@ -10,7 +10,9 @@ export type Generated<T> =
     ? ColumnType<S, I | undefined, U>
     : ColumnType<T, T | undefined, T>;
 
-export type ImageStatus = 'pending' | 'uploaded';
+export type ImageStatus = 'deleted' | 'pending_published' | 'pending_upload' | 'published';
+
+export type Int8 = ColumnType<string, bigint | number | string, bigint | number | string>;
 
 export type Json = JsonValue;
 
@@ -82,13 +84,10 @@ export interface ArticleCategoryMap {
 
 export interface ArticleImages {
   article_id: number;
-  confirmed_at: Timestamp | null;
-  content_type: string;
   created_at: Generated<Timestamp>;
-  id: Generated<number>;
+  image_id: string;
   is_cover: Generated<boolean>;
-  key: string;
-  status: Generated<ImageStatus>;
+  sort_order: Generated<number>;
 }
 
 export interface Articles {
@@ -97,6 +96,7 @@ export interface Articles {
   created_at: Generated<Timestamp>;
   description: string | null;
   id: Generated<number>;
+  owner_id: string | null;
   slug: string;
   subtitle: string | null;
   title: string;
@@ -238,6 +238,14 @@ export interface FormHitboxes {
   width: number;
 }
 
+export interface FormImages {
+  created_at: Generated<Timestamp>;
+  form_id: number;
+  image_id: string;
+  is_primary: Generated<boolean>;
+  sort_order: Generated<number>;
+}
+
 export interface FormLabels {
   form_id: number;
   label_id: number;
@@ -320,6 +328,19 @@ export interface HiddenPowerIvs {
   spd: number;
   spe: number;
   type_id: number;
+}
+
+export interface Images {
+  created_at: Generated<Timestamp>;
+  file_size: Int8 | null;
+  height: number | null;
+  id: Generated<string>;
+  mime_type: string | null;
+  s3_key: string;
+  status: Generated<ImageStatus>;
+  uploaded_at: Timestamp | null;
+  uploaded_by: string | null;
+  width: number | null;
 }
 
 export interface ItemBoosts {
@@ -664,6 +685,14 @@ export interface SpeciesHitboxes {
   width: number;
 }
 
+export interface SpeciesImages {
+  created_at: Generated<Timestamp>;
+  image_id: string;
+  is_primary: Generated<boolean>;
+  sort_order: Generated<number>;
+  species_id: number;
+}
+
 export interface Stats {
   id: number;
   name: string;
@@ -742,6 +771,7 @@ export interface DB {
   form_aspects: FormAspects;
   form_drops: FormDrops;
   form_hitboxes: FormHitboxes;
+  form_images: FormImages;
   form_labels: FormLabels;
   form_moves: FormMoves;
   form_override_egg_groups: FormOverrideEggGroups;
@@ -752,6 +782,7 @@ export interface DB {
   forms: Forms;
   gmax_moves: GmaxMoves;
   hidden_power_ivs: HiddenPowerIvs;
+  images: Images;
   item_boosts: ItemBoosts;
   item_flag_types: ItemFlagTypes;
   item_flags: ItemFlags;
@@ -801,6 +832,7 @@ export interface DB {
   species: Species;
   species_egg_groups: SpeciesEggGroups;
   species_hitboxes: SpeciesHitboxes;
+  species_images: SpeciesImages;
   stats: Stats;
   time_ranges: TimeRanges;
   type_matchups: TypeMatchups;
