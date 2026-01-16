@@ -16,6 +16,7 @@
     "seed:clear": "bun run src/infrastructure/db/seed/clear.ts",
     "create-admin": "bun run scripts/create-admin.ts",
     "worker:outbox": "bun run src/workers/outbox-poller.ts",
+    "worker:maintenance": "bun run src/workers/maintenance.ts",
     "codegen": "sh -c '. ./.env && DATABASE_URL=\"postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST:-localhost}:${POSTGRES_PORT:-5432}/${POSTGRES_DB}\" kysely-codegen --dialect postgres --out-file ./src/infrastructure/db/types.ts'",
     "check": "biome check src",
     "check:fix": "biome check --write src",

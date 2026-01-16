@@ -105,4 +105,4 @@ export const imagesSetup = new Elysia({ name: 'setup:images' }).decorate(
   imagesService
 );
 
-export { outboxService };
+export { outboxService, imagesService };

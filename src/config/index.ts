@@ -54,6 +54,13 @@ const s3Schema = t.Object({
   S3_BUCKET: t.String({ minLength: 1 }),
 });
 
+const maintenanceSchema = t.Object({
+  MAINTENANCE_ENABLED: t.BooleanString(),
+  MAINTENANCE_IMAGE_CLEANUP_ENABLED: t.BooleanString(),
+  MAINTENANCE_IMAGE_CLEANUP_INTERVAL_MS: t.Numeric({ minimum: 60000 }),
+  MAINTENANCE_IMAGE_CLEANUP_STALE_MINUTES: t.Numeric({ minimum: 1 }),
+});
+
 const postgres = Value.Parse(postgresSchema, {
   POSTGRES_DB: 'herta',
   POSTGRES_HOST: 'localhost',
@@ -112,6 +119,14 @@ const s3 = (() => {
   }
 })();
 
+const maintenance = Value.Parse(maintenanceSchema, {
+  MAINTENANCE_ENABLED: 'true',
+  MAINTENANCE_IMAGE_CLEANUP_ENABLED: 'true',
+  MAINTENANCE_IMAGE_CLEANUP_INTERVAL_MS: '300000',
+  MAINTENANCE_IMAGE_CLEANUP_STALE_MINUTES: '60',
+  ...process.env,
+});
+
 export const config = {
   app,
   postgres,
@@ -121,4 +136,5 @@ export const config = {
   cache,
   auth,
   s3,
+  maintenance,
 } as const;
