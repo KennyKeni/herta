@@ -127,7 +127,6 @@ export class ArticlesRepository {
       subtitle: row.subtitle,
       description: row.description,
       body: includeBody ? row.body : null,
-      author: row.author,
       ownerId: row.owner_id,
       createdAt: row.created_at,
       updatedAt: row.updated_at,
@@ -143,7 +142,6 @@ export class ArticlesRepository {
 
     if (filters.articleIds?.length) query = query.where('id', 'in', filters.articleIds);
     if (filters.articleSlugs?.length) query = query.where('slug', 'in', filters.articleSlugs);
-    if (filters.author) query = query.where('author', '=', filters.author);
     if (filters.ownerIds?.length) query = query.where('owner_id', 'in', filters.ownerIds);
     if (filters.categoryIds?.length || filters.categorySlugs?.length) {
       query = query.where(
@@ -196,7 +194,6 @@ export class ArticlesRepository {
       subtitle: row.subtitle,
       description: row.description,
       body: options.includeBody !== false ? row.body : null,
-      author: row.author,
       ownerId: row.owner_id,
       createdAt: row.created_at,
       updatedAt: row.updated_at,
@@ -268,7 +265,6 @@ export class ArticlesRepository {
           subtitle: data.subtitle ?? null,
           description: data.description ?? null,
           body: data.body,
-          author: data.author ?? null,
           owner_id: data.ownerId ?? null,
         })
         .returning(['id', 'slug'])
@@ -315,7 +311,6 @@ export class ArticlesRepository {
       if (data.subtitle !== undefined) updateValues.subtitle = data.subtitle;
       if (data.description !== undefined) updateValues.description = data.description;
       if (data.body !== undefined) updateValues.body = data.body;
-      if (data.author !== undefined) updateValues.author = data.author;
       if (data.ownerId !== undefined) updateValues.owner_id = data.ownerId;
 
       if (Object.keys(updateValues).length > 0) {

@@ -11,7 +11,7 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
     response: ArticleModel.searchResponse,
     detail: {
       summary: 'List Articles',
-      description: 'List articles with optional filtering by IDs, slugs, categories, and author.',
+      description: 'List articles with optional filtering by IDs, slugs, categories, and owner.',
     },
   })
   .post(
@@ -59,7 +59,8 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
       response: ArticleModel.updateResponse,
       detail: {
         summary: 'Update Article',
-        description: 'Update an existing article by ID or slug. Requires article:update permission.',
+        description:
+          'Update an existing article by ID or slug. Requires article:update permission.',
       },
     }
   )

@@ -13,7 +13,6 @@ const ArticleFilterSchema = t.Object({
   articleSlugs: t.Optional(t.Array(t.String())),
   categoryIds: t.Optional(t.Array(t.Number())),
   categorySlugs: t.Optional(t.Array(t.String())),
-  author: t.Optional(t.String()),
   ownerIds: t.Optional(t.Array(t.String())),
   limit: t.Optional(t.Number({ minimum: 1, maximum: 100, default: 20 })),
   offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
@@ -43,7 +42,6 @@ const ArticleSchema = t.Object({
   subtitle: t.Nullable(t.String()),
   description: t.Nullable(t.String()),
   body: t.Nullable(t.String()),
-  author: t.Nullable(t.String()),
   ownerId: t.Nullable(t.String()),
   createdAt: t.Date(),
   updatedAt: t.Date(),
@@ -56,7 +54,6 @@ const CreateArticleBodySchema = t.Object({
   subtitle: t.Optional(t.Nullable(t.String())),
   description: t.Optional(t.Nullable(t.String())),
   body: t.String({ minLength: 1 }),
-  author: t.Optional(t.Nullable(t.String())),
   categoryIds: t.Optional(t.Array(t.Number())),
 });
 
@@ -65,7 +62,6 @@ const UpdateArticleBodySchema = t.Object({
   subtitle: t.Optional(t.Nullable(t.String())),
   description: t.Optional(t.Nullable(t.String())),
   body: t.Optional(t.String({ minLength: 1 })),
-  author: t.Optional(t.Nullable(t.String())),
   categoryIds: t.Optional(t.Array(t.Number())),
 });
 

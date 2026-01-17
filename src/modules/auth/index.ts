@@ -51,7 +51,7 @@ export const authModule = new Elysia({ name: 'auth' })
       response: AuthModel.permissionsResponse,
       detail: {
         summary: 'Get User Permissions',
-        description: 'Get the current authenticated user\'s role and permissions.',
+        description: "Get the current authenticated user's role and permissions.",
       },
     }
   )

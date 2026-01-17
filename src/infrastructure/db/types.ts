@@ -91,7 +91,6 @@ export interface ArticleImages {
 }
 
 export interface Articles {
-  author: string | null;
   body: string;
   created_at: Generated<Timestamp>;
   description: string | null;

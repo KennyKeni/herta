@@ -14,7 +14,6 @@ export interface Article {
   subtitle: string | null;
   description: string | null;
   body: string | null;
-  author: string | null;
   ownerId: string | null;
   createdAt: Date;
   updatedAt: Date;
@@ -36,7 +35,6 @@ export interface ArticleFilter extends IncludeOptions {
   articleSlugs?: string[];
   categoryIds?: number[];
   categorySlugs?: string[];
-  author?: string;
   ownerIds?: string[];
   limit?: number;
   offset?: number;
@@ -47,7 +45,6 @@ export interface CreateArticle {
   subtitle?: string | null;
   description?: string | null;
   body: string;
-  author?: string | null;
   ownerId?: string | null;
   categoryIds?: number[];
 }
@@ -57,7 +54,6 @@ export interface UpdateArticle {
   subtitle?: string | null;
   description?: string | null;
   body?: string;
-  author?: string | null;
   ownerId?: string | null;
   categoryIds?: number[];
 }
