@@ -78,7 +78,7 @@ export interface UpdatedArticle {
 
 export interface ArticleImage {
   imageId: string;
-  s3Key: string;
+  url: string;
   mimeType: string | null;
   isCover: boolean;
   sortOrder: number;

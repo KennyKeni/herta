@@ -40,7 +40,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "em"
+                  "type": "italic"
                 }
               ],
               "text": "Guide Submitted By AmaTheGoodra"
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "type": "horizontal_rule"
+          "type": "horizontalRule"
         },
         {
           "type": "paragraph",
@@ -120,13 +120,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -140,7 +140,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -154,7 +154,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -168,7 +168,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -182,7 +182,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -196,7 +196,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -218,7 +218,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Notes:"
@@ -226,13 +226,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -246,7 +246,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -289,14 +289,14 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Example:"
             },
             {
               "type": "text",
-              "text": " If you have a female Goomy and breed it with a male Dratini then the offspring will always be a Goomy."
+              "text": "If you have a female Goomy and breed it with a male Dratini then the offspring will always be a Goomy."
             }
           ]
         },
@@ -346,7 +346,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Note:"
@@ -379,13 +379,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -394,7 +394,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Dwebble"
@@ -408,7 +408,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -417,7 +417,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Magikarp"
@@ -431,7 +431,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -440,7 +440,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Delta Marill"
@@ -452,13 +452,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -476,7 +476,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -485,7 +485,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Chimchar/Buneary"
@@ -499,7 +499,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -508,7 +508,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Archen"
@@ -522,7 +522,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -531,7 +531,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Phantump"
@@ -545,7 +545,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -554,7 +554,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Treecko/Charmander"
@@ -568,7 +568,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -577,7 +577,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Ditto"
@@ -627,7 +627,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Term | Definition | |------|------------| | BP | Battle Perfect (For competitive battling, such as Elite 4 battles, ranked, and tournaments) | | IVS | Individual Values (This is what you're breeding for) | | (x) (stat) | You're having a specific IV of that specific stat (Example 0IV SPE, 31IV ATK) | | HP/ATK/DEF/SPATK/SPDEF/SPE | The stats mentioned above | | Hidden Power/HP | The type of the move \"Hidden Power\" based on the pokemon's IV spread. You can see what IVs are needed for specific HP types via: https://www.ppobuddy.com/tools/hidden-power | | Golden/Rusty/Silver Bottlecap | Items used to change the \"IVs\" of your pokemon | | Abilities | The \"Ability/ies\" of the pokemon | | Hidden Abilities | The special \"Ability\" of the pokemon that are more difficult to obtain than their regular abilities | | Ability Capsules/Ability Patches | Items that can change the \"Ability\" of a pokemon | | Nature | The current \"Nature\" of the pokemon | | Mints | Items used to change the nature of a pokemon. A pokemon that has had their nature changed via a mint will not be able to pass down that nature, and will instead only be capable of passing down its original nature | | Egg Moves | Moves that can only be passed down via Breeding if the pokemon involved have those moves in their current move set. Egg moves can be passed down without breeding and this method will be discussed further down | | TMs/Tutor Moves | Moves that can be taught to a pokemon via the NPC at /warp tms | | Gender Ratios | The percentage of a pokemon's lean towards being female or male | | Neutered pokemon | Unable to breed, while Non-Neutered pokemon can breed. \"Neutered: Yes\" means that the pokemon cannot be used for breeding. \"Neutered: No\" means that the pokemon can be used for breeding |"
+              "text": "TermDefinitionBPBattle Perfect (For competitive battling, such as Elite 4 battles, ranked, and tournaments)IVSIndividual Values (This is what you're breeding for)(x) (stat)You're having a specific IV of that specific stat (Example 0IV SPE, 31IV ATK)HP/ATK/DEF/SPATK/SPDEF/SPEThe stats mentioned aboveHidden Power/HPThe type of the move \"Hidden Power\" based on the pokemon's IV spread. You can see what IVs are needed for specific HP types via: https://www.ppobuddy.com/tools/hidden-powerGolden/Rusty/Silver BottlecapItems used to change the \"IVs\" of your pokemonAbilitiesThe \"Ability/ies\" of the pokemonHidden AbilitiesThe special \"Ability\" of the pokemon that are more difficult to obtain than their regular abilitiesAbility Capsules/Ability PatchesItems that can change the \"Ability\" of a pokemonNatureThe current \"Nature\" of the pokemonMintsItems used to change the nature of a pokemon. A pokemon that has had their nature changed via a mint will not be able to pass down that nature, and will instead only be capable of passing down its original natureEgg MovesMoves that can only be passed down via Breeding if the pokemon involved have those moves in their current move set. Egg moves can be passed down without breeding and this method will be discussed further downTMs/Tutor MovesMoves that can be taught to a pokemon via the NPC at /warp tmsGender RatiosThe percentage of a pokemon's lean towards being female or maleNeutered pokemonUnable to breed, while Non-Neutered pokemon can breed. \"Neutered: Yes\" means that the pokemon cannot be used for breeding. \"Neutered: No\" means that the pokemon can be used for breeding"
             }
           ]
         },
@@ -677,7 +677,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Note:"
@@ -716,7 +716,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Example:"
@@ -728,7 +728,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Pokemon | HP | ATK | DEF | SPATK | SPDEF | SPE | |---------|-----|-----|-----|-------|-------|-----| | Male Dratini | 4 | 31 | 0 | 25 | 13 | 31 | | Female Goomy | 31 | 1 | 20 | 30 | 21 | 0 | | Baby Goomy | 21 | 31 | 20 | 13 | 3 | 31 |"
+              "text": "PokemonHPATKDEFSPATKSPDEFSPEMale Dratini4310251331Female Goomy3112030210Baby Goomy21312013331"
             }
           ]
         },
@@ -829,13 +829,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -844,7 +844,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Having a Mew on your shoulder"
@@ -852,13 +852,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -876,7 +876,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -885,7 +885,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Having a catch combo of 50"
@@ -893,13 +893,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -913,7 +913,7 @@
                       ]
                     },
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -927,7 +927,7 @@
                       ]
                     },
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -945,7 +945,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -954,7 +954,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Origin rank and higher ranks"
@@ -962,13 +962,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -1019,7 +1019,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "egg group"
@@ -1061,13 +1061,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1081,7 +1081,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1118,13 +1118,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1174,7 +1174,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Color | Stat | |-------|------| | Green | HP | | Red | Attack | | Orange | Defense | | Pink | Special Attack | | Yellow | Special Defense | | Blue | Speed |"
+              "text": "ColorStatGreenHPRedAttackOrangeDefensePinkSpecial AttackYellowSpecial DefenseBlueSpeed"
             }
           ]
         },
@@ -1200,14 +1200,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1216,7 +1217,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Step 1"
@@ -1230,7 +1231,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1239,7 +1240,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Step 2"
@@ -1253,7 +1254,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1262,7 +1263,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Step 3"
@@ -1321,7 +1322,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Pokemon | HP | ATK | DEF | SPATK | SPDEF | SPE | |---------|-----|-----|-----|-------|-------|-----| | Male Dratini | 4 | 31 | 0 | 25 | 13 | 31 | | Female Goomy | 31 | 1 | 20 | 30 | 21 | 0 | | Baby Goomy | 3 | 31 | 20 | 30 | 21 | 31 |"
+              "text": "PokemonHPATKDEFSPATKSPDEFSPEMale Dratini4310251331Female Goomy3112030210Baby Goomy33120302131"
             }
           ]
         },
@@ -1350,7 +1351,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Note:"
@@ -1422,14 +1423,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1443,7 +1445,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1474,7 +1476,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Notes:"
@@ -1482,13 +1484,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1502,7 +1504,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1549,7 +1551,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Mirror Herb"
@@ -1578,13 +1580,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1598,7 +1600,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1612,7 +1614,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1626,7 +1628,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -1678,7 +1680,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Note:"
@@ -1690,7 +1692,7 @@
           ]
         },
         {
-          "type": "horizontal_rule"
+          "type": "horizontalRule"
         },
         {
           "type": "heading",
@@ -1781,72 +1783,72 @@
           "content": [
             {
               "type": "text",
-              "text": "| | ⬇️ Attack | ⬇️ Defense | ⬇️ Special Attack | ⬇️ Special Defense | ⬇️ Speed | |---|---|---|---|---|---| | "
+              "text": "⬇️ Attack⬇️ Defense⬇️ Special Attack⬇️ Special Defense⬇️ Speed"
             },
             {
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "⬆️ Attack"
             },
             {
               "type": "text",
-              "text": " | Hardy | Lonely | Adamant | Naughty | Brave | | "
+              "text": "HardyLonelyAdamantNaughtyBrave"
             },
             {
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "⬆️ Defense"
             },
             {
               "type": "text",
-              "text": " | Bold | Docile | Impish | Lax | Relaxed | | "
+              "text": "BoldDocileImpishLaxRelaxed"
             },
             {
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "⬆️ Special Attack"
             },
             {
               "type": "text",
-              "text": " | Modest | Mild | Bashful | Rash | Quiet | | "
+              "text": "ModestMildBashfulRashQuiet"
             },
             {
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "⬆️ Special Defense"
             },
             {
               "type": "text",
-              "text": " | Calm | Gentle | Careful | Quirky | Sassy | | "
+              "text": "CalmGentleCarefulQuirkySassy"
             },
             {
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "⬆️ Speed"
             },
             {
               "type": "text",
-              "text": " | Timid | Hasty | Jolly | Naive | Serious |"
+              "text": "TimidHastyJollyNaiveSerious"
             }
           ]
         },
@@ -2020,7 +2022,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Disclaimer:"
@@ -2349,7 +2351,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "em"
+                  "type": "italic"
                 }
               ],
               "text": "Made by EclipseVoid"
@@ -2440,7 +2442,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Edit Global Permissions"
@@ -2496,7 +2498,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Edit Permission Groups"
@@ -2518,7 +2520,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Co-Owner"
@@ -2531,7 +2533,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Visitor"
@@ -2544,7 +2546,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Add"
@@ -2557,7 +2559,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Remove Mode"
@@ -2569,13 +2571,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -2589,7 +2591,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -2603,7 +2605,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -2714,13 +2716,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -2760,7 +2762,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -2786,7 +2788,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Delete Claim"
@@ -2901,13 +2903,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -2921,7 +2923,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -2998,7 +3000,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "em"
+                  "type": "italic"
                 }
               ],
               "text": "Created by ValaMalDaran"
@@ -3019,7 +3021,9 @@
                   "type": "link",
                   "attrs": {
                     "href": "https://docs.google.com/document/d/1T5QqGPfFvheG2KGegpEQO45BPTuj4ppMclkSdw8NJbE/edit?usp=sharing",
-                    "title": null
+                    "target": "_blank",
+                    "rel": "noopener noreferrer nofollow",
+                    "class": null
                   }
                 }
               ],
@@ -3028,7 +3032,7 @@
           ]
         },
         {
-          "type": "horizontal_rule"
+          "type": "horizontalRule"
         },
         {
           "type": "paragraph",
@@ -3040,7 +3044,7 @@
           ]
         },
         {
-          "type": "horizontal_rule"
+          "type": "horizontalRule"
         },
         {
           "type": "heading",
@@ -3061,7 +3065,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "em"
+                  "type": "italic"
                 }
               ],
               "text": "By: ValaMalDaran"
@@ -3222,7 +3226,7 @@
           ]
         },
         {
-          "type": "horizontal_rule"
+          "type": "horizontalRule"
         },
         {
           "type": "paragraph",
@@ -3265,7 +3269,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Client-Side mods to improve QOL!"
@@ -3279,7 +3283,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "em"
+                  "type": "italic"
                 }
               ],
               "text": "Submitted by: b0fn/b00fn"
@@ -3317,13 +3321,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3337,7 +3341,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3351,7 +3355,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3365,7 +3369,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3379,7 +3383,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3407,13 +3411,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": false
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3422,7 +3426,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Command keys"
@@ -3434,13 +3438,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -3458,7 +3462,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3467,7 +3471,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Full Brightness Toggle"
@@ -3479,13 +3483,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -3503,7 +3507,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3512,7 +3516,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "ChatNotify"
@@ -3524,13 +3528,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -3548,7 +3552,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3557,7 +3561,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "ItemLocks"
@@ -3569,13 +3573,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -3593,7 +3597,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3602,7 +3606,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Cubes without Borders"
@@ -3614,13 +3618,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -3638,7 +3642,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3647,7 +3651,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "TalkBubbles"
@@ -3659,13 +3663,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -3683,7 +3687,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3692,7 +3696,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Armor Hud"
@@ -3704,13 +3708,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -3728,7 +3732,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3737,7 +3741,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Chat Plus"
@@ -3749,13 +3753,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -3773,7 +3777,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3782,7 +3786,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "60fy Viewmodel Customizer"
@@ -3794,13 +3798,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -3851,7 +3855,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Author:"
@@ -3902,13 +3906,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3922,7 +3926,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -3936,7 +3940,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -4113,7 +4117,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "em"
+                  "type": "italic"
                 }
               ],
               "text": "Image"
@@ -4151,13 +4155,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -4171,7 +4175,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -4185,7 +4189,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -4377,7 +4381,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "By: LordVile1"
@@ -4506,7 +4510,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Streak | Legendary Chance | HA Chance | Shiny Chance | |--------|------------------|-----------|--------------| | 0-4    | 1/20             | 1/100     | 1/200        | | 5-9    | 1/16             | 1/75      | 1/150        | | 10-14  | 1/12             | 1/50      | 1/100        | | 15-20  | 1/8              | 1/25      | 1/50         |"
+              "text": "StreakLegendary ChanceHA ChanceShiny Chance0-41/201/1001/2005-91/161/751/15010-141/121/501/10015-201/81/251/50"
             }
           ]
         },
@@ -4629,7 +4633,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Dungeon Type     | Notable Loot                          | |------------------|---------------------------------------| | All Types        | Master Ball, Ancient Origin Ball, Nether Star, Trident, Dragon Eggs | | Ice Dungeon      | Ice Sword                             | | Grass Dungeon    | Blossom Boots, Ruinous Hoe            | | Ground Dungeon   | Gigaton Hammer, Ruinous Hammer, Cornerstone Mask | | Fire Dungeon     | Hearthflame Mask                      | | Water Dungeon    | Wellspring Mask                       | | Electric Dungeon | Stormpeak Mask                        |"
+              "text": "Dungeon TypeNotable LootAll TypesMaster Ball, Ancient Origin Ball, Nether Star, Trident, Dragon EggsIce DungeonIce SwordGrass DungeonBlossom Boots, Ruinous HoeGround DungeonGigaton Hammer, Ruinous Hammer, Cornerstone MaskFire DungeonHearthflame MaskWater DungeonWellspring MaskElectric DungeonStormpeak Mask"
             }
           ]
         },
@@ -4719,7 +4723,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Dungeon Type     | Possible Bosses                              | |------------------|----------------------------------------------| | Ice Dungeon      | Chien-Pao, Articuno, Glastrier, Kyurem       | | Grass Dungeon    | Wo-Chien, Tapu Bulu, Ogerpon, Zarude         | | Ground Dungeon   | Ting-Lu, Tapu Lele, Bloodmoon Ursaluna       | | Fire Dungeon     | Chi-Yu, Moltres, Entei, Spectrier, Reshiram  | | Water Dungeon    | Suicune, Tapu Fini, Lochtrier                | | Electric Dungeon | Zapdos, Raikou, Tapu Koko, Zekrom            |"
+              "text": "Dungeon TypePossible BossesIce DungeonChien-Pao, Articuno, Glastrier, KyuremGrass DungeonWo-Chien, Tapu Bulu, Ogerpon, ZarudeGround DungeonTing-Lu, Tapu Lele, Bloodmoon UrsalunaFire DungeonChi-Yu, Moltres, Entei, Spectrier, ReshiramWater DungeonSuicune, Tapu Fini, LochtrierElectric DungeonZapdos, Raikou, Tapu Koko, Zekrom"
             }
           ]
         },
@@ -5086,7 +5090,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Overworld | Area Zero | Entralink | |-----------|-----------|-----------| | No exclusives yet! | Terapagos | Shaykarp | | | Rogue Prince | | | | Manaphite | |"
+              "text": "OverworldArea ZeroEntralinkNo exclusives yet!TerapagosShaykarpRogue PrinceManaphite"
             }
           ]
         },
@@ -5148,13 +5152,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5163,7 +5167,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "GOOD"
@@ -5177,7 +5181,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5186,7 +5190,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "BAD"
@@ -5200,7 +5204,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5209,7 +5213,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "FEEBAS CATCH (RARE!)"
@@ -5240,7 +5244,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "TIP:"
@@ -5289,7 +5293,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Tackle | Price | Effect | |--------|-------|--------| | Enigma Tackle | ₽30,000 | Doubles the length of your bobber during the fishing minigame! | | Lansat Tackle | ₽100,000 | Doubles your odds of finding a rare catch! | | Salac Tackle | ₽30,000 | Increases your bite-rate! | | Razz Tackle | ₽100,000 | Doubles your shiny rate! | | Cheri Tackle | ₽50,000 | Doubles hidden ability rate! | | Kelpsy Tackle | ₽20,000 | Increases the chances to fish up a Magikarp! | | Aguav Tackle | ₽60,000 | Increases your odds of fishing up items! |"
+              "text": "TacklePriceEffectEnigma Tackle₽30,000Doubles the length of your bobber during the fishing minigame!Lansat Tackle₽100,000Doubles your odds of finding a rare catch!Salac Tackle₽30,000Increases your bite-rate!Razz Tackle₽100,000Doubles your shiny rate!Cheri Tackle₽50,000Doubles hidden ability rate!Kelpsy Tackle₽20,000Increases the chances to fish up a Magikarp!Aguav Tackle₽60,000Increases your odds of fishing up items!"
             }
           ]
         },
@@ -5303,7 +5307,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "NOTE:"
@@ -5413,7 +5417,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Magikarp Tiers: 1-3"
@@ -5511,7 +5515,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "A Fishing Guide: Tier Table"
@@ -5559,7 +5563,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "A Player's Guide to Fusion Pokemon"
@@ -5573,7 +5577,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "em"
+                  "type": "italic"
                 }
               ],
               "text": "Guide By TheJuicyCaboosie/JuicyBlue"
@@ -5650,7 +5654,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Note:"
@@ -5676,13 +5680,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5696,7 +5700,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5710,7 +5714,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5738,13 +5742,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5758,7 +5762,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5772,7 +5776,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5800,13 +5804,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5820,7 +5824,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5834,7 +5838,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5862,13 +5866,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5882,7 +5886,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5896,7 +5900,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5924,13 +5928,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5944,7 +5948,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5958,7 +5962,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -5986,13 +5990,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6006,7 +6010,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6020,7 +6024,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6048,13 +6052,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6068,7 +6072,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6082,7 +6086,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6110,13 +6114,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6130,7 +6134,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6144,7 +6148,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6172,13 +6176,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6192,7 +6196,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6206,7 +6210,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6234,13 +6238,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6254,7 +6258,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6268,7 +6272,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6296,13 +6300,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6316,7 +6320,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6330,7 +6334,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6358,13 +6362,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6378,7 +6382,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6392,7 +6396,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6420,13 +6424,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6440,7 +6444,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6454,7 +6458,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6482,13 +6486,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6502,7 +6506,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6516,7 +6520,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6544,13 +6548,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6564,7 +6568,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6592,13 +6596,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6612,7 +6616,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6640,13 +6644,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6660,7 +6664,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6688,13 +6692,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6708,7 +6712,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6722,7 +6726,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6750,13 +6754,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6770,7 +6774,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6784,7 +6788,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6812,13 +6816,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6832,7 +6836,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6846,7 +6850,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6874,13 +6878,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6894,7 +6898,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6922,13 +6926,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6942,7 +6946,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6956,7 +6960,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -6984,13 +6988,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7039,13 +7043,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7073,13 +7077,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7107,13 +7111,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7162,13 +7166,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7196,13 +7200,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7230,13 +7234,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7250,7 +7254,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7264,7 +7268,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7311,7 +7315,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Author:"
@@ -7350,7 +7354,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Disclaimer:"
@@ -7387,7 +7391,9 @@
                   "type": "link",
                   "attrs": {
                     "href": "https://webui.advntr.dev",
-                    "title": null
+                    "target": "_blank",
+                    "rel": "noopener noreferrer nofollow",
+                    "class": null
                   }
                 }
               ],
@@ -7413,7 +7419,9 @@
                   "type": "link",
                   "attrs": {
                     "href": "https://www.birdflop.com/resources/rgb/",
-                    "title": null
+                    "target": "_blank",
+                    "rel": "noopener noreferrer nofollow",
+                    "class": null
                   }
                 }
               ],
@@ -7495,9 +7503,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -7507,9 +7515,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -7519,9 +7527,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -7531,9 +7539,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -7555,13 +7563,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7573,7 +7581,9 @@
                           "type": "link",
                           "attrs": {
                             "href": "https://lingojam.com/FancyLetters",
-                            "title": null
+                            "target": "_blank",
+                            "rel": "noopener noreferrer nofollow",
+                            "class": null
                           }
                         }
                       ],
@@ -7588,7 +7598,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7600,7 +7610,9 @@
                           "type": "link",
                           "attrs": {
                             "href": "https://emojipedia.org",
-                            "title": null
+                            "target": "_blank",
+                            "rel": "noopener noreferrer nofollow",
+                            "class": null
                           }
                         }
                       ],
@@ -7635,13 +7647,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7653,7 +7665,9 @@
                           "type": "link",
                           "attrs": {
                             "href": "https://modrinth.com/mod/symbol-chat",
-                            "title": null
+                            "target": "_blank",
+                            "rel": "noopener noreferrer nofollow",
+                            "class": null
                           }
                         }
                       ],
@@ -7706,7 +7720,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Submitted by:"
@@ -7718,7 +7732,7 @@
           ]
         },
         {
-          "type": "horizontal_rule"
+          "type": "horizontalRule"
         },
         {
           "type": "paragraph",
@@ -7760,13 +7774,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7780,7 +7794,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7794,7 +7808,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7808,7 +7822,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7822,7 +7836,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7836,7 +7850,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7850,7 +7864,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7864,7 +7878,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7878,7 +7892,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7892,7 +7906,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7906,7 +7920,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7920,7 +7934,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7934,7 +7948,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -7948,7 +7962,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8003,14 +8017,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8024,7 +8039,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8038,7 +8053,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8052,7 +8067,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8066,7 +8081,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8109,9 +8124,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -8130,9 +8145,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -8151,9 +8166,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -8217,7 +8232,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Standard mode"
@@ -8238,7 +8253,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Note:"
@@ -8267,7 +8282,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Endless mode"
@@ -8288,7 +8303,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Note:"
@@ -8311,9 +8326,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -8381,7 +8396,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Easy"
@@ -8394,7 +8409,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Hard"
@@ -8415,13 +8430,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8435,7 +8450,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8449,7 +8464,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8463,7 +8478,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8477,7 +8492,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8491,7 +8506,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8505,7 +8520,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8519,7 +8534,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8580,9 +8595,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -8613,13 +8628,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8633,7 +8648,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8647,7 +8662,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8661,7 +8676,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8675,7 +8690,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8689,7 +8704,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8703,7 +8718,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8717,7 +8732,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -8844,7 +8859,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Useful Tip:"
@@ -8879,9 +8894,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -8900,9 +8915,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -8921,9 +8936,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -8942,9 +8957,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -8963,7 +8978,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Note:"
@@ -9004,7 +9019,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Pokemon hunts"
@@ -9022,7 +9037,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Breeding Hunts"
@@ -9064,9 +9079,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -9115,13 +9130,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9135,7 +9150,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9149,7 +9164,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9163,7 +9178,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9177,7 +9192,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9232,13 +9247,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9252,7 +9267,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9266,7 +9281,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9295,7 +9310,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Event | Description | |-------|-------------| | 🧊 Avalugg Crush | Step on the Green Carpets and don't get crushed by the falling Avalugg! | | 🎣 Catch Contest | Catch as many different species of pokemon of a specific type before time runs out! | | 🕳️ Cave Escape | Jump your way up to the surface before time runs out! | | 🎮 PokeGames | Find Pokemon, get them ready, battle trainers, and be the last one standing! | | ❄️ Spleef | Don't fall into the Lava! Break snow blocks and drop others down! | | 🏃 Triathlon | Run, jump and fly through obstacles to make it to the end! | | ⚡ Voltorb Tag | Hide, run, or hit others with a voltorb! Don't get tagged before time runs out! | | ❓ Who's That Pokemon | Guess what pokemon other players are building, or build a pokemon and be as accurate as possible! |"
+              "text": "EventDescription🧊 Avalugg CrushStep on the Green Carpets and don't get crushed by the falling Avalugg!🎣 Catch ContestCatch as many different species of pokemon of a specific type before time runs out!🕳️ Cave EscapeJump your way up to the surface before time runs out!🎮 PokeGamesFind Pokemon, get them ready, battle trainers, and be the last one standing!❄️ SpleefDon't fall into the Lava! Break snow blocks and drop others down!🏃 TriathlonRun, jump and fly through obstacles to make it to the end!⚡ Voltorb TagHide, run, or hit others with a voltorb! Don't get tagged before time runs out!❓ Who's That PokemonGuess what pokemon other players are building, or build a pokemon and be as accurate as possible!"
             }
           ]
         },
@@ -9310,7 +9325,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Event Points"
@@ -9322,9 +9337,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -9352,7 +9367,7 @@
           ]
         },
         {
-          "type": "horizontal_rule"
+          "type": "horizontalRule"
         },
         {
           "type": "paragraph",
@@ -9395,7 +9410,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "By: AmaTheGoodra"
@@ -9464,7 +9479,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Note:"
@@ -9499,13 +9514,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9519,7 +9534,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9545,7 +9560,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Ultra Space"
@@ -9557,13 +9572,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9577,7 +9592,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9591,7 +9606,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9605,7 +9620,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9619,7 +9634,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9633,7 +9648,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9647,7 +9662,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9661,7 +9676,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9675,7 +9690,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9689,7 +9704,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9703,7 +9718,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9729,7 +9744,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Ultra Megalopolis"
@@ -9827,7 +9842,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Quest Milestones Needed for Levels:"
@@ -9839,7 +9854,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Level | Quests Required | |-------|-----------------| | 4     | 1 Quest         | | 6     | 5 Quests        | | 10    | 10 Quests       | | 14    | 15 Quests       | | 18    | 20 Quests       | | 22    | 25 Quests       | | 26    | 30 Quests       | | 30    | 35 Quests       | | 33    | 40 Quests       | | 38    | 45 Quests       |"
+              "text": "LevelQuests Required41 Quest65 Quests1010 Quests1415 Quests1820 Quests2225 Quests2630 Quests3035 Quests3340 Quests3845 Quests"
             }
           ]
         },
@@ -9853,7 +9868,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Note:"
@@ -9918,13 +9933,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9938,7 +9953,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -9963,7 +9978,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Gear Reminder:"
@@ -10004,7 +10019,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Trade them with Cozmo for points:"
@@ -10016,7 +10031,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Meteorite Type | Points | |----------------|--------| | Common         | 1      | | Uncommon       | 3      | | Rare           | 5      | | Mythical       | 25     |"
+              "text": "Meteorite TypePointsCommon1Uncommon3Rare5Mythical25"
             }
           ]
         },
@@ -10027,7 +10042,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Point Rewards:"
@@ -10035,13 +10050,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10050,7 +10065,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "25 Points:"
@@ -10064,7 +10079,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10073,7 +10088,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "300 Points:"
@@ -10175,7 +10190,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Note:"
@@ -10216,7 +10231,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "To form a party:"
@@ -10224,14 +10239,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10254,7 +10270,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10268,7 +10284,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10295,7 +10311,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10418,13 +10434,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10437,7 +10453,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "20% chance"
@@ -10450,7 +10466,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "50% chance"
@@ -10472,7 +10488,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "The Ultra Beast you encounter depends on the biome where you complete the nest:"
@@ -10484,7 +10500,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Ultra Beast | Biome | |-------------|-------| | Nihilego    | Ultra Deep Sea | | Buzzwole    | Ultra Jungle | | Pheromosa   | Ultra Desert | | Xurkitree   | Ultra Plant | | Kartana     | Ultra Forest | | Celesteela  | Ultra Crater | | Guzzlord    | Ultra Ruin | | Blacephalon | Ultra Burst | | Stakataka   | Ultra Grove | | Naganadel   | Ultra Oasis | | Giratina    | Distortion (requires Level 30+ in Ultra Space) |"
+              "text": "Ultra BeastBiomeNihilegoUltra Deep SeaBuzzwoleUltra JunglePheromosaUltra DesertXurkitreeUltra PlantKartanaUltra ForestCelesteelaUltra CraterGuzzlordUltra RuinBlacephalonUltra BurstStakatakaUltra GroveNaganadelUltra OasisGiratinaDistortion (requires Level 30+ in Ultra Space)"
             }
           ]
         },
@@ -10507,7 +10523,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Hoopa:"
@@ -10537,7 +10553,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Bonus:"
@@ -10576,7 +10592,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Tier | Box Color | |------|-----------| | 1    | Gray      | | 2    | Pink      | | 3    | Blue      |"
+              "text": "TierBox Color1Gray2Pink3Blue"
             }
           ]
         },
@@ -10600,7 +10616,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Singularity Enchantment Book"
@@ -10621,7 +10637,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Note:"
@@ -10720,7 +10736,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Charge Mechanic:"
@@ -10750,14 +10766,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10771,7 +10788,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10785,7 +10802,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10807,7 +10824,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Progression:"
@@ -10915,7 +10932,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Ultra Wild Rewards:"
@@ -10923,13 +10940,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10938,7 +10955,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Florizim"
@@ -10952,7 +10969,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10961,7 +10978,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Wisphir"
@@ -10975,7 +10992,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -10984,7 +11001,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Glimmerix"
@@ -11012,13 +11029,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -11032,7 +11049,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -11045,7 +11062,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "N-Solarizer"
@@ -11058,7 +11075,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "N-Lunarizer"
@@ -11072,7 +11089,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -11084,13 +11101,13 @@
                   ]
                 },
                 {
-                  "type": "bullet_list",
+                  "type": "bulletList",
                   "attrs": {
                     "tight": true
                   },
                   "content": [
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -11099,7 +11116,7 @@
                               "type": "text",
                               "marks": [
                                 {
-                                  "type": "strong"
+                                  "type": "bold"
                                 }
                               ],
                               "text": "Aether Chain (I-III)"
@@ -11112,7 +11129,7 @@
                               "type": "text",
                               "marks": [
                                 {
-                                  "type": "strong"
+                                  "type": "bold"
                                 }
                               ],
                               "text": "Aerial Bounty (I-II)"
@@ -11126,7 +11143,7 @@
                       ]
                     },
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -11140,7 +11157,7 @@
                       ]
                     },
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -11154,7 +11171,7 @@
                       ]
                     },
                     {
-                      "type": "list_item",
+                      "type": "listItem",
                       "content": [
                         {
                           "type": "paragraph",
@@ -11210,7 +11227,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Here are the effects they add:"
@@ -11222,7 +11239,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Ultra Beast | Effect | |-------------|--------| | Florazim    | When you attack mobs or aggressive Pokémon, they are poisoned | | Glimmerix   | If you drop below 10 HP, you gain Resistance 3 for a few seconds (40-second cooldown) | | Wisphir     | When you are hit, a wind charge is automatically launched toward the attacker |"
+              "text": "Ultra BeastEffectFlorazimWhen you attack mobs or aggressive Pokémon, they are poisonedGlimmerixIf you drop below 10 HP, you gain Resistance 3 for a few seconds (40-second cooldown)WisphirWhen you are hit, a wind charge is automatically launched toward the attacker"
             }
           ]
         },
@@ -11236,7 +11253,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Note:"
@@ -11331,7 +11348,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Note:"
@@ -11535,7 +11552,7 @@
                   "type": "text",
                   "marks": [
                     {
-                      "type": "strong"
+                      "type": "bold"
                     }
                   ],
                   "text": "Note:"
@@ -11606,14 +11623,14 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Q: What shoulder effects does Nihilego or Poipole provide?"
             },
             {
               "type": "text",
-              "text": " A: Please see http://wiki.cobblemondelta.com/misc for full details. Use Left Shift to activate the Nihilego dash."
+              "text": "A: Please see http://wiki.cobblemondelta.com/misc for full details. Use Left Shift to activate the Nihilego dash."
             }
           ]
         },
@@ -11624,14 +11641,14 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Q: What counts as a \"Banned Platform\" in Ultra Space?"
             },
             {
               "type": "text",
-              "text": " A: A banned platform is any floating structure in the sky built solely for gaining spawns, dowsing, or meteorites. Building for aesthetic purposes is fine, and flattening land is also acceptable. If you spot a banned platform, please create a ticket in 🎫｜create-a-ticket and report it."
+              "text": "A: A banned platform is any floating structure in the sky built solely for gaining spawns, dowsing, or meteorites. Building for aesthetic purposes is fine, and flattening land is also acceptable. If you spot a banned platform, please create a ticket in 🎫｜create-a-ticket and report it."
             }
           ]
         },
@@ -11642,14 +11659,14 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Q: What are the easiest quests to do?"
             },
             {
               "type": "text",
-              "text": " A: Ease of quests depends on what you already have and your current progress. You may ask for suggestions in chat or refer to the relevant posts, but please do not spam or annoy others with repeated requests."
+              "text": "A: Ease of quests depends on what you already have and your current progress. You may ask for suggestions in chat or refer to the relevant posts, but please do not spam or annoy others with repeated requests."
             }
           ]
         },
@@ -11660,14 +11677,14 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Q: How big can I make my land?"
             },
             {
               "type": "text",
-              "text": " A: There is no size limit on claims in Ultra Space. Make your land as large as you wish; there is no required size to maximize spawns, meteorites, or other features."
+              "text": "A: There is no size limit on claims in Ultra Space. Make your land as large as you wish; there is no required size to maximize spawns, meteorites, or other features."
             }
           ]
         },
@@ -11678,14 +11695,14 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Q: Can I ban people from my claim?"
             },
             {
               "type": "text",
-              "text": " A: No. Banning other players from your Ultra Space claim is generally not allowed under the server rules. If you're experiencing an issue with a player, make a ticket, and a staff member can assist you further."
+              "text": "A: No. Banning other players from your Ultra Space claim is generally not allowed under the server rules. If you're experiencing an issue with a player, make a ticket, and a staff member can assist you further."
             }
           ]
         },
@@ -11696,14 +11713,14 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Q: What is a Distortion Biome?"
             },
             {
               "type": "text",
-              "text": " A: Distortion Biomes are unique to Ultra Space. You can locate them by traveling down along the Y-axis. For more information, visit http://wiki.cobblemondelta.com/ultraspace"
+              "text": "A: Distortion Biomes are unique to Ultra Space. You can locate them by traveling down along the Y-axis. For more information, visit http://wiki.cobblemondelta.com/ultraspace"
             }
           ]
         },
@@ -11714,14 +11731,14 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Q: Where do wormholes spawn?"
             },
             {
               "type": "text",
-              "text": " A: Wormholes spawn near players."
+              "text": "A: Wormholes spawn near players."
             }
           ]
         },
@@ -11732,14 +11749,14 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Q: Do wormholes show up on the map?"
             },
             {
               "type": "text",
-              "text": " A: No, they do not appear on the map."
+              "text": "A: No, they do not appear on the map."
             }
           ]
         },
@@ -11750,14 +11767,14 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Q: How long does it take for wormholes to spawn?"
             },
             {
               "type": "text",
-              "text": " A: Wormhole spawns are random and may appear for any player at any time."
+              "text": "A: Wormhole spawns are random and may appear for any player at any time."
             }
           ]
         },
@@ -11768,14 +11785,14 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Q: Does the spawn biome matter for Solgaleo or Lunala?"
             },
             {
               "type": "text",
-              "text": " A: No, the spawn biome does not affect them."
+              "text": "A: No, the spawn biome does not affect them."
             }
           ]
         },
@@ -11786,19 +11803,19 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Q: How do I get a Red Chain?"
             },
             {
               "type": "text",
-              "text": " A: Catch Mesprit, Azelf, or Uxie in the Ultra Wilds biome they appear in. Each catch gives a one-in-four chance to receive a Red Chain."
+              "text": "A: Catch Mesprit, Azelf, or Uxie in the Ultra Wilds biome they appear in. Each catch gives a one-in-four chance to receive a Red Chain."
             }
           ]
         },
         {
-          "type": "horizontal_rule"
+          "type": "horizontalRule"
         },
         {
           "type": "paragraph",
@@ -11856,13 +11873,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -11871,7 +11888,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Tier 8 (T8)"
@@ -11885,7 +11902,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -11894,7 +11911,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Summer Armor"
@@ -11908,7 +11925,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -11917,7 +11934,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Spring Armor"
@@ -11988,13 +12005,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -12003,7 +12020,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Ruby Armor"
@@ -12030,7 +12047,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -12039,7 +12056,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Aether Armor"
@@ -12110,13 +12127,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -12135,7 +12152,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -12154,7 +12171,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -12173,7 +12190,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -12201,13 +12218,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -12230,7 +12247,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -12253,7 +12270,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -12272,7 +12289,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -12291,7 +12308,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -12476,7 +12493,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Command | Description | |---------|-------------| | "
+              "text": "CommandDescription"
             },
             {
               "type": "text",
@@ -12489,7 +12506,7 @@
             },
             {
               "type": "text",
-              "text": " | Send money to another player | | "
+              "text": "Send money to another player"
             },
             {
               "type": "text",
@@ -12502,7 +12519,7 @@
             },
             {
               "type": "text",
-              "text": " | Check your balance for a specific currency | | "
+              "text": "Check your balance for a specific currency"
             },
             {
               "type": "text",
@@ -12515,7 +12532,7 @@
             },
             {
               "type": "text",
-              "text": " | List a Pokemon for sale on the GTS | | "
+              "text": "List a Pokemon for sale on the GTS"
             },
             {
               "type": "text",
@@ -12528,7 +12545,7 @@
             },
             {
               "type": "text",
-              "text": " | Collect money/Pokemon from GTS and shop chests | | "
+              "text": "Collect money/Pokemon from GTS and shop chests"
             },
             {
               "type": "text",
@@ -12541,7 +12558,7 @@
             },
             {
               "type": "text",
-              "text": " | Opens link to purchase credits |"
+              "text": "Opens link to purchase credits"
             }
           ]
         },
@@ -12562,7 +12579,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Command | Description | |---------|-------------| | "
+              "text": "CommandDescription"
             },
             {
               "type": "text",
@@ -12575,7 +12592,7 @@
             },
             {
               "type": "text",
-              "text": " | Gift a Pokemon to another player | | "
+              "text": "Gift a Pokemon to another player"
             },
             {
               "type": "text",
@@ -12588,7 +12605,7 @@
             },
             {
               "type": "text",
-              "text": " | Display a Pokemon in chat | | "
+              "text": "Display a Pokemon in chat"
             },
             {
               "type": "text",
@@ -12601,7 +12618,7 @@
             },
             {
               "type": "text",
-              "text": " | See which Pokemon you can ride | | "
+              "text": "See which Pokemon you can ride"
             },
             {
               "type": "text",
@@ -12614,7 +12631,7 @@
             },
             {
               "type": "text",
-              "text": " | Reset a specific EV stat on a Pokemon | | "
+              "text": "Reset a specific EV stat on a Pokemon"
             },
             {
               "type": "text",
@@ -12627,7 +12644,7 @@
             },
             {
               "type": "text",
-              "text": " | One-time IV fix for Paradox/UB/Legendary Pokemon | | "
+              "text": "One-time IV fix for Paradox/UB/Legendary Pokemon"
             },
             {
               "type": "text",
@@ -12640,7 +12657,7 @@
             },
             {
               "type": "text",
-              "text": " | Neuter a Pokemon (make it unbreedable) |"
+              "text": "Neuter a Pokemon (make it unbreedable)"
             }
           ]
         },
@@ -12679,7 +12696,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Command | Description | |---------|-------------| | "
+              "text": "CommandDescription"
             },
             {
               "type": "text",
@@ -12692,7 +12709,7 @@
             },
             {
               "type": "text",
-              "text": " | Send a message to your party | | "
+              "text": "Send a message to your party"
             },
             {
               "type": "text",
@@ -12705,7 +12722,7 @@
             },
             {
               "type": "text",
-              "text": " | Send a message to Delta chat (no toggle) |"
+              "text": "Send a message to Delta chat (no toggle)"
             }
           ]
         },
@@ -12726,7 +12743,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Command | Description | |---------|-------------| | "
+              "text": "CommandDescription"
             },
             {
               "type": "text",
@@ -12739,7 +12756,7 @@
             },
             {
               "type": "text",
-              "text": " | Random teleport to the wild | | "
+              "text": "Random teleport to the wild"
             },
             {
               "type": "text",
@@ -12752,7 +12769,7 @@
             },
             {
               "type": "text",
-              "text": " | Set a private home | | "
+              "text": "Set a private home"
             },
             {
               "type": "text",
@@ -12765,7 +12782,7 @@
             },
             {
               "type": "text",
-              "text": " | Teleport to your home | | "
+              "text": "Teleport to your home"
             },
             {
               "type": "text",
@@ -12778,7 +12795,7 @@
             },
             {
               "type": "text",
-              "text": " | Create a public warp (costs 100k) |"
+              "text": "Create a public warp (costs 100k)"
             }
           ]
         },
@@ -12799,7 +12816,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Command | Description | |---------|-------------| | "
+              "text": "CommandDescription"
             },
             {
               "type": "text",
@@ -12812,7 +12829,7 @@
             },
             {
               "type": "text",
-              "text": " | Check your current catch combo | | "
+              "text": "Check your current catch combo"
             },
             {
               "type": "text",
@@ -12825,7 +12842,7 @@
             },
             {
               "type": "text",
-              "text": " | Claim rewards for completed bingo tasks | | "
+              "text": "Claim rewards for completed bingo tasks"
             },
             {
               "type": "text",
@@ -12838,7 +12855,7 @@
             },
             {
               "type": "text",
-              "text": " | Claim monthly supporter rewards | | "
+              "text": "Claim monthly supporter rewards"
             },
             {
               "type": "text",
@@ -12851,7 +12868,7 @@
             },
             {
               "type": "text",
-              "text": " | Claim daily supporter rewards | | "
+              "text": "Claim daily supporter rewards"
             },
             {
               "type": "text",
@@ -12864,7 +12881,7 @@
             },
             {
               "type": "text",
-              "text": " | Look up Pokemon information | | "
+              "text": "Look up Pokemon information"
             },
             {
               "type": "text",
@@ -12877,7 +12894,7 @@
             },
             {
               "type": "text",
-              "text": " | Open dungeon menu | | "
+              "text": "Open dungeon menu"
             },
             {
               "type": "text",
@@ -12890,7 +12907,7 @@
             },
             {
               "type": "text",
-              "text": " | Open raid menu | | "
+              "text": "Open raid menu"
             },
             {
               "type": "text",
@@ -12903,7 +12920,7 @@
             },
             {
               "type": "text",
-              "text": " | Open gym menu | | "
+              "text": "Open gym menu"
             },
             {
               "type": "text",
@@ -12916,7 +12933,7 @@
             },
             {
               "type": "text",
-              "text": " | Open event shop |"
+              "text": "Open event shop"
             }
           ]
         }
@@ -13001,13 +13018,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13021,7 +13038,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13035,7 +13052,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13072,13 +13089,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13092,7 +13109,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13106,7 +13123,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13168,14 +13185,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13189,7 +13207,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13202,7 +13220,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Ticket Icon"
@@ -13216,7 +13234,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13230,7 +13248,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13302,7 +13320,7 @@
               "type": "text",
               "marks": [
                 {
-                  "type": "strong"
+                  "type": "bold"
                 }
               ],
               "text": "Catalyst"
@@ -13326,14 +13344,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13346,7 +13365,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Prismatic Frag"
@@ -13359,7 +13378,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Oreheart"
@@ -13369,7 +13388,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13392,7 +13411,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13475,13 +13494,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13495,7 +13514,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13509,7 +13528,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13523,7 +13542,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13537,7 +13556,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13564,7 +13583,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13656,13 +13675,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13676,7 +13695,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13690,7 +13709,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13786,13 +13805,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13819,7 +13838,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13872,7 +13891,7 @@
           "content": [
             {
               "type": "text",
-              "text": "| Tasks Completed | Reward | |-----------------|--------| | 200 | Master Rod | | 500 | Shiny Celebi |"
+              "text": "Tasks CompletedReward200Master Rod500Shiny Celebi"
             }
           ]
         },
@@ -13944,13 +13963,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13964,7 +13983,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -13978,7 +13997,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14070,14 +14089,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14100,7 +14120,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14162,13 +14182,13 @@
           ]
         },
         {
-          "type": "bullet_list",
+          "type": "bulletList",
           "attrs": {
             "tight": true
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14177,7 +14197,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Alpha, Gamma, Epsilon, Zeta"
@@ -14191,7 +14211,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14200,7 +14220,7 @@
                       "type": "text",
                       "marks": [
                         {
-                          "type": "strong"
+                          "type": "bold"
                         }
                       ],
                       "text": "Omega"
@@ -14325,14 +14345,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14346,7 +14367,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14360,7 +14381,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14406,9 +14427,9 @@
           ]
         },
         {
-          "type": "code_block",
+          "type": "codeBlock",
           "attrs": {
-            "params": ""
+            "language": null
           },
           "content": [
             {
@@ -14473,14 +14494,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14507,7 +14529,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14521,7 +14543,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14535,7 +14557,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14572,14 +14594,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14593,7 +14616,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14620,7 +14643,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14712,14 +14735,15 @@
           ]
         },
         {
-          "type": "ordered_list",
+          "type": "orderedList",
           "attrs": {
-            "order": 1,
-            "tight": true
+            "tight": true,
+            "start": 1,
+            "type": null
           },
           "content": [
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",
@@ -14733,7 +14757,7 @@
               ]
             },
             {
-              "type": "list_item",
+              "type": "listItem",
               "content": [
                 {
                   "type": "paragraph",

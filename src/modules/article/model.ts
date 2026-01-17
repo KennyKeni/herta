@@ -48,7 +48,7 @@ const ArticleCategorySchema = t.Object({
 
 const ArticleImageSchema = t.Object({
   imageId: t.String(),
-  s3Key: t.String(),
+  url: t.String(),
   mimeType: t.Nullable(t.String()),
   isCover: t.Boolean(),
   sortOrder: t.Number(),

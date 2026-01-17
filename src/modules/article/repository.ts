@@ -1,5 +1,6 @@
 import { type Kysely, sql } from 'kysely';
 import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } from '@/common/fuzzy';
+import { config } from '@/config';
 import type { DB } from '@/infrastructure/db/types';
 import type {
   Article,
@@ -255,7 +256,7 @@ export class ArticlesRepository {
       const arr = map.get(row.article_id) ?? [];
       arr.push({
         imageId: row.image_id,
-        s3Key: row.s3_key,
+        url: `${config.s3.S3_PUBLIC_URL}/${row.s3_key}`,
         mimeType: row.mime_type,
         isCover: row.is_cover,
         sortOrder: row.sort_order,

@@ -52,6 +52,7 @@ const s3Schema = t.Object({
   S3_ACCESS_KEY_ID: t.String({ minLength: 1 }),
   S3_SECRET_ACCESS_KEY: t.String({ minLength: 1 }),
   S3_BUCKET: t.String({ minLength: 1 }),
+  S3_PUBLIC_URL: t.String({ minLength: 1 }),
 });
 
 const maintenanceSchema = t.Object({
@@ -114,7 +115,7 @@ const s3 = (() => {
     return Value.Parse(s3Schema, { S3_REGION: 'auto', ...process.env });
   } catch {
     throw new Error(
-      'Missing S3 config. Set S3_ENDPOINT, S3_ACCESS_KEY_ID, S3_SECRET_ACCESS_KEY, S3_BUCKET in .env'
+      'Missing S3 config. Set S3_ENDPOINT, S3_ACCESS_KEY_ID, S3_SECRET_ACCESS_KEY, S3_BUCKET, S3_PUBLIC_URL in .env'
     );
   }
 })();
