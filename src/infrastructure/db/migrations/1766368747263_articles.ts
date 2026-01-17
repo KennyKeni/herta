@@ -16,7 +16,7 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addColumn('title', 'text', (col) => col.notNull())
     .addColumn('subtitle', 'text')
     .addColumn('description', 'text')
-    .addColumn('body', 'text', (col) => col.notNull())
+    .addColumn('content', 'jsonb')
     .addColumn('owner_id', 'text', (col) => col.references('user.id').onDelete('set null'))
     .addColumn('created_at', 'timestamptz', (col) => col.defaultTo(sql`now()`).notNull())
     .addColumn('updated_at', 'timestamptz', (col) => col.defaultTo(sql`now()`).notNull())

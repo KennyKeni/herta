@@ -7,8 +7,7 @@ interface ArticleJson {
   title: string;
   subtitle: string | null;
   description: string | null;
-  author: string | null;
-  body: string;
+  content: string;
 }
 
 interface ArticleCategoryJson {
@@ -53,8 +52,8 @@ export const articlesSeeder: Seeder = {
       title: a.title,
       subtitle: a.subtitle,
       description: a.description,
-      author: a.author,
-      body: a.body,
+      owner_id: null,
+      content: a.content,
     }));
     const articleCount = await batchInsert(db, 'articles', articleRows);
     logger.table('articles', articleCount, Date.now() - start);

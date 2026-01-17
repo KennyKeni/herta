@@ -1,5 +1,11 @@
 import type { PaginatedResponse } from '@/common/pagination';
 
+export interface UserRef {
+  id: string;
+  name: string;
+  image: string | null;
+}
+
 export interface ArticleCategory {
   id: number;
   slug: string;
@@ -13,8 +19,9 @@ export interface Article {
   title: string;
   subtitle: string | null;
   description: string | null;
-  body: string | null;
+  content: unknown | null;
   ownerId: string | null;
+  author: UserRef | null;
   createdAt: Date;
   updatedAt: Date;
   categories: ArticleCategory[];
@@ -26,7 +33,8 @@ export type ArticleSearchResponse = PaginatedResponse<Article>;
 export interface IncludeOptions {
   includeCategories?: boolean;
   includeImages?: boolean;
-  includeBody?: boolean;
+  includeContent?: boolean;
+  includeAuthor?: boolean;
 }
 
 export interface ArticleFilter extends IncludeOptions {
@@ -44,7 +52,7 @@ export interface CreateArticle {
   title: string;
   subtitle?: string | null;
   description?: string | null;
-  body: string;
+  content: unknown;
   ownerId?: string | null;
   categoryIds?: number[];
 }
@@ -53,7 +61,7 @@ export interface UpdateArticle {
   title?: string;
   subtitle?: string | null;
   description?: string | null;
-  body?: string;
+  content?: unknown;
   ownerId?: string | null;
   categoryIds?: number[];
 }

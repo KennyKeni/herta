@@ -519,7 +519,9 @@ const AgentArticleFilterSchema = t.Object({
       description: 'Filter by category names (e.g., "guide", "tutorial")',
     })
   ),
-  includeBody: t.Optional(t.Boolean({ description: 'Include full article body. Can be large' })),
+  includeContent: t.Optional(
+    t.Boolean({ description: 'Include full article content as markdown. Can be large' })
+  ),
   includeCategories: t.Optional(t.Boolean({ description: 'Include category names' })),
 });
 

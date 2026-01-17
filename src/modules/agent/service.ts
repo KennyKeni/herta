@@ -1,6 +1,6 @@
 import type { AbilityFilter } from '../abilities/domain';
 import type { AbilitiesService } from '../abilities/service';
-import type { Article, ArticleFilter } from '../article/domain';
+import type { ArticleFilter } from '../article/domain';
 import type { ArticlesService } from '../article/service';
 import type { ItemFilter } from '../items/domain';
 import type { ItemsService } from '../items/service';
@@ -12,6 +12,7 @@ import type { TypesService } from '../types/service';
 import {
   mapIncludeFlags,
   toAbilityResponse,
+  toAgentArticleResponse,
   toArticleSearchResponse,
   toItemResponse,
   toMoveResponse,
@@ -21,6 +22,7 @@ import type {
   AgentAbilityQuery,
   AgentAbilityResponse,
   AgentArticleQuery,
+  AgentArticleResponse,
   AgentArticleSearchResponse,
   AgentItemQuery,
   AgentItemResponse,
@@ -70,8 +72,9 @@ export class AgentService {
     return toResponse(data, query, total);
   }
 
-  async getArticle(identifier: string): Promise<Article | null> {
-    return this.articlesService.getByIdentifier(identifier);
+  async getArticle(identifier: string): Promise<AgentArticleResponse> {
+    const article = await this.articlesService.getByIdentifier(identifier);
+    return toAgentArticleResponse(article);
   }
 
   async searchAbilities(query: AgentAbilityQuery): Promise<AgentAbilityResponse> {
@@ -134,6 +137,7 @@ export class AgentService {
       title: query.title,
       categoryIds: categoryIds.length ? categoryIds : undefined,
       includeCategories: query.includeCategories,
+      includeContent: query.includeContent,
       limit: query.limit,
       offset: query.offset,
     };

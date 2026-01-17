@@ -1,10 +1,29 @@
 import { t } from 'elysia';
 import { PaginatedResponseSchema } from '@/common/pagination';
 
+const MAX_CONTENT_SIZE = 100 * 1024; // 100KB
+
+const TiptapContentSchema = t
+  .Transform(
+    t.Object({
+      type: t.Literal('doc'),
+      content: t.Optional(t.Array(t.Unknown())),
+    })
+  )
+  .Decode((value) => {
+    const size = JSON.stringify(value).length;
+    if (size > MAX_CONTENT_SIZE) {
+      throw new Error(`Content exceeds maximum size of ${MAX_CONTENT_SIZE} bytes`);
+    }
+    return value;
+  })
+  .Encode((value) => value);
+
 export const IncludeOptionsSchema = t.Object({
   includeCategories: t.Optional(t.Boolean()),
   includeImages: t.Optional(t.Boolean()),
-  includeBody: t.Optional(t.Boolean()),
+  includeContent: t.Optional(t.Boolean()),
+  includeAuthor: t.Optional(t.Boolean()),
 });
 
 const ArticleFilterSchema = t.Object({
@@ -35,14 +54,21 @@ const ArticleImageSchema = t.Object({
   sortOrder: t.Number(),
 });
 
+const UserRefSchema = t.Object({
+  id: t.String(),
+  name: t.String(),
+  image: t.Nullable(t.String()),
+});
+
 const ArticleSchema = t.Object({
   id: t.Number(),
   slug: t.String(),
   title: t.String(),
   subtitle: t.Nullable(t.String()),
   description: t.Nullable(t.String()),
-  body: t.Nullable(t.String()),
+  content: t.Nullable(TiptapContentSchema),
   ownerId: t.Nullable(t.String()),
+  author: t.Nullable(UserRefSchema),
   createdAt: t.Date(),
   updatedAt: t.Date(),
   categories: t.Array(ArticleCategorySchema),
@@ -53,7 +79,7 @@ const CreateArticleBodySchema = t.Object({
   title: t.String({ minLength: 1 }),
   subtitle: t.Optional(t.Nullable(t.String())),
   description: t.Optional(t.Nullable(t.String())),
-  body: t.String({ minLength: 1 }),
+  content: TiptapContentSchema,
   categoryIds: t.Optional(t.Array(t.Number())),
 });
 
@@ -61,7 +87,7 @@ const UpdateArticleBodySchema = t.Object({
   title: t.Optional(t.String({ minLength: 1 })),
   subtitle: t.Optional(t.Nullable(t.String())),
   description: t.Optional(t.Nullable(t.String())),
-  body: t.Optional(t.String({ minLength: 1 })),
+  content: t.Optional(TiptapContentSchema),
   categoryIds: t.Optional(t.Array(t.Number())),
 });
 

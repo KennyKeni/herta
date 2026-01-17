@@ -12,6 +12,7 @@ import type {
   IncludeOptions,
   UpdateArticle,
   UpdatedArticle,
+  UserRef,
 } from './domain';
 
 export class ArticlesRepository {
@@ -110,24 +111,29 @@ export class ArticlesRepository {
     if (rows.length === 0) return { data: [], total: Number(countResult.count) };
 
     const articleIds = rows.map((r) => r.id);
-    const [categories, images] = await Promise.all([
+    const ownerIds = rows.map((r) => r.owner_id);
+    const [categories, images, authors] = await Promise.all([
       filters.includeCategories !== false
         ? this.fetchCategories(articleIds)
         : Promise.resolve(new Map<number, ArticleCategory[]>()),
       filters.includeImages !== false
         ? this.fetchImages(articleIds)
         : Promise.resolve(new Map<number, ArticleImage[]>()),
+      filters.includeAuthor === true
+        ? this.fetchAuthors(ownerIds)
+        : Promise.resolve(new Map<string, UserRef>()),
     ]);
 
-    const includeBody = filters.includeBody !== false;
+    const includeContent = filters.includeContent !== false;
     const data = rows.map((row) => ({
       id: row.id,
       slug: row.slug,
       title: row.title,
       subtitle: row.subtitle,
       description: row.description,
-      body: includeBody ? row.body : null,
+      content: includeContent ? row.content : null,
       ownerId: row.owner_id,
+      author: row.owner_id ? (authors.get(row.owner_id) ?? null) : null,
       createdAt: row.created_at,
       updatedAt: row.updated_at,
       categories: categories.get(row.id) ?? [],
@@ -178,13 +184,16 @@ export class ArticlesRepository {
 
     if (!row) return null;
 
-    const [categories, images] = await Promise.all([
+    const [categories, images, authors] = await Promise.all([
       options.includeCategories !== false
         ? this.fetchCategories([row.id])
         : Promise.resolve(new Map<number, ArticleCategory[]>()),
       options.includeImages !== false
         ? this.fetchImages([row.id])
         : Promise.resolve(new Map<number, ArticleImage[]>()),
+      row.owner_id
+        ? this.fetchAuthors([row.owner_id])
+        : Promise.resolve(new Map<string, UserRef>()),
     ]);
 
     return {
@@ -193,8 +202,9 @@ export class ArticlesRepository {
       title: row.title,
       subtitle: row.subtitle,
       description: row.description,
-      body: options.includeBody !== false ? row.body : null,
+      content: options.includeContent !== false ? row.content : null,
       ownerId: row.owner_id,
+      author: row.owner_id ? (authors.get(row.owner_id) ?? null) : null,
       createdAt: row.created_at,
       updatedAt: row.updated_at,
       categories: categories.get(row.id) ?? [],
@@ -255,6 +265,24 @@ export class ArticlesRepository {
     return map;
   }
 
+  private async fetchAuthors(ownerIds: (string | null)[]): Promise<Map<string, UserRef>> {
+    const validIds = ownerIds.filter((id): id is string => id != null);
+    if (!validIds.length) return new Map();
+
+    const uniqueIds = [...new Set(validIds)];
+    const rows = await this.db
+      .selectFrom('user')
+      .select(['id', 'name', 'image'])
+      .where('id', 'in', uniqueIds)
+      .execute();
+
+    const map = new Map<string, UserRef>();
+    for (const row of rows) {
+      map.set(row.id, { id: row.id, name: row.name, image: row.image });
+    }
+    return map;
+  }
+
   async createArticle(data: CreateArticle, slug: string): Promise<CreatedArticle> {
     return this.db.transaction().execute(async (trx) => {
       const result = await trx
@@ -264,7 +292,7 @@ export class ArticlesRepository {
           title: data.title,
           subtitle: data.subtitle ?? null,
           description: data.description ?? null,
-          body: data.body,
+          content: data.content,
           owner_id: data.ownerId ?? null,
         })
         .returning(['id', 'slug'])
@@ -310,7 +338,7 @@ export class ArticlesRepository {
       if (data.title !== undefined) updateValues.title = data.title;
       if (data.subtitle !== undefined) updateValues.subtitle = data.subtitle;
       if (data.description !== undefined) updateValues.description = data.description;
-      if (data.body !== undefined) updateValues.body = data.body;
+      if (data.content !== undefined) updateValues.content = data.content;
       if (data.ownerId !== undefined) updateValues.owner_id = data.ownerId;
 
       if (Object.keys(updateValues).length > 0) {

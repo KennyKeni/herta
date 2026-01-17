@@ -91,7 +91,7 @@ export interface ArticleImages {
 }
 
 export interface Articles {
-  body: string;
+  content: Json | null;
   created_at: Generated<Timestamp>;
   description: string | null;
   id: Generated<number>;

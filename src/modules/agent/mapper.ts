@@ -1,3 +1,5 @@
+import type { JSONContent } from '@tiptap/core';
+import { tiptapToMarkdown } from '@/common/utils/tiptap';
 import type { Ability } from '../abilities/domain';
 import type { Article } from '../article/domain';
 import type { Item } from '../items/domain';
@@ -9,6 +11,7 @@ import type {
   AgentAbilityResponse,
   AgentArticle,
   AgentArticleQuery,
+  AgentArticleResponse,
   AgentArticleSearchResponse,
   AgentItem,
   AgentItemQuery,
@@ -364,6 +367,22 @@ export function toItemResponse(
   };
 }
 
+export function toAgentArticleResponse(article: Article | null): AgentArticleResponse {
+  if (!article) return null;
+
+  return {
+    id: article.id,
+    slug: article.slug,
+    title: article.title,
+    subtitle: article.subtitle,
+    description: article.description,
+    body: article.content ? tiptapToMarkdown(article.content as JSONContent) : null,
+    author: article.author?.name ?? null,
+    createdAt: article.createdAt,
+    updatedAt: article.updatedAt,
+  };
+}
+
 export function toArticleSearchResponse(
   articles: Article[],
   query: AgentArticleQuery,
@@ -377,10 +396,10 @@ export function toArticleSearchResponse(
 
     result.subtitle = article.subtitle;
     result.description = article.description;
-    result.author = article.author;
+    result.author = article.author?.name ?? null;
 
-    if (query.includeBody && article.body) {
-      result.body = article.body;
+    if (query.includeContent && article.content) {
+      result.body = tiptapToMarkdown(article.content as JSONContent);
     }
 
     if (query.includeCategories && article.categories.length > 0) {
