@@ -5,14 +5,15 @@ import type { ImagesRepository } from './repository';
 export class ImagesService {
   constructor(
     private imagesRepository: ImagesRepository,
-    private s3Service: S3Service
+    private s3Service: S3Service,
+    private s3PublicUrl: string
   ) {}
 
   async requestUpload(
     contentType: string,
     keyPrefix?: string,
     uploadedBy?: string
-  ): Promise<{ imageId: string; uploadUrl: string; s3Key: string }> {
+  ): Promise<{ imageId: string; uploadUrl: string; s3Key: string; publicUrl: string }> {
     const timestamp = Date.now();
     const extension = this.getExtensionFromMimeType(contentType);
     const prefix = keyPrefix ?? 'uploads';
@@ -25,8 +26,9 @@ export class ImagesService {
     });
 
     const uploadUrl = await this.s3Service.getUploadUrl(s3Key, contentType);
+    const publicUrl = `${this.s3PublicUrl}/${created.s3Key}`;
 
-    return { imageId: created.id, uploadUrl, s3Key: created.s3Key };
+    return { imageId: created.id, uploadUrl, s3Key: created.s3Key, publicUrl };
   }
 
   async confirmUpload(imageId: string, metadata?: UpdateImageMetadata): Promise<Image | null> {

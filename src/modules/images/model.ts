@@ -29,6 +29,7 @@ const UploadUrlResponseSchema = t.Object({
   imageId: t.String(),
   uploadUrl: t.String(),
   s3Key: t.String(),
+  publicUrl: t.String(),
 });
 
 const ConfirmUploadBodySchema = t.Object({

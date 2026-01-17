@@ -376,7 +376,7 @@ export function toAgentArticleResponse(article: Article | null): AgentArticleRes
     title: article.title,
     subtitle: article.subtitle,
     description: article.description,
-    body: article.content ? tiptapToMarkdown(article.content as JSONContent) : null,
+    content: article.content ? tiptapToMarkdown(article.content as JSONContent) : null,
     author: article.author?.name ?? null,
     createdAt: article.createdAt,
     updatedAt: article.updatedAt,
@@ -399,7 +399,7 @@ export function toArticleSearchResponse(
     result.author = article.author?.name ?? null;
 
     if (query.includeContent && article.content) {
-      result.body = tiptapToMarkdown(article.content as JSONContent);
+      result.content = tiptapToMarkdown(article.content as JSONContent);
     }
 
     if (query.includeCategories && article.categories.length > 0) {

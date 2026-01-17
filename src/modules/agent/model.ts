@@ -316,7 +316,7 @@ export const AgentArticleResponseSchema = t.Nullable(
     title: t.String(),
     subtitle: t.Nullable(t.String()),
     description: t.Nullable(t.String()),
-    body: t.Nullable(t.String()),
+    content: t.Nullable(t.String()),
     author: t.Nullable(t.String()),
     createdAt: t.Date(),
     updatedAt: t.Date(),
@@ -534,7 +534,7 @@ export const AgentArticleSchema = t.Object({
   slug: t.String({ description: 'Article slug for URLs' }),
   subtitle: t.Optional(t.Nullable(t.String({ description: 'Article subtitle' }))),
   description: t.Optional(t.Nullable(t.String({ description: 'Short description/summary' }))),
-  body: t.Optional(t.String({ description: 'Full article content (markdown)' })),
+  content: t.Optional(t.String({ description: 'Full article content (markdown)' })),
   author: t.Optional(t.Nullable(t.String({ description: 'Author name' }))),
   categories: t.Optional(t.Array(t.String(), { description: 'Category names' })),
 });

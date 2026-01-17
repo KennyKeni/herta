@@ -35,7 +35,7 @@ const outboxRepository = new OutboxRepository(db);
 
 const s3Service = new S3Service(s3, config.s3.S3_BUCKET);
 const outboxService = new OutboxService(outboxRepository);
-const imagesService = new ImagesService(imagesRepository, s3Service);
+const imagesService = new ImagesService(imagesRepository, s3Service, config.s3.S3_PUBLIC_URL);
 
 const pokemonService = new PokemonService(pokemonRepository);
 const typesService = new TypesService(typesRepository);
