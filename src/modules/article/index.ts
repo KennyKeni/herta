@@ -20,11 +20,12 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
       articlesService.createArticle({ ...body, ownerId: user.id }),
     {
       auth: true,
+      permission: { article: ['create'] },
       body: ArticleModel.createBody,
       response: ArticleModel.createResponse,
       detail: {
         summary: 'Create Article',
-        description: 'Create a new article. Requires authentication.',
+        description: 'Create a new article. Requires article:create permission.',
       },
     }
   )
@@ -53,11 +54,12 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
     },
     {
       auth: true,
+      permission: { article: ['update'] },
       body: ArticleModel.updateBody,
       response: ArticleModel.updateResponse,
       detail: {
         summary: 'Update Article',
-        description: 'Update an existing article by ID or slug. Requires authentication.',
+        description: 'Update an existing article by ID or slug. Requires article:update permission.',
       },
     }
   )
@@ -70,9 +72,10 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
     },
     {
       auth: true,
+      permission: { article: ['delete'] },
       detail: {
         summary: 'Delete Article',
-        description: 'Delete an article by ID or slug. Requires authentication.',
+        description: 'Delete an article by ID or slug. Requires article:delete permission.',
       },
     }
   )
@@ -88,11 +91,12 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
     },
     {
       auth: true,
+      permission: { article: ['update'] },
       body: ArticleModel.attachImageBody,
       response: ArticleModel.successResponse,
       detail: {
         summary: 'Attach Image to Article',
-        description: 'Attach an existing image to an article. Requires authentication.',
+        description: 'Attach an existing image to an article. Requires article:update permission.',
       },
     }
   )
@@ -105,10 +109,11 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
     },
     {
       auth: true,
+      permission: { article: ['update'] },
       response: ArticleModel.successResponse,
       detail: {
         summary: 'Detach Image from Article',
-        description: 'Remove an image from an article. Requires authentication.',
+        description: 'Remove an image from an article. Requires article:update permission.',
       },
     }
   );

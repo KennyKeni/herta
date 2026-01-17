@@ -1,5 +1,6 @@
 import { Elysia } from 'elysia';
 import { type Role, roles } from './access';
+import { AuthModel } from './model';
 import { auth } from './service';
 
 // Better Auth endpoints (via auth.handler):
@@ -13,21 +14,47 @@ import { auth } from './service';
 //   POST /auth/admin/set-role      - Set user role
 //   POST /auth/admin/ban-user      - Ban user
 //   POST /auth/admin/unban-user    - Unban user
+//
+// Custom endpoints:
+//   GET  /auth/me/permissions      - Get current user's permissions
+//
+// Macros:
+//   auth: true                     - Adds user, session, hasPermission to context
+//   permission: { resource: ['action'] } - Guards route with permission check (requires auth: true)
 
 type Permission = Parameters<typeof roles.admin.authorize>[0];
 
 export const authModule = new Elysia({ name: 'auth' })
   .mount(auth.handler)
-  .get('/auth/refresh', async ({ request }) => {
-    const url = new URL(request.url);
-    url.pathname = '/auth/token';
-    return auth.handler(
-      new Request(url, {
-        method: 'GET',
-        headers: request.headers,
-      })
-    );
-  })
+  .get(
+    '/auth/me/permissions',
+    // biome-ignore lint/suspicious/noExplicitAny: Elysia macro type inference limitation (https://github.com/elysiajs/elysia/issues/1468)
+    async ({ user }: any) => {
+      const userRole = (user.role as Role) || 'user';
+
+      if (userRole === 'user') {
+        return { role: 'user', permissions: {} };
+      }
+
+      const role = roles[userRole];
+      if (!role) {
+        return { role: userRole, permissions: {} };
+      }
+
+      return {
+        role: userRole,
+        permissions: role.statements,
+      };
+    },
+    {
+      auth: true,
+      response: AuthModel.permissionsResponse,
+      detail: {
+        summary: 'Get User Permissions',
+        description: 'Get the current authenticated user\'s role and permissions.',
+      },
+    }
+  )
   .macro({
     auth: {
       async resolve({ status, request: { headers } }) {
@@ -47,5 +74,15 @@ export const authModule = new Elysia({ name: 'auth' })
           },
         };
       },
+    },
+    permission(permission: Permission) {
+      return {
+        // biome-ignore lint/suspicious/noExplicitAny: Elysia cross-macro type inference not supported (https://github.com/elysiajs/elysia/issues/1468)
+        async resolve({ status, hasPermission }: any) {
+          if (!hasPermission(permission)) {
+            return status(403, 'Forbidden: Insufficient permissions');
+          }
+        },
+      };
     },
   });
