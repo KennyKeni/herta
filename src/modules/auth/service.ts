@@ -53,8 +53,8 @@ export const auth = betterAuth({
   },
   advanced: config.auth.BETTER_AUTH_COOKIE_DOMAIN
     ? {
-        useSecureCookies: config.auth.BETTER_AUTH_SECURE_COOKIES ?? config.app.NODE_ENV === 'production',
-        disableCSRFCheck: true, // TODO: Remove after debugging - testing if CSRF is causing get-session to fail
+        useSecureCookies:
+          config.auth.BETTER_AUTH_SECURE_COOKIES ?? config.app.NODE_ENV === 'production',
         crossSubDomainCookies: {
           enabled: true,
           domain: config.auth.BETTER_AUTH_COOKIE_DOMAIN,
