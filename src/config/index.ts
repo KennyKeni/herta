@@ -62,6 +62,12 @@ const maintenanceSchema = t.Object({
   MAINTENANCE_IMAGE_CLEANUP_STALE_MINUTES: t.Numeric({ minimum: 1 }),
 });
 
+const uploadSchema = t.Object({
+  UPLOAD_WORKER_URL: t.String({ minLength: 1 }),
+  UPLOAD_JWT_SECRET: t.String({ minLength: 32 }),
+  UPLOAD_JWT_EXPIRES_IN: t.Numeric({ minimum: 60 }),
+});
+
 const postgres = Value.Parse(postgresSchema, {
   POSTGRES_DB: 'herta',
   POSTGRES_HOST: 'localhost',
@@ -128,6 +134,12 @@ const maintenance = Value.Parse(maintenanceSchema, {
   ...process.env,
 });
 
+const upload = Value.Parse(uploadSchema, {
+  UPLOAD_WORKER_URL: 'http://localhost:8787',
+  UPLOAD_JWT_EXPIRES_IN: '3600',
+  ...process.env,
+});
+
 export const config = {
   app,
   postgres,
@@ -138,4 +150,5 @@ export const config = {
   auth,
   s3,
   maintenance,
+  upload,
 } as const;

@@ -6,6 +6,7 @@ const statement = {
   move: ['create', 'update', 'delete'],
   ability: ['create', 'update', 'delete'],
   item: ['create', 'update', 'delete'],
+  image: ['upload', 'delete'],
 } as const;
 
 export const ac = createAccessControl(statement);
@@ -16,6 +17,7 @@ export const admin = ac.newRole({
   move: ['create', 'update', 'delete'],
   ability: ['create', 'update', 'delete'],
   item: ['create', 'update', 'delete'],
+  image: ['upload', 'delete'],
 });
 
 export const editor = ac.newRole({
@@ -24,6 +26,7 @@ export const editor = ac.newRole({
   move: ['create', 'update'],
   ability: ['create', 'update'],
   item: ['create', 'update'],
+  image: ['upload'],
 });
 
 export const roles = {

@@ -2,6 +2,8 @@ import type { S3Service } from '@/infrastructure/s3/service';
 import type { Image, UpdateImageMetadata } from './domain';
 import type { ImagesRepository } from './repository';
 
+const DEFAULT_MAX_SIZE = 10 * 1024 * 1024; // 10MB
+
 export class ImagesService {
   constructor(
     private imagesRepository: ImagesRepository,
@@ -11,13 +13,20 @@ export class ImagesService {
 
   async requestUpload(
     contentType: string,
+    maxSize?: number,
     keyPrefix?: string,
     uploadedBy?: string
-  ): Promise<{ imageId: string; uploadUrl: string; s3Key: string; publicUrl: string }> {
+  ): Promise<{
+    imageId: string;
+    s3Key: string;
+    publicUrl: string;
+    maxSize: number;
+  }> {
     const timestamp = Date.now();
     const extension = this.getExtensionFromMimeType(contentType);
     const prefix = keyPrefix ?? 'uploads';
     const s3Key = `${prefix}/${timestamp}${extension}`;
+    const size = maxSize ?? DEFAULT_MAX_SIZE;
 
     const created = await this.imagesRepository.create({
       s3Key,
@@ -25,10 +34,9 @@ export class ImagesService {
       uploadedBy,
     });
 
-    const uploadUrl = await this.s3Service.getUploadUrl(s3Key, contentType);
     const publicUrl = `${this.s3PublicUrl}/${created.s3Key}`;
 
-    return { imageId: created.id, uploadUrl, s3Key: created.s3Key, publicUrl };
+    return { imageId: created.id, s3Key: created.s3Key, publicUrl, maxSize: size };
   }
 
   async confirmUpload(imageId: string, metadata?: UpdateImageMetadata): Promise<Image | null> {

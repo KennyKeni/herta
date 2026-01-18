@@ -20,16 +20,31 @@ const ImageSchema = t.Object({
   createdAt: t.Date(),
 });
 
+const AllowedContentTypeSchema = t.Union(
+  [
+    t.Literal('image/jpeg'),
+    t.Literal('image/png'),
+    t.Literal('image/gif'),
+    t.Literal('image/webp'),
+    t.Literal('image/svg+xml'),
+  ],
+  { default: 'image/png' }
+);
+
+const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
+
 const UploadUrlRequestSchema = t.Object({
-  contentType: t.String({ default: 'image/png' }),
+  contentType: AllowedContentTypeSchema,
   keyPrefix: t.Optional(t.String()),
+  maxSize: t.Optional(t.Number({ minimum: 1, maximum: MAX_FILE_SIZE, default: MAX_FILE_SIZE })),
 });
 
 const UploadUrlResponseSchema = t.Object({
   imageId: t.String(),
   uploadUrl: t.String(),
-  s3Key: t.String(),
+  uploadToken: t.String(),
   publicUrl: t.String(),
+  maxSize: t.Number(),
 });
 
 const ConfirmUploadBodySchema = t.Object({

@@ -1,20 +1,54 @@
+import jwt from '@elysiajs/jwt';
 import { Elysia, NotFoundError } from 'elysia';
+import { config } from '@/config';
 import { imagesSetup } from '@/infrastructure/setup';
+import { authModule } from '@/modules/auth';
 import { ImageModel } from './model';
 
 export const images = new Elysia({ prefix: '/images', tags: ['images'] })
   .use(imagesSetup)
+  .use(authModule)
+  .use(
+    jwt({
+      name: 'uploadJwt',
+      secret: config.upload.UPLOAD_JWT_SECRET,
+      exp: `${config.upload.UPLOAD_JWT_EXPIRES_IN}s`,
+    })
+  )
   .post(
     '/upload-url',
-    async ({ body, imagesService }) => {
-      return imagesService.requestUpload(body.contentType, body.keyPrefix);
+    async ({ body, user, imagesService, uploadJwt }) => {
+      const { imageId, s3Key, publicUrl, maxSize } = await imagesService.requestUpload(
+        body.contentType,
+        body.maxSize,
+        body.keyPrefix,
+        user.id
+      );
+
+      const token = await uploadJwt.sign({
+        imageId,
+        s3Key,
+        maxSize,
+        contentType: body.contentType,
+      });
+
+      return {
+        imageId,
+        uploadUrl: `${config.upload.UPLOAD_WORKER_URL}/upload`,
+        uploadToken: token,
+        publicUrl,
+        maxSize,
+      };
     },
     {
+      auth: true,
+      permission: { image: ['upload'] },
       body: ImageModel.uploadUrlRequest,
       response: ImageModel.uploadUrlResponse,
       detail: {
         summary: 'Get upload URL',
-        description: 'Create an image record and get a presigned S3 upload URL.',
+        description:
+          'Create an image record and get an upload URL with JWT token. Requires image:upload permission.',
       },
     }
   )
@@ -72,10 +106,12 @@ export const images = new Elysia({ prefix: '/images', tags: ['images'] })
       return { success: true };
     },
     {
+      auth: true,
+      permission: { image: ['delete'] },
       response: ImageModel.successResponse,
       detail: {
         summary: 'Delete image',
-        description: 'Soft-delete an image.',
+        description: 'Soft-delete an image. Requires image:delete permission.',
       },
     }
   );
