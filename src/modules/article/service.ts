@@ -1,6 +1,8 @@
 import { SEARCH_CONFIG } from '@/common/config';
 import type { PaginatedResponse } from '@/common/pagination';
 import { generateUniqueSlug, slugFrom } from '@/common/utils/slug';
+import { CACHE_KEYS } from '@/infrastructure/cache/keys';
+import type { CacheService } from '@/infrastructure/cache/service';
 import type {
   Article,
   ArticleFilter,
@@ -19,7 +21,10 @@ function shouldUseFuzzySearch(text?: string): boolean {
 }
 
 export class ArticlesService {
-  constructor(private articlesRepository: ArticlesRepository) {}
+  constructor(
+    private articlesRepository: ArticlesRepository,
+    private cacheService: CacheService
+  ) {}
 
   async search(filter: ArticleFilter): Promise<PaginatedResponse<Article>> {
     const useFuzzy = shouldUseFuzzySearch(filter.title);
@@ -42,7 +47,9 @@ export class ArticlesService {
       this.articlesRepository.checkArticleExists(s)
     );
 
-    return this.articlesRepository.createArticle(data, slug);
+    const result = await this.articlesRepository.createArticle(data, slug);
+    await this.cacheService.deleteByPrefix(CACHE_KEYS.articles.search);
+    return result;
   }
 
   async updateArticle(identifier: string, data: UpdateArticle): Promise<UpdatedArticle | null> {
@@ -61,11 +68,21 @@ export class ArticlesService {
       }
     }
 
-    return this.articlesRepository.updateArticle(identifier, data, newSlug);
+    const result = await this.articlesRepository.updateArticle(identifier, data, newSlug);
+    if (result) {
+      await this.cacheService.deleteByPrefix(CACHE_KEYS.articles.search);
+      await this.cacheService.delete(CACHE_KEYS.articles.article(identifier));
+    }
+    return result;
   }
 
   async deleteArticle(identifier: string): Promise<boolean> {
-    return this.articlesRepository.deleteArticle(identifier);
+    const result = await this.articlesRepository.deleteArticle(identifier);
+    if (result) {
+      await this.cacheService.deleteByPrefix(CACHE_KEYS.articles.search);
+      await this.cacheService.delete(CACHE_KEYS.articles.article(identifier));
+    }
+    return result;
   }
 
   async attachImage(identifier: string, data: AttachImageToArticle): Promise<boolean> {
@@ -73,6 +90,7 @@ export class ArticlesService {
     if (!articleId) return false;
 
     await this.articlesRepository.attachImage(articleId, data);
+    await this.cacheService.delete(CACHE_KEYS.articles.article(identifier));
     return true;
   }
 
@@ -80,7 +98,11 @@ export class ArticlesService {
     const articleId = await this.resolveArticleId(identifier);
     if (!articleId) return false;
 
-    return this.articlesRepository.detachImage(articleId, imageId);
+    const result = await this.articlesRepository.detachImage(articleId, imageId);
+    if (result) {
+      await this.cacheService.delete(CACHE_KEYS.articles.article(identifier));
+    }
+    return result;
   }
 
   private async resolveArticleId(identifier: string): Promise<number | null> {

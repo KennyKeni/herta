@@ -1,10 +1,13 @@
 import { Elysia, NotFoundError } from 'elysia';
+import { cachePlugin } from '@/infrastructure/cache/plugin';
 import { pokemonSetup } from '@/infrastructure/setup';
 import { PokemonModel } from './model';
 
 export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
   .use(pokemonSetup)
+  .use(cachePlugin)
   .get('/', ({ query, pokemonService }) => pokemonService.search(query), {
+    cache: { key: 'pokemon:search' },
     query: PokemonModel.searchQuery,
     response: PokemonModel.searchResponse,
     detail: {
@@ -21,6 +24,7 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
       return result;
     },
     {
+      cache: { key: 'pokemon:form:{identifier}' },
       query: PokemonModel.getFormQuery,
       response: PokemonModel.getFormResponse,
       detail: {
@@ -37,6 +41,7 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
       return result;
     },
     {
+      cache: { key: 'pokemon:{identifier}' },
       query: PokemonModel.getOneQuery,
       response: PokemonModel.getOneResponse,
       detail: {

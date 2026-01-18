@@ -17,9 +17,11 @@ import { SpawnRepository } from '@/modules/spawns/repository';
 import { SpawnsService } from '@/modules/spawns/service';
 import { TypesRepository } from '@/modules/types/repository';
 import { TypesService } from '@/modules/types/service';
+import { CacheService } from './cache/service';
 import { db } from './db';
 import { OutboxRepository } from './outbox/repository';
 import { OutboxService } from './outbox/service';
+import { redis } from './redis';
 import { s3 } from './s3';
 import { S3Service } from './s3/service';
 
@@ -35,14 +37,15 @@ const outboxRepository = new OutboxRepository(db);
 
 const s3Service = new S3Service(s3, config.s3.S3_BUCKET);
 const outboxService = new OutboxService(outboxRepository);
+const cacheService = new CacheService(redis);
 const imagesService = new ImagesService(imagesRepository, s3Service, config.s3.S3_PUBLIC_URL);
 
-const pokemonService = new PokemonService(pokemonRepository);
+const pokemonService = new PokemonService(pokemonRepository, cacheService);
 const typesService = new TypesService(typesRepository);
 const abilitiesService = new AbilitiesService(abilitiesRepository);
 const movesService = new MovesService(movesRepository);
 const itemsService = new ItemsService(itemsRepository);
-const articlesService = new ArticlesService(articlesRepository);
+const articlesService = new ArticlesService(articlesRepository, cacheService);
 const spawnsService = new SpawnsService(spawnRepository);
 const agentService = new AgentService(
   pokemonService,
@@ -105,4 +108,9 @@ export const imagesSetup = new Elysia({ name: 'setup:images' }).decorate(
   imagesService
 );
 
-export { outboxService, imagesService };
+export const cacheSetup = new Elysia({ name: 'setup:cache' }).decorate(
+  'cacheService',
+  cacheService
+);
+
+export { outboxService, imagesService, cacheService };

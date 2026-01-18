@@ -1,4 +1,5 @@
 import { Elysia, NotFoundError } from 'elysia';
+import { cachePlugin } from '@/infrastructure/cache/plugin';
 import { articlesSetup } from '@/infrastructure/setup';
 import { authModule } from '@/modules/auth';
 import { ArticleModel } from './model';
@@ -6,7 +7,9 @@ import { ArticleModel } from './model';
 export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
   .use(articlesSetup)
   .use(authModule)
+  .use(cachePlugin)
   .get('/', ({ query, articlesService }) => articlesService.search(query), {
+    cache: { key: 'articles:search' },
     query: ArticleModel.searchQuery,
     response: ArticleModel.searchResponse,
     detail: {
@@ -37,6 +40,7 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
       return result;
     },
     {
+      cache: { key: 'articles:{identifier}' },
       query: ArticleModel.getOneQuery,
       response: ArticleModel.getOneResponse,
       detail: {
