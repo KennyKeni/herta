@@ -17,6 +17,14 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
       description: 'List articles with optional filtering by IDs, slugs, categories, and owner.',
     },
   })
+  .get('/categories', ({ articlesService }) => articlesService.getAllCategories(), {
+    cache: { key: 'articles:categories' },
+    response: ArticleModel.categoriesResponse,
+    detail: {
+      summary: 'List Categories',
+      description: 'List all article categories.',
+    },
+  })
   .post(
     '/',
     ({ body, user, articlesService }) =>

@@ -5,6 +5,7 @@ import { CACHE_KEYS } from '@/infrastructure/cache/keys';
 import type { CacheService } from '@/infrastructure/cache/service';
 import type {
   Article,
+  ArticleCategory,
   ArticleFilter,
   AttachImageToArticle,
   CreateArticle,
@@ -113,5 +114,9 @@ export class ArticlesService {
 
   async resolveCategoriesByNames(names: string[]): Promise<number[]> {
     return this.articlesRepository.fuzzyResolveCategories(names);
+  }
+
+  async getAllCategories(): Promise<ArticleCategory[]> {
+    return this.articlesRepository.getAllCategories();
   }
 }

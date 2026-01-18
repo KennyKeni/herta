@@ -1,13 +1,6 @@
 import { t } from 'elysia';
 import { PaginatedResponseSchema } from '@/common/pagination';
 
-const RangeSchema = t.Optional(
-  t.Object({
-    gte: t.Optional(t.Number()),
-    lte: t.Optional(t.Number()),
-  })
-);
-
 export const IncludeOptionsSchema = t.Object({
   includeTypes: t.Optional(t.Boolean()),
   includeAbilities: t.Optional(t.Boolean()),
@@ -58,22 +51,36 @@ const PokemonFilterSchema = t.Object({
   generation: t.Optional(t.Number()),
   generations: t.Optional(t.Array(t.Number())),
 
-  hp: RangeSchema,
-  attack: RangeSchema,
-  defense: RangeSchema,
-  specialAttack: RangeSchema,
-  specialDefense: RangeSchema,
-  speed: RangeSchema,
-  totalStats: RangeSchema,
+  hpMin: t.Optional(t.Number()),
+  hpMax: t.Optional(t.Number()),
+  attackMin: t.Optional(t.Number()),
+  attackMax: t.Optional(t.Number()),
+  defenseMin: t.Optional(t.Number()),
+  defenseMax: t.Optional(t.Number()),
+  specialAttackMin: t.Optional(t.Number()),
+  specialAttackMax: t.Optional(t.Number()),
+  specialDefenseMin: t.Optional(t.Number()),
+  specialDefenseMax: t.Optional(t.Number()),
+  speedMin: t.Optional(t.Number()),
+  speedMax: t.Optional(t.Number()),
+  totalStatsMin: t.Optional(t.Number()),
+  totalStatsMax: t.Optional(t.Number()),
 
-  height: RangeSchema,
-  weight: RangeSchema,
+  heightMin: t.Optional(t.Number()),
+  heightMax: t.Optional(t.Number()),
+  weightMin: t.Optional(t.Number()),
+  weightMax: t.Optional(t.Number()),
 
-  catchRate: RangeSchema,
-  baseFriendship: RangeSchema,
-  eggCycles: RangeSchema,
-  maleRatio: RangeSchema,
-  baseExperienceYield: RangeSchema,
+  catchRateMin: t.Optional(t.Number()),
+  catchRateMax: t.Optional(t.Number()),
+  baseFriendshipMin: t.Optional(t.Number()),
+  baseFriendshipMax: t.Optional(t.Number()),
+  eggCyclesMin: t.Optional(t.Number()),
+  eggCyclesMax: t.Optional(t.Number()),
+  maleRatioMin: t.Optional(t.Number()),
+  maleRatioMax: t.Optional(t.Number()),
+  baseExperienceYieldMin: t.Optional(t.Number()),
+  baseExperienceYieldMax: t.Optional(t.Number()),
 
   isDefaultForm: t.Optional(t.Boolean()),
   hasDrops: t.Optional(t.Boolean()),

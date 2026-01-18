@@ -2,18 +2,19 @@ import { type Kysely, sql } from 'kysely';
 import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } from '@/common/fuzzy';
 import { config } from '@/config';
 import type { DB } from '@/infrastructure/db/types';
-import type {
-  Article,
-  ArticleCategory,
-  ArticleFilter,
-  ArticleImage,
-  AttachImageToArticle,
-  CreateArticle,
-  CreatedArticle,
-  IncludeOptions,
-  UpdateArticle,
-  UpdatedArticle,
-  UserRef,
+import {
+  type Article,
+  type ArticleCategory,
+  type ArticleFilter,
+  type ArticleImage,
+  type AttachImageToArticle,
+  type CreateArticle,
+  type CreatedArticle,
+  type IncludeOptions,
+  isTiptapContent,
+  type UpdateArticle,
+  type UpdatedArticle,
+  type UserRef,
 } from './domain';
 
 export class ArticlesRepository {
@@ -132,7 +133,7 @@ export class ArticlesRepository {
       title: row.title,
       subtitle: row.subtitle,
       description: row.description,
-      content: includeContent ? row.content : null,
+      content: includeContent && isTiptapContent(row.content) ? row.content : null,
       ownerId: row.owner_id,
       author: row.owner_id ? (authors.get(row.owner_id) ?? null) : null,
       createdAt: row.created_at,
@@ -203,7 +204,8 @@ export class ArticlesRepository {
       title: row.title,
       subtitle: row.subtitle,
       description: row.description,
-      content: options.includeContent !== false ? row.content : null,
+      content:
+        options.includeContent !== false && isTiptapContent(row.content) ? row.content : null,
       ownerId: row.owner_id,
       author: row.owner_id ? (authors.get(row.owner_id) ?? null) : null,
       createdAt: row.created_at,
@@ -420,6 +422,21 @@ export class ArticlesRepository {
       .where('slug', '=', slug)
       .executeTakeFirst();
     return result?.id ?? null;
+  }
+
+  async getAllCategories(): Promise<ArticleCategory[]> {
+    const rows = await this.db
+      .selectFrom('article_categories')
+      .select(['id', 'slug', 'name', 'description'])
+      .orderBy('name')
+      .execute();
+
+    return rows.map((row) => ({
+      id: row.id,
+      slug: row.slug,
+      name: row.name,
+      description: row.description,
+    }));
   }
 
   async attachImage(articleId: number, data: AttachImageToArticle): Promise<void> {

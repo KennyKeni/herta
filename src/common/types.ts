@@ -3,3 +3,10 @@ export enum FilterLogic {
   AND,
   MIN,
 }
+
+export type {
+  JsonArray,
+  JsonObject,
+  JsonPrimitive,
+  JsonValue,
+} from '@/infrastructure/db/types';

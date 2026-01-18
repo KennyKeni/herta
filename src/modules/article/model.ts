@@ -33,7 +33,7 @@ const ArticleFilterSchema = t.Object({
   categoryIds: t.Optional(t.Array(t.Number())),
   categorySlugs: t.Optional(t.Array(t.String())),
   ownerIds: t.Optional(t.Array(t.String())),
-  limit: t.Optional(t.Number({ minimum: 1, maximum: 100, default: 20 })),
+  limit: t.Optional(t.Number({ minimum: 1, default: 20 })),
   offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
 });
 
@@ -110,6 +110,8 @@ const SuccessResponseSchema = t.Object({
   success: t.Boolean(),
 });
 
+const CategoriesResponseSchema = t.Array(ArticleCategorySchema);
+
 export const ArticleModel = {
   searchQuery: ArticleSearchQuerySchema,
   searchResponse: PaginatedResponseSchema(ArticleSchema),
@@ -121,4 +123,5 @@ export const ArticleModel = {
   updateResponse: UpdatedArticleSchema,
   attachImageBody: AttachImageBodySchema,
   successResponse: SuccessResponseSchema,
+  categoriesResponse: CategoriesResponseSchema,
 };

@@ -467,6 +467,59 @@ export class PokemonRepository {
       );
     }
 
+    if (filter.generation != null) {
+      query = query.where('s.generation', '=', filter.generation);
+    }
+    if (filter.generations?.length) {
+      query = query.where('s.generation', 'in', filter.generations);
+    }
+
+    if (filter.hpMin != null) {
+      query = query.where('f.base_hp', '>=', filter.hpMin);
+    }
+    if (filter.hpMax != null) {
+      query = query.where('f.base_hp', '<=', filter.hpMax);
+    }
+    if (filter.attackMin != null) {
+      query = query.where('f.base_attack', '>=', filter.attackMin);
+    }
+    if (filter.attackMax != null) {
+      query = query.where('f.base_attack', '<=', filter.attackMax);
+    }
+    if (filter.defenseMin != null) {
+      query = query.where('f.base_defence', '>=', filter.defenseMin);
+    }
+    if (filter.defenseMax != null) {
+      query = query.where('f.base_defence', '<=', filter.defenseMax);
+    }
+    if (filter.specialAttackMin != null) {
+      query = query.where('f.base_special_attack', '>=', filter.specialAttackMin);
+    }
+    if (filter.specialAttackMax != null) {
+      query = query.where('f.base_special_attack', '<=', filter.specialAttackMax);
+    }
+    if (filter.specialDefenseMin != null) {
+      query = query.where('f.base_special_defence', '>=', filter.specialDefenseMin);
+    }
+    if (filter.specialDefenseMax != null) {
+      query = query.where('f.base_special_defence', '<=', filter.specialDefenseMax);
+    }
+    if (filter.speedMin != null) {
+      query = query.where('f.base_speed', '>=', filter.speedMin);
+    }
+    if (filter.speedMax != null) {
+      query = query.where('f.base_speed', '<=', filter.speedMax);
+    }
+    if (filter.totalStatsMin != null || filter.totalStatsMax != null) {
+      const totalExpr = sql<number>`(f.base_hp + f.base_attack + f.base_defence + f.base_special_attack + f.base_special_defence + f.base_speed)`;
+      if (filter.totalStatsMin != null) {
+        query = query.where(totalExpr, '>=', filter.totalStatsMin);
+      }
+      if (filter.totalStatsMax != null) {
+        query = query.where(totalExpr, '<=', filter.totalStatsMax);
+      }
+    }
+
     return query;
   }
 

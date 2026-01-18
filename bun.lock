@@ -19,7 +19,7 @@
         "elysia": "latest",
         "ioredis": "^5.8.2",
         "kafkajs": "^2.2.4",
-        "kysely": "^0.28.9",
+        "kysely": "^0.28.10",
         "kysely-ctl": "^0.20.0",
         "kysely-postgres-js": "^3.0.0",
       },
@@ -531,7 +531,7 @@
 
     "kafkajs": ["kafkajs@2.2.4", "", {}, "sha512-j/YeapB1vfPT2iOIUn/vxdyKEuhuY2PxMBvf5JWux6iSaukAccrMtXEY/Lb7OvavDhOWME589bpLrEdnVHjfjA=="],
 
-    "kysely": ["kysely@0.28.9", "", {}, "sha512-3BeXMoiOhpOwu62CiVpO6lxfq4eS6KMYfQdMsN/2kUCRNuF2YiEr7u0HLHaQU+O4Xu8YXE3bHVkwaQ85i72EuA=="],
+    "kysely": ["kysely@0.28.10", "", {}, "sha512-ksNxfzIW77OcZ+QWSAPC7yDqUSaIVwkTWnTPNiIy//vifNbwsSgQ57OkkncHxxpcBHM3LRfLAZVEh7kjq5twVA=="],
 
     "kysely-codegen": ["kysely-codegen@0.19.0", "", { "dependencies": { "chalk": "4.1.2", "cosmiconfig": "^9.0.0", "dotenv": "^17.2.1", "dotenv-expand": "^12.0.2", "git-diff": "^2.0.6", "micromatch": "^4.0.8", "minimist": "^1.2.8", "pluralize": "^8.0.0", "zod": "^4.1.5" }, "peerDependencies": { "@libsql/kysely-libsql": ">=0.3.0 <0.5.0", "@tediousjs/connection-string": ">=0.5.0 <0.6.0", "better-sqlite3": ">=7.6.2 <13.0.0", "kysely": ">=0.27.0 <1.0.0", "kysely-bun-sqlite": ">=0.3.2 <1.0.0", "kysely-bun-worker": ">=1.2.0 <2.0.0", "mysql2": ">=2.3.3 <4.0.0", "pg": ">=8.8.0 <9.0.0", "tarn": ">=3.0.0 <4.0.0", "tedious": ">=18.0.0 <20.0.0" }, "optionalPeers": ["@libsql/kysely-libsql", "@tediousjs/connection-string", "better-sqlite3", "kysely-bun-sqlite", "kysely-bun-worker", "mysql2", "pg", "tarn", "tedious"], "bin": { "kysely-codegen": "dist/cli/bin.js" } }, "sha512-ZpdQQnpfY0kh45CA6yPA9vdFsBE+b06Fx7QVcbL5rX//yjbA0yYGZGhnH7GTd4P4BY/HIv5uAfuOD83JVZf95w=="],
 
@@ -746,6 +746,8 @@
     "@aws-crypto/util/@smithy/util-utf8": ["@smithy/util-utf8@2.3.0", "", { "dependencies": { "@smithy/util-buffer-from": "^2.2.0", "tslib": "^2.6.2" } }, "sha512-R8Rdn8Hy72KKcebgLiv8jQcQkXoLMOGGv5uI1/k0l+snqkOzQ1R0ChUBCxWMlBsFMekWjq0wRudIweFs7sKT5A=="],
 
     "@scalar/themes/@scalar/types": ["@scalar/types@0.1.7", "", { "dependencies": { "@scalar/openapi-types": "0.2.0", "@unhead/schema": "^1.11.11", "nanoid": "^5.1.5", "type-fest": "^4.20.0", "zod": "^3.23.8" } }, "sha512-irIDYzTQG2KLvFbuTI8k2Pz/R4JR+zUUSykVTbEMatkzMmVFnn1VzNSMlODbadycwZunbnL2tA27AXed9URVjw=="],
+
+    "better-auth/kysely": ["kysely@0.28.9", "", {}, "sha512-3BeXMoiOhpOwu62CiVpO6lxfq4eS6KMYfQdMsN/2kUCRNuF2YiEr7u0HLHaQU+O4Xu8YXE3bHVkwaQ85i72EuA=="],
 
     "c12/pathe": ["pathe@2.0.3", "", {}, "sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w=="],
 

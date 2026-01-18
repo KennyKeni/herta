@@ -61,7 +61,7 @@ const SpawnSchema = t.Object({
 const SpawnSearchQuerySchema = t.Object({
   formIds: t.Optional(t.Array(t.Number())),
   bucketIds: t.Optional(t.Array(t.Number())),
-  limit: t.Optional(t.Number({ minimum: 1, maximum: 100, default: 20 })),
+  limit: t.Optional(t.Number({ minimum: 1, default: 20 })),
   offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
 });
 

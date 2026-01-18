@@ -11,7 +11,7 @@ const AbilityFilterSchema = t.Object({
   abilitySlugs: t.Optional(t.Array(t.String())),
   flagIds: t.Optional(t.Array(t.Number())),
   flagSlugs: t.Optional(t.Array(t.String())),
-  limit: t.Optional(t.Number({ minimum: 1, maximum: 100, default: 20 })),
+  limit: t.Optional(t.Number({ minimum: 1, default: 20 })),
   offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
 });
 

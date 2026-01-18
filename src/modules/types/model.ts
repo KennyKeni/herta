@@ -10,7 +10,7 @@ const TypeFilterSchema = t.Object({
   name: t.Optional(t.String()),
   typeIds: t.Optional(t.Array(t.Number())),
   typeSlugs: t.Optional(t.Array(t.String())),
-  limit: t.Optional(t.Number({ minimum: 1, maximum: 100, default: 20 })),
+  limit: t.Optional(t.Number({ minimum: 1, default: 20 })),
   offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
 });
 

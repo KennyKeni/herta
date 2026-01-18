@@ -195,11 +195,6 @@ export interface DropRange {
   quantityMax: number;
 }
 
-export interface Range {
-  gte?: number;
-  lte?: number;
-}
-
 export interface CreateSpeciesHitbox {
   width: number;
   height: number;
@@ -430,22 +425,36 @@ export interface PokemonFilter extends IncludeOptions {
   generation?: number;
   generations?: number[];
 
-  hp?: Range;
-  attack?: Range;
-  defense?: Range;
-  specialAttack?: Range;
-  specialDefense?: Range;
-  speed?: Range;
-  totalStats?: Range;
+  hpMin?: number;
+  hpMax?: number;
+  attackMin?: number;
+  attackMax?: number;
+  defenseMin?: number;
+  defenseMax?: number;
+  specialAttackMin?: number;
+  specialAttackMax?: number;
+  specialDefenseMin?: number;
+  specialDefenseMax?: number;
+  speedMin?: number;
+  speedMax?: number;
+  totalStatsMin?: number;
+  totalStatsMax?: number;
 
-  height?: Range;
-  weight?: Range;
+  heightMin?: number;
+  heightMax?: number;
+  weightMin?: number;
+  weightMax?: number;
 
-  catchRate?: Range;
-  baseFriendship?: Range;
-  eggCycles?: Range;
-  maleRatio?: Range;
-  baseExperienceYield?: Range;
+  catchRateMin?: number;
+  catchRateMax?: number;
+  baseFriendshipMin?: number;
+  baseFriendshipMax?: number;
+  eggCyclesMin?: number;
+  eggCyclesMax?: number;
+  maleRatioMin?: number;
+  maleRatioMax?: number;
+  baseExperienceYieldMin?: number;
+  baseExperienceYieldMax?: number;
 
   isDefaultForm?: boolean;
   hasDrops?: boolean;

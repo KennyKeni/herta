@@ -13,7 +13,7 @@ const ItemFilterSchema = t.Object({
   itemIds: t.Optional(t.Array(t.Number())),
   tagIds: t.Optional(t.Array(t.Number())),
   tagSlugs: t.Optional(t.Array(t.String())),
-  limit: t.Optional(t.Number({ minimum: 1, maximum: 100, default: 20 })),
+  limit: t.Optional(t.Number({ minimum: 1, default: 20 })),
   offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
 });
 
