@@ -13,13 +13,14 @@ const argon2Options = {
 };
 
 const secondaryStorage = {
-  get: (key: string) => redis.get(key),
+  get: async (key: string) => {
+    return await redis.get(key);
+  },
   set: async (key: string, value: string, ttl?: number) => {
     if (ttl) {
       await redis.set(key, value, 'EX', ttl);
       return;
     }
-
     await redis.set(key, value);
   },
   delete: async (key: string) => {
