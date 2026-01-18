@@ -50,6 +50,14 @@ export const auth = betterAuth({
     updateAge: config.auth.AUTH_SESSION_UPDATE_AGE,
     storeSessionInDatabase: false,
   },
+  advanced: config.auth.BETTER_AUTH_COOKIE_DOMAIN
+    ? {
+        crossSubDomainCookies: {
+          enabled: true,
+          domain: config.auth.BETTER_AUTH_COOKIE_DOMAIN,
+        },
+      }
+    : undefined,
   emailAndPassword: {
     enabled: true,
     password: {
