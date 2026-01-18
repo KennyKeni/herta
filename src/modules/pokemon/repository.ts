@@ -520,6 +520,50 @@ export class PokemonRepository {
       }
     }
 
+    if (filter.heightMin != null) {
+      query = query.where('f.height', '>=', filter.heightMin);
+    }
+    if (filter.heightMax != null) {
+      query = query.where('f.height', '<=', filter.heightMax);
+    }
+    if (filter.weightMin != null) {
+      query = query.where('f.weight', '>=', filter.weightMin);
+    }
+    if (filter.weightMax != null) {
+      query = query.where('f.weight', '<=', filter.weightMax);
+    }
+
+    if (filter.catchRateMin != null) {
+      query = query.where('s.catch_rate', '>=', filter.catchRateMin);
+    }
+    if (filter.catchRateMax != null) {
+      query = query.where('s.catch_rate', '<=', filter.catchRateMax);
+    }
+    if (filter.baseFriendshipMin != null) {
+      query = query.where('s.base_friendship', '>=', filter.baseFriendshipMin);
+    }
+    if (filter.baseFriendshipMax != null) {
+      query = query.where('s.base_friendship', '<=', filter.baseFriendshipMax);
+    }
+    if (filter.eggCyclesMin != null) {
+      query = query.where('s.egg_cycles', '>=', filter.eggCyclesMin);
+    }
+    if (filter.eggCyclesMax != null) {
+      query = query.where('s.egg_cycles', '<=', filter.eggCyclesMax);
+    }
+    if (filter.maleRatioMin != null) {
+      query = query.where('s.male_ratio', '>=', filter.maleRatioMin);
+    }
+    if (filter.maleRatioMax != null) {
+      query = query.where('s.male_ratio', '<=', filter.maleRatioMax);
+    }
+    if (filter.baseExperienceYieldMin != null) {
+      query = query.where('f.base_experience_yield', '>=', filter.baseExperienceYieldMin);
+    }
+    if (filter.baseExperienceYieldMax != null) {
+      query = query.where('f.base_experience_yield', '<=', filter.baseExperienceYieldMax);
+    }
+
     return query;
   }
 
