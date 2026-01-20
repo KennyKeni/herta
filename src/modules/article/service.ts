@@ -1,6 +1,7 @@
 import { SEARCH_CONFIG } from '@/common/config';
 import type { PaginatedResponse } from '@/common/pagination';
 import { generateUniqueSlug, slugFrom } from '@/common/utils/slug';
+import { tiptapToHtml } from '@/common/utils/tiptap';
 import { CACHE_KEYS } from '@/infrastructure/cache/keys';
 import type { CacheService } from '@/infrastructure/cache/service';
 import type {
@@ -48,7 +49,8 @@ export class ArticlesService {
       this.articlesRepository.checkArticleExists(s)
     );
 
-    const result = await this.articlesRepository.createArticle(data, slug);
+    const contentHtml = data.content ? tiptapToHtml(data.content) : null;
+    const result = await this.articlesRepository.createArticle(data, slug, contentHtml);
     await this.cacheService.deleteByPrefix(CACHE_KEYS.articles.search);
     return result;
   }
@@ -69,7 +71,13 @@ export class ArticlesService {
       }
     }
 
-    const result = await this.articlesRepository.updateArticle(identifier, data, newSlug);
+    const contentHtml = data.content ? tiptapToHtml(data.content) : undefined;
+    const result = await this.articlesRepository.updateArticle(
+      identifier,
+      data,
+      newSlug,
+      contentHtml
+    );
     if (result) {
       await this.cacheService.deleteByPrefix(CACHE_KEYS.articles.search);
       await this.cacheService.delete(CACHE_KEYS.articles.article(identifier));

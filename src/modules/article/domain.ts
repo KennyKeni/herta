@@ -1,18 +1,14 @@
+import type { JSONContent } from '@tiptap/core';
 import type { PaginatedResponse } from '@/common/pagination';
-import type { JsonObject, JsonValue } from '@/common/types';
 
-export interface TiptapContent extends JsonObject {
+export interface DocContent extends JSONContent {
   type: 'doc';
-  content?: JsonValue[];
 }
 
-export function isTiptapContent(value: unknown): value is TiptapContent {
-  return (
-    typeof value === 'object' &&
-    value !== null &&
-    'type' in value &&
-    (value as { type: unknown }).type === 'doc'
-  );
+export function isDocContent(value: unknown): value is DocContent {
+  if (typeof value !== 'object' || value === null) return false;
+  const obj = value as Record<string, unknown>;
+  return obj.type === 'doc';
 }
 
 export interface UserRef {
@@ -34,7 +30,8 @@ export interface Article {
   title: string;
   subtitle: string | null;
   description: string | null;
-  content: TiptapContent | null;
+  content: DocContent | null;
+  contentHtml: string | null;
   ownerId: string | null;
   author: UserRef | null;
   createdAt: Date;
@@ -67,7 +64,7 @@ export interface CreateArticle {
   title: string;
   subtitle?: string | null;
   description?: string | null;
-  content: TiptapContent;
+  content: DocContent;
   ownerId?: string | null;
   categoryIds?: number[];
 }
@@ -76,7 +73,7 @@ export interface UpdateArticle {
   title?: string;
   subtitle?: string | null;
   description?: string | null;
-  content?: TiptapContent;
+  content?: DocContent;
   ownerId?: string | null;
   categoryIds?: number[];
 }

@@ -1,4 +1,3 @@
-import type { JSONContent } from '@tiptap/core';
 import { tiptapToMarkdown } from '@/common/utils/tiptap';
 import type { Ability } from '../abilities/domain';
 import type { Article } from '../article/domain';
@@ -376,7 +375,7 @@ export function toAgentArticleResponse(article: Article | null): AgentArticleRes
     title: article.title,
     subtitle: article.subtitle,
     description: article.description,
-    content: article.content ? tiptapToMarkdown(article.content as JSONContent) : null,
+    content: article.content ? tiptapToMarkdown(article.content) : null,
     author: article.author?.name ?? null,
     createdAt: article.createdAt,
     updatedAt: article.updatedAt,
@@ -399,7 +398,7 @@ export function toArticleSearchResponse(
     result.author = article.author?.name ?? null;
 
     if (query.includeContent && article.content) {
-      result.content = tiptapToMarkdown(article.content as JSONContent);
+      result.content = tiptapToMarkdown(article.content);
     }
 
     if (query.includeCategories && article.categories.length > 0) {

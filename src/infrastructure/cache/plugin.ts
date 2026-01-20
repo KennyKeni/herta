@@ -37,10 +37,12 @@ export const cachePlugin = new Elysia({ name: 'plugin:cache' }).macro({
 
       const cached = await cacheService.get(key);
       if (cached !== null) {
+        console.log(`[cache] HIT ${key}`);
         set.headers['X-Cache'] = 'HIT';
         return cached;
       }
 
+      console.log(`[cache] MISS ${key}`);
       set.headers['X-Cache'] = 'MISS';
       set.headers['X-Cache-Key'] = key;
     },

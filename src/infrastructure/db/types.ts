@@ -92,6 +92,7 @@ export interface ArticleImages {
 
 export interface Articles {
   content: Json | null;
+  content_html: string | null;
   created_at: Generated<Timestamp>;
   description: string | null;
   id: Generated<number>;

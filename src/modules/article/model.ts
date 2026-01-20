@@ -3,13 +3,13 @@ import { PaginatedResponseSchema } from '@/common/pagination';
 
 const MAX_CONTENT_SIZE = 100 * 1024; // 100KB
 
+const DocContentSchema = t.Object({
+  type: t.Literal('doc'),
+  content: t.Optional(t.Array(t.Unknown())),
+});
+
 const TiptapContentSchema = t
-  .Transform(
-    t.Object({
-      type: t.Literal('doc'),
-      content: t.Optional(t.Array(t.Unknown())),
-    })
-  )
+  .Transform(DocContentSchema)
   .Decode((value) => {
     const size = JSON.stringify(value).length;
     if (size > MAX_CONTENT_SIZE) {
@@ -66,7 +66,8 @@ const ArticleSchema = t.Object({
   title: t.String(),
   subtitle: t.Nullable(t.String()),
   description: t.Nullable(t.String()),
-  content: t.Nullable(TiptapContentSchema),
+  content: t.Nullable(DocContentSchema),
+  contentHtml: t.Nullable(t.String()),
   ownerId: t.Nullable(t.String()),
   author: t.Nullable(UserRefSchema),
   createdAt: t.Date(),

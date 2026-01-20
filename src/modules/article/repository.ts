@@ -11,7 +11,7 @@ import {
   type CreateArticle,
   type CreatedArticle,
   type IncludeOptions,
-  isTiptapContent,
+  isDocContent,
   type UpdateArticle,
   type UpdatedArticle,
   type UserRef,
@@ -133,7 +133,8 @@ export class ArticlesRepository {
       title: row.title,
       subtitle: row.subtitle,
       description: row.description,
-      content: includeContent && isTiptapContent(row.content) ? row.content : null,
+      content: includeContent && isDocContent(row.content) ? row.content : null,
+      contentHtml: includeContent ? row.content_html : null,
       ownerId: row.owner_id,
       author: row.owner_id ? (authors.get(row.owner_id) ?? null) : null,
       createdAt: row.created_at,
@@ -198,14 +199,15 @@ export class ArticlesRepository {
         : Promise.resolve(new Map<string, UserRef>()),
     ]);
 
+    const includeContent = options.includeContent !== false;
     return {
       id: row.id,
       slug: row.slug,
       title: row.title,
       subtitle: row.subtitle,
       description: row.description,
-      content:
-        options.includeContent !== false && isTiptapContent(row.content) ? row.content : null,
+      content: includeContent && isDocContent(row.content) ? row.content : null,
+      contentHtml: includeContent ? row.content_html : null,
       ownerId: row.owner_id,
       author: row.owner_id ? (authors.get(row.owner_id) ?? null) : null,
       createdAt: row.created_at,
@@ -286,7 +288,11 @@ export class ArticlesRepository {
     return map;
   }
 
-  async createArticle(data: CreateArticle, slug: string): Promise<CreatedArticle> {
+  async createArticle(
+    data: CreateArticle,
+    slug: string,
+    contentHtml: string | null
+  ): Promise<CreatedArticle> {
     return this.db.transaction().execute(async (trx) => {
       const result = await trx
         .insertInto('articles')
@@ -296,6 +302,7 @@ export class ArticlesRepository {
           subtitle: data.subtitle ?? null,
           description: data.description ?? null,
           content: data.content,
+          content_html: contentHtml,
           owner_id: data.ownerId ?? null,
         })
         .returning(['id', 'slug'])
@@ -320,7 +327,8 @@ export class ArticlesRepository {
   async updateArticle(
     identifier: string,
     data: UpdateArticle,
-    newSlug?: string
+    newSlug?: string,
+    contentHtml?: string | null
   ): Promise<UpdatedArticle | null> {
     const isId = /^\d+$/.test(identifier);
 
@@ -342,6 +350,7 @@ export class ArticlesRepository {
       if (data.subtitle !== undefined) updateValues.subtitle = data.subtitle;
       if (data.description !== undefined) updateValues.description = data.description;
       if (data.content !== undefined) updateValues.content = data.content;
+      if (contentHtml !== undefined) updateValues.content_html = contentHtml;
       if (data.ownerId !== undefined) updateValues.owner_id = data.ownerId;
 
       if (Object.keys(updateValues).length > 0) {

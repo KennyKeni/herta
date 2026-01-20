@@ -1,3 +1,4 @@
+import { tiptapToHtml } from '@/common/utils/tiptap';
 import type { Seeder } from '../utils';
 import { batchInsert, loadJson } from '../utils';
 
@@ -7,7 +8,7 @@ interface ArticleJson {
   title: string;
   subtitle: string | null;
   description: string | null;
-  content: string;
+  content: object | null;
 }
 
 interface ArticleCategoryJson {
@@ -54,6 +55,7 @@ export const articlesSeeder: Seeder = {
       description: a.description,
       owner_id: null,
       content: a.content,
+      content_html: a.content ? tiptapToHtml(a.content) : null,
     }));
     const articleCount = await batchInsert(db, 'articles', articleRows);
     logger.table('articles', articleCount, Date.now() - start);
