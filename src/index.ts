@@ -64,7 +64,7 @@ const app = new Elysia()
     if (status < 200 || status >= 300) return;
 
     set.headers['Cache-Control'] =
-      `public, max-age=${config.cache.CACHE_MAX_AGE}, stale-while-revalidate=${config.cache.CACHE_STALE_WHILE_REVALIDATE}`;
+      `public, s-maxage=${config.cache.CACHE_MAX_AGE}, max-age=0, stale-while-revalidate=${config.cache.CACHE_STALE_WHILE_REVALIDATE}`;
   })
   .onAfterResponse(({ request, set }) => {
     console.log(`[res] ${request.method} ${request.url} ${set.status ?? 200}`);
