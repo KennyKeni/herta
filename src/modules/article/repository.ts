@@ -449,15 +449,32 @@ export class ArticlesRepository {
   }
 
   async attachImage(articleId: number, data: AttachImageToArticle): Promise<void> {
-    await this.db
-      .insertInto('article_images')
-      .values({
-        article_id: articleId,
-        image_id: data.imageId,
-        is_cover: data.isCover ?? false,
-        sort_order: data.sortOrder ?? 0,
-      })
-      .execute();
+    await this.db.transaction().execute(async (trx) => {
+      if (data.isCover) {
+        await trx
+          .updateTable('article_images')
+          .set({ is_cover: false })
+          .where('article_id', '=', articleId)
+          .where('is_cover', '=', true)
+          .execute();
+      }
+
+      await trx
+        .insertInto('article_images')
+        .values({
+          article_id: articleId,
+          image_id: data.imageId,
+          is_cover: data.isCover ?? false,
+          sort_order: data.sortOrder ?? 0,
+        })
+        .onConflict((oc) =>
+          oc.columns(['article_id', 'image_id']).doUpdateSet({
+            is_cover: data.isCover ?? false,
+            sort_order: data.sortOrder ?? 0,
+          })
+        )
+        .execute();
+    });
   }
 
   async detachImage(articleId: number, imageId: string): Promise<boolean> {
