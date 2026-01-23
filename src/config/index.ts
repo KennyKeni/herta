@@ -48,6 +48,11 @@ const authSchema = t.Object({
   AUTH_JWT_EXPIRES_IN: t.String({ minLength: 1 }),
 });
 
+const emailSchema = t.Object({
+  RESEND_API_KEY: t.String({ minLength: 1 }),
+  EMAIL_FROM: t.String({ minLength: 1 }),
+});
+
 const s3Schema = t.Object({
   S3_ENDPOINT: t.String({ minLength: 1 }),
   S3_REGION: t.String({ minLength: 1 }),
@@ -118,6 +123,10 @@ const auth = Value.Parse(authSchema, {
   ...process.env,
 });
 
+const email = Value.Parse(emailSchema, {
+  ...process.env,
+});
+
 const s3 = (() => {
   try {
     return Value.Parse(s3Schema, { S3_REGION: 'auto', ...process.env });
@@ -150,6 +159,7 @@ export const config = {
   outbox,
   cache,
   auth,
+  email,
   s3,
   maintenance,
   upload,
