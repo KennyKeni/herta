@@ -8,7 +8,6 @@ import type {
   Article,
   ArticleCategory,
   ArticleFilter,
-  AttachImageToArticle,
   CreateArticle,
   CreatedArticle,
   IncludeOptions,
@@ -51,7 +50,7 @@ export class ArticlesService {
 
     const contentHtml = data.content ? tiptapToHtml(data.content) : null;
     const result = await this.articlesRepository.createArticle(data, slug, contentHtml);
-    await this.cacheService.deleteByPrefix(CACHE_KEYS.articles.search);
+    await this.cacheService.deleteByGroup(CACHE_KEYS.articles.searchGroup);
     return result;
   }
 
@@ -79,8 +78,8 @@ export class ArticlesService {
       contentHtml
     );
     if (result) {
-      await this.cacheService.deleteByPrefix(CACHE_KEYS.articles.search);
-      await this.cacheService.delete(CACHE_KEYS.articles.article(identifier));
+      await this.cacheService.deleteByGroup(CACHE_KEYS.articles.searchGroup);
+      await this.cacheService.deleteByGroup(CACHE_KEYS.articles.articleGroup(identifier));
     }
     return result;
   }
@@ -88,36 +87,10 @@ export class ArticlesService {
   async deleteArticle(identifier: string): Promise<boolean> {
     const result = await this.articlesRepository.deleteArticle(identifier);
     if (result) {
-      await this.cacheService.deleteByPrefix(CACHE_KEYS.articles.search);
-      await this.cacheService.delete(CACHE_KEYS.articles.article(identifier));
+      await this.cacheService.deleteByGroup(CACHE_KEYS.articles.searchGroup);
+      await this.cacheService.deleteByGroup(CACHE_KEYS.articles.articleGroup(identifier));
     }
     return result;
-  }
-
-  async attachImage(identifier: string, data: AttachImageToArticle): Promise<boolean> {
-    const articleId = await this.resolveArticleId(identifier);
-    if (!articleId) return false;
-
-    await this.articlesRepository.attachImage(articleId, data);
-    await this.cacheService.delete(CACHE_KEYS.articles.article(identifier));
-    return true;
-  }
-
-  async detachImage(identifier: string, imageId: string): Promise<boolean> {
-    const articleId = await this.resolveArticleId(identifier);
-    if (!articleId) return false;
-
-    const result = await this.articlesRepository.detachImage(articleId, imageId);
-    if (result) {
-      await this.cacheService.delete(CACHE_KEYS.articles.article(identifier));
-    }
-    return result;
-  }
-
-  private async resolveArticleId(identifier: string): Promise<number | null> {
-    const isId = /^\d+$/.test(identifier);
-    if (isId) return Number(identifier);
-    return this.articlesRepository.getArticleIdBySlug(identifier);
   }
 
   async resolveCategoriesByNames(names: string[]): Promise<number[]> {

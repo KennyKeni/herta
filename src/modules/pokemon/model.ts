@@ -17,8 +17,6 @@ export const IncludeOptionsSchema = t.Object({
   includeSpawns: t.Optional(t.Boolean()),
 });
 
-export type IncludeOptionsQuery = typeof IncludeOptionsSchema.static;
-
 const PokemonFilterSchema = t.Object({
   name: t.Optional(t.String()),
   formIds: t.Optional(t.Array(t.Number())),
@@ -92,8 +90,6 @@ const PokemonFilterSchema = t.Object({
 });
 
 export const PokemonSearchQuerySchema = t.Composite([IncludeOptionsSchema, PokemonFilterSchema]);
-
-export type PokemonSearchQuery = typeof PokemonSearchQuerySchema.static;
 
 const TypeRefSchema = t.Object({
   id: t.Number(),
@@ -399,12 +395,12 @@ const UpdateSpeciesBodySchema = t.Object({
   riding: t.Optional(t.Nullable(CreateSpeciesRidingSchema)),
 });
 
-const CreatedSpeciesResponseSchema = t.Object({
+const CreateSpeciesResponseSchema = t.Object({
   id: t.Number(),
   slug: t.String(),
 });
 
-const UpdatedSpeciesResponseSchema = t.Object({
+const UpdateSpeciesResponseSchema = t.Object({
   id: t.Number(),
   slug: t.String(),
 });
@@ -523,12 +519,12 @@ const UpdateFormBodySchema = t.Object({
   behaviour: t.Optional(t.Nullable(CreateFormBehaviourSchema)),
 });
 
-const CreatedFormResponseSchema = t.Object({
+const CreateFormResponseSchema = t.Object({
   id: t.Number(),
   slug: t.String(),
 });
 
-const UpdatedFormResponseSchema = t.Object({
+const UpdateFormResponseSchema = t.Object({
   id: t.Number(),
   slug: t.String(),
 });
@@ -551,12 +547,12 @@ export const PokemonModel = {
   getFormResponse: SpeciesWithFormSchema,
   createSpeciesBody: CreateSpeciesBodySchema,
   updateSpeciesBody: UpdateSpeciesBodySchema,
-  createdSpeciesResponse: CreatedSpeciesResponseSchema,
-  updatedSpeciesResponse: UpdatedSpeciesResponseSchema,
+  createSpeciesResponse: CreateSpeciesResponseSchema,
+  updateSpeciesResponse: UpdateSpeciesResponseSchema,
   createFormBody: CreateFormBodySchema,
   updateFormBody: UpdateFormBodySchema,
-  createdFormResponse: CreatedFormResponseSchema,
-  updatedFormResponse: UpdatedFormResponseSchema,
+  createFormResponse: CreateFormResponseSchema,
+  updateFormResponse: UpdateFormResponseSchema,
   attachImageBody: AttachImageBodySchema,
   successResponse: SuccessResponseSchema,
 };

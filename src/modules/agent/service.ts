@@ -9,15 +9,6 @@ import type { MovesService } from '../moves/service';
 import type { PokemonFilter } from '../pokemon/domain';
 import type { PokemonService } from '../pokemon/service';
 import type { TypesService } from '../types/service';
-import {
-  mapIncludeFlags,
-  toAbilityResponse,
-  toAgentArticleResponse,
-  toArticleSearchResponse,
-  toItemResponse,
-  toMoveResponse,
-  toResponse,
-} from './mapper';
 import type {
   AgentAbilityQuery,
   AgentAbilityResponse,
@@ -30,7 +21,16 @@ import type {
   AgentMoveResponse,
   AgentPokemonQuery,
   AgentPokemonResponse,
-} from './model';
+} from './domain';
+import {
+  mapIncludeFlags,
+  toAbilityResponse,
+  toAgentArticleResponse,
+  toArticleSearchResponse,
+  toItemResponse,
+  toMoveResponse,
+  toResponse,
+} from './mapper';
 
 export class AgentService {
   constructor(

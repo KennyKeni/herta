@@ -3,6 +3,7 @@ import { cacheService } from '../setup';
 
 export type CacheConfig = {
   key: string;
+  group?: string;
   ttl?: number;
 };
 
@@ -45,12 +46,22 @@ export const cachePlugin = new Elysia({ name: 'plugin:cache' }).macro({
       console.log(`[cache] MISS ${key}`);
       set.headers['X-Cache'] = 'MISS';
       set.headers['X-Cache-Key'] = key;
+      if (config.group) {
+        set.headers['X-Cache-Group'] = buildCacheKey(config.group, params ?? {}, {});
+      }
     },
     async afterHandle({ response, set }) {
       const key = set.headers['X-Cache-Key'];
       if (typeof key === 'string' && set.headers['X-Cache'] === 'MISS') {
-        await cacheService.set(key, response, config.ttl);
+        const group = set.headers['X-Cache-Group'];
+        await cacheService.set(
+          key,
+          response,
+          config.ttl,
+          typeof group === 'string' ? group : undefined
+        );
         delete set.headers['X-Cache-Key'];
+        delete set.headers['X-Cache-Group'];
       }
     },
   }),

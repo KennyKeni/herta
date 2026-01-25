@@ -32,6 +32,20 @@ bun run format:check          # Check formatting without writing
 - Prefer self-documenting code over comments
 - No AI-style comments (e.g., "This function does X", "Here we...")
 
+## Before Committing
+
+Always run checks after making changes:
+
+```bash
+bun run check          # Runs biome check + tsc --noEmit
+bun run check:fix      # Auto-fix linting/formatting issues
+```
+
+This ensures:
+- TypeScript compiles without errors
+- Code follows project linting rules
+- Imports are properly organized
+
 ## Architecture
 
 This project uses a **feature-based structure** with clear separation between layers:
@@ -226,11 +240,68 @@ export const AuthModel = {
 **Do:**
 - Use `typeof schema.static` for type inference
 - Group related schemas in an exported object
-- Name schemas to indicate direction: `*Query` for query params, `*Body` for request bodies, `*Response` for outputs
 
 **Don't:**
 - Declare types separate from schemas
 - Use class instances as models
+- Export types derived from schemas (e.g., `export type X = typeof schema.static`) — use domain types instead
+
+### Schema Naming Conventions
+
+Use present tense verbs for operations, with suffixes indicating direction:
+
+| Suffix | Purpose | Example |
+|--------|---------|---------|
+| `*Query` | Query parameters | `PokemonSearchQuerySchema` |
+| `*Body` | Request body | `CreateSpeciesBodySchema` |
+| `*Response` | Response payload | `CreateSpeciesResponseSchema` |
+| `*Schema` | Internal/shared schemas | `TypeRefSchema` |
+
+**Examples:**
+```ts
+// Request schemas
+const CreateArticleBodySchema = t.Object({ ... })
+const UpdateArticleBodySchema = t.Object({ ... })
+const ArticleSearchQuerySchema = t.Object({ ... })
+
+// Response schemas (present tense - describes the operation)
+const CreateArticleResponseSchema = t.Object({ id: t.Number(), slug: t.String() })
+const UpdateArticleResponseSchema = t.Object({ id: t.Number(), slug: t.String() })
+```
+
+### Domain vs Model Separation
+
+Both `domain.ts` and `model.ts` may define similar types, but serve different purposes:
+
+| File | Purpose | Used By |
+|------|---------|---------|
+| `domain.ts` | Plain TS interfaces for internal logic | Repository, Service |
+| `model.ts` | TypeBox schemas for API validation | Controller (routes) |
+
+**Why both?**
+- Repository/Service should not depend on TypeBox
+- Domain types can differ from API schemas (internal fields, different structure)
+- Keeps validation concerns at the HTTP boundary
+
+```ts
+// domain.ts — used by repository/service
+export interface Article {
+  id: number;
+  slug: string;
+  title: string;
+  // ... internal representation
+}
+
+// model.ts — used by controller for validation
+const ArticleSchema = t.Object({
+  id: t.Number(),
+  slug: t.String(),
+  title: t.String(),
+  // ... API representation (may differ)
+})
+```
+
+When shapes are identical, this duplication is intentional — it maintains layer separation.
 
 ### Testing
 

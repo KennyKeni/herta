@@ -44,6 +44,7 @@ const UploadUrlResponseSchema = t.Object({
   uploadUrl: t.String(),
   uploadToken: t.String(),
   publicUrl: t.String(),
+  s3Key: t.String(),
   maxSize: t.Number(),
 });
 

@@ -1,6 +1,7 @@
 import { type Kysely, sql } from 'kysely';
 import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } from '@/common/fuzzy';
 import { FilterLogic } from '@/common/types';
+import { config } from '@/config';
 import type { DB, Json } from '@/infrastructure/db/types';
 import type { Spawn } from '../spawns/domain';
 import { SpawnRepository } from '../spawns/repository';
@@ -2116,7 +2117,7 @@ export class PokemonRepository {
       const arr = map.get(row.species_id) ?? [];
       arr.push({
         imageId: row.image_id,
-        s3Key: row.s3_key,
+        url: `${config.s3.S3_PUBLIC_URL}/${row.s3_key}`,
         mimeType: row.mime_type,
         isPrimary: row.is_primary,
         sortOrder: row.sort_order,
@@ -2172,7 +2173,7 @@ export class PokemonRepository {
       const arr = map.get(row.form_id) ?? [];
       arr.push({
         imageId: row.image_id,
-        s3Key: row.s3_key,
+        url: `${config.s3.S3_PUBLIC_URL}/${row.s3_key}`,
         mimeType: row.mime_type,
         isPrimary: row.is_primary,
         sortOrder: row.sort_order,

@@ -7,7 +7,7 @@ import {
   type ArticleCategory,
   type ArticleFilter,
   type ArticleImage,
-  type AttachImageToArticle,
+  type CoverImage,
   type CreateArticle,
   type CreatedArticle,
   type IncludeOptions,
@@ -114,7 +114,10 @@ export class ArticlesRepository {
 
     const articleIds = rows.map((r) => r.id);
     const ownerIds = rows.map((r) => r.owner_id);
-    const [categories, images, authors] = await Promise.all([
+    const coverImageIds = rows
+      .map((r) => r.cover_image_id)
+      .filter((id): id is string => id != null);
+    const [categories, images, authors, coverImages] = await Promise.all([
       filters.includeCategories !== false
         ? this.fetchCategories(articleIds)
         : Promise.resolve(new Map<number, ArticleCategory[]>()),
@@ -124,6 +127,9 @@ export class ArticlesRepository {
       filters.includeAuthor === true
         ? this.fetchAuthors(ownerIds)
         : Promise.resolve(new Map<string, UserRef>()),
+      coverImageIds.length > 0
+        ? this.fetchCoverImages(coverImageIds)
+        : Promise.resolve(new Map<string, CoverImage>()),
     ]);
 
     const includeContent = filters.includeContent !== false;
@@ -137,6 +143,7 @@ export class ArticlesRepository {
       contentHtml: includeContent ? row.content_html : null,
       ownerId: row.owner_id,
       author: row.owner_id ? (authors.get(row.owner_id) ?? null) : null,
+      coverImage: row.cover_image_id ? (coverImages.get(row.cover_image_id) ?? null) : null,
       createdAt: row.created_at,
       updatedAt: row.updated_at,
       categories: categories.get(row.id) ?? [],
@@ -187,7 +194,7 @@ export class ArticlesRepository {
 
     if (!row) return null;
 
-    const [categories, images, authors] = await Promise.all([
+    const [categories, images, authors, coverImages] = await Promise.all([
       options.includeCategories !== false
         ? this.fetchCategories([row.id])
         : Promise.resolve(new Map<number, ArticleCategory[]>()),
@@ -197,6 +204,9 @@ export class ArticlesRepository {
       row.owner_id
         ? this.fetchAuthors([row.owner_id])
         : Promise.resolve(new Map<string, UserRef>()),
+      row.cover_image_id
+        ? this.fetchCoverImages([row.cover_image_id])
+        : Promise.resolve(new Map<string, CoverImage>()),
     ]);
 
     const includeContent = options.includeContent !== false;
@@ -210,6 +220,7 @@ export class ArticlesRepository {
       contentHtml: includeContent ? row.content_html : null,
       ownerId: row.owner_id,
       author: row.owner_id ? (authors.get(row.owner_id) ?? null) : null,
+      coverImage: row.cover_image_id ? (coverImages.get(row.cover_image_id) ?? null) : null,
       createdAt: row.created_at,
       updatedAt: row.updated_at,
       categories: categories.get(row.id) ?? [],
@@ -242,14 +253,7 @@ export class ArticlesRepository {
     const rows = await this.db
       .selectFrom('article_images as ai')
       .innerJoin('images as i', 'i.id', 'ai.image_id')
-      .select([
-        'ai.article_id',
-        'ai.image_id',
-        'ai.is_cover',
-        'ai.sort_order',
-        'i.s3_key',
-        'i.mime_type',
-      ])
+      .select(['ai.article_id', 'ai.image_id', 'ai.sort_order', 'i.s3_key', 'i.mime_type'])
       .where('ai.article_id', 'in', articleIds)
       .where('i.status', '=', 'published')
       .orderBy('ai.sort_order')
@@ -262,10 +266,30 @@ export class ArticlesRepository {
         imageId: row.image_id,
         url: `${config.s3.S3_PUBLIC_URL}/${row.s3_key}`,
         mimeType: row.mime_type,
-        isCover: row.is_cover,
         sortOrder: row.sort_order,
       });
       map.set(row.article_id, arr);
+    }
+    return map;
+  }
+
+  private async fetchCoverImages(imageIds: string[]): Promise<Map<string, CoverImage>> {
+    if (!imageIds.length) return new Map();
+
+    const rows = await this.db
+      .selectFrom('images')
+      .select(['id', 's3_key', 'mime_type'])
+      .where('id', 'in', imageIds)
+      .where('status', '=', 'published')
+      .execute();
+
+    const map = new Map<string, CoverImage>();
+    for (const row of rows) {
+      map.set(row.id, {
+        imageId: row.id,
+        url: `${config.s3.S3_PUBLIC_URL}/${row.s3_key}`,
+        mimeType: row.mime_type,
+      });
     }
     return map;
   }
@@ -304,6 +328,7 @@ export class ArticlesRepository {
           content: data.content,
           content_html: contentHtml,
           owner_id: data.ownerId ?? null,
+          cover_image_id: data.coverImageId ?? null,
         })
         .returning(['id', 'slug'])
         .executeTakeFirstOrThrow();
@@ -352,6 +377,7 @@ export class ArticlesRepository {
       if (data.content !== undefined) updateValues.content = data.content;
       if (contentHtml !== undefined) updateValues.content_html = contentHtml;
       if (data.ownerId !== undefined) updateValues.owner_id = data.ownerId;
+      if (data.coverImageId !== undefined) updateValues.cover_image_id = data.coverImageId;
 
       if (Object.keys(updateValues).length > 0) {
         updateValues.updated_at = new Date();
@@ -446,64 +472,5 @@ export class ArticlesRepository {
       name: row.name,
       description: row.description,
     }));
-  }
-
-  async attachImage(articleId: number, data: AttachImageToArticle): Promise<void> {
-    await this.db.transaction().execute(async (trx) => {
-      if (data.isCover) {
-        await trx
-          .updateTable('article_images')
-          .set({ is_cover: false })
-          .where('article_id', '=', articleId)
-          .where('is_cover', '=', true)
-          .execute();
-      }
-
-      await trx
-        .insertInto('article_images')
-        .values({
-          article_id: articleId,
-          image_id: data.imageId,
-          is_cover: data.isCover ?? false,
-          sort_order: data.sortOrder ?? 0,
-        })
-        .onConflict((oc) =>
-          oc.columns(['article_id', 'image_id']).doUpdateSet({
-            is_cover: data.isCover ?? false,
-            sort_order: data.sortOrder ?? 0,
-          })
-        )
-        .execute();
-    });
-  }
-
-  async detachImage(articleId: number, imageId: string): Promise<boolean> {
-    const result = await this.db
-      .deleteFrom('article_images')
-      .where('article_id', '=', articleId)
-      .where('image_id', '=', imageId)
-      .executeTakeFirst();
-
-    return (result.numDeletedRows ?? 0n) > 0n;
-  }
-
-  async updateImageMetadata(
-    articleId: number,
-    imageId: string,
-    data: { isCover?: boolean; sortOrder?: number }
-  ): Promise<boolean> {
-    const updateValues: Record<string, unknown> = {};
-    if (data.isCover !== undefined) updateValues.is_cover = data.isCover;
-    if (data.sortOrder !== undefined) updateValues.sort_order = data.sortOrder;
-
-    if (Object.keys(updateValues).length === 0) return true;
-
-    const result = await this.db
-      .updateTable('article_images')
-      .set(updateValues)
-      .where('article_id', '=', articleId)
-      .where('image_id', '=', imageId)
-      .executeTakeFirst();
-    return (result.numUpdatedRows ?? 0n) > 0n;
   }
 }

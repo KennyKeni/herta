@@ -50,8 +50,13 @@ const ArticleImageSchema = t.Object({
   imageId: t.String(),
   url: t.String(),
   mimeType: t.Nullable(t.String()),
-  isCover: t.Boolean(),
   sortOrder: t.Number(),
+});
+
+const ImageRefSchema = t.Object({
+  imageId: t.String(),
+  url: t.String(),
+  mimeType: t.Nullable(t.String()),
 });
 
 const UserRefSchema = t.Object({
@@ -70,6 +75,7 @@ const ArticleSchema = t.Object({
   contentHtml: t.Nullable(t.String()),
   ownerId: t.Nullable(t.String()),
   author: t.Nullable(UserRefSchema),
+  coverImage: t.Nullable(ImageRefSchema),
   createdAt: t.Date(),
   updatedAt: t.Date(),
   categories: t.Array(ArticleCategorySchema),
@@ -82,6 +88,7 @@ const CreateArticleBodySchema = t.Object({
   description: t.Optional(t.Nullable(t.String())),
   content: TiptapContentSchema,
   categoryIds: t.Optional(t.Array(t.Number())),
+  coverImageId: t.Optional(t.Nullable(t.String())),
 });
 
 const UpdateArticleBodySchema = t.Object({
@@ -90,21 +97,17 @@ const UpdateArticleBodySchema = t.Object({
   description: t.Optional(t.Nullable(t.String())),
   content: t.Optional(TiptapContentSchema),
   categoryIds: t.Optional(t.Array(t.Number())),
+  coverImageId: t.Optional(t.Nullable(t.String())),
 });
 
-const CreatedArticleSchema = t.Object({
+const CreateArticleResponseSchema = t.Object({
   id: t.Number(),
   slug: t.String(),
 });
 
-const UpdatedArticleSchema = t.Object({
+const UpdateArticleResponseSchema = t.Object({
   id: t.Number(),
   slug: t.String(),
-});
-
-const AttachImageBodySchema = t.Object({
-  isCover: t.Optional(t.Boolean()),
-  sortOrder: t.Optional(t.Number()),
 });
 
 const SuccessResponseSchema = t.Object({
@@ -119,10 +122,9 @@ export const ArticleModel = {
   getOneQuery: IncludeOptionsSchema,
   getOneResponse: ArticleSchema,
   createBody: CreateArticleBodySchema,
-  createResponse: CreatedArticleSchema,
+  createResponse: CreateArticleResponseSchema,
   updateBody: UpdateArticleBodySchema,
-  updateResponse: UpdatedArticleSchema,
-  attachImageBody: AttachImageBodySchema,
+  updateResponse: UpdateArticleResponseSchema,
   successResponse: SuccessResponseSchema,
   categoriesResponse: CategoriesResponseSchema,
 };

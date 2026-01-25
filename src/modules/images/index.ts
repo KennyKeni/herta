@@ -37,6 +37,7 @@ export const images = new Elysia({ prefix: '/images', tags: ['images'] })
         uploadUrl: `${config.upload.UPLOAD_WORKER_URL}/upload`,
         uploadToken: token,
         publicUrl,
+        s3Key,
         maxSize,
       };
     },

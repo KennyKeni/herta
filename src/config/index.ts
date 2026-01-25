@@ -38,6 +38,10 @@ const cacheSchema = t.Object({
   CACHE_ENABLED: t.BooleanString(),
 });
 
+const contentSchema = t.Object({
+  CONTENT_ALLOW_EXTERNAL_LINKS: t.BooleanString(),
+});
+
 const authSchema = t.Object({
   BETTER_AUTH_SECRET: t.String({ minLength: 32 }),
   BETTER_AUTH_TRUSTED_ORIGINS: t.Optional(t.String()),
@@ -115,6 +119,11 @@ const cache = Value.Parse(cacheSchema, {
   ...process.env,
 });
 
+const content = Value.Parse(contentSchema, {
+  CONTENT_ALLOW_EXTERNAL_LINKS: 'false',
+  ...process.env,
+});
+
 const auth = Value.Parse(authSchema, {
   BETTER_AUTH_SECRET: '',
   AUTH_SESSION_EXPIRES_IN: '604800',
@@ -158,6 +167,7 @@ export const config = {
   kafka,
   outbox,
   cache,
+  content,
   auth,
   email,
   s3,

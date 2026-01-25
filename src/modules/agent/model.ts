@@ -1,4 +1,4 @@
-import { type Static, t } from 'elysia';
+import { t } from 'elysia';
 
 const PaginationSchema = t.Object({
   limit: t.Optional(
@@ -135,8 +135,6 @@ const AgentPokemonFilterSchema = t.Object({
 });
 
 export const AgentPokemonQuerySchema = t.Composite([AgentPokemonFilterSchema, PaginationSchema]);
-
-export type AgentPokemonQuery = Static<typeof AgentPokemonQuerySchema>;
 
 const StatsSchema = t.Object({
   hp: t.Number({ description: 'Base HP stat' }),
@@ -298,16 +296,12 @@ export const AgentPokemonSchema = t.Object({
   ),
 });
 
-export type AgentPokemon = Static<typeof AgentPokemonSchema>;
-
 export const AgentPokemonResponseSchema = t.Object({
   results: t.Array(AgentPokemonSchema, { description: 'Matching Pokemon forms' }),
   total: t.Number({ description: 'Total matching results (for pagination)' }),
   limit: t.Number({ description: 'Results per page' }),
   offset: t.Number({ description: 'Results skipped' }),
 });
-
-export type AgentPokemonResponse = Static<typeof AgentPokemonResponseSchema>;
 
 export const AgentArticleResponseSchema = t.Nullable(
   t.Object({
@@ -323,8 +317,6 @@ export const AgentArticleResponseSchema = t.Nullable(
   })
 );
 
-export type AgentArticleResponse = Static<typeof AgentArticleResponseSchema>;
-
 const AgentAbilityFilterSchema = t.Object({
   name: t.Optional(
     t.String({
@@ -337,8 +329,6 @@ const AgentAbilityFilterSchema = t.Object({
 
 export const AgentAbilityQuerySchema = t.Composite([AgentAbilityFilterSchema, PaginationSchema]);
 
-export type AgentAbilityQuery = Static<typeof AgentAbilityQuerySchema>;
-
 export const AgentAbilitySchema = t.Object({
   name: t.String({ description: 'Ability name' }),
   slug: t.String({ description: 'Ability slug for URLs' }),
@@ -347,16 +337,12 @@ export const AgentAbilitySchema = t.Object({
   flags: t.Optional(t.Array(t.String(), { description: 'Ability flag names' })),
 });
 
-export type AgentAbility = Static<typeof AgentAbilitySchema>;
-
 export const AgentAbilityResponseSchema = t.Object({
   results: t.Array(AgentAbilitySchema, { description: 'Matching abilities' }),
   total: t.Number({ description: 'Total matching results' }),
   limit: t.Number({ description: 'Results per page' }),
   offset: t.Number({ description: 'Results skipped' }),
 });
-
-export type AgentAbilityResponse = Static<typeof AgentAbilityResponseSchema>;
 
 const AgentMoveBoostSchema = t.Object({
   stat: t.String({ description: 'Stat name (e.g., "attack", "speed")' }),
@@ -403,8 +389,6 @@ const AgentMoveFilterSchema = t.Object({
 
 export const AgentMoveQuerySchema = t.Composite([AgentMoveFilterSchema, PaginationSchema]);
 
-export type AgentMoveQuery = Static<typeof AgentMoveQuerySchema>;
-
 export const AgentMoveSchema = t.Object({
   name: t.String({ description: 'Move name' }),
   slug: t.String({ description: 'Move slug for URLs' }),
@@ -423,16 +407,12 @@ export const AgentMoveSchema = t.Object({
   zData: t.Optional(t.Nullable(AgentZDataSchema)),
 });
 
-export type AgentMove = Static<typeof AgentMoveSchema>;
-
 export const AgentMoveResponseSchema = t.Object({
   results: t.Array(AgentMoveSchema, { description: 'Matching moves' }),
   total: t.Number({ description: 'Total matching results' }),
   limit: t.Number({ description: 'Results per page' }),
   offset: t.Number({ description: 'Results skipped' }),
 });
-
-export type AgentMoveResponse = Static<typeof AgentMoveResponseSchema>;
 
 const AgentItemFilterSchema = t.Object({
   name: t.Optional(
@@ -454,8 +434,6 @@ const AgentItemFilterSchema = t.Object({
 });
 
 export const AgentItemQuerySchema = t.Composite([AgentItemFilterSchema, PaginationSchema]);
-
-export type AgentItemQuery = Static<typeof AgentItemQuerySchema>;
 
 const AgentItemBoostSchema = t.Object({
   stat: t.String({ description: 'Stat name' }),
@@ -497,16 +475,12 @@ export const AgentItemSchema = t.Object({
   ),
 });
 
-export type AgentItem = Static<typeof AgentItemSchema>;
-
 export const AgentItemResponseSchema = t.Object({
   results: t.Array(AgentItemSchema, { description: 'Matching items' }),
   total: t.Number({ description: 'Total matching results' }),
   limit: t.Number({ description: 'Results per page' }),
   offset: t.Number({ description: 'Results skipped' }),
 });
-
-export type AgentItemResponse = Static<typeof AgentItemResponseSchema>;
 
 const AgentArticleFilterSchema = t.Object({
   title: t.Optional(
@@ -527,8 +501,6 @@ const AgentArticleFilterSchema = t.Object({
 
 export const AgentArticleQuerySchema = t.Composite([AgentArticleFilterSchema, PaginationSchema]);
 
-export type AgentArticleQuery = Static<typeof AgentArticleQuerySchema>;
-
 export const AgentArticleSchema = t.Object({
   title: t.String({ description: 'Article title' }),
   slug: t.String({ description: 'Article slug for URLs' }),
@@ -539,13 +511,9 @@ export const AgentArticleSchema = t.Object({
   categories: t.Optional(t.Array(t.String(), { description: 'Category names' })),
 });
 
-export type AgentArticle = Static<typeof AgentArticleSchema>;
-
 export const AgentArticleSearchResponseSchema = t.Object({
   results: t.Array(AgentArticleSchema, { description: 'Matching articles' }),
   total: t.Number({ description: 'Total matching results' }),
   limit: t.Number({ description: 'Results per page' }),
   offset: t.Number({ description: 'Results skipped' }),
 });
-
-export type AgentArticleSearchResponse = Static<typeof AgentArticleSearchResponseSchema>;

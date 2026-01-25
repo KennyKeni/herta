@@ -1,4 +1,5 @@
 import { Elysia, NotFoundError } from 'elysia';
+import { CACHE_KEYS } from '@/infrastructure/cache/keys';
 import { cachePlugin } from '@/infrastructure/cache/plugin';
 import { pokemonSetup } from '@/infrastructure/setup';
 import { PokemonModel } from './model';
@@ -7,7 +8,7 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
   .use(pokemonSetup)
   .use(cachePlugin)
   .get('/', ({ query, pokemonService }) => pokemonService.search(query), {
-    cache: { key: 'pokemon:search' },
+    cache: { key: CACHE_KEYS.pokemon.search, group: CACHE_KEYS.pokemon.searchGroup },
     query: PokemonModel.searchQuery,
     response: PokemonModel.searchResponse,
     detail: {
@@ -24,7 +25,10 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
       return result;
     },
     {
-      cache: { key: 'pokemon:form:{identifier}' },
+      cache: {
+        key: CACHE_KEYS.pokemon.form('{identifier}'),
+        group: CACHE_KEYS.pokemon.formGroup('{identifier}'),
+      },
       query: PokemonModel.getFormQuery,
       response: PokemonModel.getFormResponse,
       detail: {
@@ -41,7 +45,10 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
       return result;
     },
     {
-      cache: { key: 'pokemon:{identifier}' },
+      cache: {
+        key: CACHE_KEYS.pokemon.species('{identifier}'),
+        group: CACHE_KEYS.pokemon.speciesGroup('{identifier}'),
+      },
       query: PokemonModel.getOneQuery,
       response: PokemonModel.getOneResponse,
       detail: {
@@ -57,7 +64,7 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
     },
     {
       body: PokemonModel.createSpeciesBody,
-      response: PokemonModel.createdSpeciesResponse,
+      response: PokemonModel.createSpeciesResponse,
       detail: {
         summary: 'Create Pokemon species',
         description:
@@ -74,7 +81,7 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
     },
     {
       body: PokemonModel.updateSpeciesBody,
-      response: PokemonModel.updatedSpeciesResponse,
+      response: PokemonModel.updateSpeciesResponse,
       detail: {
         summary: 'Update Pokemon species',
         description: 'Update an existing Pokemon species by ID or slug.',
@@ -125,7 +132,7 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
     },
     {
       body: PokemonModel.createFormBody,
-      response: PokemonModel.createdFormResponse,
+      response: PokemonModel.createFormResponse,
       detail: {
         summary: 'Create Pokemon form',
         description: 'Create a new Pokemon form with types, abilities, stats, and other data.',
@@ -141,7 +148,7 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
     },
     {
       body: PokemonModel.updateFormBody,
-      response: PokemonModel.updatedFormResponse,
+      response: PokemonModel.updateFormResponse,
       detail: {
         summary: 'Update Pokemon form',
         description: 'Update an existing Pokemon form by ID or slug.',

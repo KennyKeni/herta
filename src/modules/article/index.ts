@@ -1,4 +1,5 @@
 import { Elysia, NotFoundError } from 'elysia';
+import { CACHE_KEYS } from '@/infrastructure/cache/keys';
 import { cachePlugin } from '@/infrastructure/cache/plugin';
 import { articlesSetup } from '@/infrastructure/setup';
 import { authModule } from '@/modules/auth';
@@ -9,7 +10,7 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
   .use(authModule)
   .use(cachePlugin)
   .get('/', ({ query, articlesService }) => articlesService.search(query), {
-    cache: { key: 'articles:search' },
+    cache: { key: CACHE_KEYS.articles.search, group: CACHE_KEYS.articles.searchGroup },
     query: ArticleModel.searchQuery,
     response: ArticleModel.searchResponse,
     detail: {
@@ -18,7 +19,7 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
     },
   })
   .get('/categories', ({ articlesService }) => articlesService.getAllCategories(), {
-    cache: { key: 'articles:categories' },
+    cache: { key: 'articles:categories', group: 'group:articles:categories' },
     response: ArticleModel.categoriesResponse,
     detail: {
       summary: 'List Categories',
@@ -48,7 +49,10 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
       return result;
     },
     {
-      cache: { key: 'articles:{identifier}' },
+      cache: {
+        key: CACHE_KEYS.articles.article('{identifier}'),
+        group: CACHE_KEYS.articles.articleGroup('{identifier}'),
+      },
       query: ArticleModel.getOneQuery,
       response: ArticleModel.getOneResponse,
       detail: {
@@ -89,44 +93,6 @@ export const articles = new Elysia({ prefix: '/articles', tags: ['articles'] })
       detail: {
         summary: 'Delete Article',
         description: 'Delete an article by ID or slug. Requires article:delete permission.',
-      },
-    }
-  )
-  .put(
-    '/:identifier/images/:imageId',
-    async ({ params, body, articlesService }) => {
-      const attached = await articlesService.attachImage(params.identifier, {
-        imageId: params.imageId,
-        ...body,
-      });
-      if (!attached) throw new NotFoundError('Article not found');
-      return { success: true };
-    },
-    {
-      auth: true,
-      permission: { article: ['update'] },
-      body: ArticleModel.attachImageBody,
-      response: ArticleModel.successResponse,
-      detail: {
-        summary: 'Attach Image to Article',
-        description: 'Attach an existing image to an article. Requires article:update permission.',
-      },
-    }
-  )
-  .delete(
-    '/:identifier/images/:imageId',
-    async ({ params, articlesService }) => {
-      const detached = await articlesService.detachImage(params.identifier, params.imageId);
-      if (!detached) throw new NotFoundError('Image not attached to article');
-      return { success: true };
-    },
-    {
-      auth: true,
-      permission: { article: ['update'] },
-      response: ArticleModel.successResponse,
-      detail: {
-        summary: 'Detach Image from Article',
-        description: 'Remove an image from an article. Requires article:update permission.',
       },
     }
   );

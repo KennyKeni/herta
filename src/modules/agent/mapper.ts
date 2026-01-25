@@ -21,7 +21,7 @@ import type {
   AgentPokemon,
   AgentPokemonQuery,
   AgentPokemonResponse,
-} from './model';
+} from './domain';
 
 export function mapIncludeFlags(query: AgentPokemonQuery): Partial<PokemonFilter> {
   return {

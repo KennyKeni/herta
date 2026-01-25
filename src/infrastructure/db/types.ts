@@ -86,13 +86,13 @@ export interface ArticleImages {
   article_id: number;
   created_at: Generated<Timestamp>;
   image_id: string;
-  is_cover: Generated<boolean>;
   sort_order: Generated<number>;
 }
 
 export interface Articles {
   content: Json | null;
   content_html: string | null;
+  cover_image_id: string | null;
   created_at: Generated<Timestamp>;
   description: string | null;
   id: Generated<number>;

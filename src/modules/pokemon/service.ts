@@ -59,7 +59,7 @@ export class PokemonService {
     if (slugExists) throw new ConflictError(`Species with slug '${slug}' already exists`);
 
     const result = await this.pokemonRepository.createSpecies(data, slug);
-    await this.cacheService.deleteByPrefix(CACHE_KEYS.pokemon.search);
+    await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
     return result;
   }
 
@@ -81,8 +81,8 @@ export class PokemonService {
 
     const result = await this.pokemonRepository.updateSpecies(identifier, data, newSlug);
     if (result) {
-      await this.cacheService.deleteByPrefix(CACHE_KEYS.pokemon.search);
-      await this.cacheService.delete(CACHE_KEYS.pokemon.species(identifier));
+      await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
+      await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.speciesGroup(identifier));
     }
     return result;
   }
@@ -92,7 +92,7 @@ export class PokemonService {
     if (!speciesId) return false;
 
     await this.pokemonRepository.attachImageToSpecies(speciesId, data);
-    await this.cacheService.delete(CACHE_KEYS.pokemon.species(identifier));
+    await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.speciesGroup(identifier));
     return true;
   }
 
@@ -102,7 +102,7 @@ export class PokemonService {
 
     const result = await this.pokemonRepository.detachImageFromSpecies(speciesId, imageId);
     if (result) {
-      await this.cacheService.delete(CACHE_KEYS.pokemon.species(identifier));
+      await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.speciesGroup(identifier));
     }
     return result;
   }
@@ -120,7 +120,7 @@ export class PokemonService {
     if (slugExists) throw new ConflictError(`Form with slug '${slug}' already exists`);
 
     const result = await this.pokemonRepository.createForm(data, slug);
-    await this.cacheService.deleteByPrefix(CACHE_KEYS.pokemon.search);
+    await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
     return result;
   }
 
@@ -139,8 +139,8 @@ export class PokemonService {
 
     const result = await this.pokemonRepository.updateForm(identifier, data, newSlug);
     if (result) {
-      await this.cacheService.deleteByPrefix(CACHE_KEYS.pokemon.search);
-      await this.cacheService.delete(CACHE_KEYS.pokemon.form(identifier));
+      await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
+      await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.formGroup(identifier));
     }
     return result;
   }
@@ -150,7 +150,7 @@ export class PokemonService {
     if (!formId) return false;
 
     await this.pokemonRepository.attachImageToForm(formId, data);
-    await this.cacheService.delete(CACHE_KEYS.pokemon.form(identifier));
+    await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.formGroup(identifier));
     return true;
   }
 
@@ -160,7 +160,7 @@ export class PokemonService {
 
     const result = await this.pokemonRepository.detachImageFromForm(formId, imageId);
     if (result) {
-      await this.cacheService.delete(CACHE_KEYS.pokemon.form(identifier));
+      await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.formGroup(identifier));
     }
     return result;
   }
@@ -174,8 +174,8 @@ export class PokemonService {
   async deleteSpecies(identifier: string): Promise<boolean> {
     const result = await this.pokemonRepository.deleteSpecies(identifier);
     if (result) {
-      await this.cacheService.deleteByPrefix(CACHE_KEYS.pokemon.search);
-      await this.cacheService.delete(CACHE_KEYS.pokemon.species(identifier));
+      await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
+      await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.speciesGroup(identifier));
     }
     return result;
   }
@@ -183,8 +183,8 @@ export class PokemonService {
   async deleteForm(identifier: string): Promise<boolean> {
     const result = await this.pokemonRepository.deleteForm(identifier);
     if (result) {
-      await this.cacheService.deleteByPrefix(CACHE_KEYS.pokemon.search);
-      await this.cacheService.delete(CACHE_KEYS.pokemon.form(identifier));
+      await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
+      await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.formGroup(identifier));
     }
     return result;
   }

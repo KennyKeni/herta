@@ -20,10 +20,13 @@ export class CacheService {
     return JSON.parse(data) as T;
   }
 
-  async set<T>(key: string, value: T, ttl?: number): Promise<void> {
+  async set<T>(key: string, value: T, ttl?: number, group?: string): Promise<void> {
     if (!this.enabled) return;
 
     await this.client.setex(key, ttl ?? this.defaultTtl, JSON.stringify(value));
+    if (group) {
+      await this.client.sadd(group, key);
+    }
   }
 
   async getOrSet<T>(key: string, fn: () => Promise<T>, ttl?: number): Promise<T> {
@@ -45,5 +48,14 @@ export class CacheService {
     if (keys.length === 0) return 0;
 
     return this.client.del(...keys);
+  }
+
+  async deleteByGroup(group: string): Promise<number> {
+    const keys = await this.client.smembers(group);
+    if (keys.length === 0) return 0;
+
+    const deleted = await this.client.del(...keys);
+    await this.client.del(group);
+    return deleted;
   }
 }

@@ -1,8 +1,7 @@
-import type { JSONContent } from '@tiptap/core';
+import { type JSONContent, Node } from '@tiptap/core';
 import CodeBlockLowlight from '@tiptap/extension-code-block-lowlight';
 import Heading from '@tiptap/extension-heading';
 import Highlight from '@tiptap/extension-highlight';
-import Image from '@tiptap/extension-image';
 import Link from '@tiptap/extension-link';
 import Subscript from '@tiptap/extension-subscript';
 import Superscript from '@tiptap/extension-superscript';
@@ -35,6 +34,7 @@ import typescript from 'highlight.js/lib/languages/typescript';
 import xml from 'highlight.js/lib/languages/xml';
 import yaml from 'highlight.js/lib/languages/yaml';
 import { createLowlight } from 'lowlight';
+import { config } from '@/config';
 
 function slugify(text: string): string {
   return text
@@ -82,6 +82,30 @@ function createHeadingWithIds() {
   }).configure({ levels: [1, 2, 3, 4] });
 }
 
+const S3Image = Node.create({
+  name: 's3-image',
+  group: 'block',
+  atom: true,
+
+  addAttributes() {
+    return {
+      s3Key: { default: null },
+      alt: { default: null },
+      title: { default: null },
+      width: { default: '100%' },
+      align: { default: 'left' },
+    };
+  },
+
+  renderHTML({ HTMLAttributes }) {
+    const { s3Key, align, width, ...rest } = HTMLAttributes;
+    if (!s3Key) return ['span'];
+    const src = `${config.s3.S3_PUBLIC_URL}/${s3Key}`;
+    const style = width ? `width: ${width}` : undefined;
+    return ['img', { ...rest, src, style, 'data-align': align }];
+  },
+});
+
 function getHtmlExtensions() {
   return [
     StarterKit.configure({
@@ -104,9 +128,14 @@ function getHtmlExtensions() {
     TableHeader,
     TableRow,
     TableCell,
-    Image,
+    S3Image,
     CodeBlockLowlight.configure({ lowlight }),
-    Link.configure({ openOnClick: false }),
+    Link.configure({
+      openOnClick: false,
+      validate: config.content.CONTENT_ALLOW_EXTERNAL_LINKS
+        ? undefined
+        : (href) => href.startsWith('/') || href.startsWith('#'),
+    }),
   ];
 }
 

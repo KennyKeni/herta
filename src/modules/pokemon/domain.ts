@@ -467,7 +467,7 @@ export interface PokemonFilter extends IncludeOptions {
 
 export interface SpeciesImage {
   imageId: string;
-  s3Key: string;
+  url: string;
   mimeType: string | null;
   isPrimary: boolean;
   sortOrder: number;
@@ -475,7 +475,7 @@ export interface SpeciesImage {
 
 export interface FormImage {
   imageId: string;
-  s3Key: string;
+  url: string;
   mimeType: string | null;
   isPrimary: boolean;
   sortOrder: number;

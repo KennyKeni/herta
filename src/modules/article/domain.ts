@@ -24,6 +24,14 @@ export interface ArticleCategory {
   description: string | null;
 }
 
+export interface ImageRef {
+  imageId: string;
+  url: string;
+  mimeType: string | null;
+}
+
+export type CoverImage = ImageRef;
+
 export interface Article {
   id: number;
   slug: string;
@@ -34,6 +42,7 @@ export interface Article {
   contentHtml: string | null;
   ownerId: string | null;
   author: UserRef | null;
+  coverImage: ImageRef | null;
   createdAt: Date;
   updatedAt: Date;
   categories: ArticleCategory[];
@@ -67,6 +76,7 @@ export interface CreateArticle {
   content: DocContent;
   ownerId?: string | null;
   categoryIds?: number[];
+  coverImageId?: string | null;
 }
 
 export interface UpdateArticle {
@@ -76,6 +86,7 @@ export interface UpdateArticle {
   content?: DocContent;
   ownerId?: string | null;
   categoryIds?: number[];
+  coverImageId?: string | null;
 }
 
 export interface CreatedArticle {
@@ -92,12 +103,5 @@ export interface ArticleImage {
   imageId: string;
   url: string;
   mimeType: string | null;
-  isCover: boolean;
   sortOrder: number;
-}
-
-export interface AttachImageToArticle {
-  imageId: string;
-  isCover?: boolean;
-  sortOrder?: number;
 }
