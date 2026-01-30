@@ -3,6 +3,7 @@ import type { PaginatedResponse } from '@/common/pagination';
 import { shouldUseFuzzySearch, slugForPokemon } from '@/common/utils';
 import { CACHE_KEYS } from '@/infrastructure/cache/keys';
 import type { CacheService } from '@/infrastructure/cache/service';
+import { withTransaction } from '@/infrastructure/db';
 import type {
   CreatedForm,
   CreatedSpecies,
@@ -69,7 +70,10 @@ export class PokemonService {
       }
     }
 
-    const result = await this.pokemonRepository.createSpecies(data, slug, formSlugs);
+    const result = await withTransaction(async (trx) => {
+      const repo = this.pokemonRepository.withTransaction(trx);
+      return repo.createSpecies(data, slug, formSlugs);
+    });
     await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
     return result;
   }
@@ -90,7 +94,10 @@ export class PokemonService {
       }
     }
 
-    const result = await this.pokemonRepository.updateSpecies(identifier, data, newSlug);
+    const result = await withTransaction(async (trx) => {
+      const repo = this.pokemonRepository.withTransaction(trx);
+      return repo.updateSpecies(identifier, data, newSlug);
+    });
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.speciesGroup(identifier));
@@ -121,7 +128,10 @@ export class PokemonService {
     if (idExists) throw new ConflictError(`Form with id ${data.id} already exists`);
     if (slugExists) throw new ConflictError(`Form with slug '${slug}' already exists`);
 
-    const result = await this.pokemonRepository.createForm(data, slug);
+    const result = await withTransaction(async (trx) => {
+      const repo = this.pokemonRepository.withTransaction(trx);
+      return repo.createForm(data, slug);
+    });
     await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
     return result;
   }
@@ -139,7 +149,10 @@ export class PokemonService {
       }
     }
 
-    const result = await this.pokemonRepository.updateForm(identifier, data, newSlug);
+    const result = await withTransaction(async (trx) => {
+      const repo = this.pokemonRepository.withTransaction(trx);
+      return repo.updateForm(identifier, data, newSlug);
+    });
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.formGroup(identifier));
@@ -165,7 +178,10 @@ export class PokemonService {
   }
 
   async deleteSpecies(identifier: string): Promise<boolean> {
-    const result = await this.pokemonRepository.deleteSpecies(identifier);
+    const result = await withTransaction(async (trx) => {
+      const repo = this.pokemonRepository.withTransaction(trx);
+      return repo.deleteSpecies(identifier);
+    });
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.speciesGroup(identifier));
@@ -174,7 +190,10 @@ export class PokemonService {
   }
 
   async deleteForm(identifier: string): Promise<boolean> {
-    const result = await this.pokemonRepository.deleteForm(identifier);
+    const result = await withTransaction(async (trx) => {
+      const repo = this.pokemonRepository.withTransaction(trx);
+      return repo.deleteForm(identifier);
+    });
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.formGroup(identifier));

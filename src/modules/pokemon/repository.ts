@@ -1349,256 +1349,254 @@ export class PokemonRepository {
     slug: string,
     formSlugs?: Map<number, string>
   ): Promise<CreatedSpecies> {
-    return this.db.transaction().execute(async (trx) => {
-      await trx
-        .insertInto('species')
+    await this.db
+      .insertInto('species')
+      .values({
+        id: data.id,
+        slug,
+        name: data.name,
+        description: data.description ?? null,
+        generation: data.generation,
+        catch_rate: data.catchRate,
+        base_friendship: data.baseFriendship,
+        egg_cycles: data.eggCycles,
+        male_ratio: data.maleRatio ?? null,
+        base_scale: data.baseScale ?? null,
+        experience_group_id: data.experienceGroupId ?? null,
+      })
+      .execute();
+
+    if (data.eggGroupIds?.length) {
+      await this.db
+        .insertInto('species_egg_groups')
+        .values(
+          data.eggGroupIds.map((eggGroupId) => ({
+            species_id: data.id,
+            egg_group_id: eggGroupId,
+          }))
+        )
+        .execute();
+    }
+
+    if (data.hitbox) {
+      await this.db
+        .insertInto('species_hitboxes')
         .values({
-          id: data.id,
-          slug,
-          name: data.name,
-          description: data.description ?? null,
-          generation: data.generation,
-          catch_rate: data.catchRate,
-          base_friendship: data.baseFriendship,
-          egg_cycles: data.eggCycles,
-          male_ratio: data.maleRatio ?? null,
-          base_scale: data.baseScale ?? null,
-          experience_group_id: data.experienceGroupId ?? null,
+          species_id: data.id,
+          width: data.hitbox.width,
+          height: data.hitbox.height,
+          fixed: data.hitbox.fixed,
         })
         .execute();
+    }
 
-      if (data.eggGroupIds?.length) {
-        await trx
-          .insertInto('species_egg_groups')
-          .values(
-            data.eggGroupIds.map((eggGroupId) => ({
-              species_id: data.id,
-              egg_group_id: eggGroupId,
-            }))
-          )
-          .execute();
-      }
+    if (data.lighting) {
+      await this.db
+        .insertInto('lighting')
+        .values({
+          species_id: data.id,
+          light_level: data.lighting.lightLevel,
+          liquid_glow_mode: data.lighting.liquidGlowMode ?? null,
+        })
+        .execute();
+    }
 
-      if (data.hitbox) {
-        await trx
-          .insertInto('species_hitboxes')
+    if (data.riding) {
+      await this.db
+        .insertInto('riding')
+        .values({
+          species_id: data.id,
+          data: data.riding.data as Json,
+        })
+        .execute();
+    }
+
+    if (data.forms?.length && formSlugs) {
+      for (const formData of data.forms) {
+        const formSlug = formSlugs.get(formData.id);
+        if (!formSlug) continue;
+
+        await this.db
+          .insertInto('forms')
           .values({
-            species_id: data.id,
-            width: data.hitbox.width,
-            height: data.hitbox.height,
-            fixed: data.hitbox.fixed,
+            id: formData.id,
+            species_id: formData.speciesId,
+            slug: formSlug,
+            name: formData.name,
+            form_name: formData.formName,
+            description: formData.description ?? null,
+            generation: formData.generation ?? null,
+            height: formData.height,
+            weight: formData.weight,
+            base_hp: formData.baseHp,
+            base_attack: formData.baseAttack,
+            base_defence: formData.baseDefence,
+            base_special_attack: formData.baseSpecialAttack,
+            base_special_defence: formData.baseSpecialDefence,
+            base_speed: formData.baseSpeed,
+            base_experience_yield: formData.baseExperienceYield ?? null,
+            ev_hp: formData.evHp ?? 0,
+            ev_attack: formData.evAttack ?? 0,
+            ev_defence: formData.evDefence ?? 0,
+            ev_special_attack: formData.evSpecialAttack ?? 0,
+            ev_special_defence: formData.evSpecialDefence ?? 0,
+            ev_speed: formData.evSpeed ?? 0,
           })
           .execute();
-      }
 
-      if (data.lighting) {
-        await trx
-          .insertInto('lighting')
-          .values({
-            species_id: data.id,
-            light_level: data.lighting.lightLevel,
-            liquid_glow_mode: data.lighting.liquidGlowMode ?? null,
-          })
-          .execute();
-      }
+        if (formData.types?.length) {
+          await this.db
+            .insertInto('form_types')
+            .values(
+              formData.types.map((t) => ({
+                form_id: formData.id,
+                type_id: t.typeId,
+                slot: t.slot,
+              }))
+            )
+            .execute();
+        }
 
-      if (data.riding) {
-        await trx
-          .insertInto('riding')
-          .values({
-            species_id: data.id,
-            data: data.riding.data as Json,
-          })
-          .execute();
-      }
+        if (formData.abilities?.length) {
+          await this.db
+            .insertInto('form_abilities')
+            .values(
+              formData.abilities.map((a) => ({
+                form_id: formData.id,
+                ability_id: a.abilityId,
+                slot_id: a.slotId,
+              }))
+            )
+            .execute();
+        }
 
-      if (data.forms?.length && formSlugs) {
-        for (const formData of data.forms) {
-          const formSlug = formSlugs.get(formData.id);
-          if (!formSlug) continue;
+        if (formData.labelIds?.length) {
+          await this.db
+            .insertInto('form_labels')
+            .values(
+              formData.labelIds.map((labelId) => ({ form_id: formData.id, label_id: labelId }))
+            )
+            .execute();
+        }
 
-          await trx
-            .insertInto('forms')
+        if (formData.aspectChoiceIds?.length) {
+          await this.db
+            .insertInto('form_aspects')
+            .values(
+              formData.aspectChoiceIds.map((aspectChoiceId) => ({
+                form_id: formData.id,
+                aspect_choice_id: aspectChoiceId,
+              }))
+            )
+            .execute();
+        }
+
+        if (formData.hitbox) {
+          await this.db
+            .insertInto('form_hitboxes')
             .values({
-              id: formData.id,
-              species_id: formData.speciesId,
-              slug: formSlug,
-              name: formData.name,
-              form_name: formData.formName,
-              description: formData.description ?? null,
-              generation: formData.generation ?? null,
-              height: formData.height,
-              weight: formData.weight,
-              base_hp: formData.baseHp,
-              base_attack: formData.baseAttack,
-              base_defence: formData.baseDefence,
-              base_special_attack: formData.baseSpecialAttack,
-              base_special_defence: formData.baseSpecialDefence,
-              base_speed: formData.baseSpeed,
-              base_experience_yield: formData.baseExperienceYield ?? null,
-              ev_hp: formData.evHp ?? 0,
-              ev_attack: formData.evAttack ?? 0,
-              ev_defence: formData.evDefence ?? 0,
-              ev_special_attack: formData.evSpecialAttack ?? 0,
-              ev_special_defence: formData.evSpecialDefence ?? 0,
-              ev_speed: formData.evSpeed ?? 0,
+              form_id: formData.id,
+              width: formData.hitbox.width,
+              height: formData.hitbox.height,
+              fixed: formData.hitbox.fixed,
             })
             .execute();
+        }
 
-          if (formData.types?.length) {
-            await trx
-              .insertInto('form_types')
+        if (formData.overrides) {
+          await this.db
+            .insertInto('form_overrides')
+            .values({
+              form_id: formData.id,
+              catch_rate: formData.overrides.catchRate ?? null,
+              base_friendship: formData.overrides.baseFriendship ?? null,
+              egg_cycles: formData.overrides.eggCycles ?? null,
+              male_ratio: formData.overrides.maleRatio ?? null,
+              base_scale: formData.overrides.baseScale ?? null,
+            })
+            .execute();
+        }
+
+        if (formData.drops) {
+          await this.db
+            .insertInto('form_drops')
+            .values({ form_id: formData.id, amount: formData.drops.amount })
+            .execute();
+
+          if (formData.drops.percentages?.length) {
+            await this.db
+              .insertInto('drop_percentages')
               .values(
-                formData.types.map((t) => ({
+                formData.drops.percentages.map((p) => ({
                   form_id: formData.id,
-                  type_id: t.typeId,
-                  slot: t.slot,
+                  item_id: p.itemId,
+                  percentage: p.percentage,
                 }))
               )
               .execute();
           }
 
-          if (formData.abilities?.length) {
-            await trx
-              .insertInto('form_abilities')
+          if (formData.drops.ranges?.length) {
+            await this.db
+              .insertInto('drop_ranges')
               .values(
-                formData.abilities.map((a) => ({
+                formData.drops.ranges.map((r) => ({
                   form_id: formData.id,
-                  ability_id: a.abilityId,
-                  slot_id: a.slotId,
-                }))
-              )
-              .execute();
-          }
-
-          if (formData.labelIds?.length) {
-            await trx
-              .insertInto('form_labels')
-              .values(
-                formData.labelIds.map((labelId) => ({ form_id: formData.id, label_id: labelId }))
-              )
-              .execute();
-          }
-
-          if (formData.aspectChoiceIds?.length) {
-            await trx
-              .insertInto('form_aspects')
-              .values(
-                formData.aspectChoiceIds.map((aspectChoiceId) => ({
-                  form_id: formData.id,
-                  aspect_choice_id: aspectChoiceId,
-                }))
-              )
-              .execute();
-          }
-
-          if (formData.hitbox) {
-            await trx
-              .insertInto('form_hitboxes')
-              .values({
-                form_id: formData.id,
-                width: formData.hitbox.width,
-                height: formData.hitbox.height,
-                fixed: formData.hitbox.fixed,
-              })
-              .execute();
-          }
-
-          if (formData.overrides) {
-            await trx
-              .insertInto('form_overrides')
-              .values({
-                form_id: formData.id,
-                catch_rate: formData.overrides.catchRate ?? null,
-                base_friendship: formData.overrides.baseFriendship ?? null,
-                egg_cycles: formData.overrides.eggCycles ?? null,
-                male_ratio: formData.overrides.maleRatio ?? null,
-                base_scale: formData.overrides.baseScale ?? null,
-              })
-              .execute();
-          }
-
-          if (formData.drops) {
-            await trx
-              .insertInto('form_drops')
-              .values({ form_id: formData.id, amount: formData.drops.amount })
-              .execute();
-
-            if (formData.drops.percentages?.length) {
-              await trx
-                .insertInto('drop_percentages')
-                .values(
-                  formData.drops.percentages.map((p) => ({
-                    form_id: formData.id,
-                    item_id: p.itemId,
-                    percentage: p.percentage,
-                  }))
-                )
-                .execute();
-            }
-
-            if (formData.drops.ranges?.length) {
-              await trx
-                .insertInto('drop_ranges')
-                .values(
-                  formData.drops.ranges.map((r) => ({
-                    form_id: formData.id,
-                    item_id: r.itemId,
-                    quantity_min: r.quantityMin,
-                    quantity_max: r.quantityMax,
-                  }))
-                )
-                .execute();
-            }
-          }
-
-          if (formData.aspectCombos?.length) {
-            for (const combo of formData.aspectCombos) {
-              const insertedCombo = await trx
-                .insertInto('form_aspect_combos')
-                .values({ form_id: formData.id, combo_index: combo.comboIndex })
-                .returning('id')
-                .executeTakeFirstOrThrow();
-
-              if (combo.aspectIds.length) {
-                await trx
-                  .insertInto('form_aspect_combo_aspects')
-                  .values(
-                    combo.aspectIds.map((aspectId) => ({
-                      combo_id: insertedCombo.id,
-                      aspect_id: aspectId,
-                    }))
-                  )
-                  .execute();
-              }
-            }
-          }
-
-          if (formData.behaviour) {
-            await trx
-              .insertInto('behaviour')
-              .values({ form_id: formData.id, data: formData.behaviour.data as Json })
-              .execute();
-          }
-
-          if (formData.moves?.length) {
-            await trx
-              .insertInto('form_moves')
-              .values(
-                formData.moves.map((m) => ({
-                  form_id: formData.id,
-                  move_id: m.moveId,
-                  method_id: m.methodId,
-                  level: m.level ?? null,
+                  item_id: r.itemId,
+                  quantity_min: r.quantityMin,
+                  quantity_max: r.quantityMax,
                 }))
               )
               .execute();
           }
         }
-      }
 
-      return { id: data.id, slug };
-    });
+        if (formData.aspectCombos?.length) {
+          for (const combo of formData.aspectCombos) {
+            const insertedCombo = await this.db
+              .insertInto('form_aspect_combos')
+              .values({ form_id: formData.id, combo_index: combo.comboIndex })
+              .returning('id')
+              .executeTakeFirstOrThrow();
+
+            if (combo.aspectIds.length) {
+              await this.db
+                .insertInto('form_aspect_combo_aspects')
+                .values(
+                  combo.aspectIds.map((aspectId) => ({
+                    combo_id: insertedCombo.id,
+                    aspect_id: aspectId,
+                  }))
+                )
+                .execute();
+            }
+          }
+        }
+
+        if (formData.behaviour) {
+          await this.db
+            .insertInto('behaviour')
+            .values({ form_id: formData.id, data: formData.behaviour.data as Json })
+            .execute();
+        }
+
+        if (formData.moves?.length) {
+          await this.db
+            .insertInto('form_moves')
+            .values(
+              formData.moves.map((m) => ({
+                form_id: formData.id,
+                move_id: m.moveId,
+                method_id: m.methodId,
+                level: m.level ?? null,
+              }))
+            )
+            .execute();
+        }
+      }
+    }
+
+    return { id: data.id, slug };
   }
 
   async updateSpecies(
@@ -1609,124 +1607,122 @@ export class PokemonRepository {
     const isId = /^\d+$/.test(identifier);
     const speciesId = isId ? Number(identifier) : null;
 
-    return this.db.transaction().execute(async (trx) => {
-      let id: number;
-      let slug: string;
+    let id: number;
+    let slug: string;
 
-      if (speciesId) {
-        const existing = await trx
-          .selectFrom('species')
-          .select(['id', 'slug'])
-          .where('id', '=', speciesId)
-          .executeTakeFirst();
-        if (!existing) return null;
-        id = existing.id;
-        slug = newSlug ?? existing.slug;
+    if (speciesId) {
+      const existing = await this.db
+        .selectFrom('species')
+        .select(['id', 'slug'])
+        .where('id', '=', speciesId)
+        .executeTakeFirst();
+      if (!existing) return null;
+      id = existing.id;
+      slug = newSlug ?? existing.slug;
+    } else {
+      const existing = await this.db
+        .selectFrom('species')
+        .select(['id', 'slug'])
+        .where('slug', '=', identifier)
+        .executeTakeFirst();
+      if (!existing) return null;
+      id = existing.id;
+      slug = newSlug ?? existing.slug;
+    }
+
+    const updateValues: Record<string, unknown> = {};
+    if (newSlug !== undefined) updateValues.slug = newSlug;
+    if (data.name !== undefined) updateValues.name = data.name;
+    if (data.description !== undefined) updateValues.description = data.description;
+    if (data.generation !== undefined) updateValues.generation = data.generation;
+    if (data.catchRate !== undefined) updateValues.catch_rate = data.catchRate;
+    if (data.baseFriendship !== undefined) updateValues.base_friendship = data.baseFriendship;
+    if (data.eggCycles !== undefined) updateValues.egg_cycles = data.eggCycles;
+    if (data.maleRatio !== undefined) updateValues.male_ratio = data.maleRatio;
+    if (data.baseScale !== undefined) updateValues.base_scale = data.baseScale;
+    if (data.experienceGroupId !== undefined)
+      updateValues.experience_group_id = data.experienceGroupId;
+
+    if (Object.keys(updateValues).length > 0) {
+      await this.db.updateTable('species').set(updateValues).where('id', '=', id).execute();
+    }
+
+    if (data.eggGroupIds !== undefined) {
+      await this.db.deleteFrom('species_egg_groups').where('species_id', '=', id).execute();
+      if (data.eggGroupIds.length > 0) {
+        await this.db
+          .insertInto('species_egg_groups')
+          .values(
+            data.eggGroupIds.map((eggGroupId) => ({ species_id: id, egg_group_id: eggGroupId }))
+          )
+          .execute();
+      }
+    }
+
+    if (data.hitbox !== undefined) {
+      if (data.hitbox) {
+        await this.db
+          .insertInto('species_hitboxes')
+          .values({
+            species_id: id,
+            width: data.hitbox.width,
+            height: data.hitbox.height,
+            fixed: data.hitbox.fixed,
+          })
+          .onConflict((oc) =>
+            oc.column('species_id').doUpdateSet({
+              width: data.hitbox?.width,
+              height: data.hitbox?.height,
+              fixed: data.hitbox?.fixed,
+            })
+          )
+          .execute();
       } else {
-        const existing = await trx
-          .selectFrom('species')
-          .select(['id', 'slug'])
-          .where('slug', '=', identifier)
-          .executeTakeFirst();
-        if (!existing) return null;
-        id = existing.id;
-        slug = newSlug ?? existing.slug;
+        await this.db.deleteFrom('species_hitboxes').where('species_id', '=', id).execute();
       }
+    }
 
-      const updateValues: Record<string, unknown> = {};
-      if (newSlug !== undefined) updateValues.slug = newSlug;
-      if (data.name !== undefined) updateValues.name = data.name;
-      if (data.description !== undefined) updateValues.description = data.description;
-      if (data.generation !== undefined) updateValues.generation = data.generation;
-      if (data.catchRate !== undefined) updateValues.catch_rate = data.catchRate;
-      if (data.baseFriendship !== undefined) updateValues.base_friendship = data.baseFriendship;
-      if (data.eggCycles !== undefined) updateValues.egg_cycles = data.eggCycles;
-      if (data.maleRatio !== undefined) updateValues.male_ratio = data.maleRatio;
-      if (data.baseScale !== undefined) updateValues.base_scale = data.baseScale;
-      if (data.experienceGroupId !== undefined)
-        updateValues.experience_group_id = data.experienceGroupId;
-
-      if (Object.keys(updateValues).length > 0) {
-        await trx.updateTable('species').set(updateValues).where('id', '=', id).execute();
-      }
-
-      if (data.eggGroupIds !== undefined) {
-        await trx.deleteFrom('species_egg_groups').where('species_id', '=', id).execute();
-        if (data.eggGroupIds.length > 0) {
-          await trx
-            .insertInto('species_egg_groups')
-            .values(
-              data.eggGroupIds.map((eggGroupId) => ({ species_id: id, egg_group_id: eggGroupId }))
-            )
-            .execute();
-        }
-      }
-
-      if (data.hitbox !== undefined) {
-        if (data.hitbox) {
-          await trx
-            .insertInto('species_hitboxes')
-            .values({
-              species_id: id,
-              width: data.hitbox.width,
-              height: data.hitbox.height,
-              fixed: data.hitbox.fixed,
+    if (data.lighting !== undefined) {
+      if (data.lighting) {
+        await this.db
+          .insertInto('lighting')
+          .values({
+            species_id: id,
+            light_level: data.lighting.lightLevel,
+            liquid_glow_mode: data.lighting.liquidGlowMode ?? null,
+          })
+          .onConflict((oc) =>
+            oc.column('species_id').doUpdateSet({
+              light_level: data.lighting?.lightLevel,
+              liquid_glow_mode: data.lighting?.liquidGlowMode ?? null,
             })
-            .onConflict((oc) =>
-              oc.column('species_id').doUpdateSet({
-                width: data.hitbox?.width,
-                height: data.hitbox?.height,
-                fixed: data.hitbox?.fixed,
-              })
-            )
-            .execute();
-        } else {
-          await trx.deleteFrom('species_hitboxes').where('species_id', '=', id).execute();
-        }
+          )
+          .execute();
+      } else {
+        await this.db.deleteFrom('lighting').where('species_id', '=', id).execute();
       }
+    }
 
-      if (data.lighting !== undefined) {
-        if (data.lighting) {
-          await trx
-            .insertInto('lighting')
-            .values({
-              species_id: id,
-              light_level: data.lighting.lightLevel,
-              liquid_glow_mode: data.lighting.liquidGlowMode ?? null,
+    if (data.riding !== undefined) {
+      if (data.riding) {
+        await this.db
+          .insertInto('riding')
+          .values({
+            species_id: id,
+            data: data.riding.data as Json,
+          })
+          .onConflict((oc) =>
+            oc.column('species_id').doUpdateSet({
+              data: data.riding?.data as Json,
             })
-            .onConflict((oc) =>
-              oc.column('species_id').doUpdateSet({
-                light_level: data.lighting?.lightLevel,
-                liquid_glow_mode: data.lighting?.liquidGlowMode ?? null,
-              })
-            )
-            .execute();
-        } else {
-          await trx.deleteFrom('lighting').where('species_id', '=', id).execute();
-        }
+          )
+          .execute();
+      } else {
+        await this.db.deleteFrom('riding').where('species_id', '=', id).execute();
       }
+    }
 
-      if (data.riding !== undefined) {
-        if (data.riding) {
-          await trx
-            .insertInto('riding')
-            .values({
-              species_id: id,
-              data: data.riding.data as Json,
-            })
-            .onConflict((oc) =>
-              oc.column('species_id').doUpdateSet({
-                data: data.riding?.data as Json,
-              })
-            )
-            .execute();
-        } else {
-          await trx.deleteFrom('riding').where('species_id', '=', id).execute();
-        }
-      }
-
-      return { id, slug };
-    });
+    return { id, slug };
   }
 
   async getSpeciesSlugById(id: number): Promise<string | null> {
@@ -1799,112 +1795,358 @@ export class PokemonRepository {
   }
 
   async createForm(data: CreateForm, slug: string): Promise<CreatedForm> {
-    return this.db.transaction().execute(async (trx) => {
-      await trx
-        .insertInto('forms')
+    await this.db
+      .insertInto('forms')
+      .values({
+        id: data.id,
+        species_id: data.speciesId,
+        slug,
+        name: data.name,
+        form_name: data.formName,
+        description: data.description ?? null,
+        generation: data.generation ?? null,
+        height: data.height,
+        weight: data.weight,
+        base_hp: data.baseHp,
+        base_attack: data.baseAttack,
+        base_defence: data.baseDefence,
+        base_special_attack: data.baseSpecialAttack,
+        base_special_defence: data.baseSpecialDefence,
+        base_speed: data.baseSpeed,
+        base_experience_yield: data.baseExperienceYield ?? null,
+        ev_hp: data.evHp ?? 0,
+        ev_attack: data.evAttack ?? 0,
+        ev_defence: data.evDefence ?? 0,
+        ev_special_attack: data.evSpecialAttack ?? 0,
+        ev_special_defence: data.evSpecialDefence ?? 0,
+        ev_speed: data.evSpeed ?? 0,
+      })
+      .execute();
+
+    if (data.types?.length) {
+      await this.db
+        .insertInto('form_types')
+        .values(data.types.map((t) => ({ form_id: data.id, type_id: t.typeId, slot: t.slot })))
+        .execute();
+    }
+
+    if (data.abilities?.length) {
+      await this.db
+        .insertInto('form_abilities')
+        .values(
+          data.abilities.map((a) => ({
+            form_id: data.id,
+            ability_id: a.abilityId,
+            slot_id: a.slotId,
+          }))
+        )
+        .execute();
+    }
+
+    if (data.labelIds?.length) {
+      await this.db
+        .insertInto('form_labels')
+        .values(data.labelIds.map((labelId) => ({ form_id: data.id, label_id: labelId })))
+        .execute();
+    }
+
+    if (data.aspectChoiceIds?.length) {
+      await this.db
+        .insertInto('form_aspects')
+        .values(
+          data.aspectChoiceIds.map((aspectChoiceId) => ({
+            form_id: data.id,
+            aspect_choice_id: aspectChoiceId,
+          }))
+        )
+        .execute();
+    }
+
+    if (data.hitbox) {
+      await this.db
+        .insertInto('form_hitboxes')
         .values({
-          id: data.id,
-          species_id: data.speciesId,
-          slug,
-          name: data.name,
-          form_name: data.formName,
-          description: data.description ?? null,
-          generation: data.generation ?? null,
-          height: data.height,
-          weight: data.weight,
-          base_hp: data.baseHp,
-          base_attack: data.baseAttack,
-          base_defence: data.baseDefence,
-          base_special_attack: data.baseSpecialAttack,
-          base_special_defence: data.baseSpecialDefence,
-          base_speed: data.baseSpeed,
-          base_experience_yield: data.baseExperienceYield ?? null,
-          ev_hp: data.evHp ?? 0,
-          ev_attack: data.evAttack ?? 0,
-          ev_defence: data.evDefence ?? 0,
-          ev_special_attack: data.evSpecialAttack ?? 0,
-          ev_special_defence: data.evSpecialDefence ?? 0,
-          ev_speed: data.evSpeed ?? 0,
+          form_id: data.id,
+          width: data.hitbox.width,
+          height: data.hitbox.height,
+          fixed: data.hitbox.fixed,
         })
         .execute();
+    }
 
-      if (data.types?.length) {
-        await trx
-          .insertInto('form_types')
-          .values(data.types.map((t) => ({ form_id: data.id, type_id: t.typeId, slot: t.slot })))
+    if (data.overrides) {
+      await this.db
+        .insertInto('form_overrides')
+        .values({
+          form_id: data.id,
+          catch_rate: data.overrides.catchRate ?? null,
+          base_friendship: data.overrides.baseFriendship ?? null,
+          egg_cycles: data.overrides.eggCycles ?? null,
+          male_ratio: data.overrides.maleRatio ?? null,
+          base_scale: data.overrides.baseScale ?? null,
+        })
+        .execute();
+    }
+
+    if (data.drops) {
+      await this.db
+        .insertInto('form_drops')
+        .values({ form_id: data.id, amount: data.drops.amount })
+        .execute();
+
+      if (data.drops.percentages?.length) {
+        await this.db
+          .insertInto('drop_percentages')
+          .values(
+            data.drops.percentages.map((p) => ({
+              form_id: data.id,
+              item_id: p.itemId,
+              percentage: p.percentage,
+            }))
+          )
           .execute();
       }
 
-      if (data.abilities?.length) {
-        await trx
+      if (data.drops.ranges?.length) {
+        await this.db
+          .insertInto('drop_ranges')
+          .values(
+            data.drops.ranges.map((r) => ({
+              form_id: data.id,
+              item_id: r.itemId,
+              quantity_min: r.quantityMin,
+              quantity_max: r.quantityMax,
+            }))
+          )
+          .execute();
+      }
+    }
+
+    if (data.aspectCombos?.length) {
+      for (const combo of data.aspectCombos) {
+        const insertedCombo = await this.db
+          .insertInto('form_aspect_combos')
+          .values({ form_id: data.id, combo_index: combo.comboIndex })
+          .returning('id')
+          .executeTakeFirstOrThrow();
+
+        if (combo.aspectIds.length) {
+          await this.db
+            .insertInto('form_aspect_combo_aspects')
+            .values(
+              combo.aspectIds.map((aspectId) => ({
+                combo_id: insertedCombo.id,
+                aspect_id: aspectId,
+              }))
+            )
+            .execute();
+        }
+      }
+    }
+
+    if (data.behaviour) {
+      await this.db
+        .insertInto('behaviour')
+        .values({ form_id: data.id, data: data.behaviour.data as Json })
+        .execute();
+    }
+
+    if (data.moves?.length) {
+      await this.db
+        .insertInto('form_moves')
+        .values(
+          data.moves.map((m) => ({
+            form_id: data.id,
+            move_id: m.moveId,
+            method_id: m.methodId,
+            level: m.level ?? null,
+          }))
+        )
+        .execute();
+    }
+
+    return { id: data.id, slug };
+  }
+
+  async updateForm(
+    identifier: string,
+    data: UpdateForm,
+    newSlug?: string
+  ): Promise<UpdatedForm | null> {
+    const isId = /^\d+$/.test(identifier);
+    const formId = isId ? Number(identifier) : null;
+
+    let id: number;
+    let slug: string;
+
+    if (formId) {
+      const existing = await this.db
+        .selectFrom('forms')
+        .select(['id', 'slug'])
+        .where('id', '=', formId)
+        .executeTakeFirst();
+      if (!existing) return null;
+      id = existing.id;
+      slug = newSlug ?? existing.slug;
+    } else {
+      const existing = await this.db
+        .selectFrom('forms')
+        .select(['id', 'slug'])
+        .where('slug', '=', identifier)
+        .executeTakeFirst();
+      if (!existing) return null;
+      id = existing.id;
+      slug = newSlug ?? existing.slug;
+    }
+
+    const updateValues: Record<string, unknown> = {};
+    if (newSlug !== undefined) updateValues.slug = newSlug;
+    if (data.name !== undefined) updateValues.name = data.name;
+    if (data.formName !== undefined) updateValues.form_name = data.formName;
+    if (data.description !== undefined) updateValues.description = data.description;
+    if (data.generation !== undefined) updateValues.generation = data.generation;
+    if (data.height !== undefined) updateValues.height = data.height;
+    if (data.weight !== undefined) updateValues.weight = data.weight;
+    if (data.baseHp !== undefined) updateValues.base_hp = data.baseHp;
+    if (data.baseAttack !== undefined) updateValues.base_attack = data.baseAttack;
+    if (data.baseDefence !== undefined) updateValues.base_defence = data.baseDefence;
+    if (data.baseSpecialAttack !== undefined)
+      updateValues.base_special_attack = data.baseSpecialAttack;
+    if (data.baseSpecialDefence !== undefined)
+      updateValues.base_special_defence = data.baseSpecialDefence;
+    if (data.baseSpeed !== undefined) updateValues.base_speed = data.baseSpeed;
+    if (data.baseExperienceYield !== undefined)
+      updateValues.base_experience_yield = data.baseExperienceYield;
+    if (data.evHp !== undefined) updateValues.ev_hp = data.evHp;
+    if (data.evAttack !== undefined) updateValues.ev_attack = data.evAttack;
+    if (data.evDefence !== undefined) updateValues.ev_defence = data.evDefence;
+    if (data.evSpecialAttack !== undefined) updateValues.ev_special_attack = data.evSpecialAttack;
+    if (data.evSpecialDefence !== undefined)
+      updateValues.ev_special_defence = data.evSpecialDefence;
+    if (data.evSpeed !== undefined) updateValues.ev_speed = data.evSpeed;
+
+    if (Object.keys(updateValues).length > 0) {
+      await this.db.updateTable('forms').set(updateValues).where('id', '=', id).execute();
+    }
+
+    if (data.types !== undefined) {
+      await this.db.deleteFrom('form_types').where('form_id', '=', id).execute();
+      if (data.types.length > 0) {
+        await this.db
+          .insertInto('form_types')
+          .values(data.types.map((t) => ({ form_id: id, type_id: t.typeId, slot: t.slot })))
+          .execute();
+      }
+    }
+
+    if (data.abilities !== undefined) {
+      await this.db.deleteFrom('form_abilities').where('form_id', '=', id).execute();
+      if (data.abilities.length > 0) {
+        await this.db
           .insertInto('form_abilities')
           .values(
             data.abilities.map((a) => ({
-              form_id: data.id,
+              form_id: id,
               ability_id: a.abilityId,
               slot_id: a.slotId,
             }))
           )
           .execute();
       }
+    }
 
-      if (data.labelIds?.length) {
-        await trx
+    if (data.labelIds !== undefined) {
+      await this.db.deleteFrom('form_labels').where('form_id', '=', id).execute();
+      if (data.labelIds.length > 0) {
+        await this.db
           .insertInto('form_labels')
-          .values(data.labelIds.map((labelId) => ({ form_id: data.id, label_id: labelId })))
+          .values(data.labelIds.map((labelId) => ({ form_id: id, label_id: labelId })))
           .execute();
       }
+    }
 
-      if (data.aspectChoiceIds?.length) {
-        await trx
+    if (data.aspectChoiceIds !== undefined) {
+      await this.db.deleteFrom('form_aspects').where('form_id', '=', id).execute();
+      if (data.aspectChoiceIds.length > 0) {
+        await this.db
           .insertInto('form_aspects')
           .values(
             data.aspectChoiceIds.map((aspectChoiceId) => ({
-              form_id: data.id,
+              form_id: id,
               aspect_choice_id: aspectChoiceId,
             }))
           )
           .execute();
       }
+    }
 
+    if (data.hitbox !== undefined) {
       if (data.hitbox) {
-        await trx
+        await this.db
           .insertInto('form_hitboxes')
           .values({
-            form_id: data.id,
+            form_id: id,
             width: data.hitbox.width,
             height: data.hitbox.height,
             fixed: data.hitbox.fixed,
           })
+          .onConflict((oc) =>
+            oc.column('form_id').doUpdateSet({
+              width: data.hitbox?.width,
+              height: data.hitbox?.height,
+              fixed: data.hitbox?.fixed,
+            })
+          )
           .execute();
+      } else {
+        await this.db.deleteFrom('form_hitboxes').where('form_id', '=', id).execute();
       }
+    }
 
+    if (data.overrides !== undefined) {
       if (data.overrides) {
-        await trx
+        await this.db
           .insertInto('form_overrides')
           .values({
-            form_id: data.id,
+            form_id: id,
             catch_rate: data.overrides.catchRate ?? null,
             base_friendship: data.overrides.baseFriendship ?? null,
             egg_cycles: data.overrides.eggCycles ?? null,
             male_ratio: data.overrides.maleRatio ?? null,
             base_scale: data.overrides.baseScale ?? null,
           })
+          .onConflict((oc) =>
+            oc.column('form_id').doUpdateSet({
+              catch_rate: data.overrides?.catchRate ?? null,
+              base_friendship: data.overrides?.baseFriendship ?? null,
+              egg_cycles: data.overrides?.eggCycles ?? null,
+              male_ratio: data.overrides?.maleRatio ?? null,
+              base_scale: data.overrides?.baseScale ?? null,
+            })
+          )
           .execute();
+      } else {
+        await this.db.deleteFrom('form_overrides').where('form_id', '=', id).execute();
       }
+    }
+
+    if (data.drops !== undefined) {
+      await this.db.deleteFrom('drop_percentages').where('form_id', '=', id).execute();
+      await this.db.deleteFrom('drop_ranges').where('form_id', '=', id).execute();
+      await this.db.deleteFrom('form_drops').where('form_id', '=', id).execute();
 
       if (data.drops) {
-        await trx
+        await this.db
           .insertInto('form_drops')
-          .values({ form_id: data.id, amount: data.drops.amount })
+          .values({ form_id: id, amount: data.drops.amount })
           .execute();
 
         if (data.drops.percentages?.length) {
-          await trx
+          await this.db
             .insertInto('drop_percentages')
             .values(
               data.drops.percentages.map((p) => ({
-                form_id: data.id,
+                form_id: id,
                 item_id: p.itemId,
                 percentage: p.percentage,
               }))
@@ -1913,11 +2155,11 @@ export class PokemonRepository {
         }
 
         if (data.drops.ranges?.length) {
-          await trx
+          await this.db
             .insertInto('drop_ranges')
             .values(
               data.drops.ranges.map((r) => ({
-                form_id: data.id,
+                form_id: id,
                 item_id: r.itemId,
                 quantity_min: r.quantityMin,
                 quantity_max: r.quantityMax,
@@ -1926,17 +2168,33 @@ export class PokemonRepository {
             .execute();
         }
       }
+    }
 
-      if (data.aspectCombos?.length) {
+    if (data.aspectCombos !== undefined) {
+      const existingCombos = await this.db
+        .selectFrom('form_aspect_combos')
+        .select('id')
+        .where('form_id', '=', id)
+        .execute();
+
+      for (const combo of existingCombos) {
+        await this.db
+          .deleteFrom('form_aspect_combo_aspects')
+          .where('combo_id', '=', combo.id)
+          .execute();
+      }
+      await this.db.deleteFrom('form_aspect_combos').where('form_id', '=', id).execute();
+
+      if (data.aspectCombos.length > 0) {
         for (const combo of data.aspectCombos) {
-          const insertedCombo = await trx
+          const insertedCombo = await this.db
             .insertInto('form_aspect_combos')
-            .values({ form_id: data.id, combo_index: combo.comboIndex })
+            .values({ form_id: id, combo_index: combo.comboIndex })
             .returning('id')
             .executeTakeFirstOrThrow();
 
           if (combo.aspectIds.length) {
-            await trx
+            await this.db
               .insertInto('form_aspect_combo_aspects')
               .values(
                 combo.aspectIds.map((aspectId) => ({
@@ -1948,20 +2206,32 @@ export class PokemonRepository {
           }
         }
       }
+    }
 
+    if (data.behaviour !== undefined) {
       if (data.behaviour) {
-        await trx
+        await this.db
           .insertInto('behaviour')
-          .values({ form_id: data.id, data: data.behaviour.data as Json })
+          .values({ form_id: id, data: data.behaviour.data as Json })
+          .onConflict((oc) =>
+            oc.column('form_id').doUpdateSet({
+              data: data.behaviour?.data as Json,
+            })
+          )
           .execute();
+      } else {
+        await this.db.deleteFrom('behaviour').where('form_id', '=', id).execute();
       }
+    }
 
-      if (data.moves?.length) {
-        await trx
+    if (data.moves !== undefined) {
+      await this.db.deleteFrom('form_moves').where('form_id', '=', id).execute();
+      if (data.moves.length > 0) {
+        await this.db
           .insertInto('form_moves')
           .values(
             data.moves.map((m) => ({
-              form_id: data.id,
+              form_id: id,
               move_id: m.moveId,
               method_id: m.methodId,
               level: m.level ?? null,
@@ -1969,287 +2239,9 @@ export class PokemonRepository {
           )
           .execute();
       }
+    }
 
-      return { id: data.id, slug };
-    });
-  }
-
-  async updateForm(
-    identifier: string,
-    data: UpdateForm,
-    newSlug?: string
-  ): Promise<UpdatedForm | null> {
-    const isId = /^\d+$/.test(identifier);
-    const formId = isId ? Number(identifier) : null;
-
-    return this.db.transaction().execute(async (trx) => {
-      let id: number;
-      let slug: string;
-
-      if (formId) {
-        const existing = await trx
-          .selectFrom('forms')
-          .select(['id', 'slug'])
-          .where('id', '=', formId)
-          .executeTakeFirst();
-        if (!existing) return null;
-        id = existing.id;
-        slug = newSlug ?? existing.slug;
-      } else {
-        const existing = await trx
-          .selectFrom('forms')
-          .select(['id', 'slug'])
-          .where('slug', '=', identifier)
-          .executeTakeFirst();
-        if (!existing) return null;
-        id = existing.id;
-        slug = newSlug ?? existing.slug;
-      }
-
-      const updateValues: Record<string, unknown> = {};
-      if (newSlug !== undefined) updateValues.slug = newSlug;
-      if (data.name !== undefined) updateValues.name = data.name;
-      if (data.formName !== undefined) updateValues.form_name = data.formName;
-      if (data.description !== undefined) updateValues.description = data.description;
-      if (data.generation !== undefined) updateValues.generation = data.generation;
-      if (data.height !== undefined) updateValues.height = data.height;
-      if (data.weight !== undefined) updateValues.weight = data.weight;
-      if (data.baseHp !== undefined) updateValues.base_hp = data.baseHp;
-      if (data.baseAttack !== undefined) updateValues.base_attack = data.baseAttack;
-      if (data.baseDefence !== undefined) updateValues.base_defence = data.baseDefence;
-      if (data.baseSpecialAttack !== undefined)
-        updateValues.base_special_attack = data.baseSpecialAttack;
-      if (data.baseSpecialDefence !== undefined)
-        updateValues.base_special_defence = data.baseSpecialDefence;
-      if (data.baseSpeed !== undefined) updateValues.base_speed = data.baseSpeed;
-      if (data.baseExperienceYield !== undefined)
-        updateValues.base_experience_yield = data.baseExperienceYield;
-      if (data.evHp !== undefined) updateValues.ev_hp = data.evHp;
-      if (data.evAttack !== undefined) updateValues.ev_attack = data.evAttack;
-      if (data.evDefence !== undefined) updateValues.ev_defence = data.evDefence;
-      if (data.evSpecialAttack !== undefined) updateValues.ev_special_attack = data.evSpecialAttack;
-      if (data.evSpecialDefence !== undefined)
-        updateValues.ev_special_defence = data.evSpecialDefence;
-      if (data.evSpeed !== undefined) updateValues.ev_speed = data.evSpeed;
-
-      if (Object.keys(updateValues).length > 0) {
-        await trx.updateTable('forms').set(updateValues).where('id', '=', id).execute();
-      }
-
-      if (data.types !== undefined) {
-        await trx.deleteFrom('form_types').where('form_id', '=', id).execute();
-        if (data.types.length > 0) {
-          await trx
-            .insertInto('form_types')
-            .values(data.types.map((t) => ({ form_id: id, type_id: t.typeId, slot: t.slot })))
-            .execute();
-        }
-      }
-
-      if (data.abilities !== undefined) {
-        await trx.deleteFrom('form_abilities').where('form_id', '=', id).execute();
-        if (data.abilities.length > 0) {
-          await trx
-            .insertInto('form_abilities')
-            .values(
-              data.abilities.map((a) => ({
-                form_id: id,
-                ability_id: a.abilityId,
-                slot_id: a.slotId,
-              }))
-            )
-            .execute();
-        }
-      }
-
-      if (data.labelIds !== undefined) {
-        await trx.deleteFrom('form_labels').where('form_id', '=', id).execute();
-        if (data.labelIds.length > 0) {
-          await trx
-            .insertInto('form_labels')
-            .values(data.labelIds.map((labelId) => ({ form_id: id, label_id: labelId })))
-            .execute();
-        }
-      }
-
-      if (data.aspectChoiceIds !== undefined) {
-        await trx.deleteFrom('form_aspects').where('form_id', '=', id).execute();
-        if (data.aspectChoiceIds.length > 0) {
-          await trx
-            .insertInto('form_aspects')
-            .values(
-              data.aspectChoiceIds.map((aspectChoiceId) => ({
-                form_id: id,
-                aspect_choice_id: aspectChoiceId,
-              }))
-            )
-            .execute();
-        }
-      }
-
-      if (data.hitbox !== undefined) {
-        if (data.hitbox) {
-          await trx
-            .insertInto('form_hitboxes')
-            .values({
-              form_id: id,
-              width: data.hitbox.width,
-              height: data.hitbox.height,
-              fixed: data.hitbox.fixed,
-            })
-            .onConflict((oc) =>
-              oc.column('form_id').doUpdateSet({
-                width: data.hitbox?.width,
-                height: data.hitbox?.height,
-                fixed: data.hitbox?.fixed,
-              })
-            )
-            .execute();
-        } else {
-          await trx.deleteFrom('form_hitboxes').where('form_id', '=', id).execute();
-        }
-      }
-
-      if (data.overrides !== undefined) {
-        if (data.overrides) {
-          await trx
-            .insertInto('form_overrides')
-            .values({
-              form_id: id,
-              catch_rate: data.overrides.catchRate ?? null,
-              base_friendship: data.overrides.baseFriendship ?? null,
-              egg_cycles: data.overrides.eggCycles ?? null,
-              male_ratio: data.overrides.maleRatio ?? null,
-              base_scale: data.overrides.baseScale ?? null,
-            })
-            .onConflict((oc) =>
-              oc.column('form_id').doUpdateSet({
-                catch_rate: data.overrides?.catchRate ?? null,
-                base_friendship: data.overrides?.baseFriendship ?? null,
-                egg_cycles: data.overrides?.eggCycles ?? null,
-                male_ratio: data.overrides?.maleRatio ?? null,
-                base_scale: data.overrides?.baseScale ?? null,
-              })
-            )
-            .execute();
-        } else {
-          await trx.deleteFrom('form_overrides').where('form_id', '=', id).execute();
-        }
-      }
-
-      if (data.drops !== undefined) {
-        await trx.deleteFrom('drop_percentages').where('form_id', '=', id).execute();
-        await trx.deleteFrom('drop_ranges').where('form_id', '=', id).execute();
-        await trx.deleteFrom('form_drops').where('form_id', '=', id).execute();
-
-        if (data.drops) {
-          await trx
-            .insertInto('form_drops')
-            .values({ form_id: id, amount: data.drops.amount })
-            .execute();
-
-          if (data.drops.percentages?.length) {
-            await trx
-              .insertInto('drop_percentages')
-              .values(
-                data.drops.percentages.map((p) => ({
-                  form_id: id,
-                  item_id: p.itemId,
-                  percentage: p.percentage,
-                }))
-              )
-              .execute();
-          }
-
-          if (data.drops.ranges?.length) {
-            await trx
-              .insertInto('drop_ranges')
-              .values(
-                data.drops.ranges.map((r) => ({
-                  form_id: id,
-                  item_id: r.itemId,
-                  quantity_min: r.quantityMin,
-                  quantity_max: r.quantityMax,
-                }))
-              )
-              .execute();
-          }
-        }
-      }
-
-      if (data.aspectCombos !== undefined) {
-        const existingCombos = await trx
-          .selectFrom('form_aspect_combos')
-          .select('id')
-          .where('form_id', '=', id)
-          .execute();
-
-        for (const combo of existingCombos) {
-          await trx
-            .deleteFrom('form_aspect_combo_aspects')
-            .where('combo_id', '=', combo.id)
-            .execute();
-        }
-        await trx.deleteFrom('form_aspect_combos').where('form_id', '=', id).execute();
-
-        if (data.aspectCombos.length > 0) {
-          for (const combo of data.aspectCombos) {
-            const insertedCombo = await trx
-              .insertInto('form_aspect_combos')
-              .values({ form_id: id, combo_index: combo.comboIndex })
-              .returning('id')
-              .executeTakeFirstOrThrow();
-
-            if (combo.aspectIds.length) {
-              await trx
-                .insertInto('form_aspect_combo_aspects')
-                .values(
-                  combo.aspectIds.map((aspectId) => ({
-                    combo_id: insertedCombo.id,
-                    aspect_id: aspectId,
-                  }))
-                )
-                .execute();
-            }
-          }
-        }
-      }
-
-      if (data.behaviour !== undefined) {
-        if (data.behaviour) {
-          await trx
-            .insertInto('behaviour')
-            .values({ form_id: id, data: data.behaviour.data as Json })
-            .onConflict((oc) =>
-              oc.column('form_id').doUpdateSet({
-                data: data.behaviour?.data as Json,
-              })
-            )
-            .execute();
-        } else {
-          await trx.deleteFrom('behaviour').where('form_id', '=', id).execute();
-        }
-      }
-
-      if (data.moves !== undefined) {
-        await trx.deleteFrom('form_moves').where('form_id', '=', id).execute();
-        if (data.moves.length > 0) {
-          await trx
-            .insertInto('form_moves')
-            .values(
-              data.moves.map((m) => ({
-                form_id: id,
-                move_id: m.moveId,
-                method_id: m.methodId,
-                level: m.level ?? null,
-              }))
-            )
-            .execute();
-        }
-      }
-
-      return { id, slug };
-    });
+    return { id, slug };
   }
 
   async getFormWithSpeciesSlug(
@@ -2270,53 +2262,49 @@ export class PokemonRepository {
   async deleteSpecies(identifier: string): Promise<boolean> {
     const isId = /^\d+$/.test(identifier);
 
-    return this.db.transaction().execute(async (trx) => {
-      const species = await trx
-        .selectFrom('species')
-        .select('id')
-        .where(isId ? 'id' : 'slug', '=', isId ? Number(identifier) : identifier)
-        .executeTakeFirst();
+    const species = await this.db
+      .selectFrom('species')
+      .select('id')
+      .where(isId ? 'id' : 'slug', '=', isId ? Number(identifier) : identifier)
+      .executeTakeFirst();
 
-      if (!species) return false;
+    if (!species) return false;
 
-      const formIds = await trx
-        .selectFrom('forms')
-        .select('id')
-        .where('species_id', '=', species.id)
-        .execute();
+    const formIds = await this.db
+      .selectFrom('forms')
+      .select('id')
+      .where('species_id', '=', species.id)
+      .execute();
 
-      for (const { id: formId } of formIds) {
-        await this.deleteFormRelations(trx, formId);
-        await trx.deleteFrom('forms').where('id', '=', formId).execute();
-      }
+    for (const { id: formId } of formIds) {
+      await this.deleteFormRelations(this.db, formId);
+      await this.db.deleteFrom('forms').where('id', '=', formId).execute();
+    }
 
-      await trx.deleteFrom('species_egg_groups').where('species_id', '=', species.id).execute();
-      await trx.deleteFrom('species_hitboxes').where('species_id', '=', species.id).execute();
-      await trx.deleteFrom('lighting').where('species_id', '=', species.id).execute();
-      await trx.deleteFrom('riding').where('species_id', '=', species.id).execute();
-      await trx.deleteFrom('species').where('id', '=', species.id).execute();
+    await this.db.deleteFrom('species_egg_groups').where('species_id', '=', species.id).execute();
+    await this.db.deleteFrom('species_hitboxes').where('species_id', '=', species.id).execute();
+    await this.db.deleteFrom('lighting').where('species_id', '=', species.id).execute();
+    await this.db.deleteFrom('riding').where('species_id', '=', species.id).execute();
+    await this.db.deleteFrom('species').where('id', '=', species.id).execute();
 
-      return true;
-    });
+    return true;
   }
 
   async deleteForm(identifier: string): Promise<boolean> {
     const isId = /^\d+$/.test(identifier);
 
-    return this.db.transaction().execute(async (trx) => {
-      const form = await trx
-        .selectFrom('forms')
-        .select('id')
-        .where(isId ? 'id' : 'slug', '=', isId ? Number(identifier) : identifier)
-        .executeTakeFirst();
+    const form = await this.db
+      .selectFrom('forms')
+      .select('id')
+      .where(isId ? 'id' : 'slug', '=', isId ? Number(identifier) : identifier)
+      .executeTakeFirst();
 
-      if (!form) return false;
+    if (!form) return false;
 
-      await this.deleteFormRelations(trx, form.id);
-      await trx.deleteFrom('forms').where('id', '=', form.id).execute();
+    await this.deleteFormRelations(this.db, form.id);
+    await this.db.deleteFrom('forms').where('id', '=', form.id).execute();
 
-      return true;
-    });
+    return true;
   }
 
   private async deleteFormRelations(trx: Kysely<DB>, formId: number): Promise<void> {

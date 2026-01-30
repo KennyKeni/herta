@@ -315,36 +315,34 @@ export class ArticlesRepository {
     slug: string,
     contentHtml: string | null
   ): Promise<CreatedArticle> {
-    return this.db.transaction().execute(async (trx) => {
-      const result = await trx
-        .insertInto('articles')
-        .values({
-          slug,
-          title: data.title,
-          subtitle: data.subtitle ?? null,
-          description: data.description ?? null,
-          content: data.content,
-          content_html: contentHtml,
-          owner_id: data.ownerId ?? null,
-          cover_image_id: data.coverImageId ?? null,
-        })
-        .returning(['id', 'slug'])
-        .executeTakeFirstOrThrow();
+    const result = await this.db
+      .insertInto('articles')
+      .values({
+        slug,
+        title: data.title,
+        subtitle: data.subtitle ?? null,
+        description: data.description ?? null,
+        content: data.content,
+        content_html: contentHtml,
+        owner_id: data.ownerId ?? null,
+        cover_image_id: data.coverImageId ?? null,
+      })
+      .returning(['id', 'slug'])
+      .executeTakeFirstOrThrow();
 
-      if (data.categoryIds?.length) {
-        await trx
-          .insertInto('article_category_map')
-          .values(
-            data.categoryIds.map((categoryId) => ({
-              article_id: result.id,
-              category_id: categoryId,
-            }))
-          )
-          .execute();
-      }
+    if (data.categoryIds?.length) {
+      await this.db
+        .insertInto('article_category_map')
+        .values(
+          data.categoryIds.map((categoryId) => ({
+            article_id: result.id,
+            category_id: categoryId,
+          }))
+        )
+        .execute();
+    }
 
-      return { id: result.id, slug: result.slug };
-    });
+    return { id: result.id, slug: result.slug };
   }
 
   async updateArticle(
@@ -355,69 +353,65 @@ export class ArticlesRepository {
   ): Promise<UpdatedArticle | null> {
     const isId = /^\d+$/.test(identifier);
 
-    return this.db.transaction().execute(async (trx) => {
-      const existing = await trx
-        .selectFrom('articles')
-        .select(['id', 'slug'])
-        .where(isId ? 'id' : 'slug', '=', isId ? Number(identifier) : identifier)
-        .executeTakeFirst();
+    const existing = await this.db
+      .selectFrom('articles')
+      .select(['id', 'slug'])
+      .where(isId ? 'id' : 'slug', '=', isId ? Number(identifier) : identifier)
+      .executeTakeFirst();
 
-      if (!existing) return null;
+    if (!existing) return null;
 
-      const id = existing.id;
-      const slug = newSlug ?? existing.slug;
+    const id = existing.id;
+    const slug = newSlug ?? existing.slug;
 
-      const updateValues: Record<string, unknown> = {};
-      if (newSlug !== undefined) updateValues.slug = newSlug;
-      if (data.title !== undefined) updateValues.title = data.title;
-      if (data.subtitle !== undefined) updateValues.subtitle = data.subtitle;
-      if (data.description !== undefined) updateValues.description = data.description;
-      if (data.content !== undefined) updateValues.content = data.content;
-      if (contentHtml !== undefined) updateValues.content_html = contentHtml;
-      if (data.ownerId !== undefined) updateValues.owner_id = data.ownerId;
-      if (data.coverImageId !== undefined) updateValues.cover_image_id = data.coverImageId;
+    const updateValues: Record<string, unknown> = {};
+    if (newSlug !== undefined) updateValues.slug = newSlug;
+    if (data.title !== undefined) updateValues.title = data.title;
+    if (data.subtitle !== undefined) updateValues.subtitle = data.subtitle;
+    if (data.description !== undefined) updateValues.description = data.description;
+    if (data.content !== undefined) updateValues.content = data.content;
+    if (contentHtml !== undefined) updateValues.content_html = contentHtml;
+    if (data.ownerId !== undefined) updateValues.owner_id = data.ownerId;
+    if (data.coverImageId !== undefined) updateValues.cover_image_id = data.coverImageId;
 
-      if (Object.keys(updateValues).length > 0) {
-        updateValues.updated_at = new Date();
-        await trx.updateTable('articles').set(updateValues).where('id', '=', id).execute();
+    if (Object.keys(updateValues).length > 0) {
+      updateValues.updated_at = new Date();
+      await this.db.updateTable('articles').set(updateValues).where('id', '=', id).execute();
+    }
+
+    if (data.categoryIds !== undefined) {
+      await this.db.deleteFrom('article_category_map').where('article_id', '=', id).execute();
+      if (data.categoryIds.length > 0) {
+        await this.db
+          .insertInto('article_category_map')
+          .values(
+            data.categoryIds.map((categoryId) => ({
+              article_id: id,
+              category_id: categoryId,
+            }))
+          )
+          .execute();
       }
+    }
 
-      if (data.categoryIds !== undefined) {
-        await trx.deleteFrom('article_category_map').where('article_id', '=', id).execute();
-        if (data.categoryIds.length > 0) {
-          await trx
-            .insertInto('article_category_map')
-            .values(
-              data.categoryIds.map((categoryId) => ({
-                article_id: id,
-                category_id: categoryId,
-              }))
-            )
-            .execute();
-        }
-      }
-
-      return { id, slug };
-    });
+    return { id, slug };
   }
 
   async deleteArticle(identifier: string): Promise<boolean> {
     const isId = /^\d+$/.test(identifier);
 
-    return this.db.transaction().execute(async (trx) => {
-      const article = await trx
-        .selectFrom('articles')
-        .select('id')
-        .where(isId ? 'id' : 'slug', '=', isId ? Number(identifier) : identifier)
-        .executeTakeFirst();
+    const article = await this.db
+      .selectFrom('articles')
+      .select('id')
+      .where(isId ? 'id' : 'slug', '=', isId ? Number(identifier) : identifier)
+      .executeTakeFirst();
 
-      if (!article) return false;
+    if (!article) return false;
 
-      await trx.deleteFrom('article_category_map').where('article_id', '=', article.id).execute();
-      await trx.deleteFrom('articles').where('id', '=', article.id).execute();
+    await this.db.deleteFrom('article_category_map').where('article_id', '=', article.id).execute();
+    await this.db.deleteFrom('articles').where('id', '=', article.id).execute();
 
-      return true;
-    });
+    return true;
   }
 
   async checkArticleExists(slug: string): Promise<boolean> {

@@ -4,6 +4,7 @@ import { generateUniqueSlug, slugFrom } from '@/common/utils/slug';
 import { tiptapToHtml } from '@/common/utils/tiptap';
 import { CACHE_KEYS } from '@/infrastructure/cache/keys';
 import type { CacheService } from '@/infrastructure/cache/service';
+import { withTransaction } from '@/infrastructure/db';
 import type {
   Article,
   ArticleCategory,
@@ -49,7 +50,10 @@ export class ArticlesService {
     );
 
     const contentHtml = data.content ? tiptapToHtml(data.content) : null;
-    const result = await this.articlesRepository.createArticle(data, slug, contentHtml);
+    const result = await withTransaction(async (trx) => {
+      const repo = this.articlesRepository.withTransaction(trx);
+      return repo.createArticle(data, slug, contentHtml);
+    });
     await this.cacheService.deleteByGroup(CACHE_KEYS.articles.searchGroup);
     return result;
   }
@@ -71,12 +75,10 @@ export class ArticlesService {
     }
 
     const contentHtml = data.content ? tiptapToHtml(data.content) : undefined;
-    const result = await this.articlesRepository.updateArticle(
-      identifier,
-      data,
-      newSlug,
-      contentHtml
-    );
+    const result = await withTransaction(async (trx) => {
+      const repo = this.articlesRepository.withTransaction(trx);
+      return repo.updateArticle(identifier, data, newSlug, contentHtml);
+    });
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.articles.searchGroup);
       await this.cacheService.deleteByGroup(CACHE_KEYS.articles.articleGroup(identifier));
@@ -85,7 +87,10 @@ export class ArticlesService {
   }
 
   async deleteArticle(identifier: string): Promise<boolean> {
-    const result = await this.articlesRepository.deleteArticle(identifier);
+    const result = await withTransaction(async (trx) => {
+      const repo = this.articlesRepository.withTransaction(trx);
+      return repo.deleteArticle(identifier);
+    });
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.articles.searchGroup);
       await this.cacheService.deleteByGroup(CACHE_KEYS.articles.articleGroup(identifier));

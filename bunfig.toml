@@ -1,0 +1,4 @@
+[test]
+envFile = ".env.test"
+preload = ["./src/test/setup.ts"]
+timeout = 30000

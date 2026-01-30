@@ -3,7 +3,10 @@
   "version": "1.0.50",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "bun test src",
+    "test:unit": "bun test src/**/*.service.test.ts",
+    "test:integration": "bun test src/**/*.repository.test.ts",
+    "test:watch": "bun test --watch src",
     "dev": "bun run --watch src/index.ts",
     "start": "bun run src/index.ts",
     "migrate:make": "bunx --bun kysely-ctl migrate:make --config .config/kysely.config.ts",
@@ -62,6 +65,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.10",
+    "@types/pg": "^8.16.0",
     "@types/react": "^19.2.9",
     "@types/react-dom": "^19.2.3",
     "@typescript/native-preview": "^7.0.0-dev.20251219.1",
