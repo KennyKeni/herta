@@ -15,10 +15,21 @@ export interface AbilityRef {
   slug: string;
 }
 
+export interface MoveCategoryRef {
+  id: number;
+  slug: string;
+  name: string;
+}
+
 export interface MoveRef {
   id: number;
   name: string;
   slug: string;
+  type: TypeRef;
+  category: MoveCategoryRef;
+  power: number | null;
+  accuracy: number | null;
+  pp: number | null;
 }
 
 export interface AspectRef {

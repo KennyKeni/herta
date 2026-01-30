@@ -18,7 +18,7 @@
     "worker:outbox": "bun run src/workers/outbox-poller.ts",
     "worker:maintenance": "bun run src/workers/maintenance.ts",
     "codegen": "sh -c '. ./.env && DATABASE_URL=\"postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST:-localhost}:${POSTGRES_PORT:-5432}/${POSTGRES_DB}\" kysely-codegen --dialect postgres --out-file ./src/infrastructure/db/types.ts'",
-    "check": "biome check src && tsc --noEmit",
+    "check": "biome check src && tsgo --noEmit",
     "check:fix": "biome check --write src",
     "lint": "biome lint src",
     "lint:fix": "biome lint --write src",

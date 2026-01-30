@@ -255,7 +255,6 @@ export class ArticlesRepository {
       .innerJoin('images as i', 'i.id', 'ai.image_id')
       .select(['ai.article_id', 'ai.image_id', 'ai.sort_order', 'i.s3_key', 'i.mime_type'])
       .where('ai.article_id', 'in', articleIds)
-      .where('i.status', '=', 'published')
       .orderBy('ai.sort_order')
       .execute();
 
@@ -280,7 +279,6 @@ export class ArticlesRepository {
       .selectFrom('images')
       .select(['id', 's3_key', 'mime_type'])
       .where('id', 'in', imageIds)
-      .where('status', '=', 'published')
       .execute();
 
     const map = new Map<string, CoverImage>();

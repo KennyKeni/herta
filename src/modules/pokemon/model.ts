@@ -103,10 +103,21 @@ const AbilityRefSchema = t.Object({
   slug: t.String(),
 });
 
+const MoveCategoryRefSchema = t.Object({
+  id: t.Number(),
+  slug: t.String(),
+  name: t.String(),
+});
+
 const MoveRefSchema = t.Object({
   id: t.Number(),
   name: t.String(),
   slug: t.String(),
+  type: TypeRefSchema,
+  category: MoveCategoryRefSchema,
+  power: t.Nullable(t.Number()),
+  accuracy: t.Nullable(t.Number()),
+  pp: t.Nullable(t.Number()),
 });
 
 const LabelSchema = t.Object({

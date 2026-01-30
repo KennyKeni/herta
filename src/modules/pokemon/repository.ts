@@ -922,12 +922,23 @@ export class PokemonRepository {
           id: number;
           name: string;
           slug: string;
+          type_id: number;
+          type_name: string;
+          type_slug: string;
+          category_id: number;
+          category_slug: string;
+          category_name: string;
+          power: number | null;
+          accuracy: number | null;
+          pp: number | null;
         }[]
       );
     return this.db
       .selectFrom('form_moves as fm')
       .innerJoin('moves as m', 'm.id', 'fm.move_id')
       .innerJoin('move_learn_methods as mlm', 'mlm.id', 'fm.method_id')
+      .innerJoin('types as t', 't.id', 'm.type_id')
+      .innerJoin('move_categories as mc', 'mc.id', 'm.category_id')
       .select([
         'fm.form_id',
         'fm.method_id',
@@ -937,6 +948,15 @@ export class PokemonRepository {
         'm.id',
         'm.name',
         'm.slug',
+        't.id as type_id',
+        't.name as type_name',
+        't.slug as type_slug',
+        'mc.id as category_id',
+        'mc.slug as category_slug',
+        'mc.name as category_name',
+        'm.power',
+        'm.accuracy',
+        'm.pp',
       ])
       .where('fm.form_id', 'in', formIds)
       .execute();
@@ -1230,7 +1250,16 @@ export class PokemonRepository {
         slot: { id: a.slot_id, slug: a.slot_slug, name: a.slot_name },
       })),
       moves: (relations.moves.get(formId) ?? []).map((m) => ({
-        move: { id: m.id, name: m.name, slug: m.slug },
+        move: {
+          id: m.id,
+          name: m.name,
+          slug: m.slug,
+          type: { id: m.type_id, name: m.type_name, slug: m.type_slug },
+          category: { id: m.category_id, slug: m.category_slug, name: m.category_name },
+          power: m.power,
+          accuracy: m.accuracy,
+          pp: m.pp,
+        },
         method: { id: m.method_id, slug: m.method_slug, name: m.method_name },
         level: m.level,
       })),
@@ -2329,7 +2358,6 @@ export class PokemonRepository {
         'i.mime_type',
       ])
       .where('si.species_id', 'in', speciesIds)
-      .where('i.status', '=', 'published')
       .orderBy('si.sort_order')
       .execute();
 
@@ -2385,7 +2413,6 @@ export class PokemonRepository {
         'i.mime_type',
       ])
       .where('fi.form_id', 'in', formIds)
-      .where('i.status', '=', 'published')
       .orderBy('fi.sort_order')
       .execute();
 
