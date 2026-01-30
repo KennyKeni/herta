@@ -67,6 +67,7 @@
     "@typescript/native-preview": "^7.0.0-dev.20251219.1",
     "bun-types": "latest",
     "kysely-codegen": "^0.19.0",
+    "lefthook": "^2.0.16",
     "pg": "^8.16.3"
   },
   "module": "src/index.js"

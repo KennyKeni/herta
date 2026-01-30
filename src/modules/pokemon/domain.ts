@@ -225,6 +225,7 @@ export interface CreateSpecies {
   hitbox?: CreateSpeciesHitbox | null;
   lighting?: CreateSpeciesLighting | null;
   riding?: CreateSpeciesRiding | null;
+  forms?: CreateForm[];
 }
 
 export interface UpdateSpecies {
@@ -303,6 +304,12 @@ export interface CreateFormBehaviour {
   data: unknown;
 }
 
+export interface CreateFormMove {
+  moveId: number;
+  methodId: number;
+  level?: number | null;
+}
+
 export interface CreateForm {
   id: number;
   speciesId: number;
@@ -334,6 +341,7 @@ export interface CreateForm {
   drops?: CreateFormDrops | null;
   aspectCombos?: CreateFormAspectCombo[];
   behaviour?: CreateFormBehaviour | null;
+  moves?: CreateFormMove[];
 }
 
 export interface UpdateForm {
@@ -365,6 +373,7 @@ export interface UpdateForm {
   drops?: CreateFormDrops | null;
   aspectCombos?: CreateFormAspectCombo[];
   behaviour?: CreateFormBehaviour | null;
+  moves?: CreateFormMove[];
 }
 
 export interface CreatedForm {

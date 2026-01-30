@@ -58,7 +58,20 @@ export class PokemonService {
     if (idExists) throw new ConflictError(`Species with id ${data.id} already exists`);
     if (slugExists) throw new ConflictError(`Species with slug '${slug}' already exists`);
 
-    const result = await this.pokemonRepository.createSpecies(data, slug);
+    let formSlugs: Map<number, string> | undefined;
+    if (data.forms?.length) {
+      formSlugs = new Map();
+      for (const form of data.forms) {
+        const formSlug = slugForPokemon(form.name);
+        const { idExists: formIdExists, slugExists: formSlugExists } =
+          await this.pokemonRepository.checkFormExists(form.id, formSlug);
+        if (formIdExists) throw new ConflictError(`Form with id ${form.id} already exists`);
+        if (formSlugExists) throw new ConflictError(`Form with slug '${formSlug}' already exists`);
+        formSlugs.set(form.id, formSlug);
+      }
+    }
+
+    const result = await this.pokemonRepository.createSpecies(data, slug, formSlugs);
     await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
     return result;
   }

@@ -1292,7 +1292,11 @@ export class PokemonRepository {
     return Array.from(comboMap.values());
   }
 
-  async createSpecies(data: CreateSpecies, slug: string): Promise<CreatedSpecies> {
+  async createSpecies(
+    data: CreateSpecies,
+    slug: string,
+    formSlugs?: Map<number, string>
+  ): Promise<CreatedSpecies> {
     return this.db.transaction().execute(async (trx) => {
       await trx
         .insertInto('species')
@@ -1354,6 +1358,191 @@ export class PokemonRepository {
             data: data.riding.data as Json,
           })
           .execute();
+      }
+
+      if (data.forms?.length && formSlugs) {
+        for (const formData of data.forms) {
+          const formSlug = formSlugs.get(formData.id);
+          if (!formSlug) continue;
+
+          await trx
+            .insertInto('forms')
+            .values({
+              id: formData.id,
+              species_id: formData.speciesId,
+              slug: formSlug,
+              name: formData.name,
+              form_name: formData.formName,
+              description: formData.description ?? null,
+              generation: formData.generation ?? null,
+              height: formData.height,
+              weight: formData.weight,
+              base_hp: formData.baseHp,
+              base_attack: formData.baseAttack,
+              base_defence: formData.baseDefence,
+              base_special_attack: formData.baseSpecialAttack,
+              base_special_defence: formData.baseSpecialDefence,
+              base_speed: formData.baseSpeed,
+              base_experience_yield: formData.baseExperienceYield ?? null,
+              ev_hp: formData.evHp ?? 0,
+              ev_attack: formData.evAttack ?? 0,
+              ev_defence: formData.evDefence ?? 0,
+              ev_special_attack: formData.evSpecialAttack ?? 0,
+              ev_special_defence: formData.evSpecialDefence ?? 0,
+              ev_speed: formData.evSpeed ?? 0,
+            })
+            .execute();
+
+          if (formData.types?.length) {
+            await trx
+              .insertInto('form_types')
+              .values(
+                formData.types.map((t) => ({
+                  form_id: formData.id,
+                  type_id: t.typeId,
+                  slot: t.slot,
+                }))
+              )
+              .execute();
+          }
+
+          if (formData.abilities?.length) {
+            await trx
+              .insertInto('form_abilities')
+              .values(
+                formData.abilities.map((a) => ({
+                  form_id: formData.id,
+                  ability_id: a.abilityId,
+                  slot_id: a.slotId,
+                }))
+              )
+              .execute();
+          }
+
+          if (formData.labelIds?.length) {
+            await trx
+              .insertInto('form_labels')
+              .values(
+                formData.labelIds.map((labelId) => ({ form_id: formData.id, label_id: labelId }))
+              )
+              .execute();
+          }
+
+          if (formData.aspectChoiceIds?.length) {
+            await trx
+              .insertInto('form_aspects')
+              .values(
+                formData.aspectChoiceIds.map((aspectChoiceId) => ({
+                  form_id: formData.id,
+                  aspect_choice_id: aspectChoiceId,
+                }))
+              )
+              .execute();
+          }
+
+          if (formData.hitbox) {
+            await trx
+              .insertInto('form_hitboxes')
+              .values({
+                form_id: formData.id,
+                width: formData.hitbox.width,
+                height: formData.hitbox.height,
+                fixed: formData.hitbox.fixed,
+              })
+              .execute();
+          }
+
+          if (formData.overrides) {
+            await trx
+              .insertInto('form_overrides')
+              .values({
+                form_id: formData.id,
+                catch_rate: formData.overrides.catchRate ?? null,
+                base_friendship: formData.overrides.baseFriendship ?? null,
+                egg_cycles: formData.overrides.eggCycles ?? null,
+                male_ratio: formData.overrides.maleRatio ?? null,
+                base_scale: formData.overrides.baseScale ?? null,
+              })
+              .execute();
+          }
+
+          if (formData.drops) {
+            await trx
+              .insertInto('form_drops')
+              .values({ form_id: formData.id, amount: formData.drops.amount })
+              .execute();
+
+            if (formData.drops.percentages?.length) {
+              await trx
+                .insertInto('drop_percentages')
+                .values(
+                  formData.drops.percentages.map((p) => ({
+                    form_id: formData.id,
+                    item_id: p.itemId,
+                    percentage: p.percentage,
+                  }))
+                )
+                .execute();
+            }
+
+            if (formData.drops.ranges?.length) {
+              await trx
+                .insertInto('drop_ranges')
+                .values(
+                  formData.drops.ranges.map((r) => ({
+                    form_id: formData.id,
+                    item_id: r.itemId,
+                    quantity_min: r.quantityMin,
+                    quantity_max: r.quantityMax,
+                  }))
+                )
+                .execute();
+            }
+          }
+
+          if (formData.aspectCombos?.length) {
+            for (const combo of formData.aspectCombos) {
+              const insertedCombo = await trx
+                .insertInto('form_aspect_combos')
+                .values({ form_id: formData.id, combo_index: combo.comboIndex })
+                .returning('id')
+                .executeTakeFirstOrThrow();
+
+              if (combo.aspectIds.length) {
+                await trx
+                  .insertInto('form_aspect_combo_aspects')
+                  .values(
+                    combo.aspectIds.map((aspectId) => ({
+                      combo_id: insertedCombo.id,
+                      aspect_id: aspectId,
+                    }))
+                  )
+                  .execute();
+              }
+            }
+          }
+
+          if (formData.behaviour) {
+            await trx
+              .insertInto('behaviour')
+              .values({ form_id: formData.id, data: formData.behaviour.data as Json })
+              .execute();
+          }
+
+          if (formData.moves?.length) {
+            await trx
+              .insertInto('form_moves')
+              .values(
+                formData.moves.map((m) => ({
+                  form_id: formData.id,
+                  move_id: m.moveId,
+                  method_id: m.methodId,
+                  level: m.level ?? null,
+                }))
+              )
+              .execute();
+          }
+        }
       }
 
       return { id: data.id, slug };
@@ -1715,6 +1904,20 @@ export class PokemonRepository {
           .execute();
       }
 
+      if (data.moves?.length) {
+        await trx
+          .insertInto('form_moves')
+          .values(
+            data.moves.map((m) => ({
+              form_id: data.id,
+              move_id: m.moveId,
+              method_id: m.methodId,
+              level: m.level ?? null,
+            }))
+          )
+          .execute();
+      }
+
       return { id: data.id, slug };
     });
   }
@@ -1976,6 +2179,23 @@ export class PokemonRepository {
         }
       }
 
+      if (data.moves !== undefined) {
+        await trx.deleteFrom('form_moves').where('form_id', '=', id).execute();
+        if (data.moves.length > 0) {
+          await trx
+            .insertInto('form_moves')
+            .values(
+              data.moves.map((m) => ({
+                form_id: id,
+                move_id: m.moveId,
+                method_id: m.methodId,
+                level: m.level ?? null,
+              }))
+            )
+            .execute();
+        }
+      }
+
       return { id, slug };
     });
   }
@@ -2050,6 +2270,7 @@ export class PokemonRepository {
   private async deleteFormRelations(trx: Kysely<DB>, formId: number): Promise<void> {
     await trx.deleteFrom('form_types').where('form_id', '=', formId).execute();
     await trx.deleteFrom('form_abilities').where('form_id', '=', formId).execute();
+    await trx.deleteFrom('form_moves').where('form_id', '=', formId).execute();
     await trx.deleteFrom('form_labels').where('form_id', '=', formId).execute();
     await trx.deleteFrom('form_aspects').where('form_id', '=', formId).execute();
     await trx.deleteFrom('form_hitboxes').where('form_id', '=', formId).execute();

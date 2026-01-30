@@ -362,49 +362,6 @@ const CreateSpeciesRidingSchema = t.Object({
   data: t.Unknown(),
 });
 
-const CreateSpeciesBodySchema = t.Object({
-  id: t.Number(),
-  name: t.String(),
-  description: t.Optional(t.Nullable(t.String())),
-  generation: t.Number(),
-  catchRate: t.Number(),
-  baseFriendship: t.Number(),
-  eggCycles: t.Number(),
-  maleRatio: t.Optional(t.Nullable(t.Number())),
-  baseScale: t.Optional(t.Nullable(t.Number())),
-  experienceGroupId: t.Optional(t.Nullable(t.Number())),
-  eggGroupIds: t.Optional(t.Array(t.Number())),
-  hitbox: t.Optional(t.Nullable(CreateSpeciesHitboxSchema)),
-  lighting: t.Optional(t.Nullable(CreateSpeciesLightingSchema)),
-  riding: t.Optional(t.Nullable(CreateSpeciesRidingSchema)),
-});
-
-const UpdateSpeciesBodySchema = t.Object({
-  name: t.Optional(t.String()),
-  description: t.Optional(t.Nullable(t.String())),
-  generation: t.Optional(t.Number()),
-  catchRate: t.Optional(t.Number()),
-  baseFriendship: t.Optional(t.Number()),
-  eggCycles: t.Optional(t.Number()),
-  maleRatio: t.Optional(t.Nullable(t.Number())),
-  baseScale: t.Optional(t.Nullable(t.Number())),
-  experienceGroupId: t.Optional(t.Nullable(t.Number())),
-  eggGroupIds: t.Optional(t.Array(t.Number())),
-  hitbox: t.Optional(t.Nullable(CreateSpeciesHitboxSchema)),
-  lighting: t.Optional(t.Nullable(CreateSpeciesLightingSchema)),
-  riding: t.Optional(t.Nullable(CreateSpeciesRidingSchema)),
-});
-
-const CreateSpeciesResponseSchema = t.Object({
-  id: t.Number(),
-  slug: t.String(),
-});
-
-const UpdateSpeciesResponseSchema = t.Object({
-  id: t.Number(),
-  slug: t.String(),
-});
-
 const CreateFormTypeSchema = t.Object({
   typeId: t.Number(),
   slot: t.Number(),
@@ -455,6 +412,12 @@ const CreateFormBehaviourSchema = t.Object({
   data: t.Unknown(),
 });
 
+const CreateFormMoveSchema = t.Object({
+  moveId: t.Number(),
+  methodId: t.Number(),
+  level: t.Optional(t.Nullable(t.Number())),
+});
+
 const CreateFormBodySchema = t.Object({
   id: t.Number(),
   speciesId: t.Number(),
@@ -486,6 +449,51 @@ const CreateFormBodySchema = t.Object({
   drops: t.Optional(t.Nullable(CreateFormDropsSchema)),
   aspectCombos: t.Optional(t.Array(CreateFormAspectComboSchema)),
   behaviour: t.Optional(t.Nullable(CreateFormBehaviourSchema)),
+  moves: t.Optional(t.Array(CreateFormMoveSchema)),
+});
+
+const CreateSpeciesBodySchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
+  description: t.Optional(t.Nullable(t.String())),
+  generation: t.Number(),
+  catchRate: t.Number(),
+  baseFriendship: t.Number(),
+  eggCycles: t.Number(),
+  maleRatio: t.Optional(t.Nullable(t.Number())),
+  baseScale: t.Optional(t.Nullable(t.Number())),
+  experienceGroupId: t.Optional(t.Nullable(t.Number())),
+  eggGroupIds: t.Optional(t.Array(t.Number())),
+  hitbox: t.Optional(t.Nullable(CreateSpeciesHitboxSchema)),
+  lighting: t.Optional(t.Nullable(CreateSpeciesLightingSchema)),
+  riding: t.Optional(t.Nullable(CreateSpeciesRidingSchema)),
+  forms: t.Optional(t.Array(CreateFormBodySchema)),
+});
+
+const UpdateSpeciesBodySchema = t.Object({
+  name: t.Optional(t.String()),
+  description: t.Optional(t.Nullable(t.String())),
+  generation: t.Optional(t.Number()),
+  catchRate: t.Optional(t.Number()),
+  baseFriendship: t.Optional(t.Number()),
+  eggCycles: t.Optional(t.Number()),
+  maleRatio: t.Optional(t.Nullable(t.Number())),
+  baseScale: t.Optional(t.Nullable(t.Number())),
+  experienceGroupId: t.Optional(t.Nullable(t.Number())),
+  eggGroupIds: t.Optional(t.Array(t.Number())),
+  hitbox: t.Optional(t.Nullable(CreateSpeciesHitboxSchema)),
+  lighting: t.Optional(t.Nullable(CreateSpeciesLightingSchema)),
+  riding: t.Optional(t.Nullable(CreateSpeciesRidingSchema)),
+});
+
+const CreateSpeciesResponseSchema = t.Object({
+  id: t.Number(),
+  slug: t.String(),
+});
+
+const UpdateSpeciesResponseSchema = t.Object({
+  id: t.Number(),
+  slug: t.String(),
 });
 
 const UpdateFormBodySchema = t.Object({
@@ -517,6 +525,7 @@ const UpdateFormBodySchema = t.Object({
   drops: t.Optional(t.Nullable(CreateFormDropsSchema)),
   aspectCombos: t.Optional(t.Array(CreateFormAspectComboSchema)),
   behaviour: t.Optional(t.Nullable(CreateFormBehaviourSchema)),
+  moves: t.Optional(t.Array(CreateFormMoveSchema)),
 });
 
 const CreateFormResponseSchema = t.Object({
