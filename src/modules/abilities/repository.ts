@@ -18,9 +18,9 @@ export class AbilitiesRepository {
 
     if (!row) return null;
 
-    const flags =
+    const [flags, forms] = await Promise.all([
       options.includeFlags !== false
-        ? await this.db
+        ? this.db
             .selectFrom('ability_flags')
             .innerJoin('ability_flag_types', 'ability_flag_types.id', 'ability_flags.flag_id')
             .select([
@@ -31,7 +31,17 @@ export class AbilitiesRepository {
             ])
             .where('ability_flags.ability_id', '=', row.id)
             .execute()
-        : [];
+        : [],
+      options.includeForms !== false
+        ? this.db
+            .selectFrom('form_abilities')
+            .innerJoin('forms', 'forms.id', 'form_abilities.form_id')
+            .select(['forms.id', 'forms.name', 'forms.slug', 'forms.species_id'])
+            .where('form_abilities.ability_id', '=', row.id)
+            .distinct()
+            .execute()
+        : [],
+    ]);
 
     return {
       id: row.id,
@@ -40,6 +50,12 @@ export class AbilitiesRepository {
       desc: row.desc,
       shortDesc: row.short_desc,
       flags,
+      forms: forms.map((f) => ({
+        id: f.id,
+        name: f.name,
+        slug: f.slug,
+        speciesId: f.species_id,
+      })),
     };
   }
 
@@ -76,8 +92,12 @@ export class AbilitiesRepository {
     if (rows.length === 0) return { data: [], total: Number(countResult.count) };
 
     const abilityIds = rows.map((r) => r.id);
-    const flags = await this.fetchFlags(filters.includeFlags !== false ? abilityIds : []);
+    const [flags, forms] = await Promise.all([
+      this.fetchFlags(filters.includeFlags !== false ? abilityIds : []),
+      this.fetchForms(filters.includeForms !== false ? abilityIds : []),
+    ]);
     const flagsMap = this.groupBy(flags, 'ability_id');
+    const formsMap = this.groupBy(forms, 'ability_id');
 
     const data = rows.map((row) => ({
       id: row.id,
@@ -86,6 +106,12 @@ export class AbilitiesRepository {
       desc: row.desc,
       shortDesc: row.short_desc,
       flags: flagsMap.get(row.id) ?? [],
+      forms: (formsMap.get(row.id) ?? []).map((f) => ({
+        id: f.id,
+        name: f.name,
+        slug: f.slug,
+        speciesId: f.species_id,
+      })),
     }));
 
     return { data, total: Number(countResult.count) };
@@ -158,6 +184,26 @@ export class AbilitiesRepository {
 
         return conditions.length ? eb.or(conditions) : eb.lit(true);
       });
+  }
+
+  private fetchForms(abilityIds: number[]) {
+    if (!abilityIds.length)
+      return Promise.resolve(
+        [] as {
+          ability_id: number;
+          id: number;
+          name: string;
+          slug: string;
+          species_id: number;
+        }[]
+      );
+    return this.db
+      .selectFrom('form_abilities as fa')
+      .innerJoin('forms as f', 'f.id', 'fa.form_id')
+      .select(['fa.ability_id', 'f.id', 'f.name', 'f.slug', 'f.species_id'])
+      .where('fa.ability_id', 'in', abilityIds)
+      .distinct()
+      .execute();
   }
 
   private fetchFlags(abilityIds: number[]) {

@@ -17,7 +17,7 @@ bun run seed                  # Seed database with reference data
 bun run seed:clear            # Clear all seeded data
 bun run worker:outbox         # Start outbox poller worker
 bun run codegen               # Regenerate DB types from schema
-bun run check                 # Run biome check
+bun run check                 # Run biome check + tsgo --noEmit
 bun run check:fix             # Run biome check with auto-fix
 bun run lint                  # Run biome lint
 bun run lint:fix              # Run biome lint with auto-fix
@@ -37,7 +37,7 @@ bun run format:check          # Check formatting without writing
 Always run checks after making changes:
 
 ```bash
-bun run check          # Runs biome check + tsc --noEmit
+bun run check          # Runs biome check + tsgo --noEmit
 bun run check:fix      # Auto-fix linting/formatting issues
 ```
 

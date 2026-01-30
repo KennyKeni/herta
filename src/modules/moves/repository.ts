@@ -55,11 +55,12 @@ export class MovesRepository {
 
     if (!row) return null;
 
-    const [flags, boosts, effects, gmaxSpecies] = await Promise.all([
+    const [flags, boosts, effects, gmaxSpecies, forms] = await Promise.all([
       options.includeFlags !== false ? this.fetchFlagsForMove(row.id) : [],
       options.includeBoosts !== false ? this.fetchBoostsForMove(row.id) : [],
       options.includeEffects !== false ? this.fetchEffectsForMove(row.id) : [],
       options.includeGmaxSpecies !== false ? this.fetchGmaxSpeciesForMove(row.id) : [],
+      options.includeForms !== false ? this.fetchFormsForMove(row.id) : [],
     ]);
 
     return {
@@ -107,7 +108,23 @@ export class MovesRepository {
             }
           : null,
       gmaxSpecies,
+      forms: forms.map((f) => ({
+        id: f.id,
+        name: f.name,
+        slug: f.slug,
+        speciesId: f.species_id,
+      })),
     };
+  }
+
+  private async fetchFormsForMove(moveId: number) {
+    return this.db
+      .selectFrom('form_moves')
+      .innerJoin('forms', 'forms.id', 'form_moves.form_id')
+      .select(['forms.id', 'forms.name', 'forms.slug', 'forms.species_id'])
+      .where('form_moves.move_id', '=', moveId)
+      .distinct()
+      .execute();
   }
 
   private async fetchFlagsForMove(moveId: number) {
@@ -377,11 +394,12 @@ export class MovesRepository {
   }
 
   private async fetchRelations(moveIds: number[], filters: MoveFilter) {
-    const [flags, boosts, effects, gmaxSpecies] = await Promise.all([
+    const [flags, boosts, effects, gmaxSpecies, forms] = await Promise.all([
       this.fetchFlags(filters.includeFlags !== false ? moveIds : []),
       this.fetchBoosts(filters.includeBoosts !== false ? moveIds : []),
       this.fetchEffects(filters.includeEffects !== false ? moveIds : []),
       this.fetchGmaxSpecies(filters.includeGmaxSpecies !== false ? moveIds : []),
+      this.fetchForms(filters.includeForms !== false ? moveIds : []),
     ]);
 
     return {
@@ -389,6 +407,7 @@ export class MovesRepository {
       boosts: this.groupBy(boosts, 'move_id'),
       effects: this.groupBy(effects, 'move_id'),
       gmaxSpecies: this.groupBy(gmaxSpecies, 'move_id'),
+      forms: this.groupBy(forms, 'move_id'),
     };
   }
 
@@ -481,6 +500,26 @@ export class MovesRepository {
       .execute();
   }
 
+  private fetchForms(moveIds: number[]) {
+    if (!moveIds.length)
+      return Promise.resolve(
+        [] as {
+          move_id: number;
+          id: number;
+          name: string;
+          slug: string;
+          species_id: number;
+        }[]
+      );
+    return this.db
+      .selectFrom('form_moves as fm')
+      .innerJoin('forms as f', 'f.id', 'fm.form_id')
+      .select(['fm.move_id', 'f.id', 'f.name', 'f.slug', 'f.species_id'])
+      .where('fm.move_id', 'in', moveIds)
+      .distinct()
+      .execute();
+  }
+
   private fetchGmaxSpecies(moveIds: number[]) {
     if (!moveIds.length)
       return Promise.resolve(
@@ -517,6 +556,7 @@ export class MovesRepository {
     const boosts = relations.boosts.get(row.id) ?? [];
     const effects = relations.effects.get(row.id) ?? [];
     const gmaxSpeciesRows = relations.gmaxSpecies.get(row.id) ?? [];
+    const formsRows = relations.forms.get(row.id) ?? [];
 
     return {
       id: row.id,
@@ -588,6 +628,12 @@ export class MovesRepository {
             }
           : null,
       gmaxSpecies: gmaxSpeciesRows.map((g) => ({ id: g.id, name: g.name, slug: g.slug })),
+      forms: formsRows.map((f) => ({
+        id: f.id,
+        name: f.name,
+        slug: f.slug,
+        speciesId: f.species_id,
+      })),
     };
   }
 }

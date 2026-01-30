@@ -7,6 +7,7 @@ export const IncludeOptionsSchema = t.Object({
   includeEffects: t.Optional(t.Boolean()),
   includeZData: t.Optional(t.Boolean()),
   includeGmaxSpecies: t.Optional(t.Boolean()),
+  includeForms: t.Optional(t.Boolean()),
 });
 
 const MoveFilterSchema = t.Object({
@@ -37,6 +38,13 @@ const SpeciesRefSchema = t.Object({
   id: t.Number(),
   name: t.String(),
   slug: t.String(),
+});
+
+const FormRefSchema = t.Object({
+  id: t.Number(),
+  name: t.String(),
+  slug: t.String(),
+  speciesId: t.Number(),
 });
 
 const MoveCategorySchema = t.Object({
@@ -125,6 +133,7 @@ const MoveSchema = t.Object({
   maxPower: t.Nullable(t.Number()),
   zData: t.Nullable(MoveZDataSchema),
   gmaxSpecies: t.Array(SpeciesRefSchema),
+  forms: t.Array(FormRefSchema),
 });
 
 export const MoveModel = {

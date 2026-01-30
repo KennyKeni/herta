@@ -12,6 +12,13 @@ export interface SpeciesRef {
   slug: string;
 }
 
+export interface FormRef {
+  id: number;
+  name: string;
+  slug: string;
+  speciesId: number;
+}
+
 export interface Move {
   id: number;
   name: string;
@@ -37,6 +44,7 @@ export interface Move {
   maxPower: number | null;
   zData: MoveZData | null;
   gmaxSpecies: SpeciesRef[];
+  forms: FormRef[];
 }
 
 export type MoveSearchResponse = PaginatedResponse<Move>;
@@ -113,6 +121,7 @@ export interface IncludeOptions {
   includeEffects?: boolean;
   includeZData?: boolean;
   includeGmaxSpecies?: boolean;
+  includeForms?: boolean;
 }
 
 export interface MoveFilter extends IncludeOptions {

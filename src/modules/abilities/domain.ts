@@ -1,5 +1,12 @@
 import type { PaginatedResponse } from '@/common/pagination';
 
+export interface FormRef {
+  id: number;
+  name: string;
+  slug: string;
+  speciesId: number;
+}
+
 export interface Ability {
   id: number;
   name: string;
@@ -7,6 +14,7 @@ export interface Ability {
   desc: string | null;
   shortDesc: string | null;
   flags: AbilityFlagType[];
+  forms: FormRef[];
 }
 
 export type AbilitySearchResponse = PaginatedResponse<Ability>;
@@ -20,6 +28,7 @@ export interface AbilityFlagType {
 
 export interface IncludeOptions {
   includeFlags?: boolean;
+  includeForms?: boolean;
 }
 
 export interface AbilityFilter extends IncludeOptions {
