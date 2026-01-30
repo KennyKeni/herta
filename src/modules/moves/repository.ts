@@ -2,7 +2,7 @@ import { type Kysely, sql } from 'kysely';
 import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } from '@/common/fuzzy';
 import { FilterLogic } from '@/common/types';
 import type { DB } from '@/infrastructure/db/types';
-import type { IncludeOptions, Move, MoveFilter } from './domain';
+import type { IncludeOptions, Move, MoveCategory, MoveFilter } from './domain';
 
 export class MovesRepository {
   constructor(private db: Kysely<DB>) {}
@@ -216,6 +216,27 @@ export class MovesRepository {
       .select(['species.id', 'species.name', 'species.slug'])
       .where('gmax_moves.move_id', '=', moveId)
       .execute();
+  }
+
+  async listCategories(
+    limit: number,
+    offset: number
+  ): Promise<{ data: MoveCategory[]; total: number }> {
+    const [rows, countResult] = await Promise.all([
+      this.db
+        .selectFrom('move_categories')
+        .select(['id', 'slug', 'name', 'description'])
+        .orderBy('name')
+        .limit(limit)
+        .offset(offset)
+        .execute(),
+      this.db
+        .selectFrom('move_categories')
+        .select(sql<number>`COUNT(*)`.as('count'))
+        .executeTakeFirstOrThrow(),
+    ]);
+
+    return { data: rows, total: Number(countResult.count) };
   }
 
   async fuzzyResolve(names: string[]): Promise<number[]> {

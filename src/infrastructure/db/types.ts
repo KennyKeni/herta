@@ -238,14 +238,6 @@ export interface FormHitboxes {
   width: number;
 }
 
-export interface FormImages {
-  created_at: Generated<Timestamp>;
-  form_id: number;
-  image_id: string;
-  is_primary: Generated<boolean>;
-  sort_order: Generated<number>;
-}
-
 export interface FormLabels {
   form_id: number;
   label_id: number;
@@ -291,6 +283,7 @@ export interface Forms {
   generation: number | null;
   height: number;
   id: number;
+  image_id: string | null;
   name: string;
   slug: string;
   species_id: number;
@@ -668,6 +661,7 @@ export interface Species {
   experience_group_id: number | null;
   generation: number;
   id: number;
+  image_id: string | null;
   male_ratio: number | null;
   name: string;
   slug: string;
@@ -683,14 +677,6 @@ export interface SpeciesHitboxes {
   height: number;
   species_id: number;
   width: number;
-}
-
-export interface SpeciesImages {
-  created_at: Generated<Timestamp>;
-  image_id: string;
-  is_primary: Generated<boolean>;
-  sort_order: Generated<number>;
-  species_id: number;
 }
 
 export interface Stats {
@@ -771,7 +757,6 @@ export interface DB {
   form_aspects: FormAspects;
   form_drops: FormDrops;
   form_hitboxes: FormHitboxes;
-  form_images: FormImages;
   form_labels: FormLabels;
   form_moves: FormMoves;
   form_override_egg_groups: FormOverrideEggGroups;
@@ -832,7 +817,6 @@ export interface DB {
   species: Species;
   species_egg_groups: SpeciesEggGroups;
   species_hitboxes: SpeciesHitboxes;
-  species_images: SpeciesImages;
   stats: Stats;
   time_ranges: TimeRanges;
   type_matchups: TypeMatchups;

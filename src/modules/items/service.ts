@@ -1,6 +1,6 @@
 import { SEARCH_CONFIG } from '@/common/config';
 import type { PaginatedResponse } from '@/common/pagination';
-import type { IncludeOptions, Item, ItemFilter } from './domain';
+import type { IncludeOptions, Item, ItemFilter, ItemTag } from './domain';
 import type { ItemsRepository } from './repository';
 
 function shouldUseFuzzySearch(name?: string): boolean {
@@ -20,6 +20,13 @@ export class ItemsService {
       limit: filter.limit ?? 20,
       offset: filter.offset ?? 0,
     };
+  }
+
+  async listTags(filter: { limit?: number; offset?: number }): Promise<PaginatedResponse<ItemTag>> {
+    const limit = filter.limit ?? 9999;
+    const offset = filter.offset ?? 0;
+    const { data, total } = await this.itemsRepository.listTags(limit, offset);
+    return { data, total, limit, offset };
   }
 
   async getByIdentifier(identifier: string, options?: IncludeOptions): Promise<Item | null> {

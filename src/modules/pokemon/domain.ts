@@ -45,12 +45,18 @@ export interface AspectChoiceRef {
   value: string;
 }
 
+export interface ImageRef {
+  id: string;
+  url: string;
+}
+
 export interface Species {
   id: number;
   name: string;
   slug: string;
   description: string | null;
   generation: number;
+  image: ImageRef | null;
   experienceGroup: ExperienceGroup | null;
   eggGroups: EggGroup[];
   hitbox: SpeciesHitbox | null;
@@ -71,6 +77,7 @@ export interface Form {
   slug: string;
   description: string | null;
   generation: number | null;
+  image: ImageRef | null;
   height: number;
   weight: number;
   catchRate: number;
@@ -483,32 +490,4 @@ export interface PokemonFilter extends IncludeOptions {
 
   limit?: number;
   offset?: number;
-}
-
-export interface SpeciesImage {
-  imageId: string;
-  url: string;
-  mimeType: string | null;
-  isPrimary: boolean;
-  sortOrder: number;
-}
-
-export interface FormImage {
-  imageId: string;
-  url: string;
-  mimeType: string | null;
-  isPrimary: boolean;
-  sortOrder: number;
-}
-
-export interface AttachImageToSpecies {
-  imageId: string;
-  isPrimary?: boolean;
-  sortOrder?: number;
-}
-
-export interface AttachImageToForm {
-  imageId: string;
-  isPrimary?: boolean;
-  sortOrder?: number;
 }

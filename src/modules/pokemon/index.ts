@@ -89,39 +89,18 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
     }
   )
   .put(
-    '/species/:identifier/images/:imageId',
+    '/species/:identifier/image',
     async ({ params, body, pokemonService }) => {
-      const attached = await pokemonService.attachImageToSpecies(params.identifier, {
-        imageId: params.imageId,
-        ...body,
-      });
-      if (!attached) throw new NotFoundError('Species not found');
+      const result = await pokemonService.setSpeciesImage(params.identifier, body.imageId);
+      if (!result) throw new NotFoundError('Species not found');
       return { success: true };
     },
     {
-      body: PokemonModel.attachImageBody,
+      body: PokemonModel.setImageBody,
       response: PokemonModel.successResponse,
       detail: {
-        summary: 'Attach Image to Species',
-        description: 'Attach an existing image to a species.',
-      },
-    }
-  )
-  .delete(
-    '/species/:identifier/images/:imageId',
-    async ({ params, pokemonService }) => {
-      const detached = await pokemonService.detachImageFromSpecies(
-        params.identifier,
-        params.imageId
-      );
-      if (!detached) throw new NotFoundError('Image not attached to species');
-      return { success: true };
-    },
-    {
-      response: PokemonModel.successResponse,
-      detail: {
-        summary: 'Detach Image from Species',
-        description: 'Remove an image from a species.',
+        summary: 'Set Species Image',
+        description: 'Set or remove the image for a species. Pass null to remove.',
       },
     }
   )
@@ -156,36 +135,18 @@ export const pokemon = new Elysia({ prefix: '/pokemon', tags: ['pokemon'] })
     }
   )
   .put(
-    '/forms/:identifier/images/:imageId',
+    '/forms/:identifier/image',
     async ({ params, body, pokemonService }) => {
-      const attached = await pokemonService.attachImageToForm(params.identifier, {
-        imageId: params.imageId,
-        ...body,
-      });
-      if (!attached) throw new NotFoundError('Form not found');
+      const result = await pokemonService.setFormImage(params.identifier, body.imageId);
+      if (!result) throw new NotFoundError('Form not found');
       return { success: true };
     },
     {
-      body: PokemonModel.attachImageBody,
+      body: PokemonModel.setImageBody,
       response: PokemonModel.successResponse,
       detail: {
-        summary: 'Attach Image to Form',
-        description: 'Attach an existing image to a form.',
-      },
-    }
-  )
-  .delete(
-    '/forms/:identifier/images/:imageId',
-    async ({ params, pokemonService }) => {
-      const detached = await pokemonService.detachImageFromForm(params.identifier, params.imageId);
-      if (!detached) throw new NotFoundError('Image not attached to form');
-      return { success: true };
-    },
-    {
-      response: PokemonModel.successResponse,
-      detail: {
-        summary: 'Detach Image from Form',
-        description: 'Remove an image from a form.',
+        summary: 'Set Form Image',
+        description: 'Set or remove the image for a form. Pass null to remove.',
       },
     }
   )

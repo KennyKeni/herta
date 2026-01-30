@@ -4,8 +4,6 @@ import { shouldUseFuzzySearch, slugForPokemon } from '@/common/utils';
 import { CACHE_KEYS } from '@/infrastructure/cache/keys';
 import type { CacheService } from '@/infrastructure/cache/service';
 import type {
-  AttachImageToForm,
-  AttachImageToSpecies,
   CreatedForm,
   CreatedSpecies,
   CreateForm,
@@ -100,20 +98,11 @@ export class PokemonService {
     return result;
   }
 
-  async attachImageToSpecies(identifier: string, data: AttachImageToSpecies): Promise<boolean> {
+  async setSpeciesImage(identifier: string, imageId: string | null): Promise<boolean> {
     const speciesId = await this.resolveSpeciesId(identifier);
     if (!speciesId) return false;
 
-    await this.pokemonRepository.attachImageToSpecies(speciesId, data);
-    await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.speciesGroup(identifier));
-    return true;
-  }
-
-  async detachImageFromSpecies(identifier: string, imageId: string): Promise<boolean> {
-    const speciesId = await this.resolveSpeciesId(identifier);
-    if (!speciesId) return false;
-
-    const result = await this.pokemonRepository.detachImageFromSpecies(speciesId, imageId);
+    const result = await this.pokemonRepository.setSpeciesImage(speciesId, imageId);
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.speciesGroup(identifier));
     }
@@ -158,20 +147,11 @@ export class PokemonService {
     return result;
   }
 
-  async attachImageToForm(identifier: string, data: AttachImageToForm): Promise<boolean> {
+  async setFormImage(identifier: string, imageId: string | null): Promise<boolean> {
     const formId = await this.resolveFormId(identifier);
     if (!formId) return false;
 
-    await this.pokemonRepository.attachImageToForm(formId, data);
-    await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.formGroup(identifier));
-    return true;
-  }
-
-  async detachImageFromForm(identifier: string, imageId: string): Promise<boolean> {
-    const formId = await this.resolveFormId(identifier);
-    if (!formId) return false;
-
-    const result = await this.pokemonRepository.detachImageFromForm(formId, imageId);
+    const result = await this.pokemonRepository.setFormImage(formId, imageId);
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.formGroup(identifier));
     }

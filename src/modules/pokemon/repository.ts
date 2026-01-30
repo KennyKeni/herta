@@ -7,8 +7,6 @@ import type { Spawn } from '../spawns/domain';
 import { SpawnRepository } from '../spawns/repository';
 import type {
   AspectRef,
-  AttachImageToForm,
-  AttachImageToSpecies,
   CreatedForm,
   CreatedSpecies,
   CreateForm,
@@ -18,11 +16,10 @@ import type {
   Form,
   FormAspectCombo,
   FormDrops,
-  FormImage,
+  ImageRef,
   IncludeOptions,
   PokemonFilter,
   Species,
-  SpeciesImage,
   SpeciesWithForm,
   SpeciesWithForms,
   UpdatedForm,
@@ -52,6 +49,8 @@ export class PokemonRepository {
       .selectFrom('forms as f')
       .innerJoin('species as s', 's.id', 'f.species_id')
       .leftJoin('form_overrides as fo', 'fo.form_id', 'f.id')
+      .leftJoin('images as fi_img', 'fi_img.id', 'f.image_id')
+      .leftJoin('images as si_img', 'si_img.id', 's.image_id')
       .select([
         'f.id as form_id',
         'f.slug as form_slug',
@@ -81,6 +80,12 @@ export class PokemonRepository {
         's.description as species_description',
         's.generation as species_generation',
         's.experience_group_id',
+      ])
+      .select([
+        'f.image_id as form_image_id',
+        'fi_img.s3_key as form_image_s3_key',
+        's.image_id as species_image_id',
+        'si_img.s3_key as species_image_s3_key',
       ])
       .select(sql<number>`COALESCE(fo.catch_rate, s.catch_rate)`.as('catch_rate'))
       .select(sql<number>`COALESCE(fo.base_friendship, s.base_friendship)`.as('base_friendship'))
@@ -112,6 +117,8 @@ export class PokemonRepository {
       .selectFrom('forms as f')
       .innerJoin('species as s', 's.id', 'f.species_id')
       .leftJoin('form_overrides as fo', 'fo.form_id', 'f.id')
+      .leftJoin('images as fi_img', 'fi_img.id', 'f.image_id')
+      .leftJoin('images as si_img', 'si_img.id', 's.image_id')
       .select([
         'f.id as form_id',
         'f.slug as form_slug',
@@ -141,6 +148,12 @@ export class PokemonRepository {
         's.description as species_description',
         's.generation as species_generation',
         's.experience_group_id',
+      ])
+      .select([
+        'f.image_id as form_image_id',
+        'fi_img.s3_key as form_image_s3_key',
+        's.image_id as species_image_id',
+        'si_img.s3_key as species_image_s3_key',
       ])
       .select(sql<number>`COALESCE(fo.catch_rate, s.catch_rate)`.as('catch_rate'))
       .select(sql<number>`COALESCE(fo.base_friendship, s.base_friendship)`.as('base_friendship'))
@@ -380,6 +393,8 @@ export class PokemonRepository {
       .selectFrom('forms as f')
       .innerJoin('species as s', 's.id', 'f.species_id')
       .leftJoin('form_overrides as fo', 'fo.form_id', 'f.id')
+      .leftJoin('images as fi_img', 'fi_img.id', 'f.image_id')
+      .leftJoin('images as si_img', 'si_img.id', 's.image_id')
       .select([
         'f.id as form_id',
         'f.slug as form_slug',
@@ -409,6 +424,12 @@ export class PokemonRepository {
         's.description as species_description',
         's.generation as species_generation',
         's.experience_group_id',
+      ])
+      .select([
+        'f.image_id as form_image_id',
+        'fi_img.s3_key as form_image_s3_key',
+        's.image_id as species_image_id',
+        'si_img.s3_key as species_image_s3_key',
       ])
       .select(sql<number>`COALESCE(fo.catch_rate, s.catch_rate)`.as('catch_rate'))
       .select(sql<number>`COALESCE(fo.base_friendship, s.base_friendship)`.as('base_friendship'))
@@ -1173,6 +1194,7 @@ export class PokemonRepository {
       slug: row.species_slug,
       description: row.species_description,
       generation: row.species_generation,
+      image: this.toImageRef(row.species_image_id, row.species_image_s3_key),
       experienceGroup:
         (row.experience_group_id != null &&
           relations.experienceGroups.get(row.experience_group_id)) ||
@@ -1210,6 +1232,7 @@ export class PokemonRepository {
       slug: row.form_slug,
       description: row.form_description,
       generation: row.form_generation,
+      image: this.toImageRef(row.form_image_id, row.form_image_s3_key),
       height: row.height,
       weight: row.weight,
       catchRate: row.catch_rate,
@@ -2321,113 +2344,26 @@ export class PokemonRepository {
     await trx.deleteFrom('form_aspect_combos').where('form_id', '=', formId).execute();
   }
 
-  async attachImageToSpecies(speciesId: number, data: AttachImageToSpecies): Promise<void> {
-    await this.db
-      .insertInto('species_images')
-      .values({
-        species_id: speciesId,
-        image_id: data.imageId,
-        is_primary: data.isPrimary ?? false,
-        sort_order: data.sortOrder ?? 0,
-      })
-      .execute();
-  }
-
-  async detachImageFromSpecies(speciesId: number, imageId: string): Promise<boolean> {
+  async setSpeciesImage(speciesId: number, imageId: string | null): Promise<boolean> {
     const result = await this.db
-      .deleteFrom('species_images')
-      .where('species_id', '=', speciesId)
-      .where('image_id', '=', imageId)
+      .updateTable('species')
+      .set({ image_id: imageId })
+      .where('id', '=', speciesId)
       .executeTakeFirst();
-
-    return (result.numDeletedRows ?? 0n) > 0n;
+    return (result.numUpdatedRows ?? 0n) > 0n;
   }
 
-  async fetchSpeciesImages(speciesIds: number[]): Promise<Map<number, SpeciesImage[]>> {
-    if (!speciesIds.length) return new Map();
-
-    const rows = await this.db
-      .selectFrom('species_images as si')
-      .innerJoin('images as i', 'i.id', 'si.image_id')
-      .select([
-        'si.species_id',
-        'si.image_id',
-        'si.is_primary',
-        'si.sort_order',
-        'i.s3_key',
-        'i.mime_type',
-      ])
-      .where('si.species_id', 'in', speciesIds)
-      .orderBy('si.sort_order')
-      .execute();
-
-    const map = new Map<number, SpeciesImage[]>();
-    for (const row of rows) {
-      const arr = map.get(row.species_id) ?? [];
-      arr.push({
-        imageId: row.image_id,
-        url: `${config.s3.S3_PUBLIC_URL}/${row.s3_key}`,
-        mimeType: row.mime_type,
-        isPrimary: row.is_primary,
-        sortOrder: row.sort_order,
-      });
-      map.set(row.species_id, arr);
-    }
-    return map;
-  }
-
-  async attachImageToForm(formId: number, data: AttachImageToForm): Promise<void> {
-    await this.db
-      .insertInto('form_images')
-      .values({
-        form_id: formId,
-        image_id: data.imageId,
-        is_primary: data.isPrimary ?? false,
-        sort_order: data.sortOrder ?? 0,
-      })
-      .execute();
-  }
-
-  async detachImageFromForm(formId: number, imageId: string): Promise<boolean> {
+  async setFormImage(formId: number, imageId: string | null): Promise<boolean> {
     const result = await this.db
-      .deleteFrom('form_images')
-      .where('form_id', '=', formId)
-      .where('image_id', '=', imageId)
+      .updateTable('forms')
+      .set({ image_id: imageId })
+      .where('id', '=', formId)
       .executeTakeFirst();
-
-    return (result.numDeletedRows ?? 0n) > 0n;
+    return (result.numUpdatedRows ?? 0n) > 0n;
   }
 
-  async fetchFormImages(formIds: number[]): Promise<Map<number, FormImage[]>> {
-    if (!formIds.length) return new Map();
-
-    const rows = await this.db
-      .selectFrom('form_images as fi')
-      .innerJoin('images as i', 'i.id', 'fi.image_id')
-      .select([
-        'fi.form_id',
-        'fi.image_id',
-        'fi.is_primary',
-        'fi.sort_order',
-        'i.s3_key',
-        'i.mime_type',
-      ])
-      .where('fi.form_id', 'in', formIds)
-      .orderBy('fi.sort_order')
-      .execute();
-
-    const map = new Map<number, FormImage[]>();
-    for (const row of rows) {
-      const arr = map.get(row.form_id) ?? [];
-      arr.push({
-        imageId: row.image_id,
-        url: `${config.s3.S3_PUBLIC_URL}/${row.s3_key}`,
-        mimeType: row.mime_type,
-        isPrimary: row.is_primary,
-        sortOrder: row.sort_order,
-      });
-      map.set(row.form_id, arr);
-    }
-    return map;
+  private toImageRef(imageId: string | null, s3Key: string | null): ImageRef | null {
+    if (!imageId || !s3Key) return null;
+    return { id: imageId, url: `${config.s3.S3_PUBLIC_URL}/${s3Key}` };
   }
 }

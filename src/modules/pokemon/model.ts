@@ -275,6 +275,11 @@ const FormSpawnSchema = t.Object({
   conditions: t.Array(SpawnConditionSchema),
 });
 
+const ImageRefSchema = t.Object({
+  id: t.String(),
+  url: t.String(),
+});
+
 const FormSchema = t.Object({
   id: t.Number(),
   name: t.String(),
@@ -282,6 +287,7 @@ const FormSchema = t.Object({
   slug: t.String(),
   description: t.Nullable(t.String()),
   generation: t.Nullable(t.Number()),
+  image: t.Nullable(ImageRefSchema),
   height: t.Number(),
   weight: t.Number(),
   catchRate: t.Number(),
@@ -326,6 +332,7 @@ const SpeciesSchema = t.Object({
   slug: t.String(),
   description: t.Nullable(t.String()),
   generation: t.Number(),
+  image: t.Nullable(ImageRefSchema),
   experienceGroup: t.Nullable(
     t.Object({
       id: t.Number(),
@@ -549,9 +556,8 @@ const UpdateFormResponseSchema = t.Object({
   slug: t.String(),
 });
 
-const AttachImageBodySchema = t.Object({
-  isPrimary: t.Optional(t.Boolean()),
-  sortOrder: t.Optional(t.Number()),
+const SetImageBodySchema = t.Object({
+  imageId: t.Nullable(t.String()),
 });
 
 const SuccessResponseSchema = t.Object({
@@ -573,6 +579,6 @@ export const PokemonModel = {
   updateFormBody: UpdateFormBodySchema,
   createFormResponse: CreateFormResponseSchema,
   updateFormResponse: UpdateFormResponseSchema,
-  attachImageBody: AttachImageBodySchema,
+  setImageBody: SetImageBodySchema,
   successResponse: SuccessResponseSchema,
 };

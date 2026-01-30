@@ -13,6 +13,14 @@ export const moves = new Elysia({ prefix: '/moves', tags: ['moves'] })
         'List moves with optional filtering by IDs, slugs, types, categories, targets, and flags.',
     },
   })
+  .get('/categories', ({ query, movesService }) => movesService.listCategories(query), {
+    query: MoveModel.categoriesQuery,
+    response: MoveModel.categoriesResponse,
+    detail: {
+      summary: 'List Move Categories',
+      description: 'List all move categories.',
+    },
+  })
   .get(
     '/:identifier',
     async ({ params, query, movesService }) => {

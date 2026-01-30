@@ -110,9 +110,16 @@ const ItemSchema = t.Object({
   recipes: t.Array(RecipeSchema),
 });
 
+const TagsQuerySchema = t.Object({
+  limit: t.Optional(t.Number({ minimum: 1, default: 9999 })),
+  offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
+});
+
 export const ItemModel = {
   searchQuery: ItemSearchQuerySchema,
   searchResponse: PaginatedResponseSchema(ItemSchema),
   getOneQuery: IncludeOptionsSchema,
   getOneResponse: ItemSchema,
+  tagsQuery: TagsQuerySchema,
+  tagsResponse: PaginatedResponseSchema(ItemTagSchema),
 };

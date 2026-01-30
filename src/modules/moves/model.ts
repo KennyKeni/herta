@@ -136,9 +136,16 @@ const MoveSchema = t.Object({
   forms: t.Array(FormRefSchema),
 });
 
+const CategoriesQuerySchema = t.Object({
+  limit: t.Optional(t.Number({ minimum: 1, default: 9999 })),
+  offset: t.Optional(t.Number({ minimum: 0, default: 0 })),
+});
+
 export const MoveModel = {
   searchQuery: MoveSearchQuerySchema,
   searchResponse: PaginatedResponseSchema(MoveSchema),
   getOneQuery: IncludeOptionsSchema,
   getOneResponse: MoveSchema,
+  categoriesQuery: CategoriesQuerySchema,
+  categoriesResponse: PaginatedResponseSchema(MoveCategorySchema),
 };

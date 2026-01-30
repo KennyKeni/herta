@@ -12,6 +12,14 @@ export const items = new Elysia({ prefix: '/items', tags: ['items'] })
       description: 'List items with optional filtering by IDs and tags.',
     },
   })
+  .get('/tags', ({ query, itemsService }) => itemsService.listTags(query), {
+    query: ItemModel.tagsQuery,
+    response: ItemModel.tagsResponse,
+    detail: {
+      summary: 'List Item Tags',
+      description: 'List all item tag types.',
+    },
+  })
   .get(
     '/:identifier',
     async ({ params, query, itemsService }) => {

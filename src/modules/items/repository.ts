@@ -1,7 +1,7 @@
 import { type Kysely, sql } from 'kysely';
 import { createFuzzyMatcher, type FuzzyMatchOptions, type FuzzyMatchResult } from '@/common/fuzzy';
 import type { DB } from '@/infrastructure/db/types';
-import type { IncludeOptions, Item, ItemFilter, Recipe } from './domain';
+import type { IncludeOptions, Item, ItemFilter, ItemTag, Recipe } from './domain';
 
 export class ItemsRepository {
   constructor(private db: Kysely<DB>) {}
@@ -85,6 +85,24 @@ export class ItemsRepository {
       matchColumn: 'name',
       idColumn: 'id',
     })(query, options);
+  }
+
+  async listTags(limit: number, offset: number): Promise<{ data: ItemTag[]; total: number }> {
+    const [rows, countResult] = await Promise.all([
+      this.db
+        .selectFrom('item_tag_types')
+        .select(['id', 'slug', 'name'])
+        .orderBy('name')
+        .limit(limit)
+        .offset(offset)
+        .execute(),
+      this.db
+        .selectFrom('item_tag_types')
+        .select(sql<number>`COUNT(*)`.as('count'))
+        .executeTakeFirstOrThrow(),
+    ]);
+
+    return { data: rows, total: Number(countResult.count) };
   }
 
   async searchItems(
