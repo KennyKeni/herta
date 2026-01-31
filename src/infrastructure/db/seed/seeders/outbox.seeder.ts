@@ -38,11 +38,8 @@ export const outboxSeeder: Seeder = {
       speciesIds.map((r) => r.id)
     );
 
-    const formIds = await db.selectFrom('forms').select('id').execute();
-    total += await seedEntityIds(
-      EntityType.FORM,
-      formIds.map((r) => r.id)
-    );
+    // const formIds = await db.selectFrom('forms').select('id').execute();
+    // total += await seedEntityIds(EntityType.FORM, formIds.map((r) => r.id));
 
     const moveIds = await db.selectFrom('moves').select('id').execute();
     total += await seedEntityIds(
