@@ -5,6 +5,10 @@ import type { EntityType, Operation, OutboxEvent, OutboxEventInsert } from './do
 export class OutboxRepository {
   constructor(private db: Kysely<DB>) {}
 
+  withTransaction(trx: Kysely<DB>): OutboxRepository {
+    return new OutboxRepository(trx);
+  }
+
   async record(entityType: EntityType, entityId: string, operation: Operation): Promise<void> {
     await this.db
       .insertInto('outbox_events')

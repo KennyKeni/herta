@@ -4,6 +4,8 @@ import { shouldUseFuzzySearch, slugForPokemon } from '@/common/utils';
 import { CACHE_KEYS } from '@/infrastructure/cache/keys';
 import type { CacheService } from '@/infrastructure/cache/service';
 import { withTransaction } from '@/infrastructure/db';
+import { EntityType, Operation } from '@/infrastructure/outbox/domain';
+import type { OutboxService } from '@/infrastructure/outbox/service';
 import type {
   CreatedForm,
   CreatedSpecies,
@@ -23,7 +25,8 @@ import type { PokemonRepository } from './repository';
 export class PokemonService {
   constructor(
     private pokemonRepository: PokemonRepository,
-    private cacheService: CacheService
+    private cacheService: CacheService,
+    private outboxService: OutboxService
   ) {}
 
   async search(filter: PokemonFilter): Promise<PaginatedResponse<SpeciesWithForms>> {
@@ -72,7 +75,10 @@ export class PokemonService {
 
     const result = await withTransaction(async (trx) => {
       const repo = this.pokemonRepository.withTransaction(trx);
-      return repo.createSpecies(data, slug, formSlugs);
+      const outbox = this.outboxService.withTransaction(trx);
+      const created = await repo.createSpecies(data, slug, formSlugs);
+      await outbox.record(EntityType.SPECIES, String(created.id), Operation.CREATE);
+      return created;
     });
     await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
     return result;
@@ -96,7 +102,12 @@ export class PokemonService {
 
     const result = await withTransaction(async (trx) => {
       const repo = this.pokemonRepository.withTransaction(trx);
-      return repo.updateSpecies(identifier, data, newSlug);
+      const outbox = this.outboxService.withTransaction(trx);
+      const updated = await repo.updateSpecies(identifier, data, newSlug);
+      if (updated) {
+        await outbox.record(EntityType.SPECIES, String(updated.id), Operation.UPDATE);
+      }
+      return updated;
     });
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
@@ -130,7 +141,10 @@ export class PokemonService {
 
     const result = await withTransaction(async (trx) => {
       const repo = this.pokemonRepository.withTransaction(trx);
-      return repo.createForm(data, slug);
+      const outbox = this.outboxService.withTransaction(trx);
+      const created = await repo.createForm(data, slug);
+      await outbox.record(EntityType.FORM, String(created.id), Operation.CREATE);
+      return created;
     });
     await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
     return result;
@@ -151,7 +165,12 @@ export class PokemonService {
 
     const result = await withTransaction(async (trx) => {
       const repo = this.pokemonRepository.withTransaction(trx);
-      return repo.updateForm(identifier, data, newSlug);
+      const outbox = this.outboxService.withTransaction(trx);
+      const updated = await repo.updateForm(identifier, data, newSlug);
+      if (updated) {
+        await outbox.record(EntityType.FORM, String(updated.id), Operation.UPDATE);
+      }
+      return updated;
     });
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
@@ -178,9 +197,17 @@ export class PokemonService {
   }
 
   async deleteSpecies(identifier: string): Promise<boolean> {
+    const speciesId = await this.resolveSpeciesId(identifier);
+    if (!speciesId) return false;
+
     const result = await withTransaction(async (trx) => {
       const repo = this.pokemonRepository.withTransaction(trx);
-      return repo.deleteSpecies(identifier);
+      const outbox = this.outboxService.withTransaction(trx);
+      const deleted = await repo.deleteSpecies(identifier);
+      if (deleted) {
+        await outbox.record(EntityType.SPECIES, String(speciesId), Operation.DELETE);
+      }
+      return deleted;
     });
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);
@@ -190,9 +217,17 @@ export class PokemonService {
   }
 
   async deleteForm(identifier: string): Promise<boolean> {
+    const formId = await this.resolveFormId(identifier);
+    if (!formId) return false;
+
     const result = await withTransaction(async (trx) => {
       const repo = this.pokemonRepository.withTransaction(trx);
-      return repo.deleteForm(identifier);
+      const outbox = this.outboxService.withTransaction(trx);
+      const deleted = await repo.deleteForm(identifier);
+      if (deleted) {
+        await outbox.record(EntityType.FORM, String(formId), Operation.DELETE);
+      }
+      return deleted;
     });
     if (result) {
       await this.cacheService.deleteByGroup(CACHE_KEYS.pokemon.searchGroup);

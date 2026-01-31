@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it, mock } from 'bun:test';
 import { ConflictError } from '@/common/errors';
 import { createMockCacheService } from '@/test/mocks/cache-service';
+import { createMockOutboxService } from '@/test/mocks/outbox-service';
 import type { PokemonRepository } from '../repository';
 import { PokemonService } from '../service';
 
@@ -39,7 +40,7 @@ describe('PokemonService', () => {
   beforeEach(() => {
     mockRepo = createMockRepository();
     mockCache = createMockCacheService();
-    service = new PokemonService(mockRepo, mockCache);
+    service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
   });
 
   describe('search', () => {
@@ -94,7 +95,7 @@ describe('PokemonService', () => {
       mockRepo = createMockRepository({
         checkSpeciesExists: mock(async () => ({ idExists: true, slugExists: false })),
       });
-      service = new PokemonService(mockRepo, mockCache);
+      service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       expect(
         service.createSpecies({
@@ -112,7 +113,7 @@ describe('PokemonService', () => {
       mockRepo = createMockRepository({
         checkSpeciesExists: mock(async () => ({ idExists: false, slugExists: true })),
       });
-      service = new PokemonService(mockRepo, mockCache);
+      service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       expect(
         service.createSpecies({
@@ -132,7 +133,7 @@ describe('PokemonService', () => {
       mockRepo = createMockRepository({
         updateSpecies: mock(async () => null),
       });
-      service = new PokemonService(mockRepo, mockCache);
+      service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       const result = await service.updateSpecies('999', { generation: 2 });
       expect(result).toBeNull();
@@ -147,7 +148,7 @@ describe('PokemonService', () => {
       mockRepo = createMockRepository({
         checkSpeciesSlugConflict: mock(async () => true),
       });
-      service = new PokemonService(mockRepo, mockCache);
+      service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       expect(service.updateSpecies('1', { name: 'Ivysaur' })).rejects.toBeInstanceOf(ConflictError);
     });
@@ -176,7 +177,7 @@ describe('PokemonService', () => {
       mockRepo = createMockRepository({
         checkFormExists: mock(async () => ({ idExists: true, slugExists: false })),
       });
-      service = new PokemonService(mockRepo, mockCache);
+      service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       expect(
         service.createForm({
@@ -202,7 +203,7 @@ describe('PokemonService', () => {
       mockRepo = createMockRepository({
         updateForm: mock(async () => null),
       });
-      service = new PokemonService(mockRepo, mockCache);
+      service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       const result = await service.updateForm('999', { height: 10 });
       expect(result).toBeNull();
@@ -212,7 +213,7 @@ describe('PokemonService', () => {
       mockRepo = createMockRepository({
         checkFormSlugConflict: mock(async () => true),
       });
-      service = new PokemonService(mockRepo, mockCache);
+      service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       expect(service.updateForm('1', { name: 'Ivysaur' })).rejects.toBeInstanceOf(ConflictError);
     });
@@ -235,7 +236,7 @@ describe('PokemonService', () => {
       mockRepo = createMockRepository({
         getSpeciesIdBySlug: mock(async () => null),
       });
-      service = new PokemonService(mockRepo, mockCache);
+      service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       const result = await service.setSpeciesImage('nonexistent', 'img-123');
       expect(result).toBe(false);
@@ -253,7 +254,7 @@ describe('PokemonService', () => {
       mockRepo = createMockRepository({
         getFormIdBySlug: mock(async () => null),
       });
-      service = new PokemonService(mockRepo, mockCache);
+      service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       const result = await service.setFormImage('nonexistent', 'img-123');
       expect(result).toBe(false);
@@ -271,7 +272,7 @@ describe('PokemonService', () => {
       mockRepo = createMockRepository({
         deleteSpecies: mock(async () => false),
       });
-      service = new PokemonService(mockRepo, mockCache);
+      service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       const result = await service.deleteSpecies('nonexistent');
       expect(result).toBe(false);
@@ -289,7 +290,7 @@ describe('PokemonService', () => {
       mockRepo = createMockRepository({
         deleteForm: mock(async () => false),
       });
-      service = new PokemonService(mockRepo, mockCache);
+      service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       const result = await service.deleteForm('nonexistent');
       expect(result).toBe(false);

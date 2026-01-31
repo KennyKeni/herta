@@ -40,12 +40,12 @@ const outboxService = new OutboxService(outboxRepository);
 const cacheService = new CacheService(redis);
 const imagesService = new ImagesService(imagesRepository, s3Service, config.s3.S3_PUBLIC_URL);
 
-const pokemonService = new PokemonService(pokemonRepository, cacheService);
+const pokemonService = new PokemonService(pokemonRepository, cacheService, outboxService);
 const typesService = new TypesService(typesRepository);
 const abilitiesService = new AbilitiesService(abilitiesRepository);
 const movesService = new MovesService(movesRepository);
 const itemsService = new ItemsService(itemsRepository);
-const articlesService = new ArticlesService(articlesRepository, cacheService);
+const articlesService = new ArticlesService(articlesRepository, cacheService, outboxService);
 const spawnsService = new SpawnsService(spawnRepository);
 const agentService = new AgentService(
   pokemonService,
