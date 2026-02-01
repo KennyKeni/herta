@@ -135,9 +135,10 @@ export function toResponse(
 
       if (query.includeBreeding) {
         pokemon.breeding = {
-          eggCycles: form.eggCycles,
-          baseFriendship: form.baseFriendship,
-          maleRatio: form.maleRatio,
+          eggCycles: form.overrides?.eggCycles ?? sp.eggCycles,
+          baseFriendship: form.overrides?.baseFriendship ?? sp.baseFriendship,
+          maleRatio:
+            form.overrides?.maleRatio !== undefined ? form.overrides.maleRatio : sp.maleRatio,
         };
       }
 

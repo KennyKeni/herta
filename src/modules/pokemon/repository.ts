@@ -87,11 +87,20 @@ export class PokemonRepository {
         's.image_id as species_image_id',
         'si_img.s3_key as species_image_s3_key',
       ])
-      .select(sql<number>`COALESCE(fo.catch_rate, s.catch_rate)`.as('catch_rate'))
-      .select(sql<number>`COALESCE(fo.base_friendship, s.base_friendship)`.as('base_friendship'))
-      .select(sql<number>`COALESCE(fo.egg_cycles, s.egg_cycles)`.as('egg_cycles'))
-      .select(sql<number | null>`COALESCE(fo.male_ratio, s.male_ratio)`.as('male_ratio'))
-      .select(sql<number | null>`COALESCE(fo.base_scale, s.base_scale)`.as('base_scale'))
+      .select([
+        's.catch_rate as species_catch_rate',
+        's.base_friendship as species_base_friendship',
+        's.egg_cycles as species_egg_cycles',
+        's.male_ratio as species_male_ratio',
+        's.base_scale as species_base_scale',
+      ])
+      .select([
+        'fo.catch_rate as override_catch_rate',
+        'fo.base_friendship as override_base_friendship',
+        'fo.egg_cycles as override_egg_cycles',
+        'fo.male_ratio as override_male_ratio',
+        'fo.base_scale as override_base_scale',
+      ])
       .where(isId ? 's.id' : 's.slug', '=', isId ? Number(identifier) : identifier)
       .orderBy('f.id')
       .execute();
@@ -155,11 +164,20 @@ export class PokemonRepository {
         's.image_id as species_image_id',
         'si_img.s3_key as species_image_s3_key',
       ])
-      .select(sql<number>`COALESCE(fo.catch_rate, s.catch_rate)`.as('catch_rate'))
-      .select(sql<number>`COALESCE(fo.base_friendship, s.base_friendship)`.as('base_friendship'))
-      .select(sql<number>`COALESCE(fo.egg_cycles, s.egg_cycles)`.as('egg_cycles'))
-      .select(sql<number | null>`COALESCE(fo.male_ratio, s.male_ratio)`.as('male_ratio'))
-      .select(sql<number | null>`COALESCE(fo.base_scale, s.base_scale)`.as('base_scale'))
+      .select([
+        's.catch_rate as species_catch_rate',
+        's.base_friendship as species_base_friendship',
+        's.egg_cycles as species_egg_cycles',
+        's.male_ratio as species_male_ratio',
+        's.base_scale as species_base_scale',
+      ])
+      .select([
+        'fo.catch_rate as override_catch_rate',
+        'fo.base_friendship as override_base_friendship',
+        'fo.egg_cycles as override_egg_cycles',
+        'fo.male_ratio as override_male_ratio',
+        'fo.base_scale as override_base_scale',
+      ])
       .where(isId ? 'f.id' : 'f.slug', '=', isId ? Number(identifier) : identifier)
       .executeTakeFirst();
 
@@ -431,11 +449,20 @@ export class PokemonRepository {
         's.image_id as species_image_id',
         'si_img.s3_key as species_image_s3_key',
       ])
-      .select(sql<number>`COALESCE(fo.catch_rate, s.catch_rate)`.as('catch_rate'))
-      .select(sql<number>`COALESCE(fo.base_friendship, s.base_friendship)`.as('base_friendship'))
-      .select(sql<number>`COALESCE(fo.egg_cycles, s.egg_cycles)`.as('egg_cycles'))
-      .select(sql<number | null>`COALESCE(fo.male_ratio, s.male_ratio)`.as('male_ratio'))
-      .select(sql<number | null>`COALESCE(fo.base_scale, s.base_scale)`.as('base_scale'));
+      .select([
+        's.catch_rate as species_catch_rate',
+        's.base_friendship as species_base_friendship',
+        's.egg_cycles as species_egg_cycles',
+        's.male_ratio as species_male_ratio',
+        's.base_scale as species_base_scale',
+      ])
+      .select([
+        'fo.catch_rate as override_catch_rate',
+        'fo.base_friendship as override_base_friendship',
+        'fo.egg_cycles as override_egg_cycles',
+        'fo.male_ratio as override_male_ratio',
+        'fo.base_scale as override_base_scale',
+      ]);
     if (filter.formIds?.length) query = query.where('f.id', 'in', filter.formIds);
     if (filter.formSlugs?.length) query = query.where('f.slug', 'in', filter.formSlugs);
     if (filter.typeIds?.length || filter.typeSlugs?.length) {
@@ -1194,6 +1221,11 @@ export class PokemonRepository {
       slug: row.species_slug,
       description: row.species_description,
       generation: row.species_generation,
+      catchRate: row.species_catch_rate,
+      baseFriendship: row.species_base_friendship,
+      eggCycles: row.species_egg_cycles,
+      maleRatio: row.species_male_ratio,
+      baseScale: row.species_base_scale,
       image: this.toImageRef(row.species_image_id, row.species_image_s3_key),
       experienceGroup:
         (row.experience_group_id != null &&
@@ -1235,11 +1267,7 @@ export class PokemonRepository {
       image: this.toImageRef(row.form_image_id, row.form_image_s3_key),
       height: row.height,
       weight: row.weight,
-      catchRate: row.catch_rate,
-      baseFriendship: row.base_friendship,
-      eggCycles: row.egg_cycles,
-      maleRatio: row.male_ratio,
-      baseScale: row.base_scale,
+      overrides: this.toFormOverrides(row),
       baseHp: row.base_hp,
       baseAttack: row.base_attack,
       baseDefence: row.base_defence,
@@ -1292,6 +1320,36 @@ export class PokemonRepository {
       behaviour: relations.behaviour.get(formId) ?? null,
       spawns: relations.spawns.get(formId) ?? [],
     };
+  }
+
+  private toFormOverrides(
+    row: Awaited<ReturnType<ReturnType<typeof this.buildSearchQuery>['execute']>>[number]
+  ): Form['overrides'] {
+    const overrides: Record<string, number | null> = {};
+    let hasAny = false;
+
+    if (row.override_catch_rate != null) {
+      overrides.catchRate = row.override_catch_rate;
+      hasAny = true;
+    }
+    if (row.override_base_friendship != null) {
+      overrides.baseFriendship = row.override_base_friendship;
+      hasAny = true;
+    }
+    if (row.override_egg_cycles != null) {
+      overrides.eggCycles = row.override_egg_cycles;
+      hasAny = true;
+    }
+    if (row.override_male_ratio != null) {
+      overrides.maleRatio = row.override_male_ratio;
+      hasAny = true;
+    }
+    if (row.override_base_scale != null) {
+      overrides.baseScale = row.override_base_scale;
+      hasAny = true;
+    }
+
+    return hasAny ? (overrides as Form['overrides']) : null;
   }
 
   private toDrops(rows: Awaited<ReturnType<typeof this.fetchDrops>>): FormDrops | null {

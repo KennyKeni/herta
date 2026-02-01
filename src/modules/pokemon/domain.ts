@@ -56,6 +56,11 @@ export interface Species {
   slug: string;
   description: string | null;
   generation: number;
+  catchRate: number;
+  baseFriendship: number;
+  eggCycles: number;
+  maleRatio: number | null;
+  baseScale: number | null;
   image: ImageRef | null;
   experienceGroup: ExperienceGroup | null;
   eggGroups: EggGroup[];
@@ -70,6 +75,14 @@ export interface SpeciesWithForms extends Species {
 
 export type PokemonSearchResponse = PaginatedResponse<SpeciesWithForms>;
 
+export interface FormOverrides {
+  catchRate?: number;
+  baseFriendship?: number;
+  eggCycles?: number;
+  maleRatio?: number | null;
+  baseScale?: number | null;
+}
+
 export interface Form {
   id: number;
   name: string;
@@ -80,11 +93,7 @@ export interface Form {
   image: ImageRef | null;
   height: number;
   weight: number;
-  catchRate: number;
-  baseFriendship: number;
-  eggCycles: number;
-  maleRatio: number | null;
-  baseScale: number | null;
+  overrides: FormOverrides | null;
   baseHp: number;
   baseAttack: number;
   baseDefence: number;

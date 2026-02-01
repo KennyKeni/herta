@@ -280,6 +280,14 @@ const ImageRefSchema = t.Object({
   url: t.String(),
 });
 
+const FormOverridesResponseSchema = t.Object({
+  catchRate: t.Optional(t.Number()),
+  baseFriendship: t.Optional(t.Number()),
+  eggCycles: t.Optional(t.Number()),
+  maleRatio: t.Optional(t.Nullable(t.Number())),
+  baseScale: t.Optional(t.Nullable(t.Number())),
+});
+
 const FormSchema = t.Object({
   id: t.Number(),
   name: t.String(),
@@ -290,11 +298,7 @@ const FormSchema = t.Object({
   image: t.Nullable(ImageRefSchema),
   height: t.Number(),
   weight: t.Number(),
-  catchRate: t.Number(),
-  baseFriendship: t.Number(),
-  eggCycles: t.Number(),
-  maleRatio: t.Nullable(t.Number()),
-  baseScale: t.Nullable(t.Number()),
+  overrides: t.Nullable(FormOverridesResponseSchema),
   baseHp: t.Number(),
   baseAttack: t.Number(),
   baseDefence: t.Number(),
@@ -332,6 +336,11 @@ const SpeciesSchema = t.Object({
   slug: t.String(),
   description: t.Nullable(t.String()),
   generation: t.Number(),
+  catchRate: t.Number(),
+  baseFriendship: t.Number(),
+  eggCycles: t.Number(),
+  maleRatio: t.Nullable(t.Number()),
+  baseScale: t.Nullable(t.Number()),
   image: t.Nullable(ImageRefSchema),
   experienceGroup: t.Nullable(
     t.Object({
