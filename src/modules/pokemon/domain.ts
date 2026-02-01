@@ -229,7 +229,7 @@ export interface CreateSpeciesRiding {
 }
 
 export interface CreateSpecies {
-  id: number;
+  id?: number;
   name: string;
   description?: string | null;
   generation: number;
@@ -329,7 +329,6 @@ export interface CreateFormMove {
 }
 
 export interface CreateForm {
-  id: number;
   speciesId: number;
   name: string;
   formName: string;

@@ -14,7 +14,8 @@ export async function batchInsert<T extends keyof DB & string>(
   db: Kysely<DB>,
   table: T,
   records: Insertable<DB[T]>[],
-  batchSize = 500
+  batchSize = 500,
+  overrideIdentity = false
 ): Promise<number> {
   if (records.length === 0) return 0;
 
@@ -22,7 +23,22 @@ export async function batchInsert<T extends keyof DB & string>(
   let inserted = 0;
 
   for (const batch of chunks) {
-    await db.insertInto(table).values(batch).execute();
+    if (overrideIdentity) {
+      const keys = Object.keys(batch[0] as Record<string, unknown>);
+      const columns = keys.map((k) => sql.ref(k));
+      const values = batch.map(
+        (row) =>
+          sql`(${sql.join(
+            keys.map((k) => sql`${(row as Record<string, unknown>)[k]}`),
+            sql`, `
+          )})`
+      );
+      await sql`INSERT INTO ${sql.table(table)} (${sql.join(columns, sql`, `)}) OVERRIDING SYSTEM VALUE VALUES ${sql.join(values, sql`, `)}`.execute(
+        db
+      );
+    } else {
+      await db.insertInto(table).values(batch).execute();
+    }
     inserted += batch.length;
   }
 

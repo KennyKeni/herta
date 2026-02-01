@@ -437,7 +437,6 @@ const CreateFormMoveSchema = t.Object({
 });
 
 const CreateFormBodySchema = t.Object({
-  id: t.Number(),
   speciesId: t.Number(),
   name: t.String(),
   formName: t.String(),
@@ -471,7 +470,7 @@ const CreateFormBodySchema = t.Object({
 });
 
 const CreateSpeciesBodySchema = t.Object({
-  id: t.Number(),
+  id: t.Optional(t.Number()),
   name: t.String(),
   description: t.Optional(t.Nullable(t.String())),
   generation: t.Number(),

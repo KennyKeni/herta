@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it } from 'bun:test';
-import type { Kysely } from 'kysely';
+import { type Kysely, sql } from 'kysely';
 import type { DB } from '@/infrastructure/db/types';
 import { createTestTransaction } from '@/test/helpers';
 import { PokemonRepository } from '../repository';
@@ -62,7 +62,7 @@ describe('PokemonRepository', () => {
       slug: 'bulbasaur',
       name: 'Bulbasaur',
       form_name: 'Normal',
-      description: null,
+      description: null as string | null,
       generation: 1,
       height: 7,
       weight: 69,
@@ -81,7 +81,9 @@ describe('PokemonRepository', () => {
       ev_speed: 0,
       ...overrides,
     };
-    await trx.insertInto('forms').values(data).execute();
+    await sql`INSERT INTO forms (id, species_id, slug, name, form_name, description, generation, height, weight, base_hp, base_attack, base_defence, base_special_attack, base_special_defence, base_speed, base_experience_yield, ev_hp, ev_attack, ev_defence, ev_special_attack, ev_special_defence, ev_speed) OVERRIDING SYSTEM VALUE VALUES (${data.id}, ${data.species_id}, ${data.slug}, ${data.name}, ${data.form_name}, ${data.description}, ${data.generation}, ${data.height}, ${data.weight}, ${data.base_hp}, ${data.base_attack}, ${data.base_defence}, ${data.base_special_attack}, ${data.base_special_defence}, ${data.base_speed}, ${data.base_experience_yield}, ${data.ev_hp}, ${data.ev_attack}, ${data.ev_defence}, ${data.ev_special_attack}, ${data.ev_special_defence}, ${data.ev_speed})`.execute(
+      trx
+    );
     return data;
   }
 
@@ -98,17 +100,17 @@ describe('PokemonRepository', () => {
     });
   });
 
-  describe('checkFormExists', () => {
-    it('returns false for non-existent form', async () => {
-      const result = await repo.checkFormExists(999, 'nonexistent');
-      expect(result).toEqual({ idExists: false, slugExists: false });
+  describe('checkFormSlugExists', () => {
+    it('returns false for non-existent form slug', async () => {
+      const result = await repo.checkFormSlugExists('nonexistent');
+      expect(result).toBe(false);
     });
 
-    it('detects existing form by id and slug', async () => {
+    it('detects existing form by slug', async () => {
       await seedSpecies(trx);
       await seedForm(trx);
-      const result = await repo.checkFormExists(1, 'bulbasaur');
-      expect(result).toEqual({ idExists: true, slugExists: true });
+      const result = await repo.checkFormSlugExists('bulbasaur');
+      expect(result).toBe(true);
     });
   });
 
@@ -129,7 +131,7 @@ describe('PokemonRepository', () => {
     });
 
     it('creates species with forms', async () => {
-      const formSlugs = new Map([[1, 'bulbasaur']]);
+      const formSlugs = new Map([[0, 'bulbasaur']]);
       const result = await repo.createSpecies(
         {
           id: 1,
@@ -140,7 +142,6 @@ describe('PokemonRepository', () => {
           eggCycles: 20,
           forms: [
             {
-              id: 1,
               speciesId: 1,
               name: 'Bulbasaur',
               formName: 'Normal',
@@ -160,8 +161,8 @@ describe('PokemonRepository', () => {
       );
       expect(result).toEqual({ id: 1, slug: 'bulbasaur' });
 
-      const { idExists } = await repo.checkFormExists(1, 'bulbasaur');
-      expect(idExists).toBe(true);
+      const formExists = await repo.checkFormSlugExists('bulbasaur');
+      expect(formExists).toBe(true);
     });
   });
 
@@ -312,7 +313,6 @@ describe('PokemonRepository', () => {
 
       const result = await repo.createForm(
         {
-          id: 10,
           speciesId: 1,
           name: 'Bulbasaur',
           formName: 'Normal',
@@ -327,7 +327,8 @@ describe('PokemonRepository', () => {
         },
         'bulbasaur'
       );
-      expect(result).toEqual({ id: 10, slug: 'bulbasaur' });
+      expect(result.slug).toBe('bulbasaur');
+      expect(result.id).toBeNumber();
     });
   });
 

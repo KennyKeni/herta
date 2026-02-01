@@ -63,13 +63,12 @@ export class PokemonService {
     let formSlugs: Map<number, string> | undefined;
     if (data.forms?.length) {
       formSlugs = new Map();
-      for (const form of data.forms) {
+      for (let i = 0; i < data.forms.length; i++) {
+        const form = data.forms[i];
         const formSlug = slugForPokemon(form.name);
-        const { idExists: formIdExists, slugExists: formSlugExists } =
-          await this.pokemonRepository.checkFormExists(form.id, formSlug);
-        if (formIdExists) throw new ConflictError(`Form with id ${form.id} already exists`);
-        if (formSlugExists) throw new ConflictError(`Form with slug '${formSlug}' already exists`);
-        formSlugs.set(form.id, formSlug);
+        const slugExists = await this.pokemonRepository.checkFormSlugExists(formSlug);
+        if (slugExists) throw new ConflictError(`Form with slug '${formSlug}' already exists`);
+        formSlugs.set(i, formSlug);
       }
     }
 
@@ -135,8 +134,7 @@ export class PokemonService {
 
   async createForm(data: CreateForm): Promise<CreatedForm> {
     const slug = slugForPokemon(data.name);
-    const { idExists, slugExists } = await this.pokemonRepository.checkFormExists(data.id, slug);
-    if (idExists) throw new ConflictError(`Form with id ${data.id} already exists`);
+    const slugExists = await this.pokemonRepository.checkFormSlugExists(slug);
     if (slugExists) throw new ConflictError(`Form with slug '${slug}' already exists`);
 
     const result = await withTransaction(async (trx) => {

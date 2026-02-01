@@ -115,7 +115,7 @@ export const formsSeeder: Seeder = {
         ev_speed: f.evSpeed ?? 0,
         description: f.description,
       }));
-      const count = await batchInsert(db, 'forms', rows);
+      const count = await batchInsert(db, 'forms', rows, 500, true);
       logger.table('forms', count, Date.now() - start);
       total += count;
     }

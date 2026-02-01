@@ -1349,29 +1349,34 @@ export class PokemonRepository {
     slug: string,
     formSlugs?: Map<number, string>
   ): Promise<CreatedSpecies> {
-    await this.db
+    const speciesValues = {
+      slug,
+      name: data.name,
+      description: data.description ?? null,
+      generation: data.generation,
+      catch_rate: data.catchRate,
+      base_friendship: data.baseFriendship,
+      egg_cycles: data.eggCycles,
+      male_ratio: data.maleRatio ?? null,
+      base_scale: data.baseScale ?? null,
+      experience_group_id: data.experienceGroupId ?? null,
+      ...(data.id !== undefined ? { id: data.id } : {}),
+    };
+
+    const inserted = await this.db
       .insertInto('species')
-      .values({
-        id: data.id,
-        slug,
-        name: data.name,
-        description: data.description ?? null,
-        generation: data.generation,
-        catch_rate: data.catchRate,
-        base_friendship: data.baseFriendship,
-        egg_cycles: data.eggCycles,
-        male_ratio: data.maleRatio ?? null,
-        base_scale: data.baseScale ?? null,
-        experience_group_id: data.experienceGroupId ?? null,
-      })
-      .execute();
+      .values(speciesValues)
+      .returning('id')
+      .executeTakeFirstOrThrow();
+
+    const speciesId = inserted.id;
 
     if (data.eggGroupIds?.length) {
       await this.db
         .insertInto('species_egg_groups')
         .values(
           data.eggGroupIds.map((eggGroupId) => ({
-            species_id: data.id,
+            species_id: speciesId,
             egg_group_id: eggGroupId,
           }))
         )
@@ -1382,7 +1387,7 @@ export class PokemonRepository {
       await this.db
         .insertInto('species_hitboxes')
         .values({
-          species_id: data.id,
+          species_id: speciesId,
           width: data.hitbox.width,
           height: data.hitbox.height,
           fixed: data.hitbox.fixed,
@@ -1394,7 +1399,7 @@ export class PokemonRepository {
       await this.db
         .insertInto('lighting')
         .values({
-          species_id: data.id,
+          species_id: speciesId,
           light_level: data.lighting.lightLevel,
           liquid_glow_mode: data.lighting.liquidGlowMode ?? null,
         })
@@ -1405,22 +1410,22 @@ export class PokemonRepository {
       await this.db
         .insertInto('riding')
         .values({
-          species_id: data.id,
+          species_id: speciesId,
           data: data.riding.data as Json,
         })
         .execute();
     }
 
     if (data.forms?.length && formSlugs) {
-      for (const formData of data.forms) {
-        const formSlug = formSlugs.get(formData.id);
+      for (let i = 0; i < data.forms.length; i++) {
+        const formData = data.forms[i];
+        const formSlug = formSlugs.get(i);
         if (!formSlug) continue;
 
-        await this.db
+        const insertedForm = await this.db
           .insertInto('forms')
           .values({
-            id: formData.id,
-            species_id: formData.speciesId,
+            species_id: speciesId,
             slug: formSlug,
             name: formData.name,
             form_name: formData.formName,
@@ -1442,14 +1447,17 @@ export class PokemonRepository {
             ev_special_defence: formData.evSpecialDefence ?? 0,
             ev_speed: formData.evSpeed ?? 0,
           })
-          .execute();
+          .returning('id')
+          .executeTakeFirstOrThrow();
+
+        const formId = insertedForm.id;
 
         if (formData.types?.length) {
           await this.db
             .insertInto('form_types')
             .values(
               formData.types.map((t) => ({
-                form_id: formData.id,
+                form_id: formId,
                 type_id: t.typeId,
                 slot: t.slot,
               }))
@@ -1462,7 +1470,7 @@ export class PokemonRepository {
             .insertInto('form_abilities')
             .values(
               formData.abilities.map((a) => ({
-                form_id: formData.id,
+                form_id: formId,
                 ability_id: a.abilityId,
                 slot_id: a.slotId,
               }))
@@ -1473,9 +1481,7 @@ export class PokemonRepository {
         if (formData.labelIds?.length) {
           await this.db
             .insertInto('form_labels')
-            .values(
-              formData.labelIds.map((labelId) => ({ form_id: formData.id, label_id: labelId }))
-            )
+            .values(formData.labelIds.map((labelId) => ({ form_id: formId, label_id: labelId })))
             .execute();
         }
 
@@ -1484,7 +1490,7 @@ export class PokemonRepository {
             .insertInto('form_aspects')
             .values(
               formData.aspectChoiceIds.map((aspectChoiceId) => ({
-                form_id: formData.id,
+                form_id: formId,
                 aspect_choice_id: aspectChoiceId,
               }))
             )
@@ -1495,7 +1501,7 @@ export class PokemonRepository {
           await this.db
             .insertInto('form_hitboxes')
             .values({
-              form_id: formData.id,
+              form_id: formId,
               width: formData.hitbox.width,
               height: formData.hitbox.height,
               fixed: formData.hitbox.fixed,
@@ -1507,7 +1513,7 @@ export class PokemonRepository {
           await this.db
             .insertInto('form_overrides')
             .values({
-              form_id: formData.id,
+              form_id: formId,
               catch_rate: formData.overrides.catchRate ?? null,
               base_friendship: formData.overrides.baseFriendship ?? null,
               egg_cycles: formData.overrides.eggCycles ?? null,
@@ -1520,7 +1526,7 @@ export class PokemonRepository {
         if (formData.drops) {
           await this.db
             .insertInto('form_drops')
-            .values({ form_id: formData.id, amount: formData.drops.amount })
+            .values({ form_id: formId, amount: formData.drops.amount })
             .execute();
 
           if (formData.drops.percentages?.length) {
@@ -1528,7 +1534,7 @@ export class PokemonRepository {
               .insertInto('drop_percentages')
               .values(
                 formData.drops.percentages.map((p) => ({
-                  form_id: formData.id,
+                  form_id: formId,
                   item_id: p.itemId,
                   percentage: p.percentage,
                 }))
@@ -1541,7 +1547,7 @@ export class PokemonRepository {
               .insertInto('drop_ranges')
               .values(
                 formData.drops.ranges.map((r) => ({
-                  form_id: formData.id,
+                  form_id: formId,
                   item_id: r.itemId,
                   quantity_min: r.quantityMin,
                   quantity_max: r.quantityMax,
@@ -1555,7 +1561,7 @@ export class PokemonRepository {
           for (const combo of formData.aspectCombos) {
             const insertedCombo = await this.db
               .insertInto('form_aspect_combos')
-              .values({ form_id: formData.id, combo_index: combo.comboIndex })
+              .values({ form_id: formId, combo_index: combo.comboIndex })
               .returning('id')
               .executeTakeFirstOrThrow();
 
@@ -1576,7 +1582,7 @@ export class PokemonRepository {
         if (formData.behaviour) {
           await this.db
             .insertInto('behaviour')
-            .values({ form_id: formData.id, data: formData.behaviour.data as Json })
+            .values({ form_id: formId, data: formData.behaviour.data as Json })
             .execute();
         }
 
@@ -1585,7 +1591,7 @@ export class PokemonRepository {
             .insertInto('form_moves')
             .values(
               formData.moves.map((m) => ({
-                form_id: formData.id,
+                form_id: formId,
                 move_id: m.moveId,
                 method_id: m.methodId,
                 level: m.level ?? null,
@@ -1596,7 +1602,7 @@ export class PokemonRepository {
       }
     }
 
-    return { id: data.id, slug };
+    return { id: speciesId, slug };
   }
 
   async updateSpecies(
@@ -1753,11 +1759,13 @@ export class PokemonRepository {
   }
 
   async checkSpeciesExists(
-    id: number,
+    id: number | undefined,
     slug: string
   ): Promise<{ idExists: boolean; slugExists: boolean }> {
     const [idResult, slugResult] = await Promise.all([
-      this.db.selectFrom('species').select('id').where('id', '=', id).executeTakeFirst(),
+      id !== undefined
+        ? this.db.selectFrom('species').select('id').where('id', '=', id).executeTakeFirst()
+        : Promise.resolve(undefined),
       this.db.selectFrom('species').select('id').where('slug', '=', slug).executeTakeFirst(),
     ]);
     return { idExists: !!idResult, slugExists: !!slugResult };
@@ -1773,15 +1781,13 @@ export class PokemonRepository {
     return !!result;
   }
 
-  async checkFormExists(
-    id: number,
-    slug: string
-  ): Promise<{ idExists: boolean; slugExists: boolean }> {
-    const [idResult, slugResult] = await Promise.all([
-      this.db.selectFrom('forms').select('id').where('id', '=', id).executeTakeFirst(),
-      this.db.selectFrom('forms').select('id').where('slug', '=', slug).executeTakeFirst(),
-    ]);
-    return { idExists: !!idResult, slugExists: !!slugResult };
+  async checkFormSlugExists(slug: string): Promise<boolean> {
+    const result = await this.db
+      .selectFrom('forms')
+      .select('id')
+      .where('slug', '=', slug)
+      .executeTakeFirst();
+    return !!result;
   }
 
   async checkFormSlugConflict(slug: string, excludeId: number): Promise<boolean> {
@@ -1795,10 +1801,9 @@ export class PokemonRepository {
   }
 
   async createForm(data: CreateForm, slug: string): Promise<CreatedForm> {
-    await this.db
+    const insertedForm = await this.db
       .insertInto('forms')
       .values({
-        id: data.id,
         species_id: data.speciesId,
         slug,
         name: data.name,
@@ -1821,12 +1826,15 @@ export class PokemonRepository {
         ev_special_defence: data.evSpecialDefence ?? 0,
         ev_speed: data.evSpeed ?? 0,
       })
-      .execute();
+      .returning('id')
+      .executeTakeFirstOrThrow();
+
+    const formId = insertedForm.id;
 
     if (data.types?.length) {
       await this.db
         .insertInto('form_types')
-        .values(data.types.map((t) => ({ form_id: data.id, type_id: t.typeId, slot: t.slot })))
+        .values(data.types.map((t) => ({ form_id: formId, type_id: t.typeId, slot: t.slot })))
         .execute();
     }
 
@@ -1835,7 +1843,7 @@ export class PokemonRepository {
         .insertInto('form_abilities')
         .values(
           data.abilities.map((a) => ({
-            form_id: data.id,
+            form_id: formId,
             ability_id: a.abilityId,
             slot_id: a.slotId,
           }))
@@ -1846,7 +1854,7 @@ export class PokemonRepository {
     if (data.labelIds?.length) {
       await this.db
         .insertInto('form_labels')
-        .values(data.labelIds.map((labelId) => ({ form_id: data.id, label_id: labelId })))
+        .values(data.labelIds.map((labelId) => ({ form_id: formId, label_id: labelId })))
         .execute();
     }
 
@@ -1855,7 +1863,7 @@ export class PokemonRepository {
         .insertInto('form_aspects')
         .values(
           data.aspectChoiceIds.map((aspectChoiceId) => ({
-            form_id: data.id,
+            form_id: formId,
             aspect_choice_id: aspectChoiceId,
           }))
         )
@@ -1866,7 +1874,7 @@ export class PokemonRepository {
       await this.db
         .insertInto('form_hitboxes')
         .values({
-          form_id: data.id,
+          form_id: formId,
           width: data.hitbox.width,
           height: data.hitbox.height,
           fixed: data.hitbox.fixed,
@@ -1878,7 +1886,7 @@ export class PokemonRepository {
       await this.db
         .insertInto('form_overrides')
         .values({
-          form_id: data.id,
+          form_id: formId,
           catch_rate: data.overrides.catchRate ?? null,
           base_friendship: data.overrides.baseFriendship ?? null,
           egg_cycles: data.overrides.eggCycles ?? null,
@@ -1891,7 +1899,7 @@ export class PokemonRepository {
     if (data.drops) {
       await this.db
         .insertInto('form_drops')
-        .values({ form_id: data.id, amount: data.drops.amount })
+        .values({ form_id: formId, amount: data.drops.amount })
         .execute();
 
       if (data.drops.percentages?.length) {
@@ -1899,7 +1907,7 @@ export class PokemonRepository {
           .insertInto('drop_percentages')
           .values(
             data.drops.percentages.map((p) => ({
-              form_id: data.id,
+              form_id: formId,
               item_id: p.itemId,
               percentage: p.percentage,
             }))
@@ -1912,7 +1920,7 @@ export class PokemonRepository {
           .insertInto('drop_ranges')
           .values(
             data.drops.ranges.map((r) => ({
-              form_id: data.id,
+              form_id: formId,
               item_id: r.itemId,
               quantity_min: r.quantityMin,
               quantity_max: r.quantityMax,
@@ -1926,7 +1934,7 @@ export class PokemonRepository {
       for (const combo of data.aspectCombos) {
         const insertedCombo = await this.db
           .insertInto('form_aspect_combos')
-          .values({ form_id: data.id, combo_index: combo.comboIndex })
+          .values({ form_id: formId, combo_index: combo.comboIndex })
           .returning('id')
           .executeTakeFirstOrThrow();
 
@@ -1947,7 +1955,7 @@ export class PokemonRepository {
     if (data.behaviour) {
       await this.db
         .insertInto('behaviour')
-        .values({ form_id: data.id, data: data.behaviour.data as Json })
+        .values({ form_id: formId, data: data.behaviour.data as Json })
         .execute();
     }
 
@@ -1956,7 +1964,7 @@ export class PokemonRepository {
         .insertInto('form_moves')
         .values(
           data.moves.map((m) => ({
-            form_id: data.id,
+            form_id: formId,
             move_id: m.moveId,
             method_id: m.methodId,
             level: m.level ?? null,
@@ -1965,7 +1973,7 @@ export class PokemonRepository {
         .execute();
     }
 
-    return { id: data.id, slug };
+    return { id: formId, slug };
   }
 
   async updateForm(

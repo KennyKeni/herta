@@ -30,7 +30,7 @@ export type Timestamp = ColumnType<Date, Date | string, Date | string>;
 
 export interface Abilities {
   desc: string | null;
-  id: number;
+  id: Generated<number>;
   name: string;
   short_desc: string | null;
   slug: string;
@@ -282,7 +282,7 @@ export interface Forms {
   form_name: string;
   generation: number | null;
   height: number;
-  id: number;
+  id: Generated<number>;
   image_id: string | null;
   name: string;
   slug: string;
@@ -356,7 +356,7 @@ export interface ItemFlagTypes {
 export interface Items {
   desc: string | null;
   gen: number | null;
-  id: number;
+  id: Generated<number>;
   implemented: Generated<boolean>;
   name: string;
   namespace_id: number | null;
@@ -462,7 +462,7 @@ export interface Moves {
   desc: string | null;
   drain_percent: number | null;
   heal_percent: number | null;
-  id: number;
+  id: Generated<number>;
   max_hits: number | null;
   min_hits: number | null;
   name: string;
@@ -660,7 +660,7 @@ export interface Species {
   egg_cycles: number;
   experience_group_id: number | null;
   generation: number;
-  id: number;
+  id: Generated<number>;
   image_id: string | null;
   male_ratio: number | null;
   name: string;
@@ -698,7 +698,7 @@ export interface TypeMatchups {
 }
 
 export interface Types {
-  id: number;
+  id: Generated<number>;
   name: string;
   slug: string;
 }

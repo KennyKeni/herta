@@ -11,7 +11,7 @@ function createMockRepository(overrides: Partial<PokemonRepository> = {}): Pokem
     getByIdentifier: mock(async () => null),
     getFormByIdentifier: mock(async () => null),
     checkSpeciesExists: mock(async () => ({ idExists: false, slugExists: false })),
-    checkFormExists: mock(async () => ({ idExists: false, slugExists: false })),
+    checkFormSlugExists: mock(async () => false),
     checkSpeciesSlugConflict: mock(async () => false),
     checkFormSlugConflict: mock(async () => false),
     createSpecies: mock(async () => ({ id: 1, slug: 'bulbasaur' })),
@@ -157,7 +157,6 @@ describe('PokemonService', () => {
   describe('createForm', () => {
     it('creates form with generated slug', async () => {
       const result = await service.createForm({
-        id: 1,
         speciesId: 1,
         name: 'Bulbasaur',
         formName: 'Normal',
@@ -173,15 +172,14 @@ describe('PokemonService', () => {
       expect(result).toEqual({ id: 1, slug: 'bulbasaur' });
     });
 
-    it('throws ConflictError when form id exists', async () => {
+    it('throws ConflictError when form slug exists', async () => {
       mockRepo = createMockRepository({
-        checkFormExists: mock(async () => ({ idExists: true, slugExists: false })),
+        checkFormSlugExists: mock(async () => true),
       });
       service = new PokemonService(mockRepo, mockCache, createMockOutboxService());
 
       expect(
         service.createForm({
-          id: 1,
           speciesId: 1,
           name: 'Bulbasaur',
           formName: 'Normal',
